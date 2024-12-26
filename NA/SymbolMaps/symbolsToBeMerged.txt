@@ -1,0 +1,111 @@
+803b9f80:atan2
+80416048:HSD_MtxGetRotation
+801a61d4:Kirby_GetCopyAbility
+8018e580:Rider_StateChange
+80196f18:Rider_SetModelVisibility
+80196f38:Rider_SetUnknownFlag
+80198b00:Rider_CheckAnimationEnd
+8040afe8:JObj_LoadJoint
+8040d92c:JOBJ_SetMtxDirtySub
+80053f34:JObj_GetWorldPosition
+804180e4:HSD_Alloc
+80428f28:GObj_Create
+80055af0:GObj_GetJObjAtIndex
+80429690:GObj_AddGXLink
+80429c14:GObj_AddObject
+80429d0c:GObj_AddUserData
+8042a258:GXLink_Common
+80402f5c:COBJ_GetCurrent
+803f898c:HSD_StateInvalidate
+803f9028:HSD_StateInitTev
+80405b3c:HSD_ClearVtxDesc
+803cc2b4:GXBegin
+803cf874:GXSetColorUpdate
+803cf8a0:GXSetAlphaUpdate
+803cf820:GXSetBlendMode
+803cf05c:GXSetAlphaCompare
+803cf8cc:GXSetZMode
+803cf900:GXSetZCompLoc
+803cba08:GXSetNumTexGens
+803cf30c:GXSetNumTevStages
+803cf134:GXSetTevOrder
+803ceb54:GXSetTevOp
+803cd4e4:GXSetChanCtrl
+803cd4a0:GXSetNumChans
+803cac04:GXClearVtxDesc
+803cac3c:GXSetVtxAttrFmt
+803ca184:GXSetVtxDesc
+803cc518:GXSetCullMode
+803d07dc:GXSetCurrentMtx
+803d073c:GXLoadPosMtxImm
+80003238  4 TRK_memset
+80003268  4 TRK_memcpy
+800051c0  4 __TRK_reset
+80005d78  4 gmSetFreezeGameFlag
+80005dcc  4 gmUnsetFreezeGameFlag
+800067a4  4 branchToMiscFunction
+80006c14  4 gmGetGlobalP
+80006c20  4 gmGetClearcheckerP
+80006eec  4 memcard_storeValuesIntoMemory
+8000714c  4 memcard_StoreDefaultValues
+80007640  4 hwActivateStudio
+80007660  4 gmGet_Dist
+80007670  4 gmSet_region1
+80007680  4 gmGet_Language
+80007690  4 gmSet_region2
+800076a0  4 gmGetClearcheckerTypeP
+8000771c  4 gmGetClearcheckerType0Ptr
+8000772c  4 gmGetClearcheckerType1Ptr
+8000773c  4 gmGetClearcheckerType1_2Ptr
+8000774c  4 gmGetClearcheckerType2Ptr
+8000775c  4 gmGetClearcheckerTypeP_2
+800077e0  4 gmGet_80536EDC_Ptr
+800077f0  4 gmGet_80536EDC_Array
+80007968  4 hwDeactivateStudio
+80007988  4 salStartAi
+80007aac  4 gmGet_80536728_Ptr
+80007abc  4 gmInit_80536728
+800082a0  4 menuGetNextMenuID
+800082d0  4 loadMain_Two
+80008ad4  4 loadMain_One
+80008fe4  4 synthAddStudioInput
+80009074  4 synthRemoveStudioInput
+8000916c  4 getRuleNum
+800092b4  4 getPlayerCount
+80009394  4 setMap
+800095a0  4 EnableMetroTRKInterrupts
+80059a20  4 lbLoadArchive
+80009630  4 ?loadData2
+80009b9c  4 GphProc 	cMiniGameMain
+8000a328  4 exp 
+8000aa2c  4 playerDies
+8000aaf0  4 getMaxStatsValue
+8000ab1c  4 getMinStatsValue
+8000acb0  4 getTrialFlag
+8000ae2c  4 renderPauseHUD_renderStatChart
+8000aea8  4 menu_getCurrentMenuID 
+8000b62c  4 loadCSS_CityTrial_initTimerValue 
+8000bba0  4 loadMainMenuMusic
+8000bbf0  4 asin
+8000bc10  4 acos
+8000d26c  4 loadTitlePlayer 
+8000fb6c  4 debug_quit
+8000fc70  4 gmLoadData
+8000fe34  4 setLevelMusic
+80010bbc  4 race3D_isFinished
+80010fac  4 SetPhaseReady(int) 	IChooseCaptain
+80012e64  4 pow 
+800135ec  4 loadPlayer
+80013b08  4 renderPlayerCam
+8001442c  4 loadInGame
+8001528c  4 log
+800152ac  4 atan2
+800174fc  4 startToggleRumble
+800181b0  4 menuInputGrabber
+80018548  4 loadMainMenu
+800189c4  4 aramGetZeroBuffer 
+800189e4  4 goTo_menuInputGrabber
+8001ae7c  4 hwIRQLeaveCritical
+8001ee60  4 cityTrial_gameSettingsThink
+80021654  4 CSS_airRide_colorChanger
+80023600  4 loadCPU 
