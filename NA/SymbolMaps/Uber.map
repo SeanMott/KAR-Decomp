@@ -1,6 +1,3 @@
-801918d0 000030 801918d0  4 enableKirbyToExitVehicle 	Global
-80191900 000030 80191900  4 isRuleDestructionDerby 	Global
-
 80191930 000030 80191930  4 isRuleKirbyMelee 	Global
 80191a58 0000e8 80191a58  4 ground_Spin 	Global
 80191d0c 00000c 80191d0c  4 cGame::GetGameTime(void) 	Global
