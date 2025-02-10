@@ -1,8 +1,3 @@
- 80189d28 00000c 80189d28  4  	Global
-8018a118 000070 8018a118  4 setInitHitboxValues 	Global
-8018ace4 000180 8018ace4  4 getDamageDealt 	Global
-8018c7f8 00002c 8018c7f8  4 hwOff 	Global
-
 8018cf94 000214 8018cf94  4 setDamageQueue 	Global
 8018ddc4 0001e4 8018ddc4  4 writeToCharacterDataBlock 	Global
 8018e21c 000364 8018e21c  4 initPlayerBlock? 	Global
