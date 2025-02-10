@@ -1,10 +1,3 @@
-8010f268 000198 8010f268  4 grYakuUpdate 	Global
-8010f268 000198 8010f268  4 grYakuUpdate? 	Global
-8010f7c4 000090 8010f7c4  4 grSetupCityEventData 	Global
-80110184 0000c8 80110184  4 event_dynablade_start 	Global
-8011024c 0001f8 8011024c  4 event_dynablade 	Global
-80110444 000001 80110444  8 event_dynablade_end 	Global
-80110448 000084 80110448  4 event_dynablade_end2 	Global
 801104cc 000030 801104cc  4 event_tac_start 	Global
 801104fc 000138 801104fc  4 event_tac 	Global
 80110634 000001 80110634  8 event_tac_end 	Global
