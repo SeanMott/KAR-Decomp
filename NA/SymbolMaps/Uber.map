@@ -1,10 +1,3 @@
-8010a998 0000cc 8010a998  4 spawnSecretChamberItems 	Global
-8010be88 0002dc 8010be88  4 spawnUFOItems 	Global
-8010db64 000038 8010db64  4 whispyLogic 	Global
-8010df5c 00013c 8010df5c  4 hitWhispy 	Global
-8010e538 000034 8010e538  4 pillarLogic 	Global
-8010f114 000154 8010f114  4 setSky? 	Global
-
 8010f268 000198 8010f268  4 grYakuUpdate 	Global
 8010f268 000198 8010f268  4 grYakuUpdate? 	Global
 8010f7c4 000090 8010f7c4  4 grSetupCityEventData 	Global
