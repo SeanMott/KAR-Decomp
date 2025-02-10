@@ -1,22 +1,4 @@
-80005dcc  4 gmUnsetFreezeGameFlag
-800067a4  4 branchToMiscFunction
-80006c14  4 gmGetGlobalP
-80006c20  4 gmGetClearcheckerP
-80006eec  4 memcard_storeValuesIntoMemory
-8000714c  4 memcard_StoreDefaultValues
-80007640  4 hwActivateStudio
-80007660  4 gmGet_Dist
-80007670  4 gmSet_region1
-80007680  4 gmGet_Language
-80007690  4 gmSet_region2
-800076a0  4 gmGetClearcheckerTypeP
-8000771c  4 gmGetClearcheckerType0Ptr
-8000772c  4 gmGetClearcheckerType1Ptr
-8000773c  4 gmGetClearcheckerType1_2Ptr
-8000774c  4 gmGetClearcheckerType2Ptr
-8000775c  4 gmGetClearcheckerTypeP_2
-800077e0  4 gmGet_80536EDC_Ptr
-800077f0  4 gmGet_80536EDC_Array
+
 80007968  4 hwDeactivateStudio
 80007988  4 salStartAi
 80007aac  4 gmGet_80536728_Ptr
