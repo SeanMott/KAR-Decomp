@@ -1,16 +1,3 @@
-80010bbc  4 race3D_isFinished
-80010fac  4 SetPhaseReady(int) 	IChooseCaptain
-80012e64  4 pow 
-800135ec  4 loadPlayer
-80013b08  4 renderPlayerCam
-8001442c  4 loadInGame
-8001528c  4 log
-800152ac  4 atan2
-800174fc  4 startToggleRumble
-800181b0  4 menuInputGrabber
-80018548  4 loadMainMenu
-800189c4  4 aramGetZeroBuffer 
-800189e4  4 goTo_menuInputGrabber
 8001ae7c  4 hwIRQLeaveCritical
 8001ee60  4 cityTrial_gameSettingsThink
 80021654  4 CSS_airRide_colorChanger
