@@ -1,7 +1,3 @@
-80113914 000110 80113914  4 renderPauseHUD 	Global
-8011503c 000064 8011503c  4 updateGraphic_SpeedometerFill 	Global
-80116d8c 000a74 80116d8c  4 cityTrial_calculateStats 	Global
-80117bb0 000238 80117bb0  4 updateGraphic_SpeedometerCheck 	Global
 8011c400 0001d0 8011c400  4 FallDeathWarning 	Global
 8011db3c 000044 8011db3c  4 drawHUD_renderPlayerDot 	Global
 80122cbc 000014 80122cbc  4 fs_poGetFn 	CProgInstrs
