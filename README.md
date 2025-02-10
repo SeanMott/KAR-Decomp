@@ -9,11 +9,11 @@ Hash: 977533bb96e6a16e127946396489be1b4164ac42
 
 Kirby's Air Ride || JP
 Game ID: GKYJ01
-Hash: NULL
+Hash: e901b9912af1b622c1f6d16fab6efe6cf505f108
 
 Kirby Air Ride || PAL
 Game ID: GKYP01
-Hash: NULL
+Hash: 14e43ef2e3d971bbb6aae596a175ac485ff242a8
 
 Korean/KOR version is ignored as it's just the NA version
 ```
