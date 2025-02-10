@@ -7,9 +7,11 @@
 80135970 000044 80135970  4 CSS_updateMachineSelectFrame 	Global
 80135b8c 000020 80135b8c  4 CSS_updatePlayerColorIndicatorBar 	Global
 80135c2c 000020 80135c2c  4 CSS_updatePlayerAButton 	Global
+
 80137a00 000030 80137a00  4 nlInit(void) 	Global
 80137b2c 000038 80137b2c  4 fn_GetPersoNegativeSighting 	Global
 80138580 000030 80138580  4 nlInit(void) 	Global
+
 80139188 000040 80139188  4 SND_fn_vSynchroSound 	Global
 801886c8 00002c 801886c8  4 EmissionManager::ResetLingerers(void) 	Global
 801886f4 00002c 801886f4  4 EmissionManager::ResetLingerers(void) 	Global
@@ -19,10 +21,12 @@
 8018a118 000070 8018a118  4 setInitHitboxValues 	Global
 8018ace4 000180 8018ace4  4 getDamageDealt 	Global
 8018c7f8 00002c 8018c7f8  4 hwOff 	Global
+
 8018cf94 000214 8018cf94  4 setDamageQueue 	Global
 8018ddc4 0001e4 8018ddc4  4 writeToCharacterDataBlock 	Global
 8018e21c 000364 8018e21c  4 initPlayerBlock? 	Global
 8018e580 000428 8018e580  4 ActionStateChange 	Global
+
 8018eb44 0002e4 8018eb44  4 DPadMovement 	Global
 8018ee28 0006c0 8018ee28  4 PlayerThink 	Global
 80190400 000018 80190400  4 __sinit_ParticleSystem_cpp 	Global
@@ -30,12 +34,14 @@
 80190c54 000144 80190c54  4 groundMovement 	Global
 80190dc0 000010 80190dc0  4 cGameSFX::Init(void) 	Global
 80190dd0 000010 80190dd0  4 cGameSFX::Init(void) 	Global
+
 80191250 00000c 80191250  4 PartnerFace 	Global
 80191554 000070 80191554  4 removeAbilityUponGettingAbility 	Global
 80191694 000034 80191694  4 operator+= 	C_Vector
 80191694 000034 80191694  4 __apl__8C_VectorFR8C_Vector 	Global
 801918d0 000030 801918d0  4 enableKirbyToExitVehicle 	Global
 80191900 000030 80191900  4 isRuleDestructionDerby 	Global
+
 80191930 000030 80191930  4 isRuleKirbyMelee 	Global
 80191a58 0000e8 80191a58  4 ground_Spin 	Global
 80191d0c 00000c 80191d0c  4 cGame::GetGameTime(void) 	Global
