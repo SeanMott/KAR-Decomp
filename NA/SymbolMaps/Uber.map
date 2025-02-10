@@ -1,5 +1,3 @@
-801097ac 00000c 801097ac  4 GetAnimController 	DrawableCharacter
-801097ac 00000c 801097ac  4 DrawableCharacter::GetAnimController( 	Global
 8010a998 0000cc 8010a998  4 spawnSecretChamberItems 	Global
 8010be88 0002dc 8010be88  4 spawnUFOItems 	Global
 8010db64 000038 8010db64  4 whispyLogic 	Global
