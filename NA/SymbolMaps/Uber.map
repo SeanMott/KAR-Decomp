@@ -1,9 +1,4 @@
-80139188 000040 80139188  4 SND_fn_vSynchroSound 	Global
-801886c8 00002c 801886c8  4 EmissionManager::ResetLingerers(void) 	Global
-801886f4 00002c 801886f4  4 EmissionManager::ResetLingerers(void) 	Global
-80189d28 00000c 80189d28  4 __flush_callback 	Global
-80189d28 00000c 80189d28  4 __flush_callback__Fv 	Global
-80189d28 00000c 80189d28  4 zdOptionUse3 	Global
+ 80189d28 00000c 80189d28  4  	Global
 8018a118 000070 8018a118  4 setInitHitboxValues 	Global
 8018ace4 000180 8018ace4  4 getDamageDealt 	Global
 8018c7f8 00002c 8018c7f8  4 hwOff 	Global
