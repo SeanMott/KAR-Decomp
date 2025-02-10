@@ -6,7 +6,10 @@ Compiles
 Kirby Air Ride || NA
 Game ID: GKYE01
 Hash: 977533bb96e6a16e127946396489be1b4164ac42
+```
 
+Generates splits and asm for, symbol sizing for jumptable needs to be fixed before can compile.
+```
 Kirby's Air Ride || JP
 Game ID: GKYJ01
 Hash: e901b9912af1b622c1f6d16fab6efe6cf505f108
