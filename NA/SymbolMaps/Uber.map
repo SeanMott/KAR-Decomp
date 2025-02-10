@@ -1,5 +1,3 @@
-80111078 0000a4 80111078  4 event_restorationAreas_start 	Global
-8011111c 0000f0 8011111c  4 event_pillar_start 	Global
 80111604 0000b0 80111604  4 event_pillar 	Global
 80111710 000028 80111710  4 event_pillar_end2 	Global
 80111738 000064 80111738  4 event_stationFire_start 	Global
