@@ -1,7 +1,3 @@
-80110f88 000068 80110f88  4 event_runAmok_start 	Global
-80110ff0 000080 80110ff0  4 event_runAmok 	Global
-80111070 000001 80111070  8 event_runAmok_end 	Global
-80111074 000001 80111074  8 event_runAmok_end2 	Global
 80111078 0000a4 80111078  4 event_restorationAreas_start 	Global
 8011111c 0000f0 8011111c  4 event_pillar_start 	Global
 80111604 0000b0 80111604  4 event_pillar 	Global
