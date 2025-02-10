@@ -1,11 +1,3 @@
-8018eb44 0002e4 8018eb44  4 DPadMovement 	Global
-8018ee28 0006c0 8018ee28  4 PlayerThink 	Global
-80190400 000018 80190400  4 __sinit_ParticleSystem_cpp 	Global
-80190418 000050 80190418  4 rdLoadCommon 	Global
-80190c54 000144 80190c54  4 groundMovement 	Global
-80190dc0 000010 80190dc0  4 cGameSFX::Init(void) 	Global
-80190dd0 000010 80190dd0  4 cGameSFX::Init(void) 	Global
-
 80191250 00000c 80191250  4 PartnerFace 	Global
 80191554 000070 80191554  4 removeAbilityUponGettingAbility 	Global
 80191694 000034 80191694  4 operator+= 	C_Vector
