@@ -1,6 +1,3 @@
-80111f00 0000b0 80111f00  4 event_lighthouse_start 	Global
-80111fb0 000058 80111fb0  4 event_lighthouse 	Global
-
 80112464 000290 80112464  4 drawHUD 	Global
 801126f4 000290 801126f4  4 removeHUD 	Global
 80112af8 000014 80112af8  4 THPSimpleAudioStop 	Global
