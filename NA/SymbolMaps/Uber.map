@@ -3800,7 +3800,7 @@
   8048c4d0 000004 8048c4d0  4 sp_fobj 	Global
   8048c4d8 000004 8048c4d8  4 sp_id 	Global
   8048c4e0 000004 8048c4e0  4 sp_slist 	Global
-  
+
   8048c4e8 000004 8048c4e8  4 sp_dlist 	Global
   8048c4f0 000004 8048c4f0  4 sp_vec 	Global
   8048c4f8 000004 8048c4f8  4 sp_mtx 	Global
@@ -49336,13 +49336,3 @@
 804892f8 000000e0 804892f8 0 zz_804892f8_
 804893d8 00000020  0 
 804893f8 0000002c 804893f8 0 zz_804893f8_
-
-.data section layout
-
-  80009630 000028 80009630  4 ?loadData2 	Global
-  80009b9c 000020 80009b9c  4 GphProc 	cMiniGameMain
-  80009b9c 000020 80009b9c  4 GphProc__13cMiniGameMainFs 	Global
-  8000a328 000020 8000a328  4 exp 	Global
-  8000aa2c 000060 8000aa2c  4 playerDies 	Global
-  8000aaf0 00002c 8000aaf0  4 getMaxStatsValue 	Global
-  8000ab1c 00002c 8000
