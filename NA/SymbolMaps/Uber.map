@@ -1,10 +1,3 @@
-801247e0 000030 801247e0  4 drawHUD_renderMap 	Global
-80127234 000330 80127234  4 cityTrial_drawStatNameAndArrow 	Global
-80127864 0001a0 80127864  4 stadiumPrediction 	Global
-801285dc 00048c 801285dc  4 renderPauseHUD_renderOptions 	Global
-80132888 000020 80132888  4 Updates 	ON/OFF
-80132888 000020 80132888  4 Updates 	Global
-
 8013540c 000024 8013540c  4 CSS_initDescriptionText 	Global
 801354d4 000020 801354d4  4 CSS_updatePlayerIndicatorColorInside 	Global
 801354f4 000020 801354f4  4 CSS_updatePlayerSelectFrame 	Global
