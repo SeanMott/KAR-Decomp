@@ -1,7 +1,3 @@
-80191250 00000c 80191250  4 PartnerFace 	Global
-80191554 000070 80191554  4 removeAbilityUponGettingAbility 	Global
-80191694 000034 80191694  4 operator+= 	C_Vector
-80191694 000034 80191694  4 __apl__8C_VectorFR8C_Vector 	Global
 801918d0 000030 801918d0  4 enableKirbyToExitVehicle 	Global
 80191900 000030 80191900  4 isRuleDestructionDerby 	Global
 
