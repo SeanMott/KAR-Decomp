@@ -1,8 +1,3 @@
-8018cf94 000214 8018cf94  4 setDamageQueue 	Global
-8018ddc4 0001e4 8018ddc4  4 writeToCharacterDataBlock 	Global
-8018e21c 000364 8018e21c  4 initPlayerBlock? 	Global
-8018e580 000428 8018e580  4 ActionStateChange 	Global
-
 8018eb44 0002e4 8018eb44  4 DPadMovement 	Global
 8018ee28 0006c0 8018ee28  4 PlayerThink 	Global
 80190400 000018 80190400  4 __sinit_ParticleSystem_cpp 	Global
