@@ -1,7 +1,3 @@
-8011c400 0001d0 8011c400  4 FallDeathWarning 	Global
-8011db3c 000044 8011db3c  4 drawHUD_renderPlayerDot 	Global
-80122cbc 000014 80122cbc  4 fs_poGetFn 	CProgInstrs
-80122cbc 000014 80122cbc  4 fs_poGetFn__Q24usnd11CProgInstrsFUs 	Global
 801247e0 000030 801247e0  4 drawHUD_renderMap 	Global
 80127234 000330 80127234  4 cityTrial_drawStatNameAndArrow 	Global
 80127864 0001a0 80127864  4 stadiumPrediction 	Global
