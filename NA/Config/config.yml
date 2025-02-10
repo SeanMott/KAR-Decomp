@@ -1,0 +1,15 @@
+# See config.example.yml for documentation.
+object_base: ExtractedISO/NA
+object: sys/main.dol
+hash: 977533bb96e6a16e127946396489be1b4164ac42
+symbols: NA/SplitsNSymbols/symbols.txt
+splits: NA/SplitsNSymbols/splits.txt
+# Change this to match the linker verison.
+# See config.example.yml for a list.
+mw_comment_version: 10
+
+detect_strings: true
+detect_objects: true
+write_asm: true
+fill_gaps: true
+export_all: true
