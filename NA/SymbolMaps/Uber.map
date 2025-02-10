@@ -1,9 +1,3 @@
-80111cc0 00004c 80111cc0  4 event_formation_start 	Global
-80111d0c 00005c 80111d0c  4 event_formation 	Global
-80111d68 000001 80111d68  8 event_formation_end 	Global
-80111d6c 000001 80111d6c  8 event_formation_end2 	Global
-80111d70 000190 80111d70  4 event_formation_init 	Global
-
 80111f00 0000b0 80111f00  4 event_lighthouse_start 	Global
 80111fb0 000058 80111fb0  4 event_lighthouse 	Global
 
