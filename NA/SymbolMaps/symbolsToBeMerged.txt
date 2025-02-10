@@ -1,14 +1,3 @@
-
-80007968  4 hwDeactivateStudio
-80007988  4 salStartAi
-80007aac  4 gmGet_80536728_Ptr
-80007abc  4 gmInit_80536728
-800082a0  4 menuGetNextMenuID
-800082d0  4 loadMain_Two
-80008ad4  4 loadMain_One
-80008fe4  4 synthAddStudioInput
-80009074  4 synthRemoveStudioInput
-8000916c  4 getRuleNum
 800092b4  4 getPlayerCount
 80009394  4 setMap
 800095a0  4 EnableMetroTRKInterrupts
