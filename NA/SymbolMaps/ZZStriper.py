@@ -32,9 +32,22 @@ def process_file_FUN(filename):
 
     return lines
 
-#goes through all the maps and store
-filename = "fpStriped.map"
-lines = process_file(filename)
+#goes through all the maps and removes the shit we don't want
+
+#remove zz_address nonesense
+filename = "Uber.map"
+lines = process_file_zz(filename)
+with open("Uber_ZZRemoved.map", 'w', encoding='utf-8') as outfile:
+    outfile.writelines(lines)
+
+filename = "Uber_ZZRemoved.map"
+lines = process_file_fpNULL(filename)
 #writes to a new file
-with open("FinalMap.map", 'w', encoding='utf-8') as outfile:
+with open("Uber_ZZ_FNULL_Removed.map", 'w', encoding='utf-8') as outfile:
+    outfile.writelines(lines)
+
+filename = "Uber_ZZ_FNULL_Removed.map"
+lines = process_file_FUN(filename)
+#writes to a new file
+with open("Final.map", 'w', encoding='utf-8') as outfile:
     outfile.writelines(lines)
