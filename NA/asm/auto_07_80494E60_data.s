@@ -127332,32 +127332,32 @@
 
 # .data:0x64B48 | 0x804F99A8 | size: 0x68
 .obj jumptable_804F99A8, global
-	.4byte fn_803CA184+0x20
-	.4byte fn_803CA184+0x38
-	.4byte fn_803CA184+0x58
-	.4byte fn_803CA184+0x78
-	.4byte fn_803CA184+0x98
-	.4byte fn_803CA184+0xB8
-	.4byte fn_803CA184+0xD8
-	.4byte fn_803CA184+0xF8
-	.4byte fn_803CA184+0x118
-	.4byte fn_803CA184+0x138
-	.4byte fn_803CA184+0x158
-	.4byte fn_803CA184+0x1C0
-	.4byte fn_803CA184+0x1E0
-	.4byte fn_803CA184+0x200
-	.4byte fn_803CA184+0x218
-	.4byte fn_803CA184+0x238
-	.4byte fn_803CA184+0x258
-	.4byte fn_803CA184+0x278
-	.4byte fn_803CA184+0x298
-	.4byte fn_803CA184+0x2B8
-	.4byte fn_803CA184+0x2D8
-	.4byte fn_803CA184+0x2F4
-	.4byte fn_803CA184+0x2F4
-	.4byte fn_803CA184+0x2F4
-	.4byte fn_803CA184+0x2F4
-	.4byte fn_803CA184+0x18C
+	.4byte fn_GXSetVtxDesc+0x20
+	.4byte fn_GXSetVtxDesc+0x38
+	.4byte fn_GXSetVtxDesc+0x58
+	.4byte fn_GXSetVtxDesc+0x78
+	.4byte fn_GXSetVtxDesc+0x98
+	.4byte fn_GXSetVtxDesc+0xB8
+	.4byte fn_GXSetVtxDesc+0xD8
+	.4byte fn_GXSetVtxDesc+0xF8
+	.4byte fn_GXSetVtxDesc+0x118
+	.4byte fn_GXSetVtxDesc+0x138
+	.4byte fn_GXSetVtxDesc+0x158
+	.4byte fn_GXSetVtxDesc+0x1C0
+	.4byte fn_GXSetVtxDesc+0x1E0
+	.4byte fn_GXSetVtxDesc+0x200
+	.4byte fn_GXSetVtxDesc+0x218
+	.4byte fn_GXSetVtxDesc+0x238
+	.4byte fn_GXSetVtxDesc+0x258
+	.4byte fn_GXSetVtxDesc+0x278
+	.4byte fn_GXSetVtxDesc+0x298
+	.4byte fn_GXSetVtxDesc+0x2B8
+	.4byte fn_GXSetVtxDesc+0x2D8
+	.4byte fn_GXSetVtxDesc+0x2F4
+	.4byte fn_GXSetVtxDesc+0x2F4
+	.4byte fn_GXSetVtxDesc+0x2F4
+	.4byte fn_GXSetVtxDesc+0x2F4
+	.4byte fn_GXSetVtxDesc+0x18C
 .endobj jumptable_804F99A8
 
 # .data:0x64BB0 | 0x804F9A10 | size: 0x68
@@ -127422,23 +127422,23 @@
 
 # .data:0x64C80 | 0x804F9AE0 | size: 0x44
 .obj jumptable_804F9AE0, global
-	.4byte fn_803CAC3C+0x3C
-	.4byte fn_803CAC3C+0x78
-	.4byte fn_803CAC3C+0xDC
-	.4byte fn_803CAC3C+0x108
-	.4byte fn_803CAC3C+0x134
-	.4byte fn_803CAC3C+0x174
-	.4byte fn_803CAC3C+0x1B0
-	.4byte fn_803CAC3C+0x1F0
-	.4byte fn_803CAC3C+0x230
-	.4byte fn_803CAC3C+0x270
-	.4byte fn_803CAC3C+0x2B0
-	.4byte fn_803CAC3C+0x2F0
-	.4byte fn_803CAC3C+0x328
-	.4byte fn_803CAC3C+0x328
-	.4byte fn_803CAC3C+0x328
-	.4byte fn_803CAC3C+0x328
-	.4byte fn_803CAC3C+0x78
+	.4byte fn_GXSetVtxAttrFmt+0x3C
+	.4byte fn_GXSetVtxAttrFmt+0x78
+	.4byte fn_GXSetVtxAttrFmt+0xDC
+	.4byte fn_GXSetVtxAttrFmt+0x108
+	.4byte fn_GXSetVtxAttrFmt+0x134
+	.4byte fn_GXSetVtxAttrFmt+0x174
+	.4byte fn_GXSetVtxAttrFmt+0x1B0
+	.4byte fn_GXSetVtxAttrFmt+0x1F0
+	.4byte fn_GXSetVtxAttrFmt+0x230
+	.4byte fn_GXSetVtxAttrFmt+0x270
+	.4byte fn_GXSetVtxAttrFmt+0x2B0
+	.4byte fn_GXSetVtxAttrFmt+0x2F0
+	.4byte fn_GXSetVtxAttrFmt+0x328
+	.4byte fn_GXSetVtxAttrFmt+0x328
+	.4byte fn_GXSetVtxAttrFmt+0x328
+	.4byte fn_GXSetVtxAttrFmt+0x328
+	.4byte fn_GXSetVtxAttrFmt+0x78
 .endobj jumptable_804F9AE0
 
 # .data:0x64CC4 | 0x804F9B24 | size: 0x44
