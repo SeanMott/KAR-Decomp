@@ -13,6 +13,7 @@ def process_file(filename):
 
     return lines
 """
+"""
 #removes the null pointers
 def process_file(filename):
     lines = ""
@@ -22,13 +23,20 @@ def process_file(filename):
                 lines = lines + line
 
     return lines
+"""
 
+def process_file(filename):
+    lines = ""
+    with open(filename, 'r', encoding='utf-8') as file:
+        for line in file:
+            if "FUN_" not in line:
+                lines = lines + line
 
-
+    return lines
 
 #goes through all the maps and store
-filename = "CleanedKAR.map"
+filename = "fpStriped.map"
 lines = process_file(filename)
 #writes to a new file
-with open("CleanedKAR2.map", 'w', encoding='utf-8') as outfile:
+with open("FinalMap.map", 'w', encoding='utf-8') as outfile:
     outfile.writelines(lines)
