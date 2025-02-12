@@ -1865,7 +1865,7 @@
 
 # .sdata2:0x6E8 | 0x805DEDE8 | size: 0x4
 .obj lbl_805DEDE8, global
-	.4byte lbl_8049B920
+	.4byte lbl_Gm_Timeclear
 .endobj lbl_805DEDE8
 
 # .sdata2:0x6EC | 0x805DEDEC | size: 0x4

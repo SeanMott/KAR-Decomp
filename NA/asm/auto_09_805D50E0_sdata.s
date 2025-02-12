@@ -4126,7 +4126,7 @@
 # .sdata:0x1278 | 0x805D6358 | size: 0x8
 .obj lbl_805D6358, global
 	.4byte fn_8010E504
-	.4byte fn_8010E538
+	.4byte fn_pillarLogic
 .endobj lbl_805D6358
 
 # .sdata:0x1280 | 0x805D6360 | size: 0x8
