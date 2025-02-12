@@ -2432,7 +2432,7 @@
 .endobj lbl_8049AE00
 
 # .data:0x1C18 | 0x8049AE10 | size: 0x2B8
-.obj lbl_8049AE10, global
+.obj lbl_root_xml, global
 	.4byte 0x3C3F786D
 	.4byte 0x6C207665
 	.4byte 0x7273696F
@@ -2607,7 +2607,7 @@
 	.4byte 0x2F726F6F
 	.4byte 0x743E0D0A
 	.4byte 0x00000000
-.endobj lbl_8049AE10
+.endobj lbl_root_xml
 
 # .data:0x1ED0 | 0x8049B0C8 | size: 0x2C
 .obj jumptable_8049B0C8, global
@@ -2625,17 +2625,17 @@
 .endobj jumptable_8049B0C8
 
 # .data:0x1EFC | 0x8049B0F4 | size: 0x18
-.obj lbl_8049B0F4, global
+.obj lbl_String_TotalMemorySize_IsEqualToOperator_0, global
 	.4byte 0x546F7461
 	.4byte 0x6C4D656D
 	.4byte 0x6F727953
 	.4byte 0x697A6520
 	.4byte 0x3D3D2030
 	.4byte 0x00000000
-.endobj lbl_8049B0F4
+.endobj lbl_String_TotalMemorySize_IsEqualToOperator_0
 
 # .data:0x1F14 | 0x8049B10C | size: 0x58
-.obj lbl_8049B10C, global
+.obj lbl_String__Para_net_recv_IsEqualToOperator_NULL_AndOperator_DebugLap_IsEqualToOperator_This, global
 	.4byte 0x286E6574
 	.4byte 0x5F726563
 	.4byte 0x76203D3D
@@ -2658,10 +2658,10 @@
 	.4byte 0x72656376
 	.4byte 0x2D3E6C61
 	.4byte 0x70290000
-.endobj lbl_8049B10C
+.endobj lbl_String__Para_net_recv_IsEqualToOperator_NULL_AndOperator_DebugLap_IsEqualToOperator_This
 
 # .data:0x1F6C | 0x8049B164 | size: 0x44
-.obj lbl_8049B164, global
+.obj lbl_String_net_recv_IsEqualToOperator_NULL_OrOperator_net_recv_PointerArrowDefRef_le_This, global
 	.4byte 0x6E65745F
 	.4byte 0x72656376
 	.4byte 0x203D3D20
@@ -2679,27 +2679,27 @@
 	.4byte 0x74696F6E
 	.4byte 0x44617461
 	.4byte 0x29000000
-.endobj lbl_8049B164
+.endobj lbl_String_net_recv_IsEqualToOperator_NULL_OrOperator_net_recv_PointerArrowDefRef_le_This
 
 # .data:0x1FB0 | 0x8049B1A8 | size: 0x20
-.obj lbl_8049B1A8, global
+.obj lbl_String_DATE_Aug_18_2003__TIME_16:53:51, global
 	.string "DATE Aug 18 2003  TIME 16:53:51"
-.endobj lbl_8049B1A8
+.endobj lbl_String_DATE_Aug_18_2003__TIME_16:53:51
 
 # .data:0x1FD0 | 0x8049B1C8 | size: 0xC
-.obj lbl_8049B1C8, global
+.obj lbl_String_Aug_18_2003, global
 	.string "Aug 18 2003"
-.endobj lbl_8049B1C8
+.endobj lbl_String_Aug_18_2003
 
 # .data:0x1FDC | 0x8049B1D4 | size: 0xC
-.obj lbl_8049B1D4, global
+.obj lbl_String_16:53:51, global
 	.4byte 0x31363A35
 	.4byte 0x333A3531
 	.4byte 0x00000000
-.endobj lbl_8049B1D4
+.endobj lbl_String_16:53:51
 
 # .data:0x1FE8 | 0x8049B1E0 | size: 0x80
-.obj lbl_8049B1E0, global
+.obj lbl_UNK_128Bytes, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -2732,27 +2732,27 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_8049B1E0
+.endobj lbl_UNK_128Bytes
 
 # .data:0x2068 | 0x8049B260 | size: 0x10
-.obj lbl_8049B260, global
+.obj lbl_String_DbCommon.dat, global
 	.4byte 0x4462436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049B260
+.endobj lbl_String_DbCommon.dat
 
 # .data:0x2078 | 0x8049B270 | size: 0x14
-.obj lbl_8049B270, global
+.obj lbl_dbLoadCommonData, global
 	.4byte 0x64624C6F
 	.4byte 0x6164436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x44617461
 	.4byte 0x00000000
-.endobj lbl_8049B270
+.endobj lbl_dbLoadCommonData
 
 # .data:0x208C | 0x8049B284 | size: 0x20
-.obj lbl_8049B284, global
+.obj lbl_String__BracketLeft_all_PLink_num_BracketRight_MinusMinusOperator_Report_MinusMinusOperator_This, global
 	.4byte 0x5B616C6C
 	.4byte 0x20504C69
 	.4byte 0x6E6B206E
@@ -2761,10 +2761,10 @@
 	.4byte 0x65706F72
 	.4byte 0x74202D2D
 	.4byte 0x0A000000
-.endobj lbl_8049B284
+.endobj lbl_String__BracketLeft_all_PLink_num_BracketRight_MinusMinusOperator_Report_MinusMinusOperator_This
 
 # .data:0x20AC | 0x8049B2A4 | size: 0x5C
-.obj lbl_8049B2A4, global
+.obj "lbl_String_"--------------------------------"", global
 	.4byte 0x2D2D2D2D
 	.4byte 0x2D2D2D2D
 	.4byte 0x2D2D2D2D
@@ -2788,7 +2788,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_8049B2A4
+.endobj "lbl_String_"--------------------------------""
 
 # .data:0x2108 | 0x8049B300 | size: 0x5E0
 .obj lbl_8049B300, global

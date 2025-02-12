@@ -688,7 +688,7 @@
 
 # .sdata:0x328 | 0x805D5408 | size: 0x4
 .obj lbl_805D5408, global
-	.4byte lbl_8049AE10
+	.4byte lbl_root_xml
 .endobj lbl_805D5408
 
 # .sdata:0x32C | 0x805D540C | size: 0x8
