@@ -2047,10 +2047,10 @@
 .endobj lbl_805D5A10
 
 # .sdata:0x938 | 0x805D5A18 | size: 0x8
-.obj lbl_805D5A18, global
+.obj lbl_struct_city_805D5A18, global
 	.4byte 0x63697479
 	.4byte 0x20000000
-.endobj lbl_805D5A18
+.endobj lbl_struct_city_805D5A18
 
 # .sdata:0x940 | 0x805D5A20 | size: 0x8
 .obj lbl_805D5A20, global
