@@ -3727,35 +3727,6 @@
 803d9c2c 0000003c 803d9c2c 0 __OSGetEffectivePriority
 
 
-
-803be974 00000220 803be974 0 TRKDoStep
-
-80420afc 00000058 80420afc 0 _hsdClassAlloc
-
-803cdc24 00000010 803cdc24 0 GXGetTexObjWidth
-
-801b0128 000088 801b0128  4 AS_SwordSwing2? 	Global
-
-801b13ec 000034 801b13ec  4 abilityTimer_Bomb_remove 	Global
-
-803bf904 000000e8 803bf904 0 HandleCloseFileSupportRequest
-
-80045a44 00000028 80045a44 0 glxSwapWaitDrawDone(void)
-
-801af474 00007c 801af474  4 ability_Fire 	Global
-
-8011db3c 00000044 8011db3c 0 drawHUD_renderPlayerDot
-
-80420b54 00000008 80420b54 0 _hsdClassInit
-
-803b811c 0000100c 803b811c 0 __strtold
-
-80191900 000030 80191900  4 isRuleDestructionDerby 	Global
-
-803c0928 00000190 803c0928 0 TRKTargetInterrupt
-
-8046da8c 00000068 8046da8c 0 IPSetMtu
-
 801a6f64 000004 801a6f64  4 ability_Bomb_end 	Global
 
 803e7c40 000000b0 803e7c40 0 EraseCallback_3
@@ -4650,38 +4621,6 @@
 
 803e5c88 0000017c 803e5c88 0 CARDProbeEx
 
-80135734 00000020 80135734 0 CSS_updateMachineCursor
-
-803c860c 00000190 803c860c 0 __GXShutdown
-
-803da2b8 000000e4 803da2b8 0 OSExitThread
-
-803e67c0 00000658 803e67c0 0 __CARDFormatRegionAsync
-
-803bd13c 000000fc 803bd13c 0 modf
-
-803d0ba4 00000848 803d0ba4 0 GXSetGPMetric
-
-801ab688 0000ac 801ab688  4 AS_StarBeginCharge 	Global
-
-803eb568 00000028 803eb568 0 UnlockedHandler
-
-800cb360 00000040 800cb360 0 AsyncImage::FreeLoadBuffer(void)
-
-803ad168 00000048 803ad168 0 __destroy_global_chain
-
-803c879c 00000890 803c879c 0 GXInit
-
-8040985c 00000944 8040985c 0 JObjUpdateFunc
-
-80331558 0000000c 80331558 0 GoalOverlay::SceneCreated(void)
-
-803589f4 0000000c 803589f4 0 cAIPad::__ct(void)
-
-803fdbb0 0000024c 803fdbb0 0 LObjUpdateFunc?
-
-803fe234 00000284 803fe234 0 HSD_LObjSetupSpecularInit?
-
 801bdc4c 0000ec 801bdc4c  4 loadDeDeDeModel 	Global
 
 800ee328 00000198 800ee328 0 eventActive?
@@ -5044,25 +4983,7 @@
 
 800ad9f4 0000003c 800ad9f4 0 debug_openRace2DMode
 
-803cf30c 00000030 803cf30c 0 GXSetNumTevStages
 
-803adb50 0000001c 803adb50 0 _savegpr_26
-
-803f8914 00000020 803f8914 0 _HSD_StateInvalidateVtxAttr
-
-8000714c 000004f4 8000714c 0 memcard_StoreDefaultValues
-
-80470ae8 000001d4 80470ae8 0 Reassemble
-
-803dfa00 00000010 803dfa00 0 AIGetStreamSampleRate
-
-803adb74 00000044 803adb74 0 _restgpr_16
-
-803e1e28 00000004 803e1e28 0 __CARDDefaultApiCallback
-
-80111884 00000054 80111884 0 event_secretChamber
-
-803c6a0c 00000320 803c6a0c 0 stateBusy
 
 80479e2c 00000078 80479e2c 0 DHCPGetStatus
 
