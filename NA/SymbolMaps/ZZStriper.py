@@ -32,6 +32,15 @@ def process_file_FUN(filename):
 
     return lines
 
+def process_file_func_lbl_(filename):
+    lines = ""
+    with open(filename, 'r', encoding='utf-8') as file:
+        for line in file:
+            if "func_" not in line and "lbl_" not in line: 
+                lines = lines + line
+
+    return lines
+
 #goes through all the maps and removes the shit we don't want
 
 #remove zz_address nonesense
@@ -50,4 +59,10 @@ filename = "Uber_ZZ_FNULL_Removed.map"
 lines = process_file_FUN(filename)
 #writes to a new file
 with open("Final.map", 'w', encoding='utf-8') as outfile:
+    outfile.writelines(lines)
+
+filename = "Final.map"
+lines = process_file_func_lbl_(filename)
+#writes to a new file
+with open("Pure.map", 'w', encoding='utf-8') as outfile:
     outfile.writelines(lines)
