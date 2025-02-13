@@ -3643,9 +3643,9 @@
 
 # .rodata:0x3028 | 0x8048C4A8 | size: 0x1C
 .obj lbl_8048C4A8, global
-	.4byte fn_803FDAC0
+	.4byte fn__HSD_AObjForgetMemory
 	.4byte fn_8040FBE8
-	.4byte fn_8041A7C8
+	.4byte fn__HSD_IDForgetMemory
 	.4byte fn_80418380
 	.4byte fn_8041E6A4
 	.4byte fn_8041A504

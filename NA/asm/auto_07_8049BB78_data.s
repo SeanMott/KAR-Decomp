@@ -12291,7 +12291,7 @@
 	.4byte fn_800EE270
 	.4byte fn_eventActive?
 	.4byte fn_whileEventActive?
-	.4byte fn_800EE50C
+	.4byte fn_setEventTimerMidGame
 	.4byte 0x00000000
 .endobj lbl_804A5604
 
@@ -23413,7 +23413,7 @@
 	.4byte 0x00000000
 	.4byte fn_801A1DEC
 	.4byte fn_801A1F38
-	.4byte fn_801A1F3C
+	.4byte fn_GphProc__7cGSMessFs
 	.4byte fn_801A1F68
 	.4byte fn_801A1F90
 	.4byte fn_801A1FBC
@@ -121089,7 +121089,7 @@
 
 # .data:0x600F0 | 0x804FBC68 | size: 0x10
 .obj ResetFunctionInfo_804FBC68, global
-	.4byte fn_803D7B48
+	.4byte fn_OSOnReset
 	.4byte 0x0000007F
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -122028,7 +122028,7 @@
 
 # .data:0x60EB8 | 0x804FCA30 | size: 0x10
 .obj lbl_804FCA30, global
-	.4byte fn_803E30BC
+	.4byte fn_OnReset
 	.4byte 0x0000007F
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -127478,7 +127478,7 @@
 
 # .data:0x662B8 | 0x80501E30 | size: 0x8C
 .obj lbl_80501E30, global
-	.4byte fn_803F7CA0
+	.4byte fn_TObjInfoInit?
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -127738,14 +127738,14 @@
 
 # .data:0x665E4 | 0x8050215C | size: 0x20
 .obj jumptable_8050215C, global
-	.4byte fn_803F74D0+0x2C
-	.4byte fn_803F74D0+0x34
-	.4byte fn_803F74D0+0x3C
-	.4byte fn_803F74D0+0x44
-	.4byte fn_803F74D0+0x4C
-	.4byte fn_803F74D0+0x54
-	.4byte fn_803F74D0+0x5C
-	.4byte fn_803F74D0+0x64
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x2C
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x34
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x3C
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x44
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x4C
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x54
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x5C
+	.4byte fn_HSD_TexCoordID2TexGenSrc+0x64
 .endobj jumptable_8050215C
 
 # .data:0x66604 | 0x8050217C | size: 0x20
@@ -130343,7 +130343,7 @@
 
 # .data:0x686F8 | 0x80504270 | size: 0x40
 .obj lbl_80504270, global
-	.4byte fn_8041B91C
+	.4byte fn_FogInfoInit?
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
