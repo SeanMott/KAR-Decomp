@@ -27,7 +27,7 @@
 # extabindex:0x0 | 0x80005724 | size: 0xC
 .obj "@eti_80005724", local
 .hidden "@eti_80005724"
-	.4byte fn___partial_array_destructor
+	.4byte fn___partial_array_destructor___dt_TakeNoParams
 	.4byte 0x000000B8
 	.4byte "@etb_80005648"
 .endobj "@eti_80005724"
@@ -37,7 +37,7 @@
 .balign 4
 
 # .text:0x0 | 0x803AD3BC | size: 0xB8
-.fn fn___partial_array_destructor, global
+.fn fn___partial_array_destructor___dt_TakeNoParams, global
 /* 803AD3BC 003AA1BC  94 21 FF E0 */	stwu r1, -0x20(r1)
 /* 803AD3C0 003AA1C0  7C 08 02 A6 */	mflr r0
 /* 803AD3C4 003AA1C4  90 01 00 24 */	stw r0, 0x24(r1)
@@ -88,4 +88,4 @@
 /* 803AD468 003AA268  7C 08 03 A6 */	mtlr r0
 /* 803AD46C 003AA26C  38 21 00 20 */	addi r1, r1, 0x20
 /* 803AD470 003AA270  4E 80 00 20 */	blr
-.endfn fn___partial_array_destructor
+.endfn fn___partial_array_destructor___dt_TakeNoParams

@@ -15913,12 +15913,12 @@
 .endfn fn_80395F9C
 
 # .text:0xDE1C | 0x80395FAC | size: 0x10
-.fn fn_80395FAC, global
+.fn fn_Increment_Template_Q29CrowdMood10CROWDMOOD_TakeParam_CrowdMood_CROWD_MOODRef, global
 /* 80395FAC 00392DAC  80 83 00 18 */	lwz r4, 0x18(r3)
 /* 80395FB0 00392DB0  38 04 00 02 */	addi r0, r4, 0x2
 /* 80395FB4 00392DB4  90 03 00 18 */	stw r0, 0x18(r3)
 /* 80395FB8 00392DB8  4E 80 00 20 */	blr
-.endfn fn_80395FAC
+.endfn fn_Increment_Template_Q29CrowdMood10CROWDMOOD_TakeParam_CrowdMood_CROWD_MOODRef
 
 # .text:0xDE2C | 0x80395FBC | size: 0xAC
 .fn fn_80395FBC, global
@@ -39226,7 +39226,7 @@
 /* 803AA4C4 003A72C4  38 81 00 0C */	addi r4, r1, 0xc
 /* 803AA4C8 003A72C8  38 A1 00 10 */	addi r5, r1, 0x10
 /* 803AA4CC 003A72CC  38 60 00 00 */	li r3, 0x0
-/* 803AA4D0 003A72D0  48 03 B7 B9 */	bl fn_803E5C88
+/* 803AA4D0 003A72D0  48 03 B7 B9 */	bl fn_CARDProbeEx
 /* 803AA4D4 003A72D4  2C 03 FF FF */	cmpwi r3, -0x1
 /* 803AA4D8 003A72D8  41 82 FF EC */	beq .L_803AA4C4
 .L_803AA4DC:
@@ -39395,7 +39395,7 @@
 /* 803AA71C 003A751C  38 81 00 08 */	addi r4, r1, 0x8
 /* 803AA720 003A7520  38 A1 00 0C */	addi r5, r1, 0xc
 /* 803AA724 003A7524  38 60 00 00 */	li r3, 0x0
-/* 803AA728 003A7528  48 03 B5 61 */	bl fn_803E5C88
+/* 803AA728 003A7528  48 03 B5 61 */	bl fn_CARDProbeEx
 /* 803AA72C 003A752C  2C 03 FF FF */	cmpwi r3, -0x1
 /* 803AA730 003A7530  41 82 FF EC */	beq .L_803AA71C
 .L_803AA734:

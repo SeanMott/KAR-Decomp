@@ -23,14 +23,14 @@
  * 000010:
  * Type: DESTROYLOCAL
  * Local: 0x8(SP)
- * Dtor: "fn___partial_array_destructor".
+ * Dtor: "fn___partial_array_destructor___dt_TakeNoParams".
  */
 	.4byte 0x20080000
 	.4byte 0x00000060
 	.4byte 0x00000010
 	.4byte 0x00000000
 	.4byte 0x82000008
-	.4byte fn___partial_array_destructor
+	.4byte fn___partial_array_destructor___dt_TakeNoParams
 .endobj "@etb_80005630"
 
 # 0x80005718..0x80005724 | size: 0xC

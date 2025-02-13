@@ -3837,13 +3837,13 @@
 
 # .data:0x33F0 | 0x8049EF68 | size: 0x28
 .obj lbl_8049EF68, global
-	.4byte fn_800D0DCC
+	.4byte fn_grGetGravityposNum
 	.4byte fn_800D0DE4
 	.4byte fn_800A6C64
 	.4byte fn_800A6E44
 	.4byte fn_800A7ACC
 	.4byte fn_800D0EB8
-	.4byte fn_800D0ED0
+	.4byte fn_loadAirflowLocations?
 	.4byte fn_800A6D54
 	.4byte fn_800A6FE8
 	.4byte fn_800A7B94
@@ -12289,7 +12289,7 @@
 # .data:0x9A8C | 0x804A5604 | size: 0x14
 .obj lbl_804A5604, global
 	.4byte fn_800EE270
-	.4byte fn_800EE328
+	.4byte fn_eventActive?
 	.4byte fn_whileEventActive?
 	.4byte fn_800EE50C
 	.4byte 0x00000000
@@ -24482,7 +24482,7 @@
 	.4byte fn_801BB038
 	.4byte 0x000001E8
 	.4byte 0x00000000
-	.4byte fn_801BAC70
+	.4byte fn_AS_Wait
 	.4byte fn_801BADBC
 	.4byte fn_801BAEA8
 	.4byte fn_801BAEC8
@@ -24879,7 +24879,7 @@
 	.4byte fn_801A63BC
 	.4byte fn_801A887C
 	.4byte fn_801A8820
-	.4byte fn_801AABBC
+	.4byte fn_AS_RaceStart?
 	.4byte fn_801AB0F0
 	.4byte fn_801AB1A0
 	.4byte fn_801A8454
@@ -24958,17 +24958,17 @@
 
 # .data:0x13A68 | 0x804AF5E0 | size: 0x2C
 .obj jumptable_804AF5E0, global
-	.4byte fn_801A6640+0x2C
-	.4byte fn_801A6640+0x34
-	.4byte fn_801A6640+0x3C
-	.4byte fn_801A6640+0x44
-	.4byte fn_801A6640+0x4C
-	.4byte fn_801A6640+0x54
-	.4byte fn_801A6640+0x5C
-	.4byte fn_801A6640+0x64
-	.4byte fn_801A6640+0x6C
-	.4byte fn_801A6640+0x74
-	.4byte fn_801A6640+0x7C
+	.4byte fn_randomAbility_changeModel+0x2C
+	.4byte fn_randomAbility_changeModel+0x34
+	.4byte fn_randomAbility_changeModel+0x3C
+	.4byte fn_randomAbility_changeModel+0x44
+	.4byte fn_randomAbility_changeModel+0x4C
+	.4byte fn_randomAbility_changeModel+0x54
+	.4byte fn_randomAbility_changeModel+0x5C
+	.4byte fn_randomAbility_changeModel+0x64
+	.4byte fn_randomAbility_changeModel+0x6C
+	.4byte fn_randomAbility_changeModel+0x74
+	.4byte fn_randomAbility_changeModel+0x7C
 .endobj jumptable_804AF5E0
 
 # .data:0x13A94 | 0x804AF60C | size: 0x4
@@ -26152,7 +26152,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte fn_801C1620
+	.4byte fn_loadMetaKnightModel
 	.4byte fn_801C16FC
 	.4byte fn_801C1738
 	.4byte fn_801C173C
@@ -26652,33 +26652,33 @@
 
 # .data:0x15200 | 0x804B0D78 | size: 0x6C
 .obj jumptable_804B0D78, global
-	.4byte fn_801DB34C+0x29C
-	.4byte fn_801DB34C+0x2A4
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x2AC
-	.4byte fn_801DB34C+0x594
-	.4byte fn_801DB34C+0x2D8
-	.4byte fn_801DB34C+0x2F0
-	.4byte fn_801DB34C+0x228
-	.4byte fn_801DB34C+0x240
-	.4byte fn_801DB34C+0x268
-	.4byte fn_801DB34C+0x304
-	.4byte fn_801DB34C+0x304
-	.4byte fn_801DB34C+0x304
-	.4byte fn_801DB34C+0x3EC
-	.4byte fn_801DB34C+0x3EC
-	.4byte fn_801DB34C+0x3EC
-	.4byte fn_801DB34C+0x4D4
-	.4byte fn_801DB34C+0x540
-	.4byte fn_801DB34C+0x4F8
-	.4byte fn_801DB34C+0x51C
-	.4byte fn_801DB34C+0x564
+	.4byte fn_collideWithPowerUpGeneral+0x29C
+	.4byte fn_collideWithPowerUpGeneral+0x2A4
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x2AC
+	.4byte fn_collideWithPowerUpGeneral+0x594
+	.4byte fn_collideWithPowerUpGeneral+0x2D8
+	.4byte fn_collideWithPowerUpGeneral+0x2F0
+	.4byte fn_collideWithPowerUpGeneral+0x228
+	.4byte fn_collideWithPowerUpGeneral+0x240
+	.4byte fn_collideWithPowerUpGeneral+0x268
+	.4byte fn_collideWithPowerUpGeneral+0x304
+	.4byte fn_collideWithPowerUpGeneral+0x304
+	.4byte fn_collideWithPowerUpGeneral+0x304
+	.4byte fn_collideWithPowerUpGeneral+0x3EC
+	.4byte fn_collideWithPowerUpGeneral+0x3EC
+	.4byte fn_collideWithPowerUpGeneral+0x3EC
+	.4byte fn_collideWithPowerUpGeneral+0x4D4
+	.4byte fn_collideWithPowerUpGeneral+0x540
+	.4byte fn_collideWithPowerUpGeneral+0x4F8
+	.4byte fn_collideWithPowerUpGeneral+0x51C
+	.4byte fn_collideWithPowerUpGeneral+0x564
 .endobj jumptable_804B0D78
 
 # .data:0x1526C | 0x804B0DE4 | size: 0x4
@@ -113082,7 +113082,7 @@
 	.4byte fn_80395E2C
 	.4byte fn_80395F8C
 	.4byte fn_80395F9C
-	.4byte fn_80395FAC
+	.4byte fn_Increment_Template_Q29CrowdMood10CROWDMOOD_TakeParam_CrowdMood_CROWD_MOODRef
 .endobj lbl_804F5580
 
 # .data:0x59A20 | 0x804F5598 | size: 0x18
@@ -117618,79 +117618,79 @@
 
 # .data:0x5CE50 | 0x804F89C8 | size: 0x124
 .obj jumptable_804F89C8, global
-	.4byte fn_803B1C74+0x40
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x13C
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x238
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x334
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x14DC
-	.4byte fn_803B1C74+0x430
-	.4byte fn_803B1C74+0x52C
-	.4byte fn_803B1C74+0x628
-	.4byte fn_803B1C74+0x724
-	.4byte fn_803B1C74+0x820
-	.4byte fn_803B1C74+0x91C
-	.4byte fn_803B1C74+0xA18
-	.4byte fn_803B1C74+0xB14
-	.4byte fn_803B1C74+0xC10
-	.4byte fn_803B1C74+0xD08
-	.4byte fn_803B1C74+0xE00
-	.4byte fn_803B1C74+0xEF8
-	.4byte fn_803B1C74+0xFF0
-	.4byte fn_803B1C74+0x10EC
-	.4byte fn_803B1C74+0x11E8
-	.4byte fn_803B1C74+0x12E4
-	.4byte fn_803B1C74+0x13E0
+	.4byte fn___two_exp+0x40
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x13C
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x238
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x334
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x14DC
+	.4byte fn___two_exp+0x430
+	.4byte fn___two_exp+0x52C
+	.4byte fn___two_exp+0x628
+	.4byte fn___two_exp+0x724
+	.4byte fn___two_exp+0x820
+	.4byte fn___two_exp+0x91C
+	.4byte fn___two_exp+0xA18
+	.4byte fn___two_exp+0xB14
+	.4byte fn___two_exp+0xC10
+	.4byte fn___two_exp+0xD08
+	.4byte fn___two_exp+0xE00
+	.4byte fn___two_exp+0xEF8
+	.4byte fn___two_exp+0xFF0
+	.4byte fn___two_exp+0x10EC
+	.4byte fn___two_exp+0x11E8
+	.4byte fn___two_exp+0x12E4
+	.4byte fn___two_exp+0x13E0
 .endobj jumptable_804F89C8
 
 # .data:0x5CF74 | 0x804F8AEC | size: 0x4
@@ -129109,7 +129109,7 @@
 
 # .data:0x67770 | 0x805032E8 | size: 0x64
 .obj lbl_805032E8, global
-	.4byte fn_80403508
+	.4byte fn_CObjInfoInit
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -129138,19 +129138,19 @@
 
 # .data:0x677D4 | 0x8050334C | size: 0x34
 .obj jumptable_8050334C, global
-	.4byte fn_804008F4+0x12C
-	.4byte fn_804008F4+0x40
-	.4byte fn_804008F4+0x60
-	.4byte fn_804008F4+0x80
-	.4byte fn_804008F4+0x12C
-	.4byte fn_804008F4+0xA0
-	.4byte fn_804008F4+0xC0
-	.4byte fn_804008F4+0xE0
-	.4byte fn_804008F4+0x12C
-	.4byte fn_804008F4+0x100
-	.4byte fn_804008F4+0x10C
-	.4byte fn_804008F4+0x118
-	.4byte fn_804008F4+0x124
+	.4byte fn_CObjUpdateFunc+0x12C
+	.4byte fn_CObjUpdateFunc+0x40
+	.4byte fn_CObjUpdateFunc+0x60
+	.4byte fn_CObjUpdateFunc+0x80
+	.4byte fn_CObjUpdateFunc+0x12C
+	.4byte fn_CObjUpdateFunc+0xA0
+	.4byte fn_CObjUpdateFunc+0xC0
+	.4byte fn_CObjUpdateFunc+0xE0
+	.4byte fn_CObjUpdateFunc+0x12C
+	.4byte fn_CObjUpdateFunc+0x100
+	.4byte fn_CObjUpdateFunc+0x10C
+	.4byte fn_CObjUpdateFunc+0x118
+	.4byte fn_CObjUpdateFunc+0x124
 .endobj jumptable_8050334C
 
 # .data:0x67808 | 0x80503380 | size: 0x20
@@ -178083,13 +178083,13 @@
 
 # .data:0x96840 | 0x805323B8 | size: 0x1C
 .obj jumptable_805323B8, global
-	.4byte fn_8045C5A8+0x138
-	.4byte fn_8045C5A8+0x110
-	.4byte fn_8045C5A8+0xE8
-	.4byte fn_8045C5A8+0xC0
-	.4byte fn_8045C5A8+0x98
-	.4byte fn_8045C5A8+0x70
-	.4byte fn_8045C5A8+0x48
+	.4byte fn_memcard_PullMemcardData?+0x138
+	.4byte fn_memcard_PullMemcardData?+0x110
+	.4byte fn_memcard_PullMemcardData?+0xE8
+	.4byte fn_memcard_PullMemcardData?+0xC0
+	.4byte fn_memcard_PullMemcardData?+0x98
+	.4byte fn_memcard_PullMemcardData?+0x70
+	.4byte fn_memcard_PullMemcardData?+0x48
 .endobj jumptable_805323B8
 
 # .data:0x9685C | 0x805323D4 | size: 0x4
