@@ -6,9 +6,9 @@
 .balign 8
 
 # .bss:0x0 | 0x80535300 | size: 0x694
-.obj lbl_80535300, global
+.obj lbl_SoundBuffer, global
 	.skip 0x694
-.endobj lbl_80535300
+.endobj lbl_SoundBuffer
 
 # .bss:0x694 | 0x80535994 | size: 0x44
 .obj lbl_80535994, global
@@ -1180,9 +1180,9 @@
 .endobj lbl_8056E360
 
 # .bss:0x390A0 | 0x8056E3A0 | size: 0xF0
-.obj lbl_8056E3A0, global
+.obj lbl_SoundBufferEntryRegs, global
 	.skip 0xF0
-.endobj lbl_8056E3A0
+.endobj lbl_SoundBufferEntryRegs
 
 # .bss:0x39190 | 0x8056E490 | size: 0x58
 .obj lbl_8056E490, global
@@ -1320,9 +1320,9 @@
 .endobj lbl_805893BC
 
 # .bss:0x54680 | 0x80589980 | size: 0x30
-.obj lbl_80589980, global
+.obj lbl_aobj_alloc_data_SoundBufferEntry, global
 	.skip 0x30
-.endobj lbl_80589980
+.endobj lbl_aobj_alloc_data_SoundBufferEntry
 
 # .bss:0x546B0 | 0x805899B0 | size: 0x28
 .obj lbl_805899B0, global
@@ -1430,9 +1430,9 @@
 .endobj lbl_8058BE80
 
 # .bss:0x56B98 | 0x8058BE98 | size: 0x30
-.obj lbl_8058BE98, global
+.obj lbl_shadow_alloc_data, global
 	.skip 0x30
-.endobj lbl_8058BE98
+.endobj lbl_shadow_alloc_data
 
 # .bss:0x56BC8 | 0x8058BEC8 | size: 0x2C8
 .obj lbl_8058BEC8, global

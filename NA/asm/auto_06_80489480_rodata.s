@@ -3955,63 +3955,63 @@
 	.4byte lbl_805DD478
 	.4byte lbl_80535084
 	.4byte lbl_805350E8
-	.4byte lbl_805DD47C
+	.4byte lbl_string_ssm
 	.4byte lbl_80535084
 	.4byte lbl_805350F8
-	.4byte lbl_805DD480
+	.4byte lbl_string_tar
 	.4byte lbl_80535084
-	.4byte lbl_805DD480
-	.4byte lbl_805DD484
+	.4byte lbl_string_tar
+	.4byte lbl_string_tcl
 	.4byte lbl_80535084
-	.4byte lbl_805DD488
+	.4byte lbl_string_x_tcl
 	.4byte lbl_805DD3A8
 	.4byte lbl_805DD3A8
-	.4byte lbl_805DD490
-	.4byte lbl_805DD498
+	.4byte lbl_string_plain
+	.4byte lbl_string_tif
 	.4byte lbl_805DD388
-	.4byte lbl_805DD49C
-	.4byte lbl_805DD49C
+	.4byte lbl_string_tiff
+	.4byte lbl_string_tiff
 	.4byte lbl_805DD388
-	.4byte lbl_805DD49C
-	.4byte lbl_805DD4A4
+	.4byte lbl_string_tiff
+	.4byte lbl_string_txt
 	.4byte lbl_805DD3A8
-	.4byte lbl_805DD490
-	.4byte lbl_805DD4A8
+	.4byte lbl_string_plain
+	.4byte lbl_string_ulw
 	.4byte lbl_805DD344
 	.4byte lbl_805DD370
-	.4byte lbl_805DD4AC
+	.4byte lbl_string_wav
 	.4byte lbl_805DD344
-	.4byte lbl_805DD4AC
-	.4byte lbl_805DD4B0
+	.4byte lbl_string_wav
+	.4byte lbl_string_wax
 	.4byte lbl_805DD344
 	.4byte lbl_8053510C
-	.4byte lbl_805DD4B4
+	.4byte lbl_string_wm
 	.4byte lbl_805DD360
-	.4byte lbl_805DD4B8
-	.4byte lbl_805DD4C0
+	.4byte "lbl_string_x-ms-wm"
+	.4byte lbl_string_wma
 	.4byte lbl_805DD344
 	.4byte lbl_80535118
-	.4byte lbl_805DD4C4
+	.4byte lbl_string_wmv
 	.4byte lbl_805DD360
 	.4byte lbl_80535124
-	.4byte lbl_805DD4C8
+	.4byte lbl_string_wvx
 	.4byte lbl_805DD360
 	.4byte lbl_80535130
-	.4byte lbl_805DD4CC
+	.4byte lbl_string_xbm
 	.4byte lbl_805DD388
 	.4byte lbl_8053513C
-	.4byte lbl_805DD4D0
+	.4byte lbl_string_xml
 	.4byte lbl_805DD3A8
-	.4byte lbl_805DD4D0
-	.4byte lbl_805DD4D4
+	.4byte lbl_string_xml
+	.4byte lbl_string_xsl
 	.4byte lbl_805DD3A8
-	.4byte lbl_805DD4D0
-	.4byte lbl_805DD4D8
+	.4byte lbl_string_xml
+	.4byte lbl_string_z
 	.4byte lbl_80535084
 	.4byte lbl_80535148
-	.4byte lbl_805DD4DC
+	.4byte lbl_string_zip
 	.4byte lbl_80535084
-	.4byte lbl_805DD4DC
+	.4byte lbl_string_zip
 	.4byte 0x00000000
 .endobj lbl_8048C680
 

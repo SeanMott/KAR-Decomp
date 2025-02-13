@@ -1864,9 +1864,9 @@
 .endobj lbl_805DEDE4
 
 # .sdata2:0x6E8 | 0x805DEDE8 | size: 0x4
-.obj lbl_805DEDE8, global
+.obj lbl_sp_Gm_Timeclear, global
 	.4byte lbl_Gm_Timeclear
-.endobj lbl_805DEDE8
+.endobj lbl_sp_Gm_Timeclear
 
 # .sdata2:0x6EC | 0x805DEDEC | size: 0x4
 .obj lbl_805DEDEC, global
@@ -22181,14 +22181,14 @@
 .endobj lbl_805E35D0
 
 # .sdata2:0x4ED8 | 0x805E35D8 | size: 0x4
-.obj lbl_805E35D8, global
+.obj lbl_sp_lapallnm1, global
 	.4byte lbl_804D0C60
-.endobj lbl_805E35D8
+.endobj lbl_sp_lapallnm1
 
 # .sdata2:0x4EDC | 0x805E35DC | size: 0x4
-.obj lbl_805E35DC, global
+.obj lbl_sp_lapallnm2, global
 	.4byte lbl_804D0C6C
-.endobj lbl_805E35DC
+.endobj lbl_sp_lapallnm2
 
 # .sdata2:0x4EE0 | 0x805E35E0 | size: 0x4
 .obj lbl_805E35E0, global
@@ -22365,10 +22365,10 @@
 .endobj lbl_805E3684
 
 # .sdata2:0x4F88 | 0x805E3688 | size: 0x8
-.obj lbl_805E3688, global
+.obj lbl_sp_cnt1, global
 	.4byte lbl_805D8E68
 	.4byte 0x00000000
-.endobj lbl_805E3688
+.endobj lbl_sp_cnt1
 
 # .sdata2:0x4F90 | 0x805E3690 | size: 0x4
 .obj lbl_805E3690, global
@@ -22552,14 +22552,14 @@
 .endobj lbl_805E3734
 
 # .sdata2:0x5038 | 0x805E3738 | size: 0x4
-.obj lbl_805E3738, global
+.obj lbl_sp_STAR1500.tm, global
 	.4byte lbl_804D11F8
-.endobj lbl_805E3738
+.endobj lbl_sp_STAR1500.tm
 
 # .sdata2:0x503C | 0x805E373C | size: 0x4
-.obj lbl_805E373C, global
+.obj lbl_sp_STAR1600.tm, global
 	.4byte lbl_804D1204
-.endobj lbl_805E373C
+.endobj lbl_sp_STAR1600.tm
 
 # .sdata2:0x5040 | 0x805E3740 | size: 0x8
 .obj lbl_805E3740, global

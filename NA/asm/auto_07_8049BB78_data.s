@@ -7428,7 +7428,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800AF898
+	.4byte fn_debug_memCard_think?
 	.4byte lbl_804A1880
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -7950,7 +7950,7 @@
 	.4byte fn_800CA16C
 	.4byte fn_800CAEE0
 	.4byte fn_800CB180
-	.4byte fn_800CB360
+	.4byte fn_AsyncImage_FreeLoadBuffer_TakeNoParams2
 	.4byte 0x00000001
 	.4byte fn_800CD4D4
 	.4byte fn_800CC20C
@@ -12290,7 +12290,7 @@
 .obj lbl_804A5604, global
 	.4byte fn_800EE270
 	.4byte fn_800EE328
-	.4byte fn_800EE4C0
+	.4byte fn_whileEventActive?
 	.4byte fn_800EE50C
 	.4byte 0x00000000
 .endobj lbl_804A5604
@@ -23907,7 +23907,7 @@
 	.4byte 0x00000065
 	.4byte 0x00000000
 	.4byte fn_801ABA84
-	.4byte fn_801ABAD0
+	.4byte fn_chargeMain
 	.4byte fn_801ABB28
 	.4byte fn_801ABB48
 	.4byte fn_801ABB68
@@ -24547,7 +24547,7 @@
 	.4byte 0x00000217
 	.4byte 0x00000000
 	.4byte fn_801BCE78
-	.4byte fn_801BCF2C
+	.4byte fn_Interrupt_AS_SwimWait
 	.4byte fn_801BCFAC
 	.4byte fn_801BCFCC
 	.4byte fn_801BCFF4
@@ -24864,15 +24864,15 @@
 	.4byte fn_801A5A8C
 	.4byte fn_801A5B98
 	.4byte fn_801A5C1C
-	.4byte fn_801A5C20
+	.4byte fn_loadKirbyModel
 	.4byte fn_801A5D4C
 	.4byte fn_801A5D88
 	.4byte fn_801A5D8C
 	.4byte 0x00000000
 	.4byte fn_801A6070
 	.4byte fn_801A5F54
-	.4byte fn_801A5F68
-	.4byte fn_801A5FB8
+	.4byte fn_abilityTimerBranchToAbilityCountdown
+	.4byte fn_randomAbility_mainLoop
 	.4byte fn_801A5FE8
 	.4byte fn_801A6040
 	.4byte fn_801A626C
@@ -24890,17 +24890,17 @@
 
 # .data:0x13978 | 0x804AF4F0 | size: 0x2C
 .obj lbl_804AF4F0, global
-	.4byte fn_801AF474
+	.4byte fn_ability_Fire
 	.4byte fn_801AF950
 	.4byte fn_801B0BF0
 	.4byte fn_801AFD54
-	.4byte fn_801B11D4
+	.4byte fn_ability_Bomb
 	.4byte fn_801B2A4C
 	.4byte fn_801B3688
-	.4byte fn_801B3DAC
+	.4byte fn_ability_Mic
 	.4byte fn_801B454C
 	.4byte fn_801B4A3C
-	.4byte fn_801B5480
+	.4byte fn_Ability_Bird
 .endobj lbl_804AF4F0
 
 # .data:0x139A4 | 0x804AF51C | size: 0xC4
@@ -25634,7 +25634,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte fn_801BDC2C
-	.4byte fn_801BDC4C
+	.4byte fn_loadDeDeDeModel
 	.4byte fn_801BDD38
 	.4byte fn_801BDD6C
 	.4byte fn_801BDD70
@@ -26362,7 +26362,7 @@
 	.4byte 0x00000000
 	.4byte fn_801E2D70
 	.4byte fn_801E2DA8
-	.4byte fn_801E2DF8
+	.4byte fn_operator.delete
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000000
 	.4byte fn_801E2E98
@@ -46378,7 +46378,7 @@
 	.4byte fn_802A0CC8
 	.4byte fn_802A0DD4
 	.4byte fn_802A0E88
-	.4byte fn_802A0EF8
+	.4byte fn_cTeam_GetPlayer_TakeParam_int
 	.4byte fn_802A0F08
 	.4byte fn_802A0F18
 	.4byte fn_802A0F20
@@ -68843,7 +68843,7 @@
 	.4byte fn_802D9E54
 	.4byte fn_802D9E5C
 	.4byte fn_802D5590
-	.4byte fn_802D9EC0
+	.4byte fn_GetNumRounds
 	.4byte fn_802D9F2C
 	.4byte fn_802DA0F4
 	.4byte fn_802DA150
@@ -86597,7 +86597,7 @@
 .obj lbl_804E0974, global
 	.4byte lbl_805DA11C
 	.4byte 0x00000000
-	.4byte fn_80315AF0
+	.4byte fn_DevelopMode_CheckForDuplicateScreenshotAndSend
 	.4byte fn_80315AB0
 .endobj lbl_804E0974
 
@@ -92250,7 +92250,7 @@
 	.4byte fn_802918F8
 	.4byte fn_80291930
 	.4byte fn_8032A8B8
-	.4byte fn_8032A998
+	.4byte fn_"cFielder::UpdatePlay(float)"
 	.4byte fn_8032A44C
 .endobj lbl_804E4D7C
 
@@ -117411,7 +117411,7 @@
 .obj lbl_804F8730, global
 	.4byte lbl_805DC850
 	.4byte 0x00000000
-	.4byte fn_803AD1C8
+	.4byte fn___destroy_new_array2
 	.4byte fn_803AD23C
 .endobj lbl_804F8730
 
@@ -118716,7 +118716,7 @@
 
 # .data:0x5DE20 | 0x804F9998 | size: 0x10
 .obj GXResetFuncInfo_804F9998, global
-	.4byte fn_803C860C
+	.4byte fn___GXShutdown
 	.4byte 0x0000007F
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -118995,13 +118995,13 @@
 
 # .data:0x5E198 | 0x804F9D10 | size: 0x1C
 .obj jumptable_804F9D10, global
-	.4byte fn_803CCFA4+0x160
-	.4byte fn_803CCFA4+0x70
-	.4byte fn_803CCFA4+0x84
-	.4byte fn_803CCFA4+0xA4
-	.4byte fn_803CCFA4+0xC4
-	.4byte fn_803CCFA4+0xF0
-	.4byte fn_803CCFA4+0x124
+	.4byte fn_GXInitLightSpot+0x160
+	.4byte fn_GXInitLightSpot+0x70
+	.4byte fn_GXInitLightSpot+0x84
+	.4byte fn_GXInitLightSpot+0xA4
+	.4byte fn_GXInitLightSpot+0xC4
+	.4byte fn_GXInitLightSpot+0xF0
+	.4byte fn_GXInitLightSpot+0x124
 .endobj jumptable_804F9D10
 
 # .data:0x5E1B4 | 0x804F9D2C | size: 0x4
@@ -119417,69 +119417,69 @@
 
 # .data:0x5E788 | 0x804FA300 | size: 0x5C
 .obj jumptable_804FA300, global
-	.4byte fn_803D0BA4+0x564
-	.4byte fn_803D0BA4+0x580
-	.4byte fn_803D0BA4+0x59C
-	.4byte fn_803D0BA4+0x5B8
-	.4byte fn_803D0BA4+0x60C
-	.4byte fn_803D0BA4+0x628
-	.4byte fn_803D0BA4+0x644
-	.4byte fn_803D0BA4+0x660
-	.4byte fn_803D0BA4+0x5D4
-	.4byte fn_803D0BA4+0x67C
-	.4byte fn_803D0BA4+0x6AC
-	.4byte fn_803D0BA4+0x6DC
-	.4byte fn_803D0BA4+0x70C
-	.4byte fn_803D0BA4+0x73C
-	.4byte fn_803D0BA4+0x76C
-	.4byte fn_803D0BA4+0x79C
-	.4byte fn_803D0BA4+0x7CC
-	.4byte fn_803D0BA4+0x7FC
-	.4byte fn_803D0BA4+0x80C
-	.4byte fn_803D0BA4+0x81C
-	.4byte fn_803D0BA4+0x82C
-	.4byte fn_803D0BA4+0x5F0
-	.4byte fn_803D0BA4+0x838
+	.4byte fn_GXSetGPMetric+0x564
+	.4byte fn_GXSetGPMetric+0x580
+	.4byte fn_GXSetGPMetric+0x59C
+	.4byte fn_GXSetGPMetric+0x5B8
+	.4byte fn_GXSetGPMetric+0x60C
+	.4byte fn_GXSetGPMetric+0x628
+	.4byte fn_GXSetGPMetric+0x644
+	.4byte fn_GXSetGPMetric+0x660
+	.4byte fn_GXSetGPMetric+0x5D4
+	.4byte fn_GXSetGPMetric+0x67C
+	.4byte fn_GXSetGPMetric+0x6AC
+	.4byte fn_GXSetGPMetric+0x6DC
+	.4byte fn_GXSetGPMetric+0x70C
+	.4byte fn_GXSetGPMetric+0x73C
+	.4byte fn_GXSetGPMetric+0x76C
+	.4byte fn_GXSetGPMetric+0x79C
+	.4byte fn_GXSetGPMetric+0x7CC
+	.4byte fn_GXSetGPMetric+0x7FC
+	.4byte fn_GXSetGPMetric+0x80C
+	.4byte fn_GXSetGPMetric+0x81C
+	.4byte fn_GXSetGPMetric+0x82C
+	.4byte fn_GXSetGPMetric+0x5F0
+	.4byte fn_GXSetGPMetric+0x838
 .endobj jumptable_804FA300
 
 # .data:0x5E7E4 | 0x804FA35C | size: 0x90
 .obj jumptable_804FA35C, global
-	.4byte fn_803D0BA4+0x138
-	.4byte fn_803D0BA4+0x158
-	.4byte fn_803D0BA4+0x178
-	.4byte fn_803D0BA4+0x198
-	.4byte fn_803D0BA4+0x1B8
-	.4byte fn_803D0BA4+0x1D8
-	.4byte fn_803D0BA4+0x1F8
-	.4byte fn_803D0BA4+0x218
-	.4byte fn_803D0BA4+0x238
-	.4byte fn_803D0BA4+0x258
-	.4byte fn_803D0BA4+0x298
-	.4byte fn_803D0BA4+0x2B8
-	.4byte fn_803D0BA4+0x2D4
-	.4byte fn_803D0BA4+0x2F0
-	.4byte fn_803D0BA4+0x30C
-	.4byte fn_803D0BA4+0x328
-	.4byte fn_803D0BA4+0x344
-	.4byte fn_803D0BA4+0x360
-	.4byte fn_803D0BA4+0x37C
-	.4byte fn_803D0BA4+0x398
-	.4byte fn_803D0BA4+0x3B4
-	.4byte fn_803D0BA4+0x3D0
-	.4byte fn_803D0BA4+0x3EC
-	.4byte fn_803D0BA4+0x408
-	.4byte fn_803D0BA4+0x424
-	.4byte fn_803D0BA4+0x440
-	.4byte fn_803D0BA4+0x45C
-	.4byte fn_803D0BA4+0x478
-	.4byte fn_803D0BA4+0x494
-	.4byte fn_803D0BA4+0x4B0
-	.4byte fn_803D0BA4+0x4CC
-	.4byte fn_803D0BA4+0x4E8
-	.4byte fn_803D0BA4+0x504
-	.4byte fn_803D0BA4+0x520
-	.4byte fn_803D0BA4+0x278
-	.4byte fn_803D0BA4+0x538
+	.4byte fn_GXSetGPMetric+0x138
+	.4byte fn_GXSetGPMetric+0x158
+	.4byte fn_GXSetGPMetric+0x178
+	.4byte fn_GXSetGPMetric+0x198
+	.4byte fn_GXSetGPMetric+0x1B8
+	.4byte fn_GXSetGPMetric+0x1D8
+	.4byte fn_GXSetGPMetric+0x1F8
+	.4byte fn_GXSetGPMetric+0x218
+	.4byte fn_GXSetGPMetric+0x238
+	.4byte fn_GXSetGPMetric+0x258
+	.4byte fn_GXSetGPMetric+0x298
+	.4byte fn_GXSetGPMetric+0x2B8
+	.4byte fn_GXSetGPMetric+0x2D4
+	.4byte fn_GXSetGPMetric+0x2F0
+	.4byte fn_GXSetGPMetric+0x30C
+	.4byte fn_GXSetGPMetric+0x328
+	.4byte fn_GXSetGPMetric+0x344
+	.4byte fn_GXSetGPMetric+0x360
+	.4byte fn_GXSetGPMetric+0x37C
+	.4byte fn_GXSetGPMetric+0x398
+	.4byte fn_GXSetGPMetric+0x3B4
+	.4byte fn_GXSetGPMetric+0x3D0
+	.4byte fn_GXSetGPMetric+0x3EC
+	.4byte fn_GXSetGPMetric+0x408
+	.4byte fn_GXSetGPMetric+0x424
+	.4byte fn_GXSetGPMetric+0x440
+	.4byte fn_GXSetGPMetric+0x45C
+	.4byte fn_GXSetGPMetric+0x478
+	.4byte fn_GXSetGPMetric+0x494
+	.4byte fn_GXSetGPMetric+0x4B0
+	.4byte fn_GXSetGPMetric+0x4CC
+	.4byte fn_GXSetGPMetric+0x4E8
+	.4byte fn_GXSetGPMetric+0x504
+	.4byte fn_GXSetGPMetric+0x520
+	.4byte fn_GXSetGPMetric+0x278
+	.4byte fn_GXSetGPMetric+0x538
 .endobj jumptable_804FA35C
 
 # .data:0x5E874 | 0x804FA3EC | size: 0x4
@@ -127955,7 +127955,7 @@
 	.4byte 0x00000001
 	.4byte fn_803F88F8
 	.4byte 0x00000002
-	.4byte fn_803F8914
+	.4byte fn__HSD_StateInvalidateVtxAttr
 	.4byte 0x00000004
 	.4byte fn_803F95DC
 	.4byte 0x00000008
@@ -129010,20 +129010,20 @@
 
 # .data:0x67654 | 0x805031CC | size: 0x38
 .obj jumptable_805031CC, global
-	.4byte fn_803FDBB0+0x118
-	.4byte fn_803FDBB0+0x164
-	.4byte fn_803FDBB0+0x1B0
-	.4byte fn_803FDBB0+0x30
-	.4byte fn_803FDBB0+0x64
-	.4byte fn_803FDBB0+0x88
-	.4byte fn_803FDBB0+0xAC
-	.4byte fn_803FDBB0+0xD0
-	.4byte fn_803FDBB0+0xE8
-	.4byte fn_803FDBB0+0x100
-	.4byte fn_803FDBB0+0x64
-	.4byte fn_803FDBB0+0x88
-	.4byte fn_803FDBB0+0xAC
-	.4byte fn_803FDBB0+0x1FC
+	.4byte fn_LObjUpdateFunc?+0x118
+	.4byte fn_LObjUpdateFunc?+0x164
+	.4byte fn_LObjUpdateFunc?+0x1B0
+	.4byte fn_LObjUpdateFunc?+0x30
+	.4byte fn_LObjUpdateFunc?+0x64
+	.4byte fn_LObjUpdateFunc?+0x88
+	.4byte fn_LObjUpdateFunc?+0xAC
+	.4byte fn_LObjUpdateFunc?+0xD0
+	.4byte fn_LObjUpdateFunc?+0xE8
+	.4byte fn_LObjUpdateFunc?+0x100
+	.4byte fn_LObjUpdateFunc?+0x64
+	.4byte fn_LObjUpdateFunc?+0x88
+	.4byte fn_LObjUpdateFunc?+0xAC
+	.4byte fn_LObjUpdateFunc?+0x1FC
 .endobj jumptable_805031CC
 
 # .data:0x6768C | 0x80503204 | size: 0xC
@@ -129556,64 +129556,64 @@
 
 # .data:0x67CF8 | 0x80503870 | size: 0xE8
 .obj jumptable_80503870, global
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x24C
-	.4byte fn_8040985C+0x30C
-	.4byte fn_8040985C+0x3A0
-	.4byte fn_8040985C+0x54
-	.4byte fn_8040985C+0x434
-	.4byte fn_8040985C+0x4AC
-	.4byte fn_8040985C+0x524
-	.4byte fn_8040985C+0x59C
-	.4byte fn_8040985C+0x614
-	.4byte fn_8040985C+0x68C
-	.4byte fn_8040985C+0x72C
-	.4byte fn_8040985C+0x704
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x754
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7A0
-	.4byte fn_8040985C+0x7D0
-	.4byte fn_8040985C+0x7FC
-	.4byte fn_8040985C+0x818
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x924
-	.4byte fn_8040985C+0x834
-	.4byte fn_8040985C+0x850
-	.4byte fn_8040985C+0x86C
-	.4byte fn_8040985C+0x888
-	.4byte fn_8040985C+0x8A4
-	.4byte fn_8040985C+0x8A4
-	.4byte fn_8040985C+0x8A4
-	.4byte fn_8040985C+0x8A4
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x24C
+	.4byte fn_JObjUpdateFunc+0x30C
+	.4byte fn_JObjUpdateFunc+0x3A0
+	.4byte fn_JObjUpdateFunc+0x54
+	.4byte fn_JObjUpdateFunc+0x434
+	.4byte fn_JObjUpdateFunc+0x4AC
+	.4byte fn_JObjUpdateFunc+0x524
+	.4byte fn_JObjUpdateFunc+0x59C
+	.4byte fn_JObjUpdateFunc+0x614
+	.4byte fn_JObjUpdateFunc+0x68C
+	.4byte fn_JObjUpdateFunc+0x72C
+	.4byte fn_JObjUpdateFunc+0x704
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x754
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7A0
+	.4byte fn_JObjUpdateFunc+0x7D0
+	.4byte fn_JObjUpdateFunc+0x7FC
+	.4byte fn_JObjUpdateFunc+0x818
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x924
+	.4byte fn_JObjUpdateFunc+0x834
+	.4byte fn_JObjUpdateFunc+0x850
+	.4byte fn_JObjUpdateFunc+0x86C
+	.4byte fn_JObjUpdateFunc+0x888
+	.4byte fn_JObjUpdateFunc+0x8A4
+	.4byte fn_JObjUpdateFunc+0x8A4
+	.4byte fn_JObjUpdateFunc+0x8A4
+	.4byte fn_JObjUpdateFunc+0x8A4
 .endobj jumptable_80503870
 
 # .data:0x67DE0 | 0x80503958 | size: 0x50
@@ -130188,19 +130188,19 @@
 
 # .data:0x68500 | 0x80504078 | size: 0x34
 .obj jumptable_80504078, global
-	.4byte fn_80418EA4+0x1D0
-	.4byte fn_80418EA4+0xB0
-	.4byte fn_80418EA4+0xC8
-	.4byte fn_80418EA4+0xE0
-	.4byte fn_80418EA4+0xF8
-	.4byte fn_80418EA4+0x110
-	.4byte fn_80418EA4+0x128
-	.4byte fn_80418EA4+0x140
-	.4byte fn_80418EA4+0x158
-	.4byte fn_80418EA4+0x170
-	.4byte fn_80418EA4+0x188
-	.4byte fn_80418EA4+0x1A0
-	.4byte fn_80418EA4+0x1B8
+	.4byte fn_resolveLimits+0x1D0
+	.4byte fn_resolveLimits+0xB0
+	.4byte fn_resolveLimits+0xC8
+	.4byte fn_resolveLimits+0xE0
+	.4byte fn_resolveLimits+0xF8
+	.4byte fn_resolveLimits+0x110
+	.4byte fn_resolveLimits+0x128
+	.4byte fn_resolveLimits+0x140
+	.4byte fn_resolveLimits+0x158
+	.4byte fn_resolveLimits+0x170
+	.4byte fn_resolveLimits+0x188
+	.4byte fn_resolveLimits+0x1A0
+	.4byte fn_resolveLimits+0x1B8
 .endobj jumptable_80504078
 
 # .data:0x68534 | 0x805040AC | size: 0x44

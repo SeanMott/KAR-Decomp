@@ -6,7 +6,7 @@
 .balign 4
 
 # .text:0x0 | 0x803AD474 | size: 0x22C
-.fn fn_803AD474, global
+.fn fn___throw_catch_compare, global
 /* 803AD474 003AA274  38 00 00 00 */	li r0, 0x0
 /* 803AD478 003AA278  7C 86 23 79 */	mr. r6, r4
 /* 803AD47C 003AA27C  90 05 00 00 */	stw r0, 0x0(r5)
@@ -170,4 +170,4 @@
 /* 803AD694 003AA494  41 82 FF D4 */	beq .L_803AD668
 /* 803AD698 003AA498  38 60 00 00 */	li r3, 0x0
 /* 803AD69C 003AA49C  4E 80 00 20 */	blr
-.endfn fn_803AD474
+.endfn fn___throw_catch_compare

@@ -6,9 +6,9 @@
 .balign 8
 
 # .sbss:0x0 | 0x805DD520 | size: 0x8
-.obj lbl_805DD520, global
+.obj lbl_Arena_Size, global
 	.skip 0x8
-.endobj lbl_805DD520
+.endobj lbl_Arena_Size
 
 # .sbss:0x8 | 0x805DD528 | size: 0x4
 .obj lbl_805DD528, global
@@ -241,14 +241,14 @@
 .endobj lbl_805DD62C
 
 # .sbss:0x110 | 0x805DD630 | size: 0x4
-.obj lbl_805DD630, global
+.obj lbl_DbLevel, global
 	.skip 0x4
-.endobj lbl_805DD630
+.endobj lbl_DbLevel
 
 # .sbss:0x114 | 0x805DD634 | size: 0x4
-.obj lbl_805DD634, global
+.obj lbl_DbHide, global
 	.skip 0x4
-.endobj lbl_805DD634
+.endobj lbl_DbHide
 
 # .sbss:0x118 | 0x805DD638 | size: 0x4
 .obj lbl_805DD638, global
@@ -424,9 +424,9 @@
 .endobj lbl_805DD6C8
 
 # .sbss:0x1AC | 0x805DD6CC | size: 0x4
-.obj lbl_805DD6CC, global
+.obj lbl_grGlobalP, global
 	.skip 0x4
-.endobj lbl_805DD6CC
+.endobj lbl_grGlobalP
 
 # .sbss:0x1B0 | 0x805DD6D0 | size: 0x4
 .obj lbl_805DD6D0, global
@@ -915,59 +915,59 @@
 .endobj lbl_805DD8A0
 
 # .sbss:0x388 | 0x805DD8A8 | size: 0x4
-.obj lbl_805DD8A8, global
+.obj lbl_NULL4, global
 	.skip 0x4
-.endobj lbl_805DD8A8
+.endobj lbl_NULL4
 
 # .sbss:0x38C | 0x805DD8AC | size: 0x4
-.obj lbl_805DD8AC, global
+.obj lbl_NULL9, global
 	.skip 0x4
-.endobj lbl_805DD8AC
+.endobj lbl_NULL9
 
 # .sbss:0x390 | 0x805DD8B0 | size: 0x8
-.obj lbl_805DD8B0, global
+.obj lbl_NULL8, global
 	.skip 0x8
-.endobj lbl_805DD8B0
+.endobj lbl_NULL8
 
 # .sbss:0x398 | 0x805DD8B8 | size: 0x8
-.obj lbl_805DD8B8, global
+.obj lbl_NULL7, global
 	.skip 0x8
-.endobj lbl_805DD8B8
+.endobj lbl_NULL7
 
 # .sbss:0x3A0 | 0x805DD8C0 | size: 0x4
-.obj lbl_805DD8C0, global
+.obj lbl_NULL6, global
 	.skip 0x4
-.endobj lbl_805DD8C0
+.endobj lbl_NULL6
 
 # .sbss:0x3A4 | 0x805DD8C4 | size: 0x4
-.obj lbl_805DD8C4, global
+.obj lbl_NULL5, global
 	.skip 0x4
-.endobj lbl_805DD8C4
+.endobj lbl_NULL5
 
 # .sbss:0x3A8 | 0x805DD8C8 | size: 0x4
-.obj lbl_805DD8C8, global
+.obj lbl_NULL_3, global
 	.skip 0x4
-.endobj lbl_805DD8C8
+.endobj lbl_NULL_3
 
 # .sbss:0x3AC | 0x805DD8CC | size: 0x4
-.obj lbl_805DD8CC, global
+.obj lbl_NULL_2, global
 	.skip 0x4
-.endobj lbl_805DD8CC
+.endobj lbl_NULL_2
 
 # .sbss:0x3B0 | 0x805DD8D0 | size: 0x8
-.obj lbl_805DD8D0, global
+.obj lbl_NULL_1, global
 	.skip 0x8
-.endobj lbl_805DD8D0
+.endobj lbl_NULL_1
 
 # .sbss:0x3B8 | 0x805DD8D8 | size: 0x4
-.obj lbl_805DD8D8, global
+.obj lbl_INT, global
 	.skip 0x4
-.endobj lbl_805DD8D8
+.endobj lbl_INT
 
 # .sbss:0x3BC | 0x805DD8DC | size: 0x4
-.obj lbl_805DD8DC, global
+.obj lbl_stDataP, global
 	.skip 0x4
-.endobj lbl_805DD8DC
+.endobj lbl_stDataP
 
 # .sbss:0x3C0 | 0x805DD8E0 | size: 0x8
 .obj lbl_805DD8E0, global
@@ -2353,9 +2353,9 @@
 .endobj MaxEntryNum_805DDD94
 
 # .sbss:0x878 | 0x805DDD98 | size: 0x4
-.obj lbl_805DDD98, global
+.obj lbl_currentDirectory, global
 	.skip 0x4
-.endobj lbl_805DDD98
+.endobj lbl_currentDirectory
 
 # .sbss:0x87C | 0x805DDD9C | size: 0x4
 .obj __DVDLongFileNameFlag, global

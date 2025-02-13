@@ -23719,12 +23719,12 @@
 
 # .sdata:0x7778 | 0x805DC858 | size: 0x4
 .obj lbl_805DC858, global
-	.4byte fn_803AD718
+	.4byte fn_dthandler
 .endobj lbl_805DC858
 
 # .sdata:0x777C | 0x805DC85C | size: 0x4
 .obj lbl_805DC85C, global
-	.4byte fn_803AD6F0
+	.4byte fn_set_terminate
 .endobj lbl_805DC85C
 
 # .sdata:0x7780 | 0x805DC860 | size: 0x8
@@ -26515,112 +26515,112 @@
 .endobj lbl_805DD478
 
 # .sdata:0x839C | 0x805DD47C | size: 0x4
-.obj lbl_805DD47C, global
+.obj lbl_string_ssm, global
 	.string "swf"
-.endobj lbl_805DD47C
+.endobj lbl_string_ssm
 
 # .sdata:0x83A0 | 0x805DD480 | size: 0x4
-.obj lbl_805DD480, global
+.obj lbl_string_tar, global
 	.string "tar"
-.endobj lbl_805DD480
+.endobj lbl_string_tar
 
 # .sdata:0x83A4 | 0x805DD484 | size: 0x4
-.obj lbl_805DD484, global
+.obj lbl_string_tcl, global
 	.string "tcl"
-.endobj lbl_805DD484
+.endobj lbl_string_tcl
 
 # .sdata:0x83A8 | 0x805DD488 | size: 0x8
-.obj lbl_805DD488, global
+.obj lbl_string_x_tcl, global
 	.4byte 0x782D7463
 	.4byte 0x6C000000
-.endobj lbl_805DD488
+.endobj lbl_string_x_tcl
 
 # .sdata:0x83B0 | 0x805DD490 | size: 0x8
-.obj lbl_805DD490, global
+.obj lbl_string_plain, global
 	.4byte 0x706C6169
 	.4byte 0x6E000000
-.endobj lbl_805DD490
+.endobj lbl_string_plain
 
 # .sdata:0x83B8 | 0x805DD498 | size: 0x4
-.obj lbl_805DD498, global
+.obj lbl_string_tif, global
 	.string "tif"
-.endobj lbl_805DD498
+.endobj lbl_string_tif
 
 # .sdata:0x83BC | 0x805DD49C | size: 0x8
-.obj lbl_805DD49C, global
+.obj lbl_string_tiff, global
 	.4byte 0x74696666
 	.4byte 0x00000000
-.endobj lbl_805DD49C
+.endobj lbl_string_tiff
 
 # .sdata:0x83C4 | 0x805DD4A4 | size: 0x4
-.obj lbl_805DD4A4, global
+.obj lbl_string_txt, global
 	.string "txt"
-.endobj lbl_805DD4A4
+.endobj lbl_string_txt
 
 # .sdata:0x83C8 | 0x805DD4A8 | size: 0x4
-.obj lbl_805DD4A8, global
+.obj lbl_string_ulw, global
 	.string "ulw"
-.endobj lbl_805DD4A8
+.endobj lbl_string_ulw
 
 # .sdata:0x83CC | 0x805DD4AC | size: 0x4
-.obj lbl_805DD4AC, global
+.obj lbl_string_wav, global
 	.string "wav"
-.endobj lbl_805DD4AC
+.endobj lbl_string_wav
 
 # .sdata:0x83D0 | 0x805DD4B0 | size: 0x4
-.obj lbl_805DD4B0, global
+.obj lbl_string_wax, global
 	.string "wax"
-.endobj lbl_805DD4B0
+.endobj lbl_string_wax
 
 # .sdata:0x83D4 | 0x805DD4B4 | size: 0x4
-.obj lbl_805DD4B4, global
+.obj lbl_string_wm, global
 	.4byte 0x776D0000
-.endobj lbl_805DD4B4
+.endobj lbl_string_wm
 
 # .sdata:0x83D8 | 0x805DD4B8 | size: 0x8
-.obj lbl_805DD4B8, global
+.obj "lbl_string_x-ms-wm", global
 	.string "x-ms-wm"
-.endobj lbl_805DD4B8
+.endobj "lbl_string_x-ms-wm"
 
 # .sdata:0x83E0 | 0x805DD4C0 | size: 0x4
-.obj lbl_805DD4C0, global
+.obj lbl_string_wma, global
 	.string "wma"
-.endobj lbl_805DD4C0
+.endobj lbl_string_wma
 
 # .sdata:0x83E4 | 0x805DD4C4 | size: 0x4
-.obj lbl_805DD4C4, global
+.obj lbl_string_wmv, global
 	.string "wmv"
-.endobj lbl_805DD4C4
+.endobj lbl_string_wmv
 
 # .sdata:0x83E8 | 0x805DD4C8 | size: 0x4
-.obj lbl_805DD4C8, global
+.obj lbl_string_wvx, global
 	.string "wvx"
-.endobj lbl_805DD4C8
+.endobj lbl_string_wvx
 
 # .sdata:0x83EC | 0x805DD4CC | size: 0x4
-.obj lbl_805DD4CC, global
+.obj lbl_string_xbm, global
 	.string "xbm"
-.endobj lbl_805DD4CC
+.endobj lbl_string_xbm
 
 # .sdata:0x83F0 | 0x805DD4D0 | size: 0x4
-.obj lbl_805DD4D0, global
+.obj lbl_string_xml, global
 	.string "xml"
-.endobj lbl_805DD4D0
+.endobj lbl_string_xml
 
 # .sdata:0x83F4 | 0x805DD4D4 | size: 0x4
-.obj lbl_805DD4D4, global
+.obj lbl_string_xsl, global
 	.string "xsl"
-.endobj lbl_805DD4D4
+.endobj lbl_string_xsl
 
 # .sdata:0x83F8 | 0x805DD4D8 | size: 0x4
-.obj lbl_805DD4D8, global
+.obj lbl_string_z, global
 	.4byte 0x7A000000
-.endobj lbl_805DD4D8
+.endobj lbl_string_z
 
 # .sdata:0x83FC | 0x805DD4DC | size: 0x4
-.obj lbl_805DD4DC, global
+.obj lbl_string_zip, global
 	.string "zip"
-.endobj lbl_805DD4DC
+.endobj lbl_string_zip
 
 # .sdata:0x8400 | 0x805DD4E0 | size: 0x8
 .obj lbl_805DD4E0, global
@@ -26629,49 +26629,49 @@
 .endobj lbl_805DD4E0
 
 # .sdata:0x8408 | 0x805DD4E8 | size: 0x8
-.obj lbl_805DD4E8, global
+.obj lbl_struct_close, global
 	.4byte 0x636C6F73
 	.4byte 0x65000000
-.endobj lbl_805DD4E8
+.endobj lbl_struct_close
 
 # .sdata:0x8410 | 0x805DD4F0 | size: 0x4
-.obj lbl_805DD4F0, global
+.obj lbl_struct_ja, global
 	.4byte 0x6A610000
-.endobj lbl_805DD4F0
+.endobj lbl_struct_ja
 
 # .sdata:0x8414 | 0x805DD4F4 | size: 0x4
-.obj lbl_805DD4F4, global
+.obj lbl_"%d", global
 	.4byte 0x25640000
-.endobj lbl_805DD4F4
+.endobj lbl_"%d"
 
 # .sdata:0x8418 | 0x805DD4F8 | size: 0x8
-.obj lbl_805DD4F8, global
+.obj lbl_Allow, global
 	.4byte 0x416C6C6F
 	.4byte 0x77000000
-.endobj lbl_805DD4F8
+.endobj lbl_Allow
 
 # .sdata:0x8420 | 0x805DD500 | size: 0x8
-.obj lbl_805DD500, global
+.obj lbl_"uuid:%s", global
 	.string "uuid:%s"
-.endobj lbl_805DD500
+.endobj lbl_"uuid:%s"
 
 # .sdata:0x8428 | 0x805DD508 | size: 0x4
-.obj lbl_805DD508, global
+.obj lbl_USN, global
 	.string "USN"
-.endobj lbl_805DD508
+.endobj lbl_USN
 
 # .sdata:0x842C | 0x805DD50C | size: 0x8
-.obj lbl_805DD50C, global
+.obj lbl_"uuid:", global
 	.4byte 0x75756964
 	.4byte 0x3A000000
-.endobj lbl_805DD50C
+.endobj lbl_"uuid:"
 
 # .sdata:0x8434 | 0x805DD514 | size: 0x4
-.obj lbl_805DD514, global
+.obj lbl_NTS, global
 	.string "NTS"
-.endobj lbl_805DD514
+.endobj lbl_NTS
 
 # .sdata:0x8438 | 0x805DD518 | size: 0x7
-.obj lbl_805DD518, global
+.obj lbl_SERVER, global
 	.string "SERVER"
-.endobj lbl_805DD518
+.endobj lbl_SERVER

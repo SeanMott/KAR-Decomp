@@ -6,7 +6,7 @@
 .balign 4
 
 # .text:0x0 | 0x803AE238 | size: 0x104
-.fn fn_803AE238, global
+.fn fn_ExPPC_UnwindStack, global
 /* 803AE238 003AB038  7C A8 02 A6 */	mflr r5
 /* 803AE23C 003AB03C  7C C0 00 26 */	mfcr r6
 /* 803AE240 003AB040  90 A3 00 00 */	stw r5, 0x0(r3)
@@ -72,10 +72,10 @@
 /* 803AE330 003AB130  D8 03 01 80 */	stfd f0, 0x180(r3)
 /* 803AE334 003AB134  38 60 00 00 */	li r3, 0x0
 /* 803AE338 003AB138  4E 80 00 20 */	blr
-.endfn fn_803AE238
+.endfn fn_ExPPC_UnwindStack
 
 # .text:0x104 | 0x803AE33C | size: 0x110
-.fn fn_803AE33C, global
+.fn fn_ExPPC_IsInSpecification, global
 /* 803AE33C 003AB13C  80 A3 00 00 */	lwz r5, 0x0(r3)
 /* 803AE340 003AB140  80 C3 00 04 */	lwz r6, 0x4(r3)
 /* 803AE344 003AB144  7C A8 03 A6 */	mtlr r5
@@ -144,7 +144,7 @@
 /* 803AE440 003AB240  4C 82 00 20 */	bnelr
 /* 803AE444 003AB244  38 60 00 01 */	li r3, 0x1
 /* 803AE448 003AB248  4E 80 00 20 */	blr
-.endfn fn_803AE33C
+.endfn fn_ExPPC_IsInSpecification
 
 # .text:0x214 | 0x803AE44C | size: 0x104
 .fn fn_803AE44C, global

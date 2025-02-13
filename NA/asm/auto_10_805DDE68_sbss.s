@@ -909,9 +909,9 @@
 .endobj lbl_805DE174
 
 # .sbss:0x310 | 0x805DE178 | size: 0x4
-.obj lbl_805DE178, global
+.obj lbl_hsdNew, global
 	.skip 0x4
-.endobj lbl_805DE178
+.endobj lbl_hsdNew
 
 # .sbss:0x314 | 0x805DE17C | size: 0x4
 .obj lbl_805DE17C, global
