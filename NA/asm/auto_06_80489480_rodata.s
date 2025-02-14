@@ -3646,7 +3646,7 @@
 	.4byte fn__HSD_AObjForgetMemory
 	.4byte fn_8040FBE8
 	.4byte fn__HSD_IDForgetMemory
-	.4byte fn_80418380
+	.4byte fn__HSD_ObjAllocForgetMemory
 	.4byte fn_8041E6A4
 	.4byte fn_8041A504
 	.4byte 0x00000000
@@ -3654,7 +3654,7 @@
 
 # .rodata:0x3044 | 0x8048C4C4 | size: 0x74
 .obj lbl_8048C4C4, global
-	.4byte fn_803FB16C
+	.4byte fn_HSD_AObjGetAllocData
 	.4byte lbl_805DCBD0
 	.4byte fn_80403594
 	.4byte lbl_805DCBD8
@@ -3670,7 +3670,7 @@
 	.4byte lbl_805DCBF8
 	.4byte fn_804183D0
 	.4byte lbl_805DCBFC
-	.4byte fn_804183DC
+	.4byte fn_HSD_RvalueObjGetAllocData
 	.4byte lbl_805DCC04
 	.4byte fn_8041CF1C
 	.4byte lbl_805DCC0C

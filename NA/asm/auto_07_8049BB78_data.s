@@ -3838,11 +3838,11 @@
 # .data:0x33F0 | 0x8049EF68 | size: 0x28
 .obj lbl_8049EF68, global
 	.4byte fn_grGetGravityposNum
-	.4byte fn_800D0DE4
+	.4byte fn_loadGravityLocations?
 	.4byte fn_800A6C64
 	.4byte fn_800A6E44
 	.4byte fn_800A7ACC
-	.4byte fn_800D0EB8
+	.4byte fn_grGetAirflowposNum
 	.4byte fn_loadAirflowLocations?
 	.4byte fn_800A6D54
 	.4byte fn_800A6FE8
@@ -23843,7 +23843,7 @@
 	.4byte 0x00000003
 	.4byte 0x00000000
 	.4byte fn_801AB214
-	.4byte fn_801AB300
+	.4byte fn_groundControl
 	.4byte fn_801AB370
 	.4byte fn_801AB390
 	.4byte fn_801AB3B0
@@ -23859,7 +23859,7 @@
 	.4byte 0x00000004
 	.4byte 0x00000000
 	.4byte fn_801AC05C
-	.4byte fn_801AC128
+	.4byte fn_airControl
 	.4byte fn_801AC188
 	.4byte fn_801AC1A8
 	.4byte fn_801AC1C8
@@ -24322,7 +24322,7 @@
 	.4byte fn_801B1934
 	.4byte 0x000000F6
 	.4byte 0x00000000
-	.4byte fn_801B1A34
+	.4byte fn_abilityTimer_Bomb_checkIfThrown?
 	.4byte fn_801B1A78
 	.4byte fn_801B1A98
 	.4byte fn_801B1AB8
@@ -24507,7 +24507,7 @@
 	.4byte 0x000001F2
 	.4byte 0x00000000
 	.4byte fn_801BBD44
-	.4byte fn_801BBDB4
+	.4byte fn_Interrupt_AS_RunBrake
 	.4byte fn_801BBE18
 	.4byte fn_801BBE54
 	.4byte fn_801BBE7C
@@ -24881,7 +24881,7 @@
 	.4byte fn_801A8820
 	.4byte fn_AS_RaceStart?
 	.4byte fn_801AB0F0
-	.4byte fn_801AB1A0
+	.4byte fn_AS_StarWait
 	.4byte fn_801A8454
 	.4byte fn_801A804C
 	.4byte fn_801A8074
@@ -24895,7 +24895,7 @@
 	.4byte fn_801B0BF0
 	.4byte fn_801AFD54
 	.4byte fn_ability_Bomb
-	.4byte fn_801B2A4C
+	.4byte fn_ability_Plasma
 	.4byte fn_801B3688
 	.4byte fn_ability_Mic
 	.4byte fn_801B454C
@@ -45490,7 +45490,7 @@
 	.4byte fn_80299760
 	.4byte fn_8029C640
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 .endobj lbl_804BF1B0
 
 # .data:0x236A0 | 0x804BF218 | size: 0x20
@@ -45644,7 +45644,7 @@
 	.4byte fn_80299760
 	.4byte fn_80299D68
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 .endobj lbl_804BF3C0
 
 # .data:0x23878 | 0x804BF3F0 | size: 0x10
@@ -45695,7 +45695,7 @@
 	.4byte fn_80299760
 	.4byte fn_8029C628
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 .endobj lbl_804BF424
 
 # .data:0x23914 | 0x804BF48C | size: 0x28
@@ -74474,7 +74474,7 @@
 	.4byte fn_80299760
 	.4byte fn_802E91A8
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 .endobj lbl_804D7260
 
 # .data:0x3B750 | 0x804D72C8 | size: 0x14
@@ -74526,7 +74526,7 @@
 	.4byte fn_80299760
 	.4byte fn_802E91A0
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 .endobj lbl_804D7300
 
 # .data:0x3B7F0 | 0x804D7368 | size: 0x14
@@ -74725,7 +74725,7 @@
 	.4byte fn_80299760
 	.4byte fn_802E9180
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 .endobj lbl_804D7568
 
 # .data:0x3BA58 | 0x804D75D0 | size: 0x10
@@ -74776,7 +74776,7 @@
 	.4byte fn_80299760
 	.4byte fn_802E9178
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 .endobj lbl_804D7604
 
 # .data:0x3BAF4 | 0x804D766C | size: 0x10
@@ -81665,7 +81665,7 @@
 	.4byte fn_80299760
 	.4byte fn_8030D508
 	.4byte fn_80299720
-	.4byte fn_80299754
+	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
 	.4byte 0x28256620
 	.4byte 0x25662025
 	.4byte 0x66292025
@@ -118573,19 +118573,19 @@
 
 # .data:0x5DC04 | 0x804F977C | size: 0x34
 .obj jumptable_804F977C, global
-	.4byte fn_803C7C60+0x98
-	.4byte fn_803C7C60+0xA0
-	.4byte fn_803C7C60+0x90
-	.4byte fn_803C7C60+0x90
-	.4byte fn_803C7C60+0x98
-	.4byte fn_803C7C60+0x98
-	.4byte fn_803C7C60+0x98
-	.4byte fn_803C7C60+0x98
-	.4byte fn_803C7C60+0x98
-	.4byte fn_803C7C60+0xA0
-	.4byte fn_803C7C60+0x90
-	.4byte fn_803C7C60+0x90
-	.4byte fn_803C7C60+0x98
+	.4byte fn_DVDCheckDisk+0x98
+	.4byte fn_DVDCheckDisk+0xA0
+	.4byte fn_DVDCheckDisk+0x90
+	.4byte fn_DVDCheckDisk+0x90
+	.4byte fn_DVDCheckDisk+0x98
+	.4byte fn_DVDCheckDisk+0x98
+	.4byte fn_DVDCheckDisk+0x98
+	.4byte fn_DVDCheckDisk+0x98
+	.4byte fn_DVDCheckDisk+0x98
+	.4byte fn_DVDCheckDisk+0xA0
+	.4byte fn_DVDCheckDisk+0x90
+	.4byte fn_DVDCheckDisk+0x90
+	.4byte fn_DVDCheckDisk+0x98
 .endobj jumptable_804F977C
 
 # .data:0x5DC38 | 0x804F97B0 | size: 0x48
@@ -118877,38 +118877,38 @@
 
 # .data:0x5E034 | 0x804F9BAC | size: 0x1C
 .obj jumptable_804F9BAC, global
-	.4byte fn_803CB738+0x1C4
-	.4byte fn_803CB738+0x1E4
-	.4byte fn_803CB738+0x204
-	.4byte fn_803CB738+0x224
-	.4byte fn_803CB738+0x244
-	.4byte fn_803CB738+0x25C
-	.4byte fn_803CB738+0x27C
+	.4byte fn_GXSetTexCoordGen2+0x1C4
+	.4byte fn_GXSetTexCoordGen2+0x1E4
+	.4byte fn_GXSetTexCoordGen2+0x204
+	.4byte fn_GXSetTexCoordGen2+0x224
+	.4byte fn_GXSetTexCoordGen2+0x244
+	.4byte fn_GXSetTexCoordGen2+0x25C
+	.4byte fn_GXSetTexCoordGen2+0x27C
 .endobj jumptable_804F9BAC
 
 # .data:0x5E050 | 0x804F9BC8 | size: 0x54
 .obj jumptable_804F9BC8, global
-	.4byte fn_803CB738+0x38
-	.4byte fn_803CB738+0x44
-	.4byte fn_803CB738+0x50
-	.4byte fn_803CB738+0x5C
-	.4byte fn_803CB738+0x78
-	.4byte fn_803CB738+0x80
-	.4byte fn_803CB738+0x88
-	.4byte fn_803CB738+0x90
-	.4byte fn_803CB738+0x98
-	.4byte fn_803CB738+0xA0
-	.4byte fn_803CB738+0xA8
-	.4byte fn_803CB738+0xB0
-	.4byte fn_803CB738+0xB4
-	.4byte fn_803CB738+0xB4
-	.4byte fn_803CB738+0xB4
-	.4byte fn_803CB738+0xB4
-	.4byte fn_803CB738+0xB4
-	.4byte fn_803CB738+0xB4
-	.4byte fn_803CB738+0xB4
-	.4byte fn_803CB738+0x68
-	.4byte fn_803CB738+0x70
+	.4byte fn_GXSetTexCoordGen2+0x38
+	.4byte fn_GXSetTexCoordGen2+0x44
+	.4byte fn_GXSetTexCoordGen2+0x50
+	.4byte fn_GXSetTexCoordGen2+0x5C
+	.4byte fn_GXSetTexCoordGen2+0x78
+	.4byte fn_GXSetTexCoordGen2+0x80
+	.4byte fn_GXSetTexCoordGen2+0x88
+	.4byte fn_GXSetTexCoordGen2+0x90
+	.4byte fn_GXSetTexCoordGen2+0x98
+	.4byte fn_GXSetTexCoordGen2+0xA0
+	.4byte fn_GXSetTexCoordGen2+0xA8
+	.4byte fn_GXSetTexCoordGen2+0xB0
+	.4byte fn_GXSetTexCoordGen2+0xB4
+	.4byte fn_GXSetTexCoordGen2+0xB4
+	.4byte fn_GXSetTexCoordGen2+0xB4
+	.4byte fn_GXSetTexCoordGen2+0xB4
+	.4byte fn_GXSetTexCoordGen2+0xB4
+	.4byte fn_GXSetTexCoordGen2+0xB4
+	.4byte fn_GXSetTexCoordGen2+0xB4
+	.4byte fn_GXSetTexCoordGen2+0x68
+	.4byte fn_GXSetTexCoordGen2+0x70
 .endobj jumptable_804F9BC8
 
 # .data:0x5E0A4 | 0x804F9C1C | size: 0x4
@@ -122028,7 +122028,7 @@
 
 # .data:0x60EB8 | 0x804FCA30 | size: 0x10
 .obj lbl_804FCA30, global
-	.4byte fn_OnReset
+	.4byte fn_OnReset2
 	.4byte 0x0000007F
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -127394,7 +127394,7 @@
 
 # .data:0x66198 | 0x80501D10 | size: 0x48
 .obj lbl_80501D10, global
-	.4byte fn_803F4AFC
+	.4byte fn_DObjInfoInit?
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -127683,15 +127683,15 @@
 
 # .data:0x6654C | 0x805020C4 | size: 0x24
 .obj jumptable_805020C4, global
-	.4byte fn_803F5F98+0x84
-	.4byte fn_803F5F98+0x8C
-	.4byte fn_803F5F98+0x94
-	.4byte fn_803F5F98+0x9C
-	.4byte fn_803F5F98+0xA4
-	.4byte fn_803F5F98+0xAC
-	.4byte fn_803F5F98+0xB8
-	.4byte fn_803F5F98+0xC0
-	.4byte fn_803F5F98+0xCC
+	.4byte fn_MakeColorGenTExp+0x84
+	.4byte fn_MakeColorGenTExp+0x8C
+	.4byte fn_MakeColorGenTExp+0x94
+	.4byte fn_MakeColorGenTExp+0x9C
+	.4byte fn_MakeColorGenTExp+0xA4
+	.4byte fn_MakeColorGenTExp+0xAC
+	.4byte fn_MakeColorGenTExp+0xB8
+	.4byte fn_MakeColorGenTExp+0xC0
+	.4byte fn_MakeColorGenTExp+0xCC
 .endobj jumptable_805020C4
 
 # .data:0x66570 | 0x805020E8 | size: 0x20
@@ -127953,11 +127953,11 @@
 # .data:0x668A8 | 0x80502420 | size: 0x40
 .obj lbl_80502420, global
 	.4byte 0x00000001
-	.4byte fn_803F88F8
+	.4byte fn__HSD_StateInvalidatePrimitive
 	.4byte 0x00000002
 	.4byte fn__HSD_StateInvalidateVtxAttr
 	.4byte 0x00000004
-	.4byte fn_803F95DC
+	.4byte fn__HSD_StateInvalidateColorChannel?
 	.4byte 0x00000008
 	.4byte fn_803F9634
 	.4byte 0x00000010
@@ -128989,7 +128989,7 @@
 
 # .data:0x67610 | 0x80503188 | size: 0x44
 .obj lbl_80503188, global
-	.4byte fn_80400654
+	.4byte fn_LObjInfoInit
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -131025,13 +131025,13 @@
 
 # .data:0x68FD8 | 0x80504B50 | size: 0x1C
 .obj jumptable_80504B50, global
-	.4byte fn_80422B90+0xEC
-	.4byte fn_80422B90+0xF4
-	.4byte fn_80422B90+0xFC
-	.4byte fn_80422B90+0x104
-	.4byte fn_80422B90+0x10C
-	.4byte fn_80422B90+0x114
-	.4byte fn_80422B90+0x11C
+	.4byte fn_HSD_TExpAlphaInSub+0xEC
+	.4byte fn_HSD_TExpAlphaInSub+0xF4
+	.4byte fn_HSD_TExpAlphaInSub+0xFC
+	.4byte fn_HSD_TExpAlphaInSub+0x104
+	.4byte fn_HSD_TExpAlphaInSub+0x10C
+	.4byte fn_HSD_TExpAlphaInSub+0x114
+	.4byte fn_HSD_TExpAlphaInSub+0x11C
 .endobj jumptable_80504B50
 
 # .data:0x68FF4 | 0x80504B6C | size: 0x10
@@ -180118,7 +180118,7 @@
 
 # .data:0x986C0 | 0x80534238 | size: 0x10
 .obj lbl_80534238, global
-	.4byte fn_8047DE78
+	.4byte fn_OnReset
 	.4byte 0x0000006E
 	.4byte 0x00000000
 	.4byte 0x00000000
