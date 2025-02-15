@@ -259,7 +259,7 @@
 	.4byte lbl_8049A00C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A01C
+	.4byte lbl_s_EmWalkyData.dat_8049a01c
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A02C

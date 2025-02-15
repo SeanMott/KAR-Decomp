@@ -24077,7 +24077,7 @@
 
 # .sdata:0x78DC | 0x805DC9BC | size: 0x4
 .obj lbl_805DC9BC, global
-	.4byte fn_803DD0A0
+	.4byte fn_SPEC2_MakeStatus
 .endobj lbl_805DC9BC
 
 # .sdata:0x78E0 | 0x805DC9C0 | size: 0x4

@@ -1183,9 +1183,9 @@
 .endobj lbl_8049A00C
 
 # .data:0xE24 | 0x8049A01C | size: 0x10
-.obj lbl_8049A01C, global
+.obj lbl_s_EmWalkyData.dat_8049a01c, global
 	.string "EmWalkyData.dat"
-.endobj lbl_8049A01C
+.endobj lbl_s_EmWalkyData.dat_8049a01c
 
 # .data:0xE34 | 0x8049A02C | size: 0x10
 .obj lbl_8049A02C, global
