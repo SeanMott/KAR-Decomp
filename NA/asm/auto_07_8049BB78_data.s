@@ -23851,7 +23851,7 @@
 	.4byte 0x0000007C
 	.4byte 0x00000000
 	.4byte fn_801AB514
-	.4byte fn_801AB554
+	.4byte fn_groundLogic
 	.4byte fn_801AB5A4
 	.4byte fn_801AB5C4
 	.4byte fn_801AB5E4
@@ -24892,14 +24892,14 @@
 .obj lbl_804AF4F0, global
 	.4byte fn_ability_Fire
 	.4byte fn_ability_Wheel
-	.4byte fn_801B0BF0
+	.4byte fn_ability_Sleep
 	.4byte fn_801AFD54
 	.4byte fn_ability_Bomb
 	.4byte fn_ability_Plasma
 	.4byte fn_801B3688
 	.4byte fn_ability_Mic
 	.4byte fn_ability_Ice
-	.4byte fn_801B4A3C
+	.4byte fn_ability_Tornado
 	.4byte fn_Ability_Bird
 .endobj lbl_804AF4F0
 
@@ -25269,7 +25269,7 @@
 	.4byte 0x00000065
 	.4byte 0x00000000
 	.4byte fn_801BEFCC
-	.4byte fn_801BF008
+	.4byte fn_chargeMain_Dedede
 	.4byte fn_801BF040
 	.4byte fn_801BF060
 	.4byte fn_801BF080
@@ -107083,7 +107083,7 @@
 	.4byte fn_802905F8
 	.4byte fn_80371AA0
 	.4byte fn_8029D72C
-	.4byte fn_8029D704
+	.4byte fn_glEndFrame_TakeNoParam
 	.4byte lbl_805DB9F0
 	.4byte 0xFFFFFFF4
 	.4byte fn_803749FC
@@ -117526,7 +117526,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte fn_803C2878
+	.4byte fn___TRK_write_console
 	.4byte fn_803B98B4
 	.4byte fn_803B98AC
 	.4byte 0x00000000
@@ -117547,7 +117547,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte fn_803C2878
+	.4byte fn___TRK_write_console
 	.4byte fn_803B98B4
 	.4byte fn_803B98AC
 	.4byte 0x00000000
@@ -117568,7 +117568,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte fn_803C2878
+	.4byte fn___TRK_write_console
 	.4byte fn_803B98B4
 	.4byte fn_803B98AC
 	.4byte 0x00000000
@@ -121808,33 +121808,33 @@
 
 # .data:0x60BBC | 0x804FC734 | size: 0x6C
 .obj jumptable_804FC734, global
-	.4byte fn_803DDA14+0x28
-	.4byte fn_803DDA14+0x30
-	.4byte fn_803DDA14+0x68
-	.4byte fn_803DDA14+0x70
-	.4byte fn_803DDA14+0x38
-	.4byte fn_803DDA14+0x40
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x58
-	.4byte fn_803DDA14+0x60
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x78
-	.4byte fn_803DDA14+0x80
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x48
-	.4byte fn_803DDA14+0x50
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x88
-	.4byte fn_803DDA14+0x98
-	.4byte fn_803DDA14+0x90
+	.4byte fn_getTiming+0x28
+	.4byte fn_getTiming+0x30
+	.4byte fn_getTiming+0x68
+	.4byte fn_getTiming+0x70
+	.4byte fn_getTiming+0x38
+	.4byte fn_getTiming+0x40
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x58
+	.4byte fn_getTiming+0x60
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x78
+	.4byte fn_getTiming+0x80
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x48
+	.4byte fn_getTiming+0x50
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x88
+	.4byte fn_getTiming+0x98
+	.4byte fn_getTiming+0x90
 .endobj jumptable_804FC734
 
 # .data:0x60C28 | 0x804FC7A0 | size: 0x154
@@ -127840,14 +127840,14 @@
 
 # .data:0x6671C | 0x80502294 | size: 0x20
 .obj jumptable_80502294, global
-	.4byte fn_803F7754+0x2C
-	.4byte fn_803F7754+0x34
-	.4byte fn_803F7754+0x3C
-	.4byte fn_803F7754+0x44
-	.4byte fn_803F7754+0x4C
-	.4byte fn_803F7754+0x54
-	.4byte fn_803F7754+0x5C
-	.4byte fn_803F7754+0x64
+	.4byte fn_HSD_Index2TexMap?+0x2C
+	.4byte fn_HSD_Index2TexMap?+0x34
+	.4byte fn_HSD_Index2TexMap?+0x3C
+	.4byte fn_HSD_Index2TexMap?+0x44
+	.4byte fn_HSD_Index2TexMap?+0x4C
+	.4byte fn_HSD_Index2TexMap?+0x54
+	.4byte fn_HSD_Index2TexMap?+0x5C
+	.4byte fn_HSD_Index2TexMap?+0x64
 .endobj jumptable_80502294
 
 # .data:0x6673C | 0x805022B4 | size: 0x4C
@@ -130976,13 +130976,13 @@
 
 # .data:0x68F38 | 0x80504AB0 | size: 0x1C
 .obj jumptable_80504AB0, global
-	.4byte fn_804224D0+0x13C
-	.4byte fn_804224D0+0x144
-	.4byte fn_804224D0+0x14C
-	.4byte fn_804224D0+0x16C
-	.4byte fn_804224D0+0x154
-	.4byte fn_804224D0+0x15C
-	.4byte fn_804224D0+0x164
+	.4byte fn_HSD_TExpColorInSub+0x13C
+	.4byte fn_HSD_TExpColorInSub+0x144
+	.4byte fn_HSD_TExpColorInSub+0x14C
+	.4byte fn_HSD_TExpColorInSub+0x16C
+	.4byte fn_HSD_TExpColorInSub+0x154
+	.4byte fn_HSD_TExpColorInSub+0x15C
+	.4byte fn_HSD_TExpColorInSub+0x164
 .endobj jumptable_80504AB0
 
 # .data:0x68F54 | 0x80504ACC | size: 0x84
@@ -131357,7 +131357,7 @@
 # .data:0x693A8 | 0x80504F20 | size: 0x10
 .obj lbl_80504F20, global
 	.4byte fn_8042A2E4
-	.4byte fn_803FFA40
+	.4byte fn_HSD_LObjRemoveAll?
 	.4byte fn_8040B920
 	.4byte fn_8042A37C
 .endobj lbl_80504F20

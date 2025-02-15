@@ -3676,7 +3676,7 @@
 	.4byte lbl_805DCC0C
 	.4byte fn_803F8A48
 	.4byte lbl_805DCC14
-	.4byte fn_803F8A60
+	.4byte fn_HSD_ChanGetAllocData
 	.4byte lbl_805DCC1C
 	.4byte fn_803F8A54
 	.4byte lbl_805DCC24
