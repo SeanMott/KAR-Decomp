@@ -7444,7 +7444,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800AFA00
+	.4byte fn_debug_memCard_something?
 	.4byte lbl_804A1898
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -89679,7 +89679,7 @@
 	.4byte lbl_805DA778
 	.4byte 0x00000000
 	.4byte fn_80313A20
-	.4byte fn_80325244
+	.4byte fn_GoalOverlay_SceneCreated_TakeNoParam
 .endobj lbl_804E2BE8
 
 # .data:0x47080 | 0x804E2BF8 | size: 0x1C
@@ -117359,7 +117359,7 @@
 	.4byte fn_803AB9EC
 	.4byte fn_803ABDAC
 	.4byte fn_80287118
-	.4byte fn_803ACA64
+	.4byte fn_CommonDesireData_CalcBoolChance_TakeParam_Float
 	.4byte fn_803A2D34
 	.4byte fn_803A2E18
 	.4byte fn_803A3078
@@ -127564,14 +127564,14 @@
 
 # .data:0x663D0 | 0x80501F48 | size: 0x20
 .obj jumptable_80501F48, global
-	.4byte fn_803F5698+0x2C
-	.4byte fn_803F5698+0x34
-	.4byte fn_803F5698+0x3C
-	.4byte fn_803F5698+0x44
-	.4byte fn_803F5698+0x4C
-	.4byte fn_803F5698+0x54
-	.4byte fn_803F5698+0x5C
-	.4byte fn_803F5698+0x64
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x2C
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x34
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x3C
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x44
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x4C
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x54
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x5C
+	.4byte fn_HSD_TexMapID2PTTexMtx+0x64
 .endobj jumptable_80501F48
 
 # .data:0x663F0 | 0x80501F68 | size: 0x24
@@ -127965,7 +127965,7 @@
 	.4byte 0x00000020
 	.4byte fn__HSD_StateInvalidateTexCoordGen
 	.4byte 0x00000040
-	.4byte fn_803F8934
+	.4byte fn__HSD_StateInvalidateRenderMode
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_80502420
@@ -130513,7 +130513,7 @@
 
 # .data:0x68930 | 0x805044A8 | size: 0x3C
 .obj lbl_805044A8, global
-	.4byte fn_8041BED8
+	.4byte fn_ObjInfoInit
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -180024,7 +180024,7 @@
 
 # .data:0x9858C | 0x80534104 | size: 0x14
 .obj lbl_80534104, global
-	.4byte fn_80471CAC
+	.4byte fn_OnReset3
 	.4byte 0x0000006F
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -180315,16 +180315,16 @@
 
 # .data:0x988E8 | 0x80534460 | size: 0x28
 .obj jumptable_80534460, global
-	.4byte fn_8047ECF8+0x130
-	.4byte fn_8047ECF8+0x130
-	.4byte fn_8047ECF8+0x34
-	.4byte fn_8047ECF8+0x54
-	.4byte fn_8047ECF8+0x74
-	.4byte fn_8047ECF8+0x94
-	.4byte fn_8047ECF8+0xB4
-	.4byte fn_8047ECF8+0xD4
-	.4byte fn_8047ECF8+0xF4
-	.4byte fn_8047ECF8+0x114
+	.4byte fn_ReceiveUnknownCode+0x130
+	.4byte fn_ReceiveUnknownCode+0x130
+	.4byte fn_ReceiveUnknownCode+0x34
+	.4byte fn_ReceiveUnknownCode+0x54
+	.4byte fn_ReceiveUnknownCode+0x74
+	.4byte fn_ReceiveUnknownCode+0x94
+	.4byte fn_ReceiveUnknownCode+0xB4
+	.4byte fn_ReceiveUnknownCode+0xD4
+	.4byte fn_ReceiveUnknownCode+0xF4
+	.4byte fn_ReceiveUnknownCode+0x114
 .endobj jumptable_80534460
 
 # .data:0x98910 | 0x80534488 | size: 0x28

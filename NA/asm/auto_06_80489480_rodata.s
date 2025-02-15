@@ -3648,7 +3648,7 @@
 	.4byte fn__HSD_IDForgetMemory
 	.4byte fn__HSD_ObjAllocForgetMemory
 	.4byte fn_8041E6A4
-	.4byte fn_8041A504
+	.4byte fn__HSD_RObjForgetMemory?
 	.4byte 0x00000000
 .endobj lbl_8048C4A8
 
@@ -3672,13 +3672,13 @@
 	.4byte lbl_805DCBFC
 	.4byte fn_HSD_RvalueObjGetAllocData
 	.4byte lbl_805DCC04
-	.4byte fn_8041CF1C
+	.4byte fn_HSD_ShadowGetAllocData
 	.4byte lbl_805DCC0C
 	.4byte fn_HSD_RenderGetAllocData
 	.4byte lbl_805DCC14
 	.4byte fn_HSD_ChanGetAllocData
 	.4byte lbl_805DCC1C
-	.4byte fn_803F8A54
+	.4byte fn_HSD_TevRegGetAllocData
 	.4byte lbl_805DCC24
 	.4byte 0x00000000
 	.4byte 0x00000000
