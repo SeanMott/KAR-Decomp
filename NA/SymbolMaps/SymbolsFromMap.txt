@@ -1,2124 +1,372 @@
-80113914 000110 80113914  4 renderPauseHUD 	Global
-
-8010db64 000038 8010db64  4 whispyLogic 	Global
-
-803f7698 000000bc 803f7698 0 HSD_Index2TexMtx
-
-80410b38 00000054 80410b38 0 HSD_VISetUserGXDrawDoneCallback
-
-803f743c 00000094 803f743c 0 HSD_TGTex2Index
-
-8040bcfc 00000050 8040bcfc 0 HSD_JObjDeleteRObj
-
-803e217c 000000c0 803e217c 0 __CARDEnableInterrupt
-
-801a75a8 000000d4 801a75a8 0 ability_Mic_giveHat
-
-803c3474 00000048 803c3474 0 __DBExceptionDestinationAux
-
-803c4958 000000a4 803c4958 0 DVDLowReadDiskID
-
-80481fe0 00000074 80481fe0 0 IGMPInit
-
-800e5340 000000f8 800e5340 0 loadGlobalDeadLocations?
-
-803f7c40 00000060 803f7c40 0 TObjAmnesia
-
-804208dc 000001c8 804208dc 0 hsdAllocMemPiece
-
-800ad97c 00000078 800ad97c 0 debug_openRace3DMode
-
-8010be88 000002dc 8010be88 0 spawnUFOItems
-
-803b3830 00000034 803b3830 0 __prep_buffer
-
-803c614c 00000034 803c614c 0 stateCheckID3
-
-803d89fc 000000f4 803d89fc 0 __OSResetSWInterruptHandler
-
-80010fac 0000002c 80010fac 0 IChooseCaptain::SetPhaseReady(int)
-
-803c4ed4 000002f4 803c4ed4 0 DVDConvertPathToEntrynum
-
-803ffe0c 00000018 803ffe0c 0 HSD_LObjGetInterestWObj
-
-801a7080 000118 801a7080  4 ability_Plasma_giveHat 	Global
-
-8040e424 000002f4 8040e424 0 mkVBillBoardMtx
-
-803ebbe4 000001bc 803ebbe4 0 __OSEnableBarnacle
-
-803aec9c 0000005c 803aec9c 0 FormationOffensive::__dt(void)
-
-8041bc54 0000000c 8041bc54 0 HSD_SListGetAllocData
-
-80191a58 000000e8 80191a58 0 ground_Spin
-
-801e6520 000150 801e6520  4 setFallDeath 	Global
-
-803d3f24 00000030 803d3f24 0 DCFlushRange
-
-801a8df8 00000170 801a8df8 0 spawnStarBullet?
-
-803b49f4 000000bc 803b49f4 0 __copy_longs_aligned
-
-80111078 0000a4 80111078  4 event_restorationAreas_start 	Global
-
-803c7f14 000000a0 803c7f14 0 __DVDPopWaitingQueue
-
-803ccf88 0000001c 803ccf88 0 GXInitLightAttn
-
-803b4ac0 000000e0 803b4ac0 0 sprintf
-
-8046a248 00000144 8046a248 0 Encode
-
-803f7a7c 000000b0 803f7a7c 0 HSD_ImageDescCopyFromEFB
-
-803d806c 00000100 803d806c 0 __OSCheckMutex
-
-8000aaf0 0000002c 8000aaf0 0 getMaxStatsValue
-
-803c5a14 00000034 803c5a14 0 stateTimeout
-
-8046f174 0000001c 8046f174 0 IPGetConfigError
-
-801886c8 0000002c 801886c8 0 EmissionManager::ResetLingerers(void)
-
-80261d68 0000003c 80261d68 0 stLoadStageCommon
-
-80262574 00000084 80262574 0 stGetCurrentStageKind_30city?
-
-80423154 00000178 80423154 0 AssignColorReg
-
-8040279c 00000030 8040279c 0 HSD_CObjSetupViewingMtx?
-
-803c0818 00000084 803c0818 0 TRKTargetAddExceptionInfo
-
-803affec 000000a8 803affec 0 __close_all
-
-80112af8 00000014 80112af8 0 THPSimpleAudioStop
-
-8041ba50 00000074 8041ba50 0 HSD_PerfSetCPUTime
-
-8046dc28 0000001c 8046dc28 0 IPIsLoopbackAddr
-
-801117f0 000094 801117f0  4 event_secretChamber_start 	Global
-
-80137b2c 000038 80137b2c  4 fn_GetPersoNegativeSighting 	Global
-
-803d3ef8 0000002c 803d3ef8 0 DCInvalidateRange
-
-80261f58 00000084 80261f58 0 stGetCurrentStageKind_UraBgmId?
-
-803c806c 0000011c 803c806c 0 ErrorCode2Num
-
-8049a9cc 000004 8049a9cc  4 sp_Connect_the_Nintendo_GameCube 	Global
-
-803c23c4 0000003c 803c23c4 0 TRKWriteUARTN
-
-803cecd0 00000068 803cecd0 0 GXSetTevAlphaOp
-
-803dd498 00000194 803dd498 0 PADOnReset
-
-8045adac 00000010 8045adac 0 THPSimpleGetCurrentFrame
-
-803fb178 00000018 803fb178 0 HSD_AObjGetFlags
-
-8046afc0 00000240 8046afc0 0 IPSetSockOpt
-
-803f98b0 0000000c 803f98b0 0 _HSD_StateInvalidateTexCoordGen
-
-801b3500 000168 801b3500  4 ability_Plasma_DecreaseTimerByShot 	Global
-
-803c31ec 00000088 803c31ec 0 ddh_cc_initialize
-
-80111f00 000000b0 80111f00 0 event_lighthouse_start
-
-8046e440 000003e8 8046e440 0 IPRedirect
-
-801c8384 00000080 801c8384 0 setEmptyVehicleHitbox
-
-803bceec 0000008c 803bceec 0 frexp
-
-803adb30 0000003c 803adb30 0 _savegpr_18
-
-800082d0 000005c8 800082d0 0 loadMain_Two
-
-803c5e20 00000098 803c5e20 0 cbForUnrecoveredErrorRetry
-
-8022c86c 00000014 8022c86c 0 plSetPlayerKind
-
-803462d8 0000002c 803462d8 0 NSNMessengerScene::SceneCreated(void)
-
-803ce764 0000017c 803ce764 0 GXSetIndTexCoordScale
-
-803c2f4c 00000070 803c2f4c 0 ddh_cc_peek
-
-803b98b4 000000d0 803b98b4 0 __write_console
-
-803d9918 00000064 803d9918 0 __OSInitSystemCall
-
-80190400 000018 80190400  4 __sinit_ParticleSystem_cpp 	Global
-
-804190ac 00000484 804190ac 0 HSD_RObjUpdateAll
-
-800afdf8 00000038 800afdf8 0 menu_loadLANMenu
-
-80402c50 00000020 80402c50 0 HSD_CObjSetFov
-
-80059d50 00000028 80059d50 0 cCameraManager::HasCamera(cBaseCamera *)
-
-80135c2c 00000020 80135c2c 0 CSS_updatePlayerAButton
-
-803e72b8 00000008 803e72b8 0 __CARDIsOpened
-
-80189d28 00000c 80189d28  4 __flush_callback__Fv 	Global
-
-80192758 00000c 80192758  4 IsLingering 	EmissionController
-
-804725bc 000000e0 804725bc 0 TCPCheckSum
-
-801c24e4 00000028 801c24e4 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
-
-803dd9d0 00000044 803dd9d0 0 VISetPostRetraceCallback
-
-803e8ea0 000000cc 803e8ea0 0 SIRegisterPollingHandler
-
-8040a64c 0000003c 8040a64c 0 HSD_JObjAnimAll?
-
-801ab300 000070 801ab300  4 groundControl 	Global
-
-804721c0 00000028 804721c0 0 IFRingPut
-
-801c552c 000478 801c552c  4 initHitboxStruct 	Global
-
-8041838c 00000044 8041838c 0 HSD_RObjInitAllocData
-
-803f85c8 00000090 803f85c8 0 HSD_StateSetZMode
-
-80481790 000000c4 80481790 0 CHAPOut
-
-803b4584 000000ec 803b4584 0 is_utf8_complete
-
-801a1f3c 00002c 801a1f3c  4 GphProc 	cGSMess
-
-803d0814 000000b4 803d0814 0 GXLoadTexMtxImm
-
-80405828 00000074 80405828 0 HSD_PObjRemoveAll
-
-804112b4 00000208 804112b4 0 HSD_VICopyXFBAsync
-
-803fdb3c 00000048 803fdb3c 0 HSD_LObjGetActiveByID
-
-8047567c 000000bc 8047567c 0 TCPBind
-
-803d2098 00000024 803d2098 0 PSVECAdd
-
-803be8cc 000000a8 803be8cc 0 TRKDoStop
-
-8041d770 000001c8 8041d770 0 HSD_ShadowSetActive?
-
-8041be38 00000050 8041be38 0 HSD_SListPrependList
-
-800e5438 00000028 800e5438 0 grGetLocalDeadPosNum
-
-8041e610 00000058 8041e610 0 HSD_Randf
-
-803b7788 00000548 803b7788 0 parse_format
-
-804183d0 0000000c 804183d0 0 HSD_RObjGetAllocData
-
-8000aa2c 00000060 8000aa2c 0 playerDies
-
-803f492c 0000006c 803f492c 0 HSD_DObjResolveRefsAll
-
-803eb474 000000dc 803eb474 0 EXIUnlock
-
-80415958 00000048 80415958 0 splArcLengthPoint
-
-80196f18 000020 80196f18  4 give_Model? 	Global
-
-803adb48 00000024 803adb48 0 _savegpr_24
-
-8018e21c 000364 8018e21c  4 initPlayerBlock? 	Global
-
-8011024c 0001f8 8011024c  4 event_dynablade 	Global
-
-8040fbe8 00000034 8040fbe8 0 _HSD_DispForgetMemory
-
-801b5c24 000094 801b5c24  4 fireCrackerInit 	Global
-
-804018ac 0000006c 804018ac 0 HSD_CObjSetEyePosition
-
-8046baa4 000000b4 8046baa4 0 ARPInit
-
-800f82a0 0000004c 800f82a0 0 grLoadYakumono_Main
-
-8046ed28 00000288 8046ed28 0 DecayRoute
-
-804034a8 00000060 804034a8 0 CObjAmnesia
-
-803c2734 00000038 803c2734 0 TRKEXICallBack
-
-803adb2c 00000040 803adb2c 0 _savegpr_17
-
-803e70ec 00000178 803e70ec 0 CARDOpen
-
-80103eb8 000244 80103eb8  4 hitBigStar 	Global
-
-803cf058 00000004 803cf058 0 GX_blr
-
-804016c4 00000024 804016c4 0 HSD_CObjEndCurrent
-
-80135594 000020 80135594  4 CSS_updatePlayerColorIndicatorOutside 	Global
-
-803adb38 00000034 803adb38 0 _savegpr_20
-
-800d1d70 00000028 800d1d70 0 grGetStageFogFlag2
-
-803e48a8 0000009c 803e48a8 0 __CARDFreeBlock
-
-801bf12c 00004c 801bf12c  4 dededeReleaseCharge 	Global
-
-80071d00 00000048 80071d00 0 Rumble Function?
-
-803db46c 000000ac 803db46c 0 OSClearStack
-
-803dac80 0000009c 803dac80 0 CheckThreadQueue
-
-803d3784 00000010 803d3784 0 OSSetCurrentHeap
-
-80410544 000000a0 80410544 0 HSD_StartRender
-
-801a735c 00000174 801a735c 0 ability_Spike_changeNeedle
-
-803e2ed4 00000150 803e2ed4 0 CARDFreeBlocks
-
-803ccf50 00000038 803ccf50 0 GXClearBoundingBox
-
-803f5be8 00000290 803f5be8 0 HSD_TObjSetupTextureCoordGen
-
-803cd4a0 00000044 803cd4a0 0 GXSetNumChans
-
-803db538 00000064 803db538 0 __OSGetSystemTime
-
-803cf720 00000100 803cf720 0 GXSetFogRangeAdj
-
-803f8a48 0000000c 803f8a48 0 HSD_RenderGetAllocData
-
-801babd4 00009c 801babd4  4 AS_Wait2? 	Global
-
-803e878c 0000003c 803e878c 0 SIIsChanBusy
-
-80009630 00000028 80009630 0 ?loadData2
-
-803fda6c 00000054 803fda6c 0 HSD_AObjSetCurrentFrame
-
-801b2a4c 000000b8 801b2a4c 0 ability_Plasma
-
-803e27b8 000001b4 803e27b8 0 __CARDStart
-
-803cef00 0000006c 803cef00 0 GXSetTevKAlphaSel
-
-803d2498 00000128 803d2498 0 ClearArena
-
-80402cf4 00000010 80402cf4 0 HSD_CObjSetFar
-
-803d0ab8 00000040 803d0ab8 0 GXSetScissorBoxOffset
-
-803fda3c 00000010 803fda3c 0 HSD_AObjSetRate
-
-8041d1cc 00000160 8041d1cc 0 HSD_ShadowSetSize
-
-803f7558 00000090 803f7558 0 HSD_TexCoord2Index?
-
-801c24e4 000028 801c24e4  4 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned 	Global
-
-803cb69c 0000008c 803cb69c 0 GXSetArray
-
-804188bc 000005e8 804188bc 0 resolveCnsDirUp?
-
-801df840 00000234 801df840 0 cityTrialCheckToSpawnStar
-
-80407e48 00000098 80407e48 0 PObjInfoInit
-
-80135970 000044 80135970  4 CSS_updateMachineSelectFrame 	Global
-
-803b46bc 0000002c 803b46bc 0 __memrchr
-
-803d70bc 00000014 803d70bc 0 OSEnableInterrupts
-
-803d145c 000000cc 803d145c 0 PSMTXConcat
-
-80477d60 00000084 80477d60 0 DNSClose
-
-803de48c 000001a0 803de48c 0 setVerticalRegs
-
-803c3fc8 00000094 803c3fc8 0 __DSP_remove_task
-
-80424128 000004fc 80424128 0 HSD_TExpSetReg
-
-800af594 00000030 800af594 0 debug_movieTestinBetween
-
-801cacf4 0000004c 801cacf4 0 collideWithStat?
-
-801b3688 00008c 801b3688  4 ability_Spike 	Global
-
-803e232c 000000ac 803e232c 0 __CARDClearStatus
-
-80116d8c 00000a74 80116d8c 0 cityTrial_calculateStats
-
-80127234 000330 80127234  4 cityTrial_drawStatNameAndArrow 	Global
-
-804221e0 00000120 804221e0 0 HSD_TExpCnst
-
-80137a00 000030 80137a00  4 nlInit(void) 	Global
-
-8018cf94 00000214 8018cf94 0 setDamageQueue
-
-80104db0 000060 80104db0  4 hitBigStar_SpawnPowerups 	Global
-
-803bd3a8 00000020 803bd3a8 0 asin?
-
-803d7e58 000000dc 803d7e58 0 OSLockMutex
-
-801ae7f4 00009c 801ae7f4  4 randomAbility_aPress 	Global
-
-801a50f0 000000a8 801a50f0 0 AS_DeadWait
-
 80470dd8 0000025c 80470dd8 0 IPReassemble
-
 801118dc 000050 801118dc  4 event_denseFog 	Global
-
 80419c50 0000049c 80419c50 0 expEvaluate
-
 801bc5a8 000000ac 801bc5a8 0 Animation_Jump
-
 803d4af0 000000cc 803d4af0 0 OSSwitchFPUContext
-
 8046f190 00000064 8046f190 0 IPSetConfigError
-
 801b853c 0000ac 801b853c  4 Interrupt_AS_Dash 	Global
-
 80482180 000002a0 80482180 0 IPMulticastJoin
-
 80190dc0 00000010 80190dc0 0 cGameSFX::Init(void)
-
 8041a740 00000088 8041a740 0 HSD_IDGetDataFromTable
-
 801b5480 00000104 801b5480 0 ability_Bird
-
 8019dc74 000144 8019dc74  4 checkDropPatches 	Global
-
 803cbfa8 00000014 803cbfa8 0 GXPokeDstAlpha
-
 804751e0 0000003c 804751e0 0 TCPCancelRxmitTimer
-
 804799d0 00000120 804799d0 0 Restart
-
 803be15c 00000040 803be15c 0 TRKResetBuffer
-
 803c49fc 0000008c 803c49fc 0 DVDLowStopMotor
-
 80417d10 0000000c 80417d10 0 HSD_MtxGetAllocData
 
 8046c4a8 0000003c 8046c4a8 0 ARPCancel
-
 803dfbd4 0000007c 803dfbd4 0 __AISHandler
-
 80477f54 000003b4 80477f54 0 DHCPProcessOptions
-
 801b3b44 000094 801b3b44  4 abilityTimer_Spike_remove 	Global
-
 803c4e40 00000018 803c4e40 0 DVDLowClearCallback
-
-80404928 000006d4 80404928 0 HSD_FObjInterpretAnim
-
+80404928 000006d4 80404928 0 
 803bdc1c 00000098 803bdc1c 0 TRKReadBuffer_ui8
-
 8046c568 000000ac 8046c568 0 ARPGratuitous
-
 801bf008 00000038 801bf008 0 chargeMain_Dedede
-
 803bdcb4 000000e8 803bdcb4 0 TRKReadBuffer1_ui64
-
 80411008 00000044 80411008 0 HSD_VIGXDrawDoneCB
-
 801b60b4 000001b0 801b60b4 0 firecrackerLogic_Ground
-
 803b376c 000000c4 803b376c 0 __flush_buffer
 
 803d8f20 00000134 803d8f20 0 __OSInitSram
-
 8041bbb4 0000005c 8041bbb4 0 HSD_PerfCountEnvelopeBlending
-
 801a5fb8 000030 801a5fb8  4 randomAbility_mainLoop 	Global
-
 803c2dc8 00000108 803c2dc8 0 CircleBufferWriteBytes
-
 803ae014 00000028 803ae014 0 __shr2i
-
 803dbf94 000000d8 803dbf94 0 PADProbeCallback
-
 803b4ab0 00000010 803b4ab0 0 __sinit_AILoader_cpp
-
 80423090 000000c4 80423090 0 HSD_TExpOrder
-
-804037c0 00000098 804037c0 0 HSD_FObjStopAnimAll
-
+804037c0 00000098 804037c0 0 
 803bb3b0 000003a0 803bb3b0 0 __ieee754_rem_pio2
-
 8047013c 00000078 8047013c 0 UDPReceiveEx
-
 800ecdf4 000001b8 800ecdf4 0 PowerUp_SpawnFromSky
-
 803c3570 00000014 803c3570 0 DSPSendMailToDSP
-
 803b4f24 00000774 803b4f24 0 __pformatter
-
 803f75e8 000000b0 803f75e8 0 HSD_TexMtx2Index
-
 803be6ac 00000170 803be6ac 0 TRKDispatchMessage
-
 801afc70 000050 801afc70  4 abilityTimer_Sword_revertModel 	Global
-
 801a7828 000004 801a7828  4 ability_Ice_end 	Global
-
 8040b920 000001a8 8040b920 0 HSD_JObjRemoveAll?
-
 80132888 000020 80132888  4 Updates 	Global
 
 803c4e2c 00000014 803c4e2c 0 DVDLowBreak
-
 804755b4 00000038 804755b4 0 TCPLookupInfo
-
 80198c20 000000fc 80198c20 0 ChangeFace
-
 8041afb4 00000054 8041afb4 0 WObjRelease
-
 80000f00 00000098 80000f00 0 performance_monitor_interrupt_handler
-
 803d29d4 00000280 803d29d4 0 OSExceptionInit
-
 801b9df8 00000090 801b9df8 0 AS_ExitStar
-
 803b6c88 000000c4 803b6c88 0 sscanf
-
 801a95a0 000002d0 801a95a0 0 spawnPlasmaBullet
-
 80110638 000030 80110638  4 event_tac_end2 	Global
-
 803e9320 0000007c 803e9320 0 SIGetStatus
-
 801a7754 0000d4 801a7754  4 ability_Ice_giveHat 	Global
-
 803be484 00000060 803be484 0 TRKGetInput
-
 80003238 00000030 80003238 0 TRK_memset
-
 80416b08 0000001c 80416b08 0 HSD_MtxGetTranslate
-
 80190dd0 000010 80190dd0  4 cGameSFX::Init(void) 	Global
-
 80400ae4 00000264 80400ae4 0 setupTopHalfCamera?
 
 800add20 00000064 800add20 0 debug_openLANEmulate
-
 803d0af8 00000028 803d0af8 0 GXSetClipMode
-
 8046f320 00000090 8046f320 0 UDPBind
-
 803fdae4 00000018 803fdae4 0 HSD_LObjSetFlags
-
 803d0384 00000070 803d0384 0 GXCallDisplayList
-
 8026267c 00000084 8026267c 0 stGetStageKind_34?
-
 801a9cb4 0001c4 801a9cb4  4 spawnCrackerBullet 	Global
-
 801b4908 0000003c 801b4908 0 PhysicsCharacter::PreCollide(void)
-
 803c3538 00000010 803c3538 0 DSPCheckMailToDSP
-
 801b11d4 0000a0 801b11d4  4 ability_Bomb 	Global
-
 8019f6cc 000000d4 8019f6cc 0 AS_JumpOnStarIntro
-
 801a9e78 00000170 801a9e78 0 spawnSensorBomb
-
 8046c614 00000094 8046c614 0 ClaimHandler
-
 800076a0 0000007c 800076a0 0 gmGetClearcheckerTypeP
-
 80482054 00000080 80482054 0 IGMPOnReset
-
 8022c858 00000014 8022c858 0 plGetPlayerKind
 
 8018ee28 000006c0 8018ee28 0 PlayerThink
-
 803da0d0 000001e8 803da0d0 0 OSCreateThread
-
 8040add4 00000214 8040add4 0 JObjLoad
-
 8027b9c0 0000000c 8027b9c0 0 GameInfoManager::SetUserSelectedCupSidekick(eSidekickID)
-
 80198b00 000090 80198b00  4 FrameTimer? 	Global
-
 802c40e4 00000018 802c40e4 0 cPoseNode::__ct(void)
-
 80111b9c 00000028 80111b9c 0 event_sameItems_start
-
 801d7604 000001f4 801d7604 0 setHeadOnHitBox?
-
 803c3430 00000028 803c3430 0 DBInit
-
 8041b850 000000cc 8041b850 0 FogRelease
-
 8046c0e4 000001c0 8046c0e4 0 ARPUpdate
-
 801934dc 000024 801934dc  4 setCameraToOnFoot 	Global
 
 80110c0c 00000328 80110c0c 0 event_meteor
-
 8046cf80 00000044 8046cf80 0 DoNotify
-
 8008134c 000002b4 8008134c 0 debug_SpawnItems
-
 801a6840 00000128 801a6840 0 ability_Fire_giveHat
-
 801abe48 000038 801abe48  4 AS_StarScuttleForward 	Global
-
 8040be00 000002d8 8040be00 0 removeBigStarModel
-
 804212b4 00000040 804212b4 0 hsdSearchClassInfo
-
 803e554c 0000008c 803e554c 0 __CARDVerify
-
 803df828 00000010 803df828 0 AIGetStreamPlayState_1
-
 8041d938 000000ac 8041d938 0 HSD_ShadowAddObject
-
 803fdb24 00000008 803fdb24 0 HSD_LObjGetLightMaskAlpha
-
 801f05bc 00000038 801f05bc 0 charge_whileGrindingChargingCheck
-
 803f98c4 00000018 803f98c4 0 HSD_MObjSetFlags
-
 803b6784 00000504 803b6784 0 parse_format
-
 801bc2d8 000038 801bc2d8  4 Interrupt_CheckForJump 	Global
-
 803e0298 000017f4 803e0298 0 __ARChecksize
-
 803c856c 0000007c 803c856c 0 __GXDefaultTexRegionCallback
-
 801e0370 000128 801e0370  4 spawnFormationStar_setParam 	Global
 
 803e33bc 000000c4 803e33bc 0 DummyLen
-
 803f3bb8 0000008c 803f3bb8 0 DBRead
-
 8018a118 00000070 8018a118 0 setInitHitboxValues
-
 800df4b0 00000010 800df4b0 0 cAnimInventory::GetAnim(int)
-
 8041cf1c 0000000c 8041cf1c 0 HSD_ShadowGetAllocData
-
 80418234 00000028 80418234 0 HSD_ObjFree
-
 80135c2c 000020 80135c2c  4 CSS_updatePlayerAButton 	Global
-
 803e55d8 00000590 803e55d8 0 CARDCheckExAsync
-
 80117bb0 00000238 80117bb0 0 updateGraphic_SpeedometerCheck
-
 80107914 000002e8 80107914 0 hitWeakObject
-
 80471cac 000000e4 80471cac 0 OnReset
-
 803c6118 00000034 803c6118 0 stateCheckID3
-
 803bd238 000000d8 803bd238 0 sin
-
 803bde98 00000068 803bde98 0 TRKAppendBuffer_ui8
-
 803bd99c 0000014c 803bd99c 0 TRKInitializeNub
-
 803eaec4 00000218 803eaec4 0 TCIntrruptHandler
-
 80402cb4 00000018 80402cb4 0 HSD_CObjGetNear
-
 80112464 00000290 80112464 0 drawHUD
 
 8040c7d0 00000190 8040c7d0 0 HSD_JObjSetCurrent
-
 803f5698 00000094 803f5698 0 HSD_TexMapID2PTTexMtx
-
 801c7c88 0000000c 801c7c88 0 EmissionController::IsLingering( (void))
-
-80404ffc 00000070 80404ffc 0 HSD_FObjInterpretAnimAll
-
+80404ffc 00000070 80404ffc 0 
 801a727c 0000e0 801a727c  4 ability_Spike_giveHat 	Global
-
 804858fc 0000000c 804858fc 0 GetOneTimerLeadGroundContactAnims(void)
-
 803afac8 00000070 803afac8 0 free
-
 803cac04 00000038 803cac04 0 GXClearVtxDesc
-
 803aca64 00000024 803aca64 0 CommonDesireData::CalcBoolChance(float)
-
 801c552c 00000478 801c552c 0 initHitboxStruct
-
 803f7924 00000058 803f7924 0 HSD_TlutAlloc
-
 803bd518 00000024 803bd518 0 tan
-
 803bdae8 00000044 803bdae8 0 TRKMessageSend
-
 803f4b7c 00000060 803f4b7c 0 HSD_TObjRemoveAnimAll
-
 8040f00c 00000100 8040f00c 0 mkRBillBoardMtx
-
 804665e0 00000158 804665e0 0 readbuffer1
-
 803e6214 00000138 803e6214 0 __CARDMountCallback
-
 8046b2a8 000002bc 8046b2a8 0 IPIn
 
 803c622c 00000114 803c622c 0 cbForStateCheckID1
-
 80470110 0000002c 80470110 0 UDPReceiveAsync
-
 801bf12c 0000004c 801bf12c 0 dededeReleaseCharge
-
 803f8a6c 000003a4 803f8a6c 0 HSD_SetupChannel
-
 803d20e0 0000001c 803d20e0 0 PSVECScale
-
 803df654 00000044 803df654 0 AIRegisterDMACallback
-
 803c27a0 00000010 803c27a0 0 SaveLoad::DidGameIDChange(void)
-
 8045c964 0000000c 8045c964 0 FEAudio::ResetRandomVoiceToggleSFX(void)
-
 803c1ea0 00000098 803c1ea0 0 InitMetroTRK
-
 803d2348 00000128 803d2348 0 __OSFPRInit
-
 801a6dbc 0000d4 801a6dbc  4 randomAbility_changeModel_Bomb 	Global
-
 801c6d0c 00000068 801c6d0c 0 vcLoadCommon
-
 801086d0 000618 801086d0  4 hitStrongObject 	Global
-
 80418458 00000044 80418458 0 RObjUpdateFunc
-
 80402f64 0000005c 80402f64 0 HSD_CObjAlloc
-
 80419b2c 0000009c 80419b2c 0 HSD_RObjRemoveAll
-
 803dc5cc 00000104 803dc5cc 0 PADRecalibrate
-
 803cc518 0000004c 803cc518 0 GXSetCullMode
 
 803be4e4 0000013c 803be4e4 0 TRKTestForPacket
-
 803c6038 000000e0 803c6038 0 stateCheckID
-
 8041a350 000000e8 8041a350 0 HSD_RvalueResolveRefsAll
-
 800f5548 000001fc 800f5548 0 killWhispy
-
 803c32e8 00000030 803c32e8 0 MWEnterCriticalSection
-
 803d8af0 00000298 803d8af0 0 OSGetResetButtonState
-
 801b0adc 00000038 801b0adc 0 AS_LoseCopyAbility
-
 801b7e80 00000064 801b7e80 0 doQuickSpin
-
 801ab624 000064 801ab624  4 ground_chargeAnimation 	Global
-
 803ce604 00000160 803ce604 0 GXSetIndTexMtx
-
 80005240 000001ec 80005240 0 __start
-
 8041a504 00000038 8041a504 0 _HSD_RObjForgetMemory?
-
 801b5660 000048 801b5660  4 abilityTimer_Bird_checkIfZero 	Global
-
 803ce9f4 00000028 803ce9f4 0 GXSetNumIndStages
-
 80195694 00000040 80195694 0 PhysicsObject::SetDefaultCollideBits(void)
 
 803df618 0000003c 803df618 0 VIGetDTVStatus
-
 8046c6a8 00000150 8046c6a8 0 ARPClaim
-
 801f5fc8 000010 801f5fc8  4 ColourBlendScreenTransition::Update(float) 	Global
-
 80408bd0 000002a4 80408bd0 0 HSD_JObjRemoveAnimAllByFlags
-
 803fb304 000001b8 803fb304 0 HSD_AObjInterpretAnim
-
 801afc70 00000050 801afc70 0 abilityTimer_Sword_revertModel
-
 801c1980 00000028 801c1980 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
-
 801b4a3c 000084 801b4a3c  4 ability_Tornado 	Global
-
 803cf8cc 00000034 803cf8cc 0 GXSetZMode
-
 801b755c 0000005c 801b755c 0 ThrowGordo
-
 803bd8f8 00000058 803bd8f8 0 TRKInitializeEventQueue
-
 801df840 000234 801df840  4 cityTrialCheckToSpawnStar 	Global
-
 803cf874 0000002c 803cf874 0 GXSetColorUpdate
-
 801fd6ec 000028 801fd6ec  4 dVectorScale 	Global
-
 803e9114 0000020c 803e9114 0 __SITransfer
-
 80111d68 000001 80111d68  8 event_formation_end 	Global
-
 801a56f0 0000c8 801a56f0  4 AS_DeadCrawl 	Global
-
 803f8a54 0000000c 803f8a54 0 HSD_TevRegGetAllocData
-
 801a6a64 0000d4 801a6a64  4 randomAbility_changeModel_Sleep 	Global
-
 804076f4 00000294 804076f4 0 PObjSetupMtx?
-
 801c24e4 000028 801c24e4  4 allocFN 	BasicSlotPoolHigh
-
 801d2b04 000228 801d2b04  4 checkMachineStuck 	Global
-
 803f485c 00000074 803f485c 0 HSD_DObjRemoveAll
-
 8046c2a4 00000204 8046c2a4 0 ARPOut
-
 8022c694 00000018 8022c694 0 plSetPlayerColor
-
 803cbfbc 0000001c 803cbfbc 0 GXPokeDither
-
 803dcdb8 00000174 803dcdb8 0 SPEC0_MakeStatus
-
 80402ea0 0000001c 80402ea0 0 HSD_CObjSetViewportfx4
-
 803c6520 00000044 803c6520 0 AlarmHandler
-
 8010df5c 0000013c 8010df5c 0 hitWhispy
-
 803c577c 000000cc 803c577c 0 DVDInit
-
 8047c8fc 000002c0 8047c8fc 0 SOAccept
-
 803adb08 00000018 803adb08 0 _restfpr_27
-
 8041a844 00000068 8041a844 0 HSD_WObjAddAnim
-
 803c3400 00000028 803c3400 0 PPCDisableSpeculation
-
 8045f6b8 0000000c 8045f6b8 0 FETweener::setDoneCallFunc(void (*)(void *), void *)
-
 803ad0a0 000000c8 803ad0a0 0 __va_arg
-
 803c7c58 00000008 803c7c58 0 DVDGetCurrentDiskID
-
 803e310c 0000016c 803e310c 0 bitrev
-
 80111074 00000004 80111074 0 event_runAmok_end2
-
 800df49c 00000014 800df49c 0 cAnimInventory::GetEndPhase(int)
-
 800afa00 000000b4 800afa00 0 debug_memCard_something?
-
 8007b770 00000020 8007b770 0 initBroadbandInfo
-
 800d0b30 0000004c 800d0b30 0 grGetStartposNum
 
 800f5004 0000d4 800f5004  4 collideWithObject 	Global
-
 80325244 0000000c 80325244 0 GoalOverlay::SceneCreated(void)
-
 803cdc34 00000010 803cdc34 0 GXGetTexObjHeight
-
 8047db1c 0000002c 8047db1c 0 SOGetHostID
-
 803f5370 00000038 803f5370 0 HSD_TObjAnim?
-
 801118d8 00000004 801118d8 0 event_denseFog_start
-
 803d50ac 000002e8 803d50ac 0 __OSUnhandledException
-
 801c82ec 00000c 801c82ec  4 GameInfoManager::SetUserSelectedCupSidekick(eSidekickID) 	Global
-
 803f88b0 00000048 803f88b0 0 HSD_StateSetColorDither
-
 80477450 0000006c 80477450 0 TCPSetTimeout
-
 803beb94 000000b0 803beb94 0 TRKDoContinue
-
 8010a998 000000cc 8010a998 0 spawnSecretChamberItems
-
 803c76a0 000000d0 803c76a0 0 DVDInquiryAsync
-
 803845f4 0000000c 803845f4 0 cAIPad::__ct(void)
-
 803c67dc 00000230 803c67dc 0 stateReady
-
 803adddc 000000e0 803adddc 0 __mod2u
 
 801b7650 00000184 801b7650 0 ThrowingGordo
-
 803cc5c4 00000090 803cc5c4 0 GXSetDispCopySrc
-
 8040ff8c 00000228 8040ff8c 0 HSD_OSInit
-
 8044e6bc 00000024 8044e6bc 0 LessonTickerDoneCB(void)
-
 803ea9f8 0000010c 803ea9f8 0 EXIAttach
-
 803e5e04 00000410 803e5e04 0 DoMount
-
 801b3b44 00000094 801b3b44 0 abilityTimer_Spike_remove
-
 80481d10 000002d0 80481d10 0 IGMPIn
-
 803c6180 00000074 803c6180 0 cbForStateCheckID2a
-
 80038d6c 000010b4 80038d6c 0 loadCSS_CityTrialMain
-
 80003100 00000030 80003100 0 memset
-
 803cf0b0 00000084 803cf0b0 0 GXSetZTexture
-
 803f8934 00000058 803f8934 0 _HSD_StateInvalidateRenderMode
-
 80122cbc 000014 80122cbc  4 fs_poGetFn 	CProgInstrs
-
 8047ecf8 00000140 8047ecf8 0 ReceiveUnknownCode
-
 801bb2b0 000000a0 801bb2b0 0 AS_Dash
-
 801c841c 00000c 801c841c  4 DrawableTmModel::SetAnimationSpeed(float) 	Global
-
 803e98c4 00000298 803e98c4 0 GetTypeCallback
 
 80408edc 00000024 80408edc 0 HSD_JObjRemoveAnimAll
-
 803e9060 000000b4 803e9060 0 SIInit
-
 8034d374 00000010 8034d374 0 dataARAMDefaultGetInfo
-
 80424980 000001b0 80424980 0 assign_reg
-
 80410dfc 0000020c 80410dfc 0 HSD_VIPostRetraceCB
-
 80005510 00000034 80005510 0 __flush_cache
-
 8040a688 00000130 8040a688 0 setupInstanceMtx
-
 801aea30 0000002c 801aea30 0 randomAbility_getItemID
-
 8040bc14 0000008c 8040bc14 0 HSD_JObjGetPrev
-
 801fd348 000150 801fd348  4 emLoadEnemyData 	Global
-
 80026f20 00001084 80026f20 0 CSS_airRide_inputGrabber
-
 8041bed8 00000044 8041bed8 0 ObjInfoInit
-
 803bff40 00000098 803bff40 0 TRKDoNotifyStopped
-
 801a81a4 0000e8 801a81a4  4 cityTrial_collideWithAbility 	Global
-
 803c9ee0 0000003c 803c9ee0 0 __GXWriteFifoIntReset
-
 803afb90 00000158 803afb90 0 deallocate_from_fixed_pools
-
 803d7124 00000074 803d7124 0 __OSInterruptInit
 
 8047fad4 00000050 8047fad4 0 PPPDeleteOpt
-
 80414b88 00000128 80414b88 0 HSD_PadRumbleInterpret
-
 80193b84 00000030 80193b84 0 ability_bird_removeStar
-
 803cb30c 0000009c 803cb30c 0 __GXSetVAT
-
 803c1fcc 0000004c 803c1fcc 0 TRKInitializeTarget
-
 803e96cc 0000008c 803e96cc 0 AlarmHandler
-
 8040f684 00000050 8040f684 0 _HSD_ZListSort
-
 803e223c 000000f0 803e223c 0 __CARDReadStatus
-
 803dd62c 00000060 803dd62c 0 SamplingHandler
-
 8018cf94 000214 8018cf94  4 setDamageQueue 	Global
-
 801b5f24 000190 801b5f24  4 firecrackerLogic_Charge 	Global
-
 803c3584 000000c4 803c3584 0 DSPInit
-
 80402f5c 00000008 80402f5c 0 HSD_CObjGetCurrent
-
 802621c0 0000009c 802621c0 0 stGetCurrentStageKind_14array_6?
-
 8020b680 0000009c 8020b680 0 giveEnemyDamage
-
 801a8df8 000170 801a8df8  4 spawnStarBullet? 	Global
 
 801a7680 000000d4 801a7680 0 randomAbility_changeModel_Ice
-
 803fb280 00000040 803fb280 0 HSD_AObjReqAnim
-
 803d4ce8 00000080 803d4ce8 0 OSReport
-
 80127234 00000330 80127234 0 cityTrial_drawStatNameAndArrow
-
 80414148 0000022c 80414148 0 HSD_PadInit
-
 80261ce8 00000080 80261ce8 0 stGetStageKind_groundId
-
 80437168 00000274 80437168 0 psDispParticles
-
 803d17a8 000000b0 803d17a8 0 PSMTXRotTrig
-
 80007670 00000010 80007670 0 gmSet_80536720
-
 801b3688 0000008c 801b3688 0 ability_Spike
-
 803c4d70 000000bc 803c4d70 0 DVDLowReset
-
 80007690 00000010 80007690 0 gmSet_80536720
-
 803e45ec 00000008 803e45ec 0 __CARDGetFatBlock
-
 803ca02c 00000158 803ca02c 0 __GXXfVtxSpecs
-
 803d4030 00000098 803d4030 0 L2GlobalInvalidate
-
 80422120 000000c0 80422120 0 HSD_TExpTev
 
 803b9534 00000378 803b9534 0 __strtoul
-
 801b3500 00000168 801b3500 0 ability_Plasma_DecreaseTimerByShot
-
 8041ce24 00000030 8041ce24 0 UnreserveEXI2Port
-
 803fa0b4 000009cc 803fa0b4 0 MObjMakeTExp
-
 80401728 00000040 80401728 0 HSD_CObjGetEyePositionWObj
-
 80006c20 00000010 80006c20 0 gmGetClearcheckerP
-
 801926ac 000038 801926ac  4 givePowerUp 	Global
-
 801086d0 00000618 801086d0 0 hitStrongObject
-
 803ea2b4 000000a0 803ea2b4 0 EXIImmEx
-
 801b2c4c 00000068 801b2c4c 0 startCharge
-
 803fb4bc 00000128 803fb4bc 0 HSD_AObjLoadDesc
-
 803d2da0 00000054 803d2da0 0 __OSPSInit
-
 80470404 000000e0 80470404 0 UDPSetSockOpt
-
 8038bd64 00000050 8038bd64 0 GLInventory::__dt(void)
-
 801f079c 000038 801f079c  4 charge_WhileGrindingCheck 	Global
 
 8041a53c 0000000c 8041a53c 0 HSD_IDGetAllocData
-
 801a61d4 00000098 801a61d4 0 randomAbility_giveAbility
-
 801126f4 000290 801126f4  4 removeHUD 	Global
-
 801b755c 00005c 801b755c  4 ThrowGordo 	Global
-
 801a6dbc 000000d4 801a6dbc 0 randomAbility_changeModel_Bomb
-
 803df838 000000e0 803df838 0 AISetDSPSampleRate
-
 80417c54 0000004c 80417c54 0 HSD_MtxAlloc
-
 803e93b0 00000010 803e93b0 0 SITransferCommands
-
 800aca04 00000404 800aca04 0 debug_openSubMenu
-
 803b4464 00000120 803b4464 0 mbtowc
-
 803f4bdc 00000154 803f4bdc 0 HSD_TObjAddAnim
-
 8041786c 000001c4 8041786c 0 HSD_MtxSRTQuat?
 
 803d6354 00000058 803d6354 0 OSGetFontEncode
-
 801a6db8 00000004 801a6db8 0 ability_Sword_end
-
 803d3884 00000360 803d3884 0 OSCheckHeap
-
 803bec44 00000290 803bec44 0 TRKDoWriteRegisters
-
 80406688 00000324 80406688 0 interpretShapeAnimDisplayList
-
 803f78f0 00000034 803f78f0 0 HSD_TObjFree
-
 801a7c84 00007c 801a7c84  4 abilityTimerDecreaser 	Global
-
 803c78bc 00000050 803c78bc 0 DVDResume
-
 803e7ef0 00000110 803e7ef0 0 CARDDeleteAsync
-
 803dff38 00000044 803dff38 0 AIRegisterDMACallback
-
 803fdb34 00000008 803fdb34 0 HSD_LObjGetNbActive
-
 803cf900 00000038 803cf900 0 GXSetZCompLoc
-
 801a6b38 000000d4 801a6b38 0 ability_Sleep_giveHat
-
 80417cd4 0000000c 80417cd4 0 HSD_VecGetAllocData
-
 803e876c 00000020 803e876c 0 SIBusy
-
 803bd3e8 00000020 803bd3e8 0 exp?
-
-801ace40 000058 801ace40  4 AS_StarLandBad 	Global
-
-803c3344 00000008 803c3344 0 PPCMtl2cr
-
-8047d06c 00000288 8047d06c 0 SOSendTo
-
-804017d4 0000006c 804017d4 0 HSD_CObjSetInterest
-
-801a7198 000004 801a7198  4 ability_Plasma_end 	Global
-
-803c4600 00000298 803c4600 0 DVDLowRead
-
-803e9e5c 000000e4 803e9e5c 0 SISetSamplingRate
-
-803d8e08 00000118 803d8e08 0 WriteSram
-
-803d2e34 0000004c 803d2e34 0 OSInitAlarm
-
-801badbc 000000ec 801badbc 0 Interrupt_AS_Wait
-
-803adb94 00000024 803adb94 0 _restgpr_24
-
-803b494c 000000a8 803b494c 0 __copy_longs_rev_aligned
-
-803d20bc 00000024 803d20bc 0 PSVECSubtract
-
-803cc194 00000080 803cc194 0 __GXPEInit
-
-803be200 0000002c 803be200 0 TRKGetBuffer
-
-803e9d20 0000013c 803e9d20 0 SIGetTypeAsync
-
-803be2f4 00000074 803be2f4 0 TRKInitializeMessageBuffers
-
-801defac 0000045c 801defac 0 cityTrialSpawnStar
-
-800adc58 00000064 800adc58 0 debug_openMemcardTest
-
-80111c20 000044 80111c20  4 event_rubberyItems_start 	Global
-
-801baf48 0000005c 801baf48 0 AS_Fall
-
-803b4e60 0000006c 803b4e60 0 __StringWrite
-
-801b3904 00011c 801b3904  4 abilityTimer_Spike_CheckIf0 	Global
-
-803f941c 00000088 803f941c 0 HSD_SetupTevStageAll
-
-802db4ec 00000024 802db4ec 0 cFielder::EndAction(void)
-
-803e2050 000000a8 803e2050 0 __CARDTxHandler
-
-803d478c 00000364 803d478c 0 OSInitContext
-
-8041e668 0000003c 8041e668 0 HSD_Randi
-
-8019f6cc 0000d4 8019f6cc  4 AS_JumpOnStarIntro 	Global
-
-8041cee4 00000038 8041cee4 0 _HSD_MemAlloc
-
-803f903c 00000020 803f903c 0 HSD_StateAssignTev?
-
-803f572c 000001d4 803f572c 0 MakeTextureMtx
-
-80110ff0 00000080 80110ff0 0 event_runAmok
-
-803c6564 000000cc 803c6564 0 stateCoverClosed
-
-80000200 00000098 80000200 0 machine_check_exception_handler
-
-803e1b90 000000cc 803e1b90 0 __ARQInterruptServiceRoutine
-
-80021654 000002e0 80021654 0 CSS_airRide_colorChanger
-
-801ae7c8 0000002c 801ae7c8 0 randomAbility_checkIfaPress
-
-800db2b8 00000124 800db2b8 0 loadEvent
-
-803dcc94 00000020 803dcc94 0 SIRefreshSamplingRate?
-
-803c1864 000002a4 803c1864 0 TRKValidMemory32
-
-803b9984 00000088 803b9984 0 fwide
-
-800bc17c 000000e0 800bc17c 0 pauseMain_unfreezeCamera
-
-8046dc44 000000bc 8046dc44 0 IPIsLocalAddr
-
-8011503c 000064 8011503c  4 updateGraphic_SpeedometerFill 	Global
-
-801badbc 0000ec 801badbc  4 Interrupt_AS_Wait 	Global
-
-801a6968 000028 801a6968  4 ability_Fire_end 	Global
-
-8022c8f8 00000018 8022c8f8 0 loadPlayer_MachineID
-
-8046dd00 0000015c 8046dd00 0 IPGetRoute
-
-803c7364 000000dc 803c7364 0 DVDReadAbsAsyncPrio
-
-801a626c 00000150 801a626c 0 adjustActionState
-
-801a719c 0000e0 801a719c  4 randomAbility_changeModel_Spike 	Global
-
-801a6728 000118 801a6728  4 randomAbility_changeModel_Fire 	Global
-
-801bc310 000074 801bc310  4 AS_JumpSquat 	Global
-
-803e2bbc 000000e0 803e2bbc 0 __CARDEraseSector
-
-80480edc 0000012c 80480edc 0 ReceiveConfigureRequest
-
-803ff8b0 00000034 803ff8b0 0 HSD_LObjGetCurrentByType
-
-803fadb8 00000050 803fadb8 0 HSD_MObjRemove
-
-8041a8ac 00000144 8041a8ac 0 WObjUpdateFunc
-
-80200604 000034 80200604  4 TLComponent::SetActiveSlide(unsigned 	Global
-
-803d3708 0000007c 803d3708 0 OSFreeToHeap
-
-803e45f4 000000d4 803e45f4 0 WriteCallback_1
-
-80061a44 00000044 80061a44 0 stopSoundEffect
-
-803c2ed0 00000050 803c2ed0 0 CircleBufferInitialize
-
-801c552c 000478 801c552c  4 vcInitObject 	Global
-
-801fd6ec 00000028 801fd6ec 0 dVectorScale(float *, float)
-
-803d9724 000000a4 803d9724 0 OSSetSoundMode
-
-80132888 00000020 80132888 0 Updates ON/OFF Rumble
-
-803adb44 00000028 803adb44 0 _savegpr_23
-
-804070ec 00000280 804070ec 0 SetupModelMtx?
-
-80262a9c 00000084 80262a9c 0 stGetStageKind_50?
-
-803e4ac8 000000c8 803e4ac8 0 EraseCallback_2
-
-801b5c24 00000094 801b5c24 0 fireCrackerInit
-
-801a782c 00000118 801a782c 0 randomAbility_changeModel_Tornado
-
-801a626c 000001 801a626c  8 adjustActionState 	Global
-
-801b56a8 00000088 801b56a8 0 abilityTimer_Bird_remove
-
-80411a84 00000228 80411a84 0 HSD_VIInit
-
-8041b510 0000007c 8041b510 0 HSD_FogAdjLoadDesc
-
-802624f0 00000084 802624f0 0 stGetCurrentStageKind_VehicleposId
-
-803b5db4 0000012c 803b5db4 0 round_decimal
-
-803d360c 000000fc 803d360c 0 OSAllocFromHeap
-
-801afd54 0000a0 801afd54  4 ability_Sword 	Global
-
-803050f4 00000014 803050f4 0 LexicalCast<b,i>(int &)
-
-803f48d0 0000005c 803f48d0 0 HSD_DObjAlloc
-
-803c046c 00000018 803c046c 0 TRKTargetStop
-
-801b3dac 0000b4 801b3dac  4 ability_Mic 	Global
-
-803ae1f8 00000040 803ae1f8 0 __init_cpp_exceptions
-
-803cbe9c 00000024 803cbe9c 0 GXPixModeSync
-
-801ab940 00000090 801ab940 0 AS_StarChargeHold
-
-8041b050 00000080 8041b050 0 WObjInfoInit
-
-80409274 00000074 80409274 0 HSD_JObjReqAnimAll
-
-803c7440 000000d0 803c7440 0 DVDReadAbsAsyncForBS
-
-803adad4 0000004c 803adad4 0 __restore_fpr
-
-80006c14 0000000c 80006c14 0 gmGetGlobalP
-
-803cbed4 00000014 803cbed4 0 GXPokeAlphaRead
-
-803c37d8 00000424 803c37d8 0 __DSPHandler
-
-803c4b14 0000009c 803c4b14 0 DVDLowInquiry
-
-800d1d48 00000028 800d1d48 0 grGetStageFogFlag1
-
-801dffdc 0000017c 801dffdc 0 spawnStar_setParam
-
-8011503c 00000064 8011503c 0 updateGraphic_SpeedometerFill
-
-8047868c 00000108 8047868c 0 RxmitHandler
-
-803ced38 00000074 803ced38 0 GXSetTevColor
-
-802927c8 0000000c 802927c8 0 ColourBlendScreenTransition::Reset(void)
-
-801e1ee8 0000f8 801e1ee8  4 updateHPValue 	Global
-
-80465f78 0000008c 80465f78 0 readcmdLong
-
-8046a954 00000060 8046a954 0 __IPIsMember
-
-801f5fc8 00000010 801f5fc8 0 ColourBlendScreenTransition::Update(float)
-
-804119e4 00000088 804119e4 0 HSD_VISetConfigure
-
-803d0b20 00000084 803d0b20 0 __GXSetMatrixIndex
-
-8041849c 00000068 8041849c 0 HSD_RObjAnimAll
-
-80408e74 00000068 80408e74 0 HSD_JObjRemoveAnim
-
-803e2d88 000000b8 803e2d88 0 __CARDGetControlBlock
-
-8040bac8 0000014c 8040bac8 0 HSD_JObjAddNext?
-
-803bffd8 00000038 803bffd8 0 TRK_flush_cache
-
-803c9e24 00000024 803c9e24 0 __GXFifoReadEnable
-
-8024f960 000000d8 8024f960 0 checkBoxDamage
-
-8018eb44 000002e4 8018eb44 0 DPadMovement
-
-801a61d4 000098 801a61d4  4 randomAbility_giveAbility 	Global
-
-803d4658 000000e0 803d4658 0 OSLoadContext
-
-80040e7c 0000077c 80040e7c 0 pauseMain
-
-8022c898 00000018 8022c898 0 plSetPlayerUnk4
-
-801bccfc 0000a4 801bccfc  4 AS_SwimWait 	Global
-
-803d0380 00000004 803d0380 0 __GXSetRange
-
-80402e74 0000002c 80402e74 0 HSD_CObjSetViewportf
-
-803c5848 00000094 803c5848 0 stateReadingFST
-
-803ae0f0 000000cc 803ae0f0 0 __cvt_dbl_usll
-
-803ae1c4 00000034 803ae1c4 0 __fini_cpp_exceptions
-
-80424940 00000040 80424940 0 HSD_TExpFreeTevDesc
-
-801a7b34 00000058 801a7b34 0 ability_Bird_giveHat
-
-80403324 00000184 80403324 0 CObjRelease
-
-803adba0 00000018 803adba0 0 _restgpr_27
-
-803d2e08 0000002c 803d2e08 0 OSRegisterVersion
-
-803cbee8 0000001c 803cbee8 0 GXPokeAlphaUpdate
-
-803dbb58 00000114 803dbb58 0 PADClamp
-
-803cbfd8 00000028 803cbfd8 0 GXPokeZMode
-
-80104db0 00000060 80104db0 0 hitBigStar_SpawnPowerups
-
-8036e748 0000001c 8036e748 0 dJointSetCharacterNoMotionDirection(dxJoint *, float *)
-
-803bb750 000000f4 803bb750 0 __kernel_cos
-
-803bd630 000000f8 803bd630 0 TRKNubMainLoop
-
-80414fc0 00000490 80414fc0 0 splGetSplinePoint
-
-803f465c 00000110 803f465c 0 DObjLoad
-
-804003bc 000000d4 804003bc 0 HSD_LObjAddAnim
-
-80419bc8 0000005c 80419bc8 0 HSD_RObjAlloc
-
-801c6d74 0000c8 801c6d74  4 vcLoadVehicleArchive 	Global
-
-801119d8 00002c 801119d8  4 event_fakeItems_start 	Global
-
-803f6ec8 00000290 803f6ec8 0 HSD_TObjAssignResources
-
-8028e2d8 00000068 8028e2d8 0 DrawableObject::__dt(void)
-
-8000acb0 00000098 8000acb0 0 getTrialFlag
-
-803fae64 00000060 803fae64 0 HSD_MaterialAlloc
-
-80135b8c 000020 80135b8c  4 CSS_updatePlayerColorIndicatorBar 	Global
-
-8041b008 00000048 8041b008 0 WObjAmnesia
-
-800eb108 000001f8 800eb108 0 PowerUp_SetupSkySpawn
-
-800e86dc 000001ac 800e86dc 0 grSwitchLogic
-
-801ae7c8 00002c 801ae7c8  4 randomAbility_checkIfaPress 	Global
-
-800d0fa4 00000018 800d0fa4 0 grGetConveyerposNum
-
-801ef76c 00000038 801ef76c 0 charge_WhileMidAirChargingCheck
-
-80402f2c 00000018 80402f2c 0 HSD_CObjSetFlags
-
-803e2c9c 000000ac 803e2c9c 0 CARDInit
-
-804650f0 00000024 804650f0 0 ListContainerBase<P6cSAnim,33NewAdapter<19ListEntry<P6cSAnim>>>::DeleteEntry(ListEntry<P6cSAnim> *)
-
-8047bef4 00000048 8047bef4 0 LingerCallback
-
-803c331c 00000008 803c331c 0 PPCMfmsr
-
-8018ace4 00000180 8018ace4 0 getDamageDealt
-
-801b7ee4 0000008c 801b7ee4 0 AS_StarSpin
-
-801b0bf0 00008c 801b0bf0  4 ability_Sleep 	Global
-
-801ab554 000050 801ab554  4 groundLogic 	Global
-
-803d078c 00000050 803d078c 0 GXLoadNrmMtxImm
-
-801ab1a0 000074 801ab1a0  4 AS_StarWait 	Global
-
-8040531c 00000018 8040531c 0 HSD_PObjGetFlags
-
-801bccfc 000000a4 801bccfc 0 AS_SwimWait
-
-8046bd34 00000094 8046bd34 0 ARPRevalidate
-
-803c04a4 00000200 803c04a4 0 TRKTargetSupportRequest
-
-80401014 0000013c 80401014 0 HSD_CObjSetupViewingMtx?
-
-801aca44 000074 801aca44  4 AS_StarLandOK 	Global
-
-803dc06c 0000032c 803dc06c 0 PADTypeAndStatusCallback
-
-801a81a4 000000e8 801a81a4 0 cityTrial_collideWithAbility
-
-80417a30 000000c4 80417a30 0 HSD_MtxScaledAdd
-
-8041ba28 00000028 8041ba28 0 HSD_PerfSetStartTime
-
-80478a9c 000002b8 80478a9c 0 DHCPDecline
-
-803f5900 000002e8 803f5900 0 TObjSetupMtx
-
-801104fc 000138 801104fc  4 event_tac 	Global
-
-801fd580 0000f4 801fd580  4 emLoadCommon 	Global
-
-8019f41c 00000060 8019f41c 0 AS_Spawn?
-
-803f552c 00000098 803f552c 0 HSD_TObjLoadDesc
-
-803c9a90 00000070 803c9a90 0 GXInitFifoPtrs
-
-803f7f80 00000174 803f7f80 0 HSD_SetupPEMode
-
-80111bc4 00005c 80111bc4  4 event_sameItems 	Global
-
-803e72c0 00000130 803e72c0 0 CreateCallbackFat
-
-80401840 0000006c 80401840 0 HSD_CObjGetEyePosition
-
-803cd214 0000001c 803cd214 0 GXInitLightDir
-
-803cd7d4 00000274 803cd7d4 0 GXInitTexObj
-
-80469284 000003a4 80469284 0 __ETHPostSend
-
-801119d8 0000002c 801119d8 0 event_fakeItems_start
-
-80469628 00000040 80469628 0 MD5Init
-
-802b3a1c 00000030 802b3a1c 0 TRK_memset
-
-801af950 00000054 801af950 0 ability_Wheel
-
-803e4448 00000064 803e4448 0 __CARDRead
-
-80420c94 000000c8 80420c94 0 hsdNew
-
-803c16cc 0000004c 803c16cc 0 TRKTargetReadInstruction
-
-800ab50c 00000028 800ab50c 0 debugPutSpace
-
-803b6ddc 000009ac 803b6ddc 0 __sformatter
-
-8047feb4 00000230 8047feb4 0 Out
-
-803fb5e4 00000070 803fb5e4 0 HSD_AObjRemove
-
-801886f4 00002c 801886f4  4 EmissionManager::ResetLingerers(void) 	Global
-
-803e1ccc 0000015c 803e1ccc 0 ARQPostRequest
-
-80000800 00000098 80000800 0 floating_point_unavailable_exception_handler
-
-803d9438 00000024 803d9438 0 __OSUnlockSramEx
-
-80000900 00000098 80000900 0 decrementer_exception_handler
-
-803faf28 00000064 803faf28 0 HSD_MObjDeleteShadowTexture
-
-801918d0 00000030 801918d0 0 enableKirbyToExitVehicle
-
-8005e1a8 000001ec 8005e1a8 0 lbLoadMusicLocation
-
-803cee20 00000074 803cee20 0 GXSetTevKColor
-
-803b0094 00001080 803b0094 0 __dec2num
-
-801bbdb4 00000064 801bbdb4 0 Interrupt_AS_RunBrake
-
-80397080 00000014 80397080 0 LooseBallAnims::GetDesperationInfo(unsigned int)
-
-803d2c78 00000004 803d2c78 0 __OSDBJump
-
-8040f518 0000016c 8040f518 0 zlist_sort
-
-8040f10c 0000010c 8040f10c 0 _HSD_mkEnvelopeModelNodeMtx
-
-8046d934 00000058 8046d934 0 IPGetMtu
-
-803c7b88 000000ac 803c7b88 0 DVDCancel
-
-80419644 00000474 80419644 0 HSD_RObjLoadDesc
-
-803cc474 00000048 803cc474 0 GXSetPointSize
-
-80262060 000000c4 80262060 0 stGetCurrentStageKind_14array_0?
-
-80417db8 000000c0 80417db8 0 HSD_GetNbBits
-
-80407988 000002e8 80407988 0 HSD_PObjDisp?
-
-801ef150 00000078 801ef150 0 charge_whileGroundedCheck
-
-800d546c 00000024 800d546c 0 SidelineExplodableManager::GetNumExplodables(void)
-
-804892d0 00000028 804892d0 0 TRKNubWelcome
-
-80476768 0000019c 80476768 0 TCPCloseAsync
-
-803e634c 000001a0 803e634c 0 CARDMountAsync
-
-801bc5a8 0000ac 801bc5a8  4 Animation_Jump 	Global
-
-8046c9a4 00000120 8046c9a4 0 ARPIn
-
-8000aea8 00000024 8000aea8 0 menu_getCurrentMenuID
-
-801db34c 000728 801db34c  4 collideWithPowerUpGeneral 	Global
-
-803c78ac 00000010 803c78ac 0 DVDSetAutoInvalidation
-
-801bc310 00000074 801bc310 0 AS_JumpSquat
-
-803e5bbc 000000cc 803e5bbc 0 IsCard
-
-803ccdd4 0000017c 803ccdd4 0 GXCopyTex
-
-80261fdc 00000084 80261fdc 0 stGetCurrentStageKind_UraBgmChanceRate
-
-801a7b8c 000050 801a7b8c  4 ability_removeModel? 	Global
-
-803d8218 00000010 803d8218 0 Run
-
-801b2fc8 00000240 801b2fc8 0 ability_Plasma_Shot
-
-8046cfc4 00000374 8046cfc4 0 ICMPIn
-
-803c3f28 000000a0 803c3f28 0 __DSP_insert_task
-
-804035d0 00000028 804035d0 0 HSD_FObjRemove
-
-801a7828 00000004 801a7828 0 ability_Ice_end
-
-8041b9c4 00000064 8041b9c4 0 HSD_PerfInitStat
-
-803d9054 0000005c 803d9054 0 __OSLockSram
-
-8040a304 00000348 8040a304 0 JObjAnimAll?
-
-801a6e90 000000d4 801a6e90 0 ability_Bomb_giveHat
-
-803b3870 00000024 803b3870 0 tolower
-
-8041af58 0000005c 8041af58 0 HSD_WObjAlloc
-
-804712a8 00000290 804712a8 0 Go
-
-8041a7f8 0000004c 8041a7f8 0 HSD_WObjReqAnim
-
-80471538 00000200 80471538 0 GoCallback
-
-803bd4f4 00000024 803bd4f4 0 tanf
-
-803e3fd8 00000070 803e3fd8 0 InitCallback
-
-80400d48 000002cc 80400d48 0 setupBottomHalfCamera?
-
-803c334c 00000008 803c334c 0 PPCMtdec
-
-801a4884 000078 801a4884  4 AS_DeadFall? 	Global
-
-802bab18 00000060 802bab18 0 PhysicsSphere::__dt(void)
-
-803f4428 00000098 803f4428 0 HSD_DObjRemoveAnimAllByFlags
-
-800067a4 000003b4 800067a4 0 branchToMiscFunction
-
-8039d1e0 00000030 8039d1e0 0 DemoOverlay::SceneCreated(void)
-
-8003b2c0 000001e8 8003b2c0 0 loadCSS_CityTrial
-
-803bfb08 000001e0 803bfb08 0 TRKRequestSend
-
-802622e0 00000084 802622e0 0 stGetCurrentStageKind_StartposId
-
-800174fc 000003fc 800174fc 0 startToggleRumble
-
-80078990 0000025c 80078990 0 debug_memCard_reqSave
-
-803cec68 00000068 803cec68 0 GXSetTevColorOp
-
-8026288c 00000084 8026288c 0 stGetStageKind_10bgm?
-
-803bd408 00000020 803bd408 0 fmod
-
-803c6630 00000030 803c6630 0 stateCoverClosed_CMD
-
-80257158 00000514 80257158 0 Box_CheckHP
-
-803bcda4 00000148 803bcda4 0 floor
-
-80009394 00000098 80009394 0 setMap
-
-803adb00 00000020 803adb00 0 _restfpr_25
-
-8048138c 00000138 8048138c 0 PPPInitIPCP
-
-803b4ce8 00000098 803b4ce8 0 vprintf
-
-80191694 000034 80191694  4 operator+= 	C_Vector
-
-803d1528 00000050 803d1528 0 PSMTXTranspose
-
-803ffdf4 00000018 803ffdf4 0 HSD_LObjGetPositionWObj
-
-80474230 00000080 80474230 0 TCPRecvOut
-
-8019c0a4 000000b8 8019c0a4 0 randomAbility_removeGlow
-
-80402f44 00000018 80402f44 0 HSD_CObjClearFlags
-
-801bac70 0000a8 801bac70  4 AS_Wait 	Global
-
-803d816c 00000038 803d816c 0 __OSCheckDeadLock
-
-803c3788 00000050 803c3788 0 __DSP_debug_printf
-
-803d219c 00000020 803d219c 0 PSVECDotProduct
-
-8041104c 00000010 8041104c 0 HSD_VIGetDrawDoneWaitingFlag
-
-803c2144 00000058 803c2144 0 TRKTargetTranslate
-
-801b5734 000088 801b5734  4 newAbility_Bird_remove 	Global
-
-803c3458 0000001c 803c3458 0 DBIsDebuggerPresent
-
-8041b980 00000044 8041b980 0 FogAdjInfoInit?
-
-803fdb14 00000008 803fdb14 0 HSD_LObjGetLightMaskDiffuse
-
-80468c28 000000f4 80468c28 0 CalcTcpCheckSum
-
-802c4114 00000018 802c4114 0 cPoseNode::__ct(void)
-
-804107b4 000002dc 804107b4 0 HSD_SetInitParameter
-
-803eb1ac 000001d4 803eb1ac 0 EXIInit
-
-80476038 00000204 80476038 0 SendAsync
-
-80474744 00000038 80474744 0 TCPOutputCallback
-
-80378ddc 00000028 80378ddc 0 glxSwapWaitDrawDone(void)
-
-80111d68 00000004 80111d68 0 event_formation_end
-
-803adb24 00000048 803adb24 0 _savegpr_15
-
-803ea8c4 00000080 803ea8c4 0 EXIProbe
-
-8040fee0 000000ac 8040fee0 0 HSD_GXInit
-
-800ee270 000000b8 800ee270 0 checkEventTimer
-
-8003f6cc 00000024 8003f6cc 0 menu_cityTrial_checkMode
-
-801ba658 000204 801ba658  4 AS_Land 	Global
-
-801a809c 00000070 801a809c 0 ability_ChangeSpeedometerDesign
-
-801aee28 0000a0 801aee28  4 abilityTimer_Fire 	Global
-
-803dab7c 00000104 803dab7c 0 OSWakeupThread
-
-801baf48 00005c 801baf48  4 AS_Fall 	Global
-
-803b3d08 00000138 803b3d08 0 fflush
-
-8040e2a4 000000bc 8040e2a4 0 JObjInfoInit
-
-801a6c10 0000d4 801a6c10  4 randomAbility_changeModel_Sword 	Global
-
-801f079c 00000038 801f079c 0 charge_WhileGrindingCheck
-
-803cd70c 000000c8 803cd70c 0 __GetImageTileCount
-
-80478308 00000290 80478308 0 RecvCallback
-
-803f99bc 00000064 803f99bc 0 HSD_MObjReqAnimByFlags
-
-8010f268 000198 8010f268  4 grYakuUpdate 	Global
-
-80190dd0 00000010 80190dd0 0 cGameSFX::Init(void)
-
-80000500 00000098 80000500 0 external_interrupt_exception_handler
-
-803d3fe4 00000010 803d3fe4 0 ICFlashInvalidate
-
-803ef828 0000050c 803ef828 0 HandleReverb
-
-80018548 0000047c 80018548 0 loadMainMenu
-
-803af884 000000b8 803af884 0 __sys_free
-
-80420b60 0000006c 80420b60 0 _hsdClassDestroy
-
-803d2c7c 0000001c 803d2c7c 0 __OSSetExceptionHandler
-
-803fdacc 00000018 803fdacc 0 HSD_LObjGetFlags
-
-80403594 0000000c 80403594 0 HSD_FObjGetAllocData
-
-80419530 00000114 80419530 0 HSD_RObjResolveRefsAll
-
-801afd54 000000a0 801afd54 0 ability_Sword
-
-8041ab14 00000098 8041ab14 0 HSD_WObjLoadDesc
-
-80405334 00000074 80405334 0 HSD_PObjRemoveAnimAllByFlags
-
-80405ef4 0000038c 80405ef4 0 get_shape_normal_xyz
-
-801a5250 00000184 801a5250 0 AS_DeadHitGround
-
-80409250 00000024 80409250 0 HSD_JObjReqAnim
-
-803c9a24 0000006c 803c9a24 0 GXInitFifoBase
-
-8041ce84 00000030 8041ce84 0 salMallocPhysical
-
-803b4ecc 00000058 803b4ecc 0 __FileWrite
-
-803ad1b0 00000018 803ad1b0 0 __register_global_object
-
-803bf5fc 00000058 803bf5fc 0 TRKDoOverride
-
-80110b74 00000098 80110b74 0 event_meteor_start
-
-803b1b68 0000010c 803b1b68 0 __equals_dec
-
-803cd46c 00000034 803cd46c 0 GXSetChanMatColor
-
-803d7b3c 0000000c 803d7b3c 0 OSGetConsoleSimulatedMemSize
-
-804893d8 00000020  0 
-
-80400a88 0000005c 80400a88 0 HSD_CObjReqAnim
-
-8046f5c4 00000088 8046f5c4 0 UDPSetSendBuff
-
-80481ab4 00000234 80481ab4 0 IGMPOut
-
-803ffcec 00000040 803ffcec 0 HSD_LObjGetPosition
-
-803d19ac 00000028 803d19ac 0 PSMTXScale
-
-800ee778 0000014c 800ee778 0 eventInit
-
-803fb6c0 00000034 803fb6c0 0 HSD_AObjFree
-
-800189e4 00000020 800189e4 0 goTo_menuInputGrabber
-
-803f89ec 0000005c 803f89ec 0 HSD_RenderInitAllocData_
-
-801c1620 000000dc 801c1620 0 loadMetaKnightModel
-
-80471d90 00000018 80471d90 0 IFFifoInit
-
-803f9f04 000000a0 803f9f04 0 MObjLoad
-
-803f84ec 0000003c 803f84ec 0 HSD_StateSetCullMode
-
-803dfd54 000001e4 803dfd54 0 __AI_SRC_INIT
-
-80411590 00000178 80411590 0 HSD_VISetXFBDrawDone
-
-801defac 00045c 801defac  4 cityTrialSpawnStar 	Global
-
-80417134 0000044c 80417134 0 ac_Math_SineFunction
-
-803d3f54 00000030 803d3f54 0 DCStoreRange
-
-803eacec 00000110 803eacec 0 EXIDeselect
-
-803cfa88 00000038 803cfa88 0 GXSetFieldMask
-
-803f98dc 00000018 803f98dc 0 HSD_MObjClearFlags
-
-803cd23c 0000007c 803cd23c 0 GXLoadLightObjImm
-
-8040736c 00000388 8040736c 0 SetupModelMtx?
-
-8040afe8 000000a8 8040afe8 0 HSD_JObjLoadJoint
-
-8045be58 00000010 8045be58 0 TRKTargetSetInputPendingPtr
-
-801a20f4 00000c 801a20f4  4 GetWorldMatrix 	AnimatedModelExplodable
-
-803e00d4 00000074 803e00d4 0 ARFree
-
-801dc3a0 000018 801dc3a0  4 fn_vResetJoyValues 	Global
-
-80190c54 000144 80190c54  4 groundMovement 	Global
-
-803d3870 00000014 803d3870 0 OSDestroyHeap
-
-80192650 000038 80192650  4 collideWithAbilityStart 	Global
-
-8019dc74 00000144 8019dc74 0 checkDropPatches
-
-80323ce8 0000002c 80323ce8 0 ReplayChoreo::Reset(void)
-
-803d9b84 00000040 803d9b84 0 OSEnableScheduler
-
-8046ae88 00000138 8046ae88 0 IPGetSockOpt
-
-803fb190 0000001c 803fb190 0 HSD_AObjSetFlags
-
-800ceacc 00000028 800ceacc 0 grGetStageMinimapPlayerAdjust
-
-803e006c 00000068 803e006c 0 ARAlloc
-
-803b8004 00000044 803b8004 0 strncpy
-
-803d4e94 00000218 803d4e94 0 OSSetErrorHandler
-
-803bd388 00000020 803bd388 0 acos?
-
-803f4ab4 00000048 803f4ab4 0 DObjAmnesia
-
-803df918 00000014 803df918 0 AIGetDSPSampleRate
-
-80191554 000070 80191554  4 removeAbilityUponGettingAbility 	Global
-
-80477c10 00000150 80477c10 0 DNSOpen
-
-8047c3b8 00000034 8047c3b8 0 SOClose
-
-800df4d8 00000014 800df4d8 0 cAnimInventory::GetEndPhase(int)
-
-803c3648 00000008 803c3648 0 DSPCheckInit
-
-801b454c 000084 801b454c  4 ability_Ice 	Global
-
-80024d04 00000ad8 80024d04 0 CSS_airRide_chooseVehicleInputGrabber
-
-803f4d30 00000074 803f4d30 0 HSD_TObjReqAnimAllByFlags
-
-801354f4 000020 801354f4  4 CSS_updatePlayerSelectFrame 	Global
-
-803bdffc 0000008c 803bdffc 0 TRKReadBuffer
-
-804223e8 000000e8 804223e8 0 HSD_TExpAlphaOp
-
-8010f114 00000154 8010f114 0 setSky?
-
-803c30c4 000000f4 803c30c4 0 gdev_cc_read
-
-80402cdc 00000018 80402cdc 0 HSD_CObjGetFar
-
-803ea750 00000174 803ea750 0 __EXIProbe
-
-801285dc 00048c 801285dc  4 renderPauseHUD_renderOptions 	Global
-
-803cc9cc 00000068 803cc9cc 0 GXSetCopyClear
-
-80135b8c 00000020 80135b8c 0 CSS_updatePlayerColorIndicatorBar
-
-801ee670 000014 801ee670  4 KnotTableBlendEntry::__ct(void) 	Global
-
-80111d70 00000190 80111d70 0 event_formation_init
-
-803be12c 00000030 803be12c 0 TRKSetBufferPosition
-
-800edcf8 00000578 800edcf8 0 chooseEvent
-
-801b1a34 000044 801b1a34  4 abilityTimer_Bomb_checkIfThrown? 	Global
-
-803fad5c 00000024 803fad5c 0 HSD_MObjUnset
-
-80477de4 00000170 80477de4 0 UpdateDHCPInfo
-
-803314fc 0000003c 803314fc 0 AIPlay::__dt(void)
-
-80192688 000024 80192688  4 firecrackerGet 	Global
-
-802a0ee8 00000010 802a0ee8 0 AvoidController::UseMinimumAvoidance(cPlayer *)
-
-803ad248 00000078 803ad248 0 __destroy_arr
-
-80471940 00000028 80471940 0 stateGettingError
-
-801a2eb4 00003c 801a2eb4  4 getOffBike_giveUpwardMomemtum 	Global
-
-801a6728 00000118 801a6728 0 randomAbility_changeModel_Fire
-
-801b9d6c 0000008c 801b9d6c 0 checkIfGettingOffBike
-
-803c0010 000000b8 803c0010 0 TRK_fill_mem
-
-801acc60 000038 801acc60  4 AS_StarLandGreat 	Global
-
-80106bd0 000084 80106bd0  4 hitBreakableFloor 	Global
-
-801097ac 0000000c 801097ac 0 DrawableCharacter::GetAnimController( (void))
-
-804035a0 00000030 804035a0 0 HSD_FObjInitAllocData
-
-801aa41c 00000028 801aa41c 0 sndAuxCallbackPrepareDelay
-
-8041d15c 00000070 8041d15c 0 HSD_ShadowInit
-
-803d431c 00000124 803d431c 0 __OSLoadFPUContext
-
-801dba74 000000bc 801dba74 0 checkIfCollideWithPowerUp
-
-8041bc10 00000044 8041bc10 0 HSD_ListInitAllocData
-
-80111738 00000064 80111738 0 event_stationFire_start
-
-80478fe4 000004ec 80478fe4 0 DHCPRequest
-
-8046d338 000003e4 8046d338 0 ICMPSendError
-
-80475ef8 00000140 80475ef8 0 TCPAcceptAsync
-
-803bf5a4 00000058 803bf5a4 0 TRKDoOverride
-
-80111930 000001 80111930  8 event_denseFog_end2 	Global
-
-803da920 00000170 803da920 0 OSSuspendThread
-
-8046f64c 00000114 8046f64c 0 UDPOpen
-
-804005f4 00000060 804005f4 0 LObjAmnesia
-
-80405b68 0000038c 80405b68 0 get_shape_vertex_xyz
-
-803c2cc0 00000108 803c2cc0 0 CircleBufferReadBytes
-
-803c5eb8 00000028 803c5eb8 0 stateGoToRetry
-
-803c4400 00000070 803c4400 0 AlarmHandlerForTimeout
-
-8041e014 00000210 8041e014 0 Shadows_SmoothEdges_Math
-
-803d073c 00000050 803d073c 0 GXLoadPosMtxImm
-
-803c560c 00000030 803c560c 0 cbForReadAsync
-
-803b3ffc 0000006c 803b3ffc 0 fseek
-
-801ab4dc 000038 801ab4dc  4 AS_StarWave 	Global
-
-803ceb30 00000024 803ceb30 0 __GXFlushTextureState
-
-803d4848 000002a8 803d4848 0 OSDumpContext
-
-8046b200 000000a8 8046b200 0 CalcIpCheckSum
-
-803c7510 000000d4 803c7510 0 DVDReadDiskID
-
-8047b888 0000066c 8047b888 0 SOSocket
-
-803d4008 00000028 803d4008 0 LCDisable
-
-8046e828 0000023c 8046e828 0 IPInitRoute
-
-801ef76c 000038 801ef76c  4 charge_WhileMidAirChargingCheck 	Global
-
-8011024c 000001f8 8011024c 0 event_dynablade
-
-8037e374 00000010 8037e374 0 AvoidController::UseMinimumAvoidance(cPlayer *)
-
-800d0cd4 000000f8 800d0cd4 0 loadEnemy_spawnXYLocation?
-
-8041bc6c 0000005c 8041bc6c 0 HSD_SListAlloc
-
-8041bcc8 00000080 8041bcc8 0 HSD_SListAppend
-
-80111968 00000004 80111968 0 event_UFO
-
-801c6d0c 000068 801c6d0c  4 vcLoadCommon 	Global
-
-80198b00 00000090 80198b00 0 FrameTimer?
-
-800d0fbc 000000d4 800d0fbc 0 loadConveyerLocations?
-
-804807ac 000003a4 804807ac 0 ReceiveConfigureRequest
-
-803e73f0 00000220 803e73f0 0 CARDCreateAsync
-
-80111070 00000004 80111070 0 event_runAmok_end
-
-803d9c2c 0000003c 803d9c2c 0 __OSGetEffectivePriority
-
-
-801a6f64 000004 801a6f64  4 ability_Bomb_end 	Global
-
-803e7c40 000000b0 803e7c40 0 EraseCallback_3
-
-801f78f8 000000a0 801f78f8 0 accelerateWheelie
-
-803e6f9c 00000150 803e6f9c 0 __CARDGetFileNo
-
-803d7914 00000018 803d7914 0 __OSModuleInit
-
-803bb844 00000e54 803bb844 0 __kernel_rem_pio2
-
-803e4944 000000ac 803e4944 0 __CARDUpdateFatBlock
-
-803c5a48 00000028 803c5a48 0 stateGettingError_2
-
-803adb9c 0000001c 803adb9c 0 _restgpr_26
-
-80323894 0000005c 80323894 0 GLTextureAnim::__dt(void)
-
-8000771c 00000010 8000771c 0 gmGetClearcheckerType0Ptr
-
-80000d00 00000098 80000d00 0 trace_exception_handler
-
-8046f4b8 00000080 8046f4b8 0 UDPSetRecvBuff
-
-803e247c 0000022c 803e247c 0 Retry
-
-80112b0c 00000014 80112b0c 0 THPSimpleAudioStop
-
-801a6968 00000028 801a6968 0 ability_Fire_end
-
-8000542c 000000c0 8000542c 0 __init_data
-
-8029232c 00000070 8029232c 0 MenuList<19TLComponentInstance>::__dt(void)
-
-803cee94 0000006c 803cee94 0 GXSetTevKColorSel
-
-803fb08c 000000b0 803fb08c 0 MObjInfoInit
-
-80262a18 00000084 80262a18 0 stGetStageKind_4c?
-
-803eba58 0000018c 803eba58 0 ProbeBarnacle
-
-8011111c 0000f0 8011111c  4 event_pillar_start 	Global
-
-803c8204 000000f8 803c8204 0 DVDCompareDiskID
-
-803cc6e4 0000003c 803cc6e4 0 GXSetDispCopyDst
-
-801a6c10 000000d4 801a6c10 0 randomAbility_changeModel_Sword
-
-803cde80 0000009c 803cde80 0 GXLoadTlut
-
-801b9d6c 00008c 801b9d6c  4 checkIfGettingOffBike 	Global
-
-8042a0a0 00000014 8042a0a0 0 LooseBallAnims::GetDesperationInfo(unsigned int)
-
-801a6ce4 000000d4 801a6ce4 0 ability_Sword_giveHat
-
-80418708 000001b4 80418708 0 HSD_RObjGetGlobalPosition
-
-80027fa4 00000668 80027fa4 0 CSS_airRide_FreeRuInputGrabber
-
-8042365c 000006cc 8042365c 0 TExpAssignReg
-
-803d3c50 000001bc 803d3c50 0 __OSInitAudioSystem
-
-803b7eb0 00000128 803b7eb0 0 strcmp
-
-803adb28 00000044 803adb28 0 _savegpr_16
-
-803aff7c 00000070 803aff7c 0 __flush_all
-
-803cc89c 00000068 803cc89c 0 GXSetCopyClamp
-
-8040506c 00000228 8040506c 0 HSD_FObjLoadDesc?
-
-803f53a8 0000005c 803f53a8 0 HSD_TObjAnimAll?
-
-803b6d4c 00000090 803b6d4c 0 __StringRead
-
-803e4c54 000001b0 803e4c54 0 __CARDCheckSum
-
-801a20f4 0000000c 801a20f4 0 AnimatedModelExplodable::GetWorldMatrix( (void))
