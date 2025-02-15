@@ -24898,7 +24898,7 @@
 	.4byte fn_ability_Plasma
 	.4byte fn_801B3688
 	.4byte fn_ability_Mic
-	.4byte fn_801B454C
+	.4byte fn_ability_Ice
 	.4byte fn_801B4A3C
 	.4byte fn_Ability_Bird
 .endobj lbl_804AF4F0
@@ -69020,7 +69020,7 @@
 .obj lbl_804D25E0, global
 	.4byte lbl_805D915C
 	.4byte 0x00000000
-	.4byte fn_802DA5C4
+	.4byte fn_InGameTextOverlay___dt_TakeNoParams
 	.4byte fn_802D4C4C
 	.4byte fn_802DA630
 	.4byte fn_802A06BC
@@ -106795,7 +106795,7 @@
 .obj lbl_804F0D7C, global
 	.4byte 0x00000000
 	.4byte 0xFFFFFFFF
-	.4byte fn_8037102C
+	.4byte fn_cFielder_IsStriker_TakeNoParams
 .endobj lbl_804F0D7C
 
 # .data:0x55210 | 0x804F0D88 | size: 0xC
@@ -118140,23 +118140,23 @@
 
 # .data:0x5D5B0 | 0x804F9128 | size: 0x44
 .obj jumptable_804F9128, global
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0xE0
-	.4byte fn_803B9128+0x180
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x1C8
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x218
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x398
-	.4byte fn_803B9128+0x218
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0xE0
+	.4byte fn___strtoull+0x180
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x1C8
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x218
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x398
+	.4byte fn___strtoull+0x218
 .endobj jumptable_804F9128
 
 # .data:0x5D5F4 | 0x804F916C | size: 0x44
@@ -180165,25 +180165,25 @@
 
 # .data:0x98734 | 0x805342AC | size: 0x4C
 .obj jumptable_805342AC, global
-	.4byte fn_8047CE0C+0x20C
-	.4byte fn_8047CE0C+0x214
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x204
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x214
-	.4byte fn_8047CE0C+0x20C
-	.4byte fn_8047CE0C+0x1F4
-	.4byte fn_8047CE0C+0x1FC
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x1FC
-	.4byte fn_8047CE0C+0x214
-	.4byte fn_8047CE0C+0x21C
-	.4byte fn_8047CE0C+0x1F4
+	.4byte fn_SORecvFrom+0x20C
+	.4byte fn_SORecvFrom+0x214
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x204
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x214
+	.4byte fn_SORecvFrom+0x20C
+	.4byte fn_SORecvFrom+0x1F4
+	.4byte fn_SORecvFrom+0x1FC
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x1FC
+	.4byte fn_SORecvFrom+0x214
+	.4byte fn_SORecvFrom+0x21C
+	.4byte fn_SORecvFrom+0x1F4
 .endobj jumptable_805342AC
 
 # .data:0x98780 | 0x805342F8 | size: 0x4C

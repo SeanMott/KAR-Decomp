@@ -3662,7 +3662,7 @@
 	.4byte lbl_805DCBE0
 	.4byte fn_8041BC54
 	.4byte lbl_805DCBE4
-	.4byte fn_8041BC60
+	.4byte fn_HSD_DListGetAllocData
 	.4byte lbl_805DCBEC
 	.4byte fn_80417CD4
 	.4byte lbl_805DCBF4
