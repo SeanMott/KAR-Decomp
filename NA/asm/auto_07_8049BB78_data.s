@@ -294,22 +294,22 @@
 .endobj lbl_8049BF18
 
 # .data:0x3DC | 0x8049BF54 | size: 0x24
-.obj lbl_8049BF54, global
+.obj String_"NotFoundDbPositionStruct", global
 	.string "**** Not Found DbPosition Struct!!\n"
-.endobj lbl_8049BF54
+.endobj String_"NotFoundDbPositionStruct"
 
 # .data:0x400 | 0x8049BF78 | size: 0x24
-.obj jumptable_8049BF78, global
-	.4byte fn_80088408+0x3C
-	.4byte fn_80088408+0x54
-	.4byte fn_80088408+0x6C
-	.4byte fn_80088408+0xE0
-	.4byte fn_80088408+0x84
-	.4byte fn_80088408+0x9C
-	.4byte fn_80088408+0xE0
-	.4byte fn_80088408+0xB4
-	.4byte fn_80088408+0xCC
-.endobj jumptable_8049BF78
+.obj JumpTable_InitCTShitMaybe_CallbackFuncPtrArray_8049BF78, global
+	.4byte fn_InitCTShitMaybe+0x3C
+	.4byte fn_InitCTShitMaybe+0x54
+	.4byte fn_InitCTShitMaybe+0x6C
+	.4byte fn_InitCTShitMaybe+0xE0
+	.4byte fn_InitCTShitMaybe+0x84
+	.4byte fn_InitCTShitMaybe+0x9C
+	.4byte fn_InitCTShitMaybe+0xE0
+	.4byte fn_InitCTShitMaybe+0xB4
+	.4byte fn_InitCTShitMaybe+0xCC
+.endobj JumpTable_InitCTShitMaybe_CallbackFuncPtrArray_8049BF78
 
 # .data:0x424 | 0x8049BF9C | size: 0x4
 .obj gap_07_8049BF9C_data, global
@@ -318,9 +318,9 @@
 .endobj gap_07_8049BF9C_data
 
 # .data:0x428 | 0x8049BFA0 | size: 0x10
-.obj lbl_8049BFA0, global
+.obj String_"CanNotFindXFB!", global
 	.string "cant find xfb!\n"
-.endobj lbl_8049BFA0
+.endobj String_"CanNotFindXFB!"
 
 # .data:0x438 | 0x8049BFB0 | size: 0x10
 .obj lbl_8049BFB0, global
@@ -331,9 +331,9 @@
 .endobj lbl_8049BFB0
 
 # .data:0x448 | 0x8049BFC0 | size: 0xC
-.obj lbl_8049BFC0, global
+.obj String_"UnknownMap", global
 	.string "unknown map"
-.endobj lbl_8049BFC0
+.endobj String_"UnknownMap"
 
 # .data:0x454 | 0x8049BFCC | size: 0x10
 .obj lbl_8049BFCC, global
@@ -352,14 +352,14 @@
 .endobj lbl_8049BFDC
 
 # .data:0x474 | 0x8049BFEC | size: 0x10
-.obj lbl_8049BFEC, global
+.obj String_"WriteBuffOver", global
 	.string "write buff over"
-.endobj lbl_8049BFEC
+.endobj String_"WriteBuffOver"
 
 # .data:0x484 | 0x8049BFFC | size: 0xC
-.obj lbl_8049BFFC, global
+.obj String_"weiteError", global
 	.string "weite error"
-.endobj lbl_8049BFFC
+.endobj String_"weiteError"
 
 # .data:0x490 | 0x8049C008 | size: 0x18
 .obj lbl_8049C008, global
@@ -381,14 +381,14 @@
 .endobj lbl_8049C020
 
 # .data:0x4BC | 0x8049C034 | size: 0xC
-.obj lbl_8049C034, global
+.obj String_"BrokenCard", global
 	.string "broken card"
-.endobj lbl_8049C034
+.endobj String_"BrokenCard"
 
 # .data:0x4C8 | 0x8049C040 | size: 0xC
-.obj lbl_8049C040, global
+.obj String_"BrokenData", global
 	.string "broken data"
-.endobj lbl_8049C040
+.endobj String_"BrokenData"
 
 # .data:0x4D4 | 0x8049C04C | size: 0x10
 .obj lbl_8049C04C, global
@@ -404,18 +404,18 @@
 	.4byte 0x2066756C
 	.4byte 0x6C000000
 	.4byte lbl_805D5760
-	.4byte lbl_8049BFC0
+	.4byte String_"UnknownMap"
 	.4byte lbl_8049BFCC
 	.4byte lbl_805D5764
 	.4byte lbl_8049BFDC
-	.4byte lbl_8049BFEC
-	.4byte lbl_8049BFFC
+	.4byte String_"WriteBuffOver"
+	.4byte String_"weiteError"
 	.4byte lbl_8049C008
 	.4byte lbl_8049C020
 	.4byte lbl_805D576C
 	.4byte lbl_805D5774
-	.4byte lbl_8049C034
-	.4byte lbl_8049C040
+	.4byte String_"BrokenCard"
+	.4byte String_"BrokenData"
 	.4byte lbl_8049C04C
 	.4byte lbl_8049C05C
 .endobj lbl_8049C05C
@@ -481,9 +481,9 @@
 .endobj lbl_8049C0E4
 
 # .data:0x5BC | 0x8049C134 | size: 0xC
-.obj lbl_8049C134, global
+.obj String_"EditReplay", global
 	.string "edit replay"
-.endobj lbl_8049C134
+.endobj String_"EditReplay"
 
 # .data:0x5C8 | 0x8049C140 | size: 0xC
 .obj lbl_8049C140, global
@@ -493,9 +493,9 @@
 .endobj lbl_8049C140
 
 # .data:0x5D4 | 0x8049C14C | size: 0xC
-.obj lbl_8049C14C, global
+.obj String_"ReplayDemo", global
 	.string "replay demo"
-.endobj lbl_8049C14C
+.endobj String_"ReplayDemo"
 
 # .data:0x5E0 | 0x8049C158 | size: 0xC
 .obj lbl_8049C158, global
@@ -505,9 +505,9 @@
 .endobj lbl_8049C158
 
 # .data:0x5EC | 0x8049C164 | size: 0xC
-.obj lbl_8049C164, global
+.obj String_"ReplaySpec", global
 	.string "replay spec"
-.endobj lbl_8049C164
+.endobj String_"ReplaySpec"
 
 # .data:0x5F8 | 0x8049C170 | size: 0x10
 .obj lbl_8049C170, global
@@ -521,15 +521,15 @@
 .obj lbl_8049C180, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_8049C134
+	.4byte String_"EditReplay"
 	.4byte fn_8008ECFC
 	.4byte lbl_8049C140
 	.4byte fn_8008EA80
-	.4byte lbl_8049C14C
+	.4byte String_"ReplayDemo"
 	.4byte fn_8008EADC
 	.4byte lbl_8049C158
 	.4byte fn_8008EB24
-	.4byte lbl_8049C164
+	.4byte String_"ReplaySpec"
 	.4byte fn_8008EB6C
 	.4byte lbl_8049C170
 	.4byte fn_8008EC38
@@ -2536,9 +2536,9 @@
 .endobj lbl_8049DE1C
 
 # .data:0x22D8 | 0x8049DE50 | size: 0xC
-.obj lbl_8049DE50, global
+.obj String_"EfDebug.dat", global
 	.string "EfDebug.dat"
-.endobj lbl_8049DE50
+.endobj String_"EfDebug.dat"
 
 # .data:0x22E4 | 0x8049DE5C | size: 0x10
 .obj lbl_8049DE5C, global
@@ -2777,9 +2777,9 @@
 .endobj lbl_8049DF98
 
 # .data:0x2590 | 0x8049E108 | size: 0x30
-.obj lbl_8049E108, global
+.obj String_"HexFormatStr", global
 	.string "\\cffff00%5d \\cffffff%8x \\cffff00%5d \\cffffff%8x"
-.endobj lbl_8049E108
+.endobj String_"HexFormatStr"
 
 # .data:0x25C0 | 0x8049E138 | size: 0x74
 .obj lbl_8049E138, global
@@ -4520,59 +4520,59 @@
 .endobj lbl_8049F538
 
 # .data:0x39D0 | 0x8049F548 | size: 0x10
-.obj lbl_8049F548, global
+.obj String_"Race3DMode"2, global
 	.string "Race3D Mode   >"
-.endobj lbl_8049F548
+.endobj String_"Race3DMode"2
 
 # .data:0x39E0 | 0x8049F558 | size: 0x10
-.obj lbl_8049F558, global
+.obj String_"Race2DMode", global
 	.string "Race2D Mode   >"
-.endobj lbl_8049F558
+.endobj String_"Race2DMode"
 
 # .data:0x39F0 | 0x8049F568 | size: 0x10
-.obj lbl_8049F568, global
+.obj String_"OptionMode"2, global
 	.string "Option Mode   >"
-.endobj lbl_8049F568
+.endobj String_"OptionMode"2
 
 # .data:0x3A00 | 0x8049F578 | size: 0x10
-.obj lbl_8049F578, global
+.obj String_"ClearCheck", global
 	.string "Clearcheck    >"
-.endobj lbl_8049F578
+.endobj String_"ClearCheck"
 
 # .data:0x3A10 | 0x8049F588 | size: 0x10
-.obj lbl_8049F588, global
+.obj String_"SoundTest"2, global
 	.string "Sound Test    >"
-.endobj lbl_8049F588
+.endobj String_"SoundTest"2
 
 # .data:0x3A20 | 0x8049F598 | size: 0x10
-.obj lbl_8049F598, global
+.obj String_"RumbleTest"2, global
 	.string "Rumble Test   >"
-.endobj lbl_8049F598
+.endobj String_"RumbleTest"2
 
 # .data:0x3A30 | 0x8049F5A8 | size: 0x10
-.obj lbl_8049F5A8, global
+.obj String_"MovieTest", global
 	.string "Movie Test    >"
-.endobj lbl_8049F5A8
+.endobj String_"MovieTest"
 
 # .data:0x3A40 | 0x8049F5B8 | size: 0x10
-.obj lbl_8049F5B8, global
+.obj String_"MemCardTest", global
 	.string "MemCard Test  >"
-.endobj lbl_8049F5B8
+.endobj String_"MemCardTest"
 
 # .data:0x3A50 | 0x8049F5C8 | size: 0x10
-.obj lbl_8049F5C8, global
+.obj String_"EndingTest"2, global
 	.string "Ending Test   >"
-.endobj lbl_8049F5C8
+.endobj String_"EndingTest"2
 
 # .data:0x3A60 | 0x8049F5D8 | size: 0x10
-.obj lbl_8049F5D8, global
+.obj String_"LANEmulate", global
 	.string "Lan Emulate   >"
-.endobj lbl_8049F5D8
+.endobj String_"LANEmulate"
 
 # .data:0x3A70 | 0x8049F5E8 | size: 0x10
-.obj lbl_8049F5E8, global
+.obj String_"LANMenuTest", global
 	.string "Lan Menu Test >"
-.endobj lbl_8049F5E8
+.endobj String_"LANMenuTest"
 
 # .data:0x3A80 | 0x8049F5F8 | size: 0x10
 .obj lbl_8049F5F8, global
@@ -4594,7 +4594,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openRace3DMode
-	.4byte lbl_8049F548
+	.4byte String_"Race3DMode"2
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4602,7 +4602,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openRace2DMode
-	.4byte lbl_8049F558
+	.4byte String_"Race2DMode"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4610,7 +4610,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openOptionMode
-	.4byte lbl_8049F568
+	.4byte String_"OptionMode"2
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4618,7 +4618,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openClearCheck
-	.4byte lbl_8049F578
+	.4byte String_"ClearCheck"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4626,7 +4626,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openSoundTest
-	.4byte lbl_8049F588
+	.4byte String_"SoundTest"2
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4634,7 +4634,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openRumbleTest
-	.4byte lbl_8049F598
+	.4byte String_"RumbleTest"2
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4642,7 +4642,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openMovieTest
-	.4byte lbl_8049F5A8
+	.4byte String_"MovieTest"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4650,7 +4650,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openMemcardTest
-	.4byte lbl_8049F5B8
+	.4byte String_"MemCardTest"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4658,7 +4658,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openEndingTest
-	.4byte lbl_8049F5C8
+	.4byte String_"EndingTest"2
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4666,7 +4666,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openLANEmulate
-	.4byte lbl_8049F5D8
+	.4byte String_"LANEmulate"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4674,7 +4674,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_debug_openLANMenuTest
-	.4byte lbl_8049F5E8
+	.4byte String_"LANMenuTest"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4699,30 +4699,30 @@
 .endobj lbl_8049F608
 
 # .data:0x3C50 | 0x8049F7C8 | size: 0xC
-.obj lbl_8049F7C8, global
+.obj String_"3DMode", global
 	.string "< 3D Mode >"
-.endobj lbl_8049F7C8
+.endobj String_"3DMode"
 
 # .data:0x3C5C | 0x8049F7D4 | size: 0xC
-.obj lbl_8049F7D4, global
+.obj String_"Normal", global
 	.string "Normal    >"
-.endobj lbl_8049F7D4
+.endobj String_"Normal"
 
 # .data:0x3C68 | 0x8049F7E0 | size: 0xC
-.obj lbl_8049F7E0, global
+.obj String_"CT", global
 	.string "Citytrial >"
-.endobj lbl_8049F7E0
+.endobj String_"CT"
 
 # .data:0x3C74 | 0x8049F7EC | size: 0xC
-.obj lbl_8049F7EC, global
+.obj String_"Stadium", global
 	.string "Stadium   >"
-.endobj lbl_8049F7EC
+.endobj String_"Stadium"
 
 # .data:0x3C80 | 0x8049F7F8 | size: 0xA0
 .obj lbl_8049F7F8, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_8049F7C8
+	.4byte String_"3DMode"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4730,7 +4730,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_800ADE4C
-	.4byte lbl_8049F7D4
+	.4byte String_"Normal"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4738,7 +4738,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_800ADEBC
-	.4byte lbl_8049F7E0
+	.4byte String_"CT"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4746,7 +4746,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_800ADF20
-	.4byte lbl_8049F7EC
+	.4byte String_"Stadium"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -4870,9 +4870,9 @@
 .endobj lbl_structptr_Sky_Darts
 
 # .data:0x3E6C | 0x8049F9E4 | size: 0xC
-.obj lbl_8049F9E4, global
+.obj String_"FlickRoyal", global
 	.string "Flick Royal"
-.endobj lbl_8049F9E4
+.endobj String_"FlickRoyal"
 
 # .data:0x3E78 | 0x8049F9F0 | size: 0xC
 .obj lbl_8049F9F0, global
@@ -4897,9 +4897,9 @@
 .endobj lbl_8049FA08
 
 # .data:0x3EA0 | 0x8049FA18 | size: 0xC
-.obj lbl_8049FA18, global
+.obj String_"DeathMatch", global
 	.string "Death Match"
-.endobj lbl_8049FA18
+.endobj String_"DeathMatch"
 
 # .data:0x3EAC | 0x8049FA24 | size: 0xC
 .obj lbl_8049FA24, global
@@ -4909,14 +4909,14 @@
 .endobj lbl_8049FA24
 
 # .data:0x3EB8 | 0x8049FA30 | size: 0xC
-.obj lbl_8049FA30, global
+.obj String_"SingleTime", global
 	.string "Single Time"
-.endobj lbl_8049FA30
+.endobj String_"SingleTime"
 
 # .data:0x3EC4 | 0x8049FA3C | size: 0xC
-.obj lbl_8049FA3C, global
+.obj String_"CoinBattle", global
 	.string "Coin Battle"
-.endobj lbl_8049FA3C
+.endobj String_"CoinBattle"
 
 # .data:0x3ED0 | 0x8049FA48 | size: 0x10
 .obj lbl_8049FA48, global
@@ -4953,14 +4953,14 @@
 	.4byte lbl_805D5C5C
 	.4byte lbl_structptr_Air_Glider
 	.4byte lbl_structptr_Sky_Darts
-	.4byte lbl_8049F9E4
+	.4byte String_"FlickRoyal"
 	.4byte lbl_8049F9F0
 	.4byte lbl_8049F9FC
 	.4byte lbl_8049FA08
-	.4byte lbl_8049FA18
+	.4byte String_"DeathMatch"
 	.4byte lbl_8049FA24
-	.4byte lbl_8049FA30
-	.4byte lbl_8049FA3C
+	.4byte String_"SingleTime"
+	.4byte String_"CoinBattle"
 	.4byte lbl_8049FA48
 	.4byte lbl_8049FA58
 	.4byte lbl_805D5C64
@@ -5537,9 +5537,9 @@
 .endobj lbl_804A0194
 
 # .data:0x4628 | 0x804A01A0 | size: 0xC
-.obj lbl_804A01A0, global
+.obj String_"PointStrike", global
 	.string "PointStrike"
-.endobj lbl_804A01A0
+.endobj String_"PointStrike"
 
 # .data:0x4634 | 0x804A01AC | size: 0xC
 .obj lbl_804A01AC, global
@@ -5648,7 +5648,7 @@
 	.4byte lbl_804A017C
 	.4byte lbl_804A0188
 	.4byte lbl_804A0194
-	.4byte lbl_804A01A0
+	.4byte String_"PointStrike"
 	.4byte lbl_804A01AC
 	.4byte lbl_804A01B8
 	.4byte lbl_804A01C8
@@ -10602,9 +10602,9 @@
 .endobj lbl_804A3EAC
 
 # .data:0x8340 | 0x804A3EB8 | size: 0x28
-.obj String_Debug_"bitCounterIdAll->idParamNum>idParamID", global
+.obj "String_Debug_"bitCounterIdAll->idParamNum>idParamID"", global
 	.string "bitCounterIdAll->idParamNum > idParamId"
-.endobj String_Debug_"bitCounterIdAll->idParamNum>idParamID"
+.endobj "String_Debug_"bitCounterIdAll->idParamNum>idParamID""
 
 # .data:0x8368 | 0x804A3EE0 | size: 0xC
 .obj lbl_804A3EE0, global
