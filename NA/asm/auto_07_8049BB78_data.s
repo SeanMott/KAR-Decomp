@@ -7217,9 +7217,9 @@
 .endobj lbl_804A16CC
 
 # .data:0x5B64 | 0x804A16DC | size: 0x10
-.obj lbl_804A16DC, global
+.obj String_"HowToCT", global
 	.string "HowTo CityTrial"
-.endobj lbl_804A16DC
+.endobj String_"HowToCT"
 
 # .data:0x5B74 | 0x804A16EC | size: 0x20
 .obj lbl_804A16EC, global
@@ -7289,7 +7289,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_800AF6BC
-	.4byte lbl_804A16DC
+	.4byte String_"HowToCT"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -7390,9 +7390,9 @@
 .endobj lbl_804A18BC
 
 # .data:0x5D54 | 0x804A18CC | size: 0xC
-.obj lbl_804A18CC, global
+.obj String_"RegionInfo", global
 	.string "REGION INFO"
-.endobj lbl_804A18CC
+.endobj String_"RegionInfo"
 
 # .data:0x5D60 | 0x804A18D8 | size: 0xC
 .obj lbl_804A18D8, global
@@ -7477,7 +7477,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_800AFC9C
-	.4byte lbl_804A18CC
+	.4byte String_"RegionInfo"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -7502,9 +7502,9 @@
 .endobj lbl_804A18E4
 
 # .data:0x5EEC | 0x804A1A64 | size: 0xC
-.obj lbl_804A1A64, global
+.obj String_Debug_"WRONGDEVICE", global
 	.string "WRONGDEVICE"
-.endobj lbl_804A1A64
+.endobj String_Debug_"WRONGDEVICE"
 
 # .data:0x5EF8 | 0x804A1A70 | size: 0xC
 .obj lbl_804A1A70, global
@@ -7514,9 +7514,9 @@
 .endobj lbl_804A1A70
 
 # .data:0x5F04 | 0x804A1A7C | size: 0xC
-.obj lbl_804A1A7C, global
+.obj String_Debug_"NAMETOOLONG", global
 	.string "NAMETOOLONG"
-.endobj lbl_804A1A7C
+.endobj String_Debug_"NAMETOOLONG"
 
 # .data:0x5F10 | 0x804A1A88 | size: 0xC
 .obj lbl_804A1A88, global
@@ -7539,7 +7539,7 @@
 	.4byte 0x524F5200
 	.4byte lbl_805D5EE0
 	.4byte lbl_805D5EE8
-	.4byte lbl_804A1A64
+	.4byte String_Debug_"WRONGDEVICE"
 	.4byte lbl_805D5EF0
 	.4byte lbl_805D5EF8
 	.4byte lbl_805D5F00
@@ -7549,7 +7549,7 @@
 	.4byte lbl_804A1A70
 	.4byte lbl_805D5F20
 	.4byte lbl_805D5F28
-	.4byte lbl_804A1A7C
+	.4byte String_Debug_"NAMETOOLONG"
 	.4byte lbl_804A1A88
 	.4byte lbl_804A1A94
 	.4byte lbl_804A1AA0
@@ -7640,14 +7640,14 @@
 .endobj lbl_804A1B2C
 
 # .data:0x6064 | 0x804A1BDC | size: 0x34
-.obj lbl_804A1BDC, global
+.obj String_Debug_"MemCardTestShit", global
 	.string "[MemCardTest] Region[%d] Offset[%d] <---- WRITE:%d\n"
-.endobj lbl_804A1BDC
+.endobj String_Debug_"MemCardTestShit"
 
 # .data:0x6098 | 0x804A1C10 | size: 0x10
-.obj lbl_804A1C10, global
+.obj String_"EndingTest", global
 	.string "< Ending Test >"
-.endobj lbl_804A1C10
+.endobj String_"EndingTest"
 
 # .data:0x60A8 | 0x804A1C20 | size: 0xC
 .obj lbl_804A1C20, global
@@ -7660,7 +7660,7 @@
 .obj lbl_804A1C2C, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804A1C10
+	.4byte String_"EndingTest"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -7702,9 +7702,9 @@
 .endobj lbl_804A1C2C
 
 # .data:0x6158 | 0x804A1CD0 | size: 0x10
-.obj lbl_804A1CD0, global
+.obj String_"LAN_Emulate", global
 	.string "< Lan Emulate >"
-.endobj lbl_804A1CD0
+.endobj String_"LAN_Emulate"
 
 # .data:0x6168 | 0x804A1CE0 | size: 0xC
 .obj lbl_804A1CE0, global
@@ -7724,7 +7724,7 @@
 .obj lbl_804A1CF8, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804A1CD0
+	.4byte String_"LAN_Emulate"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -7809,9 +7809,9 @@
 .endobj lbl_804A1DF8
 
 # .data:0x6290 | 0x804A1E08 | size: 0xC
-.obj lbl_804A1E08, global
+.obj String_Debug_"Shoriochi:", global
 	.string "Shoriochi :"
-.endobj lbl_804A1E08
+.endobj String_Debug_"Shoriochi:"
 
 # .data:0x629C | 0x804A1E14 | size: 0xC
 .obj lbl_804A1E14, global
@@ -7832,7 +7832,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000003
 	.4byte 0x00000000
-	.4byte lbl_804A1E08
+	.4byte String_Debug_"Shoriochi:"
 	.4byte 0x00000000
 	.4byte lbl_805DD52C
 	.4byte 0x00000000
@@ -8046,9 +8046,9 @@
 .endobj lbl_804A20D4
 
 # .data:0x6588 | 0x804A2100 | size: 0x20
-.obj lbl_804A2100, global
+.obj String_Debug_"numberShit_Cm_Camera_Max", global
 	.string "number>=0&&number<Cm_Camera_Max"
-.endobj lbl_804A2100
+.endobj String_Debug_"numberShit_Cm_Camera_Max"
 
 # .data:0x65A8 | 0x804A2120 | size: 0x2C
 .obj lbl_804A2120, global
@@ -8066,9 +8066,9 @@
 .endobj lbl_804A2120
 
 # .data:0x65D4 | 0x804A214C | size: 0x18
-.obj lbl_804A214C, global
+.obj String_Debug_"NoSuchPLayerGOBJFormatStr", global
 	.string "no such player%d gobj!\n"
-.endobj lbl_804A214C
+.endobj String_Debug_"NoSuchPLayerGOBJFormatStr"
 
 # .data:0x65EC | 0x804A2164 | size: 0x18
 .obj lbl_804A2164, global
@@ -8081,9 +8081,9 @@
 .endobj lbl_804A2164
 
 # .data:0x6604 | 0x804A217C | size: 0xC
-.obj lbl_804A217C, global
+.obj String_Debug_"accelIsNot0.0F", global
 	.string "accel>=0.0F"
-.endobj lbl_804A217C
+.endobj String_Debug_"accelIsNot0.0F"
 
 # .data:0x6610 | 0x804A2188 | size: 0xC
 .obj lbl_804A2188, global
@@ -8552,14 +8552,14 @@
 .endobj lbl_804A26F8
 
 # .data:0x6B98 | 0x804A2710 | size: 0xC
-.obj lbl_804A2710, global
+.obj String_"GrHeat2.dat", global
 	.string "GrHeat2.dat"
-.endobj lbl_804A2710
+.endobj String_"GrHeat2.dat"
 
 # .data:0x6BA4 | 0x804A271C | size: 0xC
-.obj lbl_804A271C, global
+.obj String_"grDataHeat2", global
 	.string "grDataHeat2"
-.endobj lbl_804A271C
+.endobj String_"grDataHeat2"
 
 # .data:0x6BB0 | 0x804A2728 | size: 0x14
 .obj lbl_804A2728, global
@@ -8664,9 +8664,9 @@
 .endobj lbl_804A27F0
 
 # .data:0x6C88 | 0x804A2800 | size: 0x14
-.obj lbl_804A2800, global
+.obj String_"grModelMotionCheck2", global
 	.string "grModelMotionCheck2"
-.endobj lbl_804A2800
+.endobj String_"grModelMotionCheck2"
 
 # .data:0x6C9C | 0x804A2814 | size: 0x10
 .obj lbl_804A2814, global
@@ -8728,14 +8728,14 @@
 .endobj lbl_804A2880
 
 # .data:0x6D18 | 0x804A2890 | size: 0x14
-.obj lbl_804A2890, global
+.obj String_"GrMachine2Model.dat", global
 	.string "GrMachine2Model.dat"
-.endobj lbl_804A2890
+.endobj String_"GrMachine2Model.dat"
 
 # .data:0x6D2C | 0x804A28A4 | size: 0x10
-.obj lbl_804A28A4, global
+.obj String_"grModelMachine2", global
 	.string "grModelMachine2"
-.endobj lbl_804A28A4
+.endobj String_"grModelMachine2"
 
 # .data:0x6D3C | 0x804A28B4 | size: 0x18
 .obj lbl_804A28B4, global
@@ -8781,9 +8781,9 @@
 .endobj lbl_804A2900
 
 # .data:0x6D98 | 0x804A2910 | size: 0x14
-.obj lbl_804A2910, global
+.obj String_"grModelMotionSpace2", global
 	.string "grModelMotionSpace2"
-.endobj lbl_804A2910
+.endobj String_"grModelMotionSpace2"
 
 # .data:0x6DAC | 0x804A2924 | size: 0xC
 .obj lbl_804A2924, global
@@ -8800,14 +8800,14 @@
 .endobj lbl_804A2930
 
 # .data:0x6DC4 | 0x804A293C | size: 0x10
-.obj lbl_804A293C, global
+.obj String_"GrSky2Model.dat", global
 	.string "GrSky2Model.dat"
-.endobj lbl_804A293C
+.endobj String_"GrSky2Model.dat"
 
 # .data:0x6DD4 | 0x804A294C | size: 0xC
-.obj lbl_804A294C, global
+.obj String_"grModelSky2", global
 	.string "grModelSky2"
-.endobj lbl_804A294C
+.endobj String_"grModelSky2"
 
 # .data:0x6DE0 | 0x804A2958 | size: 0x14
 .obj lbl_804A2958, global
@@ -8833,14 +8833,14 @@
 .endobj lbl_804A2978
 
 # .data:0x6E0C | 0x804A2984 | size: 0x10
-.obj lbl_804A2984, global
+.obj String_"GrIce1Model.dat", global
 	.string "GrIce1Model.dat"
-.endobj lbl_804A2984
+.endobj String_"GrIce1Model.dat"
 
 # .data:0x6E1C | 0x804A2994 | size: 0xC
-.obj lbl_804A2994, global
+.obj String_"grModelIce1", global
 	.string "grModelIce1"
-.endobj lbl_804A2994
+.endobj String_"grModelIce1"
 
 # .data:0x6E28 | 0x804A29A0 | size: 0x14
 .obj lbl_804A29A0, global
@@ -8852,14 +8852,14 @@
 .endobj lbl_804A29A0
 
 # .data:0x6E3C | 0x804A29B4 | size: 0xC
-.obj lbl_804A29B4, global
+.obj String_"GrCity1.dat", global
 	.string "GrCity1.dat"
-.endobj lbl_804A29B4
+.endobj String_"GrCity1.dat"
 
 # .data:0x6E48 | 0x804A29C0 | size: 0xC
-.obj lbl_804A29C0, global
+.obj String_"grDataCity1", global
 	.string "grDataCity1"
-.endobj lbl_804A29C0
+.endobj String_"grDataCity1"
 
 # .data:0x6E54 | 0x804A29CC | size: 0x14
 .obj lbl_804A29CC, global
@@ -8940,14 +8940,14 @@
 .endobj lbl_804A2A70
 
 # .data:0x6F08 | 0x804A2A80 | size: 0x14
-.obj lbl_804A2A80, global
+.obj String_"GrZeroyon3Model.dat", global
 	.string "GrZeroyon3Model.dat"
-.endobj lbl_804A2A80
+.endobj String_"GrZeroyon3Model.dat"
 
 # .data:0x6F1C | 0x804A2A94 | size: 0x10
-.obj lbl_804A2A94, global
+.obj String_"grModelZeroyon3", global
 	.string "grModelZeroyon3"
-.endobj lbl_804A2A94
+.endobj String_"grModelZeroyon3"
 
 # .data:0x6F2C | 0x804A2AA4 | size: 0x18
 .obj lbl_804A2AA4, global
@@ -8976,14 +8976,14 @@
 .endobj lbl_804A2ACC
 
 # .data:0x6F64 | 0x804A2ADC | size: 0x14
-.obj lbl_804A2ADC, global
+.obj String_"GrZeroyon4Model.dat", global
 	.string "GrZeroyon4Model.dat"
-.endobj lbl_804A2ADC
+.endobj String_"GrZeroyon4Model.dat"
 
 # .data:0x6F78 | 0x804A2AF0 | size: 0x10
-.obj lbl_804A2AF0, global
+.obj String_"grModelZeroyon4", global
 	.string "grModelZeroyon4"
-.endobj lbl_804A2AF0
+.endobj String_"grModelZeroyon4"
 
 # .data:0x6F88 | 0x804A2B00 | size: 0x18
 .obj lbl_804A2B00, global
@@ -9012,14 +9012,14 @@
 .endobj lbl_804A2B28
 
 # .data:0x6FC0 | 0x804A2B38 | size: 0x14
-.obj lbl_804A2B38, global
+.obj String_"GrZeroyon5Model.dat", global
 	.string "GrZeroyon5Model.dat"
-.endobj lbl_804A2B38
+.endobj String_"GrZeroyon5Model.dat"
 
 # .data:0x6FD4 | 0x804A2B4C | size: 0x10
-.obj lbl_804A2B4C, global
+.obj String_"grModelZeroyon5", global
 	.string "grModelZeroyon5"
-.endobj lbl_804A2B4C
+.endobj String_"grModelZeroyon5"
 
 # .data:0x6FE4 | 0x804A2B5C | size: 0x18
 .obj lbl_804A2B5C, global
@@ -9048,14 +9048,14 @@
 .endobj lbl_804A2B84
 
 # .data:0x701C | 0x804A2B94 | size: 0x14
-.obj lbl_804A2B94, global
+.obj String_"GrPasture1Model.dat", global
 	.string "GrPasture1Model.dat"
-.endobj lbl_804A2B94
+.endobj String_"GrPasture1Model.dat"
 
 # .data:0x7030 | 0x804A2BA8 | size: 0x10
-.obj lbl_804A2BA8, global
+.obj String_"grModelPasture1", global
 	.string "grModelPasture1"
-.endobj lbl_804A2BA8
+.endobj String_"grModelPasture1"
 
 # .data:0x7040 | 0x804A2BB8 | size: 0x18
 .obj lbl_804A2BB8, global
@@ -9105,9 +9105,9 @@
 .endobj lbl_804A2C10
 
 # .data:0x70AC | 0x804A2C24 | size: 0x18
-.obj lbl_804A2C24, global
+.obj String_"grModelMotionColosseum1", global
 	.string "grModelMotionColosseum1"
-.endobj lbl_804A2C24
+.endobj String_"grModelMotionColosseum1"
 
 # .data:0x70C4 | 0x804A2C3C | size: 0x14
 .obj lbl_804A2C3C, global
@@ -9147,9 +9147,9 @@
 .endobj lbl_804A2C7C
 
 # .data:0x7118 | 0x804A2C90 | size: 0x18
-.obj lbl_804A2C90, global
+.obj String_"grModelMotionColosseum3", global
 	.string "grModelMotionColosseum3"
-.endobj lbl_804A2C90
+.endobj String_"grModelMotionColosseum3"
 
 # .data:0x7130 | 0x804A2CA8 | size: 0x14
 .obj lbl_804A2CA8, global
@@ -9189,19 +9189,19 @@
 .endobj lbl_804A2CE8
 
 # .data:0x7184 | 0x804A2CFC | size: 0x18
-.obj lbl_804A2CFC, global
+.obj String_"grModelMotionColosseum5", global
 	.string "grModelMotionColosseum5"
-.endobj lbl_804A2CFC
+.endobj String_"grModelMotionColosseum5"
 
 # .data:0x719C | 0x804A2D14 | size: 0xC
-.obj lbl_804A2D14, global
+.obj String_"GrJump1.dat", global
 	.string "GrJump1.dat"
-.endobj lbl_804A2D14
+.endobj String_"GrJump1.dat"
 
 # .data:0x71A8 | 0x804A2D20 | size: 0xC
-.obj lbl_804A2D20, global
+.obj String_"grDataJump1", global
 	.string "grDataJump1"
-.endobj lbl_804A2D20
+.endobj String_"grDataJump1"
 
 # .data:0x71B4 | 0x804A2D2C | size: 0x14
 .obj lbl_804A2D2C, global
@@ -9230,14 +9230,14 @@
 .endobj lbl_804A2D50
 
 # .data:0x71EC | 0x804A2D64 | size: 0xC
-.obj lbl_804A2D64, global
+.obj String_"GrJump2.dat", global
 	.string "GrJump2.dat"
-.endobj lbl_804A2D64
+.endobj String_"GrJump2.dat"
 
 # .data:0x71F8 | 0x804A2D70 | size: 0xC
-.obj lbl_804A2D70, global
+.obj String_"grDataJump2", global
 	.string "grDataJump2"
-.endobj lbl_804A2D70
+.endobj String_"grDataJump2"
 
 # .data:0x7204 | 0x804A2D7C | size: 0x14
 .obj lbl_804A2D7C, global
@@ -9266,14 +9266,14 @@
 .endobj lbl_804A2DA0
 
 # .data:0x723C | 0x804A2DB4 | size: 0xC
-.obj lbl_804A2DB4, global
+.obj String_"GrJump3.dat", global
 	.string "GrJump3.dat"
-.endobj lbl_804A2DB4
+.endobj String_"GrJump3.dat"
 
 # .data:0x7248 | 0x804A2DC0 | size: 0xC
-.obj lbl_804A2DC0, global
+.obj String_"grDataJump3", global
 	.string "grDataJump3"
-.endobj lbl_804A2DC0
+.endobj String_"grDataJump3"
 
 # .data:0x7254 | 0x804A2DCC | size: 0x14
 .obj lbl_804A2DCC, global
@@ -9359,14 +9359,14 @@
 .endobj lbl_804A2E6C
 
 # .data:0x7300 | 0x804A2E78 | size: 0x10
-.obj lbl_804A2E78, global
+.obj String_"GrTestModel.dat", global
 	.string "GrTestModel.dat"
-.endobj lbl_804A2E78
+.endobj String_"GrTestModel.dat"
 
 # .data:0x7310 | 0x804A2E88 | size: 0xC
-.obj lbl_804A2E88, global
+.obj String_"grModelTest", global
 	.string "grModelTest"
-.endobj lbl_804A2E88
+.endobj String_"grModelTest"
 
 # .data:0x731C | 0x804A2E94 | size: 0x14
 .obj lbl_804A2E94, global
@@ -9378,14 +9378,14 @@
 .endobj lbl_804A2E94
 
 # .data:0x7330 | 0x804A2EA8 | size: 0xC
-.obj lbl_804A2EA8, global
+.obj String_"GrTest6.dat", global
 	.string "GrTest6.dat"
-.endobj lbl_804A2EA8
+.endobj String_"GrTest6.dat"
 
 # .data:0x733C | 0x804A2EB4 | size: 0xC
-.obj lbl_804A2EB4, global
+.obj String_"grDataTest6", global
 	.string "grDataTest6"
-.endobj lbl_804A2EB4
+.endobj String_"grDataTest6"
 
 # .data:0x7348 | 0x804A2EC0 | size: 0x14
 .obj lbl_804A2EC0, global
@@ -9414,14 +9414,14 @@
 .endobj lbl_804A2EE4
 
 # .data:0x7380 | 0x804A2EF8 | size: 0xC
-.obj lbl_804A2EF8, global
+.obj String_Filename_Dat_"GrTest7.dat", global
 	.string "GrTest7.dat"
-.endobj lbl_804A2EF8
+.endobj String_Filename_Dat_"GrTest7.dat"
 
 # .data:0x738C | 0x804A2F04 | size: 0xC
-.obj lbl_804A2F04, global
+.obj String_"grDataTest7", global
 	.string "grDataTest7"
-.endobj lbl_804A2F04
+.endobj String_"grDataTest7"
 
 # .data:0x7398 | 0x804A2F10 | size: 0x14
 .obj lbl_804A2F10, global
@@ -9483,9 +9483,9 @@
 .endobj lbl_804A2F7C
 
 # .data:0x7414 | 0x804A2F8C | size: 0x14
-.obj lbl_804A2F8C, global
+.obj String_"grModelMotionSimple", global
 	.string "grModelMotionSimple"
-.endobj lbl_804A2F8C
+.endobj String_"grModelMotionSimple"
 
 # .data:0x7428 | 0x804A2FA0 | size: 0x10
 .obj lbl_804A2FA0, global
@@ -9537,8 +9537,8 @@
 	.4byte lbl_804A26D4
 	.4byte lbl_804A26E8
 	.4byte lbl_804A26F8
-	.4byte lbl_804A2710
-	.4byte lbl_804A271C
+	.4byte String_"GrHeat2.dat"
+	.4byte String_"grDataHeat2"
 	.4byte lbl_804A2728
 	.4byte lbl_804A273C
 	.4byte lbl_804A274C
@@ -9551,7 +9551,7 @@
 	.4byte lbl_804A27CC
 	.4byte lbl_804A27DC
 	.4byte lbl_804A27F0
-	.4byte lbl_804A2800
+	.4byte String_"grModelMotionCheck2"
 	.4byte lbl_804A2814
 	.4byte lbl_804A2824
 	.4byte lbl_804A2834
@@ -9559,26 +9559,26 @@
 	.4byte lbl_804A2858
 	.4byte lbl_804A2870
 	.4byte lbl_804A2880
-	.4byte lbl_804A2890
-	.4byte lbl_804A28A4
+	.4byte String_"GrMachine2Model.dat"
+	.4byte String_"grModelMachine2"
 	.4byte lbl_804A28B4
 	.4byte lbl_804A28CC
 	.4byte lbl_804A28DC
 	.4byte lbl_804A28EC
 	.4byte lbl_804A2900
-	.4byte lbl_804A2910
+	.4byte String_"grModelMotionSpace2"
 	.4byte lbl_804A2924
 	.4byte lbl_804A2930
-	.4byte lbl_804A293C
-	.4byte lbl_804A294C
+	.4byte String_"GrSky2Model.dat"
+	.4byte String_"grModelSky2"
 	.4byte lbl_804A2958
 	.4byte lbl_804A296C
 	.4byte lbl_804A2978
-	.4byte lbl_804A2984
-	.4byte lbl_804A2994
+	.4byte String_"GrIce1Model.dat"
+	.4byte String_"grModelIce1"
 	.4byte lbl_804A29A0
-	.4byte lbl_804A29B4
-	.4byte lbl_804A29C0
+	.4byte String_"GrCity1.dat"
+	.4byte String_"grDataCity1"
 	.4byte lbl_804A29CC
 	.4byte lbl_804A29E0
 	.4byte lbl_804A29F0
@@ -9589,51 +9589,51 @@
 	.4byte lbl_804A2A48
 	.4byte lbl_804A2A60
 	.4byte lbl_804A2A70
-	.4byte lbl_804A2A80
-	.4byte lbl_804A2A94
+	.4byte String_"GrZeroyon3Model.dat"
+	.4byte String_"grModelZeroyon3"
 	.4byte lbl_804A2AA4
 	.4byte lbl_804A2ABC
 	.4byte lbl_804A2ACC
-	.4byte lbl_804A2ADC
-	.4byte lbl_804A2AF0
+	.4byte String_"GrZeroyon4Model.dat"
+	.4byte String_"grModelZeroyon4"
 	.4byte lbl_804A2B00
 	.4byte lbl_804A2B18
 	.4byte lbl_804A2B28
-	.4byte lbl_804A2B38
-	.4byte lbl_804A2B4C
+	.4byte String_"GrZeroyon5Model.dat"
+	.4byte String_"grModelZeroyon5"
 	.4byte lbl_804A2B5C
 	.4byte lbl_804A2B74
 	.4byte lbl_804A2B84
-	.4byte lbl_804A2B94
-	.4byte lbl_804A2BA8
+	.4byte String_"GrPasture1Model.dat"
+	.4byte String_"grModelPasture1"
 	.4byte lbl_804A2BB8
 	.4byte lbl_804A2BD0
 	.4byte lbl_804A2BE4
 	.4byte lbl_804A2BF8
 	.4byte lbl_804A2C10
-	.4byte lbl_804A2C24
+	.4byte String_"grModelMotionColosseum1"
 	.4byte lbl_804A2C3C
 	.4byte lbl_804A2C50
 	.4byte lbl_804A2C64
 	.4byte lbl_804A2C7C
-	.4byte lbl_804A2C90
+	.4byte String_"grModelMotionColosseum3"
 	.4byte lbl_804A2CA8
 	.4byte lbl_804A2CBC
 	.4byte lbl_804A2CD0
 	.4byte lbl_804A2CE8
-	.4byte lbl_804A2CFC
-	.4byte lbl_804A2D14
-	.4byte lbl_804A2D20
+	.4byte String_"grModelMotionColosseum5"
+	.4byte String_"GrJump1.dat"
+	.4byte String_"grDataJump1"
 	.4byte lbl_804A2D2C
 	.4byte lbl_804A2D40
 	.4byte lbl_804A2D50
-	.4byte lbl_804A2D64
-	.4byte lbl_804A2D70
+	.4byte String_"GrJump2.dat"
+	.4byte String_"grDataJump2"
 	.4byte lbl_804A2D7C
 	.4byte lbl_804A2D90
 	.4byte lbl_804A2DA0
-	.4byte lbl_804A2DB4
-	.4byte lbl_804A2DC0
+	.4byte String_"GrJump3.dat"
+	.4byte String_"grDataJump3"
 	.4byte lbl_804A2DCC
 	.4byte lbl_804A2DE0
 	.4byte lbl_804A2DF0
@@ -9649,16 +9649,16 @@
 	.4byte 0x00000000
 	.4byte lbl_804A2E60
 	.4byte lbl_804A2E6C
-	.4byte lbl_804A2E78
-	.4byte lbl_804A2E88
+	.4byte String_"GrTestModel.dat"
+	.4byte String_"grModelTest"
 	.4byte lbl_804A2E94
-	.4byte lbl_804A2EA8
-	.4byte lbl_804A2EB4
+	.4byte String_"GrTest6.dat"
+	.4byte String_"grDataTest6"
 	.4byte lbl_804A2EC0
 	.4byte lbl_804A2ED4
 	.4byte lbl_804A2EE4
-	.4byte lbl_804A2EF8
-	.4byte lbl_804A2F04
+	.4byte String_Filename_Dat_"GrTest7.dat"
+	.4byte String_"grDataTest7"
 	.4byte lbl_804A2F10
 	.4byte lbl_804A2F24
 	.4byte lbl_804A2F34
@@ -9666,7 +9666,7 @@
 	.4byte lbl_804A2F58
 	.4byte lbl_804A2F68
 	.4byte lbl_804A2F7C
-	.4byte lbl_804A2F8C
+	.4byte String_"grModelMotionSimple"
 	.4byte lbl_804A2FA0
 	.4byte lbl_804A2FB0
 	.4byte lbl_804A2FC0
@@ -9741,9 +9741,9 @@
 .endobj lbl_804A32C0
 
 # .data:0x777C | 0x804A32F4 | size: 0x14
-.obj lbl_804A32F4, global
+.obj String_DatSymbol_"grEventDataAllCity1", global
 	.string "grEventDataAllCity1"
-.endobj lbl_804A32F4
+.endobj String_DatSymbol_"grEventDataAllCity1"
 
 # .data:0x7790 | 0x804A3308 | size: 0x2C
 .obj lbl_804A3308, global
@@ -9761,9 +9761,9 @@
 .endobj lbl_804A3308
 
 # .data:0x77BC | 0x804A3334 | size: 0x30
-.obj lbl_804A3334, global
+.obj String_Debug_"GrCFF_ForcedReflectNumMaxIndexStuff", global
 	.string "0 <= index && index < GrCFF_ForcedReflectNumMax"
-.endobj lbl_804A3334
+.endobj String_Debug_"GrCFF_ForcedReflectNumMaxIndexStuff"
 
 # .data:0x77EC | 0x804A3364 | size: 0x40
 .obj lbl_804A3364, global
@@ -9974,14 +9974,14 @@
 .endobj lbl_804A35EC
 
 # .data:0x7A9C | 0x804A3614 | size: 0x28
-.obj lbl_804A3614, global
+.obj String_Debug_"grGetConveyerposNum()NumStuff", global
 	.string "0 <= num && num < grGetConveyerposNum()"
-.endobj lbl_804A3614
+.endobj String_Debug_"grGetConveyerposNum()NumStuff"
 
 # .data:0x7AC4 | 0x804A363C | size: 0x24
-.obj lbl_804A363C, global
+.obj String_Debug_"grGetItemposNum()NumStuff", global
 	.string "0 <= num && num < grGetItemposNum()"
-.endobj lbl_804A363C
+.endobj String_Debug_"grGetItemposNum()NumStuff"
 
 # .data:0x7AE8 | 0x804A3660 | size: 0x28
 .obj lbl_804A3660, global
@@ -10012,14 +10012,14 @@
 .endobj lbl_804A3688
 
 # .data:0x7B38 | 0x804A36B0 | size: 0x28
-.obj lbl_804A36B0, global
+.obj String_Debug_"grGetYakumonoposNum()NumStuff", global
 	.string "0 <= num && num < grGetYakumonoposNum()"
-.endobj lbl_804A36B0
+.endobj String_Debug_"grGetYakumonoposNum()NumStuff"
 
 # .data:0x7B60 | 0x804A36D8 | size: 0x28
-.obj lbl_804A36D8, global
+.obj String_Debug_"grGetItemAreaposNum()NumStuff", global
 	.string "0 <= num && num < grGetItemAreaposNum()"
-.endobj lbl_804A36D8
+.endobj String_Debug_"grGetItemAreaposNum()NumStuff"
 
 # .data:0x7B88 | 0x804A3700 | size: 0x2C
 .obj lbl_804A3700, global
@@ -10185,9 +10185,9 @@
 .endobj lbl_804A38DC
 
 # .data:0x7D94 | 0x804A390C | size: 0x1C
-.obj lbl_804A390C, global
+.obj String_Debug_"!grChkIllegalZoneId(zoneId)", global
 	.string "!grChkIllegalZoneId(zoneId)"
-.endobj lbl_804A390C
+.endobj String_Debug_"!grChkIllegalZoneId(zoneId)"
 
 # .data:0x7DB0 | 0x804A3928 | size: 0x40
 .obj jumptable_804A3928, global
@@ -10602,9 +10602,9 @@
 .endobj lbl_804A3EAC
 
 # .data:0x8340 | 0x804A3EB8 | size: 0x28
-.obj lbl_804A3EB8, global
+.obj String_Debug_"bitCounterIdAll->idParamNum>idParamID", global
 	.string "bitCounterIdAll->idParamNum > idParamId"
-.endobj lbl_804A3EB8
+.endobj String_Debug_"bitCounterIdAll->idParamNum>idParamID"
 
 # .data:0x8368 | 0x804A3EE0 | size: 0xC
 .obj lbl_804A3EE0, global
@@ -11075,9 +11075,9 @@
 .endobj STRUCT_FLOAT_4
 
 # .data:0x89B8 | 0x804A4530 | size: 0x10
-.obj lbl_804A4530, global
+.obj String_Debug_"grrangespline.c", global
 	.string "grrangespline.c"
-.endobj lbl_804A4530
+.endobj String_Debug_"grrangespline.c"
 
 # .data:0x89C8 | 0x804A4540 | size: 0x70
 .obj lbl_804A4540, global
@@ -11444,9 +11444,9 @@
 .endobj lbl_804A4A20
 
 # .data:0x8EE8 | 0x804A4A60 | size: 0xC
-.obj lbl_804A4A60, global
+.obj String_Debug_"grgravity.c", global
 	.string "grgravity.c"
-.endobj lbl_804A4A60
+.endobj String_Debug_"grgravity.c"
 
 # .data:0x8EF4 | 0x804A4A6C | size: 0x14
 .obj lbl_804A4A6C, global
