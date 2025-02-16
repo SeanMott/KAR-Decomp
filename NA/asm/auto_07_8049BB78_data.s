@@ -2593,13 +2593,13 @@
 	.4byte lbl_805D5A00
 	.4byte lbl_805D5A08
 	.4byte lbl_805D5A10
-	.4byte lbl_struct_city_805D5A18
+	.4byte struct_city_805D5A18
 	.4byte lbl_805D5A20
 	.4byte lbl_805D5A28
 	.4byte lbl_805D5A30
 	.4byte lbl_805D5A38
 	.4byte lbl_805D5A40
-	.4byte lbl_805D5A48
+	.4byte String_"air"
 	.4byte lbl_805D5A4C
 .endobj lbl_8049DEE8
 
@@ -2686,14 +2686,14 @@
 	.4byte 0x646F776E
 	.4byte 0x00000000
 	.4byte lbl_805D5A54
-	.4byte lbl_805D5A5C
-	.4byte lbl_805D5A60
+	.4byte String_"run"
+	.4byte String_"freerun"
 	.4byte lbl_8049DF14
 	.4byte lbl_8049DF20
 	.4byte lbl_8049DF2C
 	.4byte lbl_8049DF38
 	.4byte lbl_8049DF44
-	.4byte lbl_805D5A68
+	.4byte String_"fly"
 	.4byte lbl_805D5A6C
 	.4byte lbl_8049DF50
 	.4byte lbl_8049DF5C
@@ -2701,14 +2701,14 @@
 	.4byte lbl_805D5A74
 	.4byte lbl_805D5A7C
 	.4byte lbl_8049DF74
-	.4byte lbl_805D5A84
+	.4byte String_"walkfly"
 	.4byte lbl_8049DF80
-	.4byte lbl_805D5A8C
+	.4byte String_"suikomi"
 	.4byte lbl_8049DF8C
 	.4byte lbl_805D5A94
 	.4byte lbl_8049DF98
 	.4byte lbl_805D5A9C
-	.4byte lbl_805D5AA4
+	.4byte String_"str"
 	.4byte lbl_805D5AA8
 	.4byte lbl_805D5AAC
 	.4byte lbl_805D5AB0
@@ -4763,7 +4763,7 @@
 .endobj lbl_8049F7F8
 
 # .data:0x3D20 | 0x8049F898 | size: 0x110
-.obj lbl_structptr_music0, global
+.obj structptr_music0, global
 	.4byte lbl_struct_music0
 	.4byte lbl_struct_music1
 	.4byte lbl_struct_music2
@@ -4832,42 +4832,42 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_structptr_music0
+.endobj structptr_music0
 
 # .data:0x3E30 | 0x8049F9A8 | size: 0xC
-.obj lbl_structptr_Timeattack, global
+.obj structptr_Timeattack, global
 	.4byte 0x54696D65
 	.4byte 0x61747461
 	.4byte 0x636B0000
-.endobj lbl_structptr_Timeattack
+.endobj structptr_Timeattack
 
 # .data:0x3E3C | 0x8049F9B4 | size: 0xC
-.obj lbl_structptr_Freecity, global
+.obj structptr_Freecity, global
 	.4byte 0x46726565
 	.4byte 0x63697479
 	.4byte 0x00000000
-.endobj lbl_structptr_Freecity
+.endobj structptr_Freecity
 
 # .data:0x3E48 | 0x8049F9C0 | size: 0xC
-.obj lbl_structptr_Timecity, global
+.obj structptr_Timecity, global
 	.4byte 0x54696D65
 	.4byte 0x63697479
 	.4byte 0x00000000
-.endobj lbl_structptr_Timecity
+.endobj structptr_Timecity
 
 # .data:0x3E54 | 0x8049F9CC | size: 0xC
-.obj lbl_structptr_Air_Glider, global
+.obj structptr_Air_Glider, global
 	.4byte 0x41697220
 	.4byte 0x476C6964
 	.4byte 0x65720000
-.endobj lbl_structptr_Air_Glider
+.endobj structptr_Air_Glider
 
 # .data:0x3E60 | 0x8049F9D8 | size: 0xC
-.obj lbl_structptr_Sky_Darts, global
+.obj structptr_Sky_Darts, global
 	.4byte 0x536B7920
 	.4byte 0x44617274
 	.4byte 0x73000000
-.endobj lbl_structptr_Sky_Darts
+.endobj structptr_Sky_Darts
 
 # .data:0x3E6C | 0x8049F9E4 | size: 0xC
 .obj String_"FlickRoyal", global
@@ -4947,12 +4947,12 @@
 	.4byte lbl_805D5C44
 	.4byte lbl_805D5C4C
 	.4byte lbl_805D5C54
-	.4byte lbl_structptr_Timeattack
-	.4byte lbl_structptr_Freecity
-	.4byte lbl_structptr_Timecity
+	.4byte structptr_Timeattack
+	.4byte structptr_Freecity
+	.4byte structptr_Timecity
 	.4byte lbl_805D5C5C
-	.4byte lbl_structptr_Air_Glider
-	.4byte lbl_structptr_Sky_Darts
+	.4byte structptr_Air_Glider
+	.4byte structptr_Sky_Darts
 	.4byte String_"FlickRoyal"
 	.4byte lbl_8049F9F0
 	.4byte lbl_8049F9FC
@@ -5374,7 +5374,7 @@
 	.4byte 0x00000002
 	.4byte 0x00000000
 	.4byte lbl_8049FD14
-	.4byte lbl_structptr_music0
+	.4byte structptr_music0
 	.4byte lbl_8049F45C
 	.4byte 0x00000000
 	.4byte 0x42880000

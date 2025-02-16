@@ -2047,10 +2047,10 @@
 .endobj lbl_805D5A10
 
 # .sdata:0x938 | 0x805D5A18 | size: 0x8
-.obj lbl_struct_city_805D5A18, global
+.obj struct_city_805D5A18, global
 	.4byte 0x63697479
 	.4byte 0x20000000
-.endobj lbl_struct_city_805D5A18
+.endobj struct_city_805D5A18
 
 # .sdata:0x940 | 0x805D5A20 | size: 0x8
 .obj lbl_805D5A20, global
@@ -2083,9 +2083,9 @@
 .endobj lbl_805D5A40
 
 # .sdata:0x968 | 0x805D5A48 | size: 0x4
-.obj lbl_805D5A48, global
+.obj String_"air", global
 	.string "air"
-.endobj lbl_805D5A48
+.endobj String_"air"
 
 # .sdata:0x96C | 0x805D5A4C | size: 0x8
 .obj lbl_805D5A4C, global
@@ -2100,19 +2100,19 @@
 .endobj lbl_805D5A54
 
 # .sdata:0x97C | 0x805D5A5C | size: 0x4
-.obj lbl_805D5A5C, global
+.obj String_"run", global
 	.string "run"
-.endobj lbl_805D5A5C
+.endobj String_"run"
 
 # .sdata:0x980 | 0x805D5A60 | size: 0x8
-.obj lbl_805D5A60, global
+.obj String_"freerun", global
 	.string "freerun"
-.endobj lbl_805D5A60
+.endobj String_"freerun"
 
 # .sdata:0x988 | 0x805D5A68 | size: 0x4
-.obj lbl_805D5A68, global
+.obj String_"fly", global
 	.string "fly"
-.endobj lbl_805D5A68
+.endobj String_"fly"
 
 # .sdata:0x98C | 0x805D5A6C | size: 0x8
 .obj lbl_805D5A6C, global
@@ -2133,14 +2133,14 @@
 .endobj lbl_805D5A7C
 
 # .sdata:0x9A4 | 0x805D5A84 | size: 0x8
-.obj lbl_805D5A84, global
+.obj String_"walkfly", global
 	.string "walkfly"
-.endobj lbl_805D5A84
+.endobj String_"walkfly"
 
 # .sdata:0x9AC | 0x805D5A8C | size: 0x8
-.obj lbl_805D5A8C, global
+.obj String_"suikomi", global
 	.string "suikomi"
-.endobj lbl_805D5A8C
+.endobj String_"suikomi"
 
 # .sdata:0x9B4 | 0x805D5A94 | size: 0x8
 .obj lbl_805D5A94, global
@@ -2155,9 +2155,9 @@
 .endobj lbl_805D5A9C
 
 # .sdata:0x9C4 | 0x805D5AA4 | size: 0x4
-.obj lbl_805D5AA4, global
+.obj String_"str", global
 	.string "str"
-.endobj lbl_805D5AA4
+.endobj String_"str"
 
 # .sdata:0x9C8 | 0x805D5AA8 | size: 0x4
 .obj lbl_805D5AA8, global

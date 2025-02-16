@@ -88980,10 +88980,10 @@
 .fn fn_HSD_AObjInitAllocData, global
 /* 803FB13C 003F7F3C  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 803FB140 003F7F40  7C 08 02 A6 */	mflr r0
-/* 803FB144 003F7F44  3C 60 80 59 */	lis r3, lbl_aobj_alloc_data_SoundBufferEntry@ha
+/* 803FB144 003F7F44  3C 60 80 59 */	lis r3, aobj_alloc_data_SoundBufferEntry@ha
 /* 803FB148 003F7F48  38 80 00 1C */	li r4, 0x1c
 /* 803FB14C 003F7F4C  90 01 00 14 */	stw r0, 0x14(r1)
-/* 803FB150 003F7F50  38 63 99 80 */	addi r3, r3, lbl_aobj_alloc_data_SoundBufferEntry@l
+/* 803FB150 003F7F50  38 63 99 80 */	addi r3, r3, aobj_alloc_data_SoundBufferEntry@l
 /* 803FB154 003F7F54  38 A0 00 04 */	li r5, 0x4
 /* 803FB158 003F7F58  48 01 D1 05 */	bl fn_HSD_ObjAllocInit
 /* 803FB15C 003F7F5C  80 01 00 14 */	lwz r0, 0x14(r1)
@@ -88994,8 +88994,8 @@
 
 # .text:0x4B95C | 0x803FB16C | size: 0xC
 .fn fn_HSD_AObjGetAllocData, global
-/* 803FB16C 003F7F6C  3C 60 80 59 */	lis r3, lbl_aobj_alloc_data_SoundBufferEntry@ha
-/* 803FB170 003F7F70  38 63 99 80 */	addi r3, r3, lbl_aobj_alloc_data_SoundBufferEntry@l
+/* 803FB16C 003F7F6C  3C 60 80 59 */	lis r3, aobj_alloc_data_SoundBufferEntry@ha
+/* 803FB170 003F7F70  38 63 99 80 */	addi r3, r3, aobj_alloc_data_SoundBufferEntry@l
 /* 803FB174 003F7F74  4E 80 00 20 */	blr
 .endfn fn_HSD_AObjGetAllocData
 
@@ -89392,9 +89392,9 @@
 .fn fn_HSD_AObjAlloc, global
 /* 803FB654 003F8454  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 803FB658 003F8458  7C 08 02 A6 */	mflr r0
-/* 803FB65C 003F845C  3C 60 80 59 */	lis r3, lbl_aobj_alloc_data_SoundBufferEntry@ha
+/* 803FB65C 003F845C  3C 60 80 59 */	lis r3, aobj_alloc_data_SoundBufferEntry@ha
 /* 803FB660 003F8460  90 01 00 14 */	stw r0, 0x14(r1)
-/* 803FB664 003F8464  38 63 99 80 */	addi r3, r3, lbl_aobj_alloc_data_SoundBufferEntry@l
+/* 803FB664 003F8464  38 63 99 80 */	addi r3, r3, aobj_alloc_data_SoundBufferEntry@l
 /* 803FB668 003F8468  93 E1 00 0C */	stw r31, 0xc(r1)
 /* 803FB66C 003F846C  48 01 CA 79 */	bl fn_HSD_ObjAlloc
 /* 803FB670 003F8470  7C 7F 1B 79 */	mr. r31, r3
@@ -89427,9 +89427,9 @@
 /* 803FB6C8 003F84C8  28 03 00 00 */	cmplwi r3, 0x0
 /* 803FB6CC 003F84CC  90 01 00 14 */	stw r0, 0x14(r1)
 /* 803FB6D0 003F84D0  41 82 00 14 */	beq .L_803FB6E4
-/* 803FB6D4 003F84D4  3C A0 80 59 */	lis r5, lbl_aobj_alloc_data_SoundBufferEntry@ha
+/* 803FB6D4 003F84D4  3C A0 80 59 */	lis r5, aobj_alloc_data_SoundBufferEntry@ha
 /* 803FB6D8 003F84D8  7C 64 1B 78 */	mr r4, r3
-/* 803FB6DC 003F84DC  38 65 99 80 */	addi r3, r5, lbl_aobj_alloc_data_SoundBufferEntry@l
+/* 803FB6DC 003F84DC  38 65 99 80 */	addi r3, r5, aobj_alloc_data_SoundBufferEntry@l
 /* 803FB6E0 003F84E0  48 01 CB 55 */	bl fn_HSD_ObjFree
 .L_803FB6E4:
 /* 803FB6E4 003F84E4  80 01 00 14 */	lwz r0, 0x14(r1)
@@ -128512,8 +128512,8 @@
 
 # .text:0x6D70C | 0x8041CF1C | size: 0xC
 .fn fn_HSD_ShadowGetAllocData, global
-/* 8041CF1C 00419D1C  3C 60 80 59 */	lis r3, lbl_shadow_alloc_data@ha
-/* 8041CF20 00419D20  38 63 BE 98 */	addi r3, r3, lbl_shadow_alloc_data@l
+/* 8041CF1C 00419D1C  3C 60 80 59 */	lis r3, shadow_alloc_data@ha
+/* 8041CF20 00419D20  38 63 BE 98 */	addi r3, r3, shadow_alloc_data@l
 /* 8041CF24 00419D24  4E 80 00 20 */	blr
 .endfn fn_HSD_ShadowGetAllocData
 
@@ -128521,10 +128521,10 @@
 .fn fn_HSD_ShadowInitAllocData, global
 /* 8041CF28 00419D28  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 8041CF2C 00419D2C  7C 08 02 A6 */	mflr r0
-/* 8041CF30 00419D30  3C 60 80 59 */	lis r3, lbl_shadow_alloc_data@ha
+/* 8041CF30 00419D30  3C 60 80 59 */	lis r3, shadow_alloc_data@ha
 /* 8041CF34 00419D34  38 80 00 28 */	li r4, 0x28
 /* 8041CF38 00419D38  90 01 00 14 */	stw r0, 0x14(r1)
-/* 8041CF3C 00419D3C  38 63 BE 98 */	addi r3, r3, lbl_shadow_alloc_data@l
+/* 8041CF3C 00419D3C  38 63 BE 98 */	addi r3, r3, shadow_alloc_data@l
 /* 8041CF40 00419D40  38 A0 00 04 */	li r5, 0x4
 /* 8041CF44 00419D44  4B FF B3 19 */	bl fn_HSD_ObjAllocInit
 /* 8041CF48 00419D48  80 01 00 14 */	lwz r0, 0x14(r1)
@@ -128537,9 +128537,9 @@
 .fn fn_HSD_ShadowAlloc, global
 /* 8041CF58 00419D58  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 8041CF5C 00419D5C  7C 08 02 A6 */	mflr r0
-/* 8041CF60 00419D60  3C 60 80 59 */	lis r3, lbl_shadow_alloc_data@ha
+/* 8041CF60 00419D60  3C 60 80 59 */	lis r3, shadow_alloc_data@ha
 /* 8041CF64 00419D64  90 01 00 14 */	stw r0, 0x14(r1)
-/* 8041CF68 00419D68  38 63 BE 98 */	addi r3, r3, lbl_shadow_alloc_data@l
+/* 8041CF68 00419D68  38 63 BE 98 */	addi r3, r3, shadow_alloc_data@l
 /* 8041CF6C 00419D6C  93 E1 00 0C */	stw r31, 0xc(r1)
 /* 8041CF70 00419D70  93 C1 00 08 */	stw r30, 0x8(r1)
 /* 8041CF74 00419D74  4B FF B1 71 */	bl fn_HSD_ObjAlloc
@@ -128663,9 +128663,9 @@
 /* 8041D128 00419F28  4B FD A9 31 */	bl fn_HSD_ImageDescFree
 /* 8041D12C 00419F2C  7F C3 F3 78 */	mr r3, r30
 /* 8041D130 00419F30  4B FD A7 C1 */	bl fn_HSD_TObjFree
-/* 8041D134 00419F34  3C 60 80 59 */	lis r3, lbl_shadow_alloc_data@ha
+/* 8041D134 00419F34  3C 60 80 59 */	lis r3, shadow_alloc_data@ha
 /* 8041D138 00419F38  7F E4 FB 78 */	mr r4, r31
-/* 8041D13C 00419F3C  38 63 BE 98 */	addi r3, r3, lbl_shadow_alloc_data@l
+/* 8041D13C 00419F3C  38 63 BE 98 */	addi r3, r3, shadow_alloc_data@l
 /* 8041D140 00419F40  4B FF B0 F5 */	bl fn_HSD_ObjFree
 .L_8041D144:
 /* 8041D144 00419F44  80 01 00 14 */	lwz r0, 0x14(r1)

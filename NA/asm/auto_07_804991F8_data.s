@@ -1183,9 +1183,9 @@
 .endobj lbl_8049A00C
 
 # .data:0xE24 | 0x8049A01C | size: 0x10
-.obj lbl_s_EmWalkyData.dat_8049a01c, global
+.obj s_EmWalkyData.dat_8049a01c, global
 	.string "EmWalkyData.dat"
-.endobj lbl_s_EmWalkyData.dat_8049a01c
+.endobj s_EmWalkyData.dat_8049a01c
 
 # .data:0xE34 | 0x8049A02C | size: 0x10
 .obj lbl_8049A02C, global
@@ -2625,17 +2625,17 @@
 .endobj jumptable_8049B0C8
 
 # .data:0x1EFC | 0x8049B0F4 | size: 0x18
-.obj lbl_String_TotalMemorySize_IsEqualToOperator_0, global
+.obj String_TotalMemorySize_IsEqualToOperator_0, global
 	.4byte 0x546F7461
 	.4byte 0x6C4D656D
 	.4byte 0x6F727953
 	.4byte 0x697A6520
 	.4byte 0x3D3D2030
 	.4byte 0x00000000
-.endobj lbl_String_TotalMemorySize_IsEqualToOperator_0
+.endobj String_TotalMemorySize_IsEqualToOperator_0
 
 # .data:0x1F14 | 0x8049B10C | size: 0x58
-.obj lbl_String__Para_net_recv_IsEqualToOperator_NULL_AndOperator_DebugLap_IsEqualToOperator_This, global
+.obj String__Para_net_recv_IsEqualToOperator_NULL_AndOperator_DebugLap_IsEqualToOperator_This, global
 	.4byte 0x286E6574
 	.4byte 0x5F726563
 	.4byte 0x76203D3D
@@ -2658,10 +2658,10 @@
 	.4byte 0x72656376
 	.4byte 0x2D3E6C61
 	.4byte 0x70290000
-.endobj lbl_String__Para_net_recv_IsEqualToOperator_NULL_AndOperator_DebugLap_IsEqualToOperator_This
+.endobj String__Para_net_recv_IsEqualToOperator_NULL_AndOperator_DebugLap_IsEqualToOperator_This
 
 # .data:0x1F6C | 0x8049B164 | size: 0x44
-.obj lbl_String_net_recv_IsEqualToOperator_NULL_OrOperator_net_recv_PointerArrowDefRef_le_This, global
+.obj String_net_recv_IsEqualToOperator_NULL_OrOperator_net_recv_PointerArrowDefRef_le_This, global
 	.4byte 0x6E65745F
 	.4byte 0x72656376
 	.4byte 0x203D3D20
@@ -2679,27 +2679,27 @@
 	.4byte 0x74696F6E
 	.4byte 0x44617461
 	.4byte 0x29000000
-.endobj lbl_String_net_recv_IsEqualToOperator_NULL_OrOperator_net_recv_PointerArrowDefRef_le_This
+.endobj String_net_recv_IsEqualToOperator_NULL_OrOperator_net_recv_PointerArrowDefRef_le_This
 
 # .data:0x1FB0 | 0x8049B1A8 | size: 0x20
-.obj lbl_String_"DATE_Aug_18_2003__TIME_16:53:51", global
+.obj String_"DATE_Aug_18_2003__TIME_16:53:51", global
 	.string "DATE Aug 18 2003  TIME 16:53:51"
-.endobj lbl_String_"DATE_Aug_18_2003__TIME_16:53:51"
+.endobj String_"DATE_Aug_18_2003__TIME_16:53:51"
 
 # .data:0x1FD0 | 0x8049B1C8 | size: 0xC
-.obj lbl_String_"Aug_18_2003", global
+.obj String_"Aug_18_2003", global
 	.string "Aug 18 2003"
-.endobj lbl_String_"Aug_18_2003"
+.endobj String_"Aug_18_2003"
 
 # .data:0x1FDC | 0x8049B1D4 | size: 0xC
-.obj lbl_String_"16:53:51", global
+.obj String_"16:53:51", global
 	.4byte 0x31363A35
 	.4byte 0x333A3531
 	.4byte 0x00000000
-.endobj lbl_String_"16:53:51"
+.endobj String_"16:53:51"
 
 # .data:0x1FE8 | 0x8049B1E0 | size: 0x80
-.obj lbl_UNK_128Bytes, global
+.obj UNK_128Bytes, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -2732,27 +2732,27 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_UNK_128Bytes
+.endobj UNK_128Bytes
 
 # .data:0x2068 | 0x8049B260 | size: 0x10
-.obj lbl_String_DbCommon.dat, global
+.obj String_DbCommon.dat, global
 	.4byte 0x4462436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_String_DbCommon.dat
+.endobj String_DbCommon.dat
 
 # .data:0x2078 | 0x8049B270 | size: 0x14
-.obj lbl_dbLoadCommonData, global
+.obj dbLoadCommonData, global
 	.4byte 0x64624C6F
 	.4byte 0x6164436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x44617461
 	.4byte 0x00000000
-.endobj lbl_dbLoadCommonData
+.endobj dbLoadCommonData
 
 # .data:0x208C | 0x8049B284 | size: 0x20
-.obj lbl_String__BracketLeft_all_PLink_num_BracketRight_MinusMinusOperator_Report_MinusMinusOperator_This, global
+.obj String__BracketLeft_all_PLink_num_BracketRight_MinusMinusOperator_Report_MinusMinusOperator_This, global
 	.4byte 0x5B616C6C
 	.4byte 0x20504C69
 	.4byte 0x6E6B206E
@@ -2761,10 +2761,10 @@
 	.4byte 0x65706F72
 	.4byte 0x74202D2D
 	.4byte 0x0A000000
-.endobj lbl_String__BracketLeft_all_PLink_num_BracketRight_MinusMinusOperator_Report_MinusMinusOperator_This
+.endobj String__BracketLeft_all_PLink_num_BracketRight_MinusMinusOperator_Report_MinusMinusOperator_This
 
 # .data:0x20AC | 0x8049B2A4 | size: 0x5C
-.obj "lbl_String_"--------------------------------"", global
+.obj "String_"--------------------------------"", global
 	.4byte 0x2D2D2D2D
 	.4byte 0x2D2D2D2D
 	.4byte 0x2D2D2D2D
@@ -2788,7 +2788,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj "lbl_String_"--------------------------------""
+.endobj "String_"--------------------------------""
 
 # .data:0x2108 | 0x8049B300 | size: 0x5E0
 .obj lbl_8049B300, global
@@ -3191,12 +3191,12 @@
 .endobj lbl_8049B8E0
 
 # .data:0x2728 | 0x8049B920 | size: 0x10
-.obj lbl_Gm_Timeclear, global
+.obj Gm_Timeclear, global
 	.4byte 0x476D2054
 	.4byte 0x696D6563
 	.4byte 0x6C656172
 	.4byte 0x00000000
-.endobj lbl_Gm_Timeclear
+.endobj Gm_Timeclear
 
 # .data:0x2738 | 0x8049B930 | size: 0x24
 .obj jumptable_8049B930, global
@@ -3263,12 +3263,12 @@
 .endobj lbl_8049B9D0
 
 # .data:0x27E8 | 0x8049B9E0 | size: 0x10
-.obj lbl_String_"__%s%s%s%s", global
+.obj String_"__%s%s%s%s", global
 	.4byte 0x20257325
 	.4byte 0x73257325
 	.4byte 0x73000000
 	.4byte 0x00000000
-.endobj lbl_String_"__%s%s%s%s"
+.endobj String_"__%s%s%s%s"
 
 # .data:0x27F8 | 0x8049B9F0 | size: 0x10
 .obj lbl_8049B9F0, global
@@ -3289,7 +3289,7 @@
 .endobj lbl_8049BA00
 
 # .data:0x2820 | 0x8049BA18 | size: 0x48
-.obj lbl_String_"Data_not_Loaded", global
+.obj String_"Data_not_Loaded", global
 	.4byte 0x44617461
 	.4byte 0x206E6F74
 	.4byte 0x204C6F61
@@ -3308,7 +3308,7 @@
 	.4byte 0x20436F6E
 	.4byte 0x74656E74
 	.4byte 0x73000000
-.endobj lbl_String_"Data_not_Loaded"
+.endobj String_"Data_not_Loaded"
 
 # .data:0x2868 | 0x8049BA60 | size: 0x10
 .obj lbl_8049BA60, global
@@ -3319,7 +3319,7 @@
 .endobj lbl_8049BA60
 
 # .data:0x2878 | 0x8049BA70 | size: 0x24
-.obj "lbl_String_"SD-%d,ED-%d"", global
+.obj "String_"SD-%d,ED-%d"", global
 	.4byte 0x53442D25
 	.4byte 0x642C4544
 	.4byte 0x2D256400
@@ -3329,29 +3329,29 @@
 	.4byte 0x2573202D
 	.4byte 0x2D202566
 	.4byte 0x00000000
-.endobj "lbl_String_"SD-%d,ED-%d""
+.endobj "String_"SD-%d,ED-%d""
 
 # .data:0x289C | 0x8049BA94 | size: 0x18
-.obj lbl_Gene_Info_Pause_Mode, global
+.obj Gene_Info_Pause_Mode, global
 	.4byte 0x47656E65
 	.4byte 0x20496E66
 	.4byte 0x6F205061
 	.4byte 0x75736520
 	.4byte 0x4D6F6465
 	.4byte 0x00000000
-.endobj lbl_Gene_Info_Pause_Mode
+.endobj Gene_Info_Pause_Mode
 
 # .data:0x28B4 | 0x8049BAAC | size: 0x14
-.obj lbl_Gene_Info_Mode, global
+.obj Gene_Info_Mode, global
 	.4byte 0x47656E65
 	.4byte 0x20496E66
 	.4byte 0x6F204D6F
 	.4byte 0x64650000
 	.4byte 0x00000000
-.endobj lbl_Gene_Info_Mode
+.endobj Gene_Info_Mode
 
 # .data:0x28C8 | 0x8049BAC0 | size: 0xB8
-.obj lbl_String_"audio_track_f%d_s%d_m%d_o%d_r%d_v", global
+.obj String_"audio_track_f%d_s%d_m%d_o%d_r%d_v", global
 	.4byte 0x61756469
 	.4byte 0x6F202074
 	.4byte 0x7261636B
@@ -3398,4 +3398,4 @@
 	.4byte 0x756E6B6E
 	.4byte 0x6F776E20
 	.4byte 0x00000000
-.endobj lbl_String_"audio_track_f%d_s%d_m%d_o%d_r%d_v"
+.endobj String_"audio_track_f%d_s%d_m%d_o%d_r%d_v"
