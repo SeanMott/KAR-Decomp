@@ -825,9 +825,9 @@
 .endobj lbl_805DD834
 
 # .sbss:0x318 | 0x805DD838 | size: 0x4
-.obj lbl_805DD838, global
+.obj SKIP_ADDRESS_OFFSET_1, global
 	.skip 0x4
-.endobj lbl_805DD838
+.endobj SKIP_ADDRESS_OFFSET_1
 
 # .sbss:0x31C | 0x805DD83C | size: 0x4
 .obj lbl_805DD83C, global

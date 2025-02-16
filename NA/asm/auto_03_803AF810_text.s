@@ -16365,7 +16365,7 @@
 .endfn fn_803BD488
 
 # .text:0xDC80 | 0x803BD490 | size: 0x64
-.fn fn_803BD490, global
+.fn sqrtf, global
 /* 803BD490 003BA290  C0 02 F0 58 */	lfs f0, lbl_805E5758@sda21(r0)
 /* 803BD494 003BA294  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 803BD498 003BA298  FC 01 00 40 */	fcmpo cr0, f1, f0
@@ -16392,7 +16392,7 @@
 .L_803BD4EC:
 /* 803BD4EC 003BA2EC  38 21 00 10 */	addi r1, r1, 0x10
 /* 803BD4F0 003BA2F0  4E 80 00 20 */	blr
-.endfn fn_803BD490
+.endfn sqrtf
 
 # .text:0xDCE4 | 0x803BD4F4 | size: 0x24
 .fn fn_tanf2_2, global
@@ -149311,7 +149311,7 @@
 /* 8042EA78 0042B878  EC 42 00 B2 */	fmuls f2, f2, f2
 /* 8042EA7C 0042B87C  EC 01 00 2A */	fadds f0, f1, f0
 /* 8042EA80 0042B880  EC 22 00 2A */	fadds f1, f2, f0
-/* 8042EA84 0042B884  4B F8 EA 0D */	bl fn_803BD490
+/* 8042EA84 0042B884  4B F8 EA 0D */	bl sqrtf
 /* 8042EA88 0042B888  FC 40 08 18 */	frsp f2, f1
 /* 8042EA8C 0042B88C  C0 02 F7 F8 */	lfs f0, lbl_805E5EF8@sda21(r0)
 /* 8042EA90 0042B890  D0 21 00 10 */	stfs f1, 0x10(r1)

@@ -15039,14 +15039,14 @@
 .endobj lbl_805E1C60
 
 # .sdata2:0x3568 | 0x805E1C68 | size: 0x4
-.obj lbl_805E1C68, global
+.obj CONST_FLOAT_VALUE_0, global
 	.float 0
-.endobj lbl_805E1C68
+.endobj CONST_FLOAT_VALUE_0
 
 # .sdata2:0x356C | 0x805E1C6C | size: 0x4
-.obj lbl_805E1C6C, global
+.obj CONST_FLOAT_VALUE_1, global
 	.float 1
-.endobj lbl_805E1C6C
+.endobj CONST_FLOAT_VALUE_1
 
 # .sdata2:0x3570 | 0x805E1C70 | size: 0x4
 .obj lbl_805E1C70, global

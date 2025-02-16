@@ -6518,10 +6518,10 @@
 .endobj lbl_805D6F88
 
 # .sdata:0x1EB0 | 0x805D6F90 | size: 0x8
-.obj lbl_805D6F90, global
-	.4byte lbl_804B1528
-	.4byte lbl_804B1C08
-.endobj lbl_805D6F90
+.obj StarFileNamesAndHSDNames_ArrayBundle, global
+	.4byte MegaStruct_StarFileNamesAndHSDNames
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2
+.endobj StarFileNamesAndHSDNames_ArrayBundle
 
 # .sdata:0x1EB8 | 0x805D6F98 | size: 0x8
 .obj lbl_805D6F98, global

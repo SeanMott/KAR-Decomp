@@ -6,7 +6,7 @@
 .balign 8
 
 # .rodata:0x0 | 0x80489480 | size: 0x20
-.obj lbl_80489480, global
+.obj STRUCT_VALUE_4BYTE_1, global
 	.4byte 0xFFAABD00
 	.4byte 0xFFE85200
 	.4byte 0x5AC9FF00
@@ -15,10 +15,10 @@
 	.4byte 0xE260FF00
 	.4byte 0x5E3D2500
 	.4byte 0xFF293600
-.endobj lbl_80489480
+.endobj STRUCT_VALUE_4BYTE_1
 
 # .rodata:0x20 | 0x804894A0 | size: 0x4C
-.obj lbl_804894A0, global
+.obj STRUCT_VALUE_4BYTE_2, global
 	.4byte 0x3FEF5C29
 	.4byte 0x3FEF5C29
 	.4byte 0x3FEF5C29
@@ -38,10 +38,10 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804894A0
+.endobj STRUCT_VALUE_4BYTE_2
 
 # .rodata:0x6C | 0x804894EC | size: 0x1C
-.obj lbl_804894EC, global
+.obj STRUCT_VALUE_4BYTE_3, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x40E66666
@@ -49,10 +49,10 @@
 	.4byte 0x40A66666
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804894EC
+.endobj STRUCT_VALUE_4BYTE_3
 
 # .rodata:0x88 | 0x80489508 | size: 0x28
-.obj lbl_80489508, global
+.obj STRUCT_VALUE_4BYTE_4, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -63,10 +63,10 @@
 	.4byte 0x3F800000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_80489508
+.endobj STRUCT_VALUE_4BYTE_4
 
 # .rodata:0xB0 | 0x80489530 | size: 0x28
-.obj lbl_80489530, global
+.obj STRUCT_VALUE_4BYTE_5, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -77,10 +77,10 @@
 	.4byte 0x3F800000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_80489530
+.endobj STRUCT_VALUE_4BYTE_5
 
 # .rodata:0xD8 | 0x80489558 | size: 0x80
-.obj lbl_80489558, global
+.obj STRUCT_VALUE_4BYTE_6, global
 	.4byte 0x40BBD70A
 	.4byte 0x40BBD70A
 	.4byte 0x40BBD70A
@@ -113,10 +113,10 @@
 	.4byte 0x00000000
 	.4byte 0x3F800000
 	.4byte 0x00000000
-.endobj lbl_80489558
+.endobj STRUCT_VALUE_4BYTE_6
 
 # .rodata:0x158 | 0x804895D8 | size: 0x40
-.obj lbl_804895D8, global
+.obj STRUCT_VALUE_4BYTE_7, global
 	.4byte 0x01010000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -133,10 +133,10 @@
 	.4byte 0x00000001
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804895D8
+.endobj STRUCT_VALUE_4BYTE_7
 
 # .rodata:0x198 | 0x80489618 | size: 0x30
-.obj lbl_80489618, global
+.obj STRUCT_VALUE_4BYTE_8, global
 	.4byte lbl_805D51F8
 	.4byte lbl_805D51FC
 	.4byte lbl_805D5200
@@ -149,10 +149,10 @@
 	.4byte lbl_805D521C
 	.4byte lbl_805D5220
 	.4byte lbl_805D5224
-.endobj lbl_80489618
+.endobj STRUCT_VALUE_4BYTE_8
 
 # .rodata:0x1C8 | 0x80489648 | size: 0x620
-.obj lbl_80489648, global
+.obj STRUCT_VALUE_4BYTE_9, global
 	.4byte 0x02000000
 	.4byte lbl_80499DDC
 	.4byte 0x00000000
@@ -545,15 +545,15 @@
 	.4byte 0x20010000
 	.4byte lbl_8049A160
 	.4byte 0x00000000
-.endobj lbl_80489648
+.endobj STRUCT_VALUE_4BYTE_9
 
 # .rodata:0x7E8 | 0x80489C68 | size: 0x10
-.obj lbl_80489C68, global
+.obj STRUCT_VALUE_4BYTE_10, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0xBF800000
 	.4byte 0x00000000
-.endobj lbl_80489C68
+.endobj STRUCT_VALUE_4BYTE_10
 
 # .rodata:0x7F8 | 0x80489C78 | size: 0x10
 .obj lbl_80489C78, global
@@ -564,7 +564,7 @@
 .endobj lbl_80489C78
 
 # .rodata:0x808 | 0x80489C88 | size: 0x30
-.obj lbl_80489C88, global
+.obj STRUCT_VALUE_4BYTE_11, global
 	.4byte 0x00000000
 	.4byte 0x3F800000
 	.4byte 0x00000000
@@ -577,63 +577,63 @@
 	.4byte 0x3F800000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_80489C88
+.endobj STRUCT_VALUE_4BYTE_11
 
 # .rodata:0x838 | 0x80489CB8 | size: 0xC
-.obj lbl_80489CB8, global
+.obj STRUCT_VALUE_4BYTE_12, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_80489CB8
+.endobj STRUCT_VALUE_4BYTE_12
 
 # .rodata:0x844 | 0x80489CC4 | size: 0xC
-.obj lbl_80489CC4, global
+.obj STRUCT_VALUE_4BYTE_13, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_80489CC4
+.endobj STRUCT_VALUE_4BYTE_13
 
 # .rodata:0x850 | 0x80489CD0 | size: 0xC
-.obj lbl_80489CD0, global
+.obj STRUCT_VALUE_4BYTE_14, global
 	.4byte 0x00000000
 	.4byte 0x3F800000
 	.4byte 0x00000000
-.endobj lbl_80489CD0
+.endobj STRUCT_VALUE_4BYTE_14
 
 # .rodata:0x85C | 0x80489CDC | size: 0xC
-.obj lbl_80489CDC, global
+.obj STRUCT_VALUE_4BYTE_15, global
 	.4byte 0x3F800000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_80489CDC
+.endobj STRUCT_VALUE_4BYTE_15
 
 # .rodata:0x868 | 0x80489CE8 | size: 0xC
-.obj lbl_80489CE8, global
+.obj STRUCT_VALUE_4BYTE_16, global
 	.4byte 0x00000000
 	.4byte 0x3F800000
 	.4byte 0x00000000
-.endobj lbl_80489CE8
+.endobj STRUCT_VALUE_4BYTE_16
 
 # .rodata:0x874 | 0x80489CF4 | size: 0xC
-.obj lbl_80489CF4, global
+.obj STRUCT_VALUE_4BYTE_17, global
 	.4byte 0x00000000
 	.4byte 0x3F800000
 	.4byte 0x00000000
-.endobj lbl_80489CF4
+.endobj STRUCT_VALUE_4BYTE_17
 
 # .rodata:0x880 | 0x80489D00 | size: 0xC
-.obj lbl_80489D00, global
+.obj STRUCT_VALUE_4BYTE_18, global
 	.4byte 0x3F800000
 	.4byte 0x3F800000
 	.4byte 0x3F800000
-.endobj lbl_80489D00
+.endobj STRUCT_VALUE_4BYTE_18
 
 # .rodata:0x88C | 0x80489D0C | size: 0xC
-.obj lbl_80489D0C, global
+.obj STRUCT_VALUE_4BYTE_19, global
 	.4byte 0x3F800000
 	.4byte 0x3F800000
 	.4byte 0x3F800000
-.endobj lbl_80489D0C
+.endobj STRUCT_VALUE_4BYTE_19
 
 # .rodata:0x898 | 0x80489D18 | size: 0x10
 .obj lbl_80489D18, global
@@ -1035,7 +1035,7 @@
 .endobj lbl_8048A028
 
 # .rodata:0xCC0 | 0x8048A140 | size: 0x80
-.obj lbl_8048A140, global
+.obj STRUCT_FLOAT_1, global
 	.float -23
 	.float -9.5
 	.float 4
@@ -1068,7 +1068,7 @@
 	.4byte lbl_805D8D78
 	.4byte lbl_805D8D80
 	.4byte lbl_805D8D88
-.endobj lbl_8048A140
+.endobj STRUCT_FLOAT_1
 
 # .rodata:0xD40 | 0x8048A1C0 | size: 0x10
 .obj lbl_8048A1C0, global
