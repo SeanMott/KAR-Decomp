@@ -5565,74 +5565,74 @@
 .endobj lbl_804A01C8
 
 # .data:0x4660 | 0x804A01D8 | size: 0xC
-.obj lbl_804A01D8, global
+.obj String_"DeathMatch1", global
 	.string "DeathMatch1"
-.endobj lbl_804A01D8
+.endobj String_"DeathMatch1"
 
 # .data:0x466C | 0x804A01E4 | size: 0xC
-.obj lbl_804A01E4, global
+.obj String_"DeathMatch2", global
 	.string "DeathMatch2"
-.endobj lbl_804A01E4
+.endobj String_"DeathMatch2"
 
 # .data:0x4678 | 0x804A01F0 | size: 0xC
-.obj lbl_804A01F0, global
+.obj String_"DeathMatch3", global
 	.string "DeathMatch3"
-.endobj lbl_804A01F0
+.endobj String_"DeathMatch3"
 
 # .data:0x4684 | 0x804A01FC | size: 0xC
-.obj lbl_804A01FC, global
+.obj String_"DeathMatch4", global
 	.string "DeathMatch4"
-.endobj lbl_804A01FC
+.endobj String_"DeathMatch4"
 
 # .data:0x4690 | 0x804A0208 | size: 0xC
-.obj lbl_804A0208, global
+.obj String_"DeathMatch5", global
 	.string "DeathMatch5"
-.endobj lbl_804A0208
+.endobj String_"DeathMatch5"
 
 # .data:0x469C | 0x804A0214 | size: 0xC
-.obj lbl_804A0214, global
+.obj String_"SingleRace1", global
 	.string "SingleRace1"
-.endobj lbl_804A0214
+.endobj String_"SingleRace1"
 
 # .data:0x46A8 | 0x804A0220 | size: 0xC
-.obj lbl_804A0220, global
+.obj String_"SingleRace2", global
 	.string "SingleRace2"
-.endobj lbl_804A0220
+.endobj String_"SingleRace2"
 
 # .data:0x46B4 | 0x804A022C | size: 0xC
-.obj lbl_804A022C, global
+.obj String_"SingleRace3", global
 	.string "SingleRace3"
-.endobj lbl_804A022C
+.endobj String_"SingleRace3"
 
 # .data:0x46C0 | 0x804A0238 | size: 0xC
-.obj lbl_804A0238, global
+.obj String_"SingleRace4", global
 	.string "SingleRace4"
-.endobj lbl_804A0238
+.endobj String_"SingleRace4"
 
 # .data:0x46CC | 0x804A0244 | size: 0xC
-.obj lbl_804A0244, global
+.obj String_"SingleRace5", global
 	.string "SingleRace5"
-.endobj lbl_804A0244
+.endobj String_"SingleRace5"
 
 # .data:0x46D8 | 0x804A0250 | size: 0xC
-.obj lbl_804A0250, global
+.obj String_"SingleRace6", global
 	.string "SingleRace6"
-.endobj lbl_804A0250
+.endobj String_"SingleRace6"
 
 # .data:0x46E4 | 0x804A025C | size: 0xC
-.obj lbl_804A025C, global
+.obj String_"SingleRace7", global
 	.string "SingleRace7"
-.endobj lbl_804A025C
+.endobj String_"SingleRace7"
 
 # .data:0x46F0 | 0x804A0268 | size: 0xC
-.obj lbl_804A0268, global
+.obj String_"SingleRace8", global
 	.string "SingleRace8"
-.endobj lbl_804A0268
+.endobj String_"SingleRace8"
 
 # .data:0x46FC | 0x804A0274 | size: 0xC
-.obj lbl_804A0274, global
+.obj String_"SingleRace9", global
 	.string "SingleRace9"
-.endobj lbl_804A0274
+.endobj String_"SingleRace9"
 
 # .data:0x4708 | 0x804A0280 | size: 0xC
 .obj lbl_804A0280, global
@@ -5652,27 +5652,27 @@
 	.4byte lbl_804A01AC
 	.4byte lbl_804A01B8
 	.4byte lbl_804A01C8
-	.4byte lbl_804A01D8
-	.4byte lbl_804A01E4
-	.4byte lbl_804A01F0
-	.4byte lbl_804A01FC
-	.4byte lbl_804A0208
-	.4byte lbl_804A0214
-	.4byte lbl_804A0220
-	.4byte lbl_804A022C
-	.4byte lbl_804A0238
-	.4byte lbl_804A0244
-	.4byte lbl_804A0250
-	.4byte lbl_804A025C
-	.4byte lbl_804A0268
-	.4byte lbl_804A0274
+	.4byte String_"DeathMatch1"
+	.4byte String_"DeathMatch2"
+	.4byte String_"DeathMatch3"
+	.4byte String_"DeathMatch4"
+	.4byte String_"DeathMatch5"
+	.4byte String_"SingleRace1"
+	.4byte String_"SingleRace2"
+	.4byte String_"SingleRace3"
+	.4byte String_"SingleRace4"
+	.4byte String_"SingleRace5"
+	.4byte String_"SingleRace6"
+	.4byte String_"SingleRace7"
+	.4byte String_"SingleRace8"
+	.4byte String_"SingleRace9"
 	.4byte lbl_804A0280
 .endobj lbl_804A028C
 
 # .data:0x4774 | 0x804A02EC | size: 0x18
-.obj lbl_804A02EC, global
+.obj String_"RaceCTMode", global
 	.string "< Race Citytrial Mode >"
-.endobj lbl_804A02EC
+.endobj String_"RaceCTMode"
 
 # .data:0x478C | 0x804A0304 | size: 0x10
 .obj lbl_804A0304, global
@@ -5727,7 +5727,7 @@
 .obj lbl_804A0368, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804A02EC
+	.4byte String_"RaceCTMode"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -6040,15 +6040,15 @@
 .endobj lbl_804A07F4
 
 # .data:0x4C90 | 0x804A0808 | size: 0x10
-.obj lbl_804A0808, global
+.obj String_"PlayerKind", global
 	.string "< Player Kind >"
-.endobj lbl_804A0808
+.endobj String_"PlayerKind"
 
 # .data:0x4CA0 | 0x804A0818 | size: 0xC0
 .obj lbl_804A0818, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804A0808
+	.4byte String_"PlayerKind"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -6498,15 +6498,15 @@
 .endobj lbl_804A0DFC
 
 # .data:0x5294 | 0x804A0E0C | size: 0x10
-.obj lbl_804A0E0C, global
+.obj String_"CameraFlag", global
 	.string "< Camera flag >"
-.endobj lbl_804A0E0C
+.endobj String_"CameraFlag"
 
 # .data:0x52A4 | 0x804A0E1C | size: 0xC0
 .obj lbl_804A0E1C, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804A0E0C
+	.4byte String_"CameraFlag"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -6659,9 +6659,9 @@
 .endobj lbl_804A100C
 
 # .data:0x54A4 | 0x804A101C | size: 0x10
-.obj lbl_804A101C, global
+.obj String_"OptionMode", global
 	.string "< Option Mode >"
-.endobj lbl_804A101C
+.endobj String_"OptionMode"
 
 # .data:0x54B4 | 0x804A102C | size: 0x10
 .obj lbl_804A102C, global
@@ -6692,7 +6692,7 @@
 .obj lbl_804A1060, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804A101C
+	.4byte String_"OptionMode"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -6777,14 +6777,14 @@
 .endobj lbl_804A1120
 
 # .data:0x5608 | 0x804A1180 | size: 0x24
-.obj lbl_804A1180, global
+.obj String_"WeirdShitWithPlusesAndDashes", global
 	.string "---------+---------+---------+-----"
-.endobj lbl_804A1180
+.endobj String_"WeirdShitWithPlusesAndDashes"
 
 # .data:0x562C | 0x804A11A4 | size: 0xA0
 .obj lbl_804A11A4, global
 	.4byte lbl_805D5EA0
-	.4byte lbl_804A1180
+	.4byte String_"WeirdShitWithPlusesAndDashes"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -6828,7 +6828,7 @@
 # .data:0x56CC | 0x804A1244 | size: 0x10
 .obj lbl_804A1244, global
 	.4byte lbl_805D5EA0
-	.4byte lbl_804A1180
+	.4byte String_"WeirdShitWithPlusesAndDashes"
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804A1244
@@ -6902,24 +6902,24 @@
 .endobj lbl_804A12D4
 
 # .data:0x576C | 0x804A12E4 | size: 0x10
-.obj lbl_804A12E4, global
+.obj String_"SoundMode", global
 	.string "Sound Mode    :"
-.endobj lbl_804A12E4
+.endobj String_"SoundMode"
 
 # .data:0x577C | 0x804A12F4 | size: 0x10
-.obj lbl_804A12F4, global
+.obj String_"Lang", global
 	.string "Lang          :"
-.endobj lbl_804A12F4
+.endobj String_"Lang"
 
 # .data:0x578C | 0x804A1304 | size: 0x10
-.obj lbl_804A1304, global
+.obj String_"FGMGroup", global
 	.string "FGM Group     :"
-.endobj lbl_804A1304
+.endobj String_"FGMGroup"
 
 # .data:0x579C | 0x804A1314 | size: 0x10
-.obj lbl_804A1314, global
+.obj String_"FGM"2, global
 	.string "FGM           :"
-.endobj lbl_804A1314
+.endobj String_"FGM"2
 
 # .data:0x57AC | 0x804A1324 | size: 0x10
 .obj lbl_804A1324, global
@@ -6930,34 +6930,34 @@
 .endobj lbl_804A1324
 
 # .data:0x57BC | 0x804A1334 | size: 0x10
-.obj lbl_804A1334, global
+.obj String_"FGMPitch", global
 	.string "FGM Pitch     :"
-.endobj lbl_804A1334
+.endobj String_"FGMPitch"
 
 # .data:0x57CC | 0x804A1344 | size: 0x10
-.obj lbl_804A1344, global
+.obj String_"FGMPAN", global
 	.string "FGM Pan       :"
-.endobj lbl_804A1344
+.endobj String_"FGMPAN"
 
 # .data:0x57DC | 0x804A1354 | size: 0x10
-.obj lbl_804A1354, global
+.obj String_"FGMSPAN", global
 	.string "FGM SPan      :"
-.endobj lbl_804A1354
+.endobj String_"FGMSPAN"
 
 # .data:0x57EC | 0x804A1364 | size: 0x10
-.obj lbl_804A1364, global
+.obj String_"FGMRound", global
 	.string "FGM Round     :"
-.endobj lbl_804A1364
+.endobj String_"FGMRound"
 
 # .data:0x57FC | 0x804A1374 | size: 0x10
-.obj lbl_804A1374, global
+.obj String_"FGMVoiceMax", global
 	.string "FGM Voice Max :"
-.endobj lbl_804A1374
+.endobj String_"FGMVoiceMax"
 
 # .data:0x580C | 0x804A1384 | size: 0x10
-.obj lbl_804A1384, global
+.obj String_"BMG:", global
 	.string "BGM           :"
-.endobj lbl_804A1384
+.endobj String_"BMG:"
 
 # .data:0x581C | 0x804A1394 | size: 0x10
 .obj lbl_804A1394, global
@@ -6995,7 +6995,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte fn_800AF474
-	.4byte lbl_804A12E4
+	.4byte String_"SoundMode"
 	.4byte lbl_804A1278
 	.4byte lbl_8049F450
 	.4byte 0x00000000
@@ -7003,7 +7003,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte fn_800AEC80
-	.4byte lbl_804A12F4
+	.4byte String_"Lang"
 	.4byte lbl_804A1254
 	.4byte lbl_8055712C
 	.4byte 0x3F800000
@@ -7011,7 +7011,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte fn_800AED28
-	.4byte lbl_804A1304
+	.4byte String_"FGMGroup"
 	.4byte lbl_804A11A4
 	.4byte lbl_80557108
 	.4byte 0x00000000
@@ -7019,7 +7019,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte fn_800AEF6C
-	.4byte lbl_804A1314
+	.4byte String_"FGM"2
 	.4byte lbl_804A1244
 	.4byte lbl_8055710C
 	.4byte 0x00000000
@@ -7035,7 +7035,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000004
 	.4byte fn_800AF078
-	.4byte lbl_804A1334
+	.4byte String_"FGMPitch"
 	.4byte 0x00000000
 	.4byte lbl_80557110
 	.4byte 0xC628C000
@@ -7043,7 +7043,7 @@
 	.4byte 0x3F800000
 	.4byte 0x00000004
 	.4byte fn_800AF0F4
-	.4byte lbl_804A1344
+	.4byte String_"FGMPAN"
 	.4byte 0x00000000
 	.4byte lbl_80557114
 	.4byte 0x00000000
@@ -7051,7 +7051,7 @@
 	.4byte 0x3F800000
 	.4byte 0x00000004
 	.4byte fn_800AF174
-	.4byte lbl_804A1354
+	.4byte String_"FGMSPAN"
 	.4byte 0x00000000
 	.4byte lbl_80557118
 	.4byte 0x00000000
@@ -7059,7 +7059,7 @@
 	.4byte 0x3F800000
 	.4byte 0x00000004
 	.4byte fn_800AF1F4
-	.4byte lbl_804A1364
+	.4byte String_"FGMRound"
 	.4byte 0x00000000
 	.4byte lbl_8055711C
 	.4byte 0xBF800000
@@ -7067,7 +7067,7 @@
 	.4byte 0x3F800000
 	.4byte 0x00000003
 	.4byte fn_800AF2A0
-	.4byte lbl_804A1374
+	.4byte String_"FGMVoiceMax"
 	.4byte 0x00000000
 	.4byte lbl_80557120
 	.4byte 0x3F800000
@@ -7075,7 +7075,7 @@
 	.4byte 0x3F800000
 	.4byte 0x00000002
 	.4byte fn_800AF344
-	.4byte lbl_804A1384
+	.4byte String_"BMG:"
 	.4byte lbl_80557138
 	.4byte lbl_80557124
 	.4byte 0x00000000
@@ -7117,9 +7117,9 @@
 .endobj lbl_804A13C4
 
 # .data:0x5A50 | 0x804A15C8 | size: 0x10
-.obj lbl_804A15C8, global
+.obj String_"RumbleTest", global
 	.string "< Rumble Test >"
-.endobj lbl_804A15C8
+.endobj String_"RumbleTest"
 
 # .data:0x5A60 | 0x804A15D8 | size: 0xC
 .obj lbl_804A15D8, global
@@ -7136,15 +7136,15 @@
 .endobj lbl_804A15E4
 
 # .data:0x5A78 | 0x804A15F0 | size: 0xC
-.obj lbl_804A15F0, global
+.obj String_"RumbleStop", global
 	.string "Rumble Stop"
-.endobj lbl_804A15F0
+.endobj String_"RumbleStop"
 
 # .data:0x5A84 | 0x804A15FC | size: 0xA4
 .obj lbl_804A15FC, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804A15C8
+	.4byte String_"RumbleTest"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -7168,7 +7168,7 @@
 	.4byte 0x3F800000
 	.4byte 0x00000001
 	.4byte fn_800AF564
-	.4byte lbl_804A15F0
+	.4byte String_"RumbleStop"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
