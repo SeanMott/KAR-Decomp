@@ -2146,9 +2146,9 @@
 .endobj lbl_805DEEDC
 
 # .sdata2:0x7E0 | 0x805DEEE0 | size: 0x4
-.obj lbl_805DEEE0, global
+.obj CONST_FLOAT_VALUE_0_COUNT_1, global
 	.float 0
-.endobj lbl_805DEEE0
+.endobj CONST_FLOAT_VALUE_0_COUNT_1
 
 # .sdata2:0x7E4 | 0x805DEEE4 | size: 0x4
 .obj lbl_805DEEE4, global

@@ -1830,9 +1830,9 @@
 .endobj lbl_805C31A0
 
 # .bss:0x8E940 | 0x805C3C40 | size: 0x8488
-.obj lbl_805C3C40, global
+.obj SKIP_ADDRESS_1, global
 	.skip 0x8488
-.endobj lbl_805C3C40
+.endobj SKIP_ADDRESS_1
 
 # .bss:0x96DC8 | 0x805CC0C8 | size: 0x300
 .obj lbl_805CC0C8, global

@@ -1454,9 +1454,9 @@
 .endobj lbl_8049A274
 
 # .data:0x108C | 0x8049A284 | size: 0xC
-.obj lbl_8049A284, global
+.obj STRING_"A2EfCom.dat", global
 	.string "A2EfCom.dat"
-.endobj lbl_8049A284
+.endobj STRING_"A2EfCom.dat"
 
 # .data:0x1098 | 0x8049A290 | size: 0x20
 .obj jumptable_8049A290, global

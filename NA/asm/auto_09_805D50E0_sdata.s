@@ -3327,14 +3327,14 @@
 .endobj lbl_805D5F30
 
 # .sdata:0xE58 | 0x805D5F38 | size: 0x8
-.obj lbl_805D5F38, global
+.obj String_"NoCheck", global
 	.string "NoCheck"
-.endobj lbl_805D5F38
+.endobj String_"NoCheck"
 
 # .sdata:0xE60 | 0x805D5F40 | size: 0x8
-.obj lbl_805D5F40, global
+.obj String_"OldData", global
 	.string "OldData"
-.endobj lbl_805D5F40
+.endobj String_"OldData"
 
 # .sdata:0xE68 | 0x805D5F48 | size: 0x8
 .obj lbl_805D5F48, global
@@ -26203,21 +26203,21 @@
 .endobj lbl_805DD338
 
 # .sdata:0x8260 | 0x805DD340 | size: 0x4
-.obj lbl_805DD340, global
+.obj String_"aif", global
 	.string "aif"
-.endobj lbl_805DD340
+.endobj String_"aif"
 
 # .sdata:0x8264 | 0x805DD344 | size: 0x8
-.obj lbl_805DD344, global
+.obj BigFileExtensionFUckStruct_Value2, global
 	.4byte 0x61756469
 	.4byte 0x6F000000
-.endobj lbl_805DD344
+.endobj BigFileExtensionFUckStruct_Value2
 
 # .sdata:0x826C | 0x805DD34C | size: 0x8
-.obj lbl_805DD34C, global
+.obj BigFileExtensionFUckStruct_Value3, global
 	.4byte 0x61696666
 	.4byte 0x00000000
-.endobj lbl_805DD34C
+.endobj BigFileExtensionFUckStruct_Value3
 
 # .sdata:0x8274 | 0x805DD354 | size: 0x8
 .obj lbl_805DD354, global
@@ -26226,293 +26226,293 @@
 .endobj lbl_805DD354
 
 # .sdata:0x827C | 0x805DD35C | size: 0x4
-.obj lbl_805DD35C, global
+.obj String_"asf", global
 	.string "asf"
-.endobj lbl_805DD35C
+.endobj String_"asf"
 
 # .sdata:0x8280 | 0x805DD360 | size: 0x8
-.obj lbl_805DD360, global
+.obj BigFileExtensionFUckStruct_Value4, global
 	.4byte 0x76696465
 	.4byte 0x6F000000
-.endobj lbl_805DD360
+.endobj BigFileExtensionFUckStruct_Value4
 
 # .sdata:0x8288 | 0x805DD368 | size: 0x4
-.obj lbl_805DD368, global
+.obj String_"asx", global
 	.string "asx"
-.endobj lbl_805DD368
+.endobj String_"asx"
 
 # .sdata:0x828C | 0x805DD36C | size: 0x4
-.obj lbl_805DD36C, global
+.obj BigFileExtensionFUckStruct_Value6, global
 	.4byte 0x61750000
-.endobj lbl_805DD36C
+.endobj BigFileExtensionFUckStruct_Value6
 
 # .sdata:0x8290 | 0x805DD370 | size: 0x8
-.obj lbl_805DD370, global
+.obj BigFileExtensionFUckStruct_Value35, global
 	.4byte 0x62617369
 	.4byte 0x63000000
-.endobj lbl_805DD370
+.endobj BigFileExtensionFUckStruct_Value35
 
 # .sdata:0x8298 | 0x805DD378 | size: 0x4
-.obj lbl_805DD378, global
+.obj String_"avi", global
 	.string "avi"
-.endobj lbl_805DD378
+.endobj String_"avi"
 
 # .sdata:0x829C | 0x805DD37C | size: 0x8
-.obj lbl_805DD37C, global
+.obj String_"msvideo", global
 	.string "msvideo"
-.endobj lbl_805DD37C
+.endobj String_"msvideo"
 
 # .sdata:0x82A4 | 0x805DD384 | size: 0x4
-.obj lbl_805DD384, global
+.obj String_"bmp", global
 	.string "bmp"
-.endobj lbl_805DD384
+.endobj String_"bmp"
 
 # .sdata:0x82A8 | 0x805DD388 | size: 0x8
-.obj lbl_805DD388, global
+.obj BigFileExtensionFUckStruct_Value7, global
 	.4byte 0x696D6167
 	.4byte 0x65000000
-.endobj lbl_805DD388
+.endobj BigFileExtensionFUckStruct_Value7
 
 # .sdata:0x82B0 | 0x805DD390 | size: 0x4
-.obj lbl_805DD390, global
+.obj String_"dcr", global
 	.string "dcr"
-.endobj lbl_805DD390
+.endobj String_"dcr"
 
 # .sdata:0x82B4 | 0x805DD394 | size: 0x4
-.obj lbl_805DD394, global
+.obj String_"dib", global
 	.string "dib"
-.endobj lbl_805DD394
+.endobj String_"dib"
 
 # .sdata:0x82B8 | 0x805DD398 | size: 0x4
-.obj lbl_805DD398, global
+.obj String_"dir", global
 	.string "dir"
-.endobj lbl_805DD398
+.endobj String_"dir"
 
 # .sdata:0x82BC | 0x805DD39C | size: 0x4
-.obj lbl_805DD39C, global
+.obj String_"dxr", global
 	.string "dxr"
-.endobj lbl_805DD39C
+.endobj String_"dxr"
 
 # .sdata:0x82C0 | 0x805DD3A0 | size: 0x4
-.obj lbl_805DD3A0, global
+.obj String_"gif", global
 	.string "gif"
-.endobj lbl_805DD3A0
+.endobj String_"gif"
 
 # .sdata:0x82C4 | 0x805DD3A4 | size: 0x4
-.obj lbl_805DD3A4, global
+.obj String_"hta", global
 	.string "hta"
-.endobj lbl_805DD3A4
+.endobj String_"hta"
 
 # .sdata:0x82C8 | 0x805DD3A8 | size: 0x8
-.obj lbl_805DD3A8, global
+.obj BigFileExtensionFUckStruct_Value9, global
 	.4byte 0x74657874
 	.4byte 0x00000000
-.endobj lbl_805DD3A8
+.endobj BigFileExtensionFUckStruct_Value9
 
 # .sdata:0x82D0 | 0x805DD3B0 | size: 0x4
-.obj lbl_805DD3B0, global
+.obj String_"htm", global
 	.string "htm"
-.endobj lbl_805DD3B0
+.endobj String_"htm"
 
 # .sdata:0x82D4 | 0x805DD3B4 | size: 0x8
-.obj lbl_805DD3B4, global
+.obj BigFileExtensionFUckStruct_Value10, global
 	.4byte 0x68746D6C
 	.4byte 0x00000000
-.endobj lbl_805DD3B4
+.endobj BigFileExtensionFUckStruct_Value10
 
 # .sdata:0x82DC | 0x805DD3BC | size: 0x4
-.obj lbl_805DD3BC, global
+.obj String_"jar", global
 	.string "jar"
-.endobj lbl_805DD3BC
+.endobj String_"jar"
 
 # .sdata:0x82E0 | 0x805DD3C0 | size: 0x8
-.obj lbl_805DD3C0, global
+.obj BigFileExtensionFUckStruct_Value12, global
 	.4byte 0x6A666966
 	.4byte 0x00000000
-.endobj lbl_805DD3C0
+.endobj BigFileExtensionFUckStruct_Value12
 
 # .sdata:0x82E8 | 0x805DD3C8 | size: 0x8
-.obj lbl_805DD3C8, global
+.obj BigFileExtensionFUckStruct_Value13, global
 	.4byte 0x706A7065
 	.4byte 0x67000000
-.endobj lbl_805DD3C8
+.endobj BigFileExtensionFUckStruct_Value13
 
 # .sdata:0x82F0 | 0x805DD3D0 | size: 0x4
-.obj lbl_805DD3D0, global
+.obj String_"jpe", global
 	.string "jpe"
-.endobj lbl_805DD3D0
+.endobj String_"jpe"
 
 # .sdata:0x82F4 | 0x805DD3D4 | size: 0x8
-.obj lbl_805DD3D4, global
+.obj BigFileExtensionFUckStruct_Value14, global
 	.4byte 0x6A706567
 	.4byte 0x00000000
-.endobj lbl_805DD3D4
+.endobj BigFileExtensionFUckStruct_Value14
 
 # .sdata:0x82FC | 0x805DD3DC | size: 0x4
-.obj lbl_805DD3DC, global
+.obj String_"jpe"2, global
 	.string "jpg"
-.endobj lbl_805DD3DC
+.endobj String_"jpe"2
 
 # .sdata:0x8300 | 0x805DD3E0 | size: 0x4
-.obj lbl_805DD3E0, global
+.obj BigFileExtensionFUckStruct_Value15, global
 	.4byte 0x6A730000
-.endobj lbl_805DD3E0
+.endobj BigFileExtensionFUckStruct_Value15
 
 # .sdata:0x8304 | 0x805DD3E4 | size: 0x4
-.obj lbl_805DD3E4, global
+.obj String_"kar", global
 	.string "kar"
-.endobj lbl_805DD3E4
+.endobj String_"kar"
 
 # .sdata:0x8308 | 0x805DD3E8 | size: 0x8
-.obj lbl_805DD3E8, global
+.obj BigFileExtensionFUckStruct_Value17, global
 	.4byte 0x6D696469
 	.4byte 0x00000000
-.endobj lbl_805DD3E8
+.endobj BigFileExtensionFUckStruct_Value17
 
 # .sdata:0x8310 | 0x805DD3F0 | size: 0x4
-.obj lbl_805DD3F0, global
+.obj String_"m3u", global
 	.string "m3u"
-.endobj lbl_805DD3F0
+.endobj String_"m3u"
 
 # .sdata:0x8314 | 0x805DD3F4 | size: 0x8
-.obj lbl_805DD3F4, global
+.obj String_"mpegurl", global
 	.string "mpegurl"
-.endobj lbl_805DD3F4
+.endobj String_"mpegurl"
 
 # .sdata:0x831C | 0x805DD3FC | size: 0x4
-.obj lbl_805DD3FC, global
+.obj String_"mid", global
 	.string "mid"
-.endobj lbl_805DD3FC
+.endobj String_"mid"
 
 # .sdata:0x8320 | 0x805DD400 | size: 0x4
-.obj lbl_805DD400, global
+.obj String_"mov", global
 	.string "mov"
-.endobj lbl_805DD400
+.endobj String_"mov"
 
 # .sdata:0x8324 | 0x805DD404 | size: 0x8
-.obj lbl_805DD404, global
+.obj BigFileExtensionFUckStruct_Value19, global
 	.4byte 0x6D703276
 	.4byte 0x00000000
-.endobj lbl_805DD404
+.endobj BigFileExtensionFUckStruct_Value19
 
 # .sdata:0x832C | 0x805DD40C | size: 0x8
-.obj lbl_805DD40C, global
+.obj "String_"x-mpeg2"", global
 	.string "x-mpeg2"
-.endobj lbl_805DD40C
+.endobj "String_"x-mpeg2""
 
 # .sdata:0x8334 | 0x805DD414 | size: 0x4
-.obj lbl_805DD414, global
+.obj String_"mp3", global
 	.string "mp3"
-.endobj lbl_805DD414
+.endobj String_"mp3"
 
 # .sdata:0x8338 | 0x805DD418 | size: 0x8
-.obj lbl_805DD418, global
+.obj BigFileExtensionFUckStruct_Value20, global
 	.4byte 0x6D706567
 	.4byte 0x00000000
-.endobj lbl_805DD418
+.endobj BigFileExtensionFUckStruct_Value20
 
 # .sdata:0x8340 | 0x805DD420 | size: 0x4
-.obj lbl_805DD420, global
+.obj String_"mpe", global
 	.string "mpe"
-.endobj lbl_805DD420
+.endobj String_"mpe"
 
 # .sdata:0x8344 | 0x805DD424 | size: 0x4
-.obj lbl_805DD424, global
+.obj String_"mpg", global
 	.string "mpg"
-.endobj lbl_805DD424
+.endobj String_"mpg"
 
 # .sdata:0x8348 | 0x805DD428 | size: 0x4
-.obj lbl_805DD428, global
+.obj String_"mpv", global
 	.string "mpv"
-.endobj lbl_805DD428
+.endobj String_"mpv"
 
 # .sdata:0x834C | 0x805DD42C | size: 0x8
-.obj lbl_805DD42C, global
+.obj BigFileExtensionFUckStruct_Value21, global
 	.4byte 0x6D707632
 	.4byte 0x00000000
-.endobj lbl_805DD42C
+.endobj BigFileExtensionFUckStruct_Value21
 
 # .sdata:0x8354 | 0x805DD434 | size: 0x4
-.obj lbl_805DD434, global
+.obj String_"pdf", global
 	.string "pdf"
-.endobj lbl_805DD434
+.endobj String_"pdf"
 
 # .sdata:0x8358 | 0x805DD438 | size: 0x4
-.obj lbl_805DD438, global
+.obj String_"pjp", global
 	.string "pjp"
-.endobj lbl_805DD438
+.endobj String_"pjp"
 
 # .sdata:0x835C | 0x805DD43C | size: 0x4
-.obj lbl_805DD43C, global
+.obj String_"plg", global
 	.string "plg"
-.endobj lbl_805DD43C
+.endobj String_"plg"
 
 # .sdata:0x8360 | 0x805DD440 | size: 0x4
-.obj lbl_805DD440, global
+.obj String_"pls", global
 	.string "pls"
-.endobj lbl_805DD440
+.endobj String_"pls"
 
 # .sdata:0x8364 | 0x805DD444 | size: 0x8
-.obj lbl_805DD444, global
+.obj BigFileExtensionFUckStruct_Value22, global
 	.4byte 0x7363706C
 	.4byte 0x73000000
-.endobj lbl_805DD444
+.endobj BigFileExtensionFUckStruct_Value22
 
 # .sdata:0x836C | 0x805DD44C | size: 0x4
-.obj lbl_805DD44C, global
+.obj String_"png", global
 	.string "png"
-.endobj lbl_805DD44C
+.endobj String_"png"
 
 # .sdata:0x8370 | 0x805DD450 | size: 0x4
-.obj lbl_805DD450, global
+.obj BigFileExtensionFUckStruct_Value23, global
 	.4byte 0x71740000
-.endobj lbl_805DD450
+.endobj BigFileExtensionFUckStruct_Value23
 
 # .sdata:0x8374 | 0x805DD454 | size: 0x4
-.obj lbl_805DD454, global
+.obj String_"ram", global
 	.string "ram"
-.endobj lbl_805DD454
+.endobj String_"ram"
 
 # .sdata:0x8378 | 0x805DD458 | size: 0x4
-.obj lbl_805DD458, global
+.obj String_"rmi", global
 	.string "rmi"
-.endobj lbl_805DD458
+.endobj String_"rmi"
 
 # .sdata:0x837C | 0x805DD45C | size: 0x4
-.obj lbl_805DD45C, global
+.obj String_"rmm", global
 	.string "rmm"
-.endobj lbl_805DD45C
+.endobj String_"rmm"
 
 # .sdata:0x8380 | 0x805DD460 | size: 0x4
-.obj lbl_805DD460, global
+.obj String_"rtf", global
 	.string "rtf"
-.endobj lbl_805DD460
+.endobj String_"rtf"
 
 # .sdata:0x8384 | 0x805DD464 | size: 0x8
-.obj lbl_805DD464, global
+.obj BigFileExtensionFUckStruct_Value25, global
 	.4byte 0x7368746D
 	.4byte 0x6C000000
-.endobj lbl_805DD464
+.endobj BigFileExtensionFUckStruct_Value25
 
 # .sdata:0x838C | 0x805DD46C | size: 0x4
-.obj lbl_805DD46C, global
+.obj String_"smf", global
 	.string "smf"
-.endobj lbl_805DD46C
+.endobj String_"smf"
 
 # .sdata:0x8390 | 0x805DD470 | size: 0x4
-.obj lbl_805DD470, global
+.obj String_"snd", global
 	.string "snd"
-.endobj lbl_805DD470
+.endobj String_"snd"
 
 # .sdata:0x8394 | 0x805DD474 | size: 0x4
-.obj lbl_805DD474, global
+.obj String_"spl", global
 	.string "spl"
-.endobj lbl_805DD474
+.endobj String_"spl"
 
 # .sdata:0x8398 | 0x805DD478 | size: 0x4
-.obj lbl_805DD478, global
+.obj String_sssm, global
 	.string "ssm"
-.endobj lbl_805DD478
+.endobj String_sssm
 
 # .sdata:0x839C | 0x805DD47C | size: 0x4
 .obj lbl_string_ssm, global

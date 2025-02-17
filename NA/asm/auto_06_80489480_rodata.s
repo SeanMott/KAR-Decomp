@@ -522,7 +522,7 @@
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_8049A284
+	.4byte STRING_"A2EfCom.dat"
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
@@ -2650,9 +2650,9 @@
 .endobj lbl_8048B748
 
 # .rodata:0x23A8 | 0x8048B828 | size: 0x2
-.obj lbl_8048B828, global
+.obj String_".", global
 	.string "."
-.endobj lbl_8048B828
+.endobj String_"."
 
 # .rodata:0x23AA | 0x8048B82A | size: 0x6
 .obj lbl_8048B82A, global
@@ -3804,219 +3804,219 @@
 .endobj lbl_8048C640
 
 # .rodata:0x3200 | 0x8048C680 | size: 0x340
-.obj lbl_8048C680, global
-	.4byte lbl_805DD340
-	.4byte lbl_805DD344
-	.4byte lbl_805DD34C
+.obj BIG_FUCK_STRUCT_OF_FILE_EXTENSION_STRINGS, global
+	.4byte String_"aif"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value3
 	.4byte lbl_805DD354
-	.4byte lbl_805DD344
-	.4byte lbl_805DD34C
-	.4byte lbl_805DD34C
-	.4byte lbl_805DD344
-	.4byte lbl_805DD34C
-	.4byte lbl_805DD35C
-	.4byte lbl_805DD360
-	.4byte lbl_80535078
-	.4byte lbl_805DD368
-	.4byte lbl_805DD360
-	.4byte lbl_80535078
-	.4byte lbl_805DD36C
-	.4byte lbl_805DD344
-	.4byte lbl_805DD370
-	.4byte lbl_805DD378
-	.4byte lbl_805DD360
-	.4byte lbl_805DD37C
-	.4byte lbl_805DD384
-	.4byte lbl_805DD388
-	.4byte lbl_805DD384
-	.4byte lbl_805DD390
-	.4byte lbl_80535084
-	.4byte lbl_80535090
-	.4byte lbl_805DD394
-	.4byte lbl_805DD388
-	.4byte lbl_805DD384
-	.4byte lbl_805DD398
-	.4byte lbl_80535084
-	.4byte lbl_80535090
-	.4byte lbl_805DD39C
-	.4byte lbl_80535084
-	.4byte lbl_80535090
-	.4byte lbl_805DD3A0
-	.4byte lbl_805DD388
-	.4byte lbl_805DD3A0
-	.4byte lbl_805DD3A4
-	.4byte lbl_805DD3A8
-	.4byte lbl_805DD3A4
-	.4byte lbl_805DD3B0
-	.4byte lbl_805DD3A8
-	.4byte lbl_805DD3B4
-	.4byte lbl_805DD3B4
-	.4byte lbl_805DD3A8
-	.4byte lbl_805DD3B4
-	.4byte lbl_805DD3BC
-	.4byte lbl_80535084
-	.4byte lbl_8053509C
-	.4byte lbl_805DD3C0
-	.4byte lbl_805DD388
-	.4byte lbl_805DD3C8
-	.4byte lbl_805DD3D0
-	.4byte lbl_805DD388
-	.4byte lbl_805DD3D4
-	.4byte lbl_805DD3D4
-	.4byte lbl_805DD388
-	.4byte lbl_805DD3D4
-	.4byte lbl_805DD3DC
-	.4byte lbl_805DD388
-	.4byte lbl_805DD3D4
-	.4byte lbl_805DD3E0
-	.4byte lbl_80535084
-	.4byte lbl_805350AC
-	.4byte lbl_805DD3E4
-	.4byte lbl_805DD344
-	.4byte lbl_805DD3E8
-	.4byte lbl_805DD3F0
-	.4byte lbl_805DD344
-	.4byte lbl_805DD3F4
-	.4byte lbl_805DD3FC
-	.4byte lbl_805DD344
-	.4byte lbl_805DD3E8
-	.4byte lbl_805DD3E8
-	.4byte lbl_805DD344
-	.4byte lbl_805DD3E8
-	.4byte lbl_805DD400
-	.4byte lbl_805DD360
-	.4byte lbl_805350BC
-	.4byte lbl_805DD404
-	.4byte lbl_805DD360
-	.4byte lbl_805DD40C
-	.4byte lbl_805DD414
-	.4byte lbl_805DD344
-	.4byte lbl_805DD418
-	.4byte lbl_805DD420
-	.4byte lbl_805DD360
-	.4byte lbl_805DD418
-	.4byte lbl_805DD418
-	.4byte lbl_805DD360
-	.4byte lbl_805DD418
-	.4byte lbl_805DD424
-	.4byte lbl_805DD360
-	.4byte lbl_805DD418
-	.4byte lbl_805DD428
-	.4byte lbl_805DD360
-	.4byte lbl_805DD418
-	.4byte lbl_805DD42C
-	.4byte lbl_805DD360
-	.4byte lbl_805DD40C
-	.4byte lbl_805DD434
-	.4byte lbl_80535084
-	.4byte lbl_805DD434
-	.4byte lbl_805DD438
-	.4byte lbl_805DD388
-	.4byte lbl_805DD3D4
-	.4byte lbl_805DD3C8
-	.4byte lbl_805DD388
-	.4byte lbl_805DD3D4
-	.4byte lbl_805DD43C
-	.4byte lbl_805DD3A8
-	.4byte lbl_805DD3B4
-	.4byte lbl_805DD440
-	.4byte lbl_805DD344
-	.4byte lbl_805DD444
-	.4byte lbl_805DD44C
-	.4byte lbl_805DD388
-	.4byte lbl_805DD44C
-	.4byte lbl_805DD450
-	.4byte lbl_805DD360
-	.4byte lbl_805350BC
-	.4byte lbl_805DD454
-	.4byte lbl_805DD344
-	.4byte lbl_805350C8
-	.4byte lbl_805DD458
-	.4byte lbl_805DD344
-	.4byte lbl_805DD3FC
-	.4byte lbl_805DD45C
-	.4byte lbl_805DD344
-	.4byte lbl_805350C8
-	.4byte lbl_805DD460
-	.4byte lbl_80535084
-	.4byte lbl_805DD460
-	.4byte lbl_805DD464
-	.4byte lbl_805DD3A8
-	.4byte lbl_805DD3B4
-	.4byte lbl_805DD46C
-	.4byte lbl_805DD344
-	.4byte lbl_805DD3E8
-	.4byte lbl_805DD470
-	.4byte lbl_805DD344
-	.4byte lbl_805DD370
-	.4byte lbl_805DD474
-	.4byte lbl_80535084
-	.4byte lbl_805350D8
-	.4byte lbl_805DD478
-	.4byte lbl_80535084
-	.4byte lbl_805350E8
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value3
+	.4byte BigFileExtensionFUckStruct_Value3
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value3
+	.4byte String_"asf"
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value5
+	.4byte String_"asx"
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value5
+	.4byte BigFileExtensionFUckStruct_Value6
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value35
+	.4byte String_"avi"
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte String_"msvideo"
+	.4byte String_"bmp"
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte String_"bmp"
+	.4byte String_"dcr"
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value8
+	.4byte String_"dib"
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte String_"bmp"
+	.4byte String_"dir"
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value8
+	.4byte String_"dxr"
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value8
+	.4byte String_"gif"
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte String_"gif"
+	.4byte String_"hta"
+	.4byte BigFileExtensionFUckStruct_Value9
+	.4byte String_"hta"
+	.4byte String_"htm"
+	.4byte BigFileExtensionFUckStruct_Value9
+	.4byte BigFileExtensionFUckStruct_Value10
+	.4byte BigFileExtensionFUckStruct_Value10
+	.4byte BigFileExtensionFUckStruct_Value9
+	.4byte BigFileExtensionFUckStruct_Value10
+	.4byte String_"jar"
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value11
+	.4byte BigFileExtensionFUckStruct_Value12
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte BigFileExtensionFUckStruct_Value13
+	.4byte String_"jpe"
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte BigFileExtensionFUckStruct_Value14
+	.4byte BigFileExtensionFUckStruct_Value14
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte BigFileExtensionFUckStruct_Value14
+	.4byte String_"jpe"2
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte BigFileExtensionFUckStruct_Value14
+	.4byte BigFileExtensionFUckStruct_Value15
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value16
+	.4byte String_"kar"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value17
+	.4byte String_"m3u"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte String_"mpegurl"
+	.4byte String_"mid"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value17
+	.4byte BigFileExtensionFUckStruct_Value17
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value17
+	.4byte String_"mov"
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value18
+	.4byte BigFileExtensionFUckStruct_Value19
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte "String_"x-mpeg2""
+	.4byte String_"mp3"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value20
+	.4byte String_"mpe"
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value20
+	.4byte BigFileExtensionFUckStruct_Value20
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value20
+	.4byte String_"mpg"
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value20
+	.4byte String_"mpv"
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value20
+	.4byte BigFileExtensionFUckStruct_Value21
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte "String_"x-mpeg2""
+	.4byte String_"pdf"
+	.4byte String_"application"
+	.4byte String_"pdf"
+	.4byte String_"pjp"
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte BigFileExtensionFUckStruct_Value14
+	.4byte BigFileExtensionFUckStruct_Value13
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte BigFileExtensionFUckStruct_Value14
+	.4byte String_"plg"
+	.4byte BigFileExtensionFUckStruct_Value9
+	.4byte BigFileExtensionFUckStruct_Value10
+	.4byte String_"pls"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value22
+	.4byte String_"png"
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte String_"png"
+	.4byte BigFileExtensionFUckStruct_Value23
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value18
+	.4byte String_"ram"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value24
+	.4byte String_"rmi"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte String_"mid"
+	.4byte String_"rmm"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value24
+	.4byte String_"rtf"
+	.4byte String_"application"
+	.4byte String_"rtf"
+	.4byte BigFileExtensionFUckStruct_Value25
+	.4byte BigFileExtensionFUckStruct_Value9
+	.4byte BigFileExtensionFUckStruct_Value10
+	.4byte String_"smf"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value17
+	.4byte String_"snd"
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value35
+	.4byte String_"spl"
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value26
+	.4byte String_sssm
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value27
 	.4byte lbl_string_ssm
-	.4byte lbl_80535084
-	.4byte lbl_805350F8
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value28
 	.4byte lbl_string_tar
-	.4byte lbl_80535084
+	.4byte String_"application"
 	.4byte lbl_string_tar
 	.4byte lbl_string_tcl
-	.4byte lbl_80535084
+	.4byte String_"application"
 	.4byte lbl_string_x_tcl
-	.4byte lbl_805DD3A8
-	.4byte lbl_805DD3A8
+	.4byte BigFileExtensionFUckStruct_Value9
+	.4byte BigFileExtensionFUckStruct_Value9
 	.4byte lbl_string_plain
 	.4byte lbl_string_tif
-	.4byte lbl_805DD388
+	.4byte BigFileExtensionFUckStruct_Value7
 	.4byte lbl_string_tiff
 	.4byte lbl_string_tiff
-	.4byte lbl_805DD388
+	.4byte BigFileExtensionFUckStruct_Value7
 	.4byte lbl_string_tiff
 	.4byte lbl_string_txt
-	.4byte lbl_805DD3A8
+	.4byte BigFileExtensionFUckStruct_Value9
 	.4byte lbl_string_plain
 	.4byte lbl_string_ulw
-	.4byte lbl_805DD344
-	.4byte lbl_805DD370
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value35
 	.4byte lbl_string_wav
-	.4byte lbl_805DD344
+	.4byte BigFileExtensionFUckStruct_Value2
 	.4byte lbl_string_wav
 	.4byte lbl_string_wax
-	.4byte lbl_805DD344
-	.4byte lbl_8053510C
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value29
 	.4byte lbl_string_wm
-	.4byte lbl_805DD360
+	.4byte BigFileExtensionFUckStruct_Value4
 	.4byte "lbl_string_x-ms-wm"
 	.4byte lbl_string_wma
-	.4byte lbl_805DD344
-	.4byte lbl_80535118
+	.4byte BigFileExtensionFUckStruct_Value2
+	.4byte BigFileExtensionFUckStruct_Value30
 	.4byte lbl_string_wmv
-	.4byte lbl_805DD360
-	.4byte lbl_80535124
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value31
 	.4byte lbl_string_wvx
-	.4byte lbl_805DD360
-	.4byte lbl_80535130
+	.4byte BigFileExtensionFUckStruct_Value4
+	.4byte BigFileExtensionFUckStruct_Value32
 	.4byte lbl_string_xbm
-	.4byte lbl_805DD388
-	.4byte lbl_8053513C
+	.4byte BigFileExtensionFUckStruct_Value7
+	.4byte BigFileExtensionFUckStruct_Value33
 	.4byte lbl_string_xml
-	.4byte lbl_805DD3A8
+	.4byte BigFileExtensionFUckStruct_Value9
 	.4byte lbl_string_xml
 	.4byte lbl_string_xsl
-	.4byte lbl_805DD3A8
+	.4byte BigFileExtensionFUckStruct_Value9
 	.4byte lbl_string_xml
 	.4byte lbl_string_z
-	.4byte lbl_80535084
-	.4byte lbl_80535148
+	.4byte String_"application"
+	.4byte BigFileExtensionFUckStruct_Value34_BigDataSubStruct
 	.4byte lbl_string_zip
-	.4byte lbl_80535084
+	.4byte String_"application"
 	.4byte lbl_string_zip
 	.4byte 0x00000000
-.endobj lbl_8048C680
+.endobj BIG_FUCK_STRUCT_OF_FILE_EXTENSION_STRINGS
 
 # .rodata:0x3540 | 0x8048C9C0 | size: 0x8488
-.obj lbl_8048C9C0, global
+.obj BIG_NULL_VALUE_STRUCT, global
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0xFFFFFFFF
@@ -12499,4 +12499,4 @@
 	.4byte 0x00000000
 	.4byte 0x00000003
 	.4byte 0x00000000
-.endobj lbl_8048C9C0
+.endobj BIG_NULL_VALUE_STRUCT
