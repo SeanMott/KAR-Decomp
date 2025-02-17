@@ -13777,25 +13777,25 @@
 
 # .sdata:0x4468 | 0x805D9548 | size: 0x8
 .obj lbl_805D9548, global
-	.4byte lbl_804D749C
-	.4byte lbl_804D74AC
+	.4byte String_"EffectorExplode"
+	.4byte Struct_FuncPtrs_Offset_1
 .endobj lbl_805D9548
 
 # .sdata:0x4470 | 0x805D9550 | size: 0x8
 .obj lbl_805D9550, global
-	.4byte lbl_804D7530
-	.4byte lbl_804D7544
+	.4byte StructBlob_15
+	.4byte StructOfStructs_2
 .endobj lbl_805D9550
 
 # .sdata:0x4478 | 0x805D9558 | size: 0x8
 .obj lbl_805D9558, global
-	.4byte lbl_804D75D0
-	.4byte lbl_804D75E0
+	.4byte StructBlob_16
+	.4byte StructOfStructs_14
 .endobj lbl_805D9558
 
 # .sdata:0x4480 | 0x805D9560 | size: 0x8
 .obj lbl_805D9560, global
-	.4byte lbl_804D766C
+	.4byte StructBlobs_15
 	.4byte lbl_804D767C
 .endobj lbl_805D9560
 

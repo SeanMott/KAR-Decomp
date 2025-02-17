@@ -74631,12 +74631,12 @@
 .endobj lbl_804D743C
 
 # .data:0x3B924 | 0x804D749C | size: 0x10
-.obj lbl_804D749C, global
+.obj String_"EffectorExplode", global
 	.string "EffectorExplode"
-.endobj lbl_804D749C
+.endobj String_"EffectorExplode"
 
 # .data:0x3B934 | 0x804D74AC | size: 0x24
-.obj lbl_804D74AC, global
+.obj Struct_FuncPtrs_Offset_1, global
 	.4byte lbl_805D94F0
 	.4byte 0x00000024
 	.4byte lbl_805D9500
@@ -74646,10 +74646,10 @@
 	.4byte lbl_805D94D8
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D74AC
+.endobj Struct_FuncPtrs_Offset_1
 
 # .data:0x3B958 | 0x804D74D0 | size: 0x60
-.obj lbl_804D74D0, global
+.obj Struct_FuncPtrs_Offset_2, global
 	.4byte lbl_805D9548
 	.4byte 0x00000000
 	.4byte fn_802E8B3C
@@ -74674,19 +74674,19 @@
 	.4byte fn_802E9188
 	.4byte fn_802932A0
 	.4byte fn_802932C4
-.endobj lbl_804D74D0
+.endobj Struct_FuncPtrs_Offset_2
 
 # .data:0x3B9B8 | 0x804D7530 | size: 0x14
-.obj lbl_804D7530, global
+.obj StructBlob_15, global
 	.4byte 0x45666665
 	.4byte 0x63746F72
 	.4byte 0x47696B6F
 	.4byte 0x6E6F6B6F
 	.4byte 0x00000000
-.endobj lbl_804D7530
+.endobj StructBlob_15
 
 # .data:0x3B9CC | 0x804D7544 | size: 0x24
-.obj lbl_804D7544, global
+.obj StructOfStructs_2, global
 	.4byte lbl_805D9518
 	.4byte 0x00000024
 	.4byte lbl_805D9520
@@ -74696,10 +74696,10 @@
 	.4byte lbl_805D94D8
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D7544
+.endobj StructOfStructs_2
 
 # .data:0x3B9F0 | 0x804D7568 | size: 0x68
-.obj lbl_804D7568, global
+.obj Struct_FuncPtrs_Offset_3, global
 	.4byte lbl_805D9550
 	.4byte 0x00000000
 	.4byte fn_802E8C54
@@ -74726,18 +74726,18 @@
 	.4byte fn_802E9180
 	.4byte fn_80299720
 	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
-.endobj lbl_804D7568
+.endobj Struct_FuncPtrs_Offset_3
 
 # .data:0x3BA58 | 0x804D75D0 | size: 0x10
-.obj lbl_804D75D0, global
+.obj StructBlob_16, global
 	.4byte 0x45666665
 	.4byte 0x63746F72
 	.4byte 0x4472696C
 	.4byte 0x6C000000
-.endobj lbl_804D75D0
+.endobj StructBlob_16
 
 # .data:0x3BA68 | 0x804D75E0 | size: 0x24
-.obj lbl_804D75E0, global
+.obj StructOfStructs_14, global
 	.4byte lbl_805D9518
 	.4byte 0x00000024
 	.4byte lbl_805D9520
@@ -74747,10 +74747,10 @@
 	.4byte lbl_805D94D8
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D75E0
+.endobj StructOfStructs_14
 
 # .data:0x3BA8C | 0x804D7604 | size: 0x68
-.obj lbl_804D7604, global
+.obj Struct_FuncPtrs_Offset_5, global
 	.4byte lbl_805D9558
 	.4byte 0x00000000
 	.4byte fn_802E8D6C
@@ -74777,15 +74777,15 @@
 	.4byte fn_802E9178
 	.4byte fn_80299720
 	.4byte fn_WorldDarkening_Fade_TakeParams_Float_Float
-.endobj lbl_804D7604
+.endobj Struct_FuncPtrs_Offset_5
 
 # .data:0x3BAF4 | 0x804D766C | size: 0x10
-.obj lbl_804D766C, global
+.obj StructBlobs_15, global
 	.4byte 0x45666665
 	.4byte 0x63746F72
 	.4byte 0x50726573
 	.4byte 0x73000000
-.endobj lbl_804D766C
+.endobj StructBlobs_15
 
 # .data:0x3BB04 | 0x804D767C | size: 0x24
 .obj lbl_804D767C, global
@@ -74801,7 +74801,7 @@
 .endobj lbl_804D767C
 
 # .data:0x3BB28 | 0x804D76A0 | size: 0x60
-.obj lbl_804D76A0, global
+.obj FuncPtrList_1, global
 	.4byte lbl_805D9560
 	.4byte 0x00000000
 	.4byte fn_802E904C
@@ -74826,10 +74826,10 @@
 	.4byte fn_802E9170
 	.4byte fn_802932A0
 	.4byte fn_802932C4
-.endobj lbl_804D76A0
+.endobj FuncPtrList_1
 
 # .data:0x3BB88 | 0x804D7700 | size: 0x38
-.obj lbl_804D7700, global
+.obj FuncPtrList_2, global
 	.4byte lbl_805D94D8
 	.4byte 0x00000000
 	.4byte fn_802E90F8
@@ -74844,7 +74844,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D7700
+.endobj FuncPtrList_2
 
 # .data:0x3BBC0 | 0x804D7738 | size: 0x28
 .obj lbl_804D7738, global
