@@ -75106,58 +75106,58 @@
 .endobj lbl_804D79D8
 
 # .data:0x3BE7C | 0x804D79F4 | size: 0x18
-.obj lbl_804D79F4, global
+.obj Random_StructBlob_21, global
 	.4byte 0x4F626A43
 	.4byte 0x6F6C6C65
 	.4byte 0x63743C43
 	.4byte 0x6F6C6C53
 	.4byte 0x70686572
 	.4byte 0x653E0000
-.endobj lbl_804D79F4
+.endobj Random_StructBlob_21
 
 # .data:0x3BE94 | 0x804D7A0C | size: 0xC
-.obj lbl_804D7A0C, global
+.obj Random_StructBlob_20, global
 	.4byte 0x53706865
 	.4byte 0x72654261
 	.4byte 0x73650000
-.endobj lbl_804D7A0C
+.endobj Random_StructBlob_20
 
 # .data:0x3BEA0 | 0x804D7A18 | size: 0xC
-.obj lbl_804D7A18, global
-	.4byte lbl_805D95E8
+.obj Random_StructBlob_20_Handle_Storage, global
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D7A18
+.endobj Random_StructBlob_20_Handle_Storage
 
 # .data:0x3BEAC | 0x804D7A24 | size: 0xC
-.obj lbl_804D7A24, global
+.obj RandomStructBlob_23, global
 	.4byte 0x436F6C6C
 	.4byte 0x53706865
 	.4byte 0x72650000
-.endobj lbl_804D7A24
+.endobj RandomStructBlob_23
 
 # .data:0x3BEB8 | 0x804D7A30 | size: 0x1C
-.obj lbl_804D7A30, global
-	.4byte lbl_805D95E0
+.obj StructPack_1, global
+	.4byte Random_StructBlob_21_Handle
 	.4byte 0x00000014
-	.4byte lbl_805D95E8
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D95F8
+	.4byte StructBlob_22_20_Handle_Pair
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D7A30
+.endobj StructPack_1
 
 # .data:0x3BED4 | 0x804D7A4C | size: 0x40
 .obj lbl_804D7A4C, global
 	.4byte lbl_805D95D8
 	.4byte 0x00000054
-	.4byte lbl_805D95E0
+	.4byte Random_StructBlob_21_Handle
 	.4byte 0x00000014
-	.4byte lbl_805D95E8
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D95F8
+	.4byte StructBlob_22_20_Handle_Pair
 	.4byte 0x00000000
-	.4byte lbl_805D9600
+	.4byte StructPair_StructBlob23_StructPack1
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x4D6F6465
@@ -75168,7 +75168,7 @@
 .endobj lbl_804D7A4C
 
 # .data:0x3BF14 | 0x804D7A8C | size: 0x3C
-.obj lbl_804D7A8C, global
+.obj StructBlob_32_MaybeClass, global
 	.4byte 0x4F626A43
 	.4byte 0x6F6C6C65
 	.4byte 0x63743C4D
@@ -75177,14 +75177,14 @@
 	.4byte 0x63745269
 	.4byte 0x70706C65
 	.4byte 0x3E000000
-	.4byte lbl_805D9610
+	.4byte StructBlob_32_MaybeClass_Handle
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x45666665
 	.4byte 0x63744D61
 	.4byte 0x70466164
 	.4byte 0x65000000
-.endobj lbl_804D7A8C
+.endobj StructBlob_32_MaybeClass
 
 # .data:0x3BF50 | 0x804D7AC8 | size: 0x34
 .obj lbl_804D7AC8, global
@@ -75283,16 +75283,16 @@
 .endobj lbl_804D7BA4
 
 # .data:0x3C060 | 0x804D7BD8 | size: 0x10
-.obj lbl_804D7BD8, global
+.obj "FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804D7BD8
+.endobj "FL_Tree_Template_Widget"
 
 # .data:0x3C070 | 0x804D7BE8 | size: 0xC
-.obj lbl_804D7BE8, global
+.obj StorageForHandle_NULL_1, global
 	.4byte lbl_805D9648
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D7BE8
+.endobj StorageForHandle_NULL_1
 
 # .data:0x3C07C | 0x804D7BF4 | size: 0x10
 .obj lbl_804D7BF4, global
@@ -75379,26 +75379,26 @@
 .endobj lbl_804D7CA0
 
 # .data:0x3C13C | 0x804D7CB4 | size: 0x14
-.obj lbl_804D7CB4, global
+.obj String_"GrenadeMgr_Grenade", global
 	.string "GrenadeMgr::Grenade"
-.endobj lbl_804D7CB4
+.endobj String_"GrenadeMgr_Grenade"
 
 # .data:0x3C150 | 0x804D7CC8 | size: 0x20
-.obj lbl_804D7CC8, global
+.obj String_"ObjCollect_Template_GrenadeMgr_Grenade", global
 	.string "ObjCollect<GrenadeMgr::Grenade>"
-.endobj lbl_804D7CC8
+.endobj String_"ObjCollect_Template_GrenadeMgr_Grenade"
 
 # .data:0x3C170 | 0x804D7CE8 | size: 0x2C
 .obj lbl_804D7CE8, global
-	.4byte lbl_805D96B0
+	.4byte Handle_String_"ObjCollect_Template_GrenadeMgr_Grenade"
 	.4byte 0x00000054
-	.4byte lbl_805D95E0
+	.4byte Random_StructBlob_21_Handle
 	.4byte 0x00000014
-	.4byte lbl_805D95E8
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D95F8
+	.4byte StructBlob_22_20_Handle_Pair
 	.4byte 0x00000000
-	.4byte lbl_805D9600
+	.4byte StructPair_StructBlob23_StructPack1
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804D7CE8
@@ -75459,13 +75459,13 @@
 .obj lbl_804D7DA0, global
 	.4byte lbl_805D96D8
 	.4byte 0x00000054
-	.4byte lbl_805D95E0
+	.4byte Random_StructBlob_21_Handle
 	.4byte 0x00000014
-	.4byte lbl_805D95E8
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D95F8
+	.4byte StructBlob_22_20_Handle_Pair
 	.4byte 0x00000000
-	.4byte lbl_805D9600
+	.4byte StructPair_StructBlob23_StructPack1
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804D7DA0
@@ -75484,13 +75484,13 @@
 .obj lbl_804D7DF8, global
 	.4byte lbl_805D96E8
 	.4byte 0x00000054
-	.4byte lbl_805D95E0
+	.4byte Random_StructBlob_21_Handle
 	.4byte 0x00000014
-	.4byte lbl_805D95E8
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D95F8
+	.4byte StructBlob_22_20_Handle_Pair
 	.4byte 0x00000000
-	.4byte lbl_805D9600
+	.4byte StructPair_StructBlob23_StructPack1
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804D7DF8
@@ -75509,13 +75509,13 @@
 .obj lbl_804D7E50, global
 	.4byte lbl_805D96F8
 	.4byte 0x00000054
-	.4byte lbl_805D95E0
+	.4byte Random_StructBlob_21_Handle
 	.4byte 0x00000014
-	.4byte lbl_805D95E8
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D95F8
+	.4byte StructBlob_22_20_Handle_Pair
 	.4byte 0x00000000
-	.4byte lbl_805D9600
+	.4byte StructPair_StructBlob23_StructPack1
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804D7E50
@@ -75534,13 +75534,13 @@
 .obj lbl_804D7EB0, global
 	.4byte lbl_805D9708
 	.4byte 0x00000054
-	.4byte lbl_805D95E0
+	.4byte Random_StructBlob_21_Handle
 	.4byte 0x00000014
-	.4byte lbl_805D95E8
+	.4byte Random_StructBlob_20_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D95F8
+	.4byte StructBlob_22_20_Handle_Pair
 	.4byte 0x00000000
-	.4byte lbl_805D9600
+	.4byte StructPair_StructBlob23_StructPack1
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x4B757261

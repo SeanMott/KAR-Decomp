@@ -13890,34 +13890,34 @@
 .endobj lbl_805D95D8
 
 # .sdata:0x4500 | 0x805D95E0 | size: 0x8
-.obj lbl_805D95E0, global
-	.4byte lbl_804D79F4
+.obj Random_StructBlob_21_Handle, global
+	.4byte Random_StructBlob_21
 	.4byte 0x00000000
-.endobj lbl_805D95E0
+.endobj Random_StructBlob_21_Handle
 
 # .sdata:0x4508 | 0x805D95E8 | size: 0x8
-.obj lbl_805D95E8, global
-	.4byte lbl_804D7A0C
+.obj Random_StructBlob_20_Handle, global
+	.4byte Random_StructBlob_20
 	.4byte 0x00000000
-.endobj lbl_805D95E8
+.endobj Random_StructBlob_20_Handle
 
 # .sdata:0x4510 | 0x805D95F0 | size: 0x8
-.obj lbl_805D95F0, global
+.obj Random_StructBlob_22, global
 	.4byte 0x53706865
 	.4byte 0x72650000
-.endobj lbl_805D95F0
+.endobj Random_StructBlob_22
 
 # .sdata:0x4518 | 0x805D95F8 | size: 0x8
-.obj lbl_805D95F8, global
-	.4byte lbl_805D95F0
-	.4byte lbl_804D7A18
-.endobj lbl_805D95F8
+.obj StructBlob_22_20_Handle_Pair, global
+	.4byte Random_StructBlob_22
+	.4byte Random_StructBlob_20_Handle_Storage
+.endobj StructBlob_22_20_Handle_Pair
 
 # .sdata:0x4520 | 0x805D9600 | size: 0x8
-.obj lbl_805D9600, global
-	.4byte lbl_804D7A24
-	.4byte lbl_804D7A30
-.endobj lbl_805D9600
+.obj StructPair_StructBlob23_StructPack1, global
+	.4byte RandomStructBlob_23
+	.4byte StructPack_1
+.endobj StructPair_StructBlob23_StructPack1
 
 # .sdata:0x4528 | 0x805D9608 | size: 0x8
 .obj lbl_805D9608, global
@@ -13926,10 +13926,10 @@
 .endobj lbl_805D9608
 
 # .sdata:0x4530 | 0x805D9610 | size: 0x8
-.obj lbl_805D9610, global
-	.4byte lbl_804D7A8C
+.obj StructBlob_32_MaybeClass_Handle, global
+	.4byte StructBlob_32_MaybeClass
 	.4byte 0x00000000
-.endobj lbl_805D9610
+.endobj StructBlob_32_MaybeClass_Handle
 
 # .sdata:0x4538 | 0x805D9618 | size: 0x8
 .obj lbl_805D9618, global
@@ -13969,7 +13969,7 @@
 
 # .sdata:0x4568 | 0x805D9648 | size: 0x8
 .obj lbl_805D9648, global
-	.4byte lbl_804D7BD8
+	.4byte "FL_Tree_Template_Widget"
 	.4byte 0x00000000
 .endobj lbl_805D9648
 
@@ -13982,7 +13982,7 @@
 # .sdata:0x4578 | 0x805D9658 | size: 0x8
 .obj lbl_805D9658, global
 	.4byte lbl_805D9650
-	.4byte lbl_804D7BE8
+	.4byte StorageForHandle_NULL_1
 .endobj lbl_805D9658
 
 # .sdata:0x4580 | 0x805D9660 | size: 0x8
@@ -14045,16 +14045,16 @@
 .endobj lbl_805D96A8
 
 # .sdata:0x45D0 | 0x805D96B0 | size: 0x8
-.obj lbl_805D96B0, global
-	.4byte lbl_804D7CC8
+.obj Handle_String_"ObjCollect_Template_GrenadeMgr_Grenade", global
+	.4byte String_"ObjCollect_Template_GrenadeMgr_Grenade"
 	.4byte 0x00000000
-.endobj lbl_805D96B0
+.endobj Handle_String_"ObjCollect_Template_GrenadeMgr_Grenade"
 
 # .sdata:0x45D8 | 0x805D96B8 | size: 0x8
-.obj lbl_805D96B8, global
-	.4byte lbl_804D7CB4
+.obj GrenadeManager_Pair_Storage, global
+	.4byte String_"GrenadeMgr_Grenade"
 	.4byte lbl_804D7CE8
-.endobj lbl_805D96B8
+.endobj GrenadeManager_Pair_Storage
 
 # .sdata:0x45E0 | 0x805D96C0 | size: 0x8
 .obj lbl_805D96C0, global
