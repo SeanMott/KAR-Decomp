@@ -74056,12 +74056,12 @@
 .endobj lbl_804D6DD4
 
 # .data:0x3B26C | 0x804D6DE4 | size: 0xC
-.obj lbl_804D6DE4, global
+.obj String_"AC_JUMP_END", global
 	.string "AC_JUMP_END"
-.endobj lbl_804D6DE4
+.endobj String_"AC_JUMP_END"
 
 # .data:0x3B278 | 0x804D6DF0 | size: 0x88
-.obj lbl_804D6DF0, global
+.obj AC_Stuff_StructBlob, global
 	.4byte String_"AC_RUN_LOOP"
 	.4byte 0x00000008
 	.4byte String_"AC_RUN_LOOP"
@@ -74094,9 +74094,9 @@
 	.4byte 0x00340000
 	.4byte lbl_804D6DD4
 	.4byte 0x00110001
-	.4byte lbl_804D6DE4
+	.4byte String_"AC_JUMP_END"
 	.4byte 0x00090001
-.endobj lbl_804D6DF0
+.endobj AC_Stuff_StructBlob
 
 # .data:0x3B300 | 0x804D6E78 | size: 0xC
 .obj STRUCT_BLOB_7, global
@@ -74175,9 +74175,9 @@
 .endobj lbl_804D6F0C
 
 # .data:0x3B3BC | 0x804D6F34 | size: 0xC
-.obj lbl_804D6F34, global
+.obj String_"KirbyNormal", global
 	.string "KirbyNormal"
-.endobj lbl_804D6F34
+.endobj String_"KirbyNormal"
 
 # .data:0x3B3C8 | 0x804D6F40 | size: 0x10
 .obj lbl_804D6F40, global
@@ -74256,14 +74256,14 @@
 .endobj lbl_804D6F5C
 
 # .data:0x3B4C8 | 0x804D7040 | size: 0x18
-.obj lbl_804D7040, global
+.obj String_"KirbyEffector::Effector", global
 	.string "KirbyEffector::Effector"
-.endobj lbl_804D7040
+.endobj String_"KirbyEffector::Effector"
 
 # .data:0x3B4E0 | 0x804D7058 | size: 0x24
-.obj lbl_804D7058, global
+.obj String_"ObjCollect<KirbyEffector::Effector>", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj lbl_804D7058
+.endobj String_"ObjCollect<KirbyEffector::Effector>"
 
 # .data:0x3B504 | 0x804D707C | size: 0xC
 .obj lbl_804D707C, global
@@ -74273,9 +74273,9 @@
 .endobj lbl_804D707C
 
 # .data:0x3B510 | 0x804D7088 | size: 0xC
-.obj lbl_804D7088, global
+.obj String_"KirbyHandle"2, global
 	.string "KirbyHandle"
-.endobj lbl_804D7088
+.endobj String_"KirbyHandle"2
 
 # .data:0x3B51C | 0x804D7094 | size: 0x18
 .obj lbl_804D7094, global

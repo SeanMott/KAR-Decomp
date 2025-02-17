@@ -13681,19 +13681,19 @@
 
 # .sdata:0x43E8 | 0x805D94C8 | size: 0x8
 .obj lbl_805D94C8, global
-	.4byte lbl_804D6F34
+	.4byte String_"KirbyNormal"
 	.4byte lbl_804D6F50
 .endobj lbl_805D94C8
 
 # .sdata:0x43F0 | 0x805D94D0 | size: 0x8
 .obj lbl_805D94D0, global
-	.4byte lbl_804D7058
+	.4byte String_"ObjCollect<KirbyEffector::Effector>"
 	.4byte 0x00000000
 .endobj lbl_805D94D0
 
 # .sdata:0x43F8 | 0x805D94D8 | size: 0x8
 .obj lbl_805D94D8, global
-	.4byte lbl_804D7040
+	.4byte String_"KirbyEffector::Effector"
 	.4byte lbl_804D707C
 .endobj lbl_805D94D8
 
@@ -13705,7 +13705,7 @@
 
 # .sdata:0x4408 | 0x805D94E8 | size: 0x8
 .obj lbl_805D94E8, global
-	.4byte lbl_804D7088
+	.4byte String_"KirbyHandle"2
 	.4byte lbl_804D70AC
 .endobj lbl_805D94E8
 
