@@ -107,7 +107,7 @@
 .endobj lbl_80499358
 
 # .data:0x178 | 0x80499370 | size: 0xC0
-.obj lbl_80499370, global
+.obj RandomStructBlob_43, global
 	.4byte 0x00020076
 	.4byte 0x0000000C
 	.4byte 0x00020077
@@ -156,7 +156,7 @@
 	.4byte 0x00000021
 	.4byte 0x00050008
 	.4byte 0x00000021
-.endobj lbl_80499370
+.endobj RandomStructBlob_43
 
 # .data:0x238 | 0x80499430 | size: 0x10
 .obj lbl_80499430, global
