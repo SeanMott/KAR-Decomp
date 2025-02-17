@@ -75283,13 +75283,13 @@
 .endobj lbl_804D7BA4
 
 # .data:0x3C060 | 0x804D7BD8 | size: 0x10
-.obj "FL_Tree_Template_Widget", global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj "FL_Tree_Template_Widget"
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x3C070 | 0x804D7BE8 | size: 0xC
 .obj StorageForHandle_NULL_1, global
-	.4byte lbl_805D9648
+	.4byte String_"FL_Tree_Template_Widget"_Handle
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj StorageForHandle_NULL_1
@@ -75304,7 +75304,7 @@
 
 # .data:0x3C08C | 0x804D7C04 | size: 0x14
 .obj lbl_804D7C04, global
-	.4byte lbl_805D9648
+	.4byte String_"FL_Tree_Template_Widget"_Handle
 	.4byte 0x00000000
 	.4byte lbl_805D9658
 	.4byte 0x00000000
@@ -75321,14 +75321,14 @@
 
 # .data:0x3C0B0 | 0x804D7C28 | size: 0x40
 .obj lbl_804D7C28, global
-	.4byte lbl_805D9648
+	.4byte String_"FL_Tree_Template_Widget"_Handle
 	.4byte 0x00000000
 	.4byte lbl_805D9658
 	.4byte 0x00000000
 	.4byte lbl_805D9660
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_805D9648
+	.4byte String_"FL_Tree_Template_Widget"_Handle
 	.4byte 0x00000000
 	.4byte lbl_805D9658
 	.4byte 0x00000000
@@ -75354,29 +75354,29 @@
 .endobj lbl_804D7C74
 
 # .data:0x3C108 | 0x804D7C80 | size: 0x14
-.obj lbl_804D7C80, global
+.obj Routeem_StructPack, global
 	.4byte 0x53696E67
 	.4byte 0x6C65746F
 	.4byte 0x6E3C526F
 	.4byte 0x7574653E
 	.4byte 0x00000000
-.endobj lbl_804D7C80
+.endobj Routeem_StructPack
 
 # .data:0x3C11C | 0x804D7C94 | size: 0xC
-.obj lbl_804D7C94, global
-	.4byte lbl_805D9690
+.obj Routeem_StructPack_Handle_Holder, global
+	.4byte Routeem_StructPack_Handle
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D7C94
+.endobj Routeem_StructPack_Handle_Holder
 
 # .data:0x3C128 | 0x804D7CA0 | size: 0x14
-.obj lbl_804D7CA0, global
-	.4byte lbl_805D9690
+.obj StructPack_Routem, global
+	.4byte Routeem_StructPack_Handle
 	.4byte 0x00000000
-	.4byte lbl_805D96A0
+	.4byte Routem_StruckPackHandle_RandomStructPack_Pair
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804D7CA0
+.endobj StructPack_Routem
 
 # .data:0x3C13C | 0x804D7CB4 | size: 0x14
 .obj String_"GrenadeMgr_Grenade", global
@@ -78904,7 +78904,7 @@
 
 # .data:0x3ECB4 | 0x804DA82C | size: 0xC
 .obj lbl_804DA82C, global
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804DA82C
@@ -78920,7 +78920,7 @@
 .obj lbl_804DA844, global
 	.4byte lbl_805D9940
 	.4byte 0x00000014
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte lbl_805D9958
 	.4byte 0x00000000
@@ -78929,7 +78929,7 @@
 	.4byte 0x00000054
 	.4byte lbl_805D9940
 	.4byte 0x00000014
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte lbl_805D9958
 	.4byte 0x00000000
@@ -78951,11 +78951,11 @@
 	.4byte 0x67723A3A
 	.4byte 0x4D696E65
 	.4byte 0x3E000000
-	.4byte lbl_805D9968
+	.4byte HandleSomeKind_2
 	.4byte 0x00000054
 	.4byte lbl_805D9940
 	.4byte 0x00000014
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte lbl_805D9958
 	.4byte 0x00000000
@@ -78979,11 +78979,11 @@
 	.4byte 0x723A3A4D
 	.4byte 0x69737369
 	.4byte 0x6C653E00
-	.4byte lbl_805D9970
+	.4byte HandleSomeKind_3
 	.4byte 0x00000054
 	.4byte lbl_805D9940
 	.4byte 0x00000014
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte lbl_805D9958
 	.4byte 0x00000000
@@ -79007,11 +79007,11 @@
 	.4byte 0x723A3A47
 	.4byte 0x72656E61
 	.4byte 0x64653E00
-	.4byte lbl_805D9978
+	.4byte HandleSomeKind_4
 	.4byte 0x00000054
 	.4byte lbl_805D9940
 	.4byte 0x00000014
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte lbl_805D9958
 	.4byte 0x00000000
@@ -79031,7 +79031,7 @@
 	.4byte 0x69726279
 	.4byte 0x48616E64
 	.4byte 0x6C653E00
-	.4byte lbl_805D9980
+	.4byte HandleSomeKind_5
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804DA9B0
@@ -79055,7 +79055,7 @@
 
 # .data:0x3EE80 | 0x804DA9F8 | size: 0x1C
 .obj lbl_804DA9F8, global
-	.4byte lbl_805D9988
+	.4byte HandleSomeKind_6
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x456D6265
@@ -79073,11 +79073,11 @@
 	.4byte 0x4D67723A
 	.4byte 0x3A456D62
 	.4byte 0x65723E00
-	.4byte lbl_805D9998
+	.4byte HandleSomeKind_7
 	.4byte 0x00000054
 	.4byte lbl_805D9940
 	.4byte 0x00000014
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte lbl_805D9958
 	.4byte 0x00000000
@@ -79099,11 +79099,11 @@
 	.4byte 0x4D67723A
 	.4byte 0x3A536D6F
 	.4byte 0x6B653E00
-	.4byte lbl_805D99A0
+	.4byte HandleSomeKind_8
 	.4byte 0x00000054
 	.4byte lbl_805D9940
 	.4byte 0x00000014
-	.4byte lbl_805D9948
+	.4byte HandleSomeKind_1
 	.4byte 0x00000000
 	.4byte lbl_805D9958
 	.4byte 0x00000000
@@ -79243,7 +79243,7 @@
 	.4byte 0x00500008
 	.4byte lbl_804DAAF8
 	.4byte 0x00040004
-	.4byte lbl_805D99A8
+	.4byte String_"ACPush"3
 	.4byte 0x00120004
 	.4byte lbl_804DAB08
 	.4byte 0x00140004
@@ -79284,7 +79284,7 @@
 
 # .data:0x3F0D4 | 0x804DAC4C | size: 0xC
 .obj lbl_804DAC4C, global
-	.4byte lbl_805D99B0
+	.4byte HandleSomeKind_9
 	.4byte 0x00000000
 	.4byte 0x00000000
 .endobj lbl_804DAC4C
@@ -79389,11 +79389,11 @@
 .endobj lbl_804DAD60
 
 # .data:0x3F1FC | 0x804DAD74 | size: 0xC
-.obj lbl_804DAD74, global
-	.4byte lbl_805D9A08
+.obj OtherRandomHandle_1, global
+	.4byte HandleOfKind_15
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804DAD74
+.endobj OtherRandomHandle_1
 
 # .data:0x3F208 | 0x804DAD80 | size: 0x10
 .obj lbl_804DAD80, global

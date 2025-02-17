@@ -1148,7 +1148,7 @@
 	.4byte lbl_804D8814
 	.4byte lbl_804D8820
 	.4byte lbl_804D8830
-	.4byte lbl_805D97A8
+	.4byte String_"ACPush"2
 	.4byte lbl_804D8840
 	.4byte lbl_804D884C
 	.4byte lbl_804D885C

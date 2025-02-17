@@ -13968,10 +13968,10 @@
 .endobj lbl_805D9640
 
 # .sdata:0x4568 | 0x805D9648 | size: 0x8
-.obj lbl_805D9648, global
-	.4byte "FL_Tree_Template_Widget"
+.obj String_"FL_Tree_Template_Widget"_Handle, global
+	.4byte String_"FL_Tree_Template_Widget"
 	.4byte 0x00000000
-.endobj lbl_805D9648
+.endobj String_"FL_Tree_Template_Widget"_Handle
 
 # .sdata:0x4570 | 0x805D9650 | size: 0x8
 .obj lbl_805D9650, global
@@ -14016,33 +14016,33 @@
 .endobj lbl_805D9680
 
 # .sdata:0x45A8 | 0x805D9688 | size: 0x8
-.obj lbl_805D9688, global
+.obj String_"RouteEM", global
 	.string "RouteEM"
-.endobj lbl_805D9688
+.endobj String_"RouteEM"
 
 # .sdata:0x45B0 | 0x805D9690 | size: 0x8
-.obj lbl_805D9690, global
-	.4byte lbl_804D7C80
+.obj Routeem_StructPack_Handle, global
+	.4byte Routeem_StructPack
 	.4byte 0x00000000
-.endobj lbl_805D9690
+.endobj Routeem_StructPack_Handle
 
 # .sdata:0x45B8 | 0x805D9698 | size: 0x8
-.obj lbl_805D9698, global
+.obj RandomStructPack_67, global
 	.4byte 0x526F7574
 	.4byte 0x65000000
-.endobj lbl_805D9698
+.endobj RandomStructPack_67
 
 # .sdata:0x45C0 | 0x805D96A0 | size: 0x8
-.obj lbl_805D96A0, global
-	.4byte lbl_805D9698
-	.4byte lbl_804D7C94
-.endobj lbl_805D96A0
+.obj Routem_StruckPackHandle_RandomStructPack_Pair, global
+	.4byte RandomStructPack_67
+	.4byte Routeem_StructPack_Handle_Holder
+.endobj Routem_StruckPackHandle_RandomStructPack_Pair
 
 # .sdata:0x45C8 | 0x805D96A8 | size: 0x8
-.obj lbl_805D96A8, global
-	.4byte lbl_805D9688
-	.4byte lbl_804D7CA0
-.endobj lbl_805D96A8
+.obj Routem_Handle, global
+	.4byte String_"RouteEM"
+	.4byte StructPack_Routem
+.endobj Routem_Handle
 
 # .sdata:0x45D0 | 0x805D96B0 | size: 0x8
 .obj Handle_String_"ObjCollect_Template_GrenadeMgr_Grenade", global
@@ -14163,14 +14163,14 @@
 .endobj lbl_805D9744
 
 # .sdata:0x466C | 0x805D974C | size: 0x4
-.obj lbl_805D974C, global
+.obj String_CurlyBracketRightNewLine, global
 	.string "},\n"
-.endobj lbl_805D974C
+.endobj String_CurlyBracketRightNewLine
 
 # .sdata:0x4670 | 0x805D9750 | size: 0x4
-.obj lbl_805D9750, global
+.obj String_CurlyBracketRightNewLineWithSemiColon, global
 	.string "};\n"
-.endobj lbl_805D9750
+.endobj String_CurlyBracketRightNewLineWithSemiColon
 
 # .sdata:0x4674 | 0x805D9754 | size: 0x4
 .obj lbl_805D9754, global
@@ -14238,14 +14238,14 @@
 .endobj lbl_805D979C
 
 # .sdata:0x46C8 | 0x805D97A8 | size: 0x8
-.obj lbl_805D97A8, global
+.obj String_"ACPush"2, global
 	.string "AC_PUSH"
-.endobj lbl_805D97A8
+.endobj String_"ACPush"2
 
 # .sdata:0x46D0 | 0x805D97B0 | size: 0x4
-.obj lbl_805D97B0, global
+.obj RandomValue_NULL_2, global
 	.4byte 0x00000000
-.endobj lbl_805D97B0
+.endobj RandomValue_NULL_2
 
 # .sdata:0x46D4 | 0x805D97B4 | size: 0x4
 .obj lbl_805D97B4, global
@@ -14327,9 +14327,9 @@
 .endobj lbl_805D9808
 
 # .sdata:0x4730 | 0x805D9810 | size: 0x4
-.obj lbl_805D9810, global
+.obj String_"mtx", global
 	.string "mtx"
-.endobj lbl_805D9810
+.endobj String_"mtx"
 
 # .sdata:0x4734 | 0x805D9814 | size: 0x8
 .obj lbl_805D9814, global
@@ -14565,20 +14565,20 @@
 .endobj lbl_805D9940
 
 # .sdata:0x4868 | 0x805D9948 | size: 0x8
-.obj lbl_805D9948, global
+.obj HandleSomeKind_1, global
 	.4byte lbl_804DA820
 	.4byte 0x00000000
-.endobj lbl_805D9948
+.endobj HandleSomeKind_1
 
 # .sdata:0x4870 | 0x805D9950 | size: 0x8
-.obj lbl_805D9950, global
+.obj RandomStructBlob_65, global
 	.4byte 0x53706865
 	.4byte 0x72650000
-.endobj lbl_805D9950
+.endobj RandomStructBlob_65
 
 # .sdata:0x4878 | 0x805D9958 | size: 0x8
 .obj lbl_805D9958, global
-	.4byte lbl_805D9950
+	.4byte RandomStructBlob_65
 	.4byte lbl_804DA82C
 .endobj lbl_805D9958
 
@@ -14589,34 +14589,34 @@
 .endobj lbl_805D9960
 
 # .sdata:0x4888 | 0x805D9968 | size: 0x8
-.obj lbl_805D9968, global
+.obj HandleSomeKind_2, global
 	.4byte lbl_804DA89C
 	.4byte 0x00000000
-.endobj lbl_805D9968
+.endobj HandleSomeKind_2
 
 # .sdata:0x4890 | 0x805D9970 | size: 0x8
-.obj lbl_805D9970, global
+.obj HandleSomeKind_3, global
 	.4byte lbl_804DA8F8
 	.4byte 0x00000000
-.endobj lbl_805D9970
+.endobj HandleSomeKind_3
 
 # .sdata:0x4898 | 0x805D9978 | size: 0x8
-.obj lbl_805D9978, global
+.obj HandleSomeKind_4, global
 	.4byte lbl_804DA958
 	.4byte 0x00000000
-.endobj lbl_805D9978
+.endobj HandleSomeKind_4
 
 # .sdata:0x48A0 | 0x805D9980 | size: 0x8
-.obj lbl_805D9980, global
+.obj HandleSomeKind_5, global
 	.4byte lbl_804DA9B0
 	.4byte 0x00000000
-.endobj lbl_805D9980
+.endobj HandleSomeKind_5
 
 # .sdata:0x48A8 | 0x805D9988 | size: 0x8
-.obj lbl_805D9988, global
+.obj HandleSomeKind_6, global
 	.4byte lbl_804DA9E0
 	.4byte 0x00000000
-.endobj lbl_805D9988
+.endobj HandleSomeKind_6
 
 # .sdata:0x48B0 | 0x805D9990 | size: 0x8
 .obj lbl_805D9990, global
@@ -14625,27 +14625,27 @@
 .endobj lbl_805D9990
 
 # .sdata:0x48B8 | 0x805D9998 | size: 0x8
-.obj lbl_805D9998, global
+.obj HandleSomeKind_7, global
 	.4byte lbl_804DAA14
 	.4byte 0x00000000
-.endobj lbl_805D9998
+.endobj HandleSomeKind_7
 
 # .sdata:0x48C0 | 0x805D99A0 | size: 0x8
-.obj lbl_805D99A0, global
+.obj HandleSomeKind_8, global
 	.4byte lbl_804DAA6C
 	.4byte 0x00000000
-.endobj lbl_805D99A0
+.endobj HandleSomeKind_8
 
 # .sdata:0x48C8 | 0x805D99A8 | size: 0x8
-.obj lbl_805D99A8, global
+.obj String_"ACPush"3, global
 	.string "AC_PUSH"
-.endobj lbl_805D99A8
+.endobj String_"ACPush"3
 
 # .sdata:0x48D0 | 0x805D99B0 | size: 0x8
-.obj lbl_805D99B0, global
+.obj HandleSomeKind_9, global
 	.4byte lbl_804DAC34
 	.4byte 0x00000000
-.endobj lbl_805D99B0
+.endobj HandleSomeKind_9
 
 # .sdata:0x48D8 | 0x805D99B8 | size: 0x8
 .obj lbl_805D99B8, global
@@ -14654,27 +14654,27 @@
 .endobj lbl_805D99B8
 
 # .sdata:0x48E0 | 0x805D99C0 | size: 0x8
-.obj lbl_805D99C0, global
+.obj RandomStructBlob_64, global
 	.4byte 0x6A6F626A
 	.4byte 0x2E680000
-.endobj lbl_805D99C0
+.endobj RandomStructBlob_64
 
 # .sdata:0x48E8 | 0x805D99C8 | size: 0x8
-.obj lbl_805D99C8, global
+.obj RandomStructBlob_63_WithNullValue, global
 	.4byte 0x6A6F626A
 	.4byte 0x00000000
-.endobj lbl_805D99C8
+.endobj RandomStructBlob_63_WithNullValue
 
 # .sdata:0x48F0 | 0x805D99D0 | size: 0x4
-.obj lbl_805D99D0, global
+.obj String_"mtx"2, global
 	.string "mtx"
-.endobj lbl_805D99D0
+.endobj String_"mtx"2
 
 # .sdata:0x48F4 | 0x805D99D4 | size: 0x8
-.obj lbl_805D99D4, global
+.obj RandomStructBlob_62, global
 	.4byte 0x4F42495F
 	.4byte 0x522A0000
-.endobj lbl_805D99D4
+.endobj RandomStructBlob_62
 
 # .sdata:0x48FC | 0x805D99DC | size: 0x8
 .obj lbl_805D99DC, global
@@ -14706,21 +14706,21 @@
 .endobj lbl_805D99FC
 
 # .sdata:0x4920 | 0x805D9A00 | size: 0x8
-.obj lbl_805D9A00, global
+.obj String_"MineMgr", global
 	.string "MineMgr"
-.endobj lbl_805D9A00
+.endobj String_"MineMgr"
 
 # .sdata:0x4928 | 0x805D9A08 | size: 0x8
-.obj lbl_805D9A08, global
+.obj HandleOfKind_15, global
 	.4byte lbl_804DAD60
 	.4byte 0x00000000
-.endobj lbl_805D9A08
+.endobj HandleOfKind_15
 
 # .sdata:0x4930 | 0x805D9A10 | size: 0x8
-.obj lbl_805D9A10, global
-	.4byte lbl_805D9A00
-	.4byte lbl_804DAD74
-.endobj lbl_805D9A10
+.obj MineMgr_HandleOfSomething, global
+	.4byte String_"MineMgr"
+	.4byte OtherRandomHandle_1
+.endobj MineMgr_HandleOfSomething
 
 # .sdata:0x4938 | 0x805D9A18 | size: 0x8
 .obj lbl_805D9A18, global
