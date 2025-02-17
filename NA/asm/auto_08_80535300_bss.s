@@ -21,14 +21,14 @@
 .endobj lbl_805359D8
 
 # .bss:0x1BF0 | 0x80536EF0 | size: 0x110
-.obj lbl_80536EF0, global
+.obj STRUCT_BYTE4_COUNT_080536EF0, global
 	.skip 0x110
-.endobj lbl_80536EF0
+.endobj STRUCT_BYTE4_COUNT_080536EF0
 
 # .bss:0x1D00 | 0x80537000 | size: 0x400
-.obj lbl_80537000, global
+.obj STRUCT_BYTE4_COUNT_180537000, global
 	.skip 0x400
-.endobj lbl_80537000
+.endobj STRUCT_BYTE4_COUNT_180537000
 
 # .bss:0x2100 | 0x80537400 | size: 0x30
 .obj lbl_80537400, global
@@ -51,14 +51,14 @@
 .endobj lbl_805374C0
 
 # .bss:0x2210 | 0x80537510 | size: 0xA30
-.obj lbl_80537510, global
+.obj STRUCT_BYTE4_COUNT_180537510, global
 	.skip 0xA30
-.endobj lbl_80537510
+.endobj STRUCT_BYTE4_COUNT_180537510
 
 # .bss:0x2C40 | 0x80537F40 | size: 0x128
-.obj lbl_80537F40, global
+.obj STRUCT_BYTE4_COUNT_180537F40, global
 	.skip 0x128
-.endobj lbl_80537F40
+.endobj STRUCT_BYTE4_COUNT_180537F40
 
 # .bss:0x2D68 | 0x80538068 | size: 0x20
 .obj lbl_80538068, global
@@ -66,9 +66,9 @@
 .endobj lbl_80538068
 
 # .bss:0x2D88 | 0x80538088 | size: 0x17A28
-.obj lbl_80538088, global
+.obj STRUCT_BYTE4_COUNT_180538088, global
 	.skip 0x17A28
-.endobj lbl_80538088
+.endobj STRUCT_BYTE4_COUNT_180538088
 
 # .bss:0x1A7B0 | 0x8054FAB0 | size: 0x788
 .obj lbl_8054FAB0, global
@@ -81,14 +81,14 @@
 .endobj lbl_80550238
 
 # .bss:0x1B7B8 | 0x80550AB8 | size: 0x1F0
-.obj lbl_80550AB8, global
+.obj STRUCT_BYTE4_COUNT_180550AB8, global
 	.skip 0x1F0
-.endobj lbl_80550AB8
+.endobj STRUCT_BYTE4_COUNT_180550AB8
 
 # .bss:0x1B9A8 | 0x80550CA8 | size: 0xB0
-.obj lbl_80550CA8, global
+.obj STRUCT_BYTE4_COUNT_180550CA8, global
 	.skip 0xB0
-.endobj lbl_80550CA8
+.endobj STRUCT_BYTE4_COUNT_180550CA8
 
 # .bss:0x1BA58 | 0x80550D58 | size: 0x30
 .obj lbl_80550D58, global
@@ -116,9 +116,9 @@
 .endobj lbl_80550E80
 
 # .bss:0x1BBAC | 0x80550EAC | size: 0x2C
-.obj lbl_80550EAC, global
+.obj STRUCT_BYTE4_COUNT_180550EAC, global
 	.skip 0x2C
-.endobj lbl_80550EAC
+.endobj STRUCT_BYTE4_COUNT_180550EAC
 
 # .bss:0x1BBD8 | 0x80550ED8 | size: 0x30
 .obj lbl_80550ED8, global
@@ -136,14 +136,14 @@
 .endobj lbl_80550F38
 
 # .bss:0x1BC68 | 0x80550F68 | size: 0x13D0
-.obj lbl_80550F68, global
+.obj STRUCT_BYTE4_COUNT_180550F68, global
 	.skip 0x13D0
-.endobj lbl_80550F68
+.endobj STRUCT_BYTE4_COUNT_180550F68
 
 # .bss:0x1D038 | 0x80552338 | size: 0x10
-.obj lbl_80552338, global
+.obj STRUCT_BYTE4_COUNT_180552338, global
 	.skip 0x10
-.endobj lbl_80552338
+.endobj STRUCT_BYTE4_COUNT_180552338
 
 # .bss:0x1D048 | 0x80552348 | size: 0x18
 .obj lbl_80552348, global
@@ -156,14 +156,14 @@
 .endobj lbl_80552360
 
 # .bss:0x1D378 | 0x80552678 | size: 0x280
-.obj lbl_80552678, global
+.obj STRUCT_BYTE4_COUNT_180552678, global
 	.skip 0x280
-.endobj lbl_80552678
+.endobj STRUCT_BYTE4_COUNT_180552678
 
 # .bss:0x1D5F8 | 0x805528F8 | size: 0x28
-.obj lbl_805528F8, global
+.obj STRUCT_BYTE4_COUNT_1805528F8, global
 	.skip 0x28
-.endobj lbl_805528F8
+.endobj STRUCT_BYTE4_COUNT_1805528F8
 
 # .bss:0x1D620 | 0x80552920 | size: 0x2C
 .obj lbl_80552920, global
@@ -206,19 +206,19 @@
 .endobj lbl_80552C2C
 
 # .bss:0x1DA88 | 0x80552D88 | size: 0x50
-.obj lbl_80552D88, global
+.obj STRUCT_BYTE4_COUNT_180552D88, global
 	.skip 0x50
-.endobj lbl_80552D88
+.endobj STRUCT_BYTE4_COUNT_180552D88
 
 # .bss:0x1DAD8 | 0x80552DD8 | size: 0x10
-.obj lbl_80552DD8, global
+.obj STRUCT_BYTE4_COUNT_180552DD8, global
 	.skip 0x10
-.endobj lbl_80552DD8
+.endobj STRUCT_BYTE4_COUNT_180552DD8
 
 # .bss:0x1DAE8 | 0x80552DE8 | size: 0x20
-.obj lbl_80552DE8, global
+.obj STRUCT_BYTE4_COUNT_180552DE8, global
 	.skip 0x20
-.endobj lbl_80552DE8
+.endobj STRUCT_BYTE4_COUNT_180552DE8
 
 # .bss:0x1DB08 | 0x80552E08 | size: 0x38
 .obj lbl_80552E08, global
@@ -231,9 +231,9 @@
 .endobj lbl_80552E40
 
 # .bss:0x1DC78 | 0x80552F78 | size: 0x38
-.obj lbl_80552F78, global
+.obj STRUCT_BYTE4_COUNT_180552F78, global
 	.skip 0x38
-.endobj lbl_80552F78
+.endobj STRUCT_BYTE4_COUNT_180552F78
 
 # .bss:0x1DCB0 | 0x80552FB0 | size: 0x94
 .obj lbl_80552FB0, global
@@ -256,19 +256,19 @@
 .endobj lbl_8055309C
 
 # .bss:0x1DDC8 | 0x805530C8 | size: 0x10
-.obj lbl_805530C8, global
+.obj STRUCT_BYTE4_COUNT_1805530C8, global
 	.skip 0x10
-.endobj lbl_805530C8
+.endobj STRUCT_BYTE4_COUNT_1805530C8
 
 # .bss:0x1DDD8 | 0x805530D8 | size: 0xB00
-.obj lbl_805530D8, global
+.obj STRUCT_BYTE4_COUNT_1805530D8, global
 	.skip 0xB00
-.endobj lbl_805530D8
+.endobj STRUCT_BYTE4_COUNT_1805530D8
 
 # .bss:0x1E8D8 | 0x80553BD8 | size: 0x28
-.obj lbl_80553BD8, global
+.obj STRUCT_BYTE4_COUNT_180553BD8, global
 	.skip 0x28
-.endobj lbl_80553BD8
+.endobj STRUCT_BYTE4_COUNT_180553BD8
 
 # .bss:0x1E900 | 0x80553C00 | size: 0x9C
 .obj lbl_80553C00, global
@@ -276,29 +276,29 @@
 .endobj lbl_80553C00
 
 # .bss:0x1E99C | 0x80553C9C | size: 0x9C
-.obj lbl_80553C9C, global
+.obj STRUCT_BYTE4_COUNT_180553C9C, global
 	.skip 0x9C
-.endobj lbl_80553C9C
+.endobj STRUCT_BYTE4_COUNT_180553C9C
 
 # .bss:0x1EA38 | 0x80553D38 | size: 0x28
-.obj lbl_80553D38, global
+.obj STRUCT_BYTE4_COUNT_180553D38, global
 	.skip 0x28
-.endobj lbl_80553D38
+.endobj STRUCT_BYTE4_COUNT_180553D38
 
 # .bss:0x1EA60 | 0x80553D60 | size: 0x58
-.obj lbl_80553D60, global
+.obj STRUCT_BYTE4_COUNT_180553D60, global
 	.skip 0x58
-.endobj lbl_80553D60
+.endobj STRUCT_BYTE4_COUNT_180553D60
 
 # .bss:0x1EAB8 | 0x80553DB8 | size: 0xC
-.obj lbl_80553DB8, global
+.obj STRUCT_BYTE4_COUNT_180553DB8, global
 	.skip 0xC
-.endobj lbl_80553DB8
+.endobj STRUCT_BYTE4_COUNT_180553DB8
 
 # .bss:0x1EAC4 | 0x80553DC4 | size: 0x8C
-.obj lbl_80553DC4, global
+.obj STRUCT_BYTE4_COUNT_180553DC4, global
 	.skip 0x8C
-.endobj lbl_80553DC4
+.endobj STRUCT_BYTE4_COUNT_180553DC4
 
 # .bss:0x1EB50 | 0x80553E50 | size: 0x2F90
 .obj lbl_80553E50, global
@@ -306,9 +306,9 @@
 .endobj lbl_80553E50
 
 # .bss:0x21AE0 | 0x80556DE0 | size: 0x28
-.obj lbl_80556DE0, global
+.obj STRUCT_BYTE4_COUNT_180556DE0, global
 	.skip 0x28
-.endobj lbl_80556DE0
+.endobj STRUCT_BYTE4_COUNT_180556DE0
 
 # .bss:0x21B08 | 0x80556E08 | size: 0x18
 .obj lbl_80556E08, global
@@ -346,49 +346,49 @@
 .endobj lbl_805570A0
 
 # .bss:0x21E08 | 0x80557108 | size: 0x4
-.obj lbl_80557108, global
+.obj STRUCT_BYTE4_COUNT_180557108, global
 	.skip 0x4
-.endobj lbl_80557108
+.endobj STRUCT_BYTE4_COUNT_180557108
 
 # .bss:0x21E0C | 0x8055710C | size: 0x4
-.obj lbl_8055710C, global
+.obj STRUCT_BYTE4_COUNT_18055710C, global
 	.skip 0x4
-.endobj lbl_8055710C
+.endobj STRUCT_BYTE4_COUNT_18055710C
 
 # .bss:0x21E10 | 0x80557110 | size: 0x4
-.obj lbl_80557110, global
+.obj STRUCT_BYTE4_COUNT_180557110, global
 	.skip 0x4
-.endobj lbl_80557110
+.endobj STRUCT_BYTE4_COUNT_180557110
 
 # .bss:0x21E14 | 0x80557114 | size: 0x4
-.obj lbl_80557114, global
+.obj STRUCT_BYTE4_COUNT_180557114, global
 	.skip 0x4
-.endobj lbl_80557114
+.endobj STRUCT_BYTE4_COUNT_180557114
 
 # .bss:0x21E18 | 0x80557118 | size: 0x4
-.obj lbl_80557118, global
+.obj STRUCT_BYTE4_COUNT_180557118, global
 	.skip 0x4
-.endobj lbl_80557118
+.endobj STRUCT_BYTE4_COUNT_180557118
 
 # .bss:0x21E1C | 0x8055711C | size: 0x4
-.obj lbl_8055711C, global
+.obj STRUCT_BYTE4_COUNT_18055711C, global
 	.skip 0x4
-.endobj lbl_8055711C
+.endobj STRUCT_BYTE4_COUNT_18055711C
 
 # .bss:0x21E20 | 0x80557120 | size: 0x4
-.obj lbl_80557120, global
+.obj STRUCT_BYTE4_COUNT_180557120, global
 	.skip 0x4
-.endobj lbl_80557120
+.endobj STRUCT_BYTE4_COUNT_180557120
 
 # .bss:0x21E24 | 0x80557124 | size: 0x8
-.obj lbl_80557124, global
+.obj STRUCT_BYTE4_COUNT_180557124, global
 	.skip 0x8
-.endobj lbl_80557124
+.endobj STRUCT_BYTE4_COUNT_180557124
 
 # .bss:0x21E2C | 0x8055712C | size: 0xC
-.obj lbl_8055712C, global
+.obj STRUCT_BYTE4_COUNT_18055712C, global
 	.skip 0xC
-.endobj lbl_8055712C
+.endobj STRUCT_BYTE4_COUNT_18055712C
 
 # .bss:0x21E38 | 0x80557138 | size: 0x110
 .obj lbl_80557138, global
@@ -431,9 +431,9 @@
 .endobj lbl_80557608
 
 # .bss:0x22338 | 0x80557638 | size: 0x70
-.obj lbl_80557638, global
+.obj STRUCT_BYTE4_COUNT_180557638, global
 	.skip 0x70
-.endobj lbl_80557638
+.endobj STRUCT_BYTE4_COUNT_180557638
 
 # .bss:0x223A8 | 0x805576A8 | size: 0xB0
 .obj lbl_805576A8, global
@@ -466,9 +466,9 @@
 .endobj lbl_80557838
 
 # .bss:0x22568 | 0x80557868 | size: 0x50
-.obj lbl_80557868, global
+.obj STRUCT_BYTE4_COUNT_180557868, global
 	.skip 0x50
-.endobj lbl_80557868
+.endobj STRUCT_BYTE4_COUNT_180557868
 
 # .bss:0x225B8 | 0x805578B8 | size: 0xE44
 .obj lbl_805578B8, global
@@ -541,9 +541,9 @@
 .endobj lbl_80559F40
 
 # .bss:0x24C6C | 0x80559F6C | size: 0x10
-.obj lbl_80559F6C, global
+.obj STRUCT_FLOAT_COUNT_080559F6C, global
 	.skip 0x10
-.endobj lbl_80559F6C
+.endobj STRUCT_FLOAT_COUNT_080559F6C
 
 # .bss:0x24C7C | 0x80559F7C | size: 0x2C
 .obj lbl_80559F7C, global
@@ -551,9 +551,9 @@
 .endobj lbl_80559F7C
 
 # .bss:0x24CA8 | 0x80559FA8 | size: 0x10
-.obj lbl_80559FA8, global
+.obj STRUCT_BYTE4_COUNT_180559FA8, global
 	.skip 0x10
-.endobj lbl_80559FA8
+.endobj STRUCT_BYTE4_COUNT_180559FA8
 
 # .bss:0x24CB8 | 0x80559FB8 | size: 0x2C
 .obj lbl_80559FB8, global
@@ -576,9 +576,9 @@
 .endobj lbl_8055A03C
 
 # .bss:0x24D68 | 0x8055A068 | size: 0x98
-.obj lbl_8055A068, global
+.obj STRUCT_BYTE4_COUNT_18055A068, global
 	.skip 0x98
-.endobj lbl_8055A068
+.endobj STRUCT_BYTE4_COUNT_18055A068
 
 # .bss:0x24E00 | 0x8055A100 | size: 0x30
 .obj lbl_8055A100, global
@@ -616,19 +616,19 @@
 .endobj lbl_8055A210
 
 # .bss:0x24F28 | 0x8055A228 | size: 0x58
-.obj lbl_8055A228, global
+.obj STRUCT_BYTE4_COUNT_18055A228, global
 	.skip 0x58
-.endobj lbl_8055A228
+.endobj STRUCT_BYTE4_COUNT_18055A228
 
 # .bss:0x24F80 | 0x8055A280 | size: 0x184
-.obj lbl_8055A280, global
+.obj STRUCT_BYTE4_COUNT_18055A280, global
 	.skip 0x184
-.endobj lbl_8055A280
+.endobj STRUCT_BYTE4_COUNT_18055A280
 
 # .bss:0x25104 | 0x8055A404 | size: 0x4F4
-.obj lbl_8055A404, global
+.obj STRUCT_BYTE4_COUNT_18055A404, global
 	.skip 0x4F4
-.endobj lbl_8055A404
+.endobj STRUCT_BYTE4_COUNT_18055A404
 
 # .bss:0x255F8 | 0x8055A8F8 | size: 0x2C
 .obj lbl_8055A8F8, global
@@ -651,19 +651,19 @@
 .endobj lbl_8055A97C
 
 # .bss:0x256A8 | 0x8055A9A8 | size: 0x48
-.obj lbl_8055A9A8, global
+.obj STRUCT_BYTE4_COUNT_18055A9A8, global
 	.skip 0x48
-.endobj lbl_8055A9A8
+.endobj STRUCT_BYTE4_COUNT_18055A9A8
 
 # .bss:0x256F0 | 0x8055A9F0 | size: 0x2D40
-.obj lbl_8055A9F0, global
+.obj STRUCT_BYTE4_COUNT_18055A9F0, global
 	.skip 0x2D40
-.endobj lbl_8055A9F0
+.endobj STRUCT_BYTE4_COUNT_18055A9F0
 
 # .bss:0x28430 | 0x8055D730 | size: 0x40
-.obj lbl_8055D730, global
+.obj STRUCT_BYTE4_COUNT_18055D730, global
 	.skip 0x40
-.endobj lbl_8055D730
+.endobj STRUCT_BYTE4_COUNT_18055D730
 
 # .bss:0x28470 | 0x8055D770 | size: 0x30
 .obj lbl_8055D770, global
@@ -681,9 +681,9 @@
 .endobj lbl_8055DA08
 
 # .bss:0x28898 | 0x8055DB98 | size: 0x30
-.obj lbl_8055DB98, global
+.obj STRUCT_FLOAT_COUNT_18055DB98, global
 	.skip 0x30
-.endobj lbl_8055DB98
+.endobj STRUCT_FLOAT_COUNT_18055DB98
 
 # .bss:0x288C8 | 0x8055DBC8 | size: 0x2C
 .obj lbl_8055DBC8, global
@@ -756,39 +756,39 @@
 .endobj lbl_8055DE08
 
 # .bss:0x28B24 | 0x8055DE24 | size: 0x5C
-.obj lbl_8055DE24, global
+.obj STRUCT_BYTE4_COUNT_18055DE24, global
 	.skip 0x5C
-.endobj lbl_8055DE24
+.endobj STRUCT_BYTE4_COUNT_18055DE24
 
 # .bss:0x28B80 | 0x8055DE80 | size: 0xC
-.obj lbl_8055DE80, global
+.obj STRUCT_FLOAT_COUNT_18055DE80, global
 	.skip 0xC
-.endobj lbl_8055DE80
+.endobj STRUCT_FLOAT_COUNT_18055DE80
 
 # .bss:0x28B8C | 0x8055DE8C | size: 0xC
-.obj lbl_8055DE8C, global
+.obj STRUCT_FLOAT_COUNT_18055DE8C, global
 	.skip 0xC
-.endobj lbl_8055DE8C
+.endobj STRUCT_FLOAT_COUNT_18055DE8C
 
 # .bss:0x28B98 | 0x8055DE98 | size: 0x24
-.obj lbl_8055DE98, global
+.obj STRUCT_FLOAT_COUNT_18055DE98, global
 	.skip 0x24
-.endobj lbl_8055DE98
+.endobj STRUCT_FLOAT_COUNT_18055DE98
 
 # .bss:0x28BBC | 0x8055DEBC | size: 0x7D0
-.obj lbl_8055DEBC, global
+.obj STRUCT_BYTE4_COUNT_18055DEBC, global
 	.skip 0x7D0
-.endobj lbl_8055DEBC
+.endobj STRUCT_BYTE4_COUNT_18055DEBC
 
 # .bss:0x2938C | 0x8055E68C | size: 0xC
-.obj lbl_8055E68C, global
+.obj STRUCT_FLOAT_COUNT_18055E68C, global
 	.skip 0xC
-.endobj lbl_8055E68C
+.endobj STRUCT_FLOAT_COUNT_18055E68C
 
 # .bss:0x29398 | 0x8055E698 | size: 0x210
-.obj lbl_8055E698, global
+.obj STRUCT_BYTE4_COUNT_18055E698, global
 	.skip 0x210
-.endobj lbl_8055E698
+.endobj STRUCT_BYTE4_COUNT_18055E698
 
 # .bss:0x295A8 | 0x8055E8A8 | size: 0xC
 .obj lbl_8055E8A8, global
@@ -801,9 +801,9 @@
 .endobj lbl_8055E8B4
 
 # .bss:0x29664 | 0x8055E964 | size: 0x2F4
-.obj lbl_8055E964, global
+.obj STRUCT_BYTE4_COUNT_18055E964, global
 	.skip 0x2F4
-.endobj lbl_8055E964
+.endobj STRUCT_BYTE4_COUNT_18055E964
 
 # .bss:0x29958 | 0x8055EC58 | size: 0x368
 .obj lbl_8055EC58, global
@@ -811,14 +811,14 @@
 .endobj lbl_8055EC58
 
 # .bss:0x29CC0 | 0x8055EFC0 | size: 0xD0
-.obj lbl_8055EFC0, global
+.obj STRUCT_BYTE4_COUNT_18055EFC0, global
 	.skip 0xD0
-.endobj lbl_8055EFC0
+.endobj STRUCT_BYTE4_COUNT_18055EFC0
 
 # .bss:0x29D90 | 0x8055F090 | size: 0x3F0
-.obj lbl_8055F090, global
+.obj STRUCT_BYTE4_COUNT_18055F090, global
 	.skip 0x3F0
-.endobj lbl_8055F090
+.endobj STRUCT_BYTE4_COUNT_18055F090
 
 # .bss:0x2A180 | 0x8055F480 | size: 0x2E0
 .obj lbl_8055F480, global
@@ -866,9 +866,9 @@
 .endobj lbl_80569950
 
 # .bss:0x346B0 | 0x805699B0 | size: 0x38
-.obj lbl_805699B0, global
+.obj STRUCT_BYTE4_COUNT_1805699B0, global
 	.skip 0x38
-.endobj lbl_805699B0
+.endobj STRUCT_BYTE4_COUNT_1805699B0
 
 # .bss:0x346E8 | 0x805699E8 | size: 0xC
 .obj lbl_805699E8, global
@@ -943,14 +943,14 @@
 .endobj lbl_80569E90
 
 # .bss:0x36540 | 0x8056B840 | size: 0x18
-.obj lbl_8056B840, global
+.obj STRUCT_BYTE4_COUNT_18056B840, global
 	.skip 0x18
-.endobj lbl_8056B840
+.endobj STRUCT_BYTE4_COUNT_18056B840
 
 # .bss:0x36558 | 0x8056B858 | size: 0x8
-.obj lbl_8056B858, global
+.obj STRUCT_BYTE4_COUNT_18056B858, global
 	.skip 0x8
-.endobj lbl_8056B858
+.endobj STRUCT_BYTE4_COUNT_18056B858
 
 # .bss:0x36560 | 0x8056B860 | size: 0x2
 .obj TRK_saved_exceptionID_8056B860, global
@@ -984,9 +984,9 @@
 .endobj lbl_8056BDCC
 
 # .bss:0x36AE0 | 0x8056BDE0 | size: 0x8
-.obj lbl_8056BDE0, global
+.obj STRUCT_BYTE4_COUNT_18056BDE0, global
 	.skip 0x8
-.endobj lbl_8056BDE0
+.endobj STRUCT_BYTE4_COUNT_18056BDE0
 
 # .bss:0x36AE8 | 0x8056BDE8 | size: 0x4
 .obj TRK_mainError_8056BDE8, global
@@ -1138,9 +1138,9 @@
 .endobj gap_08_8056D5F4_bss
 
 # .bss:0x382F8 | 0x8056D5F8 | size: 0x2E8
-.obj lbl_8056D5F8, global
+.obj STRUCT_BYTE4_COUNT_18056D5F8, global
 	.skip 0x2E8
-.endobj lbl_8056D5F8
+.endobj STRUCT_BYTE4_COUNT_18056D5F8
 
 # .bss:0x385E0 | 0x8056D8E0 | size: 0x20
 .obj lbl_8056D8E0, global
@@ -1190,9 +1190,9 @@
 .endobj lbl_8056E490
 
 # .bss:0x391E8 | 0x8056E4E8 | size: 0x220
-.obj lbl_8056E4E8, global
+.obj STRUCT_BYTE4_COUNT_18056E4E8, global
 	.skip 0x220
-.endobj lbl_8056E4E8
+.endobj STRUCT_BYTE4_COUNT_18056E4E8
 
 # .bss:0x39408 | 0x8056E708 | size: 0x20
 .obj lbl_8056E708, global
@@ -1225,9 +1225,9 @@
 .endobj lbl_8056E888
 
 # .bss:0x395C8 | 0x8056E8C8 | size: 0x60
-.obj lbl_8056E8C8, global
+.obj STRUCT_BYTE4_COUNT_18056E8C8, global
 	.skip 0x60
-.endobj lbl_8056E8C8
+.endobj STRUCT_BYTE4_COUNT_18056E8C8
 
 # .bss:0x39628 | 0x8056E928 | size: 0xC0
 .obj Ecb_8056E928, global
@@ -1235,24 +1235,24 @@
 .endobj Ecb_8056E928
 
 # .bss:0x396E8 | 0x8056E9E8 | size: 0x80
-.obj lbl_8056E9E8, global
+.obj STRUCT_BYTE4_COUNT_18056E9E8, global
 	.skip 0x80
-.endobj lbl_8056E9E8
+.endobj STRUCT_BYTE4_COUNT_18056E9E8
 
 # .bss:0x39768 | 0x8056EA68 | size: 0x98
-.obj lbl_8056EA68, global
+.obj STRUCT_BYTE4_COUNT_18056EA68, global
 	.skip 0x98
-.endobj lbl_8056EA68
+.endobj STRUCT_BYTE4_COUNT_18056EA68
 
 # .bss:0x39800 | 0x8056EB00 | size: 0x1680
-.obj lbl_8056EB00, global
+.obj STRUCT_BYTE4_COUNT_18056EB00, global
 	.skip 0x1680
-.endobj lbl_8056EB00
+.endobj STRUCT_BYTE4_COUNT_18056EB00
 
 # .bss:0x3AE80 | 0x80570180 | size: 0x1680
-.obj lbl_80570180, global
+.obj STRUCT_BYTE4_COUNT_180570180, global
 	.skip 0x1680
-.endobj lbl_80570180
+.endobj STRUCT_BYTE4_COUNT_180570180
 
 # .bss:0x3C500 | 0x80571800 | size: 0x600
 .obj lbl_80571800, global
@@ -1260,9 +1260,9 @@
 .endobj lbl_80571800
 
 # .bss:0x3CB00 | 0x80571E00 | size: 0x780
-.obj lbl_80571E00, global
+.obj STRUCT_BYTE4_COUNT_180571E00, global
 	.skip 0x780
-.endobj lbl_80571E00
+.endobj STRUCT_BYTE4_COUNT_180571E00
 
 # .bss:0x3D280 | 0x80572580 | size: 0x40A0
 .obj lbl_80572580, global
@@ -1270,9 +1270,9 @@
 .endobj lbl_80572580
 
 # .bss:0x41320 | 0x80576620 | size: 0x40
-.obj lbl_80576620, global
+.obj STRUCT_BYTE4_COUNT_180576620, global
 	.skip 0x40
-.endobj lbl_80576620
+.endobj STRUCT_BYTE4_COUNT_180576620
 
 # .bss:0x41360 | 0x80576660 | size: 0x11400
 .obj lbl_80576660, global
@@ -1280,9 +1280,9 @@
 .endobj lbl_80576660
 
 # .bss:0x52760 | 0x80587A60 | size: 0xE28
-.obj lbl_80587A60, global
+.obj STRUCT_BYTE4_COUNT_180587A60, global
 	.skip 0xE28
-.endobj lbl_80587A60
+.endobj STRUCT_BYTE4_COUNT_180587A60
 
 # .bss:0x53588 | 0x80588888 | size: 0x9D8
 .obj lbl_80588888, global
@@ -1290,9 +1290,9 @@
 .endobj lbl_80588888
 
 # .bss:0x53F60 | 0x80589260 | size: 0x18
-.obj lbl_80589260, global
+.obj STRUCT_BYTE4_COUNT_180589260, global
 	.skip 0x18
-.endobj lbl_80589260
+.endobj STRUCT_BYTE4_COUNT_180589260
 
 # .bss:0x53F78 | 0x80589278 | size: 0x2C
 .obj lbl_80589278, global
@@ -1310,14 +1310,14 @@
 .endobj lbl_805892D0
 
 # .bss:0x53FFC | 0x805892FC | size: 0xC0
-.obj lbl_805892FC, global
+.obj STRUCT_BYTE4_COUNT_1805892FC, global
 	.skip 0xC0
-.endobj lbl_805892FC
+.endobj STRUCT_BYTE4_COUNT_1805892FC
 
 # .bss:0x540BC | 0x805893BC | size: 0x5C4
-.obj lbl_805893BC, global
+.obj STRUCT_BYTE4_COUNT_1805893BC, global
 	.skip 0x5C4
-.endobj lbl_805893BC
+.endobj STRUCT_BYTE4_COUNT_1805893BC
 
 # .bss:0x54680 | 0x80589980 | size: 0x30
 .obj aobj_alloc_data_SoundBufferEntry, global
@@ -1325,9 +1325,9 @@
 .endobj aobj_alloc_data_SoundBufferEntry
 
 # .bss:0x546B0 | 0x805899B0 | size: 0x28
-.obj lbl_805899B0, global
+.obj STRUCT_BYTE4_COUNT_1805899B0, global
 	.skip 0x28
-.endobj lbl_805899B0
+.endobj STRUCT_BYTE4_COUNT_1805899B0
 
 # .bss:0x546D8 | 0x805899D8 | size: 0x30
 .obj lbl_805899D8, global
@@ -1335,9 +1335,9 @@
 .endobj lbl_805899D8
 
 # .bss:0x54708 | 0x80589A08 | size: 0x10
-.obj lbl_80589A08, global
+.obj STRUCT_BYTE4_COUNT_180589A08, global
 	.skip 0x10
-.endobj lbl_80589A08
+.endobj STRUCT_BYTE4_COUNT_180589A08
 
 # .bss:0x54718 | 0x80589A18 | size: 0x30
 .obj lbl_80589A18, global
@@ -1345,19 +1345,19 @@
 .endobj lbl_80589A18
 
 # .bss:0x54748 | 0x80589A48 | size: 0xC
-.obj lbl_80589A48, global
+.obj STRUCT_BYTE4_COUNT_180589A48, global
 	.skip 0xC
-.endobj lbl_80589A48
+.endobj STRUCT_BYTE4_COUNT_180589A48
 
 # .bss:0x54754 | 0x80589A54 | size: 0x2C
-.obj lbl_80589A54, global
+.obj STRUCT_BYTE4_COUNT_180589A54, global
 	.skip 0x2C
-.endobj lbl_80589A54
+.endobj STRUCT_BYTE4_COUNT_180589A54
 
 # .bss:0x54780 | 0x80589A80 | size: 0x200
-.obj lbl_80589A80, global
+.obj STRUCT_BYTE4_COUNT_180589A80, global
 	.skip 0x200
-.endobj lbl_80589A80
+.endobj STRUCT_BYTE4_COUNT_180589A80
 
 # .bss:0x54980 | 0x80589C80 | size: 0x1400
 .obj lbl_80589C80, global
@@ -1370,19 +1370,19 @@
 .endobj lbl_8058B080
 
 # .bss:0x55DE4 | 0x8058B0E4 | size: 0x550
-.obj lbl_8058B0E4, global
+.obj STRUCT_BYTE4_COUNT_18058B0E4, global
 	.skip 0x550
-.endobj lbl_8058B0E4
+.endobj STRUCT_BYTE4_COUNT_18058B0E4
 
 # .bss:0x56334 | 0x8058B634 | size: 0x554
-.obj lbl_8058B634, global
+.obj STRUCT_BYTE4_COUNT_18058B634, global
 	.skip 0x554
-.endobj lbl_8058B634
+.endobj STRUCT_BYTE4_COUNT_18058B634
 
 # .bss:0x56888 | 0x8058BB88 | size: 0x30
-.obj lbl_8058BB88, global
+.obj STRUCT_BYTE4_COUNT_18058BB88, global
 	.skip 0x30
-.endobj lbl_8058BB88
+.endobj STRUCT_BYTE4_COUNT_18058BB88
 
 # .bss:0x568B8 | 0x8058BBB8 | size: 0x2C
 .obj lbl_8058BBB8, global
@@ -1425,9 +1425,9 @@
 .endobj lbl_8058BE54
 
 # .bss:0x56B80 | 0x8058BE80 | size: 0x18
-.obj lbl_8058BE80, global
+.obj STRUCT_BYTE4_COUNT_18058BE80, global
 	.skip 0x18
-.endobj lbl_8058BE80
+.endobj STRUCT_BYTE4_COUNT_18058BE80
 
 # .bss:0x56B98 | 0x8058BE98 | size: 0x30
 .obj shadow_alloc_data, global
@@ -1440,9 +1440,9 @@
 .endobj lbl_8058BEC8
 
 # .bss:0x56E90 | 0x8058C190 | size: 0xC
-.obj lbl_8058C190, global
+.obj STRUCT_BYTE4_COUNT_18058C190, global
 	.skip 0xC
-.endobj lbl_8058C190
+.endobj STRUCT_BYTE4_COUNT_18058C190
 
 # .bss:0x56E9C | 0x8058C19C | size: 0x2C
 .obj lbl_8058C19C, global
@@ -1455,44 +1455,44 @@
 .endobj lbl_8058C1C8
 
 # .bss:0x56EF4 | 0x8058C1F4 | size: 0x14
-.obj lbl_8058C1F4, global
+.obj STRUCT_BYTE4_COUNT_18058C1F4, global
 	.skip 0x14
-.endobj lbl_8058C1F4
+.endobj STRUCT_BYTE4_COUNT_18058C1F4
 
 # .bss:0x56F08 | 0x8058C208 | size: 0x200
-.obj lbl_8058C208, global
+.obj STRUCT_BYTE4_COUNT_18058C208, global
 	.skip 0x200
-.endobj lbl_8058C208
+.endobj STRUCT_BYTE4_COUNT_18058C208
 
 # .bss:0x57108 | 0x8058C408 | size: 0x100
-.obj lbl_8058C408, global
+.obj STRUCT_BYTE4_COUNT_18058C408, global
 	.skip 0x100
-.endobj lbl_8058C408
+.endobj STRUCT_BYTE4_COUNT_18058C408
 
 # .bss:0x57208 | 0x8058C508 | size: 0x100
-.obj lbl_8058C508, global
+.obj STRUCT_BYTE4_COUNT_18058C508, global
 	.skip 0x100
-.endobj lbl_8058C508
+.endobj STRUCT_BYTE4_COUNT_18058C508
 
 # .bss:0x57308 | 0x8058C608 | size: 0x100
-.obj lbl_8058C608, global
+.obj STRUCT_BYTE4_COUNT_18058C608, global
 	.skip 0x100
-.endobj lbl_8058C608
+.endobj STRUCT_BYTE4_COUNT_18058C608
 
 # .bss:0x57408 | 0x8058C708 | size: 0x100
-.obj lbl_8058C708, global
+.obj STRUCT_BYTE4_COUNT_18058C708, global
 	.skip 0x100
-.endobj lbl_8058C708
+.endobj STRUCT_BYTE4_COUNT_18058C708
 
 # .bss:0x57508 | 0x8058C808 | size: 0x400
-.obj lbl_8058C808, global
+.obj STRUCT_BYTE4_COUNT_18058C808, global
 	.skip 0x400
-.endobj lbl_8058C808
+.endobj STRUCT_BYTE4_COUNT_18058C808
 
 # .bss:0x57908 | 0x8058CC08 | size: 0xAC
-.obj lbl_8058CC08, global
+.obj STRUCT_FLOAT_COUNT_18058CC08, global
 	.skip 0xAC
-.endobj lbl_8058CC08
+.endobj STRUCT_FLOAT_COUNT_18058CC08
 
 # .bss:0x579B4 | 0x8058CCB4 | size: 0x34
 .obj lbl_8058CCB4, global
@@ -1500,19 +1500,19 @@
 .endobj lbl_8058CCB4
 
 # .bss:0x579E8 | 0x8058CCE8 | size: 0x80
-.obj lbl_8058CCE8, global
+.obj STRUCT_BYTE4_COUNT_18058CCE8, global
 	.skip 0x80
-.endobj lbl_8058CCE8
+.endobj STRUCT_BYTE4_COUNT_18058CCE8
 
 # .bss:0x57A68 | 0x8058CD68 | size: 0x100
-.obj lbl_8058CD68, global
+.obj STRUCT_BYTE4_COUNT_18058CD68, global
 	.skip 0x100
-.endobj lbl_8058CD68
+.endobj STRUCT_BYTE4_COUNT_18058CD68
 
 # .bss:0x57B68 | 0x8058CE68 | size: 0x330
-.obj lbl_8058CE68, global
+.obj STRUCT_BYTE4_COUNT_18058CE68, global
 	.skip 0x330
-.endobj lbl_8058CE68
+.endobj STRUCT_BYTE4_COUNT_18058CE68
 
 # .bss:0x57E98 | 0x8058D198 | size: 0x28
 .obj lbl_8058D198, global
@@ -1540,9 +1540,9 @@
 .endobj lbl_8058E398
 
 # .bss:0x59980 | 0x8058EC80 | size: 0x10
-.obj lbl_8058EC80, global
+.obj STRUCT_BYTE4_COUNT_18058EC80, global
 	.skip 0x10
-.endobj lbl_8058EC80
+.endobj STRUCT_BYTE4_COUNT_18058EC80
 
 # .bss:0x59990 | 0x8058EC90 | size: 0x10
 .obj lbl_8058EC90, global
@@ -1570,19 +1570,19 @@
 .endobj lbl_80596D60
 
 # .bss:0x61A90 | 0x80596D90 | size: 0x10
-.obj lbl_80596D90, global
+.obj STRUCT_BYTE4_COUNT_180596D90, global
 	.skip 0x10
-.endobj lbl_80596D90
+.endobj STRUCT_BYTE4_COUNT_180596D90
 
 # .bss:0x61AA0 | 0x80596DA0 | size: 0xA0
-.obj lbl_80596DA0, global
+.obj STRUCT_BYTE4_COUNT_180596DA0, global
 	.skip 0xA0
-.endobj lbl_80596DA0
+.endobj STRUCT_BYTE4_COUNT_180596DA0
 
 # .bss:0x61B40 | 0x80596E40 | size: 0x200
-.obj lbl_80596E40, global
+.obj STRUCT_BYTE4_COUNT_180596E40, global
 	.skip 0x200
-.endobj lbl_80596E40
+.endobj STRUCT_BYTE4_COUNT_180596E40
 
 # .bss:0x61D40 | 0x80597040 | size: 0x100
 .obj lbl_80597040, global
@@ -1590,9 +1590,9 @@
 .endobj lbl_80597040
 
 # .bss:0x61E40 | 0x80597140 | size: 0xE0
-.obj lbl_80597140, global
+.obj STRUCT_BYTE4_COUNT_180597140, global
 	.skip 0xE0
-.endobj lbl_80597140
+.endobj STRUCT_BYTE4_COUNT_180597140
 
 # .bss:0x61F20 | 0x80597220 | size: 0x440
 .obj lbl_80597220, global
@@ -1600,49 +1600,49 @@
 .endobj lbl_80597220
 
 # .bss:0x62360 | 0x80597660 | size: 0x2600
-.obj lbl_80597660, global
+.obj STRUCT_BYTE4_COUNT_180597660, global
 	.skip 0x2600
-.endobj lbl_80597660
+.endobj STRUCT_BYTE4_COUNT_180597660
 
 # .bss:0x64960 | 0x80599C60 | size: 0x400
-.obj lbl_80599C60, global
+.obj STRUCT_FLOAT_COUNT_180599C60, global
 	.skip 0x400
-.endobj lbl_80599C60
+.endobj STRUCT_FLOAT_COUNT_180599C60
 
 # .bss:0x64D60 | 0x8059A060 | size: 0x100
-.obj lbl_8059A060, global
+.obj STRUCT_BYTE4_COUNT_18059A060, global
 	.skip 0x100
-.endobj lbl_8059A060
+.endobj STRUCT_BYTE4_COUNT_18059A060
 
 # .bss:0x64E60 | 0x8059A160 | size: 0x18
-.obj lbl_8059A160, global
+.obj STRUCT_FLOAT_COUNT_18059A160, global
 	.skip 0x18
-.endobj lbl_8059A160
+.endobj STRUCT_FLOAT_COUNT_18059A160
 
 # .bss:0x64E78 | 0x8059A178 | size: 0x6A0
-.obj lbl_8059A178, global
+.obj STRUCT_FLOAT_COUNT_18059A178, global
 	.skip 0x6A0
-.endobj lbl_8059A178
+.endobj STRUCT_FLOAT_COUNT_18059A178
 
 # .bss:0x65518 | 0x8059A818 | size: 0x30
-.obj lbl_8059A818, global
+.obj STRUCT_BYTE4_COUNT_18059A818, global
 	.skip 0x30
-.endobj lbl_8059A818
+.endobj STRUCT_BYTE4_COUNT_18059A818
 
 # .bss:0x65548 | 0x8059A848 | size: 0x14
-.obj lbl_8059A848, global
+.obj STRUCT_BYTE4_COUNT_18059A848, global
 	.skip 0x14
-.endobj lbl_8059A848
+.endobj STRUCT_BYTE4_COUNT_18059A848
 
 # .bss:0x6555C | 0x8059A85C | size: 0x24
-.obj lbl_8059A85C, global
+.obj STRUCT_BYTE4_COUNT_18059A85C, global
 	.skip 0x24
-.endobj lbl_8059A85C
+.endobj STRUCT_BYTE4_COUNT_18059A85C
 
 # .bss:0x65580 | 0x8059A880 | size: 0x17600
-.obj lbl_8059A880, global
+.obj STRUCT_BYTE4_COUNT_18059A880, global
 	.skip 0x17600
-.endobj lbl_8059A880
+.endobj STRUCT_BYTE4_COUNT_18059A880
 
 # .bss:0x7CB80 | 0x805B1E80 | size: 0x2800
 .obj lbl_805B1E80, global
@@ -1665,44 +1665,44 @@
 .endobj lbl_805B49F8
 
 # .bss:0x7F8F8 | 0x805B4BF8 | size: 0x40
-.obj lbl_805B4BF8, global
+.obj STRUCT_BYTE4_COUNT_1805B4BF8, global
 	.skip 0x40
-.endobj lbl_805B4BF8
+.endobj STRUCT_BYTE4_COUNT_1805B4BF8
 
 # .bss:0x7F938 | 0x805B4C38 | size: 0x800
-.obj lbl_805B4C38, global
+.obj STRUCT_BYTE4_COUNT_1805B4C38, global
 	.skip 0x800
-.endobj lbl_805B4C38
+.endobj STRUCT_BYTE4_COUNT_1805B4C38
 
 # .bss:0x80138 | 0x805B5438 | size: 0x4
-.obj lbl_805B5438, global
+.obj STRUCT_BYTE4_COUNT_1805B5438, global
 	.skip 0x4
-.endobj lbl_805B5438
+.endobj STRUCT_BYTE4_COUNT_1805B5438
 
 # .bss:0x8013C | 0x805B543C | size: 0x4
-.obj lbl_805B543C, global
+.obj STRUCT_BYTE4_COUNT_1805B543C, global
 	.skip 0x4
-.endobj lbl_805B543C
+.endobj STRUCT_BYTE4_COUNT_1805B543C
 
 # .bss:0x80140 | 0x805B5440 | size: 0x4
-.obj lbl_805B5440, global
+.obj STRUCT_BYTE4_COUNT_1805B5440, global
 	.skip 0x4
-.endobj lbl_805B5440
+.endobj STRUCT_BYTE4_COUNT_1805B5440
 
 # .bss:0x80144 | 0x805B5444 | size: 0x4
-.obj lbl_805B5444, global
+.obj STRUCT_BYTE4_COUNT_1805B5444, global
 	.skip 0x4
-.endobj lbl_805B5444
+.endobj STRUCT_BYTE4_COUNT_1805B5444
 
 # .bss:0x80148 | 0x805B5448 | size: 0x18
-.obj lbl_805B5448, global
+.obj STRUCT_BYTE4_COUNT_1805B5448, global
 	.skip 0x18
-.endobj lbl_805B5448
+.endobj STRUCT_BYTE4_COUNT_1805B5448
 
 # .bss:0x80160 | 0x805B5460 | size: 0x40
-.obj lbl_805B5460, global
+.obj STRUCT_BYTE4_COUNT_1805B5460, global
 	.skip 0x40
-.endobj lbl_805B5460
+.endobj STRUCT_BYTE4_COUNT_1805B5460
 
 # .bss:0x801A0 | 0x805B54A0 | size: 0x600
 .obj lbl_805B54A0, global
@@ -1730,9 +1730,9 @@
 .endobj lbl_805B8B58
 
 # .bss:0x83D58 | 0x805B9058 | size: 0x48
-.obj lbl_805B9058, global
+.obj STRUCT_BYTE4_COUNT_1805B9058, global
 	.skip 0x48
-.endobj lbl_805B9058
+.endobj STRUCT_BYTE4_COUNT_1805B9058
 
 # .bss:0x83DA0 | 0x805B90A0 | size: 0xBF0
 .obj lbl_805B90A0, global
@@ -1745,19 +1745,19 @@
 .endobj lbl_805B9C90
 
 # .bss:0x88A20 | 0x805BDD20 | size: 0xA8
-.obj lbl_805BDD20, global
+.obj STRUCT_BYTE4_COUNT_1805BDD20, global
 	.skip 0xA8
-.endobj lbl_805BDD20
+.endobj STRUCT_BYTE4_COUNT_1805BDD20
 
 # .bss:0x88AC8 | 0x805BDDC8 | size: 0x18
-.obj lbl_805BDDC8, global
+.obj STRUCT_BYTE4_COUNT_1805BDDC8, global
 	.skip 0x18
-.endobj lbl_805BDDC8
+.endobj STRUCT_BYTE4_COUNT_1805BDDC8
 
 # .bss:0x88AE0 | 0x805BDDE0 | size: 0x18
-.obj lbl_805BDDE0, global
+.obj STRUCT_BYTE4_COUNT_1805BDDE0, global
 	.skip 0x18
-.endobj lbl_805BDDE0
+.endobj STRUCT_BYTE4_COUNT_1805BDDE0
 
 # .bss:0x88AF8 | 0x805BDDF8 | size: 0x638
 .obj lbl_805BDDF8, global
@@ -1795,9 +1795,9 @@
 .endobj lbl_805C2978
 
 # .bss:0x8D6B0 | 0x805C29B0 | size: 0x68
-.obj lbl_805C29B0, global
+.obj STRUCT_BYTE4_COUNT_1805C29B0, global
 	.skip 0x68
-.endobj lbl_805C29B0
+.endobj STRUCT_BYTE4_COUNT_1805C29B0
 
 # .bss:0x8D718 | 0x805C2A18 | size: 0xE0
 .obj lbl_805C2A18, global
@@ -1820,9 +1820,9 @@
 .endobj lbl_805C2D7C
 
 # .bss:0x8DE84 | 0x805C3184 | size: 0x1C
-.obj lbl_805C3184, global
+.obj STRUCT_BYTE4_COUNT_1805C3184, global
 	.skip 0x1C
-.endobj lbl_805C3184
+.endobj STRUCT_BYTE4_COUNT_1805C3184
 
 # .bss:0x8DEA0 | 0x805C31A0 | size: 0xAA0
 .obj lbl_805C31A0, global
@@ -1840,9 +1840,9 @@
 .endobj lbl_805CC0C8
 
 # .bss:0x970C8 | 0x805CC3C8 | size: 0x678
-.obj lbl_805CC3C8, global
+.obj STRUCT_BYTE4_COUNT_1805CC3C8, global
 	.skip 0x678
-.endobj lbl_805CC3C8
+.endobj STRUCT_BYTE4_COUNT_1805CC3C8
 
 # .bss:0x97740 | 0x805CCA40 | size: 0x4060
 .obj lbl_805CCA40, global

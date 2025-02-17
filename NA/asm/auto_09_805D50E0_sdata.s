@@ -24481,17 +24481,17 @@
 
 # .sdata:0x7AAC | 0x805DCB8C | size: 0x4
 .obj lbl_805DCB8C, global
-	.4byte lbl_805DE278
+	.4byte STRUCT_BYTE4_COUNT_1805DE278
 .endobj lbl_805DCB8C
 
 # .sdata:0x7AB0 | 0x805DCB90 | size: 0x4
 .obj lbl_805DCB90, global
-	.4byte lbl_805DE27C
+	.4byte STRUCT_BYTE4_COUNT_1805DE27C
 .endobj lbl_805DCB90
 
 # .sdata:0x7AB4 | 0x805DCB94 | size: 0x4
 .obj lbl_805DCB94, global
-	.4byte lbl_805DE284
+	.4byte STRUCT_BYTE4_COUNT_1805DE284
 .endobj lbl_805DCB94
 
 # .sdata:0x7AB8 | 0x805DCB98 | size: 0x8

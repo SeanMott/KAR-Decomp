@@ -7005,7 +7005,7 @@
 	.4byte fn_800AEC80
 	.4byte String_"Lang"
 	.4byte lbl_804A1254
-	.4byte lbl_8055712C
+	.4byte STRUCT_BYTE4_COUNT_18055712C
 	.4byte 0x3F800000
 	.4byte 0x40400000
 	.4byte 0x00000000
@@ -7013,7 +7013,7 @@
 	.4byte fn_800AED28
 	.4byte String_"FGMGroup"
 	.4byte lbl_804A11A4
-	.4byte lbl_80557108
+	.4byte STRUCT_BYTE4_COUNT_180557108
 	.4byte 0x00000000
 	.4byte 0x40800000
 	.4byte 0x00000000
@@ -7021,7 +7021,7 @@
 	.4byte fn_800AEF6C
 	.4byte String_"FGM"2
 	.4byte lbl_804A1244
-	.4byte lbl_8055710C
+	.4byte STRUCT_BYTE4_COUNT_18055710C
 	.4byte 0x00000000
 	.4byte 0x40800000
 	.4byte 0x00000000
@@ -7037,7 +7037,7 @@
 	.4byte fn_800AF078
 	.4byte String_"FGMPitch"
 	.4byte 0x00000000
-	.4byte lbl_80557110
+	.4byte STRUCT_BYTE4_COUNT_180557110
 	.4byte 0xC628C000
 	.4byte 0x45160000
 	.4byte 0x3F800000
@@ -7045,7 +7045,7 @@
 	.4byte fn_800AF0F4
 	.4byte String_"FGMPAN"
 	.4byte 0x00000000
-	.4byte lbl_80557114
+	.4byte STRUCT_BYTE4_COUNT_180557114
 	.4byte 0x00000000
 	.4byte 0x437E0000
 	.4byte 0x3F800000
@@ -7053,7 +7053,7 @@
 	.4byte fn_800AF174
 	.4byte String_"FGMSPAN"
 	.4byte 0x00000000
-	.4byte lbl_80557118
+	.4byte STRUCT_BYTE4_COUNT_180557118
 	.4byte 0x00000000
 	.4byte 0x437E0000
 	.4byte 0x3F800000
@@ -7061,7 +7061,7 @@
 	.4byte fn_800AF1F4
 	.4byte String_"FGMRound"
 	.4byte 0x00000000
-	.4byte lbl_8055711C
+	.4byte STRUCT_BYTE4_COUNT_18055711C
 	.4byte 0xBF800000
 	.4byte 0x43B48000
 	.4byte 0x3F800000
@@ -7069,7 +7069,7 @@
 	.4byte fn_800AF2A0
 	.4byte String_"FGMVoiceMax"
 	.4byte 0x00000000
-	.4byte lbl_80557120
+	.4byte STRUCT_BYTE4_COUNT_180557120
 	.4byte 0x3F800000
 	.4byte 0x42C60000
 	.4byte 0x3F800000
@@ -7077,7 +7077,7 @@
 	.4byte fn_800AF344
 	.4byte String_"BMG:"
 	.4byte lbl_80557138
-	.4byte lbl_80557124
+	.4byte STRUCT_BYTE4_COUNT_180557124
 	.4byte 0x00000000
 	.4byte 0x42880000
 	.4byte 0x00000000
@@ -7154,7 +7154,7 @@
 	.4byte fn_800AF51C
 	.4byte lbl_804A15D8
 	.4byte 0x00000000
-	.4byte lbl_805DD6B8
+	.4byte STRUCT_BYTE4_COUNT_1805DD6B8
 	.4byte 0x00000000
 	.4byte 0x42000000
 	.4byte 0x3F800000
@@ -7162,7 +7162,7 @@
 	.4byte fn_800AF51C
 	.4byte lbl_804A15E4
 	.4byte 0x00000000
-	.4byte lbl_805DD6BC
+	.4byte STRUCT_BYTE4_COUNT_1805DD6BC
 	.4byte 0x00000000
 	.4byte 0x43960000
 	.4byte 0x3F800000
@@ -7834,7 +7834,7 @@
 	.4byte 0x00000000
 	.4byte String_Debug_"Shoriochi:"
 	.4byte 0x00000000
-	.4byte lbl_805DD52C
+	.4byte STRUCT_BYTE4_COUNT_1805DD52C
 	.4byte 0x00000000
 	.4byte 0x3F800000
 	.4byte 0x3F800000
@@ -7842,7 +7842,7 @@
 	.4byte 0x00000000
 	.4byte lbl_804A1E14
 	.4byte 0x00000000
-	.4byte lbl_805DD528
+	.4byte STRUCT_BYTE4_COUNT_1805DD528
 	.4byte 0x00000000
 	.4byte 0x3F800000
 	.4byte 0x3F800000
