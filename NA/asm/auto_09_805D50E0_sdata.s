@@ -13563,92 +13563,92 @@
 .endobj lbl_805D9428
 
 # .sdata:0x4350 | 0x805D9430 | size: 0x8
-.obj lbl_805D9430, global
-	.4byte lbl_804D6C24
+.obj STRUCT_BLOB_11_HANDLE, global
+	.4byte STRUCT_BLOB_11
 	.4byte 0x00000000
-.endobj lbl_805D9430
+.endobj STRUCT_BLOB_11_HANDLE
 
 # .sdata:0x4358 | 0x805D9438 | size: 0x8
-.obj lbl_805D9438, global
-	.4byte lbl_804D6C44
+.obj STRUCT_BLOB_10_HANDLE, global
+	.4byte STRUCT_BLOB_10
 	.4byte 0x00000000
-.endobj lbl_805D9438
+.endobj STRUCT_BLOB_10_HANDLE
 
 # .sdata:0x4360 | 0x805D9440 | size: 0x8
-.obj lbl_805D9440, global
-	.4byte lbl_804D6C74
+.obj STRUCT_BLOB_12_HANDLE, global
+	.4byte STRUCT_BLOB_12
 	.4byte 0x00000000
-.endobj lbl_805D9440
+.endobj STRUCT_BLOB_12_HANDLE
 
 # .sdata:0x4368 | 0x805D9448 | size: 0x8
-.obj lbl_805D9448, global
-	.4byte lbl_804D6C90
+.obj RANDOM_BLOB_STRUCT_STORAGE_NULL, global
+	.4byte RANDOM_BLOB_STRUCT
 	.4byte 0x00000000
-.endobj lbl_805D9448
+.endobj RANDOM_BLOB_STRUCT_STORAGE_NULL
 
 # .sdata:0x4370 | 0x805D9450 | size: 0x8
-.obj lbl_805D9450, global
-	.4byte lbl_804D6CA8
+.obj RANDOM_BLOB_STRUCT_2_HANDLE, global
+	.4byte RANDOM_BLOB_STRUCT_2
 	.4byte 0x00000000
-.endobj lbl_805D9450
+.endobj RANDOM_BLOB_STRUCT_2_HANDLE
 
 # .sdata:0x4378 | 0x805D9458 | size: 0x8
-.obj lbl_805D9458, global
+.obj RANDOM_BLOB_STRUCT_10, global
 	.4byte 0x53706865
 	.4byte 0x72650000
-.endobj lbl_805D9458
+.endobj RANDOM_BLOB_STRUCT_10
 
 # .sdata:0x4380 | 0x805D9460 | size: 0x8
-.obj lbl_805D9460, global
-	.4byte lbl_805D9458
-	.4byte lbl_804D6CB4
-.endobj lbl_805D9460
+.obj STRUCT_PAIR_STORAGE_10_HANDLE_2_COUNT_2, global
+	.4byte RANDOM_BLOB_STRUCT_10
+	.4byte RANDOM_BLOB_STRUCT_2_HANDLE_STORAGE
+.endobj STRUCT_PAIR_STORAGE_10_HANDLE_2_COUNT_2
 
 # .sdata:0x4388 | 0x805D9468 | size: 0x8
-.obj lbl_805D9468, global
-	.4byte lbl_804D6CC0
-	.4byte lbl_804D6CCC
-.endobj lbl_805D9468
+.obj STRUCT_HOLD_3_AND_1_PAIR, global
+	.4byte lRANDOM_BLOB_STRUCT_3
+	.4byte Storage_StructBlob_1
+.endobj STRUCT_HOLD_3_AND_1_PAIR
 
 # .sdata:0x4390 | 0x805D9470 | size: 0x8
-.obj lbl_805D9470, global
+.obj String_"AC_PUSH", global
 	.string "AC_PUSH"
-.endobj lbl_805D9470
+.endobj String_"AC_PUSH"
 
 # .sdata:0x4398 | 0x805D9478 | size: 0x8
-.obj lbl_805D9478, global
-	.4byte lbl_804D6E84
+.obj STRUCT_BLOB_5_HANDLE, global
+	.4byte STRUCT_BLOB_5
 	.4byte 0x00000000
-.endobj lbl_805D9478
+.endobj STRUCT_BLOB_5_HANDLE
 
 # .sdata:0x43A0 | 0x805D9480 | size: 0x8
-.obj lbl_805D9480, global
-	.4byte lbl_804D6E78
-	.4byte lbl_804D6E9C
-.endobj lbl_805D9480
+.obj STRUCT_BLOB_7_AND_5_PAIR_STORAGE, global
+	.4byte STRUCT_BLOB_7
+	.4byte STRUCT_BLOB_5_HANDLE_STORAGE
+.endobj STRUCT_BLOB_7_AND_5_PAIR_STORAGE
 
 # .sdata:0x43A8 | 0x805D9488 | size: 0x8
-.obj lbl_805D9488, global
+.obj STORAGE_BLOB_8, global
 	.4byte 0x9285926E
 	.4byte 0x00000000
-.endobj lbl_805D9488
+.endobj STORAGE_BLOB_8
 
 # .sdata:0x43B0 | 0x805D9490 | size: 0x4
-.obj lbl_805D9490, global
+.obj CONST_VALUE_1, global
 	.4byte 0x3F800000
-.endobj lbl_805D9490
+.endobj CONST_VALUE_1
 
 # .sdata:0x43B4 | 0x805D9494 | size: 0x8
-.obj lbl_805D9494, global
-	.4byte lbl_804D6EDC
+.obj ObjCollect_KirbyHandle, global
+	.4byte String_"ObjCollect_Template_KirbyHandle"
 	.4byte 0x00000000
-.endobj lbl_805D9494
+.endobj ObjCollect_KirbyHandle
 
 # .sdata:0x43BC | 0x805D949C | size: 0x8
-.obj lbl_805D949C, global
-	.4byte lbl_804D6ED0
-	.4byte lbl_804D6EF4
-.endobj lbl_805D949C
+.obj KirbyHandle, global
+	.4byte String_"KirbyHandle"
+	.4byte ObjKirbyHandle_String_Storage
+.endobj KirbyHandle
 
 # .sdata:0x43C4 | 0x805D94A4 | size: 0x8
 .obj lbl_805D94A4, global
