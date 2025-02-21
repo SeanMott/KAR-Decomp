@@ -1086,19 +1086,19 @@
 .endobj lbl_80497B9C
 
 # .data:0xDD8 | 0x80497BA8 | size: 0x10
-.obj lbl_80497BA8, global
+.obj String_"gmviconfigure.c", global
 	.string "gmviconfigure.c"
-.endobj lbl_80497BA8
+.endobj String_"gmviconfigure.c"
 
 # .data:0xDE8 | 0x80497BB8 | size: 0xC
-.obj lbl_80497BB8, global
+.obj String_"gmlanmenu.c", global
 	.string "gmlanmenu.c"
-.endobj lbl_80497BB8
+.endobj String_"gmlanmenu.c"
 
 # .data:0xDF4 | 0x80497BC4 | size: 0x1C
-.obj lbl_80497BC4, global
+.obj String_"P_Error_IsNotEqual_LbNetError_None", global
 	.string "p->error != LbNetError_None"
-.endobj lbl_80497BC4
+.endobj String_"P_Error_IsNotEqual_LbNetError_None"
 
 # .data:0xE10 | 0x80497BE0 | size: 0x28
 .obj FuncWithAJumpTable_22_JumpTable, global
@@ -1253,9 +1253,9 @@
 .endobj lbl_80497D68
 
 # .data:0xFA4 | 0x80497D74 | size: 0xC
-.obj lbl_80497D74, global
+.obj String_"lbairride.c", global
 	.string "lbairride.c"
-.endobj lbl_80497D74
+.endobj String_"lbairride.c"
 
 # .data:0xFB0 | 0x80497D80 | size: 0x18
 .obj lbl_80497D80, global
@@ -1347,9 +1347,9 @@
 .endobj lbl_80497E10
 
 # .data:0x10C4 | 0x80497E94 | size: 0x24
-.obj lbl_80497E94, global
+.obj String_"ErrorFormatStrlbMemFreeToHeap", global
 	.string "[LbMem] Error: lbMemFreeToHeap %x.\n"
-.endobj lbl_80497E94
+.endobj String_"ErrorFormatStrlbMemFreeToHeap"
 
 # .data:0x10E8 | 0x80497EB8 | size: 0x18
 .obj lbl_80497EB8, global
@@ -1563,9 +1563,9 @@
 .endobj lbl_80498108
 
 # .data:0x1344 | 0x80498114 | size: 0xC
-.obj lbl_80498114, global
+.obj String_"!cancelflag", global
 	.string "!cancelflag"
-.endobj lbl_80498114
+.endobj String_"!cancelflag"
 
 # .data:0x1350 | 0x80498120 | size: 0x20
 .obj lbl_80498120, global
@@ -1613,14 +1613,14 @@
 .endobj lbl_80498188
 
 # .data:0x13D4 | 0x804981A4 | size: 0xC
-.obj lbl_804981A4, global
+.obj String_"lbarchive.c", global
 	.string "lbarchive.c"
-.endobj lbl_804981A4
+.endobj String_"lbarchive.c"
 
 # .data:0x13E0 | 0x804981B0 | size: 0x18
-.obj lbl_804981B0, global
+.obj String_"CanNotFindSymbolFormatString", global
 	.string "Cannot find symbol %s.\n"
-.endobj lbl_804981B0
+.endobj String_"CanNotFindSymbolFormatString"
 
 # .data:0x13F8 | 0x804981C8 | size: 0x70
 .obj lbl_804981C8, global
@@ -1662,9 +1662,9 @@
 .endobj lbl_80498238
 
 # .data:0x1474 | 0x80498244 | size: 0xC
-.obj lbl_80498244, global
+.obj String_jp/menu.hps, global
 	.string "jp/menu.hps"
-.endobj lbl_80498244
+.endobj String_jp/menu.hps
 
 # .data:0x1480 | 0x80498250 | size: 0x14
 .obj String_jp/2d_desert.hps, global
@@ -1686,9 +1686,9 @@
 .endobj String_jp/2d_desert_ura.hps
 
 # .data:0x14AC | 0x8049827C | size: 0x10
-.obj lbl_8049827C, global
+.obj String_jp/2d_kazan.hps, global
 	.string "jp/2d_kazan.hps"
-.endobj lbl_8049827C
+.endobj String_jp/2d_kazan.hps
 
 # .data:0x14BC | 0x8049828C | size: 0x14
 .obj lbl_8049828C, global
@@ -2183,7 +2183,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x00000001
-	.4byte lbl_80498244
+	.4byte String_jp/menu.hps
 	.4byte 0x00000001
 	.4byte 0x00000003
 	.4byte 0x00000001
@@ -2195,7 +2195,7 @@
 	.4byte 0x00000001
 	.4byte 0x00000005
 	.4byte 0x00000001
-	.4byte lbl_8049827C
+	.4byte String_jp/2d_kazan.hps
 	.4byte 0x00000001
 	.4byte 0x00000006
 	.4byte 0x00000001
@@ -2415,7 +2415,7 @@
 	.4byte 0x00000001
 	.4byte 0x0000003C
 	.4byte 0x00000001
-	.4byte lbl_80498244
+	.4byte String_jp/menu.hps
 	.4byte 0x00000001
 	.4byte 0x0000003D
 	.4byte 0x00000001
