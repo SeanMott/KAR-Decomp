@@ -18878,11 +18878,11 @@
 .endobj lbl_804AA730
 
 # .data:0xEBC8 | 0x804AA740 | size: 0xC
-.obj lbl_804AA740, global
+.obj StructBlobOffset_3212, global
 	.4byte 0x48696768
 	.4byte 0x204A756D
 	.4byte 0x70000000
-.endobj lbl_804AA740
+.endobj StructBlobOffset_3212
 
 # .data:0xEBD4 | 0x804AA74C | size: 0xC
 .obj String_KirbyMelee, global
@@ -18914,7 +18914,7 @@
 	.4byte lbl_804AA718
 	.4byte lbl_804AA724
 	.4byte lbl_804AA730
-	.4byte lbl_804AA740
+	.4byte StructBlobOffset_3212
 	.4byte String_KirbyMelee
 	.4byte lbl_804AA758
 	.4byte String_SingleRace
@@ -26911,7 +26911,7 @@
 	.4byte 0x00001024
 	.4byte fn_801EF2F4
 	.4byte fn_801EF2F8
-	.4byte fn_801EF364
+	.4byte fn_SomethingToDoWithKirbybreak_2
 	.4byte fn_801EF454
 	.4byte 0x00000054
 	.4byte 0x00001024
@@ -27579,7 +27579,7 @@
 	.4byte 0x00001024
 	.4byte fn_801FA184
 	.4byte fn_801FA188
-	.4byte fn_801FA1E8
+	.4byte fn_SomethingToDoWithKirbybreak_1
 	.4byte fn_801FA2BC
 	.4byte 0x00000054
 	.4byte 0x00001024
@@ -74261,9 +74261,9 @@
 .endobj String_"KirbyEffector::Effector"
 
 # .data:0x3B4E0 | 0x804D7058 | size: 0x24
-.obj String_"ObjCollect<KirbyEffector::Effector>", global
+.obj "String_"ObjCollect<KirbyEffector::Effector>"", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj String_"ObjCollect<KirbyEffector::Effector>"
+.endobj "String_"ObjCollect<KirbyEffector::Effector>""
 
 # .data:0x3B504 | 0x804D707C | size: 0xC
 .obj lbl_804D707C, global

@@ -355,11 +355,11 @@
 .endobj lbl_805D5270
 
 # .sdata:0x194 | 0x805D5274 | size: 0xC
-.obj lbl_805D5274, global
+.obj SoemStructBlobHandle_543, global
 	.4byte 0x61726368
 	.4byte 0x69766500
 	.4byte 0x00000000
-.endobj lbl_805D5274
+.endobj SoemStructBlobHandle_543
 
 # .sdata:0x1A0 | 0x805D5280 | size: 0x8
 .obj lbl_805D5280, global
@@ -13687,7 +13687,7 @@
 
 # .sdata:0x43F0 | 0x805D94D0 | size: 0x8
 .obj lbl_805D94D0, global
-	.4byte String_"ObjCollect<KirbyEffector::Effector>"
+	.4byte "String_"ObjCollect<KirbyEffector::Effector>""
 	.4byte 0x00000000
 .endobj lbl_805D94D0
 
