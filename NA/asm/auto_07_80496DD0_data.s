@@ -1822,19 +1822,19 @@
 .endobj String_jp/3d_ice_ura.hps
 
 # .data:0x1618 | 0x804983E8 | size: 0x10
-.obj lbl_804983E8, global
+.obj String_jp/3d_kazan.hps, global
 	.string "jp/3d_kazan.hps"
-.endobj lbl_804983E8
+.endobj String_jp/3d_kazan.hps
 
 # .data:0x1628 | 0x804983F8 | size: 0x14
-.obj lbl_804983F8, global
+.obj String_jp/3d_kazan_ura.hps, global
 	.string "jp/3d_kazan_ura.hps"
-.endobj lbl_804983F8
+.endobj String_jp/3d_kazan_ura.hps
 
 # .data:0x163C | 0x8049840C | size: 0x10
-.obj lbl_8049840C, global
+.obj String_jp/3d_kekka.hps, global
 	.string "jp/3d_kekka.hps"
-.endobj lbl_8049840C
+.endobj String_jp/3d_kekka.hps
 
 # .data:0x164C | 0x8049841C | size: 0x14
 .obj String_jp/3d_machine.hps, global
@@ -2271,15 +2271,15 @@
 	.4byte 0x00000001
 	.4byte 0x00000018
 	.4byte 0x00000001
-	.4byte lbl_804983E8
+	.4byte String_jp/3d_kazan.hps
 	.4byte 0x00000001
 	.4byte 0x00000019
 	.4byte 0x00000001
-	.4byte lbl_804983F8
+	.4byte String_jp/3d_kazan_ura.hps
 	.4byte 0x00000001
 	.4byte 0x0000001A
 	.4byte 0x00000001
-	.4byte lbl_8049840C
+	.4byte String_jp/3d_kekka.hps
 	.4byte 0x00000001
 	.4byte 0x0000001B
 	.4byte 0x00000001
