@@ -1691,24 +1691,24 @@
 .endobj String_jp/2d_kazan.hps
 
 # .data:0x14BC | 0x8049828C | size: 0x14
-.obj lbl_8049828C, global
+.obj String_jp/2d_kazan_ura.hps, global
 	.string "jp/2d_kazan_ura.hps"
-.endobj lbl_8049828C
+.endobj String_jp/2d_kazan_ura.hps
 
 # .data:0x14D0 | 0x804982A0 | size: 0x10
-.obj lbl_804982A0, global
+.obj String_jp/2d_kekka.hps, global
 	.string "jp/2d_kekka.hps"
-.endobj lbl_804982A0
+.endobj String_jp/2d_kekka.hps
 
 # .data:0x14E0 | 0x804982B0 | size: 0x10
-.obj lbl_804982B0, global
+.obj String_jp/2d_light.hps, global
 	.string "jp/2d_light.hps"
-.endobj lbl_804982B0
+.endobj String_jp/2d_light.hps
 
 # .data:0x14F0 | 0x804982C0 | size: 0x14
-.obj lbl_804982C0, global
+.obj String_jp/2d_light_ura.hps, global
 	.string "jp/2d_light_ura.hps"
-.endobj lbl_804982C0
+.endobj String_jp/2d_light_ura.hps
 
 # .data:0x1504 | 0x804982D4 | size: 0x14
 .obj lbl_804982D4, global
@@ -1766,24 +1766,24 @@
 .endobj lbl_8049833C
 
 # .data:0x1580 | 0x80498350 | size: 0x10
-.obj lbl_80498350, global
+.obj String_jp/2d_water.hps, global
 	.string "jp/2d_water.hps"
-.endobj lbl_80498350
+.endobj String_jp/2d_water.hps
 
 # .data:0x1590 | 0x80498360 | size: 0x14
-.obj lbl_80498360, global
+.obj String_jp/2d_water_ura.hps, global
 	.string "jp/2d_water_ura.hps"
-.endobj lbl_80498360
+.endobj String_jp/2d_water_ura.hps
 
 # .data:0x15A4 | 0x80498374 | size: 0x10
-.obj lbl_80498374, global
+.obj String_jp/3d_check.hps, global
 	.string "jp/3d_check.hps"
-.endobj lbl_80498374
+.endobj String_jp/3d_check.hps
 
 # .data:0x15B4 | 0x80498384 | size: 0x14
-.obj lbl_80498384, global
+.obj String_jp/3d_check_ura.hps, global
 	.string "jp/3d_check_ura.hps"
-.endobj lbl_80498384
+.endobj String_jp/3d_check_ura.hps
 
 # .data:0x15C8 | 0x80498398 | size: 0x14
 .obj String_jp/3d_desert.hps, global
@@ -2199,19 +2199,19 @@
 	.4byte 0x00000001
 	.4byte 0x00000006
 	.4byte 0x00000001
-	.4byte lbl_8049828C
+	.4byte String_jp/2d_kazan_ura.hps
 	.4byte 0x00000001
 	.4byte 0x00000007
 	.4byte 0x00000001
-	.4byte lbl_804982A0
+	.4byte String_jp/2d_kekka.hps
 	.4byte 0x00000001
 	.4byte 0x00000008
 	.4byte 0x00000001
-	.4byte lbl_804982B0
+	.4byte String_jp/2d_light.hps
 	.4byte 0x00000001
 	.4byte 0x00000009
 	.4byte 0x00000001
-	.4byte lbl_804982C0
+	.4byte String_jp/2d_light_ura.hps
 	.4byte 0x00000001
 	.4byte 0x0000000A
 	.4byte 0x00000001
@@ -2239,19 +2239,19 @@
 	.4byte 0x00000001
 	.4byte 0x00000010
 	.4byte 0x00000001
-	.4byte lbl_80498350
+	.4byte String_jp/2d_water.hps
 	.4byte 0x00000001
 	.4byte 0x00000011
 	.4byte 0x00000001
-	.4byte lbl_80498360
+	.4byte String_jp/2d_water_ura.hps
 	.4byte 0x00000001
 	.4byte 0x00000012
 	.4byte 0x00000001
-	.4byte lbl_80498374
+	.4byte String_jp/3d_check.hps
 	.4byte 0x00000001
 	.4byte 0x00000013
 	.4byte 0x00000001
-	.4byte lbl_80498384
+	.4byte String_jp/3d_check_ura.hps
 	.4byte 0x00000001
 	.4byte 0x00000014
 	.4byte 0x00000001
