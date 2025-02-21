@@ -362,15 +362,15 @@
 .endobj SoemStructBlobHandle_543
 
 # .sdata:0x1A0 | 0x805D5280 | size: 0x8
-.obj lbl_805D5280, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_2, global
 	.4byte 0x6E6F6E65
 	.4byte 0x00000000
-.endobj lbl_805D5280
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_2
 
 # .sdata:0x1A8 | 0x805D5288 | size: 0x4
-.obj lbl_805D5288, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_9, global
 	.4byte 0x00000000
-.endobj lbl_805D5288
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_9
 
 # .sdata:0x1AC | 0x805D528C | size: 0x4
 .obj lbl_805D528C, global

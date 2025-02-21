@@ -1655,11 +1655,11 @@
 .endobj lbl_804981C8
 
 # .data:0x1468 | 0x80498238 | size: 0xC
-.obj lbl_80498238, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_1, global
 	.4byte 0x73746167
 	.4byte 0x65617574
 	.4byte 0x6F000000
-.endobj lbl_80498238
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_1
 
 # .data:0x1474 | 0x80498244 | size: 0xC
 .obj String_jp/menu.hps, global
@@ -1711,59 +1711,59 @@
 .endobj String_jp/2d_light_ura.hps
 
 # .data:0x1504 | 0x804982D4 | size: 0x14
-.obj lbl_804982D4, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_3, global
 	.4byte 0x6A702F32
 	.4byte 0x645F6D61
 	.4byte 0x6368696E
 	.4byte 0x652E6870
 	.4byte 0x73000000
-.endobj lbl_804982D4
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_3
 
 # .data:0x1518 | 0x804982E8 | size: 0x18
-.obj lbl_804982E8, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_4, global
 	.4byte 0x6A702F32
 	.4byte 0x645F6D61
 	.4byte 0x6368696E
 	.4byte 0x655F7572
 	.4byte 0x612E6870
 	.4byte 0x73000000
-.endobj lbl_804982E8
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_4
 
 # .data:0x1530 | 0x80498300 | size: 0x14
-.obj lbl_80498300, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_5, global
 	.4byte 0x6A702F32
 	.4byte 0x645F706C
 	.4byte 0x616E7473
 	.4byte 0x2E687073
 	.4byte 0x00000000
-.endobj lbl_80498300
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_5
 
 # .data:0x1544 | 0x80498314 | size: 0x18
-.obj lbl_80498314, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_6, global
 	.4byte 0x6A702F32
 	.4byte 0x645F706C
 	.4byte 0x616E7473
 	.4byte 0x5F757261
 	.4byte 0x2E687073
 	.4byte 0x00000000
-.endobj lbl_80498314
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_6
 
 # .data:0x155C | 0x8049832C | size: 0x10
-.obj lbl_8049832C, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_7, global
 	.4byte 0x6A702F32
 	.4byte 0x645F736B
 	.4byte 0x792E6870
 	.4byte 0x73000000
-.endobj lbl_8049832C
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_7
 
 # .data:0x156C | 0x8049833C | size: 0x14
-.obj lbl_8049833C, global
+.obj StructOfOffsets_MightBeUsedInAudioFiles_8, global
 	.4byte 0x6A702F32
 	.4byte 0x645F736B
 	.4byte 0x795F7572
 	.4byte 0x612E6870
 	.4byte 0x73000000
-.endobj lbl_8049833C
+.endobj StructOfOffsets_MightBeUsedInAudioFiles_8
 
 # .data:0x1580 | 0x80498350 | size: 0x10
 .obj String_jp/2d_water.hps, global
@@ -2172,14 +2172,14 @@
 .endobj String_jp/studium_point.hps
 
 # .data:0x1980 | 0x80498750 | size: 0x450
-.obj NULL_00000000h, global
+.obj StructOfAudioFilePaths, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_805D5280
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_2
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000000
-	.4byte lbl_80498238
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_1
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x00000001
@@ -2215,27 +2215,27 @@
 	.4byte 0x00000001
 	.4byte 0x0000000A
 	.4byte 0x00000001
-	.4byte lbl_804982D4
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_3
 	.4byte 0x00000001
 	.4byte 0x0000000B
 	.4byte 0x00000001
-	.4byte lbl_804982E8
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_4
 	.4byte 0x00000001
 	.4byte 0x0000000C
 	.4byte 0x00000001
-	.4byte lbl_80498300
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_5
 	.4byte 0x00000001
 	.4byte 0x0000000D
 	.4byte 0x00000001
-	.4byte lbl_80498314
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_6
 	.4byte 0x00000001
 	.4byte 0x0000000E
 	.4byte 0x00000001
-	.4byte lbl_8049832C
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_7
 	.4byte 0x00000001
 	.4byte 0x0000000F
 	.4byte 0x00000001
-	.4byte lbl_8049833C
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_8
 	.4byte 0x00000001
 	.4byte 0x00000010
 	.4byte 0x00000001
@@ -2447,9 +2447,9 @@
 	.4byte 0x00000001
 	.4byte 0x00000044
 	.4byte 0x00000000
-	.4byte lbl_805D5288
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_9
 	.4byte 0x00000000
-.endobj NULL_00000000h
+.endobj StructOfAudioFilePaths
 
 # .data:0x1DD0 | 0x80498BA0 | size: 0x10
 .obj String_jp/airride.sem, global
@@ -2690,7 +2690,7 @@
 	.4byte 0x00000015
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_805D5288
+	.4byte StructOfOffsets_MightBeUsedInAudioFiles_9
 .endobj NULL_00000003h_2
 
 # .data:0x2084 | 0x80498E54 | size: 0x50
