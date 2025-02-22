@@ -27734,110 +27734,110 @@
 .endobj lbl_804B1798
 
 # .data:0x15F80 | 0x804B1AF8 | size: 0x14
-.obj lbl_804B1AF8, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_1, global
 	.4byte 0x56635768
 	.4byte 0x65656C4E
 	.4byte 0x6F726D61
 	.4byte 0x6C2E6461
 	.4byte 0x74000000
-.endobj lbl_804B1AF8
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_1
 
 # .data:0x15F94 | 0x804B1B0C | size: 0x14
-.obj lbl_804B1B0C, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_2, global
 	.4byte 0x76634461
 	.4byte 0x74615768
 	.4byte 0x65656C4E
 	.4byte 0x6F726D61
 	.4byte 0x6C000000
-.endobj lbl_804B1B0C
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_2
 
 # .data:0x15FA8 | 0x804B1B20 | size: 0x14
-.obj lbl_804B1B20, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_3, global
 	.4byte 0x56635768
 	.4byte 0x65656C4B
 	.4byte 0x69726279
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_804B1B20
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_3
 
 # .data:0x15FBC | 0x804B1B34 | size: 0x14
-.obj lbl_804B1B34, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_4, global
 	.4byte 0x76634461
 	.4byte 0x74615768
 	.4byte 0x65656C4B
 	.4byte 0x69726279
 	.4byte 0x00000000
-.endobj lbl_804B1B34
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_4
 
 # .data:0x15FD0 | 0x804B1B48 | size: 0x14
-.obj lbl_804B1B48, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_5, global
 	.4byte 0x56635768
 	.4byte 0x65656C57
 	.4byte 0x6865656C
 	.4byte 0x69652E64
 	.4byte 0x61740000
-.endobj lbl_804B1B48
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_5
 
 # .data:0x15FE4 | 0x804B1B5C | size: 0x14
-.obj lbl_804B1B5C, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_6, global
 	.4byte 0x76634461
 	.4byte 0x74615768
 	.4byte 0x65656C57
 	.4byte 0x6865656C
 	.4byte 0x69650000
-.endobj lbl_804B1B5C
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_6
 
 # .data:0x15FF8 | 0x804B1B70 | size: 0x10
-.obj lbl_804B1B70, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_7, global
 	.4byte 0x56635768
 	.4byte 0x65656C52
 	.4byte 0x65782E64
 	.4byte 0x61740000
-.endobj lbl_804B1B70
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_7
 
 # .data:0x16008 | 0x804B1B80 | size: 0x10
-.obj lbl_804B1B80, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_8, global
 	.4byte 0x76634461
 	.4byte 0x74615768
 	.4byte 0x65656C52
 	.4byte 0x65780000
-.endobj lbl_804B1B80
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_8
 
 # .data:0x16018 | 0x804B1B90 | size: 0x14
-.obj lbl_804B1B90, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_9, global
 	.4byte 0x56635768
 	.4byte 0x65656C53
 	.4byte 0x636F6F74
 	.4byte 0x65722E64
 	.4byte 0x61740000
-.endobj lbl_804B1B90
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_9
 
 # .data:0x1602C | 0x804B1BA4 | size: 0x14
-.obj lbl_804B1BA4, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_10, global
 	.4byte 0x76634461
 	.4byte 0x74615768
 	.4byte 0x65656C53
 	.4byte 0x636F6F74
 	.4byte 0x65720000
-.endobj lbl_804B1BA4
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_10
 
 # .data:0x16040 | 0x804B1BB8 | size: 0x14
-.obj lbl_804B1BB8, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_11, global
 	.4byte 0x56635768
 	.4byte 0x65656C44
 	.4byte 0x65646564
 	.4byte 0x652E6461
 	.4byte 0x74000000
-.endobj lbl_804B1BB8
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_11
 
 # .data:0x16054 | 0x804B1BCC | size: 0x14
-.obj lbl_804B1BCC, global
+.obj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_12, global
 	.4byte 0x76634461
 	.4byte 0x74615768
 	.4byte 0x65656C44
 	.4byte 0x65646564
 	.4byte 0x65000000
-.endobj lbl_804B1BCC
+.endobj MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_12
 
 # .data:0x16068 | 0x804B1BE0 | size: 0x14
 .obj String_HSDName_"VcWheelVsDedede.dat", global
@@ -27851,18 +27851,18 @@
 
 # .data:0x16090 | 0x804B1C08 | size: 0x38
 .obj MegaStruct_StarFileNamesAndHSDNames_2, global
-	.4byte lbl_804B1AF8
-	.4byte lbl_804B1B0C
-	.4byte lbl_804B1B20
-	.4byte lbl_804B1B34
-	.4byte lbl_804B1B48
-	.4byte lbl_804B1B5C
-	.4byte lbl_804B1B70
-	.4byte lbl_804B1B80
-	.4byte lbl_804B1B90
-	.4byte lbl_804B1BA4
-	.4byte lbl_804B1BB8
-	.4byte lbl_804B1BCC
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_1
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_2
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_3
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_4
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_5
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_6
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_7
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_8
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_9
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_10
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_11
+	.4byte MegaStruct_StarFileNamesAndHSDNames_2_MemoryOffset_12
 	.4byte String_HSDName_"VcWheelVsDedede.dat"
 	.4byte String_HSDName_"vcDataWheelVsDedede"
 .endobj MegaStruct_StarFileNamesAndHSDNames_2

@@ -274382,8 +274382,8 @@ void fn_801A5B98(int param_1,int param_2)
       fn_8019065C(s_RdKirbyMotionWalk_dat_804af58c);
     }
     fn_8019065C(s_RdKirbyAbility_dat_804af5b8);
-    fn_801C8C8C(1,1);
-    fn_801C8C8C(0,0x11);
+    fn_SomeShitToDoWithThatLoadsDatAndFilenames(1,1);
+    fn_SomeShitToDoWithThatLoadsDatAndFilenames(0,0x11);
   }
   else {
     fn_8019065C(s_RdKirbyMotionDemo_dat_804af53c);
@@ -301673,7 +301673,7 @@ void fn_801C8C6C(void)
 
 
 
-void fn_801C8C8C(int param_1,int param_2)
+void fn_SomeShitToDoWithThatLoadsDatAndFilenames(int param_1,int param_2)
 
 {
   fn_801C6E3C((&VCWheelShit)[param_1 * 2]);
@@ -375376,7 +375376,7 @@ void fn_80232488(void)
       fn_80192BD8(*piVar2,*(byte *)((int)piVar2 + 9) >> 6 & 1,*(byte *)((int)piVar2 + 9) >> 7);
     }
     if (piVar2[1] != -1) {
-      fn_801C8C8C(piVar2[1],*(undefined *)(piVar2 + 2));
+      fn_SomeShitToDoWithThatLoadsDatAndFilenames(piVar2[1],*(undefined *)(piVar2 + 2));
     }
     iVar1 = iVar1 + 1;
     piVar2 = piVar2 + 3;
