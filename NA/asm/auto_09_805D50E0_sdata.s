@@ -418,9 +418,9 @@
 .endobj lbl_805D52B8
 
 # .sdata:0x1E0 | 0x805D52C0 | size: 0x8
-.obj lbl_805D52C0, global
+.obj String_"gp_PtrPointerTo_req", global
 	.string "gp->req"
-.endobj lbl_805D52C0
+.endobj String_"gp_PtrPointerTo_req"
 
 # .sdata:0x1E8 | 0x805D52C8 | size: 0x8
 .obj lbl_805D52C8, global
@@ -538,9 +538,9 @@
 .endobj lbl_805D5340
 
 # .sdata:0x268 | 0x805D5348 | size: 0x8
-.obj lbl_805D5348, global
+.obj String_"ca_mobj", global
 	.string "ca_mobj"
-.endobj lbl_805D5348
+.endobj String_"ca_mobj"
 
 # .sdata:0x270 | 0x805D5350 | size: 0x8
 .obj lbl_805D5350, global
@@ -597,14 +597,14 @@
 .endobj lbl_805D5390
 
 # .sdata:0x2B8 | 0x805D5398 | size: 0x8
-.obj lbl_805D5398, global
+.obj String_"lbdvd.c", global
 	.string "lbdvd.c"
-.endobj lbl_805D5398
+.endobj String_"lbdvd.c"
 
 # .sdata:0x2C0 | 0x805D53A0 | size: 0x8
-.obj lbl_805D53A0, global
+.obj String_TwoDoublePrintingFormaterStr, global
 	.string "%d, %d\n"
-.endobj lbl_805D53A0
+.endobj String_TwoDoublePrintingFormaterStr
 
 # .sdata:0x2C8 | 0x805D53A8 | size: 0x4
 .obj lbl_805D53A8, global
@@ -629,9 +629,9 @@
 .endobj lbl_805D53BC
 
 # .sdata:0x2E0 | 0x805D53C0 | size: 0x4
-.obj lbl_805D53C0, global
+.obj String_"new", global
 	.string "new"
-.endobj lbl_805D53C0
+.endobj String_"new"
 
 # .sdata:0x2E4 | 0x805D53C4 | size: 0x4
 .obj lbl_805D53C4, global
@@ -639,9 +639,9 @@
 .endobj lbl_805D53C4
 
 # .sdata:0x2E8 | 0x805D53C8 | size: 0x4
-.obj lbl_805D53C8, global
+.obj String_"res", global
 	.string "res"
-.endobj lbl_805D53C8
+.endobj String_"res"
 
 # .sdata:0x2EC | 0x805D53CC | size: 0x8
 .obj lbl_805D53CC, global
@@ -687,14 +687,14 @@
 .endobj lbl_805D53FC
 
 # .sdata:0x328 | 0x805D5408 | size: 0x4
-.obj lbl_805D5408, global
+.obj lbl_root_xml_Wrapper, global
 	.4byte lbl_root_xml
-.endobj lbl_805D5408
+.endobj lbl_root_xml_Wrapper
 
 # .sdata:0x32C | 0x805D540C | size: 0x8
-.obj lbl_805D540C, global
+.obj String_"lbnet.c", global
 	.string "lbnet.c"
-.endobj lbl_805D540C
+.endobj String_"lbnet.c"
 
 # .sdata:0x334 | 0x805D5414 | size: 0x4
 .obj lbl_805D5414, global
@@ -774,9 +774,9 @@
 .endobj lbl_805D5460
 
 # .sdata:0x384 | 0x805D5464 | size: 0x8
-.obj lbl_805D5464, global
+.obj String_"Pause", global
 	.string "  Pause"
-.endobj lbl_805D5464
+.endobj String_"Pause"
 
 # .sdata:0x38C | 0x805D546C | size: 0x4
 .obj lbl_805D546C, global
@@ -789,9 +789,9 @@
 .endobj lbl_805D5470
 
 # .sdata:0x394 | 0x805D5474 | size: 0x4
-.obj lbl_805D5474, global
+.obj String_"doubleFloat6OffsetOfThePeriod_StringFormater", global
 	.string "%6d"
-.endobj lbl_805D5474
+.endobj String_"doubleFloat6OffsetOfThePeriod_StringFormater"
 
 # .sdata:0x398 | 0x805D5478 | size: 0x8
 .obj lbl_805D5478, global
@@ -1040,9 +1040,9 @@
 .endobj lbl_805D5578
 
 # .sdata:0x4A0 | 0x805D5580 | size: 0x4
-.obj lbl_805D5580, global
+.obj String_"CommaDoubleStringFormater", global
 	.string ",%d"
-.endobj lbl_805D5580
+.endobj String_"CommaDoubleStringFormater"
 
 # .sdata:0x4A4 | 0x805D5584 | size: 0x8
 .obj lbl_805D5584, global
@@ -1062,14 +1062,14 @@
 .endobj lbl_805D5590
 
 # .sdata:0x4B8 | 0x805D5598 | size: 0x8
-.obj lbl_805D5598, global
+.obj String_"OffsetTwoDecimelsDoubleWithDashes_StringFormater", global
 	.string "%2d ---"
-.endobj lbl_805D5598
+.endobj String_"OffsetTwoDecimelsDoubleWithDashes_StringFormater"
 
 # .sdata:0x4C0 | 0x805D55A0 | size: 0x8
-.obj lbl_805D55A0, global
+.obj String_"DoubleColonFloat_StringFormatString", global
 	.string "%d : %f"
-.endobj lbl_805D55A0
+.endobj String_"DoubleColonFloat_StringFormatString"
 
 # .sdata:0x4C8 | 0x805D55A8 | size: 0x8
 .obj lbl_805D55A8, global
@@ -1106,14 +1106,14 @@
 .endobj lbl_805D55C8
 
 # .sdata:0x4F0 | 0x805D55D0 | size: 0x8
-.obj lbl_805D55D0, global
+.obj String_"p1PercentDashFiveDouble_StringFormater", global
 	.string "pl%-5d "
-.endobj lbl_805D55D0
+.endobj String_"p1PercentDashFiveDouble_StringFormater"
 
 # .sdata:0x4F8 | 0x805D55D8 | size: 0x8
-.obj lbl_805D55D8, global
+.obj String_"EnWithDashFiveDouble_FormatString", global
 	.string "en%-5d "
-.endobj lbl_805D55D8
+.endobj String_"EnWithDashFiveDouble_FormatString"
 
 # .sdata:0x500 | 0x805D55E0 | size: 0x8
 .obj lbl_805D55E0, global
@@ -1274,9 +1274,9 @@
 .endobj lbl_805D5670
 
 # .sdata:0x598 | 0x805D5678 | size: 0x4
-.obj lbl_805D5678, global
+.obj String_"air"_2, global
 	.string "air"
-.endobj lbl_805D5678
+.endobj String_"air"_2
 
 # .sdata:0x59C | 0x805D567C | size: 0x8
 .obj lbl_805D567C, global
@@ -1339,9 +1339,9 @@
 .endobj lbl_805D56C4
 
 # .sdata:0x5EC | 0x805D56CC | size: 0x4
-.obj lbl_805D56CC, global
+.obj String_"box", global
 	.string "box"
-.endobj lbl_805D56CC
+.endobj String_"box"
 
 # .sdata:0x5F0 | 0x805D56D0 | size: 0x8
 .obj lbl_805D56D0, global
@@ -1374,14 +1374,14 @@
 .endobj lbl_805D56F0
 
 # .sdata:0x618 | 0x805D56F8 | size: 0x8
-.obj lbl_805D56F8, global
+.obj String_"DoubleDecimalFourOffsetColonString_FormatStr", global
 	.string "%4d: %s"
-.endobj lbl_805D56F8
+.endobj String_"DoubleDecimalFourOffsetColonString_FormatStr"
 
 # .sdata:0x620 | 0x805D5700 | size: 0x8
-.obj lbl_805D5700, global
+.obj String_"MaxWithFourDouble_StringFormater", global
 	.string "Max %4d"
-.endobj lbl_805D5700
+.endobj String_"MaxWithFourDouble_StringFormater"
 
 # .sdata:0x628 | 0x805D5708 | size: 0x8
 .obj lbl_805D5708, global
@@ -1414,9 +1414,9 @@
 .endobj lbl_805D5728
 
 # .sdata:0x650 | 0x805D5730 | size: 0x8
-.obj lbl_805D5730, global
+.obj String_"vehicle", global
 	.string "vehicle"
-.endobj lbl_805D5730
+.endobj String_"vehicle"
 
 # .sdata:0x658 | 0x805D5738 | size: 0x8
 .obj lbl_805D5738, global
@@ -1425,9 +1425,9 @@
 .endobj lbl_805D5738
 
 # .sdata:0x660 | 0x805D5740 | size: 0x4
-.obj lbl_805D5740, global
+.obj String_"pos", global
 	.string "pos"
-.endobj lbl_805D5740
+.endobj String_"pos"
 
 # .sdata:0x664 | 0x805D5744 | size: 0x4
 .obj lbl_805D5744, global
@@ -1468,14 +1468,14 @@
 .endobj lbl_805D5764
 
 # .sdata:0x68C | 0x805D576C | size: 0x8
-.obj lbl_805D576C, global
+.obj String_"noCard", global
 	.string "no card"
-.endobj lbl_805D576C
+.endobj String_"noCard"
 
 # .sdata:0x694 | 0x805D5774 | size: 0x8
-.obj lbl_805D5774, global
+.obj String_"noFile", global
 	.string "no file"
-.endobj lbl_805D5774
+.endobj String_"noFile"
 
 # .sdata:0x69C | 0x805D577C | size: 0x8
 .obj lbl_805D577C, global
@@ -1484,14 +1484,14 @@
 .endobj lbl_805D577C
 
 # .sdata:0x6A4 | 0x805D5784 | size: 0x8
-.obj lbl_805D5784, global
+.obj String_"NoCheck"_2, global
 	.string "NoCheck"
-.endobj lbl_805D5784
+.endobj String_"NoCheck"_2
 
 # .sdata:0x6AC | 0x805D578C | size: 0x8
-.obj lbl_805D578C, global
+.obj String_"OldData"_2, global
 	.string "OldData"
-.endobj lbl_805D578C
+.endobj String_"OldData"_2
 
 # .sdata:0x6B4 | 0x805D5794 | size: 0x8
 .obj lbl_805D5794, global
@@ -1500,9 +1500,9 @@
 .endobj lbl_805D5794
 
 # .sdata:0x6BC | 0x805D579C | size: 0x8
-.obj lbl_805D579C, global
+.obj String_"FileMax", global
 	.string "FileMax"
-.endobj lbl_805D579C
+.endobj String_"FileMax"
 
 # .sdata:0x6C4 | 0x805D57A4 | size: 0x8
 .obj lbl_805D57A4, global
@@ -1535,9 +1535,9 @@
 .endobj lbl_805D57C4
 
 # .sdata:0x6EC | 0x805D57CC | size: 0x8
-.obj lbl_805D57CC, global
+.obj String_"Illegal", global
 	.string "Illegal"
-.endobj lbl_805D57CC
+.endobj String_"Illegal"
 
 # .sdata:0x6F4 | 0x805D57D4 | size: 0x8
 .obj lbl_805D57D4, global
@@ -1546,9 +1546,9 @@
 .endobj lbl_805D57D4
 
 # .sdata:0x6FC | 0x805D57DC | size: 0x8
-.obj lbl_805D57DC, global
+.obj String_NewWithSpaces, global
 	.string "    new"
-.endobj lbl_805D57DC
+.endobj String_NewWithSpaces
 
 # .sdata:0x704 | 0x805D57E4 | size: 0x8
 .obj lbl_805D57E4, global
@@ -1638,14 +1638,14 @@
 .endobj lbl_805D583C
 
 # .sdata:0x760 | 0x805D5840 | size: 0x4
-.obj lbl_805D5840, global
+.obj MemoryOffset_46000000, global
 	.4byte 0x46000000
-.endobj lbl_805D5840
+.endobj MemoryOffset_46000000
 
 # .sdata:0x764 | 0x805D5844 | size: 0x4
-.obj lbl_805D5844, global
+.obj MemoryOffset_50000000_1, global
 	.4byte 0x50000000
-.endobj lbl_805D5844
+.endobj MemoryOffset_50000000_1
 
 # .sdata:0x768 | 0x805D5848 | size: 0x4
 .obj lbl_805D5848, global
@@ -4712,9 +4712,9 @@
 .endobj lbl_805D6650
 
 # .sdata:0x1574 | 0x805D6654 | size: 0x4
-.obj lbl_805D6654, global
+.obj MemoryOffset_50000000_3, global
 	.4byte 0x50000000
-.endobj lbl_805D6654
+.endobj MemoryOffset_50000000_3
 
 # .sdata:0x1578 | 0x805D6658 | size: 0x4
 .obj lbl_805D6658, global
@@ -6336,9 +6336,9 @@
 .endobj lbl_805D6EAC
 
 # .sdata:0x1DD0 | 0x805D6EB0 | size: 0x4
-.obj lbl_805D6EB0, global
+.obj MemoryOffset_50000000_2, global
 	.4byte 0x50000000
-.endobj lbl_805D6EB0
+.endobj MemoryOffset_50000000_2
 
 # .sdata:0x1DD4 | 0x805D6EB4 | size: 0x4
 .obj lbl_805D6EB4, global

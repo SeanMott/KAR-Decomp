@@ -38,7 +38,7 @@
 	.4byte lbl_805D5664
 	.4byte lbl_805D566C
 	.4byte lbl_805D5670
-	.4byte lbl_805D5678
+	.4byte String_"air"_2
 	.4byte lbl_805D567C
 	.4byte lbl_805D5684
 	.4byte lbl_805D568C
@@ -49,7 +49,7 @@
 	.4byte lbl_805D56B4
 	.4byte lbl_805D56BC
 	.4byte lbl_805D56C4
-	.4byte lbl_805D56CC
+	.4byte String_"box"
 	.4byte lbl_805D56D0
 	.4byte lbl_805D56D8
 	.4byte lbl_805D56E0
@@ -412,8 +412,8 @@
 	.4byte String_"weiteError"
 	.4byte lbl_8049C008
 	.4byte lbl_8049C020
-	.4byte lbl_805D576C
-	.4byte lbl_805D5774
+	.4byte String_"noCard"
+	.4byte String_"noFile"
 	.4byte String_"BrokenCard"
 	.4byte String_"BrokenData"
 	.4byte lbl_8049C04C
@@ -462,14 +462,14 @@
 	.4byte 0x67446576
 	.4byte 0x69636500
 	.4byte lbl_805D577C
-	.4byte lbl_805D5784
+	.4byte String_"NoCheck"_2
 	.4byte lbl_8049C0A4
-	.4byte lbl_805D578C
+	.4byte String_"OldData"_2
 	.4byte lbl_8049C0B4
 	.4byte lbl_8049C0C0
 	.4byte lbl_805D5794
 	.4byte lbl_8049C0CC
-	.4byte lbl_805D579C
+	.4byte String_"FileMax"
 	.4byte lbl_8049C0D8
 	.4byte lbl_805D57A4
 	.4byte lbl_805D57AC
@@ -477,7 +477,7 @@
 	.4byte lbl_805D57BC
 	.4byte lbl_805D57C4
 	.4byte lbl_8049C0E4
-	.4byte lbl_805D57CC
+	.4byte String_"Illegal"
 .endobj lbl_8049C0E4
 
 # .data:0x5BC | 0x8049C134 | size: 0xC
@@ -614,7 +614,7 @@
 	.4byte 0x2D736176
 	.4byte 0x65000000
 	.4byte lbl_805D57D4
-	.4byte lbl_805D57DC
+	.4byte String_NewWithSpaces
 	.4byte lbl_8049C1B8
 	.4byte lbl_8049C1C8
 	.4byte lbl_8049C1DC
@@ -24522,7 +24522,7 @@
 	.4byte fn_801BC2B8
 	.4byte 0x000001F4
 	.4byte 0x00000000
-	.4byte fn_801BC384
+	.4byte fn_SomethingToDoWithRiderAnimationsEnding
 	.4byte fn_801BC3C0
 	.4byte fn_801BC3E0
 	.4byte fn_801BC400
