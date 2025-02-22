@@ -778,7 +778,7 @@
 .endobj FuncWithAJumpTable_20_JumpTable_80497714
 
 # .data:0x968 | 0x80497738 | size: 0x30
-.obj FuncWithAJumpTable_21_JumpTable, global
+.obj FuncWithAJumpTable_21_JumpTable_80497738, global
 	.4byte fn_FuncWithAJumpTable_21+0xF0
 	.4byte fn_FuncWithAJumpTable_21+0x44C
 	.4byte fn_FuncWithAJumpTable_21+0x3F0
@@ -791,7 +791,7 @@
 	.4byte fn_FuncWithAJumpTable_21+0x568
 	.4byte fn_FuncWithAJumpTable_21+0x568
 	.4byte fn_FuncWithAJumpTable_21+0x544
-.endobj FuncWithAJumpTable_21_JumpTable
+.endobj FuncWithAJumpTable_21_JumpTable_80497738
 
 # .data:0x998 | 0x80497768 | size: 0x380
 .obj lbl_80497768, global
@@ -1101,7 +1101,7 @@
 .endobj String_"P_Error_IsNotEqual_LbNetError_None"
 
 # .data:0xE10 | 0x80497BE0 | size: 0x28
-.obj FuncWithAJumpTable_22_JumpTable, global
+.obj FuncWithAJumpTable_22_JumpTable_80497BE0, global
 	.4byte fn_FuncWithAJumpTable_22+0x118
 	.4byte fn_FuncWithAJumpTable_22+0x9C
 	.4byte fn_FuncWithAJumpTable_22+0xAC
@@ -1112,7 +1112,7 @@
 	.4byte fn_FuncWithAJumpTable_22+0xF0
 	.4byte fn_FuncWithAJumpTable_22+0xFC
 	.4byte fn_FuncWithAJumpTable_22+0x108
-.endobj FuncWithAJumpTable_22_JumpTable
+.endobj FuncWithAJumpTable_22_JumpTable_80497BE0
 
 # .data:0xE38 | 0x80497C08 | size: 0x24
 .obj lbl_80497C08, global
@@ -1128,7 +1128,7 @@
 .endobj lbl_80497C08
 
 # .data:0xE5C | 0x80497C2C | size: 0x34
-.obj FuncWithAJumpTable_23_JumpTable, global
+.obj FuncWithAJumpTable_23_JumpTable_80497C2C, global
 	.4byte fn_FuncWithAJumpTable_23+0x9B8
 	.4byte fn_FuncWithAJumpTable_23+0x850
 	.4byte fn_FuncWithAJumpTable_23+0x858
@@ -1142,10 +1142,10 @@
 	.4byte fn_FuncWithAJumpTable_23+0x898
 	.4byte fn_FuncWithAJumpTable_23+0x930
 	.4byte fn_FuncWithAJumpTable_23+0x938
-.endobj FuncWithAJumpTable_23_JumpTable
+.endobj FuncWithAJumpTable_23_JumpTable_80497C2C
 
 # .data:0xE90 | 0x80497C60 | size: 0x34
-.obj FuncWithAJumpTable_23_JumpTablel_2, global
+.obj FuncWithAJumpTable_23_JumpTablel_2_80497C60, global
 	.4byte fn_FuncWithAJumpTable_23+0x80C
 	.4byte fn_FuncWithAJumpTable_23+0x40
 	.4byte fn_FuncWithAJumpTable_23+0xEC
@@ -1159,7 +1159,7 @@
 	.4byte fn_FuncWithAJumpTable_23+0x72C
 	.4byte fn_FuncWithAJumpTable_23+0x798
 	.4byte fn_FuncWithAJumpTable_23+0x7A0
-.endobj FuncWithAJumpTable_23_JumpTablel_2
+.endobj FuncWithAJumpTable_23_JumpTablel_2_80497C60
 
 # .data:0xEC4 | 0x80497C94 | size: 0x4
 .obj gap_07_80497C94_data, global

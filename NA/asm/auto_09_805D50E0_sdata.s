@@ -6187,9 +6187,9 @@
 .endobj lbl_805D6DF0
 
 # .sdata:0x1D18 | 0x805D6DF8 | size: 0x8
-.obj lbl_805D6DF8, global
+.obj String_"SIS_Lan", global
 	.string "SIS_Lan"
-.endobj lbl_805D6DF8
+.endobj String_"SIS_Lan"
 
 # .sdata:0x1D20 | 0x805D6E00 | size: 0x4
 .obj lbl_805D6E00, global
@@ -6214,9 +6214,9 @@
 .endobj lbl_805D6E10
 
 # .sdata:0x1D38 | 0x805D6E18 | size: 0x4
-.obj lbl_805D6E18, global
+.obj String_"120", global
 	.string "120"
-.endobj lbl_805D6E18
+.endobj String_"120"
 
 # .sdata:0x1D3C | 0x805D6E1C | size: 0x4
 .obj lbl_805D6E1C, global
@@ -6406,9 +6406,9 @@
 .endobj lbl_805D6EF0
 
 # .sdata:0x1E18 | 0x805D6EF8 | size: 0x8
-.obj lbl_805D6EF8, global
+.obj String_"mplib.h"_2, global
 	.string "mplib.h"
-.endobj lbl_805D6EF8
+.endobj String_"mplib.h"_2
 
 # .sdata:0x1E20 | 0x805D6F00 | size: 0x8
 .obj lbl_805D6F00, global
@@ -6435,9 +6435,9 @@
 .endobj lbl_805D6F18
 
 # .sdata:0x1E40 | 0x805D6F20 | size: 0x8
-.obj lbl_805D6F20, global
+.obj String_"mplib.h", global
 	.string "mplib.h"
-.endobj lbl_805D6F20
+.endobj String_"mplib.h"
 
 # .sdata:0x1E48 | 0x805D6F28 | size: 0x8
 .obj lbl_805D6F28, global
@@ -6584,9 +6584,9 @@
 .endobj lbl_805D6FE0
 
 # .sdata:0x1F08 | 0x805D6FE8 | size: 0x8
-.obj lbl_805D6FE8, global
+.obj String_"mplib.h"_3, global
 	.string "mplib.h"
-.endobj lbl_805D6FE8
+.endobj String_"mplib.h"_3
 
 # .sdata:0x1F10 | 0x805D6FF0 | size: 0x8
 .obj lbl_805D6FF0, global
@@ -6685,9 +6685,9 @@
 .endobj lbl_805D7068
 
 # .sdata:0x1F90 | 0x805D7070 | size: 0x8
-.obj lbl_805D7070, global
+.obj String_"mplib.h"_4, global
 	.string "mplib.h"
-.endobj lbl_805D7070
+.endobj String_"mplib.h"_4
 
 # .sdata:0x1F98 | 0x805D7078 | size: 0x8
 .obj lbl_805D7078, global
@@ -6756,14 +6756,14 @@
 .endobj lbl_805D70C8
 
 # .sdata:0x1FF0 | 0x805D70D0 | size: 0x8
-.obj lbl_805D70D0, global
+.obj String_"mplib.h"_5, global
 	.string "mplib.h"
-.endobj lbl_805D70D0
+.endobj String_"mplib.h"_5
 
 # .sdata:0x1FF8 | 0x805D70D8 | size: 0x8
-.obj lbl_805D70D8, global
+.obj String_"enemy.c", global
 	.string "enemy.c"
-.endobj lbl_805D70D8
+.endobj String_"enemy.c"
 
 # .sdata:0x2000 | 0x805D70E0 | size: 0x8
 .obj lbl_805D70E0, global
@@ -6850,9 +6850,9 @@
 .endobj lbl_805D7148
 
 # .sdata:0x2070 | 0x805D7150 | size: 0x8
-.obj lbl_805D7150, global
+.obj String_"mplib.h"_6, global
 	.string "mplib.h"
-.endobj lbl_805D7150
+.endobj String_"mplib.h"_6
 
 # .sdata:0x2078 | 0x805D7158 | size: 0x4
 .obj lbl_805D7158, global
@@ -6889,9 +6889,9 @@
 .endobj lbl_805D7178
 
 # .sdata:0x20A0 | 0x805D7180 | size: 0x8
-.obj lbl_805D7180, global
+.obj String_"mplib.h"_7, global
 	.string "mplib.h"
-.endobj lbl_805D7180
+.endobj String_"mplib.h"_7
 
 # .sdata:0x20A8 | 0x805D7188 | size: 0x8
 .obj lbl_805D7188, global
@@ -6948,19 +6948,19 @@
 .endobj lbl_805D71C8
 
 # .sdata:0x20F0 | 0x805D71D0 | size: 0x8
-.obj lbl_805D71D0, global
+.obj String_"mplib.h"_8, global
 	.string "mplib.h"
-.endobj lbl_805D71D0
+.endobj String_"mplib.h"_8
 
 # .sdata:0x20F8 | 0x805D71D8 | size: 0x8
-.obj lbl_805D71D8, global
+.obj String_"mplib.h"_9, global
 	.string "mplib.h"
-.endobj lbl_805D71D8
+.endobj String_"mplib.h"_9
 
 # .sdata:0x2100 | 0x805D71E0 | size: 0x8
-.obj lbl_805D71E0, global
+.obj String_"mplib.h"_10, global
 	.string "mplib.h"
-.endobj lbl_805D71E0
+.endobj String_"mplib.h"_10
 
 # .sdata:0x2108 | 0x805D71E8 | size: 0x8
 .obj lbl_805D71E8, global
@@ -7076,9 +7076,9 @@
 .endobj lbl_805D7278
 
 # .sdata:0x219C | 0x805D727C | size: 0x8
-.obj lbl_805D727C, global
+.obj String_"EfEnemy", global
 	.string "EfEnemy"
-.endobj lbl_805D727C
+.endobj String_"EfEnemy"
 
 # .sdata:0x21A4 | 0x805D7284 | size: 0xC
 .obj lbl_805D7284, global
@@ -7088,9 +7088,9 @@
 .endobj lbl_805D7284
 
 # .sdata:0x21B0 | 0x805D7290 | size: 0x8
-.obj lbl_805D7290, global
+.obj String_"eflib.c", global
 	.string "eflib.c"
-.endobj lbl_805D7290
+.endobj String_"eflib.c"
 
 # .sdata:0x21B8 | 0x805D7298 | size: 0x4
 .obj lbl_805D7298, global
@@ -7122,9 +7122,9 @@
 .endobj lbl_805D72B4
 
 # .sdata:0x21DC | 0x805D72BC | size: 0x4
-.obj lbl_805D72BC, global
+.obj String_"eup", global
 	.string "eup"
-.endobj lbl_805D72BC
+.endobj String_"eup"
 
 # .sdata:0x21E0 | 0x805D72C0 | size: 0x4
 .obj lbl_805D72C0, global
@@ -7227,9 +7227,9 @@
 .endobj lbl_805D7338
 
 # .sdata:0x2260 | 0x805D7340 | size: 0x8
-.obj lbl_805D7340, global
+.obj String_"mplib.h"_11, global
 	.string "mplib.c"
-.endobj lbl_805D7340
+.endobj String_"mplib.h"_11
 
 # .sdata:0x2268 | 0x805D7348 | size: 0x8
 .obj lbl_805D7348, global
@@ -7238,14 +7238,14 @@
 .endobj lbl_805D7348
 
 # .sdata:0x2270 | 0x805D7350 | size: 0x8
-.obj lbl_805D7350, global
+.obj String_"mplib.h"_12, global
 	.string "mplib.h"
-.endobj lbl_805D7350
+.endobj String_"mplib.h"_12
 
 # .sdata:0x2278 | 0x805D7358 | size: 0x8
-.obj lbl_805D7358, global
+.obj String_"mplib.h"_13, global
 	.string "mplib.h"
-.endobj lbl_805D7358
+.endobj String_"mplib.h"_13
 
 # .sdata:0x2280 | 0x805D7360 | size: 0x8
 .obj lbl_805D7360, global
@@ -7308,9 +7308,9 @@
 .endobj lbl_805D73A8
 
 # .sdata:0x22D0 | 0x805D73B0 | size: 0x8
-.obj lbl_805D73B0, global
+.obj String_"itlib.c", global
 	.string "itlib.c"
-.endobj lbl_805D73B0
+.endobj String_"itlib.c"
 
 # .sdata:0x22D8 | 0x805D73B8 | size: 0x8
 .obj lbl_805D73B8, global
@@ -7319,14 +7319,14 @@
 .endobj lbl_805D73B8
 
 # .sdata:0x22E0 | 0x805D73C0 | size: 0x8
-.obj lbl_805D73C0, global
+.obj String_"mplib.h"_14, global
 	.string "mplib.h"
-.endobj lbl_805D73C0
+.endobj String_"mplib.h"_14
 
 # .sdata:0x22E8 | 0x805D73C8 | size: 0x8
-.obj lbl_805D73C8, global
+.obj String_"itmap.c", global
 	.string "itmap.c"
-.endobj lbl_805D73C8
+.endobj String_"itmap.c"
 
 # .sdata:0x22F0 | 0x805D73D0 | size: 0x8
 .obj lbl_805D73D0, global
@@ -7335,9 +7335,9 @@
 .endobj lbl_805D73D0
 
 # .sdata:0x22F8 | 0x805D73D8 | size: 0x8
-.obj lbl_805D73D8, global
+.obj String_"stage.c", global
 	.string "stage.c"
-.endobj lbl_805D73D8
+.endobj String_"stage.c"
 
 # .sdata:0x2300 | 0x805D73E0 | size: 0x8
 .obj lbl_805D73E0, global
@@ -7566,13 +7566,13 @@
 .endobj lbl_805D7500
 
 # .sdata:0x2428 | 0x805D7508 | size: 0x8
-.obj lbl_805D7508, global
+.obj String_"RomFont", global
 	.string "RomFont"
-.endobj lbl_805D7508
+.endobj String_"RomFont"
 
 # .sdata:0x2430 | 0x805D7510 | size: 0x8
 .obj lbl_805D7510, global
-	.4byte lbl_805D7508
+	.4byte String_"RomFont"
 	.4byte lbl_804BB7C0
 .endobj lbl_805D7510
 
@@ -7839,9 +7839,9 @@
 .endobj lbl_805D7668
 
 # .sdata:0x2590 | 0x805D7670 | size: 0x8
-.obj lbl_805D7670, global
+.obj String_"ItemMgr", global
 	.string "ItemMgr"
-.endobj lbl_805D7670
+.endobj String_"ItemMgr"
 
 # .sdata:0x2598 | 0x805D7678 | size: 0x8
 .obj lbl_805D7678, global
@@ -7851,7 +7851,7 @@
 
 # .sdata:0x25A0 | 0x805D7680 | size: 0x8
 .obj lbl_805D7680, global
-	.4byte lbl_805D7670
+	.4byte String_"ItemMgr"
 	.4byte lbl_804BC784
 .endobj lbl_805D7680
 
@@ -8329,15 +8329,15 @@
 .endobj lbl_805D78F4
 
 # .sdata:0x281C | 0x805D78FC | size: 0x8
-.obj lbl_805D78FC, global
+.obj String_"FL_CObj", global
 	.string "FL_CObj"
-.endobj lbl_805D78FC
+.endobj String_"FL_CObj"
 
 # .sdata:0x2824 | 0x805D7904 | size: 0x8
-.obj lbl_805D7904, global
-	.4byte lbl_805D78FC
+.obj FL_CObj_String_Handler, global
+	.4byte String_"FL_CObj"
 	.4byte 0x00000000
-.endobj lbl_805D7904
+.endobj FL_CObj_String_Handler
 
 # .sdata:0x282C | 0x805D790C | size: 0x8
 .obj lbl_805D790C, global
@@ -8382,15 +8382,15 @@
 .endobj lbl_805D793C
 
 # .sdata:0x2864 | 0x805D7944 | size: 0x8
-.obj lbl_805D7944, global
+.obj String_"LapTime", global
 	.string "LapTime"
-.endobj lbl_805D7944
+.endobj String_"LapTime"
 
 # .sdata:0x286C | 0x805D794C | size: 0x8
-.obj lbl_805D794C, global
-	.4byte lbl_805D7944
+.obj LapTime_String_Handler, global
+	.4byte String_"LapTime"
 	.4byte 0x00000000
-.endobj lbl_805D794C
+.endobj LapTime_String_Handler
 
 # .sdata:0x2874 | 0x805D7954 | size: 0x8
 .obj lbl_805D7954, global
@@ -8483,19 +8483,19 @@
 .endobj lbl_805D79C4
 
 # .sdata:0x28EC | 0x805D79CC | size: 0x8
-.obj lbl_805D79CC, global
+.obj String_"MineMgr"_1, global
 	.string "MineMgr"
-.endobj lbl_805D79CC
+.endobj String_"MineMgr"_1
 
 # .sdata:0x28F4 | 0x805D79D4 | size: 0x8
 .obj lbl_805D79D4, global
-	.4byte lbl_805D79CC
+	.4byte String_"MineMgr"_1
 	.4byte lbl_804BD554
 .endobj lbl_805D79D4
 
 # .sdata:0x28FC | 0x805D79DC | size: 0x8
 .obj lbl_805D79DC, global
-	.4byte lbl_804BD584
+	.4byte String_"Singleton_Template_ChickMgr"
 	.4byte 0x00000000
 .endobj lbl_805D79DC
 
@@ -9029,7 +9029,7 @@
 
 # .sdata:0x2BC4 | 0x805D7CA4 | size: 0x8
 .obj lbl_805D7CA4, global
-	.4byte lbl_804BF05C
+	.4byte String_"ObjCollect_Template_ChickMgr::Chick"
 	.4byte 0x00000000
 .endobj lbl_805D7CA4
 
@@ -14706,9 +14706,9 @@
 .endobj lbl_805D99FC
 
 # .sdata:0x4920 | 0x805D9A00 | size: 0x8
-.obj String_"MineMgr", global
+.obj String_"MineMgr"_2, global
 	.string "MineMgr"
-.endobj String_"MineMgr"
+.endobj String_"MineMgr"_2
 
 # .sdata:0x4928 | 0x805D9A08 | size: 0x8
 .obj HandleOfKind_15, global
@@ -14718,7 +14718,7 @@
 
 # .sdata:0x4930 | 0x805D9A10 | size: 0x8
 .obj MineMgr_HandleOfSomething, global
-	.4byte String_"MineMgr"
+	.4byte String_"MineMgr"_2
 	.4byte OtherRandomHandle_1
 .endobj MineMgr_HandleOfSomething
 

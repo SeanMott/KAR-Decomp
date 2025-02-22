@@ -42430,7 +42430,7 @@
 
 # .data:0x216F4 | 0x804BD26C | size: 0x18
 .obj lbl_804BD26C, global
-	.4byte lbl_805D7904
+	.4byte FL_CObj_String_Handler
 	.4byte 0x00000000
 	.4byte fn_8028F4A8
 	.4byte fn_80291E58
@@ -42536,7 +42536,7 @@
 
 # .data:0x217CC | 0x804BD344 | size: 0xC
 .obj lbl_804BD344, global
-	.4byte lbl_805D794C
+	.4byte LapTime_String_Handler
 	.4byte 0x00000000
 	.4byte fn_80292294
 .endobj lbl_804BD344
@@ -42833,9 +42833,9 @@
 .endobj lbl_804BD578
 
 # .data:0x21A0C | 0x804BD584 | size: 0x14
-.obj lbl_804BD584, global
+.obj String_"Singleton_Template_ChickMgr", global
 	.string "Singleton<ChickMgr>"
-.endobj lbl_804BD584
+.endobj String_"Singleton_Template_ChickMgr"
 
 # .data:0x21A20 | 0x804BD598 | size: 0xC
 .obj lbl_804BD598, global
@@ -45345,9 +45345,9 @@
 .endobj lbl_804BF034
 
 # .data:0x234E4 | 0x804BF05C | size: 0x1C
-.obj lbl_804BF05C, global
+.obj String_"ObjCollect_Template_ChickMgr::Chick", global
 	.string "ObjCollect<ChickMgr::Chick>"
-.endobj lbl_804BF05C
+.endobj String_"ObjCollect_Template_ChickMgr::Chick"
 
 # .data:0x23500 | 0x804BF078 | size: 0x28
 .obj lbl_804BF078, global
