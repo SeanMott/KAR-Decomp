@@ -27048,22 +27048,22 @@
 .endobj lbl_804B0FB8
 
 # .data:0x15710 | 0x804B1288 | size: 0x14
-.obj lbl_804B1288, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_1, global
 	.4byte 0x56635374
 	.4byte 0x61724E6F
 	.4byte 0x726D616C
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_804B1288
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_1
 
 # .data:0x15724 | 0x804B129C | size: 0x14
-.obj lbl_804B129C, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_2, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x61724E6F
 	.4byte 0x726D616C
 	.4byte 0x00000000
-.endobj lbl_804B129C
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_2
 
 # .data:0x15738 | 0x804B12B0 | size: 0x10
 .obj Struct_String_VCStarNameFilename_"VcStarLight.dat", global
@@ -27076,25 +27076,25 @@
 .endobj Struct_String_VCStarNameHSDNode_"VcStarLight"
 
 # .data:0x15758 | 0x804B12D0 | size: 0x10
-.obj lbl_804B12D0, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_3, global
 	.4byte 0x56635374
 	.4byte 0x61725769
 	.4byte 0x6E672E64
 	.4byte 0x61740000
-.endobj lbl_804B12D0
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_3
 
 # .data:0x15768 | 0x804B12E0 | size: 0x10
-.obj lbl_804B12E0, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_4, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x61725769
 	.4byte 0x6E670000
-.endobj lbl_804B12E0
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_4
 
 # .data:0x15778 | 0x804B12F0 | size: 0x10
-.obj lbl_804B12F0, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_5, global
 	.string "VcStarDevil.dat"
-.endobj lbl_804B12F0
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_5
 
 # .data:0x15788 | 0x804B1300 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataStarDevil", global
@@ -27102,9 +27102,9 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataStarDevil"
 
 # .data:0x15798 | 0x804B1310 | size: 0x10
-.obj lbl_804B1310, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_6, global
 	.string "VcStarHydra.dat"
-.endobj lbl_804B1310
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_6
 
 # .data:0x157A8 | 0x804B1320 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataStarHydra", global
@@ -27112,9 +27112,9 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataStarHydra"
 
 # .data:0x157B8 | 0x804B1330 | size: 0x10
-.obj lbl_804B1330, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_7, global
 	.string "VcStarHeavy.dat"
-.endobj lbl_804B1330
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_7
 
 # .data:0x157C8 | 0x804B1340 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataStarHeavy", global
@@ -27122,9 +27122,9 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataStarHeavy"
 
 # .data:0x157D8 | 0x804B1350 | size: 0x10
-.obj lbl_804B1350, global
+.obj Struct_String_VCStarNameHSDNode_"VcStarSlick.dat", global
 	.string "VcStarSlick.dat"
-.endobj lbl_804B1350
+.endobj Struct_String_VCStarNameHSDNode_"VcStarSlick.dat"
 
 # .data:0x157E8 | 0x804B1360 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataStarSlick", global
@@ -27132,45 +27132,45 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataStarSlick"
 
 # .data:0x157F8 | 0x804B1370 | size: 0x14
-.obj lbl_804B1370, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_8, global
 	.4byte 0x56635374
 	.4byte 0x6172466F
 	.4byte 0x726D756C
 	.4byte 0x612E6461
 	.4byte 0x74000000
-.endobj lbl_804B1370
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_8
 
 # .data:0x1580C | 0x804B1384 | size: 0x14
-.obj lbl_804B1384, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_9, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x6172466F
 	.4byte 0x726D756C
 	.4byte 0x61000000
-.endobj lbl_804B1384
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_9
 
 # .data:0x15820 | 0x804B1398 | size: 0x14
-.obj lbl_804B1398, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_10, global
 	.4byte 0x56635374
 	.4byte 0x61724472
 	.4byte 0x61676F6F
 	.4byte 0x6E2E6461
 	.4byte 0x74000000
-.endobj lbl_804B1398
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_10
 
 # .data:0x15834 | 0x804B13AC | size: 0x14
-.obj lbl_804B13AC, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_11, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x61724472
 	.4byte 0x61676F6F
 	.4byte 0x6E000000
-.endobj lbl_804B13AC
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_11
 
 # .data:0x15848 | 0x804B13C0 | size: 0x10
-.obj lbl_804B13C0, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_12, global
 	.string "VcStarWagon.dat"
-.endobj lbl_804B13C0
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_12
 
 # .data:0x15858 | 0x804B13D0 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataStarWagon", global
@@ -27178,27 +27178,27 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataStarWagon"
 
 # .data:0x15868 | 0x804B13E0 | size: 0x14
-.obj lbl_804B13E0, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_13, global
 	.4byte 0x56635374
 	.4byte 0x6172526F
 	.4byte 0x636B6574
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_804B13E0
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_13
 
 # .data:0x1587C | 0x804B13F4 | size: 0x14
-.obj lbl_804B13F4, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_14, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x6172526F
 	.4byte 0x636B6574
 	.4byte 0x00000000
-.endobj lbl_804B13F4
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_14
 
 # .data:0x15890 | 0x804B1408 | size: 0x10
-.obj lbl_804B1408, global
+.obj Struct_String_VCStarNameFilename_"VcStarRuins.dat", global
 	.string "VcStarRuins.dat"
-.endobj lbl_804B1408
+.endobj Struct_String_VCStarNameFilename_"VcStarRuins.dat"
 
 # .data:0x158A0 | 0x804B1418 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataStarRuins", global
@@ -27206,9 +27206,9 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataStarRuins"
 
 # .data:0x158B0 | 0x804B1428 | size: 0x10
-.obj lbl_804B1428, global
+.obj Struct_String_VCStarNameHSDNode_"VcStarTurbo.dat", global
 	.string "VcStarTurbo.dat"
-.endobj lbl_804B1428
+.endobj Struct_String_VCStarNameHSDNode_"VcStarTurbo.dat"
 
 # .data:0x158C0 | 0x804B1438 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataStarTurbo", global
@@ -27216,77 +27216,77 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataStarTurbo"
 
 # .data:0x158D0 | 0x804B1448 | size: 0x10
-.obj lbl_804B1448, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_15, global
 	.4byte 0x56635374
 	.4byte 0x61724A65
 	.4byte 0x742E6461
 	.4byte 0x74000000
-.endobj lbl_804B1448
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_15
 
 # .data:0x158E0 | 0x804B1458 | size: 0x10
-.obj lbl_804B1458, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_16, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x61724A65
 	.4byte 0x74000000
-.endobj lbl_804B1458
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_16
 
 # .data:0x158F0 | 0x804B1468 | size: 0x14
-.obj lbl_804B1468, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_17, global
 	.4byte 0x56635374
 	.4byte 0x6172466C
 	.4byte 0x69676874
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_804B1468
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_17
 
 # .data:0x15904 | 0x804B147C | size: 0x14
-.obj lbl_804B147C, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_18, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x6172466C
 	.4byte 0x69676874
 	.4byte 0x00000000
-.endobj lbl_804B147C
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_18
 
 # .data:0x15918 | 0x804B1490 | size: 0x10
-.obj lbl_804B1490, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_19, global
 	.4byte 0x56635374
 	.4byte 0x61724672
 	.4byte 0x65652E64
 	.4byte 0x61740000
-.endobj lbl_804B1490
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_19
 
 # .data:0x15928 | 0x804B14A0 | size: 0x10
-.obj lbl_804B14A0, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_20, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x61724672
 	.4byte 0x65650000
-.endobj lbl_804B14A0
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_20
 
 # .data:0x15938 | 0x804B14B0 | size: 0x14
-.obj lbl_804B14B0, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_21, global
 	.4byte 0x56635374
 	.4byte 0x61724861
 	.4byte 0x6E646C65
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_804B14B0
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_21
 
 # .data:0x1594C | 0x804B14C4 | size: 0x14
-.obj lbl_804B14C4, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_22, global
 	.4byte 0x76634461
 	.4byte 0x74615374
 	.4byte 0x61724861
 	.4byte 0x6E646C65
 	.4byte 0x00000000
-.endobj lbl_804B14C4
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_22
 
 # .data:0x15960 | 0x804B14D8 | size: 0x10
-.obj lbl_804B14D8, global
+.obj Struct_String_VCStarNameHSDNode_"VcWingKirby.dat", global
 	.string "VcWingKirby.dat"
-.endobj lbl_804B14D8
+.endobj Struct_String_VCStarNameHSDNode_"VcWingKirby.dat"
 
 # .data:0x15970 | 0x804B14E8 | size: 0x10
 .obj Struct_String_VCStarNameHSDNode_"vcDataWingKirby", global
@@ -27294,65 +27294,65 @@
 .endobj Struct_String_VCStarNameHSDNode_"vcDataWingKirby"
 
 # .data:0x15980 | 0x804B14F8 | size: 0x18
-.obj lbl_804B14F8, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_23, global
 	.4byte 0x56635769
 	.4byte 0x6E674D65
 	.4byte 0x74614B6E
 	.4byte 0x69676874
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_804B14F8
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_23
 
 # .data:0x15998 | 0x804B1510 | size: 0x18
-.obj lbl_804B1510, global
+.obj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_24, global
 	.4byte 0x76634461
 	.4byte 0x74615769
 	.4byte 0x6E674D65
 	.4byte 0x74614B6E
 	.4byte 0x69676874
 	.4byte 0x00000000
-.endobj lbl_804B1510
+.endobj MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_24
 
 # .data:0x159B0 | 0x804B1528 | size: 0x98
 .obj MegaStruct_StarFileNamesAndHSDNames, global
-	.4byte lbl_804B1288
-	.4byte lbl_804B129C
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_1
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_2
 	.4byte Struct_String_VCStarNameFilename_"VcStarLight.dat"
 	.4byte Struct_String_VCStarNameHSDNode_"VcStarLight"
-	.4byte lbl_804B12D0
-	.4byte lbl_804B12E0
-	.4byte lbl_804B12F0
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_3
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_4
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_5
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataStarDevil"
-	.4byte lbl_804B1310
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_6
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataStarHydra"
-	.4byte lbl_804B1330
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_7
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataStarHeavy"
-	.4byte lbl_804B1350
+	.4byte Struct_String_VCStarNameHSDNode_"VcStarSlick.dat"
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataStarSlick"
-	.4byte lbl_804B1370
-	.4byte lbl_804B1384
-	.4byte lbl_804B1398
-	.4byte lbl_804B13AC
-	.4byte lbl_804B13C0
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_8
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_9
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_10
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_11
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_12
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataStarWagon"
-	.4byte lbl_804B13E0
-	.4byte lbl_804B13F4
-	.4byte lbl_804B1408
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_13
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_14
+	.4byte Struct_String_VCStarNameFilename_"VcStarRuins.dat"
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataStarRuins"
-	.4byte lbl_804B1428
+	.4byte Struct_String_VCStarNameHSDNode_"VcStarTurbo.dat"
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataStarTurbo"
-	.4byte lbl_804B1448
-	.4byte lbl_804B1458
-	.4byte lbl_804B1468
-	.4byte lbl_804B147C
-	.4byte lbl_804B1490
-	.4byte lbl_804B14A0
-	.4byte lbl_804B14B0
-	.4byte lbl_804B14C4
-	.4byte lbl_804B14D8
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_15
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_16
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_17
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_18
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_19
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_20
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_21
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_22
+	.4byte Struct_String_VCStarNameHSDNode_"VcWingKirby.dat"
 	.4byte Struct_String_VCStarNameHSDNode_"vcDataWingKirby"
-	.4byte lbl_804B14F8
-	.4byte lbl_804B1510
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_23
+	.4byte MegaStruct_StarFileNamesAndHSDNames_MemoryOffsetElement_24
 .endobj MegaStruct_StarFileNamesAndHSDNames
 
 # .data:0x15A48 | 0x804B15C0 | size: 0x4C
@@ -27840,14 +27840,14 @@
 .endobj lbl_804B1BCC
 
 # .data:0x16068 | 0x804B1BE0 | size: 0x14
-.obj lbl_804B1BE0, global
+.obj String_HSDName_"VcWheelVsDedede.dat", global
 	.string "VcWheelVsDedede.dat"
-.endobj lbl_804B1BE0
+.endobj String_HSDName_"VcWheelVsDedede.dat"
 
 # .data:0x1607C | 0x804B1BF4 | size: 0x14
-.obj lbl_804B1BF4, global
+.obj String_HSDName_"vcDataWheelVsDedede", global
 	.string "vcDataWheelVsDedede"
-.endobj lbl_804B1BF4
+.endobj String_HSDName_"vcDataWheelVsDedede"
 
 # .data:0x16090 | 0x804B1C08 | size: 0x38
 .obj MegaStruct_StarFileNamesAndHSDNames_2, global
@@ -27863,8 +27863,8 @@
 	.4byte lbl_804B1BA4
 	.4byte lbl_804B1BB8
 	.4byte lbl_804B1BCC
-	.4byte lbl_804B1BE0
-	.4byte lbl_804B1BF4
+	.4byte String_HSDName_"VcWheelVsDedede.dat"
+	.4byte String_HSDName_"vcDataWheelVsDedede"
 .endobj MegaStruct_StarFileNamesAndHSDNames_2
 
 # .data:0x160C8 | 0x804B1C40 | size: 0x98
