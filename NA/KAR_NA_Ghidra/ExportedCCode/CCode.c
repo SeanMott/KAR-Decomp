@@ -301683,7 +301683,7 @@ void fn_801C8C8C(int param_1,int param_2)
 
 
 
-void fn_801C8CEC(undefined4 param_1)
+void fn_GetVCStarDatFileNamerDatFileName(undefined4 param_1)
 
 {
   uint uVar1;
@@ -411322,7 +411322,7 @@ void fn_80262BA4(undefined4 param_1)
   fn_800CE964();
   fn_800F82EC(param_1);
   fn_80192C58(param_1);
-  fn_801C8CEC(param_1);
+  fn_GetVCStarDatFileNamerDatFileName(param_1);
   fn_800F2468(param_1);
   fn_8024FF94(param_1);
   fn_80283D98(param_1);
