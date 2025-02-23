@@ -1,13 +1,15 @@
-MemoryOffset_137
+MemoryOffset_204
 
-AllZeros_20
+AllZeros_23
 
-StructValues_7
+StructValues_12
 
-ByteArray_5
+ByteArray_10
 
-StructWithStructs_11
+StructWithStructs_12
 
 StructValues_Double_3
+
+StructWithFuncPtrs_1
 
 StructWithFuncPtrs_HSD_1
