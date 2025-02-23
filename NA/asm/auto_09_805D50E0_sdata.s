@@ -7205,14 +7205,14 @@
 .endobj lbl_805D7320
 
 # .sdata:0x2248 | 0x805D7328 | size: 0x4
-.obj lbl_805D7328, global
+.obj AllFs_1, global
 	.4byte 0xFFFFFFFF
-.endobj lbl_805D7328
+.endobj AllFs_1
 
 # .sdata:0x224C | 0x805D732C | size: 0x4
-.obj lbl_805D732C, global
+.obj AllFs_2, global
 	.4byte 0xFFFFFFFF
-.endobj lbl_805D732C
+.endobj AllFs_2
 
 # .sdata:0x2250 | 0x805D7330 | size: 0x8
 .obj lbl_805D7330, global
@@ -7470,10 +7470,10 @@
 .endobj lbl_805D7480
 
 # .sdata:0x23A8 | 0x805D7488 | size: 0x8
-.obj lbl_805D7488, global
+.obj StructWithStructs_13, global
 	.4byte lbl_804BB598
 	.4byte lbl_804BB5A8
-.endobj lbl_805D7488
+.endobj StructWithStructs_13
 
 # .sdata:0x23B0 | 0x805D7490 | size: 0x8
 .obj lbl_805D7490, global
@@ -8156,9 +8156,9 @@
 .endobj lbl_805D7810
 
 # .sdata:0x2738 | 0x805D7818 | size: 0x4
-.obj lbl_805D7818, global
+.obj StructValues_Float_1, global
 	.float 1
-.endobj lbl_805D7818
+.endobj StructValues_Float_1
 
 # .sdata:0x273C | 0x805D781C | size: 0x8
 .obj lbl_805D781C, global
@@ -9136,9 +9136,9 @@
 .endobj lbl_805D7D30
 
 # .sdata:0x2C58 | 0x805D7D38 | size: 0x4
-.obj lbl_805D7D38, global
+.obj AllZeros_24, global
 	.4byte 0x00000000
-.endobj lbl_805D7D38
+.endobj AllZeros_24
 
 # .sdata:0x2C5C | 0x805D7D3C | size: 0x8
 .obj lbl_805D7D3C, global
@@ -9683,9 +9683,9 @@
 .endobj lbl_805D8000
 
 # .sdata:0x2F28 | 0x805D8008 | size: 0x4
-.obj lbl_805D8008, global
+.obj StructValues_15, global
 	.4byte 0x00000001
-.endobj lbl_805D8008
+.endobj StructValues_15
 
 # .sdata:0x2F2C | 0x805D800C | size: 0x8
 .obj lbl_805D800C, global
@@ -13286,14 +13286,14 @@
 .endobj lbl_805D92C0
 
 # .sdata:0x41E8 | 0x805D92C8 | size: 0x4
-.obj lbl_805D92C8, global
+.obj AllZeros_25, global
 	.4byte 0x00000000
-.endobj lbl_805D92C8
+.endobj AllZeros_25
 
 # .sdata:0x41EC | 0x805D92CC | size: 0x4
-.obj lbl_805D92CC, global
+.obj StructValues_16, global
 	.4byte 0x000000FF
-.endobj lbl_805D92CC
+.endobj StructValues_16
 
 # .sdata:0x41F0 | 0x805D92D0 | size: 0x8
 .obj lbl_805D92D0, global
@@ -14173,9 +14173,9 @@
 .endobj String_CurlyBracketRightNewLineWithSemiColon
 
 # .sdata:0x4674 | 0x805D9754 | size: 0x4
-.obj lbl_805D9754, global
+.obj StructValues_Float_2, global
 	.float 1
-.endobj lbl_805D9754
+.endobj StructValues_Float_2
 
 # .sdata:0x4678 | 0x805D9758 | size: 0x8
 .obj lbl_805D9758, global
@@ -14220,9 +14220,9 @@
 .endobj lbl_805D9788
 
 # .sdata:0x46B0 | 0x805D9790 | size: 0x4
-.obj lbl_805D9790, global
+.obj StructValues_17, global
 	.4byte 0x00000001
-.endobj lbl_805D9790
+.endobj StructValues_17
 
 # .sdata:0x46B4 | 0x805D9794 | size: 0x8
 .obj lbl_805D9794, global
@@ -14248,29 +14248,29 @@
 .endobj RandomValue_NULL_2
 
 # .sdata:0x46D4 | 0x805D97B4 | size: 0x4
-.obj lbl_805D97B4, global
+.obj StructValues_18, global
 	.4byte 0x000000FF
-.endobj lbl_805D97B4
+.endobj StructValues_18
 
 # .sdata:0x46D8 | 0x805D97B8 | size: 0x4
-.obj lbl_805D97B8, global
+.obj AllZeros_26, global
 	.4byte 0x00000000
-.endobj lbl_805D97B8
+.endobj AllZeros_26
 
 # .sdata:0x46DC | 0x805D97BC | size: 0x4
-.obj lbl_805D97BC, global
+.obj StructValues_19, global
 	.4byte 0x000000FF
-.endobj lbl_805D97BC
+.endobj StructValues_19
 
 # .sdata:0x46E0 | 0x805D97C0 | size: 0x4
-.obj lbl_805D97C0, global
+.obj AllZeros_27, global
 	.4byte 0x00000000
-.endobj lbl_805D97C0
+.endobj AllZeros_27
 
 # .sdata:0x46E4 | 0x805D97C4 | size: 0x4
-.obj lbl_805D97C4, global
+.obj StructValues_20, global
 	.4byte 0x000000FF
-.endobj lbl_805D97C4
+.endobj StructValues_20
 
 # .sdata:0x46E8 | 0x805D97C8 | size: 0x8
 .obj lbl_805D97C8, global
@@ -14344,9 +14344,9 @@
 .endobj lbl_805D981C
 
 # .sdata:0x4744 | 0x805D9824 | size: 0x4
-.obj lbl_805D9824, global
+.obj StructValues_21, global
 	.4byte 0x00000002
-.endobj lbl_805D9824
+.endobj StructValues_21
 
 # .sdata:0x4748 | 0x805D9828 | size: 0x8
 .obj lbl_805D9828, global
@@ -21379,14 +21379,14 @@
 .endobj lbl_805DBC80
 
 # .sdata:0x6BA8 | 0x805DBC88 | size: 0x4
-.obj lbl_805DBC88, global
+.obj AllZeros_28, global
 	.4byte 0x00000000
-.endobj lbl_805DBC88
+.endobj AllZeros_28
 
 # .sdata:0x6BAC | 0x805DBC8C | size: 0x4
-.obj lbl_805DBC8C, global
+.obj StructValues_22, global
 	.4byte 0x000000FF
-.endobj lbl_805DBC8C
+.endobj StructValues_22
 
 # .sdata:0x6BB0 | 0x805DBC90 | size: 0x8
 .obj lbl_805DBC90, global
@@ -22012,9 +22012,9 @@
 .endobj lbl_805DBFC8
 
 # .sdata:0x6EF0 | 0x805DBFD0 | size: 0x4
-.obj lbl_805DBFD0, global
+.obj StructWithStructs_14, global
 	.4byte lbl_804F4A04
-.endobj lbl_805DBFD0
+.endobj StructWithStructs_14
 
 # .sdata:0x6EF4 | 0x805DBFD4 | size: 0x8
 .obj lbl_805DBFD4, global
@@ -22710,24 +22710,24 @@
 .endobj lbl_805DC340
 
 # .sdata:0x7268 | 0x805DC348 | size: 0x4
-.obj lbl_805DC348, global
+.obj StructValues_23, global
 	.4byte 0xFFFFFC00
-.endobj lbl_805DC348
+.endobj StructValues_23
 
 # .sdata:0x726C | 0x805DC34C | size: 0x4
-.obj lbl_805DC34C, global
+.obj StructValues_24, global
 	.4byte 0xFFFFFC00
-.endobj lbl_805DC34C
+.endobj StructValues_24
 
 # .sdata:0x7270 | 0x805DC350 | size: 0x4
-.obj lbl_805DC350, global
+.obj StructValues_25, global
 	.4byte 0x00000400
-.endobj lbl_805DC350
+.endobj StructValues_25
 
 # .sdata:0x7274 | 0x805DC354 | size: 0x4
-.obj lbl_805DC354, global
+.obj StructValues_26, global
 	.4byte 0x00000400
-.endobj lbl_805DC354
+.endobj StructValues_26
 
 # .sdata:0x7278 | 0x805DC358 | size: 0x8
 .obj lbl_805DC358, global
@@ -23718,14 +23718,14 @@
 .endobj lbl_805DC850
 
 # .sdata:0x7778 | 0x805DC858 | size: 0x4
-.obj lbl_805DC858, global
+.obj StructWithFuncPtrs_5, global
 	.4byte fn_dthandler
-.endobj lbl_805DC858
+.endobj StructWithFuncPtrs_5
 
 # .sdata:0x777C | 0x805DC85C | size: 0x4
-.obj lbl_805DC85C, global
+.obj StructWithFuncPtrs_6, global
 	.4byte fn_set_terminate
-.endobj lbl_805DC85C
+.endobj StructWithFuncPtrs_6
 
 # .sdata:0x7780 | 0x805DC860 | size: 0x8
 .obj lbl_805DC860, global
@@ -23821,16 +23821,16 @@
 .endobj lbl_805DC8C0
 
 # .sdata:0x77E8 | 0x805DC8C8 | size: 0x8
-.obj lbl_805DC8C8, global
+.obj StructWithStructs_15, global
 	.4byte lbl_804F9308
 	.4byte 0x00000000
-.endobj lbl_805DC8C8
+.endobj StructWithStructs_15
 
 # .sdata:0x77F0 | 0x805DC8D0 | size: 0x8
-.obj lbl_805DC8D0, global
+.obj StructValues_27, global
 	.4byte 0x00000001
 	.4byte 0x00000000
-.endobj lbl_805DC8D0
+.endobj StructValues_27
 
 # .sdata:0x77F8 | 0x805DC8D8 | size: 0x8
 .obj String_"dvdfs.c", global
@@ -23848,9 +23848,9 @@
 .endobj autoInvalidation_805DC8E4
 
 # .sdata:0x7808 | 0x805DC8E8 | size: 0x4
-.obj lbl_805DC8E8, global
+.obj StructWithFuncPtrs_7, global
 	.4byte fn_803C5778
-.endobj lbl_805DC8E8
+.endobj StructWithFuncPtrs_7
 
 # .sdata:0x780C | 0x805DC8EC | size: 0x8
 .obj lbl_805DC8EC, global
@@ -23859,9 +23859,9 @@
 .endobj lbl_805DC8EC
 
 # .sdata:0x7814 | 0x805DC8F4 | size: 0x4
-.obj lbl_805DC8F4, global
+.obj AllFs_3, global
 	.4byte 0xFFFFFFFF
-.endobj lbl_805DC8F4
+.endobj AllFs_3
 
 # .sdata:0x7818 | 0x805DC8F8 | size: 0x2
 .obj "@35_805DC8F8", global
@@ -23994,10 +23994,10 @@
 .endobj String_"StringFlag_FormaterString"_4
 
 # .sdata:0x7898 | 0x805DC978 | size: 0x8
-.obj lbl_805DC978, global
+.obj StructValues_28, global
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000000
-.endobj lbl_805DC978
+.endobj StructValues_28
 
 # .sdata:0x78A0 | 0x805DC980 | size: 0x4
 .obj __OSArenaLo_805DC980, global
@@ -24011,9 +24011,9 @@
 .endobj gap_09_805DC984_sdata
 
 # .sdata:0x78A8 | 0x805DC988 | size: 0x4
-.obj lbl_805DC988, global
+.obj StructValues_29, global
 	.4byte 0x000000F8
-.endobj lbl_805DC988
+.endobj StructValues_29
 
 # .sdata:0x78AC | 0x805DC98C | size: 0x2
 .obj "@76_805DC98C", global
@@ -24051,34 +24051,34 @@
 .endobj lbl_805DC9A4
 
 # .sdata:0x78C8 | 0x805DC9A8 | size: 0x4
-.obj lbl_805DC9A8, global
+.obj StructWithStructs_16, global
 	.4byte lbl_804FC4E8
-.endobj lbl_805DC9A8
+.endobj StructWithStructs_16
 
 # .sdata:0x78CC | 0x805DC9AC | size: 0x4
-.obj lbl_805DC9AC, global
+.obj StructValues_33, global
 	.4byte 0x00000020
-.endobj lbl_805DC9AC
+.endobj StructValues_33
 
 # .sdata:0x78D0 | 0x805DC9B0 | size: 0x4
-.obj lbl_805DC9B0, global
+.obj StructValues_32, global
 	.4byte 0xF0000000
-.endobj lbl_805DC9B0
+.endobj StructValues_32
 
 # .sdata:0x78D4 | 0x805DC9B4 | size: 0x4
-.obj lbl_805DC9B4, global
+.obj StructValues_31, global
 	.4byte 0x00000300
-.endobj lbl_805DC9B4
+.endobj StructValues_31
 
 # .sdata:0x78D8 | 0x805DC9B8 | size: 0x4
-.obj lbl_805DC9B8, global
+.obj StructValues_30, global
 	.4byte 0x00000005
-.endobj lbl_805DC9B8
+.endobj StructValues_30
 
 # .sdata:0x78DC | 0x805DC9BC | size: 0x4
-.obj lbl_805DC9BC, global
+.obj StructWithFuncPtrs_8, global
 	.4byte fn_SPEC2_MakeStatus
-.endobj lbl_805DC9BC
+.endobj StructWithFuncPtrs_8
 
 # .sdata:0x78E0 | 0x805DC9C0 | size: 0x4
 .obj lbl_805DC9C0, global
@@ -24091,9 +24091,9 @@
 .endobj lbl_805DC9C4
 
 # .sdata:0x78E8 | 0x805DC9C8 | size: 0x4
-.obj lbl_805DC9C8, global
+.obj StructWithStructs_17, global
 	.4byte lbl_804FC540
-.endobj lbl_805DC9C8
+.endobj StructWithStructs_17
 
 # .sdata:0x78EC | 0x805DC9CC | size: 0xC
 .obj lbl_805DC9CC, global
@@ -24103,34 +24103,34 @@
 .endobj lbl_805DC9CC
 
 # .sdata:0x78F8 | 0x805DC9D8 | size: 0x8
-.obj lbl_805DC9D8, global
+.obj StructWithStructs_18, global
 	.4byte lbl_804FC910
 	.4byte 0x00000000
-.endobj lbl_805DC9D8
+.endobj StructWithStructs_18
 
 # .sdata:0x7900 | 0x805DC9E0 | size: 0x8
-.obj lbl_805DC9E0, global
+.obj StructWithStructs_21, global
 	.4byte lbl_804FC958
 	.4byte 0x00000000
-.endobj lbl_805DC9E0
+.endobj StructWithStructs_21
 
 # .sdata:0x7908 | 0x805DC9E8 | size: 0x8
-.obj lbl_805DC9E8, global
+.obj StructWithStructs_20, global
 	.4byte lbl_804FC9A0
 	.4byte 0x00000000
-.endobj lbl_805DC9E8
+.endobj StructWithStructs_20
 
 # .sdata:0x7910 | 0x805DC9F0 | size: 0x8
-.obj lbl_805DC9F0, global
+.obj StructWithStructs_19, global
 	.4byte lbl_804FC9E8
 	.4byte 0x00000000
-.endobj lbl_805DC9F0
+.endobj StructWithStructs_19
 
 # .sdata:0x7918 | 0x805DC9F8 | size: 0x8
-.obj lbl_805DC9F8, global
+.obj StructValues_34, global
 	.4byte 0x00000001
 	.4byte 0x00000000
-.endobj lbl_805DC9F8
+.endobj StructValues_34
 
 # .sdata:0x7920 | 0x805DCA00 | size: 0x8
 .obj lbl_805DCA00, global
@@ -24163,10 +24163,10 @@
 .endobj gap_09_805DCA14_sdata
 
 # .sdata:0x7938 | 0x805DCA18 | size: 0x8
-.obj lbl_805DCA18, global
+.obj StructWithStructs_22, global
 	.4byte lbl_804FCEA0
 	.4byte 0x00000000
-.endobj lbl_805DCA18
+.endobj StructWithStructs_22
 
 # .sdata:0x7940 | 0x805DCA20 | size: 0x8
 .obj lbl_805DCA20, global
@@ -24177,14 +24177,14 @@
 .endobj lbl_805DCA20
 
 # .sdata:0x7948 | 0x805DCA28 | size: 0x4
-.obj lbl_805DCA28, global
+.obj StructWithFuncPtrs_10, global
 	.4byte fn_803F1828
-.endobj lbl_805DCA28
+.endobj StructWithFuncPtrs_10
 
 # .sdata:0x794C | 0x805DCA2C | size: 0x4
-.obj lbl_805DCA2C, global
+.obj StructWithFuncPtrs_9, global
 	.4byte fn_803F1850
-.endobj lbl_805DCA2C
+.endobj StructWithFuncPtrs_9
 
 # .sdata:0x7950 | 0x805DCA30 | size: 0x8
 .obj lbl_805DCA30, global
@@ -24260,10 +24260,10 @@
 .endobj lbl_805DCA80
 
 # .sdata:0x79A8 | 0x805DCA88 | size: 0x8
-.obj lbl_805DCA88, global
+.obj StructValues_35, global
 	.4byte 0x000000FF
 	.4byte 0x00000000
-.endobj lbl_805DCA88
+.endobj StructValues_35
 
 # .sdata:0x79B0 | 0x805DCA90 | size: 0x8
 .obj lbl_805DCA90, global
@@ -24366,14 +24366,14 @@
 .endobj lbl_805DCAFC
 
 # .sdata:0x7A20 | 0x805DCB00 | size: 0x4
-.obj lbl_805DCB00, global
+.obj StructValues_36, global
 	.4byte 0x00000280
-.endobj lbl_805DCB00
+.endobj StructValues_36
 
 # .sdata:0x7A24 | 0x805DCB04 | size: 0x4
-.obj lbl_805DCB04, global
+.obj StructValues_37, global
 	.4byte 0x000001E0
-.endobj lbl_805DCB04
+.endobj StructValues_37
 
 # .sdata:0x7A28 | 0x805DCB08 | size: 0x8
 .obj lbl_805DCB08, global
@@ -24475,24 +24475,24 @@
 .endobj lbl_805DCB80
 
 # .sdata:0x7AA8 | 0x805DCB88 | size: 0x4
-.obj lbl_805DCB88, global
+.obj AllZeros_29, global
 	.4byte 0x00000000
-.endobj lbl_805DCB88
+.endobj AllZeros_29
 
 # .sdata:0x7AAC | 0x805DCB8C | size: 0x4
-.obj lbl_805DCB8C, global
+.obj StructWithStructs_23, global
 	.4byte STRUCT_BYTE4_COUNT_1805DE278
-.endobj lbl_805DCB8C
+.endobj StructWithStructs_23
 
 # .sdata:0x7AB0 | 0x805DCB90 | size: 0x4
-.obj lbl_805DCB90, global
+.obj StructWithStructs_24, global
 	.4byte STRUCT_BYTE4_COUNT_1805DE27C
-.endobj lbl_805DCB90
+.endobj StructWithStructs_24
 
 # .sdata:0x7AB4 | 0x805DCB94 | size: 0x4
-.obj lbl_805DCB94, global
+.obj StructWithStructs_25, global
 	.4byte STRUCT_BYTE4_COUNT_1805DE284
-.endobj lbl_805DCB94
+.endobj StructWithStructs_25
 
 # .sdata:0x7AB8 | 0x805DCB98 | size: 0x8
 .obj lbl_805DCB98, global
@@ -24513,34 +24513,34 @@
 .endobj lbl_805DCBA4
 
 # .sdata:0x7AD0 | 0x805DCBB0 | size: 0x4
-.obj lbl_805DCBB0, global
+.obj AllFs_4, global
 	.4byte 0xFFFFFFFF
-.endobj lbl_805DCBB0
+.endobj AllFs_4
 
 # .sdata:0x7AD4 | 0x805DCBB4 | size: 0x4
-.obj lbl_805DCBB4, global
+.obj StructWithStructs_26, global
 	.4byte lbl_804F9C20
-.endobj lbl_805DCBB4
+.endobj StructWithStructs_26
 
 # .sdata:0x7AD8 | 0x805DCBB8 | size: 0x4
-.obj lbl_805DCBB8, global
+.obj StructValues_40, global
 	.4byte 0x00000002
-.endobj lbl_805DCBB8
+.endobj StructValues_40
 
 # .sdata:0x7ADC | 0x805DCBBC | size: 0x4
-.obj lbl_805DCBBC, global
+.obj StructValues_39, global
 	.4byte 0x00040000
-.endobj lbl_805DCBBC
+.endobj StructValues_39
 
 # .sdata:0x7AE0 | 0x805DCBC0 | size: 0x4
-.obj lbl_805DCBC0, global
+.obj StructValues_38, global
 	.4byte 0x00000002
-.endobj lbl_805DCBC0
+.endobj StructValues_38
 
 # .sdata:0x7AE4 | 0x805DCBC4 | size: 0x4
-.obj lbl_805DCBC4, global
+.obj AllZeros_30, global
 	.4byte 0x00000000
-.endobj lbl_805DCBC4
+.endobj AllZeros_30
 
 # .sdata:0x7AE8 | 0x805DCBC8 | size: 0x8
 .obj lbl_805DCBC8, global
@@ -24755,9 +24755,9 @@
 .endobj String_"fog"
 
 # .sdata:0x7BEC | 0x805DCCCC | size: 0x4
-.obj lbl_805DCCCC, global
+.obj AllZeros_31, global
 	.4byte 0x00000000
-.endobj lbl_805DCCCC
+.endobj AllZeros_31
 
 # .sdata:0x7BF0 | 0x805DCCD0 | size: 0x4
 .obj String_"adj", global
@@ -24841,10 +24841,10 @@
 .endobj lbl_805DCD34
 
 # .sdata:0x7C58 | 0x805DCD38 | size: 0x8
-.obj lbl_805DCD38, global
+.obj StructWithStructs_27, global
 	.4byte lbl_805DCD30
 	.4byte 0x00000000
-.endobj lbl_805DCD38
+.endobj StructWithStructs_27
 
 # .sdata:0x7C60 | 0x805DCD40 | size: 0x4
 .obj lbl_805DCD40, global
@@ -24917,14 +24917,14 @@
 .endobj String_"l_LessThen_num"
 
 # .sdata:0x7CC0 | 0x805DCDA0 | size: 0x4
-.obj lbl_805DCDA0, global
+.obj StructValues_41, global
 	.4byte 0x0007FF00
-.endobj lbl_805DCDA0
+.endobj StructValues_41
 
 # .sdata:0x7CC4 | 0x805DCDA4 | size: 0x4
-.obj lbl_805DCDA4, global
+.obj AllZeros_32, global
 	.4byte 0x00000000
-.endobj lbl_805DCDA4
+.endobj AllZeros_32
 
 # .sdata:0x7CC8 | 0x805DCDA8 | size: 0x8
 .obj lbl_805DCDA8, global
@@ -25012,50 +25012,50 @@
 .endobj lbl_805DCDF8
 
 # .sdata:0x7D20 | 0x805DCE00 | size: 0x8
-.obj lbl_805DCE00, global
+.obj StructValues_42, global
 	.4byte 0x40404000
 	.4byte 0x00000000
-.endobj lbl_805DCE00
+.endobj StructValues_42
 
 # .sdata:0x7D28 | 0x805DCE08 | size: 0x4
-.obj lbl_805DCE08, global
+.obj StructValues_43, global
 	.4byte 0x00000004
-.endobj lbl_805DCE08
+.endobj StructValues_43
 
 # .sdata:0x7D2C | 0x805DCE0C | size: 0x4
-.obj lbl_805DCE0C, global
+.obj StructValues_44, global
 	.4byte 0x00000001
-.endobj lbl_805DCE0C
+.endobj StructValues_44
 
 # .sdata:0x7D30 | 0x805DCE10 | size: 0x4
-.obj lbl_805DCE10, global
+.obj AllFs_5, global
 	.4byte 0xFFFFFFFF
-.endobj lbl_805DCE10
+.endobj AllFs_5
 
 # .sdata:0x7D34 | 0x805DCE14 | size: 0x4
-.obj lbl_805DCE14, global
+.obj MemoryOffset_251, global
 	.4byte 0xFF0000FF
-.endobj lbl_805DCE14
+.endobj MemoryOffset_251
 
 # .sdata:0x7D38 | 0x805DCE18 | size: 0x4
-.obj lbl_805DCE18, global
+.obj MemoryOffset_250, global
 	.4byte 0x00FF00FF
-.endobj lbl_805DCE18
+.endobj MemoryOffset_250
 
 # .sdata:0x7D3C | 0x805DCE1C | size: 0x4
-.obj lbl_805DCE1C, global
+.obj MemoryOffset_249, global
 	.4byte 0x00FFFFFF
-.endobj lbl_805DCE1C
+.endobj MemoryOffset_249
 
 # .sdata:0x7D40 | 0x805DCE20 | size: 0x4
-.obj lbl_805DCE20, global
+.obj MemoryOffset_248, global
 	.4byte 0x008080FF
-.endobj lbl_805DCE20
+.endobj MemoryOffset_248
 
 # .sdata:0x7D44 | 0x805DCE24 | size: 0x4
-.obj lbl_805DCE24, global
+.obj MemoryOffset_247, global
 	.4byte 0xC0C000FF
-.endobj lbl_805DCE24
+.endobj MemoryOffset_247
 
 # .sdata:0x7D48 | 0x805DCE28 | size: 0x4
 .obj String_"CTR", global
@@ -25554,19 +25554,19 @@
 .endobj lbl_805DD090
 
 # .sdata:0x7FB8 | 0x805DD098 | size: 0x4
-.obj lbl_805DD098, global
+.obj StructWithStructs_28, global
 	.4byte lbl_80508434
-.endobj lbl_805DD098
+.endobj StructWithStructs_28
 
 # .sdata:0x7FBC | 0x805DD09C | size: 0x4
-.obj lbl_805DD09C, global
+.obj StructWithStructs_30, global
 	.4byte lbl_80508464
-.endobj lbl_805DD09C
+.endobj StructWithStructs_30
 
 # .sdata:0x7FC0 | 0x805DD0A0 | size: 0x4
-.obj lbl_805DD0A0, global
+.obj StructWithStructs_29, global
 	.4byte lbl_80508480
-.endobj lbl_805DD0A0
+.endobj StructWithStructs_29
 
 # .sdata:0x7FC4 | 0x805DD0A4 | size: 0x8
 .obj lbl_805DD0A4, global
@@ -25591,39 +25591,39 @@
 .endobj lbl_805DD0B8
 
 # .sdata:0x7FDC | 0x805DD0BC | size: 0x4
-.obj lbl_805DD0BC, global
+.obj StructWithStructs_31, global
 	.4byte lbl_805085C0
-.endobj lbl_805DD0BC
+.endobj StructWithStructs_31
 
 # .sdata:0x7FE0 | 0x805DD0C0 | size: 0x4
-.obj lbl_805DD0C0, global
+.obj StructWithStructs_41, global
 	.4byte lbl_805085E0
-.endobj lbl_805DD0C0
+.endobj StructWithStructs_41
 
 # .sdata:0x7FE4 | 0x805DD0C4 | size: 0x4
-.obj lbl_805DD0C4, global
+.obj StructWithStructs_40, global
 	.4byte lbl_8050874C
-.endobj lbl_805DD0C4
+.endobj StructWithStructs_40
 
 # .sdata:0x7FE8 | 0x805DD0C8 | size: 0x4
-.obj lbl_805DD0C8, global
+.obj StructWithStructs_39, global
 	.4byte lbl_80508770
-.endobj lbl_805DD0C8
+.endobj StructWithStructs_39
 
 # .sdata:0x7FEC | 0x805DD0CC | size: 0x4
-.obj lbl_805DD0CC, global
+.obj StructValues_FormaterString_2, global
 	.4byte String_"BL_WithOtherFlags_FormaterStr"
-.endobj lbl_805DD0CC
+.endobj StructValues_FormaterString_2
 
 # .sdata:0x7FF0 | 0x805DD0D0 | size: 0x4
-.obj lbl_805DD0D0, global
+.obj StructWithStructs_38, global
 	.4byte lbl_805087BC
-.endobj lbl_805DD0D0
+.endobj StructWithStructs_38
 
 # .sdata:0x7FF4 | 0x805DD0D4 | size: 0x4
-.obj lbl_805DD0D4, global
+.obj StructWithStructs_32, global
 	.4byte lbl_805087D8
-.endobj lbl_805DD0D4
+.endobj StructWithStructs_32
 
 # .sdata:0x7FF8 | 0x805DD0D8 | size: 0x4
 .obj String_"N/A", global
@@ -25641,34 +25641,34 @@
 .endobj String_"R/O"
 
 # .sdata:0x8004 | 0x805DD0E4 | size: 0x4
-.obj lbl_805DD0E4, global
+.obj StructWithStructs_33, global
 	.4byte lbl_805087FC
-.endobj lbl_805DD0E4
+.endobj StructWithStructs_33
 
 # .sdata:0x8008 | 0x805DD0E8 | size: 0x4
-.obj lbl_805DD0E8, global
+.obj StructWithStructs_37, global
 	.4byte lbl_80508814
-.endobj lbl_805DD0E8
+.endobj StructWithStructs_37
 
 # .sdata:0x800C | 0x805DD0EC | size: 0x4
-.obj lbl_805DD0EC, global
+.obj StructValues_FormaterString_1, global
 	.4byte String_"FourDecimel_StringFlags_FormaterStr"
-.endobj lbl_805DD0EC
+.endobj StructValues_FormaterString_1
 
 # .sdata:0x8010 | 0x805DD0F0 | size: 0x4
-.obj lbl_805DD0F0, global
+.obj StructWithStructs_36, global
 	.4byte lbl_8050883C
-.endobj lbl_805DD0F0
+.endobj StructWithStructs_36
 
 # .sdata:0x8014 | 0x805DD0F4 | size: 0x4
-.obj lbl_805DD0F4, global
+.obj StructWithStructs_35, global
 	.4byte lbl_80508854
-.endobj lbl_805DD0F4
+.endobj StructWithStructs_35
 
 # .sdata:0x8018 | 0x805DD0F8 | size: 0x4
-.obj lbl_805DD0F8, global
+.obj StructWithStructs_34, global
 	.4byte lbl_8050886C
-.endobj lbl_805DD0F8
+.endobj StructWithStructs_34
 
 # .sdata:0x801C | 0x805DD0FC | size: 0x8
 .obj lbl_805DD0FC, global
@@ -25704,29 +25704,29 @@
 .endobj lbl_805DD118
 
 # .sdata:0x8040 | 0x805DD120 | size: 0x4
-.obj lbl_805DD120, global
+.obj StructValues_45, global
 	.4byte 0x00000002
-.endobj lbl_805DD120
+.endobj StructValues_45
 
 # .sdata:0x8044 | 0x805DD124 | size: 0x4
-.obj lbl_805DD124, global
+.obj StructValues_46, global
 	.4byte 0x0000001E
-.endobj lbl_805DD124
+.endobj StructValues_46
 
 # .sdata:0x8048 | 0x805DD128 | size: 0x4
-.obj lbl_805DD128, global
+.obj StructValues_47, global
 	.4byte 0x00000078
-.endobj lbl_805DD128
+.endobj StructValues_47
 
 # .sdata:0x804C | 0x805DD12C | size: 0x4
-.obj lbl_805DD12C, global
+.obj StructValues_48, global
 	.4byte 0x000000F0
-.endobj lbl_805DD12C
+.endobj StructValues_48
 
 # .sdata:0x8050 | 0x805DD130 | size: 0x4
-.obj lbl_805DD130, global
+.obj StructValues_49, global
 	.4byte 0x0000014A
-.endobj lbl_805DD130
+.endobj StructValues_49
 
 # .sdata:0x8054 | 0x805DD134 | size: 0x4
 .obj lbl_805DD134, global
@@ -25739,15 +25739,15 @@
 .endobj String_"pid_GreaterThen_0"
 
 # .sdata:0x8060 | 0x805DD140 | size: 0x8
-.obj lbl_805DD140, global
+.obj StructValues_50, global
 	.4byte 0x00000001
 	.4byte 0x00000000
-.endobj lbl_805DD140
+.endobj StructValues_50
 
 # .sdata:0x8068 | 0x805DD148 | size: 0x4
-.obj lbl_805DD148, global
+.obj StructValues_51, global
 	.4byte 0x00000004
-.endobj lbl_805DD148
+.endobj StructValues_51
 
 # .sdata:0x806C | 0x805DD14C | size: 0x4
 .obj lbl_805DD14C, global
@@ -25777,10 +25777,10 @@
 .endobj lbl_805DD168
 
 # .sdata:0x808C | 0x805DD16C | size: 0x8
-.obj lbl_805DD16C, global
+.obj StructValues_52, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_805DD16C
+.endobj StructValues_52
 
 # .sdata:0x8094 | 0x805DD174 | size: 0x4
 .obj lbl_805DD174, global
@@ -25788,14 +25788,14 @@
 .endobj lbl_805DD174
 
 # .sdata:0x8098 | 0x805DD178 | size: 0x4
-.obj lbl_805DD178, global
+.obj MemoryOffset_252, global
 	.4byte 0xFC780000
-.endobj lbl_805DD178
+.endobj MemoryOffset_252
 
 # .sdata:0x809C | 0x805DD17C | size: 0x4
-.obj lbl_805DD17C, global
+.obj AllFs_6, global
 	.4byte 0xFFFFFFFF
-.endobj lbl_805DD17C
+.endobj AllFs_6
 
 # .sdata:0x80A0 | 0x805DD180 | size: 0x4
 .obj String_"bmb", global
@@ -25808,10 +25808,10 @@
 .endobj String_"bmbnext"
 
 # .sdata:0x80AC | 0x805DD18C | size: 0x8
-.obj lbl_805DD18C, global
+.obj AllZeros_33, global
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_805DD18C
+.endobj AllZeros_33
 
 # .sdata:0x80B4 | 0x805DD194 | size: 0x4
 .obj lbl_805DD194, global
@@ -25855,14 +25855,14 @@
 .endobj lbl_805DD1C0
 
 # .sdata:0x80E8 | 0x805DD1C8 | size: 0x4
-.obj lbl_805DD1C8, global
+.obj StructWithFuncPtrs_11, global
 	.4byte fn_8045D664
-.endobj lbl_805DD1C8
+.endobj StructWithFuncPtrs_11
 
 # .sdata:0x80EC | 0x805DD1CC | size: 0x4
-.obj lbl_805DD1CC, global
+.obj StructWithFuncPtrs_12, global
 	.4byte fn_8045D684
-.endobj lbl_805DD1CC
+.endobj StructWithFuncPtrs_12
 
 # .sdata:0x80F0 | 0x805DD1D0 | size: 0x4
 .obj String_"new"_7, global
@@ -25875,9 +25875,9 @@
 .endobj String_"res"_2
 
 # .sdata:0x80F8 | 0x805DD1D8 | size: 0x4
-.obj lbl_805DD1D8, global
+.obj StructWithStructs_42, global
 	.4byte lbl_80533FD0
-.endobj lbl_805DD1D8
+.endobj StructWithStructs_42
 
 # .sdata:0x80FC | 0x805DD1DC | size: 0x6
 .obj lbl_805DD1DC, global
@@ -25902,10 +25902,10 @@
 .endobj gap_09_805DD1E5_sdata
 
 # .sdata:0x8108 | 0x805DD1E8 | size: 0x8
-.obj lbl_805DD1E8, global
+.obj StructValues_53, global
 	.4byte 0x00000001
 	.4byte 0x00000000
-.endobj lbl_805DD1E8
+.endobj StructValues_53
 
 # .sdata:0x8110 | 0x805DD1F0 | size: 0x8
 .obj lbl_805DD1F0, global
@@ -25928,9 +25928,9 @@
 .endobj lbl_805DD200
 
 # .sdata:0x8128 | 0x805DD208 | size: 0x4
-.obj lbl_805DD208, global
+.obj StructValues_String_1, global
 	.4byte String_"Dolphin_SDK_Build"_3
-.endobj lbl_805DD208
+.endobj StructValues_String_1
 
 # .sdata:0x812C | 0x805DD20C | size: 0x8
 .obj lbl_805DD20C, global
@@ -25945,15 +25945,15 @@
 .endobj lbl_805DD214
 
 # .sdata:0x813C | 0x805DD21C | size: 0x4
-.obj lbl_805DD21C, global
+.obj StructValues_54, global
 	.4byte 0x00000001
-.endobj lbl_805DD21C
+.endobj StructValues_54
 
 # .sdata:0x8140 | 0x805DD220 | size: 0x8
-.obj lbl_805DD220, global
+.obj StructValues_55, global
 	.4byte 0x00000F00
 	.4byte 0x00000000
-.endobj lbl_805DD220
+.endobj StructValues_55
 
 # .sdata:0x8148 | 0x805DD228 | size: 0x8
 .obj lbl_805DD228, global
@@ -25962,10 +25962,10 @@
 .endobj lbl_805DD228
 
 # .sdata:0x8150 | 0x805DD230 | size: 0x8
-.obj lbl_805DD230, global
+.obj MemoryOffset_253, global
 	.4byte 0x63825363
 	.4byte 0x00000000
-.endobj lbl_805DD230
+.endobj MemoryOffset_253
 
 # .sdata:0x8158 | 0x805DD238 | size: 0x8
 .obj lbl_805DD238, global

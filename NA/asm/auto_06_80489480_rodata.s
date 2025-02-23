@@ -154,52 +154,52 @@
 # .rodata:0x1C8 | 0x80489648 | size: 0x620
 .obj STRUCT_VALUE_4BYTE_9, global
 	.4byte 0x02000000
-	.4byte lbl_80499DDC
+	.4byte MemoryOffset_247
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499DEC
+	.4byte MemoryOffset_248
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499DF8
+	.4byte MemoryOffset_249
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E04
+	.4byte MemoryOffset_250
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E14
+	.4byte MemoryOffset_251
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E28
+	.4byte MemoryOffset_252
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E34
+	.4byte MemoryOffset_253
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E40
+	.4byte MemoryOffset_254
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E50
+	.4byte MemoryOffset_255
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E60
+	.4byte MemoryOffset_256
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E70
+	.4byte MemoryOffset_257
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E80
+	.4byte MemoryOffset_258
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E90
+	.4byte MemoryOffset_259
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EA0
+	.4byte MemoryOffset_260
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EB0
+	.4byte MemoryOffset_261
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EC0
+	.4byte MemoryOffset_262
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"RdKirby.dat"_1
@@ -208,10 +208,10 @@
 	.4byte String_"IfAll1c.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EE8
+	.4byte MemoryOffset_263
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EF8
+	.4byte MemoryOffset_264
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"EmBroomData.dat"_1
@@ -220,7 +220,7 @@
 	.4byte String_"EmBrontData.dat"_2
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F2C
+	.4byte MemoryOffset_265
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"EmSwordData.dat"_1
@@ -229,34 +229,34 @@
 	.4byte String_"EmCappyData.dat"_2
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F60
+	.4byte MemoryOffset_266
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F74
+	.4byte MemoryOffset_267
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"EmNoddyData.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F98
+	.4byte MemoryOffset_268
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499FAC
+	.4byte MemoryOffset_269
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499FC0
+	.4byte MemoryOffset_270
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"EmGordoData.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499FE4
+	.4byte MemoryOffset_271
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499FF8
+	.4byte MemoryOffset_272
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A00C
+	.4byte MemoryOffset_273
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte s_EmWalkyData.dat_8049a01c
@@ -265,37 +265,37 @@
 	.4byte lbl_8049A02C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E28
+	.4byte MemoryOffset_252
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E34
+	.4byte MemoryOffset_253
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E40
+	.4byte MemoryOffset_254
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E50
+	.4byte MemoryOffset_255
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E60
+	.4byte MemoryOffset_256
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E70
+	.4byte MemoryOffset_257
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E80
+	.4byte MemoryOffset_258
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499E90
+	.4byte MemoryOffset_259
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EA0
+	.4byte MemoryOffset_260
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EB0
+	.4byte MemoryOffset_261
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EC0
+	.4byte MemoryOffset_262
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"RdKirby.dat"_1
@@ -304,10 +304,10 @@
 	.4byte String_"IfAll1c.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EE8
+	.4byte MemoryOffset_263
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EF8
+	.4byte MemoryOffset_264
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A03C
@@ -367,37 +367,37 @@
 	.4byte lbl_8049A160
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E28
+	.4byte MemoryOffset_252
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E34
+	.4byte MemoryOffset_253
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E40
+	.4byte MemoryOffset_254
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E50
+	.4byte MemoryOffset_255
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E60
+	.4byte MemoryOffset_256
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E70
+	.4byte MemoryOffset_257
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E80
+	.4byte MemoryOffset_258
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499E90
+	.4byte MemoryOffset_259
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499EA0
+	.4byte MemoryOffset_260
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499EB0
+	.4byte MemoryOffset_261
 	.4byte 0x00000000
 	.4byte 0x02000000
-	.4byte lbl_80499EC0
+	.4byte MemoryOffset_262
 	.4byte 0x00000000
 	.4byte lbl_8049A16C
 	.4byte lbl_8049A184
@@ -422,42 +422,42 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499E28
+	.4byte MemoryOffset_252
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499E40
+	.4byte MemoryOffset_254
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499E60
+	.4byte MemoryOffset_256
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499E70
+	.4byte MemoryOffset_257
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499E80
+	.4byte MemoryOffset_258
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499E90
+	.4byte MemoryOffset_259
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499EC0
+	.4byte MemoryOffset_262
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499EF8
+	.4byte MemoryOffset_264
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000002

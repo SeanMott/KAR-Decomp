@@ -1,27 +1,19 @@
-MemoryOffset_246
+MemoryOffset_253
 
-AllZeros_23
-
-StructValues_14
+AllZeros_33
+AllFs_6
 
 ByteArray_10
 
-StructWithStructs_12
+StructWithStructs_42
 
+StructValues_55
 StructValues_Double_3
+StructValues_Float_2
 
-StructWithFuncPtrs_4
+StructValues_String_1
+StructValues_FormaterString_2
+
+StructWithFuncPtrs_12
 
 StructWithFuncPtrs_HSD_1
-
-String_"FormaterStr_WithTabsAndStringFlag"_15
-
-String_"FormaterStr_CurlRight"_9
-
-String_"ItemMgr"_6
-
-String_"new"_7
-
-String_"border0"_6
-
-String_"StringFlag_FormaterString"_4
