@@ -1638,14 +1638,14 @@
 .endobj lbl_805D583C
 
 # .sdata:0x760 | 0x805D5840 | size: 0x4
-.obj MemoryOffset_46000000, global
+.obj MemoryOffset_17, global
 	.4byte 0x46000000
-.endobj MemoryOffset_46000000
+.endobj MemoryOffset_17
 
 # .sdata:0x764 | 0x805D5844 | size: 0x4
-.obj MemoryOffset_50000000_1, global
+.obj MemoryOffset_18, global
 	.4byte 0x50000000
-.endobj MemoryOffset_50000000_1
+.endobj MemoryOffset_18
 
 # .sdata:0x768 | 0x805D5848 | size: 0x4
 .obj lbl_805D5848, global
@@ -4712,9 +4712,9 @@
 .endobj lbl_805D6650
 
 # .sdata:0x1574 | 0x805D6654 | size: 0x4
-.obj MemoryOffset_50000000_3, global
+.obj MemoryOffset_19, global
 	.4byte 0x50000000
-.endobj MemoryOffset_50000000_3
+.endobj MemoryOffset_19
 
 # .sdata:0x1578 | 0x805D6658 | size: 0x4
 .obj lbl_805D6658, global
@@ -6336,9 +6336,9 @@
 .endobj lbl_805D6EAC
 
 # .sdata:0x1DD0 | 0x805D6EB0 | size: 0x4
-.obj MemoryOffset_50000000_2, global
+.obj MemoryOffset_21, global
 	.4byte 0x50000000
-.endobj MemoryOffset_50000000_2
+.endobj MemoryOffset_21
 
 # .sdata:0x1DD4 | 0x805D6EB4 | size: 0x4
 .obj lbl_805D6EB4, global
@@ -6525,8 +6525,8 @@
 
 # .sdata:0x1EB8 | 0x805D6F98 | size: 0x8
 .obj lbl_805D6F98, global
-	.4byte lbl_804B1658
-	.4byte lbl_804B1C40
+	.4byte FuncArray_3
+	.4byte StructStuffWithOffsetsAndFuncs_1
 .endobj lbl_805D6F98
 
 # .sdata:0x1EC0 | 0x805D6FA0 | size: 0x8
