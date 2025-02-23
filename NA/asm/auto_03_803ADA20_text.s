@@ -15,8 +15,8 @@
 # .text:0xC | 0x803ADA2C | size: 0x5C
 .fn fn___cvt_fp2unsigned, global
 /* 803ADA2C 003AA82C  94 21 FF F0 */	stwu r1, -0x10(r1)
-/* 803ADA30 003AA830  3C 80 80 48 */	lis r4, lbl_8048B608@h
-/* 803ADA34 003AA834  60 84 B6 08 */	ori r4, r4, lbl_8048B608@l
+/* 803ADA30 003AA830  3C 80 80 48 */	lis r4, StructValues_Double_1@h
+/* 803ADA34 003AA834  60 84 B6 08 */	ori r4, r4, StructValues_Double_1@l
 /* 803ADA38 003AA838  38 60 00 00 */	li r3, 0x0
 /* 803ADA3C 003AA83C  C8 04 00 00 */	lfd f0, 0x0(r4)
 /* 803ADA40 003AA840  C8 64 00 08 */	lfd f3, 0x8(r4)

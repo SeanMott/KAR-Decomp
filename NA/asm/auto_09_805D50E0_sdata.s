@@ -23752,13 +23752,13 @@
 
 # .sdata:0x7798 | 0x805DC878 | size: 0x8
 .obj lbl_805DC878, global
-	.4byte lbl_8048B688
+	.4byte MemoryOffset_74
 	.4byte 0x00000000
 .endobj lbl_805DC878
 
 # .sdata:0x77A0 | 0x805DC880 | size: 0x8
 .obj lbl_805DC880, global
-	.4byte lbl_8048B674
+	.4byte MemoryOffset_73
 	.4byte lbl_804F882C
 .endobj lbl_805DC880
 

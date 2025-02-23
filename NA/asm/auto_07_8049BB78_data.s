@@ -117906,17 +117906,17 @@
 # .data:0x5D278 | 0x804F8DF0 | size: 0x38
 .obj lbl_804F8DF0, global
 	.4byte String_"."
-	.4byte lbl_8048B82A
-	.4byte lbl_8048B82A
-	.4byte lbl_8048B82A
-	.4byte lbl_8048B82A
-	.4byte lbl_8048B82A
-	.4byte lbl_8048B82A
-	.4byte lbl_8048B82A
-	.4byte lbl_8048B82A
+	.4byte MemoryOffset_78
+	.4byte MemoryOffset_78
+	.4byte MemoryOffset_78
+	.4byte MemoryOffset_78
+	.4byte MemoryOffset_78
+	.4byte MemoryOffset_78
+	.4byte MemoryOffset_78
+	.4byte MemoryOffset_78
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
-	.4byte lbl_8048B82A
+	.4byte MemoryOffset_78
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
 .endobj lbl_804F8DF0
