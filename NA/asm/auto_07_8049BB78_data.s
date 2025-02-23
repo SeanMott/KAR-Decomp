@@ -136344,7 +136344,7 @@
 .obj lbl_80509668, global
 	.4byte 0x00000000
 	.4byte 0x01000000
-	.4byte lbl_805DD1A0
+	.4byte StructWithFuncPtrs_13
 	.4byte 0x00000000
 .endobj lbl_80509668
 
@@ -180824,7 +180824,7 @@
 	.4byte 0x69616C20
 	.4byte 0x436F6E74
 	.4byte 0x656E7400
-	.4byte lbl_805DD320
+	.4byte MemoryOffset_310
 	.4byte String_"Created"
 	.4byte lbl_80534D60
 	.4byte lbl_80534D6C
@@ -180882,11 +180882,11 @@
 	.4byte 0x63740000
 	.4byte lbl_80534DD4
 	.4byte lbl_80534DE8
-	.4byte lbl_805DD32C
+	.4byte MemoryOffset_309
 	.4byte lbl_80534DFC
 	.4byte lbl_80534E08
 	.4byte lbl_80534E18
-	.4byte lbl_805DD334
+	.4byte AllZeros_34
 	.4byte lbl_80534E24
 .endobj lbl_80534E24
 
@@ -181030,7 +181030,7 @@
 	.4byte lbl_80534EC4
 	.4byte String_"Request_Timeout"
 	.4byte lbl_80534EF4
-	.4byte lbl_805DD338
+	.4byte MemoryOffset_308
 	.4byte String_"Length_Required"
 	.4byte String_"Precondition_Failed"
 	.4byte lbl_80534F24

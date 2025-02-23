@@ -306,9 +306,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DDF70
 
 # .sbss:0x10C | 0x805DDF74 | size: 0x8
-.obj lbl_805DDF74, global
+.obj SkipAddress_50, global
 	.skip 0x8
-.endobj lbl_805DDF74
+.endobj SkipAddress_50
 
 # .sbss:0x114 | 0x805DDF7C | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DDF7C, global
@@ -326,14 +326,14 @@
 .endobj STRUCT_BYTE4_COUNT_1805DDF84
 
 # .sbss:0x120 | 0x805DDF88 | size: 0x2
-.obj lbl_805DDF88, global
+.obj SkipAddress_49, global
 	.skip 0x2
-.endobj lbl_805DDF88
+.endobj SkipAddress_49
 
 # .sbss:0x122 | 0x805DDF8A | size: 0x2
-.obj lbl_805DDF8A, global
+.obj SkipAddress_48, global
 	.skip 0x2
-.endobj lbl_805DDF8A
+.endobj SkipAddress_48
 
 # .sbss:0x124 | 0x805DDF8C | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DDF8C, global
@@ -566,14 +566,14 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE044
 
 # .sbss:0x1E0 | 0x805DE048 | size: 0x8
-.obj lbl_805DE048, global
+.obj SkipAddress_47, global
 	.skip 0x8
-.endobj lbl_805DE048
+.endobj SkipAddress_47
 
 # .sbss:0x1E8 | 0x805DE050 | size: 0x4
-.obj lbl_805DE050, global
+.obj SkipAddress_46, global
 	.skip 0x4
-.endobj lbl_805DE050
+.endobj SkipAddress_46
 
 # .sbss:0x1EC | 0x805DE054 | size: 0x4
 .obj cmdTypeAndStatus$371_805DE054, global
@@ -763,9 +763,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE0F4
 
 # .sbss:0x290 | 0x805DE0F8 | size: 0x8
-.obj lbl_805DE0F8, global
+.obj SkipAddress_45, global
 	.skip 0x8
-.endobj lbl_805DE0F8
+.endobj SkipAddress_45
 
 # .sbss:0x298 | 0x805DE100 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE100, global
@@ -888,9 +888,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE168
 
 # .sbss:0x304 | 0x805DE16C | size: 0x1
-.obj lbl_805DE16C, global
+.obj SkipAddress_44, global
 	.skip 0x1
-.endobj lbl_805DE16C
+.endobj SkipAddress_44
 
 # .sbss:0x305 | 0x805DE16D | size: 0x3
 .obj gap_10_805DE16D_sbss, global
@@ -919,39 +919,39 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE17C
 
 # .sbss:0x318 | 0x805DE180 | size: 0x1
-.obj lbl_805DE180, global
+.obj SkipAddress_43, global
 	.skip 0x1
-.endobj lbl_805DE180
+.endobj SkipAddress_43
 
 # .sbss:0x319 | 0x805DE181 | size: 0x1
-.obj lbl_805DE181, global
+.obj SkipAddress_42, global
 	.skip 0x1
-.endobj lbl_805DE181
+.endobj SkipAddress_42
 
 # .sbss:0x31A | 0x805DE182 | size: 0x1
-.obj lbl_805DE182, global
+.obj SkipAddress_41, global
 	.skip 0x1
-.endobj lbl_805DE182
+.endobj SkipAddress_41
 
 # .sbss:0x31B | 0x805DE183 | size: 0x1
-.obj lbl_805DE183, global
+.obj SkipAddress_40, global
 	.skip 0x1
-.endobj lbl_805DE183
+.endobj SkipAddress_40
 
 # .sbss:0x31C | 0x805DE184 | size: 0x1
-.obj lbl_805DE184, global
+.obj SkipAddress_39, global
 	.skip 0x1
-.endobj lbl_805DE184
+.endobj SkipAddress_39
 
 # .sbss:0x31D | 0x805DE185 | size: 0x1
-.obj lbl_805DE185, global
+.obj SkipAddress_38, global
 	.skip 0x1
-.endobj lbl_805DE185
+.endobj SkipAddress_38
 
 # .sbss:0x31E | 0x805DE186 | size: 0x1
-.obj lbl_805DE186, global
+.obj SkipAddress_37, global
 	.skip 0x1
-.endobj lbl_805DE186
+.endobj SkipAddress_37
 
 # .sbss:0x31F | 0x805DE187 | size: 0x1
 .obj gap_10_805DE187_sbss, global
@@ -970,9 +970,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE18C
 
 # .sbss:0x328 | 0x805DE190 | size: 0x1
-.obj lbl_805DE190, global
+.obj SkipAddress_36, global
 	.skip 0x1
-.endobj lbl_805DE190
+.endobj SkipAddress_36
 
 # .sbss:0x329 | 0x805DE191 | size: 0x3
 .obj gap_10_805DE191_sbss, global
@@ -986,9 +986,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE194
 
 # .sbss:0x330 | 0x805DE198 | size: 0x1
-.obj lbl_805DE198, global
+.obj SkipAddress_35, global
 	.skip 0x1
-.endobj lbl_805DE198
+.endobj SkipAddress_35
 
 # .sbss:0x331 | 0x805DE199 | size: 0x3
 .obj gap_10_805DE199_sbss, global
@@ -1002,9 +1002,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE19C
 
 # .sbss:0x338 | 0x805DE1A0 | size: 0x1
-.obj lbl_805DE1A0, global
+.obj SkipAddress_34, global
 	.skip 0x1
-.endobj lbl_805DE1A0
+.endobj SkipAddress_34
 
 # .sbss:0x339 | 0x805DE1A1 | size: 0x3
 .obj gap_10_805DE1A1_sbss, global
@@ -1043,9 +1043,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE1B8
 
 # .sbss:0x354 | 0x805DE1BC | size: 0x1
-.obj lbl_805DE1BC, global
+.obj SkipAddress_33, global
 	.skip 0x1
-.endobj lbl_805DE1BC
+.endobj SkipAddress_33
 
 # .sbss:0x355 | 0x805DE1BD | size: 0x3
 .obj gap_10_805DE1BD_sbss, global
@@ -1059,9 +1059,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE1C0
 
 # .sbss:0x35C | 0x805DE1C4 | size: 0x1
-.obj lbl_805DE1C4, global
+.obj SkipAddress_32, global
 	.skip 0x1
-.endobj lbl_805DE1C4
+.endobj SkipAddress_32
 
 # .sbss:0x35D | 0x805DE1C5 | size: 0x3
 .obj gap_10_805DE1C5_sbss, global
@@ -1500,24 +1500,24 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE34C
 
 # .sbss:0x4E8 | 0x805DE350 | size: 0x1
-.obj lbl_805DE350, global
+.obj SkipAddress_31, global
 	.skip 0x1
-.endobj lbl_805DE350
+.endobj SkipAddress_31
 
 # .sbss:0x4E9 | 0x805DE351 | size: 0x1
-.obj lbl_805DE351, global
+.obj SkipAddress_30, global
 	.skip 0x1
-.endobj lbl_805DE351
+.endobj SkipAddress_30
 
 # .sbss:0x4EA | 0x805DE352 | size: 0x1
-.obj lbl_805DE352, global
+.obj SkipAddress_29, global
 	.skip 0x1
-.endobj lbl_805DE352
+.endobj SkipAddress_29
 
 # .sbss:0x4EB | 0x805DE353 | size: 0x5
-.obj lbl_805DE353, global
+.obj SkipAddress_28, global
 	.skip 0x5
-.endobj lbl_805DE353
+.endobj SkipAddress_28
 
 # .sbss:0x4F0 | 0x805DE358 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE358, global
@@ -1525,34 +1525,34 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE358
 
 # .sbss:0x4F4 | 0x805DE35C | size: 0x2
-.obj lbl_805DE35C, global
+.obj SkipAddress_27, global
 	.skip 0x2
-.endobj lbl_805DE35C
+.endobj SkipAddress_27
 
 # .sbss:0x4F6 | 0x805DE35E | size: 0x2
-.obj lbl_805DE35E, global
+.obj SkipAddress_26, global
 	.skip 0x2
-.endobj lbl_805DE35E
+.endobj SkipAddress_26
 
 # .sbss:0x4F8 | 0x805DE360 | size: 0x2
-.obj lbl_805DE360, global
+.obj SkipAddress_25, global
 	.skip 0x2
-.endobj lbl_805DE360
+.endobj SkipAddress_25
 
 # .sbss:0x4FA | 0x805DE362 | size: 0x2
-.obj lbl_805DE362, global
+.obj SkipAddress_24, global
 	.skip 0x2
-.endobj lbl_805DE362
+.endobj SkipAddress_24
 
 # .sbss:0x4FC | 0x805DE364 | size: 0x2
-.obj lbl_805DE364, global
+.obj SkipAddress_23, global
 	.skip 0x2
-.endobj lbl_805DE364
+.endobj SkipAddress_23
 
 # .sbss:0x4FE | 0x805DE366 | size: 0x2
-.obj lbl_805DE366, global
+.obj SkipAddress_22, global
 	.skip 0x2
-.endobj lbl_805DE366
+.endobj SkipAddress_22
 
 # .sbss:0x500 | 0x805DE368 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805DE368, global
@@ -1690,9 +1690,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE3D8
 
 # .sbss:0x578 | 0x805DE3E0 | size: 0x2
-.obj lbl_805DE3E0, global
+.obj SkipAddress_21, global
 	.skip 0x2
-.endobj lbl_805DE3E0
+.endobj SkipAddress_21
 
 # .sbss:0x57A | 0x805DE3E2 | size: 0x2
 .obj gap_10_805DE3E2_sbss, global
@@ -1926,24 +1926,24 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE4A0
 
 # .sbss:0x63C | 0x805DE4A4 | size: 0x1
-.obj lbl_805DE4A4, global
+.obj SkipAddress_20, global
 	.skip 0x1
-.endobj lbl_805DE4A4
+.endobj SkipAddress_20
 
 # .sbss:0x63D | 0x805DE4A5 | size: 0x1
-.obj lbl_805DE4A5, global
+.obj SkipAddress_19, global
 	.skip 0x1
-.endobj lbl_805DE4A5
+.endobj SkipAddress_19
 
 # .sbss:0x63E | 0x805DE4A6 | size: 0x1
-.obj lbl_805DE4A6, global
+.obj SkipAddress_18, global
 	.skip 0x1
-.endobj lbl_805DE4A6
+.endobj SkipAddress_18
 
 # .sbss:0x63F | 0x805DE4A7 | size: 0x1
-.obj lbl_805DE4A7, global
+.obj SkipAddress_17, global
 	.skip 0x1
-.endobj lbl_805DE4A7
+.endobj SkipAddress_17
 
 # .sbss:0x640 | 0x805DE4A8 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE4A8, global
@@ -1951,9 +1951,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE4A8
 
 # .sbss:0x644 | 0x805DE4AC | size: 0x8
-.obj lbl_805DE4AC, global
+.obj SkipAddress_16, global
 	.skip 0x8
-.endobj lbl_805DE4AC
+.endobj SkipAddress_16
 
 # .sbss:0x64C | 0x805DE4B4 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE4B4, global
@@ -1966,9 +1966,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE4B8
 
 # .sbss:0x654 | 0x805DE4BC | size: 0x1
-.obj lbl_805DE4BC, global
+.obj SkipAddress_15, global
 	.skip 0x1
-.endobj lbl_805DE4BC
+.endobj SkipAddress_15
 
 # .sbss:0x655 | 0x805DE4BD | size: 0x3
 .obj gap_10_805DE4BD_sbss, global
@@ -2152,9 +2152,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE54C
 
 # .sbss:0x6E8 | 0x805DE550 | size: 0x8
-.obj lbl_805DE550, global
+.obj SkipAddress_14, global
 	.skip 0x8
-.endobj lbl_805DE550
+.endobj SkipAddress_14
 
 # .sbss:0x6F0 | 0x805DE558 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE558, global
@@ -2232,14 +2232,14 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE594
 
 # .sbss:0x730 | 0x805DE598 | size: 0x6
-.obj lbl_805DE598, global
+.obj SkipAddress_13, global
 	.skip 0x6
-.endobj lbl_805DE598
+.endobj SkipAddress_13
 
 # .sbss:0x736 | 0x805DE59E | size: 0x1
-.obj lbl_805DE59E, global
+.obj SkipAddress_12, global
 	.skip 0x1
-.endobj lbl_805DE59E
+.endobj SkipAddress_12
 
 # .sbss:0x737 | 0x805DE59F | size: 0x1
 .obj gap_10_805DE59F_sbss, global
@@ -2248,9 +2248,9 @@
 .endobj gap_10_805DE59F_sbss
 
 # .sbss:0x738 | 0x805DE5A0 | size: 0x8
-.obj lbl_805DE5A0, global
+.obj SkipAddress_11, global
 	.skip 0x8
-.endobj lbl_805DE5A0
+.endobj SkipAddress_11
 
 # .sbss:0x740 | 0x805DE5A8 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE5A8, global
@@ -2313,9 +2313,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE5D4
 
 # .sbss:0x770 | 0x805DE5D8 | size: 0x2
-.obj lbl_805DE5D8, global
+.obj SkipAddress_10, global
 	.skip 0x2
-.endobj lbl_805DE5D8
+.endobj SkipAddress_10
 
 # .sbss:0x772 | 0x805DE5DA | size: 0x2
 .obj gap_10_805DE5DA_sbss, global
@@ -2334,9 +2334,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE5E0
 
 # .sbss:0x77C | 0x805DE5E4 | size: 0x2
-.obj lbl_805DE5E4, global
+.obj SkipAddress_9, global
 	.skip 0x2
-.endobj lbl_805DE5E4
+.endobj SkipAddress_9
 
 # .sbss:0x77E | 0x805DE5E6 | size: 0x2
 .obj gap_10_805DE5E6_sbss, global
@@ -2345,9 +2345,9 @@
 .endobj gap_10_805DE5E6_sbss
 
 # .sbss:0x780 | 0x805DE5E8 | size: 0x1
-.obj lbl_805DE5E8, global
+.obj SkipAddress_8, global
 	.skip 0x1
-.endobj lbl_805DE5E8
+.endobj SkipAddress_8
 
 # .sbss:0x781 | 0x805DE5E9 | size: 0x3
 .obj gap_10_805DE5E9_sbss, global
@@ -2361,14 +2361,14 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE5EC
 
 # .sbss:0x788 | 0x805DE5F0 | size: 0x2
-.obj lbl_805DE5F0, global
+.obj SkipAddress_7, global
 	.skip 0x2
-.endobj lbl_805DE5F0
+.endobj SkipAddress_7
 
 # .sbss:0x78A | 0x805DE5F2 | size: 0x6
-.obj lbl_805DE5F2, global
+.obj SkipAddress_6, global
 	.skip 0x6
-.endobj lbl_805DE5F2
+.endobj SkipAddress_6
 
 # .sbss:0x790 | 0x805DE5F8 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE5F8, global
@@ -2531,14 +2531,14 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE6A4
 
 # .sbss:0x840 | 0x805DE6A8 | size: 0x8
-.obj lbl_805DE6A8, global
+.obj SkipAddress_5, global
 	.skip 0x8
-.endobj lbl_805DE6A8
+.endobj SkipAddress_5
 
 # .sbss:0x848 | 0x805DE6B0 | size: 0x8
-.obj lbl_805DE6B0, global
+.obj SkipAddress_4, global
 	.skip 0x8
-.endobj lbl_805DE6B0
+.endobj SkipAddress_4
 
 # .sbss:0x850 | 0x805DE6B8 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE6B8, global
@@ -2551,9 +2551,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE6BC
 
 # .sbss:0x858 | 0x805DE6C0 | size: 0x8
-.obj lbl_805DE6C0, global
+.obj SkipAddress_3, global
 	.skip 0x8
-.endobj lbl_805DE6C0
+.endobj SkipAddress_3
 
 # .sbss:0x860 | 0x805DE6C8 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE6C8, global
@@ -2576,9 +2576,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE6D4
 
 # .sbss:0x874 | 0x805DE6DC | size: 0x1
-.obj lbl_805DE6DC, global
+.obj StructValues_Byte_2, global
 	.skip 0x1
-.endobj lbl_805DE6DC
+.endobj StructValues_Byte_2
 
 # .sbss:0x875 | 0x805DE6DD | size: 0x3
 .obj gap_10_805DE6DD_sbss, global
@@ -2597,9 +2597,9 @@
 .endobj STRUCT_BYTE4_COUNT_1805DE6E4
 
 # .sbss:0x880 | 0x805DE6E8 | size: 0x8
-.obj lbl_805DE6E8, global
+.obj SkipAddress_2, global
 	.skip 0x8
-.endobj lbl_805DE6E8
+.endobj SkipAddress_2
 
 # .sbss:0x888 | 0x805DE6F0 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DE6F0, global

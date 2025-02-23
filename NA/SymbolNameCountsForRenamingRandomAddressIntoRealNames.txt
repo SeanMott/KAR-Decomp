@@ -1,19 +1,22 @@
-MemoryOffset_253
+MemoryOffset_379
 
-AllZeros_33
-AllFs_6
+AllZeros_40
+AllFs_7
 
 ByteArray_10
 
-StructWithStructs_42
+StructWithStructs_44
 
-StructValues_55
+StructValues_56
 StructValues_Double_3
-StructValues_Float_2
+StructValues_Float_3
+StructValues_Byte_4
 
 StructValues_String_1
 StructValues_FormaterString_2
 
-StructWithFuncPtrs_12
+StructWithFuncPtrs_13
 
 StructWithFuncPtrs_HSD_1
+
+SkipAddress_71

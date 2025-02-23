@@ -22149,10 +22149,10 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E35A8
 
 # .sdata2:0x4EB0 | 0x805E35B0 | size: 0x8
-.obj lbl_805E35B0, global
+.obj MemoryOffset_305, global
 	.4byte 0x00010207
 	.4byte 0x03050604
-.endobj lbl_805E35B0
+.endobj MemoryOffset_305
 
 # .sdata2:0x4EB8 | 0x805E35B8 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E35B8, global
@@ -29821,9 +29821,9 @@
 .endobj "lbl_"@77""
 
 # .sdata2:0x6AAC | 0x805E51AC | size: 0x1
-.obj lbl_805E51AC, global
+.obj StructValues_Byte_1, global
 	.byte 0x00
-.endobj lbl_805E51AC
+.endobj StructValues_Byte_1
 
 # .sdata2:0x6AAD | 0x805E51AD | size: 0x3
 .obj gap_11_805E51AD_sdata2, global
@@ -33568,10 +33568,10 @@
 .endobj STRUCT_BYTE4_COUNT_1805E628C
 
 # .sdata2:0x7B90 | 0x805E6290 | size: 0x8
-.obj lbl_805E6290, global
+.obj MemoryOffset_304, global
 	.4byte 0x0009BF00
 	.4byte 0x00000000
-.endobj lbl_805E6290
+.endobj MemoryOffset_304
 
 # .sdata2:0x7B98 | 0x805E6298 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805E6298, global
@@ -33610,10 +33610,10 @@
 .endobj STRUCT_BYTE4_COUNT_1805E62B4
 
 # .sdata2:0x7BB8 | 0x805E62B8 | size: 0x8
-.obj lbl_805E62B8, global
+.obj MemoryOffset_303, global
 	.4byte 0x0304C023
 	.4byte 0x00000000
-.endobj lbl_805E62B8
+.endobj MemoryOffset_303
 
 # .sdata2:0x7BC0 | 0x805E62C0 | size: 0x8
 .obj STRUCT_BYTE4_COUNT_1805E62C0, global

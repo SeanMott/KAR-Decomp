@@ -921,129 +921,129 @@
 .endobj MemoryOffset_244
 
 # .data:0xBE4 | 0x80499DDC | size: 0x10
-.obj MemoryOffset_247, global
+.obj MemoryOffset_353, global
 	.4byte 0x4C625275
 	.4byte 0x6D626C65
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_247
+.endobj MemoryOffset_353
 
 # .data:0xBF4 | 0x80499DEC | size: 0xC
-.obj MemoryOffset_248, global
+.obj MemoryOffset_354, global
 	.4byte 0x53746167
 	.4byte 0x652E6461
 	.4byte 0x74000000
-.endobj MemoryOffset_248
+.endobj MemoryOffset_354
 
 # .data:0xC00 | 0x80499DF8 | size: 0xC
-.obj MemoryOffset_249, global
+.obj MemoryOffset_355, global
 	.4byte 0x476D4461
 	.4byte 0x74612E64
 	.4byte 0x61740000
-.endobj MemoryOffset_249
+.endobj MemoryOffset_355
 
 # .data:0xC0C | 0x80499E04 | size: 0x10
-.obj MemoryOffset_250, global
+.obj MemoryOffset_358, global
 	.4byte 0x4C624D63
 	.4byte 0x47616D65
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_250
+.endobj MemoryOffset_358
 
 # .data:0xC1C | 0x80499E14 | size: 0x14
-.obj MemoryOffset_251, global
+.obj MemoryOffset_359, global
 	.4byte 0x4D6E4D65
 	.4byte 0x6D49636F
 	.4byte 0x6E416C6C
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_251
+.endobj MemoryOffset_359
 
 # .data:0xC30 | 0x80499E28 | size: 0xC
-.obj MemoryOffset_252, global
+.obj MemoryOffset_356, global
 	.4byte 0x506C4461
 	.4byte 0x74612E64
 	.4byte 0x61740000
-.endobj MemoryOffset_252
+.endobj MemoryOffset_356
 
 # .data:0xC3C | 0x80499E34 | size: 0xC
-.obj MemoryOffset_253, global
+.obj MemoryOffset_357, global
 	.4byte 0x456E656D
 	.4byte 0x792E6461
 	.4byte 0x74000000
-.endobj MemoryOffset_253
+.endobj MemoryOffset_357
 
 # .data:0xC48 | 0x80499E40 | size: 0x10
-.obj MemoryOffset_254, global
+.obj MemoryOffset_360, global
 	.4byte 0x4C624267
 	.4byte 0x466C6173
 	.4byte 0x682E6461
 	.4byte 0x74000000
-.endobj MemoryOffset_254
+.endobj MemoryOffset_360
 
 # .data:0xC58 | 0x80499E50 | size: 0x10
-.obj MemoryOffset_255, global
+.obj MemoryOffset_361, global
 	.4byte 0x4462436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_255
+.endobj MemoryOffset_361
 
 # .data:0xC68 | 0x80499E60 | size: 0x10
-.obj MemoryOffset_256, global
+.obj MemoryOffset_362, global
 	.4byte 0x436D436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_256
+.endobj MemoryOffset_362
 
 # .data:0xC78 | 0x80499E70 | size: 0x10
-.obj MemoryOffset_257, global
+.obj MemoryOffset_363, global
 	.4byte 0x5264436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_257
+.endobj MemoryOffset_363
 
 # .data:0xC88 | 0x80499E80 | size: 0x10
-.obj MemoryOffset_258, global
+.obj MemoryOffset_364, global
 	.4byte 0x4974436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_258
+.endobj MemoryOffset_364
 
 # .data:0xC98 | 0x80499E90 | size: 0x10
-.obj MemoryOffset_259, global
+.obj MemoryOffset_365, global
 	.4byte 0x4772436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_259
+.endobj MemoryOffset_365
 
 # .data:0xCA8 | 0x80499EA0 | size: 0x10
-.obj MemoryOffset_260, global
+.obj MemoryOffset_366, global
 	.4byte 0x596B436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_260
+.endobj MemoryOffset_366
 
 # .data:0xCB8 | 0x80499EB0 | size: 0x10
-.obj MemoryOffset_261, global
+.obj MemoryOffset_367, global
 	.4byte 0x576E436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_261
+.endobj MemoryOffset_367
 
 # .data:0xCC8 | 0x80499EC0 | size: 0x10
-.obj MemoryOffset_262, global
+.obj MemoryOffset_368, global
 	.4byte 0x5663436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_262
+.endobj MemoryOffset_368
 
 # .data:0xCD8 | 0x80499ED0 | size: 0xC
 .obj String_"RdKirby.dat"_1, global
@@ -1056,21 +1056,21 @@
 .endobj String_"IfAll1c.dat"
 
 # .data:0xCF0 | 0x80499EE8 | size: 0x10
-.obj MemoryOffset_263, global
+.obj MemoryOffset_369, global
 	.4byte 0x4566436F
 	.4byte 0x6D6D6F6E
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_263
+.endobj MemoryOffset_369
 
 # .data:0xD00 | 0x80499EF8 | size: 0x14
-.obj MemoryOffset_264, global
+.obj MemoryOffset_370, global
 	.4byte 0x45665074
 	.4byte 0x636C5665
 	.4byte 0x6869636C
 	.4byte 0x652E6461
 	.4byte 0x74000000
-.endobj MemoryOffset_264
+.endobj MemoryOffset_370
 
 # .data:0xD14 | 0x80499F0C | size: 0x10
 .obj String_"EmBroomData.dat"_1, global
@@ -1083,13 +1083,13 @@
 .endobj String_"EmBrontData.dat"_2
 
 # .data:0xD34 | 0x80499F2C | size: 0x14
-.obj MemoryOffset_265, global
+.obj MemoryOffset_371, global
 	.4byte 0x456D5363
 	.4byte 0x61726679
 	.4byte 0x44617461
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_265
+.endobj MemoryOffset_371
 
 # .data:0xD48 | 0x80499F40 | size: 0x10
 .obj String_"EmSwordData.dat"_1, global
@@ -1102,22 +1102,22 @@
 .endobj String_"EmCappyData.dat"_2
 
 # .data:0xD68 | 0x80499F60 | size: 0x14
-.obj MemoryOffset_266, global
+.obj MemoryOffset_372, global
 	.4byte 0x456D5768
 	.4byte 0x65656C69
 	.4byte 0x65446174
 	.4byte 0x612E6461
 	.4byte 0x74000000
-.endobj MemoryOffset_266
+.endobj MemoryOffset_372
 
 # .data:0xD7C | 0x80499F74 | size: 0x14
-.obj MemoryOffset_267, global
+.obj MemoryOffset_373, global
 	.4byte 0x456D456C
 	.4byte 0x65706861
 	.4byte 0x6E744461
 	.4byte 0x74612E64
 	.4byte 0x61740000
-.endobj MemoryOffset_267
+.endobj MemoryOffset_373
 
 # .data:0xD90 | 0x80499F88 | size: 0x10
 .obj String_"EmNoddyData.dat"_1, global
@@ -1125,31 +1125,31 @@
 .endobj String_"EmNoddyData.dat"_1
 
 # .data:0xDA0 | 0x80499F98 | size: 0x14
-.obj MemoryOffset_268, global
+.obj MemoryOffset_374, global
 	.4byte 0x456D4368
 	.4byte 0x696C6C79
 	.4byte 0x44617461
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_268
+.endobj MemoryOffset_374
 
 # .data:0xDB4 | 0x80499FAC | size: 0x14
-.obj MemoryOffset_269, global
+.obj MemoryOffset_375, global
 	.4byte 0x456D466C
 	.4byte 0x61707079
 	.4byte 0x44617461
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_269
+.endobj MemoryOffset_375
 
 # .data:0xDC8 | 0x80499FC0 | size: 0x14
-.obj MemoryOffset_270, global
+.obj MemoryOffset_376, global
 	.4byte 0x456D506C
 	.4byte 0x61736D61
 	.4byte 0x44617461
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj MemoryOffset_270
+.endobj MemoryOffset_376
 
 # .data:0xDDC | 0x80499FD4 | size: 0x10
 .obj String_"EmGordoData.dat"_1, global
@@ -1157,30 +1157,30 @@
 .endobj String_"EmGordoData.dat"_1
 
 # .data:0xDEC | 0x80499FE4 | size: 0x14
-.obj MemoryOffset_271, global
+.obj MemoryOffset_377, global
 	.4byte 0x456D426F
 	.4byte 0x6D62626F
 	.4byte 0x6E654461
 	.4byte 0x74612E64
 	.4byte 0x61740000
-.endobj MemoryOffset_271
+.endobj MemoryOffset_377
 
 # .data:0xE00 | 0x80499FF8 | size: 0x14
-.obj MemoryOffset_272, global
+.obj MemoryOffset_378, global
 	.4byte 0x456D5069
 	.4byte 0x63686963
 	.4byte 0x72694461
 	.4byte 0x74612E64
 	.4byte 0x61740000
-.endobj MemoryOffset_272
+.endobj MemoryOffset_378
 
 # .data:0xE14 | 0x8049A00C | size: 0x10
-.obj MemoryOffset_273, global
+.obj MemoryOffset_379, global
 	.4byte 0x456D4461
 	.4byte 0x796C4461
 	.4byte 0x74612E64
 	.4byte 0x61740000
-.endobj MemoryOffset_273
+.endobj MemoryOffset_379
 
 # .data:0xE24 | 0x8049A01C | size: 0x10
 .obj s_EmWalkyData.dat_8049a01c, global
@@ -1188,19 +1188,19 @@
 .endobj s_EmWalkyData.dat_8049a01c
 
 # .data:0xE34 | 0x8049A02C | size: 0x10
-.obj lbl_8049A02C, global
+.obj MemoryOffset_254, global
 	.4byte 0x456D4465
 	.4byte 0x65446174
 	.4byte 0x612E6461
 	.4byte 0x74000000
-.endobj lbl_8049A02C
+.endobj MemoryOffset_254
 
 # .data:0xE44 | 0x8049A03C | size: 0xC
-.obj lbl_8049A03C, global
+.obj MemoryOffset_255, global
 	.4byte 0x56635374
 	.4byte 0x61722E64
 	.4byte 0x61740000
-.endobj lbl_8049A03C
+.endobj MemoryOffset_255
 
 # .data:0xE50 | 0x8049A048 | size: 0x10
 .obj String_"VcStarDevil.dat", global
@@ -1208,22 +1208,22 @@
 .endobj String_"VcStarDevil.dat"
 
 # .data:0xE60 | 0x8049A058 | size: 0x14
-.obj lbl_8049A058, global
+.obj MemoryOffset_256, global
 	.4byte 0x56635374
 	.4byte 0x6172466C
 	.4byte 0x69676874
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A058
+.endobj MemoryOffset_256
 
 # .data:0xE74 | 0x8049A06C | size: 0x14
-.obj lbl_8049A06C, global
+.obj MemoryOffset_257, global
 	.4byte 0x56635374
 	.4byte 0x6172466F
 	.4byte 0x726D756C
 	.4byte 0x612E6461
 	.4byte 0x74000000
-.endobj lbl_8049A06C
+.endobj MemoryOffset_257
 
 # .data:0xE88 | 0x8049A080 | size: 0x10
 .obj String_"VcStarHeavy.dat", global
@@ -1231,12 +1231,12 @@
 .endobj String_"VcStarHeavy.dat"
 
 # .data:0xE98 | 0x8049A090 | size: 0x10
-.obj lbl_8049A090, global
+.obj MemoryOffset_258, global
 	.4byte 0x56635374
 	.4byte 0x61724A65
 	.4byte 0x742E6461
 	.4byte 0x74000000
-.endobj lbl_8049A090
+.endobj MemoryOffset_258
 
 # .data:0xEA8 | 0x8049A0A0 | size: 0x10
 .obj String_"VcStarLight.dat", global
@@ -1244,22 +1244,22 @@
 .endobj String_"VcStarLight.dat"
 
 # .data:0xEB8 | 0x8049A0B0 | size: 0x14
-.obj lbl_8049A0B0, global
+.obj MemoryOffset_259, global
 	.4byte 0x56635374
 	.4byte 0x61724E6F
 	.4byte 0x726D616C
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A0B0
+.endobj MemoryOffset_259
 
 # .data:0xECC | 0x8049A0C4 | size: 0x14
-.obj lbl_8049A0C4, global
+.obj MemoryOffset_260, global
 	.4byte 0x56635374
 	.4byte 0x6172526F
 	.4byte 0x636B6574
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A0C4
+.endobj MemoryOffset_260
 
 # .data:0xEE0 | 0x8049A0D8 | size: 0x10
 .obj String_"VcStarRuins.dat", global
@@ -1282,19 +1282,19 @@
 .endobj String_"VcStarWagon.dat"
 
 # .data:0xF20 | 0x8049A118 | size: 0x10
-.obj lbl_8049A118, global
+.obj MemoryOffset_261, global
 	.4byte 0x56635374
 	.4byte 0x61725769
 	.4byte 0x6E672E64
 	.4byte 0x61740000
-.endobj lbl_8049A118
+.endobj MemoryOffset_261
 
 # .data:0xF30 | 0x8049A128 | size: 0xC
-.obj lbl_8049A128, global
+.obj MemoryOffset_262, global
 	.4byte 0x41324974
 	.4byte 0x656D2E64
 	.4byte 0x61740000
-.endobj lbl_8049A128
+.endobj MemoryOffset_262
 
 # .data:0xF3C | 0x8049A134 | size: 0xC
 .obj String_"A2Kirby.dat", global
@@ -1302,65 +1302,65 @@
 .endobj String_"A2Kirby.dat"
 
 # .data:0xF48 | 0x8049A140 | size: 0x10
-.obj lbl_8049A140, global
+.obj MemoryOffset_263, global
 	.4byte 0x41325465
 	.4byte 0x78747572
 	.4byte 0x652E6461
 	.4byte 0x74000000
-.endobj lbl_8049A140
+.endobj MemoryOffset_263
 
 # .data:0xF58 | 0x8049A150 | size: 0x10
-.obj lbl_8049A150, global
+.obj MemoryOffset_264, global
 	.4byte 0x41325769
 	.4byte 0x6E646F77
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A150
+.endobj MemoryOffset_264
 
 # .data:0xF68 | 0x8049A160 | size: 0xC
-.obj lbl_8049A160, global
+.obj MemoryOffset_265, global
 	.4byte 0x4132496E
 	.4byte 0x666F2E64
 	.4byte 0x61740000
-.endobj lbl_8049A160
+.endobj MemoryOffset_265
 
 # .data:0xF74 | 0x8049A16C | size: 0x18
-.obj lbl_8049A16C, global
+.obj MemoryOffset_266, global
 	.4byte 0x52644B69
 	.4byte 0x7262794D
 	.4byte 0x6F74696F
 	.4byte 0x6E44656D
 	.4byte 0x6F2E6461
 	.4byte 0x74000000
-.endobj lbl_8049A16C
+.endobj MemoryOffset_266
 
 # .data:0xF8C | 0x8049A184 | size: 0x14
-.obj lbl_8049A184, global
+.obj MemoryOffset_267, global
 	.4byte 0x52644B69
 	.4byte 0x7262794D
 	.4byte 0x6F74696F
 	.4byte 0x6E2E6461
 	.4byte 0x74000000
-.endobj lbl_8049A184
+.endobj MemoryOffset_267
 
 # .data:0xFA0 | 0x8049A198 | size: 0x18
-.obj lbl_8049A198, global
+.obj MemoryOffset_268, global
 	.4byte 0x52644B69
 	.4byte 0x7262794D
 	.4byte 0x6F74696F
 	.4byte 0x6E57616C
 	.4byte 0x6B2E6461
 	.4byte 0x74000000
-.endobj lbl_8049A198
+.endobj MemoryOffset_268
 
 # .data:0xFB8 | 0x8049A1B0 | size: 0x14
-.obj lbl_8049A1B0, global
+.obj MemoryOffset_269, global
 	.4byte 0x52644B69
 	.4byte 0x72627941
 	.4byte 0x62696C69
 	.4byte 0x74792E64
 	.4byte 0x61740000
-.endobj lbl_8049A1B0
+.endobj MemoryOffset_269
 
 # .data:0xFCC | 0x8049A1C4 | size: 0xC
 .obj String_"VcWheel.dat", global
@@ -1373,85 +1373,85 @@
 .endobj String_"VcWingKirby.dat"
 
 # .data:0xFE8 | 0x8049A1E0 | size: 0x14
-.obj lbl_8049A1E0, global
+.obj MemoryOffset_270, global
 	.4byte 0x56635768
 	.4byte 0x65656C4B
 	.4byte 0x69726279
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A1E0
+.endobj MemoryOffset_270
 
 # .data:0xFFC | 0x8049A1F4 | size: 0x10
-.obj lbl_8049A1F4, global
+.obj MemoryOffset_271, global
 	.4byte 0x45665074
 	.4byte 0x636C4D65
 	.4byte 0x6E752E64
 	.4byte 0x61740000
-.endobj lbl_8049A1F4
+.endobj MemoryOffset_271
 
 # .data:0x100C | 0x8049A204 | size: 0x10
-.obj lbl_8049A204, global
+.obj MemoryOffset_272, global
 	.4byte 0x56635374
 	.4byte 0x61724672
 	.4byte 0x65652E64
 	.4byte 0x61740000
-.endobj lbl_8049A204
+.endobj MemoryOffset_272
 
 # .data:0x101C | 0x8049A214 | size: 0x10
-.obj lbl_8049A214, global
+.obj MemoryOffset_273, global
 	.4byte 0x41324566
 	.4byte 0x42673030
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A214
+.endobj MemoryOffset_273
 
 # .data:0x102C | 0x8049A224 | size: 0x10
-.obj lbl_8049A224, global
+.obj MemoryOffset_274, global
 	.4byte 0x41324566
 	.4byte 0x42673031
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A224
+.endobj MemoryOffset_274
 
 # .data:0x103C | 0x8049A234 | size: 0x10
-.obj lbl_8049A234, global
+.obj MemoryOffset_275, global
 	.4byte 0x41324566
 	.4byte 0x42673033
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A234
+.endobj MemoryOffset_275
 
 # .data:0x104C | 0x8049A244 | size: 0x10
-.obj lbl_8049A244, global
+.obj MemoryOffset_276, global
 	.4byte 0x41324566
 	.4byte 0x42673034
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A244
+.endobj MemoryOffset_276
 
 # .data:0x105C | 0x8049A254 | size: 0x10
-.obj lbl_8049A254, global
+.obj MemoryOffset_277, global
 	.4byte 0x41324566
 	.4byte 0x42673035
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A254
+.endobj MemoryOffset_277
 
 # .data:0x106C | 0x8049A264 | size: 0x10
-.obj lbl_8049A264, global
+.obj MemoryOffset_278, global
 	.4byte 0x41324566
 	.4byte 0x42673038
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A264
+.endobj MemoryOffset_278
 
 # .data:0x107C | 0x8049A274 | size: 0x10
-.obj lbl_8049A274, global
+.obj MemoryOffset_279, global
 	.4byte 0x41324566
 	.4byte 0x42673041
 	.4byte 0x2E646174
 	.4byte 0x00000000
-.endobj lbl_8049A274
+.endobj MemoryOffset_279
 
 # .data:0x108C | 0x8049A284 | size: 0xC
 .obj STRING_"A2EfCom.dat", global
@@ -1517,7 +1517,7 @@
 .endobj jumptable_8049A304
 
 # .data:0x1140 | 0x8049A338 | size: 0x30
-.obj lbl_8049A338, global
+.obj MemoryOffset_280, global
 	.4byte 0x5B4C6244
 	.4byte 0x76644572
 	.4byte 0x726F725D
@@ -1530,10 +1530,10 @@
 	.4byte 0x6F6E7469
 	.4byte 0x6E756520
 	.4byte 0x3F0A0000
-.endobj lbl_8049A338
+.endobj MemoryOffset_280
 
 # .data:0x1170 | 0x8049A368 | size: 0x20
-.obj lbl_8049A368, global
+.obj MemoryOffset_281, global
 	.4byte 0x83668342
 	.4byte 0x8358834E
 	.4byte 0x834A836F
@@ -1542,10 +1542,10 @@
 	.4byte 0x82C482A2
 	.4byte 0x82DC82B7
 	.4byte 0x81420000
-.endobj lbl_8049A368
+.endobj MemoryOffset_281
 
 # .data:0x1190 | 0x8049A388 | size: 0x38
-.obj lbl_8049A388, global
+.obj MemoryOffset_282, global
 	.4byte 0x8351815B
 	.4byte 0x838082F0
 	.4byte 0x91B182AF
@@ -1560,10 +1560,10 @@
 	.4byte 0x82AD82BE
 	.4byte 0x82B382A2
 	.4byte 0x81420000
-.endobj lbl_8049A388
+.endobj MemoryOffset_282
 
 # .data:0x11C8 | 0x8049A3C0 | size: 0x3C
-.obj lbl_8049A3C0, global
+.obj MemoryOffset_283, global
 	.4byte 0x8175834A
 	.4byte 0x815B8372
 	.4byte 0x834282CC
@@ -1579,10 +1579,10 @@
 	.4byte 0x82BE82B3
 	.4byte 0x82A28142
 	.4byte 0x00000000
-.endobj lbl_8049A3C0
+.endobj MemoryOffset_283
 
 # .data:0x1204 | 0x8049A3FC | size: 0x20
-.obj lbl_8049A3FC, global
+.obj MemoryOffset_284, global
 	.4byte 0x83668342
 	.4byte 0x8358834E
 	.4byte 0x82F093C7
@@ -1591,10 +1591,10 @@
 	.4byte 0x82C582B5
 	.4byte 0x82BD8142
 	.4byte 0x00000000
-.endobj lbl_8049A3FC
+.endobj MemoryOffset_284
 
 # .data:0x1224 | 0x8049A41C | size: 0x2C
-.obj lbl_8049A41C, global
+.obj MemoryOffset_285, global
 	.4byte 0x8FDA82B5
 	.4byte 0x82AD82CD
 	.4byte 0x967B91CC
@@ -1606,20 +1606,20 @@
 	.4byte 0x82AD82BE
 	.4byte 0x82B382A2
 	.4byte 0x81420000
-.endobj lbl_8049A41C
+.endobj MemoryOffset_285
 
 # .data:0x1250 | 0x8049A448 | size: 0x18
-.obj lbl_8049A448, global
+.obj MemoryOffset_286, global
 	.4byte 0x83478389
 	.4byte 0x815B82AA
 	.4byte 0x94AD90B6
 	.4byte 0x82B582DC
 	.4byte 0x82B582BD
 	.4byte 0x81420000
-.endobj lbl_8049A448
+.endobj MemoryOffset_286
 
 # .data:0x1268 | 0x8049A460 | size: 0x30
-.obj lbl_8049A460, global
+.obj MemoryOffset_287, global
 	.4byte 0x967B91CC
 	.4byte 0x82CC8370
 	.4byte 0x838F815B
@@ -1632,10 +1632,10 @@
 	.4byte 0x826582C9
 	.4byte 0x82B58141
 	.4byte 0x00000000
-.endobj lbl_8049A460
+.endobj MemoryOffset_287
 
 # .data:0x1298 | 0x8049A490 | size: 0x30
-.obj lbl_8049A490, global
+.obj MemoryOffset_288, global
 	.4byte 0x967B91CC
 	.4byte 0x82CC8EE6
 	.4byte 0x88B590E0
@@ -1648,10 +1648,10 @@
 	.4byte 0x82BE82B3
 	.4byte 0x82A28142
 	.4byte 0x00000000
-.endobj lbl_8049A490
+.endobj MemoryOffset_288
 
 # .data:0x12C8 | 0x8049A4C0 | size: 0x20
-.obj lbl_8049A4C0, global
+.obj MemoryOffset_289, global
 	.4byte 0x83668342
 	.4byte 0x8358834E
 	.4byte 0x82F093C7
@@ -1660,20 +1660,20 @@
 	.4byte 0x82A282DC
 	.4byte 0x82B78142
 	.4byte 0x00000000
-.endobj lbl_8049A4C0
+.endobj MemoryOffset_289
 
 # .data:0x12E8 | 0x8049A4E0 | size: 0x18
-.obj lbl_8049A4E0, global
+.obj MemoryOffset_290, global
 	.4byte 0x826B8260
 	.4byte 0x826D82A9
 	.4byte 0x82E790D8
 	.4byte 0x926682B5
 	.4byte 0x82DC82B5
 	.4byte 0x82BD0000
-.endobj lbl_8049A4E0
+.endobj MemoryOffset_290
 
 # .data:0x1300 | 0x8049A4F8 | size: 0x24
-.obj lbl_8049A4F8, global
+.obj MemoryOffset_291, global
 	.4byte 0x8350815B
 	.4byte 0x8375838B
 	.4byte 0x82CC90DA
@@ -1683,19 +1683,19 @@
 	.4byte 0x8CB982C8
 	.4byte 0x82C782F0
 	.4byte 0x00000000
-.endobj lbl_8049A4F8
+.endobj MemoryOffset_291
 
 # .data:0x1324 | 0x8049A51C | size: 0x14
-.obj lbl_8049A51C, global
+.obj MemoryOffset_292, global
 	.4byte 0x8A6D82A9
 	.4byte 0x82DF82C4
 	.4byte 0x82AD82BE
 	.4byte 0x82B382A2
 	.4byte 0x00000000
-.endobj lbl_8049A51C
+.endobj MemoryOffset_292
 
 # .data:0x1338 | 0x8049A530 | size: 0x28
-.obj lbl_8049A530, global
+.obj MemoryOffset_293, global
 	.4byte 0x838B815B
 	.4byte 0x835E815B
 	.4byte 0x82C882C7
@@ -1706,19 +1706,19 @@
 	.4byte 0x82AD82BE
 	.4byte 0x82B382A2
 	.4byte 0x00000000
-.endobj lbl_8049A530
+.endobj MemoryOffset_293
 
 # .data:0x1360 | 0x8049A558 | size: 0x14
-.obj lbl_8049A558, global
+.obj MemoryOffset_294, global
 	.4byte 0x8351815B
 	.4byte 0x8380834C
 	.4byte 0x8385815B
 	.4byte 0x837582CC
 	.4byte 0x82DD0000
-.endobj lbl_8049A558
+.endobj MemoryOffset_294
 
 # .data:0x1374 | 0x8049A56C | size: 0x20
-.obj lbl_8049A56C, global
+.obj MemoryOffset_295, global
 	.4byte 0x836C8362
 	.4byte 0x8367838F
 	.4byte 0x815B834E
@@ -1727,10 +1727,10 @@
 	.4byte 0x82C482AD
 	.4byte 0x82BE82B3
 	.4byte 0x82A20000
-.endobj lbl_8049A56C
+.endobj MemoryOffset_295
 
 # .data:0x1394 | 0x8049A58C | size: 0x1C
-.obj lbl_8049A58C, global
+.obj MemoryOffset_296, global
 	.4byte 0x91BC82CC
 	.4byte 0x8351815B
 	.4byte 0x8380834C
@@ -1738,39 +1738,39 @@
 	.4byte 0x837582C6
 	.4byte 0x90B382B5
 	.4byte 0x82AD0000
-.endobj lbl_8049A58C
+.endobj MemoryOffset_296
 
 # .data:0x13B0 | 0x8049A5A8 | size: 0x18
-.obj lbl_8049A5A8, global
+.obj MemoryOffset_297, global
 	.4byte 0x92CA904D
 	.4byte 0x82C582AB
 	.4byte 0x82DC82B9
 	.4byte 0x82F182C5
 	.4byte 0x82B582BD
 	.4byte 0x00000000
-.endobj lbl_8049A5A8
+.endobj MemoryOffset_297
 
 # .data:0x13C8 | 0x8049A5C0 | size: 0x14
-.obj lbl_8049A5C0, global
+.obj MemoryOffset_298, global
 	.4byte 0x92CA904D
 	.4byte 0x82F09286
 	.4byte 0x926682B5
 	.4byte 0x82DC82B5
 	.4byte 0x82BD0000
-.endobj lbl_8049A5C0
+.endobj MemoryOffset_298
 
 # .data:0x13DC | 0x8049A5D4 | size: 0x18
-.obj lbl_8049A5D4, global
+.obj MemoryOffset_299, global
 	.4byte 0x83478389
 	.4byte 0x815B82AA
 	.4byte 0x94AD90B6
 	.4byte 0x82B582DC
 	.4byte 0x82B582BD
 	.4byte 0x00000000
-.endobj lbl_8049A5D4
+.endobj MemoryOffset_299
 
 # .data:0x13F4 | 0x8049A5EC | size: 0x1C
-.obj lbl_8049A5EC, global
+.obj MemoryOffset_300, global
 	.4byte 0x826B8260
 	.4byte 0x826D82A9
 	.4byte 0x82E790D8
@@ -1778,47 +1778,47 @@
 	.4byte 0x82C482A2
 	.4byte 0x82DC82B7
 	.4byte 0x00000000
-.endobj lbl_8049A5EC
+.endobj MemoryOffset_300
 
 # .data:0x1410 | 0x8049A608 | size: 0x90
-.obj lbl_8049A608, global
+.obj StructWithStructs_43, global
 	.4byte lbl_805D53B8
-	.4byte lbl_8049A368
-	.4byte lbl_8049A388
+	.4byte MemoryOffset_281
+	.4byte MemoryOffset_282
 	.4byte lbl_805D53B8
-	.4byte lbl_8049A3C0
-	.4byte lbl_805D53B8
-	.4byte lbl_805D53B8
-	.4byte lbl_8049A3C0
-	.4byte lbl_805D53B8
-	.4byte lbl_8049A3FC
-	.4byte lbl_8049A41C
-	.4byte lbl_805D53B8
-	.4byte lbl_8049A448
-	.4byte lbl_8049A460
-	.4byte lbl_8049A490
-	.4byte lbl_805D53B8
-	.4byte lbl_8049A4C0
-	.4byte lbl_805D53B8
-	.4byte lbl_8049A4E0
-	.4byte lbl_8049A4F8
-	.4byte lbl_8049A51C
-	.4byte lbl_8049A4E0
-	.4byte lbl_8049A530
-	.4byte lbl_805D53B8
-	.4byte lbl_8049A4E0
-	.4byte lbl_8049A558
-	.4byte lbl_8049A56C
-	.4byte lbl_8049A58C
-	.4byte lbl_8049A5A8
-	.4byte lbl_805D53B8
-	.4byte lbl_8049A5C0
-	.4byte lbl_8049A5D4
+	.4byte MemoryOffset_283
 	.4byte lbl_805D53B8
 	.4byte lbl_805D53B8
-	.4byte lbl_8049A5EC
+	.4byte MemoryOffset_283
 	.4byte lbl_805D53B8
-.endobj lbl_8049A608
+	.4byte MemoryOffset_284
+	.4byte MemoryOffset_285
+	.4byte lbl_805D53B8
+	.4byte MemoryOffset_286
+	.4byte MemoryOffset_287
+	.4byte MemoryOffset_288
+	.4byte lbl_805D53B8
+	.4byte MemoryOffset_289
+	.4byte lbl_805D53B8
+	.4byte MemoryOffset_290
+	.4byte MemoryOffset_291
+	.4byte MemoryOffset_292
+	.4byte MemoryOffset_290
+	.4byte MemoryOffset_293
+	.4byte lbl_805D53B8
+	.4byte MemoryOffset_290
+	.4byte MemoryOffset_294
+	.4byte MemoryOffset_295
+	.4byte MemoryOffset_296
+	.4byte MemoryOffset_297
+	.4byte lbl_805D53B8
+	.4byte MemoryOffset_298
+	.4byte MemoryOffset_299
+	.4byte lbl_805D53B8
+	.4byte lbl_805D53B8
+	.4byte MemoryOffset_300
+	.4byte lbl_805D53B8
+.endobj StructWithStructs_43
 
 # .data:0x14A0 | 0x8049A698 | size: 0x18
 .obj String_"TheDiscCoverIsOpen", global
@@ -1826,7 +1826,7 @@
 .endobj String_"TheDiscCoverIsOpen"
 
 # .data:0x14B8 | 0x8049A6B0 | size: 0x24
-.obj lbl_8049A6B0, global
+.obj MemoryOffset_301, global
 	.4byte 0x49662079
 	.4byte 0x6F752077
 	.4byte 0x616E7420
@@ -1836,10 +1836,10 @@
 	.4byte 0x74686520
 	.4byte 0x67616D65
 	.4byte 0x2C000000
-.endobj lbl_8049A6B0
+.endobj MemoryOffset_301
 
 # .data:0x14DC | 0x8049A6D4 | size: 0x20
-.obj lbl_8049A6D4, global
+.obj MemoryOffset_302, global
 	.4byte 0x706C6561
 	.4byte 0x73652063
 	.4byte 0x6C6F7365
@@ -1848,7 +1848,7 @@
 	.4byte 0x6320436F
 	.4byte 0x7665722E
 	.4byte 0x00000000
-.endobj lbl_8049A6D4
+.endobj MemoryOffset_302
 
 # .data:0x14FC | 0x8049A6F4 | size: 0x2C
 .obj String_"PlzInsertTheKirbyAirRideDisc", global
@@ -2072,8 +2072,8 @@
 # .data:0x1770 | 0x8049A968 | size: 0x90
 .obj lbl_8049A968, global
 	.4byte String_"TheDiscCoverIsOpen"
-	.4byte lbl_8049A6B0
-	.4byte lbl_8049A6D4
+	.4byte MemoryOffset_301
+	.4byte MemoryOffset_302
 	.4byte lbl_805D53B8
 	.4byte String_"PlzInsertTheKirbyAirRideDisc"
 	.4byte lbl_805D53B8
