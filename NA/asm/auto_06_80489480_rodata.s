@@ -3655,31 +3655,31 @@
 # .rodata:0x3044 | 0x8048C4C4 | size: 0x74
 .obj StructWithHSDFuncPtrsAndOffsets, global
 	.4byte fn_HSD_AObjGetAllocData
-	.4byte lbl_805DCBD0
+	.4byte MemoryOffset_521
 	.4byte fn_HSD_FObjGetAllocData
-	.4byte lbl_805DCBD8
+	.4byte MemoryOffset_520
 	.4byte fn_HSD_IDGetAllocData
-	.4byte lbl_805DCBE0
+	.4byte MemoryOffset_519
 	.4byte fn_HSD_SListGetAllocData
-	.4byte lbl_805DCBE4
+	.4byte MemoryOffset_518
 	.4byte fn_HSD_DListGetAllocData
-	.4byte lbl_805DCBEC
+	.4byte MemoryOffset_517
 	.4byte fn_HSD_VecGetAllocData
 	.4byte String_"vec"
 	.4byte fn_HSD_MtxGetAllocData
 	.4byte String_"mtx"_8
 	.4byte fn_HSD_RObjGetAllocData
-	.4byte lbl_805DCBFC
+	.4byte MemoryOffset_516
 	.4byte fn_HSD_RvalueObjGetAllocData
-	.4byte lbl_805DCC04
+	.4byte MemoryOffset_515
 	.4byte fn_HSD_ShadowGetAllocData
-	.4byte lbl_805DCC0C
+	.4byte MemoryOffset_514
 	.4byte fn_HSD_RenderGetAllocData
-	.4byte lbl_805DCC14
+	.4byte MemoryOffset_513
 	.4byte fn_HSD_ChanGetAllocData
-	.4byte lbl_805DCC1C
+	.4byte MemoryOffset_512
 	.4byte fn_HSD_TevRegGetAllocData
-	.4byte lbl_805DCC24
+	.4byte MemoryOffset_511
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
