@@ -450,9 +450,9 @@
 .endobj StructWithFuncPtrs_2
 
 # .data:0x5A4 | 0x8049979C | size: 0x18
-.obj String_"sysdolphin_base_library", global
+.obj String_"sysdolphin_base_library"_1, global
 	.string "sysdolphin_base_library"
-.endobj String_"sysdolphin_base_library"
+.endobj String_"sysdolphin_base_library"_1
 
 # .data:0x5BC | 0x804997B4 | size: 0x14
 .obj MemoryOffset_231, global
@@ -1046,9 +1046,9 @@
 .endobj lbl_80499EC0
 
 # .data:0xCD8 | 0x80499ED0 | size: 0xC
-.obj String_"RdKirby.dat", global
+.obj String_"RdKirby.dat"_1, global
 	.string "RdKirby.dat"
-.endobj String_"RdKirby.dat"
+.endobj String_"RdKirby.dat"_1
 
 # .data:0xCE4 | 0x80499EDC | size: 0xC
 .obj String_"IfAll1c.dat", global
@@ -1073,14 +1073,14 @@
 .endobj lbl_80499EF8
 
 # .data:0xD14 | 0x80499F0C | size: 0x10
-.obj String_"EmBroomData.dat", global
+.obj String_"EmBroomData.dat"_1, global
 	.string "EmBroomData.dat"
-.endobj String_"EmBroomData.dat"
+.endobj String_"EmBroomData.dat"_1
 
 # .data:0xD24 | 0x80499F1C | size: 0x10
-.obj String_"EmBrontData.dat", global
+.obj String_"EmBrontData.dat"_2, global
 	.string "EmBrontData.dat"
-.endobj String_"EmBrontData.dat"
+.endobj String_"EmBrontData.dat"_2
 
 # .data:0xD34 | 0x80499F2C | size: 0x14
 .obj lbl_80499F2C, global
@@ -1092,14 +1092,14 @@
 .endobj lbl_80499F2C
 
 # .data:0xD48 | 0x80499F40 | size: 0x10
-.obj String_"EmSwordData.dat", global
+.obj String_"EmSwordData.dat"_1, global
 	.string "EmSwordData.dat"
-.endobj String_"EmSwordData.dat"
+.endobj String_"EmSwordData.dat"_1
 
 # .data:0xD58 | 0x80499F50 | size: 0x10
-.obj String_"EmCappyData.dat", global
+.obj String_"EmCappyData.dat"_2, global
 	.string "EmCappyData.dat"
-.endobj String_"EmCappyData.dat"
+.endobj String_"EmCappyData.dat"_2
 
 # .data:0xD68 | 0x80499F60 | size: 0x14
 .obj lbl_80499F60, global
@@ -1120,9 +1120,9 @@
 .endobj lbl_80499F74
 
 # .data:0xD90 | 0x80499F88 | size: 0x10
-.obj String_"EmNoddyData.dat", global
+.obj String_"EmNoddyData.dat"_1, global
 	.string "EmNoddyData.dat"
-.endobj String_"EmNoddyData.dat"
+.endobj String_"EmNoddyData.dat"_1
 
 # .data:0xDA0 | 0x80499F98 | size: 0x14
 .obj lbl_80499F98, global
@@ -1152,9 +1152,9 @@
 .endobj lbl_80499FC0
 
 # .data:0xDDC | 0x80499FD4 | size: 0x10
-.obj String_"EmGordoData.dat", global
+.obj String_"EmGordoData.dat"_1, global
 	.string "EmGordoData.dat"
-.endobj String_"EmGordoData.dat"
+.endobj String_"EmGordoData.dat"_1
 
 # .data:0xDEC | 0x80499FE4 | size: 0x14
 .obj lbl_80499FE4, global

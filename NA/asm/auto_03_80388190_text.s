@@ -27042,7 +27042,7 @@
 /* 8039F878 0039C678  3C A0 80 4F */	lis r5, lbl_804F59EC@ha
 /* 8039F87C 0039C67C  91 43 00 04 */	stw r10, 0x4(r3)
 /* 8039F880 0039C680  3C 80 80 4C */	lis r4, lbl_804C75F4@ha
-/* 8039F884 0039C684  38 0D F3 54 */	li r0, String_"border0"_5@sda21
+/* 8039F884 0039C684  38 0D F3 54 */	li r0, String_"border0"_6@sda21
 /* 8039F888 0039C688  39 28 C3 74 */	addi r9, r8, lbl_804BC374@l
 /* 8039F88C 0039C68C  91 43 00 08 */	stw r10, 0x8(r3)
 /* 8039F890 0039C690  39 07 C3 DC */	addi r8, r7, lbl_804BC3DC@l
@@ -39539,7 +39539,7 @@
 /* 803AA934 003A7734  3C A0 80 4F */	lis r5, lbl_804F59EC@ha
 /* 803AA938 003A7738  91 43 00 04 */	stw r10, 0x4(r3)
 /* 803AA93C 003A773C  3C 80 80 4C */	lis r4, lbl_804C75F4@ha
-/* 803AA940 003A7740  38 0D F6 84 */	li r0, String_"border0"_6@sda21
+/* 803AA940 003A7740  38 0D F6 84 */	li r0, String_"border0"_7@sda21
 /* 803AA944 003A7744  39 28 C3 74 */	addi r9, r8, lbl_804BC374@l
 /* 803AA948 003A7748  91 43 00 08 */	stw r10, 0x8(r3)
 /* 803AA94C 003A774C  39 07 C3 DC */	addi r8, r7, lbl_804BC3DC@l

@@ -113809,10 +113809,10 @@
 /* 80410494 0040D294  94 21 FF D0 */	stwu r1, -0x30(r1)
 /* 80410498 0040D298  7C 08 02 A6 */	mflr r0
 /* 8041049C 0040D29C  3C 80 80 49 */	lis r4, StructWithFuncPtrs_HSD_1@ha
-/* 804104A0 0040D2A0  3C 60 80 50 */	lis r3, String_"sysdolphin_base_library"@ha
+/* 804104A0 0040D2A0  3C 60 80 50 */	lis r3, String_"sysdolphin_base_library"_2@ha
 /* 804104A4 0040D2A4  90 01 00 34 */	stw r0, 0x34(r1)
 /* 804104A8 0040D2A8  39 44 C4 A8 */	addi r10, r4, StructWithFuncPtrs_HSD_1@l
-/* 804104AC 0040D2AC  38 63 3C E4 */	addi r3, r3, String_"sysdolphin_base_library"@l
+/* 804104AC 0040D2AC  38 63 3C E4 */	addi r3, r3, String_"sysdolphin_base_library"_2@l
 /* 804104B0 0040D2B0  93 E1 00 2C */	stw r31, 0x2c(r1)
 /* 804104B4 0040D2B4  81 2A 00 00 */	lwz r9, 0x0(r10)
 /* 804104B8 0040D2B8  81 0A 00 04 */	lwz r8, 0x4(r10)
@@ -122326,7 +122326,7 @@
 /* 80417C74 00414A74  40 82 00 14 */	bne .L_80417C88
 /* 80417C78 00414A78  38 6D FB 60 */	li r3, lbl_805DCC40@sda21
 /* 80417C7C 00414A7C  38 80 03 EE */	li r4, 0x3ee
-/* 80417C80 00414A80  38 AD FB 6C */	li r5, String_"mtx"_3@sda21
+/* 80417C80 00414A80  38 AD FB 6C */	li r5, String_"mtx"_9@sda21
 /* 80417C84 00414A84  48 01 08 35 */	bl fn___assert
 .L_80417C88:
 /* 80417C88 00414A88  80 01 00 14 */	lwz r0, 0x14(r1)

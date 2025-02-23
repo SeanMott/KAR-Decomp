@@ -202,7 +202,7 @@
 	.4byte lbl_80499EC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"RdKirby.dat"
+	.4byte String_"RdKirby.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"IfAll1c.dat"
@@ -214,19 +214,19 @@
 	.4byte lbl_80499EF8
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"EmBroomData.dat"
+	.4byte String_"EmBroomData.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"EmBrontData.dat"
+	.4byte String_"EmBrontData.dat"_2
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F2C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"EmSwordData.dat"
+	.4byte String_"EmSwordData.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"EmCappyData.dat"
+	.4byte String_"EmCappyData.dat"_2
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F60
@@ -235,7 +235,7 @@
 	.4byte lbl_80499F74
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"EmNoddyData.dat"
+	.4byte String_"EmNoddyData.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F98
@@ -247,7 +247,7 @@
 	.4byte lbl_80499FC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"EmGordoData.dat"
+	.4byte String_"EmGordoData.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499FE4
@@ -298,7 +298,7 @@
 	.4byte lbl_80499EC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"RdKirby.dat"
+	.4byte String_"RdKirby.dat"_1
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte String_"IfAll1c.dat"
@@ -467,7 +467,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte String_"RdKirby.dat"
+	.4byte String_"RdKirby.dat"_1
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
@@ -1140,7 +1140,7 @@
 	.4byte lbl_804D87AC
 	.4byte lbl_804D87B8
 	.4byte lbl_804D87C4
-	.4byte String_"AC_RUN_LOOP"
+	.4byte String_"AC_RUN_LOOP"_3
 	.4byte lbl_804D87DC
 	.4byte lbl_804D87EC
 	.4byte lbl_804D87F8
@@ -1172,8 +1172,8 @@
 	.4byte lbl_804D8998
 	.4byte lbl_804D89A4
 	.4byte lbl_804D89B0
-	.4byte String_"AC_JUMP_END"
-	.4byte String_"AC_TOBASARE"
+	.4byte String_"AC_JUMP_END"_1
+	.4byte String_"AC_TOBASARE"_2
 	.4byte lbl_804D89D8
 	.4byte lbl_804D89E4
 	.4byte lbl_804D89F0
@@ -1181,10 +1181,10 @@
 	.4byte lbl_804D8A0C
 	.4byte lbl_804D8A18
 	.4byte lbl_804D8A28
-	.4byte String_"AC_FLAT_END"
+	.4byte String_"AC_FLAT_END"_1
 	.4byte lbl_804D8A44
 	.4byte lbl_804D8A58
-	.4byte String_"AC_MACRON_START"
+	.4byte String_"AC_MACRON_START"_2
 	.4byte lbl_804D8A7C
 	.4byte String_"AC_FDRILL_START"
 	.4byte lbl_804D8A9C
@@ -1198,15 +1198,15 @@
 	.4byte lbl_804D8B24
 	.4byte lbl_804D8B38
 	.4byte lbl_804D8B4C
-	.4byte String_"AC_GRE_RUN_LOOP"
+	.4byte String_"AC_GRE_RUN_LOOP"_1
 	.4byte lbl_804D8B6C
 	.4byte lbl_804D8B7C
 	.4byte lbl_804D8B8C
-	.4byte String_"AC_GRE_FIRE"
+	.4byte String_"AC_GRE_FIRE"_2
 	.4byte lbl_804D8BA8
 	.4byte lbl_804D8BBC
 	.4byte lbl_804D8BD0
-	.4byte String_"AC_GRE_PUSH"
+	.4byte String_"AC_GRE_PUSH"_2
 	.4byte lbl_804D8BF0
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -3667,7 +3667,7 @@
 	.4byte fn_HSD_VecGetAllocData
 	.4byte String_"vec"
 	.4byte fn_HSD_MtxGetAllocData
-	.4byte String_"mtx"
+	.4byte String_"mtx"_8
 	.4byte fn_HSD_RObjGetAllocData
 	.4byte lbl_805DCBFC
 	.4byte fn_HSD_RvalueObjGetAllocData
