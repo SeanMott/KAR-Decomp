@@ -4943,14 +4943,14 @@
 
 # .data:0x3EFC | 0x8049FA74 | size: 0x58
 .obj lbl_8049FA74, global
-	.4byte lbl_805D5C40
+	.4byte String_"Lap"
 	.4byte lbl_805D5C44
 	.4byte lbl_805D5C4C
-	.4byte lbl_805D5C54
+	.4byte String_"Freerun"
 	.4byte structptr_Timeattack
 	.4byte structptr_Freecity
 	.4byte structptr_Timecity
-	.4byte lbl_805D5C5C
+	.4byte String_"Zeroyon"
 	.4byte structptr_Air_Glider
 	.4byte structptr_Sky_Darts
 	.4byte String_"FlickRoyal"
@@ -4963,13 +4963,13 @@
 	.4byte String_"CoinBattle"
 	.4byte lbl_8049FA48
 	.4byte lbl_8049FA58
-	.4byte lbl_805D5C64
+	.4byte String_"Chicken"
 	.4byte lbl_8049FA68
 .endobj lbl_8049FA74
 
 # .data:0x3F54 | 0x8049FACC | size: 0x190
 .obj lbl_8049FACC, global
-	.4byte lbl_805D5C6C
+	.4byte String_"Default"
 	.4byte lbl_805D5C74
 	.4byte lbl_805D5C78
 	.4byte lbl_805D5C7C
@@ -6033,9 +6033,9 @@
 # .data:0x4C7C | 0x804A07F4 | size: 0x14
 .obj lbl_804A07F4, global
 	.4byte lbl_805D5E00
-	.4byte lbl_805D5E08
-	.4byte lbl_805D5E0C
-	.4byte lbl_805D5E14
+	.4byte String_"Cpu"
+	.4byte String_"Demo_X"
+	.4byte String_"Boss_X"
 	.4byte lbl_805D5E1C
 .endobj lbl_804A07F4
 
@@ -6491,7 +6491,7 @@
 
 # .data:0x5284 | 0x804A0DFC | size: 0x10
 .obj lbl_804A0DFC, global
-	.4byte lbl_805D5C10
+	.4byte String_"off"_2
 	.4byte lbl_805D5C14
 	.4byte lbl_805D5E5C
 	.4byte lbl_805D5E64
@@ -7257,7 +7257,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_800AF5C4
-	.4byte lbl_805D5ED8
+	.4byte String_"Opening"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -7542,7 +7542,7 @@
 	.4byte String_Debug_"WRONGDEVICE"
 	.4byte lbl_805D5EF0
 	.4byte lbl_805D5EF8
-	.4byte lbl_805D5F00
+	.4byte String_"IOERROR"
 	.4byte lbl_805D5F08
 	.4byte lbl_805D5F10
 	.4byte lbl_805D5F18
@@ -7604,7 +7604,7 @@
 	.4byte lbl_804A1B08
 	.4byte lbl_805D5F48
 	.4byte lbl_804A1B14
-	.4byte lbl_805D5F50
+	.4byte String_"FileMax"
 	.4byte lbl_804A1B20
 	.4byte lbl_805D5F58
 	.4byte lbl_805D5F60
@@ -7612,7 +7612,7 @@
 	.4byte lbl_805D5F70
 	.4byte lbl_805D5F78
 	.4byte lbl_804A1B2C
-	.4byte lbl_805D5F80
+	.4byte String_"Illegal"
 	.4byte lbl_805D5F88
 	.4byte lbl_805D5F90
 	.4byte lbl_805D5F58
@@ -7668,7 +7668,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte fn_800AFCD0
-	.4byte lbl_805D5FD0
+	.4byte String_"Airride"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -8904,14 +8904,14 @@
 .endobj lbl_804A2A14
 
 # .data:0x6EAC | 0x804A2A24 | size: 0x14
-.obj lbl_804A2A24, global
+.obj String_"GrZeroyon1Model.dat", global
 	.string "GrZeroyon1Model.dat"
-.endobj lbl_804A2A24
+.endobj String_"GrZeroyon1Model.dat"
 
 # .data:0x6EC0 | 0x804A2A38 | size: 0x10
-.obj lbl_804A2A38, global
+.obj String_"grModelZeroyon1", global
 	.string "grModelZeroyon1"
-.endobj lbl_804A2A38
+.endobj String_"grModelZeroyon1"
 
 # .data:0x6ED0 | 0x804A2A48 | size: 0x18
 .obj lbl_804A2A48, global
@@ -9584,8 +9584,8 @@
 	.4byte lbl_804A29F0
 	.4byte lbl_804A2A04
 	.4byte lbl_804A2A14
-	.4byte lbl_804A2A24
-	.4byte lbl_804A2A38
+	.4byte String_"GrZeroyon1Model.dat"
+	.4byte String_"grModelZeroyon1"
 	.4byte lbl_804A2A48
 	.4byte lbl_804A2A60
 	.4byte lbl_804A2A70
@@ -18910,7 +18910,7 @@
 
 # .data:0xEC10 | 0x804AA788 | size: 0x24
 .obj StringBundle_Stadiums, global
-	.4byte lbl_805D661C
+	.4byte String_"Shuffle"
 	.4byte lbl_804AA718
 	.4byte lbl_804AA724
 	.4byte lbl_804AA730
@@ -21341,14 +21341,14 @@
 .endobj lbl_804AC610
 
 # .data:0x10AC0 | 0x804AC638 | size: 0x20
-.obj lbl_804AC638, global
+.obj String_"ScMenSelstadiumPos_scene_models", global
 	.string "ScMenSelstadiumPos_scene_models"
-.endobj lbl_804AC638
+.endobj String_"ScMenSelstadiumPos_scene_models"
 
 # .data:0x10AE0 | 0x804AC658 | size: 0x20
-.obj lbl_804AC658, global
+.obj String_"ScMenSelstadiumNew_scene_models", global
 	.string "ScMenSelstadiumNew_scene_models"
-.endobj lbl_804AC658
+.endobj String_"ScMenSelstadiumNew_scene_models"
 
 # .data:0x10B00 | 0x804AC678 | size: 0x28
 .obj lbl_804AC678, global
@@ -21513,9 +21513,9 @@
 .endobj lbl_804AC810
 
 # .data:0x10CB8 | 0x804AC830 | size: 0x20
-.obj lbl_804AC830, global
+.obj String_"ScMenResultAllrank_scene_models", global
 	.string "ScMenResultAllrank_scene_models"
-.endobj lbl_804AC830
+.endobj String_"ScMenResultAllrank_scene_models"
 
 # .data:0x10CD8 | 0x804AC850 | size: 0x28
 .obj lbl_804AC850, global
@@ -21568,9 +21568,9 @@
 .endobj lbl_804AC8B8
 
 # .data:0x10D60 | 0x804AC8D8 | size: 0x20
-.obj lbl_804AC8D8, global
+.obj String_"ScMenResultPlynum2_scene_models", global
 	.string "ScMenResultPlynum2_scene_models"
-.endobj lbl_804AC8D8
+.endobj String_"ScMenResultPlynum2_scene_models"
 
 # .data:0x10D80 | 0x804AC8F8 | size: 0x20
 .obj lbl_804AC8F8, global
@@ -21585,9 +21585,9 @@
 .endobj lbl_804AC8F8
 
 # .data:0x10DA0 | 0x804AC918 | size: 0x20
-.obj lbl_804AC918, global
+.obj String_"ScMenResultRetire2_scene_models", global
 	.string "ScMenResultRetire2_scene_models"
-.endobj lbl_804AC918
+.endobj String_"ScMenResultRetire2_scene_models"
 
 # .data:0x10DC0 | 0x804AC938 | size: 0x20
 .obj lbl_804AC938, global
@@ -21714,14 +21714,14 @@
 .endobj lbl_804ACA68
 
 # .data:0x10F10 | 0x804ACA88 | size: 0x20
-.obj lbl_804ACA88, global
+.obj String_"ScMenResultBoardA4_scene_models", global
 	.string "ScMenResultBoardA4_scene_models"
-.endobj lbl_804ACA88
+.endobj String_"ScMenResultBoardA4_scene_models"
 
 # .data:0x10F30 | 0x804ACAA8 | size: 0x20
-.obj lbl_804ACAA8, global
+.obj String_"ScMenResultBoardB4_scene_models", global
 	.string "ScMenResultBoardB4_scene_models"
-.endobj lbl_804ACAA8
+.endobj String_"ScMenResultBoardB4_scene_models"
 
 # .data:0x10F50 | 0x804ACAC8 | size: 0x20
 .obj lbl_804ACAC8, global
@@ -21796,9 +21796,9 @@
 .endobj lbl_804ACB68
 
 # .data:0x11010 | 0x804ACB88 | size: 0x20
-.obj lbl_804ACB88, global
+.obj String_"ScMenResultRetire4_scene_models", global
 	.string "ScMenResultRetire4_scene_models"
-.endobj lbl_804ACB88
+.endobj String_"ScMenResultRetire4_scene_models"
 
 # .data:0x11030 | 0x804ACBA8 | size: 0x28
 .obj lbl_804ACBA8, global
@@ -21879,14 +21879,14 @@
 .endobj lbl_804ACC58
 
 # .data:0x11108 | 0x804ACC80 | size: 0x20
-.obj lbl_804ACC80, global
+.obj String_"ScMenResultRankm2d_scene_models", global
 	.string "ScMenResultRankm2d_scene_models"
-.endobj lbl_804ACC80
+.endobj String_"ScMenResultRankm2d_scene_models"
 
 # .data:0x11128 | 0x804ACCA0 | size: 0x20
-.obj lbl_804ACCA0, global
+.obj String_"ScMenResultStarm2d_scene_models", global
 	.string "ScMenResultStarm2d_scene_models"
-.endobj lbl_804ACCA0
+.endobj String_"ScMenResultStarm2d_scene_models"
 
 # .data:0x11148 | 0x804ACCC0 | size: 0x20
 .obj lbl_804ACCC0, global
@@ -21901,9 +21901,9 @@
 .endobj lbl_804ACCC0
 
 # .data:0x11168 | 0x804ACCE0 | size: 0x20
-.obj lbl_804ACCE0, global
+.obj String_"ScMenResultFrameCt_scene_models", global
 	.string "ScMenResultFrameCt_scene_models"
-.endobj lbl_804ACCE0
+.endobj String_"ScMenResultFrameCt_scene_models"
 
 # .data:0x11188 | 0x804ACD00 | size: 0x28
 .obj lbl_804ACD00, global
@@ -22103,9 +22103,9 @@
 .endobj lbl_804ACF38
 
 # .data:0x113E0 | 0x804ACF58 | size: 0x20
-.obj lbl_804ACF58, global
+.obj String_"ScMenResultReadyCt_scene_models", global
 	.string "ScMenResultReadyCt_scene_models"
-.endobj lbl_804ACF58
+.endobj String_"ScMenResultReadyCt_scene_models"
 
 # .data:0x11400 | 0x804ACF78 | size: 0x20
 .obj lbl_804ACF78, global
@@ -22148,9 +22148,9 @@
 .endobj lbl_804ACFC0
 
 # .data:0x11470 | 0x804ACFE8 | size: 0x1C
-.obj lbl_804ACFE8, global
+.obj String_"ScMenSelruleBg_scene_models", global
 	.string "ScMenSelruleBg_scene_models"
-.endobj lbl_804ACFE8
+.endobj String_"ScMenSelruleBg_scene_models"
 
 # .data:0x1148C | 0x804AD004 | size: 0x20
 .obj lbl_804AD004, global
@@ -22214,9 +22214,9 @@
 .endobj lbl_804AD088
 
 # .data:0x11530 | 0x804AD0A8 | size: 0x20
-.obj lbl_804AD0A8, global
+.obj String_"ScMenSelruleFrame2_scene_models", global
 	.string "ScMenSelruleFrame2_scene_models"
-.endobj lbl_804AD0A8
+.endobj String_"ScMenSelruleFrame2_scene_models"
 
 # .data:0x11550 | 0x804AD0C8 | size: 0x20
 .obj lbl_804AD0C8, global
@@ -22271,9 +22271,9 @@
 .endobj lbl_804AD130
 
 # .data:0x115E0 | 0x804AD158 | size: 0x20
-.obj lbl_804AD158, global
+.obj String_"ScMenSelruleCursor_scene_models", global
 	.string "ScMenSelruleCursor_scene_models"
-.endobj lbl_804AD158
+.endobj String_"ScMenSelruleCursor_scene_models"
 
 # .data:0x11600 | 0x804AD178 | size: 0x1C
 .obj lbl_804AD178, global
@@ -22340,9 +22340,9 @@
 .endobj lbl_804AD1F0
 
 # .data:0x116A0 | 0x804AD218 | size: 0x10
-.obj lbl_804AD218, global
+.obj String_"SisDialogue.dat", global
 	.string "SisDialogue.dat"
-.endobj lbl_804AD218
+.endobj String_"SisDialogue.dat"
 
 # .data:0x116B0 | 0x804AD228 | size: 0x10
 .obj lbl_804AD228, global
@@ -22680,9 +22680,9 @@
 .endobj lbl_804AD654
 
 # .data:0x11AF8 | 0x804AD670 | size: 0x18
-.obj lbl_804AD670, global
+.obj String_"ScMenLanBg_scene_models", global
 	.string "ScMenLanBg_scene_models"
-.endobj lbl_804AD670
+.endobj String_"ScMenLanBg_scene_models"
 
 # .data:0x11B10 | 0x804AD688 | size: 0x10
 .obj lbl_804AD688, global
@@ -22705,9 +22705,9 @@
 .endobj lbl_804AD698
 
 # .data:0x11B40 | 0x804AD6B8 | size: 0x10
-.obj lbl_804AD6B8, global
+.obj String_"mnlandialogue.c", global
 	.string "mnlandialogue.c"
-.endobj lbl_804AD6B8
+.endobj String_"mnlandialogue.c"
 
 # .data:0x11B50 | 0x804AD6C8 | size: 0x20
 .obj lbl_804AD6C8, global
@@ -22858,9 +22858,9 @@
 .endobj lbl_804AD810
 
 # .data:0x11D10 | 0x804AD888 | size: 0x1C
-.obj lbl_804AD888, global
+.obj String_"ScMenSboardNum_scene_models", global
 	.string "ScMenSboardNum_scene_models"
-.endobj lbl_804AD888
+.endobj String_"ScMenSboardNum_scene_models"
 
 # .data:0x11D2C | 0x804AD8A4 | size: 0x2C
 .obj lbl_804AD8A4, global
@@ -23106,14 +23106,14 @@
 .endobj lbl_804ADB38
 
 # .data:0x11FE8 | 0x804ADB60 | size: 0xC
-.obj lbl_804ADB60, global
+.obj String_"RdKirby.dat", global
 	.string "RdKirby.dat"
-.endobj lbl_804ADB60
+.endobj String_"RdKirby.dat"
 
 # .data:0x11FF4 | 0x804ADB6C | size: 0xC
-.obj lbl_804ADB6C, global
+.obj String_"rdDataKirby", global
 	.string "rdDataKirby"
-.endobj lbl_804ADB6C
+.endobj String_"rdDataKirby"
 
 # .data:0x12000 | 0x804ADB78 | size: 0x10
 .obj lbl_804ADB78, global
@@ -23151,8 +23151,8 @@
 
 # .data:0x12048 | 0x804ADBC0 | size: 0x18
 .obj lbl_804ADBC0, global
-	.4byte lbl_804ADB60
-	.4byte lbl_804ADB6C
+	.4byte String_"RdKirby.dat"
+	.4byte String_"rdDataKirby"
 	.4byte lbl_804ADB78
 	.4byte lbl_804ADB88
 	.4byte lbl_804ADB98
@@ -26432,9 +26432,9 @@
 .endobj lbl_804B0A88
 
 # .data:0x14F1C | 0x804B0A94 | size: 0x20
-.obj lbl_804B0A94, global
+.obj String_"cgf_allPtr_coll_info_AND_GrCFK_Wall", global
 	.string "cgf_all->coll_info & GrCFK_Wall"
-.endobj lbl_804B0A94
+.endobj String_"cgf_allPtr_coll_info_AND_GrCFK_Wall"
 
 # .data:0x14F3C | 0x804B0AB4 | size: 0x94
 .obj lbl_804B0AB4, global
@@ -28119,9 +28119,9 @@
 .endobj MemoryOffset_9
 
 # .data:0x163CC | 0x804B1F44 | size: 0x10
-.obj lbl_804B1F44, global
+.obj String_"EmSwordData.dat", global
 	.string "EmSwordData.dat"
-.endobj lbl_804B1F44
+.endobj String_"EmSwordData.dat"
 
 # .data:0x163DC | 0x804B1F54 | size: 0x14
 .obj MemoryOffset_20, global
@@ -28133,9 +28133,9 @@
 .endobj MemoryOffset_20
 
 # .data:0x163F0 | 0x804B1F68 | size: 0x10
-.obj lbl_804B1F68, global
+.obj String_"EmCappyData.dat", global
 	.string "EmCappyData.dat"
-.endobj lbl_804B1F68
+.endobj String_"EmCappyData.dat"
 
 # .data:0x16400 | 0x804B1F78 | size: 0x14
 .obj lbl_804B1F78, global
@@ -28174,14 +28174,14 @@
 .endobj lbl_804B1FB4
 
 # .data:0x16450 | 0x804B1FC8 | size: 0x14
-.obj lbl_804B1FC8, global
+.obj String_"emElephantDataGroup", global
 	.string "emElephantDataGroup"
-.endobj lbl_804B1FC8
+.endobj String_"emElephantDataGroup"
 
 # .data:0x16464 | 0x804B1FDC | size: 0x10
-.obj lbl_804B1FDC, global
+.obj String_"EmNoddyData.dat", global
 	.string "EmNoddyData.dat"
-.endobj lbl_804B1FDC
+.endobj String_"EmNoddyData.dat"
 
 # .data:0x16474 | 0x804B1FEC | size: 0x14
 .obj lbl_804B1FEC, global
@@ -28247,9 +28247,9 @@
 .endobj lbl_804B2064
 
 # .data:0x16500 | 0x804B2078 | size: 0x10
-.obj lbl_804B2078, global
+.obj String_"EmGordoData.dat", global
 	.string "EmGordoData.dat"
-.endobj lbl_804B2078
+.endobj String_"EmGordoData.dat"
 
 # .data:0x16510 | 0x804B2088 | size: 0x14
 .obj lbl_804B2088, global
@@ -28270,9 +28270,9 @@
 .endobj lbl_804B209C
 
 # .data:0x16538 | 0x804B20B0 | size: 0x14
-.obj lbl_804B20B0, global
+.obj String_"emBombboneDataGroup", global
 	.string "emBombboneDataGroup"
-.endobj lbl_804B20B0
+.endobj String_"emBombboneDataGroup"
 
 # .data:0x1654C | 0x804B20C4 | size: 0x14
 .obj lbl_804B20C4, global
@@ -28284,9 +28284,9 @@
 .endobj lbl_804B20C4
 
 # .data:0x16560 | 0x804B20D8 | size: 0x14
-.obj lbl_804B20D8, global
+.obj String_"emPichicriDataGroup", global
 	.string "emPichicriDataGroup"
-.endobj lbl_804B20D8
+.endobj String_"emPichicriDataGroup"
 
 # .data:0x16574 | 0x804B20EC | size: 0x10
 .obj lbl_804B20EC, global
@@ -28297,9 +28297,9 @@
 .endobj lbl_804B20EC
 
 # .data:0x16584 | 0x804B20FC | size: 0x10
-.obj lbl_804B20FC, global
+.obj String_"emDaylDataGroup", global
 	.string "emDaylDataGroup"
-.endobj lbl_804B20FC
+.endobj String_"emDaylDataGroup"
 
 # .data:0x16594 | 0x804B210C | size: 0x14
 .obj lbl_804B210C, global
@@ -28320,9 +28320,9 @@
 .endobj lbl_804B2120
 
 # .data:0x165BC | 0x804B2134 | size: 0x10
-.obj lbl_804B2134, global
+.obj String_"EmWalkyData.dat", global
 	.string "EmWalkyData.dat"
-.endobj lbl_804B2134
+.endobj String_"EmWalkyData.dat"
 
 # .data:0x165CC | 0x804B2144 | size: 0x14
 .obj lbl_804B2144, global
@@ -28343,9 +28343,9 @@
 .endobj lbl_804B2158
 
 # .data:0x165F4 | 0x804B216C | size: 0x14
-.obj lbl_804B216C, global
+.obj String_"emDeeTruckDataGroup", global
 	.string "emDeeTruckDataGroup"
-.endobj lbl_804B216C
+.endobj String_"emDeeTruckDataGroup"
 
 # .data:0x16608 | 0x804B2180 | size: 0x10
 .obj lbl_804B2180, global
@@ -28388,14 +28388,14 @@
 .endobj lbl_804B21C0
 
 # .data:0x16658 | 0x804B21D0 | size: 0x10
-.obj lbl_804B21D0, global
+.obj String_"emDynaDataGroup", global
 	.string "emDynaDataGroup"
-.endobj lbl_804B21D0
+.endobj String_"emDynaDataGroup"
 
 # .data:0x16668 | 0x804B21E0 | size: 0x10
-.obj lbl_804B21E0, global
+.obj String_"EmMeteoData.dat", global
 	.string "EmMeteoData.dat"
-.endobj lbl_804B21E0
+.endobj String_"EmMeteoData.dat"
 
 # .data:0x16678 | 0x804B21F0 | size: 0x14
 .obj lbl_804B21F0, global
@@ -28414,15 +28414,15 @@
 	.4byte MemoryOffset_7
 	.4byte MemoryOffset_8
 	.4byte MemoryOffset_9
-	.4byte lbl_804B1F44
+	.4byte String_"EmSwordData.dat"
 	.4byte MemoryOffset_20
-	.4byte lbl_804B1F68
+	.4byte String_"EmCappyData.dat"
 	.4byte lbl_804B1F78
 	.4byte lbl_804B1F8C
 	.4byte lbl_804B1FA0
 	.4byte lbl_804B1FB4
-	.4byte lbl_804B1FC8
-	.4byte lbl_804B1FDC
+	.4byte String_"emElephantDataGroup"
+	.4byte String_"EmNoddyData.dat"
 	.4byte lbl_804B1FEC
 	.4byte lbl_804B2000
 	.4byte lbl_804B2014
@@ -28430,27 +28430,27 @@
 	.4byte lbl_804B203C
 	.4byte lbl_804B2050
 	.4byte lbl_804B2064
-	.4byte lbl_804B2078
+	.4byte String_"EmGordoData.dat"
 	.4byte lbl_804B2088
 	.4byte lbl_804B209C
-	.4byte lbl_804B20B0
+	.4byte String_"emBombboneDataGroup"
 	.4byte lbl_804B20C4
-	.4byte lbl_804B20D8
+	.4byte String_"emPichicriDataGroup"
 	.4byte lbl_804B20EC
-	.4byte lbl_804B20FC
+	.4byte String_"emDaylDataGroup"
 	.4byte lbl_804B210C
 	.4byte lbl_804B2120
-	.4byte lbl_804B2134
+	.4byte String_"EmWalkyData.dat"
 	.4byte lbl_804B2144
 	.4byte lbl_804B2158
-	.4byte lbl_804B216C
+	.4byte String_"emDeeTruckDataGroup"
 	.4byte lbl_804B2180
 	.4byte lbl_804B2190
 	.4byte lbl_804B21A0
 	.4byte lbl_804B21B0
 	.4byte lbl_804B21C0
-	.4byte lbl_804B21D0
-	.4byte lbl_804B21E0
+	.4byte String_"emDynaDataGroup"
+	.4byte String_"EmMeteoData.dat"
 	.4byte lbl_804B21F0
 .endobj lbl_804B2204
 
@@ -31164,9 +31164,9 @@
 .endobj lbl_804B4450
 
 # .data:0x18920 | 0x804B4498 | size: 0x1C
-.obj lbl_804B4498, global
+.obj String_"NoEffectFromAnimlist", global
 	.string "no effect from animlist %d\n"
-.endobj lbl_804B4498
+.endobj String_"NoEffectFromAnimlist"
 
 # .data:0x1893C | 0x804B44B4 | size: 0xC
 .obj lbl_804B44B4, global
@@ -31883,9 +31883,9 @@
 .endobj lbl_804B4CB8
 
 # .data:0x19164 | 0x804B4CDC | size: 0x14
-.obj lbl_804B4CDC, global
+.obj String_"plclearcheckerlib.c", global
 	.string "plclearcheckerlib.c"
-.endobj lbl_804B4CDC
+.endobj String_"plclearcheckerlib.c"
 
 # .data:0x19178 | 0x804B4CF0 | size: 0x58
 .obj lbl_804B4CF0, global
@@ -32006,9 +32006,9 @@
 .endobj lbl_804B4E14
 
 # .data:0x192B0 | 0x804B4E28 | size: 0xC
-.obj lbl_804B4E28, global
+.obj String_"EfMapPlants", global
 	.string "EfMapPlants"
-.endobj lbl_804B4E28
+.endobj String_"EfMapPlants"
 
 # .data:0x192BC | 0x804B4E34 | size: 0x10
 .obj lbl_804B4E34, global
@@ -32033,9 +32033,9 @@
 .endobj lbl_804B4E50
 
 # .data:0x192E4 | 0x804B4E5C | size: 0xC
-.obj lbl_804B4E5C, global
+.obj String_"EfMapDesert", global
 	.string "EfMapDesert"
-.endobj lbl_804B4E5C
+.endobj String_"EfMapDesert"
 
 # .data:0x192F0 | 0x804B4E68 | size: 0x10
 .obj lbl_804B4E68, global
@@ -32053,14 +32053,14 @@
 .endobj lbl_804B4E78
 
 # .data:0x1930C | 0x804B4E84 | size: 0xC
-.obj lbl_804B4E84, global
+.obj String_"EfPtclCheck", global
 	.string "EfPtclCheck"
-.endobj lbl_804B4E84
+.endobj String_"EfPtclCheck"
 
 # .data:0x19318 | 0x804B4E90 | size: 0xC
-.obj lbl_804B4E90, global
+.obj String_"EfMapValley", global
 	.string "EfMapValley"
-.endobj lbl_804B4E90
+.endobj String_"EfMapValley"
 
 # .data:0x19324 | 0x804B4E9C | size: 0x10
 .obj lbl_804B4E9C, global
@@ -32094,9 +32094,9 @@
 .endobj lbl_804B4ECC
 
 # .data:0x19360 | 0x804B4ED8 | size: 0xC
-.obj lbl_804B4ED8, global
+.obj String_"EfPtclSpace", global
 	.string "EfPtclSpace"
-.endobj lbl_804B4ED8
+.endobj String_"EfPtclSpace"
 
 # .data:0x1936C | 0x804B4EE4 | size: 0xC
 .obj lbl_804B4EE4, global
@@ -32152,7 +32152,7 @@
 .obj lbl_804B4F3C, global
 	.4byte 0x00000000
 	.4byte 0x0000001A
-	.4byte lbl_804B4E28
+	.4byte String_"EfMapPlants"
 	.4byte lbl_804B4E34
 	.4byte 0x00000000
 	.4byte 0x00000001
@@ -32162,17 +32162,17 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x00000020
-	.4byte lbl_804B4E5C
+	.4byte String_"EfMapDesert"
 	.4byte lbl_804B4E68
 	.4byte 0x00000000
 	.4byte 0x00000003
 	.4byte 0x00000021
 	.4byte lbl_804B4E78
-	.4byte lbl_804B4E84
+	.4byte String_"EfPtclCheck"
 	.4byte 0x00000000
 	.4byte 0x00000004
 	.4byte 0x0000001C
-	.4byte lbl_804B4E90
+	.4byte String_"EfMapValley"
 	.4byte lbl_804B4E9C
 	.4byte 0x00000000
 	.4byte 0x00000005
@@ -32183,7 +32183,7 @@
 	.4byte 0x00000006
 	.4byte 0x00000023
 	.4byte lbl_804B4ECC
-	.4byte lbl_804B4ED8
+	.4byte String_"EfPtclSpace"
 	.4byte 0x00000000
 	.4byte 0x00000007
 	.4byte 0x0000001E
@@ -32204,22 +32204,22 @@
 	.4byte 0x00000024
 	.4byte lbl_804B4F14
 	.4byte lbl_804B4F2C
-	.4byte lbl_804B4E84
+	.4byte String_"EfPtclCheck"
 	.4byte 0x0000000B
 	.4byte 0x00000024
 	.4byte lbl_804B4F14
 	.4byte lbl_804B4F2C
-	.4byte lbl_804B4E84
+	.4byte String_"EfPtclCheck"
 	.4byte 0x0000000C
 	.4byte 0x00000024
 	.4byte lbl_804B4F14
 	.4byte lbl_804B4F2C
-	.4byte lbl_804B4E84
+	.4byte String_"EfPtclCheck"
 	.4byte 0x0000000D
 	.4byte 0x00000024
 	.4byte lbl_804B4F14
 	.4byte lbl_804B4F2C
-	.4byte lbl_804B4E84
+	.4byte String_"EfPtclCheck"
 	.4byte 0x0000000E
 	.4byte 0x00000024
 	.4byte lbl_804B4F14
@@ -32450,9 +32450,9 @@
 .endobj lbl_804B51CC
 
 # .data:0x19838 | 0x804B53B0 | size: 0xC
-.obj lbl_804B53B0, global
+.obj String_"efModelData", global
 	.string "efModelData"
-.endobj lbl_804B53B0
+.endobj String_"efModelData"
 
 # .data:0x19844 | 0x804B53BC | size: 0x34
 .obj lbl_804B53BC, global
@@ -32646,9 +32646,9 @@
 .endobj lbl_804B55E0
 
 # .data:0x19A90 | 0x804B5608 | size: 0xC
-.obj lbl_804B5608, global
+.obj String_"efcontrol.c", global
 	.string "efcontrol.c"
-.endobj lbl_804B5608
+.endobj String_"efcontrol.c"
 
 # .data:0x19A9C | 0x804B5614 | size: 0x14
 .obj lbl_804B5614, global
@@ -32688,9 +32688,9 @@
 .endobj lbl_804B565C
 
 # .data:0x19AF0 | 0x804B5668 | size: 0x20
-.obj lbl_804B5668, global
+.obj String_"NotFind_FreeMpColl_mcp", global
 	.string "not find FreeMpColl!! mcp = %x\n"
-.endobj lbl_804B5668
+.endobj String_"NotFind_FreeMpColl_mcp"
 
 # .data:0x19B10 | 0x804B5688 | size: 0xC
 .obj lbl_804B5688, global
@@ -33193,9 +33193,9 @@
 .endobj lbl_804B5CB4
 
 # .data:0x1A1C0 | 0x804B5D38 | size: 0xC
-.obj lbl_804B5D38, global
+.obj String_"mpairflow.c", global
 	.string "mpairflow.c"
-.endobj lbl_804B5D38
+.endobj String_"mpairflow.c"
 
 # .data:0x1A1CC | 0x804B5D44 | size: 0x18
 .obj lbl_804B5D44, global
@@ -33528,9 +33528,9 @@
 .endobj lbl_804B619C
 
 # .data:0x1A634 | 0x804B61AC | size: 0x10
-.obj lbl_804B61AC, global
+.obj String_"itCommonDataAll", global
 	.string "itCommonDataAll"
-.endobj lbl_804B61AC
+.endobj String_"itCommonDataAll"
 
 # .data:0x1A644 | 0x804B61BC | size: 0xC
 .obj lbl_804B61BC, global
@@ -33713,9 +33713,9 @@
 .endobj lbl_804B6380
 
 # .data:0x1A894 | 0x804B640C | size: 0x1C
-.obj lbl_804B640C, global
+.obj String_"ItemPartsModelNumOver", global
 	.string "item parts model num over!\n"
-.endobj lbl_804B640C
+.endobj String_"ItemPartsModelNumOver"
 
 # .data:0x1A8B0 | 0x804B6428 | size: 0x40
 .obj lbl_804B6428, global
@@ -33797,9 +33797,9 @@
 .endobj lbl_804B64C0
 
 # .data:0x1A9AC | 0x804B6524 | size: 0x3C
-.obj lbl_804B6524, global
+.obj String_"Error_Why_ItemUnderGroundNotFound", global
 	.string "*** Error : Why? Item under ground not found!(%d,%d:%d,%d)\n"
-.endobj lbl_804B6524
+.endobj String_"Error_Why_ItemUnderGroundNotFound"
 
 # .data:0x1A9E8 | 0x804B6560 | size: 0x64
 .obj lbl_804B6560, global
@@ -35469,9 +35469,9 @@
 .endobj lbl_804B7870
 
 # .data:0x1BD04 | 0x804B787C | size: 0x30
-.obj lbl_804B787C, global
+.obj String_"StKind_IsNotLessThen_StKind_Terminate_And_NotLessThen_StKind_None", global
 	.string "St_Kind_None < kind && kind < St_Kind_Terminate"
-.endobj lbl_804B787C
+.endobj String_"StKind_IsNotLessThen_StKind_Terminate_And_NotLessThen_StKind_None"
 
 # .data:0x1BD34 | 0x804B78AC | size: 0x2C
 .obj lbl_804B78AC, global
@@ -35489,9 +35489,9 @@
 .endobj lbl_804B78AC
 
 # .data:0x1BD60 | 0x804B78D8 | size: 0x20
-.obj lbl_804B78D8, global
+.obj String_"cpGlobal_cpuBuffNum_NotEqual_Cp_Cpu_Max", global
 	.string "cpGlobal.cpuBuffNum!=Cp_Cpu_Max"
-.endobj lbl_804B78D8
+.endobj String_"cpGlobal_cpuBuffNum_NotEqual_Cp_Cpu_Max"
 
 # .data:0x1BD80 | 0x804B78F8 | size: 0x18
 .obj lbl_804B78F8, global
@@ -35520,14 +35520,14 @@
 .endobj lbl_804B7910
 
 # .data:0x1BDC8 | 0x804B7940 | size: 0x1C
-.obj lbl_804B7940, global
+.obj String_"FormaterStr_Id_b_r0_l_r", global
 	.string "id=%d b=%d r0=%d l=%d r=%d\n"
-.endobj lbl_804B7940
+.endobj String_"FormaterStr_Id_b_r0_l_r"
 
 # .data:0x1BDE4 | 0x804B795C | size: 0xC
-.obj lbl_804B795C, global
+.obj String_"rangePtr_data", global
 	.string "range->data"
-.endobj lbl_804B795C
+.endobj String_"rangePtr_data"
 
 # .data:0x1BDF0 | 0x804B7968 | size: 0x24
 .obj lbl_804B7968, global
@@ -38633,9 +38633,9 @@
 .endobj lbl_804BA624
 
 # .data:0x1EAC8 | 0x804BA640 | size: 0x18
-.obj lbl_804BA640, global
+.obj String_"EndCityDevil_TopN_joint", global
 	.string "EndCityDevil_TopN_joint"
-.endobj lbl_804BA640
+.endobj String_"EndCityDevil_TopN_joint"
 
 # .data:0x1EAE0 | 0x804BA658 | size: 0x2C
 .obj lbl_804BA658, global
@@ -38680,14 +38680,14 @@
 .endobj lbl_804BA6B4
 
 # .data:0x1EB58 | 0x804BA6D0 | size: 0x2C
-.obj lbl_804BA6D0, global
+.obj String_"EndCityDragoon_TopN_ACTION_Ending_animjoint", global
 	.string "EndCityDragoon_TopN_ACTION_Ending_animjoint"
-.endobj lbl_804BA6D0
+.endobj String_"EndCityDragoon_TopN_ACTION_Ending_animjoint"
 
 # .data:0x1EB84 | 0x804BA6FC | size: 0x30
-.obj lbl_804BA6FC, global
+.obj String_"EndCityDragoon_TopN_ACTION_Ending_matanim_joint", global
 	.string "EndCityDragoon_TopN_ACTION_Ending_matanim_joint"
-.endobj lbl_804BA6FC
+.endobj String_"EndCityDragoon_TopN_ACTION_Ending_matanim_joint"
 
 # .data:0x1EBB4 | 0x804BA72C | size: 0x1C
 .obj lbl_804BA72C, global
@@ -38701,19 +38701,19 @@
 .endobj lbl_804BA72C
 
 # .data:0x1EBD0 | 0x804BA748 | size: 0x2C
-.obj lbl_804BA748, global
+.obj String_"EndCityFormula_TopN_ACTION_Ending_animjoint", global
 	.string "EndCityFormula_TopN_ACTION_Ending_animjoint"
-.endobj lbl_804BA748
+.endobj String_"EndCityFormula_TopN_ACTION_Ending_animjoint"
 
 # .data:0x1EBFC | 0x804BA774 | size: 0x30
-.obj lbl_804BA774, global
+.obj String_"EndCityFormula_TopN_ACTION_Ending_matanim_joint", global
 	.string "EndCityFormula_TopN_ACTION_Ending_matanim_joint"
-.endobj lbl_804BA774
+.endobj String_"EndCityFormula_TopN_ACTION_Ending_matanim_joint"
 
 # .data:0x1EC2C | 0x804BA7A4 | size: 0x18
-.obj lbl_804BA7A4, global
+.obj String_"EndCityHeavy_TopN_joint", global
 	.string "EndCityHeavy_TopN_joint"
-.endobj lbl_804BA7A4
+.endobj String_"EndCityHeavy_TopN_joint"
 
 # .data:0x1EC44 | 0x804BA7BC | size: 0x2C
 .obj lbl_804BA7BC, global
@@ -38747,9 +38747,9 @@
 .endobj lbl_804BA7E8
 
 # .data:0x1ECA0 | 0x804BA818 | size: 0x18
-.obj lbl_804BA818, global
+.obj String_"EndCityHydra_TopN_joint", global
 	.string "EndCityHydra_TopN_joint"
-.endobj lbl_804BA818
+.endobj String_"EndCityHydra_TopN_joint"
 
 # .data:0x1ECB8 | 0x804BA830 | size: 0x2C
 .obj lbl_804BA830, global
@@ -38793,19 +38793,19 @@
 .endobj lbl_804BA88C
 
 # .data:0x1ED2C | 0x804BA8A4 | size: 0x28
-.obj lbl_804BA8A4, global
+.obj String_"EndCityJet_TopN_ACTION_Ending_animjoint", global
 	.string "EndCityJet_TopN_ACTION_Ending_animjoint"
-.endobj lbl_804BA8A4
+.endobj String_"EndCityJet_TopN_ACTION_Ending_animjoint"
 
 # .data:0x1ED54 | 0x804BA8CC | size: 0x2C
-.obj lbl_804BA8CC, global
+.obj String_"EndCityJet_TopN_ACTION_Ending_matanim_joint", global
 	.string "EndCityJet_TopN_ACTION_Ending_matanim_joint"
-.endobj lbl_804BA8CC
+.endobj String_"EndCityJet_TopN_ACTION_Ending_matanim_joint"
 
 # .data:0x1ED80 | 0x804BA8F8 | size: 0x18
-.obj lbl_804BA8F8, global
+.obj String_"EndCityLight_TopN_joint", global
 	.string "EndCityLight_TopN_joint"
-.endobj lbl_804BA8F8
+.endobj String_"EndCityLight_TopN_joint"
 
 # .data:0x1ED98 | 0x804BA910 | size: 0x2C
 .obj lbl_804BA910, global
@@ -38891,14 +38891,14 @@
 .endobj lbl_804BA9E4
 
 # .data:0x1EE84 | 0x804BA9FC | size: 0x28
-.obj lbl_804BA9FC, global
+.obj String_"EndCityRex_TopN_ACTION_Ending_animjoint", global
 	.string "EndCityRex_TopN_ACTION_Ending_animjoint"
-.endobj lbl_804BA9FC
+.endobj String_"EndCityRex_TopN_ACTION_Ending_animjoint"
 
 # .data:0x1EEAC | 0x804BAA24 | size: 0x2C
-.obj lbl_804BAA24, global
+.obj String_"EndCityRex_TopN_ACTION_Ending_matanim_joint", global
 	.string "EndCityRex_TopN_ACTION_Ending_matanim_joint"
-.endobj lbl_804BAA24
+.endobj String_"EndCityRex_TopN_ACTION_Ending_matanim_joint"
 
 # .data:0x1EED8 | 0x804BAA50 | size: 0x1C
 .obj lbl_804BAA50, global
@@ -38969,9 +38969,9 @@
 .endobj lbl_804BAAE0
 
 # .data:0x1EF98 | 0x804BAB10 | size: 0x1C
-.obj lbl_804BAB10, global
+.obj String_"EndCityRocketPtc_TopN_joint", global
 	.string "EndCityRocketPtc_TopN_joint"
-.endobj lbl_804BAB10
+.endobj String_"EndCityRocketPtc_TopN_joint"
 
 # .data:0x1EFB4 | 0x804BAB2C | size: 0x30
 .obj lbl_804BAB2C, global
@@ -38990,9 +38990,9 @@
 .endobj lbl_804BAB2C
 
 # .data:0x1EFE4 | 0x804BAB5C | size: 0x18
-.obj lbl_804BAB5C, global
+.obj String_"EndCityRuins_TopN_joint", global
 	.string "EndCityRuins_TopN_joint"
-.endobj lbl_804BAB5C
+.endobj String_"EndCityRuins_TopN_joint"
 
 # .data:0x1EFFC | 0x804BAB74 | size: 0x2C
 .obj lbl_804BAB74, global
@@ -39037,14 +39037,14 @@
 .endobj lbl_804BABD0
 
 # .data:0x1F074 | 0x804BABEC | size: 0x2C
-.obj lbl_804BABEC, global
+.obj String_"EndCityScooter_TopN_ACTION_Ending_animjoint", global
 	.string "EndCityScooter_TopN_ACTION_Ending_animjoint"
-.endobj lbl_804BABEC
+.endobj String_"EndCityScooter_TopN_ACTION_Ending_animjoint"
 
 # .data:0x1F0A0 | 0x804BAC18 | size: 0x30
-.obj lbl_804BAC18, global
+.obj String_"EndCityScooter_TopN_ACTION_Ending_matanim_joint", global
 	.string "EndCityScooter_TopN_ACTION_Ending_matanim_joint"
-.endobj lbl_804BAC18
+.endobj String_"EndCityScooter_TopN_ACTION_Ending_matanim_joint"
 
 # .data:0x1F0D0 | 0x804BAC48 | size: 0x20
 .obj lbl_804BAC48, global
@@ -39075,9 +39075,9 @@
 .endobj lbl_804BAC68
 
 # .data:0x1F120 | 0x804BAC98 | size: 0x18
-.obj lbl_804BAC98, global
+.obj String_"EndCitySlick_TopN_joint", global
 	.string "EndCitySlick_TopN_joint"
-.endobj lbl_804BAC98
+.endobj String_"EndCitySlick_TopN_joint"
 
 # .data:0x1F138 | 0x804BACB0 | size: 0x2C
 .obj lbl_804BACB0, global
@@ -39138,9 +39138,9 @@
 .endobj lbl_804BAD28
 
 # .data:0x1F1E0 | 0x804BAD58 | size: 0x18
-.obj lbl_804BAD58, global
+.obj String_"EndCityTurbo_TopN_joint", global
 	.string "EndCityTurbo_TopN_joint"
-.endobj lbl_804BAD58
+.endobj String_"EndCityTurbo_TopN_joint"
 
 # .data:0x1F1F8 | 0x804BAD70 | size: 0x2C
 .obj lbl_804BAD70, global
@@ -39201,9 +39201,9 @@
 .endobj lbl_804BADE8
 
 # .data:0x1F2A0 | 0x804BAE18 | size: 0x18
-.obj lbl_804BAE18, global
+.obj String_"EndCityWagon_TopN_joint", global
 	.string "EndCityWagon_TopN_joint"
-.endobj lbl_804BAE18
+.endobj String_"EndCityWagon_TopN_joint"
 
 # .data:0x1F2B8 | 0x804BAE30 | size: 0x2C
 .obj lbl_804BAE30, global
@@ -39275,14 +39275,14 @@
 .endobj lbl_804BAED8
 
 # .data:0x1F37C | 0x804BAEF4 | size: 0x2C
-.obj lbl_804BAEF4, global
+.obj String_"EndCityWheelie_TopN_ACTION_Ending_animjoint", global
 	.string "EndCityWheelie_TopN_ACTION_Ending_animjoint"
-.endobj lbl_804BAEF4
+.endobj String_"EndCityWheelie_TopN_ACTION_Ending_animjoint"
 
 # .data:0x1F3A8 | 0x804BAF20 | size: 0x30
-.obj lbl_804BAF20, global
+.obj String_"EndCityWheelie_TopN_ACTION_Ending_matanim_joint", global
 	.string "EndCityWheelie_TopN_ACTION_Ending_matanim_joint"
-.endobj lbl_804BAF20
+.endobj String_"EndCityWheelie_TopN_ACTION_Ending_matanim_joint"
 
 # .data:0x1F3D8 | 0x804BAF50 | size: 0x20
 .obj lbl_804BAF50, global
@@ -39351,37 +39351,37 @@
 	.4byte 0x696D5F6A
 	.4byte 0x6F696E74
 	.4byte 0x00000000
-	.4byte lbl_804BA640
+	.4byte String_"EndCityDevil_TopN_joint"
 	.4byte lbl_804BA658
 	.4byte lbl_804BA684
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte lbl_804BA6B4
-	.4byte lbl_804BA6D0
-	.4byte lbl_804BA6FC
+	.4byte String_"EndCityDragoon_TopN_ACTION_Ending_animjoint"
+	.4byte String_"EndCityDragoon_TopN_ACTION_Ending_matanim_joint"
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte lbl_804BA72C
-	.4byte lbl_804BA748
-	.4byte lbl_804BA774
+	.4byte String_"EndCityFormula_TopN_ACTION_Ending_animjoint"
+	.4byte String_"EndCityFormula_TopN_ACTION_Ending_matanim_joint"
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804BA7A4
+	.4byte String_"EndCityHeavy_TopN_joint"
 	.4byte lbl_804BA7BC
 	.4byte lbl_804BA7E8
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804BA818
+	.4byte String_"EndCityHydra_TopN_joint"
 	.4byte lbl_804BA830
 	.4byte lbl_804BA85C
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte lbl_804BA88C
-	.4byte lbl_804BA8A4
-	.4byte lbl_804BA8CC
+	.4byte String_"EndCityJet_TopN_ACTION_Ending_animjoint"
+	.4byte String_"EndCityJet_TopN_ACTION_Ending_matanim_joint"
 	.4byte 0x00000000
 	.4byte 0x00000000
-	.4byte lbl_804BA8F8
+	.4byte String_"EndCityLight_TopN_joint"
 	.4byte lbl_804BA910
 	.4byte lbl_804BA93C
 	.4byte 0x00000000
@@ -39392,43 +39392,43 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte lbl_804BA9E4
-	.4byte lbl_804BA9FC
-	.4byte lbl_804BAA24
+	.4byte String_"EndCityRex_TopN_ACTION_Ending_animjoint"
+	.4byte String_"EndCityRex_TopN_ACTION_Ending_matanim_joint"
 	.4byte lbl_804BAA50
 	.4byte lbl_804BAA6C
 	.4byte lbl_804BAA98
 	.4byte lbl_804BAAB4
 	.4byte lbl_804BAAE0
-	.4byte lbl_804BAB10
+	.4byte String_"EndCityRocketPtc_TopN_joint"
 	.4byte lbl_804BAB2C
-	.4byte lbl_804BAB5C
+	.4byte String_"EndCityRuins_TopN_joint"
 	.4byte lbl_804BAB74
 	.4byte lbl_804BABA0
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte lbl_804BABD0
-	.4byte lbl_804BABEC
-	.4byte lbl_804BAC18
+	.4byte String_"EndCityScooter_TopN_ACTION_Ending_animjoint"
+	.4byte String_"EndCityScooter_TopN_ACTION_Ending_matanim_joint"
 	.4byte lbl_804BAC48
 	.4byte lbl_804BAC68
-	.4byte lbl_804BAC98
+	.4byte String_"EndCitySlick_TopN_joint"
 	.4byte lbl_804BACB0
 	.4byte lbl_804BACDC
 	.4byte lbl_804BAD0C
 	.4byte lbl_804BAD28
-	.4byte lbl_804BAD58
+	.4byte String_"EndCityTurbo_TopN_joint"
 	.4byte lbl_804BAD70
 	.4byte lbl_804BAD9C
 	.4byte lbl_804BADCC
 	.4byte lbl_804BADE8
-	.4byte lbl_804BAE18
+	.4byte String_"EndCityWagon_TopN_joint"
 	.4byte lbl_804BAE30
 	.4byte lbl_804BAE5C
 	.4byte lbl_804BAE8C
 	.4byte lbl_804BAEA8
 	.4byte lbl_804BAED8
-	.4byte lbl_804BAEF4
-	.4byte lbl_804BAF20
+	.4byte String_"EndCityWheelie_TopN_ACTION_Ending_animjoint"
+	.4byte String_"EndCityWheelie_TopN_ACTION_Ending_matanim_joint"
 	.4byte lbl_804BAF50
 	.4byte lbl_804BAF70
 	.4byte lbl_804BAFA0
@@ -39774,9 +39774,9 @@
 .endobj lbl_804BB5E4
 
 # .data:0x1FA78 | 0x804BB5F0 | size: 0xC
-.obj lbl_804BB5F0, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804BB5F0
+.endobj String_"SheetTexMgr"
 
 # .data:0x1FA84 | 0x804BB5FC | size: 0x18
 .obj lbl_804BB5FC, global
@@ -39806,14 +39806,14 @@
 .endobj lbl_804BB620
 
 # .data:0x1FAC0 | 0x804BB638 | size: 0x14
-.obj lbl_804BB638, global
+.obj String_"WidgetSpinBox_Menu", global
 	.string "WidgetSpinBox::Menu"
-.endobj lbl_804BB638
+.endobj String_"WidgetSpinBox_Menu"
 
 # .data:0x1FAD4 | 0x804BB64C | size: 0x10
-.obj lbl_804BB64C, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804BB64C
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x1FAE4 | 0x804BB65C | size: 0xC
 .obj lbl_804BB65C, global
@@ -39955,9 +39955,9 @@
 .endobj lbl_804BB7CC
 
 # .data:0x1FC60 | 0x804BB7D8 | size: 0x1C
-.obj lbl_804BB7D8, global
+.obj String_"SelectMode_GimmickRandSeed", global
 	.string "SelectMode::GimmickRandSeed"
-.endobj lbl_804BB7D8
+.endobj String_"SelectMode_GimmickRandSeed"
 
 # .data:0x1FC7C | 0x804BB7F4 | size: 0x10
 .obj lbl_804BB7F4, global
@@ -39968,9 +39968,9 @@
 .endobj lbl_804BB7F4
 
 # .data:0x1FC8C | 0x804BB804 | size: 0xC
-.obj lbl_804BB804, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804BB804
+.endobj String_"WidgetSheet"
 
 # .data:0x1FC98 | 0x804BB810 | size: 0x14
 .obj lbl_804BB810, global
@@ -40165,9 +40165,9 @@
 .endobj lbl_804BB9D4
 
 # .data:0x1FEE8 | 0x804BBA60 | size: 0x1C
-.obj lbl_804BBA60, global
+.obj String_"SelectMode_ItemCourseScale", global
 	.string "SelectMode::ItemCourseScale"
-.endobj lbl_804BBA60
+.endobj String_"SelectMode_ItemCourseScale"
 
 # .data:0x1FF04 | 0x804BBA7C | size: 0x3C
 .obj lbl_804BBA7C, global
@@ -40297,9 +40297,9 @@
 .endobj lbl_804BBB9C
 
 # .data:0x200B0 | 0x804BBC28 | size: 0x1C
-.obj lbl_804BBC28, global
+.obj String_"SelectMode_ItemOptionScale", global
 	.string "SelectMode::ItemOptionScale"
-.endobj lbl_804BBC28
+.endobj String_"SelectMode_ItemOptionScale"
 
 # .data:0x200CC | 0x804BBC44 | size: 0x3C
 .obj lbl_804BBC44, global
@@ -40799,9 +40799,9 @@
 .endobj lbl_804BC22C
 
 # .data:0x206D0 | 0x804BC248 | size: 0xC
-.obj lbl_804BC248, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804BC248
+.endobj String_"WidgetLabel"
 
 # .data:0x206DC | 0x804BC254 | size: 0x1C
 .obj lbl_804BC254, global
@@ -41539,9 +41539,9 @@
 .endobj lbl_804BC96C
 
 # .data:0x20E28 | 0x804BC9A0 | size: 0x10
-.obj lbl_804BC9A0, global
+.obj String_"FL_Tree_Template_Widget"_2, global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804BC9A0
+.endobj String_"FL_Tree_Template_Widget"_2
 
 # .data:0x20E38 | 0x804BC9B0 | size: 0xC
 .obj lbl_804BC9B0, global
@@ -41623,14 +41623,14 @@
 .endobj lbl_804BCA5C
 
 # .data:0x20F04 | 0x804BCA7C | size: 0x14
-.obj lbl_804BCA7C, global
+.obj String_"GrenadeMgr_Grenade", global
 	.string "GrenadeMgr::Grenade"
-.endobj lbl_804BCA7C
+.endobj String_"GrenadeMgr_Grenade"
 
 # .data:0x20F18 | 0x804BCA90 | size: 0x20
-.obj lbl_804BCA90, global
+.obj String_"ObjCollect_Template_GrenadeMgr_Grenade", global
 	.string "ObjCollect<GrenadeMgr::Grenade>"
-.endobj lbl_804BCA90
+.endobj String_"ObjCollect_Template_GrenadeMgr_Grenade"
 
 # .data:0x20F38 | 0x804BCAB0 | size: 0x2C
 .obj lbl_804BCAB0, global
@@ -41648,14 +41648,14 @@
 .endobj lbl_804BCAB0
 
 # .data:0x20F64 | 0x804BCADC | size: 0xC
-.obj lbl_804BCADC, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804BCADC
+.endobj String_"KirbyHandle"
 
 # .data:0x20F70 | 0x804BCAE8 | size: 0x18
-.obj lbl_804BCAE8, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804BCAE8
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x20F88 | 0x804BCB00 | size: 0xC
 .obj lbl_804BCB00, global
@@ -41723,14 +41723,14 @@
 .endobj lbl_804BCB68
 
 # .data:0x2101C | 0x804BCB94 | size: 0x10
-.obj lbl_804BCB94, global
+.obj String_"EmberMgr_Ember", global
 	.string "EmberMgr::Ember"
-.endobj lbl_804BCB94
+.endobj String_"EmberMgr_Ember"
 
 # .data:0x2102C | 0x804BCBA4 | size: 0x1C
-.obj lbl_804BCBA4, global
+.obj String_"ObjCollect_Template_EmberMgr_Ember", global
 	.string "ObjCollect<EmberMgr::Ember>"
-.endobj lbl_804BCBA4
+.endobj String_"ObjCollect_Template_EmberMgr_Ember"
 
 # .data:0x21048 | 0x804BCBC0 | size: 0x2C
 .obj lbl_804BCBC0, global
@@ -41748,14 +41748,14 @@
 .endobj lbl_804BCBC0
 
 # .data:0x21074 | 0x804BCBEC | size: 0x10
-.obj lbl_804BCBEC, global
+.obj String_"SmokeMgr_Smoke", global
 	.string "SmokeMgr::Smoke"
-.endobj lbl_804BCBEC
+.endobj String_"SmokeMgr_Smoke"
 
 # .data:0x21084 | 0x804BCBFC | size: 0x1C
-.obj lbl_804BCBFC, global
+.obj String_"ObjCollect_Template_SmokeMgr_Smoke", global
 	.string "ObjCollect<SmokeMgr::Smoke>"
-.endobj lbl_804BCBFC
+.endobj String_"ObjCollect_Template_SmokeMgr_Smoke"
 
 # .data:0x210A0 | 0x804BCC18 | size: 0x2C
 .obj lbl_804BCC18, global
@@ -41773,14 +41773,14 @@
 .endobj lbl_804BCC18
 
 # .data:0x210CC | 0x804BCC44 | size: 0x14
-.obj lbl_804BCC44, global
+.obj String_"MissileMgr_Missile", global
 	.string "MissileMgr::Missile"
-.endobj lbl_804BCC44
+.endobj String_"MissileMgr_Missile"
 
 # .data:0x210E0 | 0x804BCC58 | size: 0x20
-.obj lbl_804BCC58, global
+.obj String_"ObjCollect_Template_MissileMgr_Missile", global
 	.string "ObjCollect<MissileMgr::Missile>"
-.endobj lbl_804BCC58
+.endobj String_"ObjCollect_Template_MissileMgr_Missile"
 
 # .data:0x21100 | 0x804BCC78 | size: 0x2C
 .obj lbl_804BCC78, global
@@ -41798,14 +41798,14 @@
 .endobj lbl_804BCC78
 
 # .data:0x2112C | 0x804BCCA4 | size: 0x14
-.obj lbl_804BCCA4, global
+.obj String_"KurakkoMgr_Kurakko", global
 	.string "KurakkoMgr::Kurakko"
-.endobj lbl_804BCCA4
+.endobj String_"KurakkoMgr_Kurakko"
 
 # .data:0x21140 | 0x804BCCB8 | size: 0x20
-.obj lbl_804BCCB8, global
+.obj String_"ObjCollect_Template_KurakkoMgr_Kurakko", global
 	.string "ObjCollect<KurakkoMgr::Kurakko>"
-.endobj lbl_804BCCB8
+.endobj String_"ObjCollect_Template_KurakkoMgr_Kurakko"
 
 # .data:0x21160 | 0x804BCCD8 | size: 0xC
 .obj lbl_804BCCD8, global
@@ -41822,9 +41822,9 @@
 .endobj lbl_804BCCE4
 
 # .data:0x21178 | 0x804BCCF0 | size: 0x14
-.obj lbl_804BCCF0, global
+.obj String_"Singleton_Template_KirbyMgr", global
 	.string "Singleton<KirbyMgr>"
-.endobj lbl_804BCCF0
+.endobj String_"Singleton_Template_KirbyMgr"
 
 # .data:0x2118C | 0x804BCD04 | size: 0x1C
 .obj lbl_804BCD04, global
@@ -41871,9 +41871,9 @@
 .endobj lbl_804BCD78
 
 # .data:0x2120C | 0x804BCD84 | size: 0x14
-.obj lbl_804BCD84, global
+.obj String_"Singleton_Template_Stardust", global
 	.string "Singleton<Stardust>"
-.endobj lbl_804BCD84
+.endobj String_"Singleton_Template_Stardust"
 
 # .data:0x21220 | 0x804BCD98 | size: 0x2C
 .obj lbl_804BCD98, global
@@ -42109,9 +42109,9 @@
 .endobj lbl_804BCF90
 
 # .data:0x21424 | 0x804BCF9C | size: 0x14
-.obj lbl_804BCF9C, global
+.obj String_"CommicSignContainer", global
 	.string "CommicSignContainer"
-.endobj lbl_804BCF9C
+.endobj String_"CommicSignContainer"
 
 # .data:0x21438 | 0x804BCFB0 | size: 0xC
 .obj lbl_804BCFB0, global
@@ -42277,9 +42277,9 @@
 .endobj lbl_804BD100
 
 # .data:0x21594 | 0x804BD10C | size: 0x14
-.obj lbl_804BD10C, global
+.obj String_"WipeEffectContainer", global
 	.string "WipeEffectContainer"
-.endobj lbl_804BD10C
+.endobj String_"WipeEffectContainer"
 
 # .data:0x215A8 | 0x804BD120 | size: 0xC
 .obj lbl_804BD120, global
@@ -42316,9 +42316,9 @@
 .endobj lbl_804BD15C
 
 # .data:0x215F0 | 0x804BD168 | size: 0x18
-.obj lbl_804BD168, global
+.obj String_"PostDrawEffectContainer", global
 	.string "PostDrawEffectContainer"
-.endobj lbl_804BD168
+.endobj String_"PostDrawEffectContainer"
 
 # .data:0x21608 | 0x804BD180 | size: 0xC
 .obj lbl_804BD180, global
@@ -42335,9 +42335,9 @@
 .endobj lbl_804BD18C
 
 # .data:0x21620 | 0x804BD198 | size: 0x20
-.obj lbl_804BD198, global
+.obj String_"Singleton_Template_ModelEffectContainer", global
 	.string "Singleton<ModelEffectContainer>"
-.endobj lbl_804BD198
+.endobj String_"Singleton_Template_ModelEffectContainer"
 
 # .data:0x21640 | 0x804BD1B8 | size: 0xC
 .obj lbl_804BD1B8, global
@@ -42439,9 +42439,9 @@
 .endobj lbl_804BD26C
 
 # .data:0x2170C | 0x804BD284 | size: 0x14
-.obj lbl_804BD284, global
+.obj String_"Singleton_Template_GameLogo", global
 	.string "Singleton<GameLogo>"
-.endobj lbl_804BD284
+.endobj String_"Singleton_Template_GameLogo"
 
 # .data:0x21720 | 0x804BD298 | size: 0xC
 .obj lbl_804BD298, global
@@ -42451,9 +42451,9 @@
 .endobj lbl_804BD298
 
 # .data:0x2172C | 0x804BD2A4 | size: 0xC
-.obj lbl_804BD2A4, global
+.obj String_"ReadyGoInfo", global
 	.string "ReadyGoInfo"
-.endobj lbl_804BD2A4
+.endobj String_"ReadyGoInfo"
 
 # .data:0x21738 | 0x804BD2B0 | size: 0xC
 .obj lbl_804BD2B0, global
@@ -42463,9 +42463,9 @@
 .endobj lbl_804BD2B0
 
 # .data:0x21744 | 0x804BD2BC | size: 0xC
-.obj lbl_804BD2BC, global
+.obj String_"PlayerPanel", global
 	.string "PlayerPanel"
-.endobj lbl_804BD2BC
+.endobj String_"PlayerPanel"
 
 # .data:0x21750 | 0x804BD2C8 | size: 0xC
 .obj lbl_804BD2C8, global
@@ -42542,9 +42542,9 @@
 .endobj lbl_804BD344
 
 # .data:0x217D8 | 0x804BD350 | size: 0xC
-.obj lbl_804BD350, global
+.obj String_"LoadingInfo", global
 	.string "LoadingInfo"
-.endobj lbl_804BD350
+.endobj String_"LoadingInfo"
 
 # .data:0x217E4 | 0x804BD35C | size: 0xC
 .obj lbl_804BD35C, global
@@ -42592,9 +42592,9 @@
 .endobj lbl_804BD3A4
 
 # .data:0x21838 | 0x804BD3B0 | size: 0xC
-.obj lbl_804BD3B0, global
+.obj String_"GhostPlayer", global
 	.string "GhostPlayer"
-.endobj lbl_804BD3B0
+.endobj String_"GhostPlayer"
 
 # .data:0x21844 | 0x804BD3BC | size: 0xC
 .obj lbl_804BD3BC, global
@@ -42628,9 +42628,9 @@
 .endobj lbl_804BD3EC
 
 # .data:0x21880 | 0x804BD3F8 | size: 0xC
-.obj lbl_804BD3F8, global
+.obj String_"GameSession", global
 	.string "GameSession"
-.endobj lbl_804BD3F8
+.endobj String_"GameSession"
 
 # .data:0x2188C | 0x804BD404 | size: 0xC
 .obj lbl_804BD404, global
@@ -42723,9 +42723,9 @@
 .endobj lbl_804BD4A0
 
 # .data:0x21934 | 0x804BD4AC | size: 0x14
-.obj lbl_804BD4AC, global
+.obj String_"Singleton_Template_SmokeMgr", global
 	.string "Singleton<SmokeMgr>"
-.endobj lbl_804BD4AC
+.endobj String_"Singleton_Template_SmokeMgr"
 
 # .data:0x21948 | 0x804BD4C0 | size: 0xC
 .obj lbl_804BD4C0, global
@@ -42756,9 +42756,9 @@
 .endobj lbl_804BD4E4
 
 # .data:0x21978 | 0x804BD4F0 | size: 0x14
-.obj lbl_804BD4F0, global
+.obj String_"Singleton_Template_EmberMgr", global
 	.string "Singleton<EmberMgr>"
-.endobj lbl_804BD4F0
+.endobj String_"Singleton_Template_EmberMgr"
 
 # .data:0x2198C | 0x804BD504 | size: 0xC
 .obj lbl_804BD504, global
@@ -43027,9 +43027,9 @@
 .endobj lbl_804BD724
 
 # .data:0x21BD4 | 0x804BD74C | size: 0xC
-.obj lbl_804BD74C, global
+.obj String_"EffectLoupe", global
 	.string "EffectLoupe"
-.endobj lbl_804BD74C
+.endobj String_"EffectLoupe"
 
 # .data:0x21BE0 | 0x804BD758 | size: 0x14
 .obj lbl_804BD758, global
@@ -43488,9 +43488,9 @@
 .endobj lbl_804BDC70
 
 # .data:0x22120 | 0x804BDC98 | size: 0x24
-.obj lbl_804BDC98, global
+.obj String_"ObjCollect_Template_SimpleShadowMgr_Shadow", global
 	.string "ObjCollect<SimpleShadowMgr::Shadow>"
-.endobj lbl_804BDC98
+.endobj String_"ObjCollect_Template_SimpleShadowMgr_Shadow"
 
 # .data:0x22144 | 0x804BDCBC | size: 0x28
 .obj lbl_804BDCBC, global
@@ -43507,9 +43507,9 @@
 .endobj lbl_804BDCBC
 
 # .data:0x2216C | 0x804BDCE4 | size: 0x18
-.obj lbl_804BDCE4, global
+.obj String_"SimpleShadowMgr_Shadow", global
 	.string "SimpleShadowMgr::Shadow"
-.endobj lbl_804BDCE4
+.endobj String_"SimpleShadowMgr_Shadow"
 
 # .data:0x22184 | 0x804BDCFC | size: 0xC
 .obj lbl_804BDCFC, global
@@ -43561,9 +43561,9 @@
 .endobj lbl_804BDD58
 
 # .data:0x22208 | 0x804BDD80 | size: 0x18
-.obj lbl_804BDD80, global
+.obj String_"ObjCollect_Template_ModelEffect", global
 	.string "ObjCollect<ModelEffect>"
-.endobj lbl_804BDD80
+.endobj String_"ObjCollect_Template_ModelEffect"
 
 # .data:0x22220 | 0x804BDD98 | size: 0x28
 .obj lbl_804BDD98, global
@@ -43580,9 +43580,9 @@
 .endobj lbl_804BDD98
 
 # .data:0x22248 | 0x804BDDC0 | size: 0xC
-.obj lbl_804BDDC0, global
+.obj String_"ModelEffect", global
 	.string "ModelEffect"
-.endobj lbl_804BDDC0
+.endobj String_"ModelEffect"
 
 # .data:0x22254 | 0x804BDDCC | size: 0xC
 .obj lbl_804BDDCC, global
@@ -43681,9 +43681,9 @@
 .endobj lbl_804BDEA0
 
 # .data:0x22334 | 0x804BDEAC | size: 0x14
-.obj lbl_804BDEAC, global
+.obj String_"Singleton_Template_EnemyMgr", global
 	.string "Singleton<EnemyMgr>"
-.endobj lbl_804BDEAC
+.endobj String_"Singleton_Template_EnemyMgr"
 
 # .data:0x22348 | 0x804BDEC0 | size: 0xC
 .obj lbl_804BDEC0, global
@@ -43714,9 +43714,9 @@
 .endobj lbl_804BDEE4
 
 # .data:0x22378 | 0x804BDEF0 | size: 0x14
-.obj lbl_804BDEF0, global
+.obj String_"Singleton_Template_ItemBall", global
 	.string "Singleton<ItemBall>"
-.endobj lbl_804BDEF0
+.endobj String_"Singleton_Template_ItemBall"
 
 # .data:0x2238C | 0x804BDF04 | size: 0xC
 .obj lbl_804BDF04, global
@@ -43859,9 +43859,9 @@
 .endobj lbl_804BE028
 
 # .data:0x224BC | 0x804BE034 | size: 0x10
-.obj lbl_804BE034, global
+.obj String_"KirbyDisplayMgr", global
 	.string "KirbyDisplayMgr"
-.endobj lbl_804BE034
+.endobj String_"KirbyDisplayMgr"
 
 # .data:0x224CC | 0x804BE044 | size: 0xC
 .obj lbl_804BE044, global
@@ -43918,9 +43918,9 @@
 .endobj lbl_804BE0A0
 
 # .data:0x22534 | 0x804BE0AC | size: 0x18
-.obj lbl_804BE0AC, global
+.obj String_"ObjCollect_Template_SoundHandle", global
 	.string "ObjCollect<SoundHandle>"
-.endobj lbl_804BE0AC
+.endobj String_"ObjCollect_Template_SoundHandle"
 
 # .data:0x2254C | 0x804BE0C4 | size: 0x28
 .obj lbl_804BE0C4, global
@@ -43937,9 +43937,9 @@
 .endobj lbl_804BE0C4
 
 # .data:0x22574 | 0x804BE0EC | size: 0xC
-.obj lbl_804BE0EC, global
+.obj String_"SoundHandle", global
 	.string "SoundHandle"
-.endobj lbl_804BE0EC
+.endobj String_"SoundHandle"
 
 # .data:0x22580 | 0x804BE0F8 | size: 0xC
 .obj lbl_804BE0F8, global
@@ -44224,9 +44224,9 @@
 .endobj lbl_804BE354
 
 # .data:0x227E8 | 0x804BE360 | size: 0x10
-.obj lbl_804BE360, global
+.obj String_"SimpleShadowMgr", global
 	.string "SimpleShadowMgr"
-.endobj lbl_804BE360
+.endobj String_"SimpleShadowMgr"
 
 # .data:0x227F8 | 0x804BE370 | size: 0x1C
 .obj lbl_804BE370, global
@@ -44384,9 +44384,9 @@
 .endobj lbl_804BE490
 
 # .data:0x22924 | 0x804BE49C | size: 0x14
-.obj lbl_804BE49C, global
+.obj String_"GameEffect_Memento", global
 	.string "GameEffect::Memento"
-.endobj lbl_804BE49C
+.endobj String_"GameEffect_Memento"
 
 # .data:0x22938 | 0x804BE4B0 | size: 0xC
 .obj lbl_804BE4B0, global
@@ -44396,9 +44396,9 @@
 .endobj lbl_804BE4B0
 
 # .data:0x22944 | 0x804BE4BC | size: 0x24
-.obj lbl_804BE4BC, global
+.obj String_"GameModeOperate_Component_Memento", global
 	.string "GameModeOperate::Component::Memento"
-.endobj lbl_804BE4BC
+.endobj String_"GameModeOperate_Component_Memento"
 
 # .data:0x22968 | 0x804BE4E0 | size: 0xC
 .obj lbl_804BE4E0, global
@@ -44469,9 +44469,9 @@
 .endobj jumptable_804BE564
 
 # .data:0x22A28 | 0x804BE5A0 | size: 0x34
-.obj lbl_804BE5A0, global
+.obj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexFormat_Template_14", global
 	.string "FL_Texture<SimpleShadowMgr::Texture, TexFormat<14>>"
-.endobj lbl_804BE5A0
+.endobj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexFormat_Template_14"
 
 # .data:0x22A5C | 0x804BE5D4 | size: 0x1C
 .obj lbl_804BE5D4, global
@@ -44748,9 +44748,9 @@
 .endobj lbl_804BE880
 
 # .data:0x22D24 | 0x804BE89C | size: 0x38
-.obj lbl_804BE89C, global
+.obj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_9_2", global
 	.string "FL_Texture<SimpleShadowMgr::Texture, TexCIFormat<9, 2>>"
-.endobj lbl_804BE89C
+.endobj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_9_2"
 
 # .data:0x22D5C | 0x804BE8D4 | size: 0xC
 .obj lbl_804BE8D4, global
@@ -44771,9 +44771,9 @@
 .endobj lbl_804BE8E0
 
 # .data:0x22D84 | 0x804BE8FC | size: 0x38
-.obj lbl_804BE8FC, global
+.obj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_9_1", global
 	.string "FL_Texture<SimpleShadowMgr::Texture, TexCIFormat<9, 1>>"
-.endobj lbl_804BE8FC
+.endobj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_9_1"
 
 # .data:0x22DBC | 0x804BE934 | size: 0xC
 .obj lbl_804BE934, global
@@ -44794,9 +44794,9 @@
 .endobj lbl_804BE940
 
 # .data:0x22DE4 | 0x804BE95C | size: 0x38
-.obj lbl_804BE95C, global
+.obj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_9_0", global
 	.string "FL_Texture<SimpleShadowMgr::Texture, TexCIFormat<9, 0>>"
-.endobj lbl_804BE95C
+.endobj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_9_0"
 
 # .data:0x22E1C | 0x804BE994 | size: 0xC
 .obj lbl_804BE994, global
@@ -44817,9 +44817,9 @@
 .endobj lbl_804BE9A0
 
 # .data:0x22E44 | 0x804BE9BC | size: 0x38
-.obj lbl_804BE9BC, global
+.obj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_8_2", global
 	.string "FL_Texture<SimpleShadowMgr::Texture, TexCIFormat<8, 2>>"
-.endobj lbl_804BE9BC
+.endobj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_8_2"
 
 # .data:0x22E7C | 0x804BE9F4 | size: 0xC
 .obj lbl_804BE9F4, global
@@ -44840,9 +44840,9 @@
 .endobj lbl_804BEA00
 
 # .data:0x22EA4 | 0x804BEA1C | size: 0x38
-.obj lbl_804BEA1C, global
+.obj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_8_1", global
 	.string "FL_Texture<SimpleShadowMgr::Texture, TexCIFormat<8, 1>>"
-.endobj lbl_804BEA1C
+.endobj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_8_1"
 
 # .data:0x22EDC | 0x804BEA54 | size: 0xC
 .obj lbl_804BEA54, global
@@ -44863,9 +44863,9 @@
 .endobj lbl_804BEA60
 
 # .data:0x22F04 | 0x804BEA7C | size: 0x38
-.obj lbl_804BEA7C, global
+.obj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_8_0", global
 	.string "FL_Texture<SimpleShadowMgr::Texture, TexCIFormat<8, 0>>"
-.endobj lbl_804BEA7C
+.endobj String_"FL_Texture_Template_SimpleShadowMgr_Texture_Comma_TexCIFormat_Template_8_0"
 
 # .data:0x22F3C | 0x804BEAB4 | size: 0xC
 .obj lbl_804BEAB4, global
@@ -44929,9 +44929,9 @@
 .endobj lbl_804BEB2C
 
 # .data:0x22FD0 | 0x804BEB48 | size: 0x2C
-.obj lbl_804BEB48, global
+.obj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_6", global
 	.string "FL_Texture<Stardust::Texture, TexFormat<6>>"
-.endobj lbl_804BEB48
+.endobj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_6"
 
 # .data:0x22FFC | 0x804BEB74 | size: 0xC
 .obj lbl_804BEB74, global
@@ -44952,9 +44952,9 @@
 .endobj lbl_804BEB80
 
 # .data:0x23024 | 0x804BEB9C | size: 0x2C
-.obj lbl_804BEB9C, global
+.obj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_5", global
 	.string "FL_Texture<Stardust::Texture, TexFormat<5>>"
-.endobj lbl_804BEB9C
+.endobj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_5"
 
 # .data:0x23050 | 0x804BEBC8 | size: 0xC
 .obj lbl_804BEBC8, global
@@ -44975,9 +44975,9 @@
 .endobj lbl_804BEBD4
 
 # .data:0x23078 | 0x804BEBF0 | size: 0x2C
-.obj lbl_804BEBF0, global
+.obj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_4", global
 	.string "FL_Texture<Stardust::Texture, TexFormat<4>>"
-.endobj lbl_804BEBF0
+.endobj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_4"
 
 # .data:0x230A4 | 0x804BEC1C | size: 0xC
 .obj lbl_804BEC1C, global
@@ -44998,9 +44998,9 @@
 .endobj lbl_804BEC28
 
 # .data:0x230CC | 0x804BEC44 | size: 0x2C
-.obj lbl_804BEC44, global
+.obj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_3", global
 	.string "FL_Texture<Stardust::Texture, TexFormat<3>>"
-.endobj lbl_804BEC44
+.endobj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_3"
 
 # .data:0x230F8 | 0x804BEC70 | size: 0xC
 .obj lbl_804BEC70, global
@@ -45021,9 +45021,9 @@
 .endobj lbl_804BEC7C
 
 # .data:0x23120 | 0x804BEC98 | size: 0x2C
-.obj lbl_804BEC98, global
+.obj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_2", global
 	.string "FL_Texture<Stardust::Texture, TexFormat<2>>"
-.endobj lbl_804BEC98
+.endobj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_2"
 
 # .data:0x2314C | 0x804BECC4 | size: 0xC
 .obj lbl_804BECC4, global
@@ -45044,9 +45044,9 @@
 .endobj lbl_804BECD0
 
 # .data:0x23174 | 0x804BECEC | size: 0x2C
-.obj lbl_804BECEC, global
+.obj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_1", global
 	.string "FL_Texture<Stardust::Texture, TexFormat<1>>"
-.endobj lbl_804BECEC
+.endobj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_1"
 
 # .data:0x231A0 | 0x804BED18 | size: 0xC
 .obj lbl_804BED18, global
@@ -45067,9 +45067,9 @@
 .endobj lbl_804BED24
 
 # .data:0x231C8 | 0x804BED40 | size: 0x2C
-.obj lbl_804BED40, global
+.obj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_0", global
 	.string "FL_Texture<Stardust::Texture, TexFormat<0>>"
-.endobj lbl_804BED40
+.endobj String_"FL_Texture_Template_Stardust_Texture_Comma_TexFormat_Template_0"
 
 # .data:0x231F4 | 0x804BED6C | size: 0xC
 .obj lbl_804BED6C, global
@@ -45300,9 +45300,9 @@
 .endobj lbl_804BEFA0
 
 # .data:0x23444 | 0x804BEFBC | size: 0x28
-.obj lbl_804BEFBC, global
+.obj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle", global
 	.string "ObjCollect<CpuObstacleMgr::CpuObstacle>"
-.endobj lbl_804BEFBC
+.endobj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle"
 
 # .data:0x2346C | 0x804BEFE4 | size: 0x28
 .obj lbl_804BEFE4, global
@@ -45364,9 +45364,9 @@
 .endobj lbl_804BF078
 
 # .data:0x23528 | 0x804BF0A0 | size: 0x10
-.obj lbl_804BF0A0, global
+.obj String_"ChickMgr_Chick", global
 	.string "ChickMgr::Chick"
-.endobj lbl_804BF0A0
+.endobj String_"ChickMgr_Chick"
 
 # .data:0x23538 | 0x804BF0B0 | size: 0xC
 .obj lbl_804BF0B0, global
@@ -45434,14 +45434,14 @@
 .endobj lbl_804BF138
 
 # .data:0x235CC | 0x804BF144 | size: 0x24
-.obj lbl_804BF144, global
+.obj String_"ObjCollect_Template_KirbyEffector_Effector", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj lbl_804BF144
+.endobj String_"ObjCollect_Template_KirbyEffector_Effector"
 
 # .data:0x235F0 | 0x804BF168 | size: 0x18
-.obj lbl_804BF168, global
+.obj String_"KirbyEffector_Effector", global
 	.string "KirbyEffector::Effector"
-.endobj lbl_804BF168
+.endobj String_"KirbyEffector_Effector"
 
 # .data:0x23608 | 0x804BF180 | size: 0xC
 .obj lbl_804BF180, global
@@ -45922,9 +45922,9 @@
 .endobj lbl_804BF6AC
 
 # .data:0x23B40 | 0x804BF6B8 | size: 0x14
-.obj lbl_804BF6B8, global
+.obj String_"Singleton_Template_KirbyMgr", global
 	.string "Singleton<KirbyMgr>"
-.endobj lbl_804BF6B8
+.endobj String_"Singleton_Template_KirbyMgr"
 
 # .data:0x23B54 | 0x804BF6CC | size: 0xC
 .obj lbl_804BF6CC, global
@@ -45965,9 +45965,9 @@
 .endobj lbl_804BF708
 
 # .data:0x23B9C | 0x804BF714 | size: 0x14
-.obj lbl_804BF714, global
+.obj String_"Singleton_Template_Stardust", global
 	.string "Singleton<Stardust>"
-.endobj lbl_804BF714
+.endobj String_"Singleton_Template_Stardust"
 
 # .data:0x23BB0 | 0x804BF728 | size: 0xC
 .obj lbl_804BF728, global
@@ -46097,9 +46097,9 @@
 .endobj lbl_804BF828
 
 # .data:0x23CBC | 0x804BF834 | size: 0x14
-.obj lbl_804BF834, global
+.obj String_"Singleton_Template_GameLogo", global
 	.string "Singleton<GameLogo>"
-.endobj lbl_804BF834
+.endobj String_"Singleton_Template_GameLogo"
 
 # .data:0x23CD0 | 0x804BF848 | size: 0xC
 .obj lbl_804BF848, global
@@ -46109,9 +46109,9 @@
 .endobj lbl_804BF848
 
 # .data:0x23CDC | 0x804BF854 | size: 0x1C
-.obj lbl_804BF854, global
+.obj String_"Kirby_KeyPlayControlPolicy", global
 	.string "Kirby::KeyPlayControlPolicy"
-.endobj lbl_804BF854
+.endobj String_"Kirby_KeyPlayControlPolicy"
 
 # .data:0x23CF8 | 0x804BF870 | size: 0x18
 .obj lbl_804BF870, global
@@ -46169,9 +46169,9 @@
 .endobj lbl_804BF8DC
 
 # .data:0x23D74 | 0x804BF8EC | size: 0x10
-.obj lbl_804BF8EC, global
+.obj String_"GameModeOperate", global
 	.string "GameModeOperate"
-.endobj lbl_804BF8EC
+.endobj String_"GameModeOperate"
 
 # .data:0x23D84 | 0x804BF8FC | size: 0x10
 .obj lbl_804BF8FC, global
@@ -46333,14 +46333,14 @@
 .endobj lbl_804BFA54
 
 # .data:0x23F00 | 0x804BFA78 | size: 0xC
-.obj lbl_804BFA78, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804BFA78
+.endobj String_"KirbyHandle"
 
 # .data:0x23F0C | 0x804BFA84 | size: 0x18
-.obj lbl_804BFA84, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804BFA84
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x23F24 | 0x804BFA9C | size: 0xC
 .obj lbl_804BFA9C, global
@@ -46350,9 +46350,9 @@
 .endobj lbl_804BFA9C
 
 # .data:0x23F30 | 0x804BFAA8 | size: 0xC
-.obj lbl_804BFAA8, global
+.obj String_"GameModeMgr", global
 	.string "GameModeMgr"
-.endobj lbl_804BFAA8
+.endobj String_"GameModeMgr"
 
 # .data:0x23F3C | 0x804BFAB4 | size: 0x10
 .obj lbl_804BFAB4, global
@@ -46688,9 +46688,9 @@
 .endobj lbl_804BFDDC
 
 # .data:0x24270 | 0x804BFDE8 | size: 0xC
-.obj lbl_804BFDE8, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804BFDE8
+.endobj String_"SheetTexMgr"
 
 # .data:0x2427C | 0x804BFDF4 | size: 0x18
 .obj lbl_804BFDF4, global
@@ -46748,9 +46748,9 @@
 .endobj lbl_804BFE4C
 
 # .data:0x24308 | 0x804BFE80 | size: 0x10
-.obj lbl_804BFE80, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804BFE80
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x24318 | 0x804BFE90 | size: 0xC
 .obj lbl_804BFE90, global
@@ -46860,14 +46860,14 @@
 .endobj lbl_804BFF70
 
 # .data:0x24444 | 0x804BFFBC | size: 0xC
-.obj lbl_804BFFBC, global
+.obj String_"KirbyHandle"_3, global
 	.string "KirbyHandle"
-.endobj lbl_804BFFBC
+.endobj String_"KirbyHandle"_3
 
 # .data:0x24450 | 0x804BFFC8 | size: 0x18
-.obj lbl_804BFFC8, global
+.obj String_"ObjCollect_Template_KirbyHandle"_3, global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804BFFC8
+.endobj String_"ObjCollect_Template_KirbyHandle"_3
 
 # .data:0x24468 | 0x804BFFE0 | size: 0x18
 .obj lbl_804BFFE0, global
@@ -47026,9 +47026,9 @@
 .endobj lbl_804C01C4
 
 # .data:0x24658 | 0x804C01D0 | size: 0x14
-.obj lbl_804C01D0, global
+.obj String_"Singleton_Template_KirbyMgr", global
 	.string "Singleton<KirbyMgr>"
-.endobj lbl_804C01D0
+.endobj String_"Singleton_Template_KirbyMgr"
 
 # .data:0x2466C | 0x804C01E4 | size: 0x1C
 .obj lbl_804C01E4, global
@@ -47059,9 +47059,9 @@
 .endobj lbl_804C0218
 
 # .data:0x246AC | 0x804C0224 | size: 0x14
-.obj lbl_804C0224, global
+.obj String_"Singleton_Template_TuningDB", global
 	.string "Singleton<TuningDB>"
-.endobj lbl_804C0224
+.endobj String_"Singleton_Template_TuningDB"
 
 # .data:0x246C0 | 0x804C0238 | size: 0xC
 .obj lbl_804C0238, global
@@ -47181,9 +47181,9 @@
 .endobj lbl_804C0310
 
 # .data:0x247A4 | 0x804C031C | size: 0x14
-.obj lbl_804C031C, global
+.obj String_"Singleton_Template_Stardust", global
 	.string "Singleton<Stardust>"
-.endobj lbl_804C031C
+.endobj String_"Singleton_Template_Stardust"
 
 # .data:0x247B8 | 0x804C0330 | size: 0xC
 .obj lbl_804C0330, global
@@ -47290,9 +47290,9 @@
 .endobj lbl_804C03F4
 
 # .data:0x24888 | 0x804C0400 | size: 0x14
-.obj lbl_804C0400, global
+.obj String_"Singleton_Template_EnemyMgr", global
 	.string "Singleton<EnemyMgr>"
-.endobj lbl_804C0400
+.endobj String_"Singleton_Template_EnemyMgr"
 
 # .data:0x2489C | 0x804C0414 | size: 0x50
 .obj lbl_804C0414, global
@@ -47346,9 +47346,9 @@
 .endobj lbl_804C0490
 
 # .data:0x24928 | 0x804C04A0 | size: 0x10
-.obj lbl_804C04A0, global
+.obj String_"GameModeOperate", global
 	.string "GameModeOperate"
-.endobj lbl_804C04A0
+.endobj String_"GameModeOperate"
 
 # .data:0x24938 | 0x804C04B0 | size: 0xC
 .obj lbl_804C04B0, global
@@ -47414,9 +47414,9 @@
 .endobj lbl_804C0544
 
 # .data:0x249E4 | 0x804C055C | size: 0x10
-.obj lbl_804C055C, global
+.obj String_"GameMenu_Manpu", global
 	.string "GameMenu::Manpu"
-.endobj lbl_804C055C
+.endobj String_"GameMenu_Manpu"
 
 # .data:0x249F4 | 0x804C056C | size: 0x10
 .obj lbl_804C056C, global
@@ -47427,9 +47427,9 @@
 .endobj lbl_804C056C
 
 # .data:0x24A04 | 0x804C057C | size: 0xC
-.obj lbl_804C057C, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804C057C
+.endobj String_"WidgetSheet"
 
 # .data:0x24A10 | 0x804C0588 | size: 0x14
 .obj lbl_804C0588, global
@@ -47664,9 +47664,9 @@
 .endobj lbl_804C07DC
 
 # .data:0x24CF0 | 0x804C0868 | size: 0x14
-.obj lbl_804C0868, global
+.obj String_"GameMenu_RumbleTop", global
 	.string "GameMenu::RumbleTop"
-.endobj lbl_804C0868
+.endobj String_"GameMenu_RumbleTop"
 
 # .data:0x24D04 | 0x804C087C | size: 0x3C
 .obj lbl_804C087C, global
@@ -47834,9 +47834,9 @@
 .endobj lbl_804C0A30
 
 # .data:0x24F38 | 0x804C0AB0 | size: 0x1C
-.obj lbl_804C0AB0, global
+.obj String_"WidgetPlayCount_WidgetItem", global
 	.string "WidgetPlayCount::WidgetItem"
-.endobj lbl_804C0AB0
+.endobj String_"WidgetPlayCount_WidgetItem"
 
 # .data:0x24F54 | 0x804C0ACC | size: 0x14
 .obj lbl_804C0ACC, global
@@ -47987,9 +47987,9 @@
 .endobj lbl_804C0C68
 
 # .data:0x25104 | 0x804C0C7C | size: 0xC
-.obj lbl_804C0C7C, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804C0C7C
+.endobj String_"WidgetLabel"
 
 # .data:0x25110 | 0x804C0C88 | size: 0x1C
 .obj lbl_804C0C88, global
@@ -48038,9 +48038,9 @@
 .endobj lbl_804C0CC8
 
 # .data:0x25198 | 0x804C0D10 | size: 0xC
-.obj lbl_804C0D10, global
+.obj String_"WidgetEntry", global
 	.string "WidgetEntry"
-.endobj lbl_804C0D10
+.endobj String_"WidgetEntry"
 
 # .data:0x251A4 | 0x804C0D1C | size: 0x1C
 .obj lbl_804C0D1C, global
@@ -48993,9 +48993,9 @@
 .endobj lbl_804C18B0
 
 # .data:0x25D9C | 0x804C1914 | size: 0x1C
-.obj lbl_804C1914, global
+.obj String_"WidgetAllItemFolder_Clacco", global
 	.string "WidgetAllItemFolder::Clacco"
-.endobj lbl_804C1914
+.endobj String_"WidgetAllItemFolder_Clacco"
 
 # .data:0x25DB8 | 0x804C1930 | size: 0x3C
 .obj lbl_804C1930, global
@@ -49056,9 +49056,9 @@
 .endobj lbl_804C196C
 
 # .data:0x25E80 | 0x804C19F8 | size: 0x28
-.obj lbl_804C19F8, global
+.obj String_"WidgetItem_Template_WidgetAllItemFolder_Clacco", global
 	.string "WidgetItem<WidgetAllItemFolder::Clacco>"
-.endobj lbl_804C19F8
+.endobj String_"WidgetItem_Template_WidgetAllItemFolder_Clacco"
 
 # .data:0x25EA8 | 0x804C1A20 | size: 0x2C
 .obj lbl_804C1A20, global
@@ -49361,9 +49361,9 @@
 .endobj lbl_804C1D8C
 
 # .data:0x26278 | 0x804C1DF0 | size: 0x1C
-.obj lbl_804C1DF0, global
+.obj String_"WidgetAllItemFolder_Fumdon", global
 	.string "WidgetAllItemFolder::Fumdon"
-.endobj lbl_804C1DF0
+.endobj String_"WidgetAllItemFolder_Fumdon"
 
 # .data:0x26294 | 0x804C1E0C | size: 0x3C
 .obj lbl_804C1E0C, global
@@ -49424,9 +49424,9 @@
 .endobj lbl_804C1E48
 
 # .data:0x2635C | 0x804C1ED4 | size: 0x28
-.obj lbl_804C1ED4, global
+.obj String_"WidgetItem_Template_WidgetAllItemFolder_Fumdon", global
 	.string "WidgetItem<WidgetAllItemFolder::Fumdon>"
-.endobj lbl_804C1ED4
+.endobj String_"WidgetItem_Template_WidgetAllItemFolder_Fumdon"
 
 # .data:0x26384 | 0x804C1EFC | size: 0x2C
 .obj lbl_804C1EFC, global
@@ -49985,9 +49985,9 @@
 .endobj lbl_804C25A8
 
 # .data:0x26A94 | 0x804C260C | size: 0x1C
-.obj lbl_804C260C, global
+.obj String_"WidgetAllItemFolder_Coolen", global
 	.string "WidgetAllItemFolder::Coolen"
-.endobj lbl_804C260C
+.endobj String_"WidgetAllItemFolder_Coolen"
 
 # .data:0x26AB0 | 0x804C2628 | size: 0x3C
 .obj lbl_804C2628, global
@@ -50048,9 +50048,9 @@
 .endobj lbl_804C2664
 
 # .data:0x26B78 | 0x804C26F0 | size: 0x28
-.obj lbl_804C26F0, global
+.obj String_"WidgetItem_Template_WidgetAllItemFolder_Coolen", global
 	.string "WidgetItem<WidgetAllItemFolder::Coolen>"
-.endobj lbl_804C26F0
+.endobj String_"WidgetItem_Template_WidgetAllItemFolder_Coolen"
 
 # .data:0x26BA0 | 0x804C2718 | size: 0x2C
 .obj lbl_804C2718, global
@@ -50996,9 +50996,9 @@
 .endobj lbl_804C32B0
 
 # .data:0x2779C | 0x804C3314 | size: 0x1C
-.obj lbl_804C3314, global
+.obj String_"WidgetAllItemFolder_Debron", global
 	.string "WidgetAllItemFolder::Debron"
-.endobj lbl_804C3314
+.endobj String_"WidgetAllItemFolder_Debron"
 
 # .data:0x277B8 | 0x804C3330 | size: 0x3C
 .obj lbl_804C3330, global
@@ -51059,9 +51059,9 @@
 .endobj lbl_804C336C
 
 # .data:0x27880 | 0x804C33F8 | size: 0x28
-.obj lbl_804C33F8, global
+.obj String_"WidgetItem_Template_WidgetAllItemFolder_Debron", global
 	.string "WidgetItem<WidgetAllItemFolder::Debron>"
-.endobj lbl_804C33F8
+.endobj String_"WidgetItem_Template_WidgetAllItemFolder_Debron"
 
 # .data:0x278A8 | 0x804C3420 | size: 0x2C
 .obj lbl_804C3420, global
@@ -51108,9 +51108,9 @@
 .endobj lbl_804C344C
 
 # .data:0x27938 | 0x804C34B0 | size: 0x1C
-.obj lbl_804C34B0, global
+.obj String_"WidgetAllItemFolder_Hammer", global
 	.string "WidgetAllItemFolder::Hammer"
-.endobj lbl_804C34B0
+.endobj String_"WidgetAllItemFolder_Hammer"
 
 # .data:0x27954 | 0x804C34CC | size: 0x3C
 .obj lbl_804C34CC, global
@@ -51171,9 +51171,9 @@
 .endobj lbl_804C3508
 
 # .data:0x27A1C | 0x804C3594 | size: 0x28
-.obj lbl_804C3594, global
+.obj String_"WidgetItem_Template_WidgetAllItemFolder_Hammer", global
 	.string "WidgetItem<WidgetAllItemFolder::Hammer>"
-.endobj lbl_804C3594
+.endobj String_"WidgetItem_Template_WidgetAllItemFolder_Hammer"
 
 # .data:0x27A44 | 0x804C35BC | size: 0x2C
 .obj lbl_804C35BC, global
@@ -51339,9 +51339,9 @@
 .endobj lbl_804C3764
 
 # .data:0x27C50 | 0x804C37C8 | size: 0x18
-.obj lbl_804C37C8, global
+.obj String_"GameMenu_Field_BGA000", global
 	.string "GameMenu::Field::BGA000"
-.endobj lbl_804C37C8
+.endobj String_"GameMenu_Field_BGA000"
 
 # .data:0x27C68 | 0x804C37E0 | size: 0x3C
 .obj lbl_804C37E0, global
@@ -51403,9 +51403,9 @@
 .endobj lbl_804C381C
 
 # .data:0x27D34 | 0x804C38AC | size: 0x18
-.obj lbl_804C38AC, global
+.obj String_"GameMenu_Field_BG8000", global
 	.string "GameMenu::Field::BG8000"
-.endobj lbl_804C38AC
+.endobj String_"GameMenu_Field_BG8000"
 
 # .data:0x27D4C | 0x804C38C4 | size: 0x3C
 .obj lbl_804C38C4, global
@@ -51467,9 +51467,9 @@
 .endobj lbl_804C3900
 
 # .data:0x27E18 | 0x804C3990 | size: 0x18
-.obj lbl_804C3990, global
+.obj String_"GameMenu_Field_BG5000", global
 	.string "GameMenu::Field::BG5000"
-.endobj lbl_804C3990
+.endobj String_"GameMenu_Field_BG5000"
 
 # .data:0x27E30 | 0x804C39A8 | size: 0x3C
 .obj lbl_804C39A8, global
@@ -51531,9 +51531,9 @@
 .endobj lbl_804C39E4
 
 # .data:0x27EFC | 0x804C3A74 | size: 0x18
-.obj lbl_804C3A74, global
+.obj String_"GameMenu_Field_BG4000", global
 	.string "GameMenu::Field::BG4000"
-.endobj lbl_804C3A74
+.endobj String_"GameMenu_Field_BG4000"
 
 # .data:0x27F14 | 0x804C3A8C | size: 0x3C
 .obj lbl_804C3A8C, global
@@ -51595,9 +51595,9 @@
 .endobj lbl_804C3AC8
 
 # .data:0x27FE0 | 0x804C3B58 | size: 0x18
-.obj lbl_804C3B58, global
+.obj String_"GameMenu_Field_BG3000", global
 	.string "GameMenu::Field::BG3000"
-.endobj lbl_804C3B58
+.endobj String_"GameMenu_Field_BG3000"
 
 # .data:0x27FF8 | 0x804C3B70 | size: 0x3C
 .obj lbl_804C3B70, global
@@ -51659,9 +51659,9 @@
 .endobj lbl_804C3BAC
 
 # .data:0x280C4 | 0x804C3C3C | size: 0x18
-.obj lbl_804C3C3C, global
+.obj String_"GameMenu_Field_BG1000", global
 	.string "GameMenu::Field::BG1000"
-.endobj lbl_804C3C3C
+.endobj String_"GameMenu_Field_BG1000"
 
 # .data:0x280DC | 0x804C3C54 | size: 0x3C
 .obj lbl_804C3C54, global
@@ -51723,9 +51723,9 @@
 .endobj lbl_804C3C90
 
 # .data:0x281A8 | 0x804C3D20 | size: 0x18
-.obj lbl_804C3D20, global
+.obj String_"GameMenu_Field_BG0000", global
 	.string "GameMenu::Field::BG0000"
-.endobj lbl_804C3D20
+.endobj String_"GameMenu_Field_BG0000"
 
 # .data:0x281C0 | 0x804C3D38 | size: 0x3C
 .obj lbl_804C3D38, global
@@ -51852,9 +51852,9 @@
 .endobj lbl_804C3E4C
 
 # .data:0x28360 | 0x804C3ED8 | size: 0x1C
-.obj lbl_804C3ED8, global
+.obj String_"WidgetHermitCurveEditFolder", global
 	.string "WidgetHermitCurveEditFolder"
-.endobj lbl_804C3ED8
+.endobj String_"WidgetHermitCurveEditFolder"
 
 # .data:0x2837C | 0x804C3EF4 | size: 0x34
 .obj lbl_804C3EF4, global
@@ -52725,9 +52725,9 @@
 .endobj lbl_804C4AD0
 
 # .data:0x28F7C | 0x804C4AF4 | size: 0xC
-.obj lbl_804C4AF4, global
+.obj String_"ResultRoute", global
 	.string "ResultRoute"
-.endobj lbl_804C4AF4
+.endobj String_"ResultRoute"
 
 # .data:0x28F88 | 0x804C4B00 | size: 0xC
 .obj lbl_804C4B00, global
@@ -52840,9 +52840,9 @@
 .endobj lbl_804C4BCC
 
 # .data:0x29060 | 0x804C4BD8 | size: 0x14
-.obj lbl_804C4BD8, global
+.obj String_"Singleton_Template_KirbyMgr", global
 	.string "Singleton<KirbyMgr>"
-.endobj lbl_804C4BD8
+.endobj String_"Singleton_Template_KirbyMgr"
 
 # .data:0x29074 | 0x804C4BEC | size: 0xC
 .obj lbl_804C4BEC, global
@@ -52922,9 +52922,9 @@
 .endobj lbl_804C4C84
 
 # .data:0x29118 | 0x804C4C90 | size: 0x14
-.obj lbl_804C4C90, global
+.obj String_"Singleton_Template_Stardust", global
 	.string "Singleton<Stardust>"
-.endobj lbl_804C4C90
+.endobj String_"Singleton_Template_Stardust"
 
 # .data:0x2912C | 0x804C4CA4 | size: 0xC
 .obj lbl_804C4CA4, global
@@ -52990,9 +52990,9 @@
 .endobj lbl_804C4D10
 
 # .data:0x291A8 | 0x804C4D20 | size: 0x10
-.obj lbl_804C4D20, global
+.obj String_"GameModeOperate", global
 	.string "GameModeOperate"
-.endobj lbl_804C4D20
+.endobj String_"GameModeOperate"
 
 # .data:0x291B8 | 0x804C4D30 | size: 0xC
 .obj lbl_804C4D30, global
@@ -53029,9 +53029,9 @@
 .endobj lbl_804C4D6C
 
 # .data:0x29200 | 0x804C4D78 | size: 0xC
-.obj lbl_804C4D78, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804C4D78
+.endobj String_"SheetTexMgr"
 
 # .data:0x2920C | 0x804C4D84 | size: 0x18
 .obj lbl_804C4D84, global
@@ -53089,9 +53089,9 @@
 .endobj lbl_804C4DDC
 
 # .data:0x29298 | 0x804C4E10 | size: 0x10
-.obj lbl_804C4E10, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804C4E10
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x292A8 | 0x804C4E20 | size: 0xC
 .obj lbl_804C4E20, global
@@ -53653,9 +53653,9 @@
 .endobj lbl_804C5498
 
 # .data:0x29944 | 0x804C54BC | size: 0x14
-.obj lbl_804C54BC, global
+.obj String_"a2d_gamehistory.cpp", global
 	.string "a2d_gamehistory.cpp"
-.endobj lbl_804C54BC
+.endobj String_"a2d_gamehistory.cpp"
 
 # .data:0x29958 | 0x804C54D0 | size: 0x1C
 .obj lbl_804C54D0, global
@@ -55757,9 +55757,9 @@
 .endobj lbl_804C6674
 
 # .data:0x2B334 | 0x804C6EAC | size: 0x10
-.obj lbl_804C6EAC, global
+.obj String_"WidgetPlayCount", global
 	.string "WidgetPlayCount"
-.endobj lbl_804C6EAC
+.endobj String_"WidgetPlayCount"
 
 # .data:0x2B344 | 0x804C6EBC | size: 0x10
 .obj lbl_804C6EBC, global
@@ -55770,9 +55770,9 @@
 .endobj lbl_804C6EBC
 
 # .data:0x2B354 | 0x804C6ECC | size: 0xC
-.obj lbl_804C6ECC, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804C6ECC
+.endobj String_"WidgetSheet"
 
 # .data:0x2B360 | 0x804C6ED8 | size: 0x14
 .obj lbl_804C6ED8, global
@@ -56125,9 +56125,9 @@
 .endobj lbl_804C7180
 
 # .data:0x2B808 | 0x804C7380 | size: 0xC
-.obj lbl_804C7380, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804C7380
+.endobj String_"WidgetLabel"
 
 # .data:0x2B814 | 0x804C738C | size: 0x234
 .obj lbl_804C738C, global
@@ -56459,9 +56459,9 @@
 .endobj lbl_804C77DC
 
 # .data:0x2BC98 | 0x804C7810 | size: 0x10
-.obj lbl_804C7810, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804C7810
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x2BCA8 | 0x804C7820 | size: 0xC
 .obj lbl_804C7820, global
@@ -56801,14 +56801,14 @@
 .endobj lbl_804C7B98
 
 # .data:0x2C06C | 0x804C7BE4 | size: 0xC
-.obj lbl_804C7BE4, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804C7BE4
+.endobj String_"KirbyHandle"
 
 # .data:0x2C078 | 0x804C7BF0 | size: 0x18
-.obj lbl_804C7BF0, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804C7BF0
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x2C090 | 0x804C7C08 | size: 0xC
 .obj lbl_804C7C08, global
@@ -57057,9 +57057,9 @@
 .endobj lbl_804C7E98
 
 # .data:0x2C398 | 0x804C7F10 | size: 0xC
-.obj lbl_804C7F10, global
+.obj String_"GameSession", global
 	.string "GameSession"
-.endobj lbl_804C7F10
+.endobj String_"GameSession"
 
 # .data:0x2C3A4 | 0x804C7F1C | size: 0x18
 .obj lbl_804C7F1C, global
@@ -57128,9 +57128,9 @@
 .endobj lbl_804C7F98
 
 # .data:0x2C42C | 0x804C7FA4 | size: 0x14
-.obj lbl_804C7FA4, global
+.obj String_"Singleton_Template_EmberMgr", global
 	.string "Singleton<EmberMgr>"
-.endobj lbl_804C7FA4
+.endobj String_"Singleton_Template_EmberMgr"
 
 # .data:0x2C440 | 0x804C7FB8 | size: 0xC
 .obj lbl_804C7FB8, global
@@ -57270,9 +57270,9 @@
 .endobj lbl_804C810C
 
 # .data:0x2C5A0 | 0x804C8118 | size: 0xC
-.obj lbl_804C8118, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804C8118
+.endobj String_"SheetTexMgr"
 
 # .data:0x2C5AC | 0x804C8124 | size: 0x18
 .obj lbl_804C8124, global
@@ -57338,9 +57338,9 @@
 .endobj lbl_804C8188
 
 # .data:0x2C638 | 0x804C81B0 | size: 0x10
-.obj lbl_804C81B0, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804C81B0
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x2C648 | 0x804C81C0 | size: 0xC
 .obj lbl_804C81C0, global
@@ -58396,9 +58396,9 @@
 .endobj lbl_804C8E08
 
 # .data:0x2D29C | 0x804C8E14 | size: 0x14
-.obj lbl_804C8E14, global
+.obj String_"Singleton_Template_EnemyMgr", global
 	.string "Singleton<EnemyMgr>"
-.endobj lbl_804C8E14
+.endobj String_"Singleton_Template_EnemyMgr"
 
 # .data:0x2D2B0 | 0x804C8E28 | size: 0x6C
 .obj lbl_804C8E28, global
@@ -60201,9 +60201,9 @@
 .endobj lbl_804CAA0C
 
 # .data:0x2EEA0 | 0x804CAA18 | size: 0x14
-.obj lbl_804CAA18, global
+.obj String_"Singleton_Template_GameLogo", global
 	.string "Singleton<GameLogo>"
-.endobj lbl_804CAA18
+.endobj String_"Singleton_Template_GameLogo"
 
 # .data:0x2EEB4 | 0x804CAA2C | size: 0x14C
 .obj lbl_804CAA2C, global
@@ -60335,9 +60335,9 @@
 .endobj lbl_804CAB8C
 
 # .data:0x2F088 | 0x804CAC00 | size: 0x14
-.obj lbl_804CAC00, global
+.obj String_"GameMenu_QuakeMenu", global
 	.string "GameMenu::QuakeMenu"
-.endobj lbl_804CAC00
+.endobj String_"GameMenu_QuakeMenu"
 
 # .data:0x2F09C | 0x804CAC14 | size: 0x10
 .obj lbl_804CAC14, global
@@ -60348,9 +60348,9 @@
 .endobj lbl_804CAC14
 
 # .data:0x2F0AC | 0x804CAC24 | size: 0xC
-.obj lbl_804CAC24, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804CAC24
+.endobj String_"WidgetSheet"
 
 # .data:0x2F0B8 | 0x804CAC30 | size: 0x14
 .obj lbl_804CAC30, global
@@ -60544,9 +60544,9 @@
 .endobj lbl_804CADEC
 
 # .data:0x2F304 | 0x804CAE7C | size: 0x10
-.obj lbl_804CAE7C, global
+.obj String_"GameMenu_Sound", global
 	.string "GameMenu::Sound"
-.endobj lbl_804CAE7C
+.endobj String_"GameMenu_Sound"
 
 # .data:0x2F314 | 0x804CAE8C | size: 0x3C
 .obj lbl_804CAE8C, global
@@ -60748,9 +60748,9 @@
 .endobj lbl_804CB09C
 
 # .data:0x2F5B0 | 0x804CB128 | size: 0x10
-.obj lbl_804CB128, global
+.obj String_"GameMenu_Field", global
 	.string "GameMenu::Field"
-.endobj lbl_804CB128
+.endobj String_"GameMenu_Field"
 
 # .data:0x2F5C0 | 0x804CB138 | size: 0x3C
 .obj lbl_804CB138, global
@@ -60812,9 +60812,9 @@
 .endobj lbl_804CB174
 
 # .data:0x2F68C | 0x804CB204 | size: 0x10
-.obj lbl_804CB204, global
+.obj String_"GameMenu_Enemy", global
 	.string "GameMenu::Enemy"
-.endobj lbl_804CB204
+.endobj String_"GameMenu_Enemy"
 
 # .data:0x2F69C | 0x804CB214 | size: 0x3C
 .obj lbl_804CB214, global
@@ -64300,9 +64300,9 @@
 .endobj lbl_804CC128
 
 # .data:0x32C68 | 0x804CE7E0 | size: 0xC
-.obj lbl_804CE7E0, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804CE7E0
+.endobj String_"WidgetLabel"
 
 # .data:0x32C74 | 0x804CE7EC | size: 0xC4
 .obj lbl_804CE7EC, global
@@ -64819,9 +64819,9 @@
 .endobj lbl_804CED5C
 
 # .data:0x3342C | 0x804CEFA4 | size: 0xC
-.obj lbl_804CEFA4, global
+.obj String_"WidgetEntry", global
 	.string "WidgetEntry"
-.endobj lbl_804CEFA4
+.endobj String_"WidgetEntry"
 
 # .data:0x33438 | 0x804CEFB0 | size: 0x1A4
 .obj lbl_804CEFB0, global
@@ -65573,9 +65573,9 @@
 .endobj lbl_804CFA84
 
 # .data:0x33F2C | 0x804CFAA4 | size: 0xC
-.obj lbl_804CFAA4, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804CFAA4
+.endobj String_"SheetTexMgr"
 
 # .data:0x33F38 | 0x804CFAB0 | size: 0x18
 .obj lbl_804CFAB0, global
@@ -65633,9 +65633,9 @@
 .endobj lbl_804CFB08
 
 # .data:0x33FC4 | 0x804CFB3C | size: 0x10
-.obj lbl_804CFB3C, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804CFB3C
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x33FD4 | 0x804CFB4C | size: 0xC
 .obj lbl_804CFB4C, global
@@ -65861,9 +65861,9 @@
 .endobj lbl_804CFD4C
 
 # .data:0x342D0 | 0x804CFE48 | size: 0xC
-.obj lbl_804CFE48, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804CFE48
+.endobj String_"WidgetSheet"
 
 # .data:0x342DC | 0x804CFE54 | size: 0x14
 .obj lbl_804CFE54, global
@@ -65875,9 +65875,9 @@
 .endobj lbl_804CFE54
 
 # .data:0x342F0 | 0x804CFE68 | size: 0xC
-.obj lbl_804CFE68, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804CFE68
+.endobj String_"WidgetLabel"
 
 # .data:0x342FC | 0x804CFE74 | size: 0x1C
 .obj lbl_804CFE74, global
@@ -66988,9 +66988,9 @@
 .endobj lbl_804D0E3C
 
 # .data:0x352FC | 0x804D0E74 | size: 0xC
-.obj lbl_804D0E74, global
+.obj String_"NormalPause", global
 	.string "NormalPause"
-.endobj lbl_804D0E74
+.endobj String_"NormalPause"
 
 # .data:0x35308 | 0x804D0E80 | size: 0xC
 .obj lbl_804D0E80, global
@@ -67221,14 +67221,14 @@
 .endobj lbl_804D1074
 
 # .data:0x35508 | 0x804D1080 | size: 0x1C
-.obj lbl_804D1080, global
+.obj String_"CpuObstacleMgr_CpuObstacle", global
 	.string "CpuObstacleMgr::CpuObstacle"
-.endobj lbl_804D1080
+.endobj String_"CpuObstacleMgr_CpuObstacle"
 
 # .data:0x35524 | 0x804D109C | size: 0x28
-.obj lbl_804D109C, global
+.obj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle", global
 	.string "ObjCollect<CpuObstacleMgr::CpuObstacle>"
-.endobj lbl_804D109C
+.endobj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle"
 
 # .data:0x3554C | 0x804D10C4 | size: 0xC
 .obj lbl_804D10C4, global
@@ -67245,9 +67245,9 @@
 .endobj lbl_804D10D0
 
 # .data:0x35564 | 0x804D10DC | size: 0x14
-.obj lbl_804D10DC, global
+.obj String_"Singleton_Template_EnemyMgr", global
 	.string "Singleton<EnemyMgr>"
-.endobj lbl_804D10DC
+.endobj String_"Singleton_Template_EnemyMgr"
 
 # .data:0x35578 | 0x804D10F0 | size: 0x10
 .obj lbl_804D10F0, global
@@ -67356,14 +67356,14 @@
 .endobj lbl_804D11D0
 
 # .data:0x35680 | 0x804D11F8 | size: 0xC
-.obj lbl_804D11F8, global
+.obj String_"STAR1500.tm", global
 	.string "STAR1500.tm"
-.endobj lbl_804D11F8
+.endobj String_"STAR1500.tm"
 
 # .data:0x3568C | 0x804D1204 | size: 0xC
-.obj lbl_804D1204, global
+.obj String_"STAR1600.tm", global
 	.string "STAR1600.tm"
-.endobj lbl_804D1204
+.endobj String_"STAR1600.tm"
 
 # .data:0x35698 | 0x804D1210 | size: 0xC
 .obj lbl_804D1210, global
@@ -67643,39 +67643,39 @@
 .endobj lbl_804D1534
 
 # .data:0x359CC | 0x804D1544 | size: 0xC
-.obj lbl_804D1544, global
+.obj String_"AC_1P_COLOR", global
 	.string "AC_1P_COLOR"
-.endobj lbl_804D1544
+.endobj String_"AC_1P_COLOR"
 
 # .data:0x359D8 | 0x804D1550 | size: 0xC
-.obj lbl_804D1550, global
+.obj String_"AC_2P_COLOR", global
 	.string "AC_2P_COLOR"
-.endobj lbl_804D1550
+.endobj String_"AC_2P_COLOR"
 
 # .data:0x359E4 | 0x804D155C | size: 0xC
-.obj lbl_804D155C, global
+.obj String_"AC_3P_COLOR", global
 	.string "AC_3P_COLOR"
-.endobj lbl_804D155C
+.endobj String_"AC_3P_COLOR"
 
 # .data:0x359F0 | 0x804D1568 | size: 0xC
-.obj lbl_804D1568, global
+.obj String_"AC_4P_COLOR", global
 	.string "AC_4P_COLOR"
-.endobj lbl_804D1568
+.endobj String_"AC_4P_COLOR"
 
 # .data:0x359FC | 0x804D1574 | size: 0xC
-.obj lbl_804D1574, global
+.obj String_"AC_5P_COLOR", global
 	.string "AC_5P_COLOR"
-.endobj lbl_804D1574
+.endobj String_"AC_5P_COLOR"
 
 # .data:0x35A08 | 0x804D1580 | size: 0xC
-.obj lbl_804D1580, global
+.obj String_"AC_6P_COLOR", global
 	.string "AC_6P_COLOR"
-.endobj lbl_804D1580
+.endobj String_"AC_6P_COLOR"
 
 # .data:0x35A14 | 0x804D158C | size: 0xC
-.obj lbl_804D158C, global
+.obj String_"AC_7P_COLOR", global
 	.string "AC_7P_COLOR"
-.endobj lbl_804D158C
+.endobj String_"AC_7P_COLOR"
 
 # .data:0x35A20 | 0x804D1598 | size: 0x24
 .obj lbl_804D1598, global
@@ -68109,9 +68109,9 @@
 .endobj lbl_804D1B68
 
 # .data:0x35FFC | 0x804D1B74 | size: 0x14
-.obj lbl_804D1B74, global
+.obj String_"Singleton_Template_ItemBall", global
 	.string "Singleton<ItemBall>"
-.endobj lbl_804D1B74
+.endobj String_"Singleton_Template_ItemBall"
 
 # .data:0x36010 | 0x804D1B88 | size: 0xC
 .obj lbl_804D1B88, global
@@ -68145,14 +68145,14 @@
 .endobj lbl_804D1BB8
 
 # .data:0x3604C | 0x804D1BC4 | size: 0xC
-.obj lbl_804D1BC4, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804D1BC4
+.endobj String_"KirbyHandle"
 
 # .data:0x36058 | 0x804D1BD0 | size: 0x18
-.obj lbl_804D1BD0, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804D1BD0
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x36070 | 0x804D1BE8 | size: 0xC
 .obj lbl_804D1BE8, global
@@ -68201,9 +68201,9 @@
 .endobj lbl_804D1C30
 
 # .data:0x360C8 | 0x804D1C40 | size: 0xC
-.obj lbl_804D1C40, global
+.obj String_"KirbyNormal", global
 	.string "KirbyNormal"
-.endobj lbl_804D1C40
+.endobj String_"KirbyNormal"
 
 # .data:0x360D4 | 0x804D1C4C | size: 0xC
 .obj lbl_804D1C4C, global
@@ -68213,9 +68213,9 @@
 .endobj lbl_804D1C4C
 
 # .data:0x360E0 | 0x804D1C58 | size: 0xC
-.obj lbl_804D1C58, global
+.obj String_"KirbyDamage", global
 	.string "KirbyDamage"
-.endobj lbl_804D1C58
+.endobj String_"KirbyDamage"
 
 # .data:0x360EC | 0x804D1C64 | size: 0x14
 .obj lbl_804D1C64, global
@@ -68274,9 +68274,9 @@
 .endobj lbl_804D1CC8
 
 # .data:0x3616C | 0x804D1CE4 | size: 0xC
-.obj lbl_804D1CE4, global
+.obj String_"KirbyFreeze", global
 	.string "KirbyFreeze"
-.endobj lbl_804D1CE4
+.endobj String_"KirbyFreeze"
 
 # .data:0x36178 | 0x804D1CF0 | size: 0x1C
 .obj lbl_804D1CF0, global
@@ -68327,9 +68327,9 @@
 .endobj lbl_804D1D44
 
 # .data:0x361E8 | 0x804D1D60 | size: 0xC
-.obj lbl_804D1D60, global
+.obj String_"KirbyStrike", global
 	.string "KirbyStrike"
-.endobj lbl_804D1D60
+.endobj String_"KirbyStrike"
 
 # .data:0x361F4 | 0x804D1D6C | size: 0x1C
 .obj lbl_804D1D6C, global
@@ -68459,14 +68459,14 @@
 .endobj jumptable_804D1E60
 
 # .data:0x36340 | 0x804D1EB8 | size: 0xC
-.obj lbl_804D1EB8, global
+.obj String_"AC_RUN_LOOP", global
 	.string "AC_RUN_LOOP"
-.endobj lbl_804D1EB8
+.endobj String_"AC_RUN_LOOP"
 
 # .data:0x3634C | 0x804D1EC4 | size: 0xC
-.obj lbl_804D1EC4, global
+.obj String_"KirbyClacco", global
 	.string "KirbyClacco"
-.endobj lbl_804D1EC4
+.endobj String_"KirbyClacco"
 
 # .data:0x36358 | 0x804D1ED0 | size: 0x14
 .obj lbl_804D1ED0, global
@@ -69339,9 +69339,9 @@
 .endobj lbl_804D2914
 
 # .data:0x36DD0 | 0x804D2948 | size: 0x10
-.obj lbl_804D2948, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804D2948
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x36DE0 | 0x804D2958 | size: 0xC
 .obj lbl_804D2958, global
@@ -70773,14 +70773,14 @@
 .endobj lbl_804D3C60
 
 # .data:0x380F4 | 0x804D3C6C | size: 0x24
-.obj lbl_804D3C6C, global
+.obj String_"ObjCollect_Template_KirbyEffector_Effector", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj lbl_804D3C6C
+.endobj String_"ObjCollect_Template_KirbyEffector_Effector"
 
 # .data:0x38118 | 0x804D3C90 | size: 0x18
-.obj lbl_804D3C90, global
+.obj String_"KirbyEffector_Effector", global
 	.string "KirbyEffector::Effector"
-.endobj lbl_804D3C90
+.endobj String_"KirbyEffector_Effector"
 
 # .data:0x38130 | 0x804D3CA8 | size: 0x448
 .obj lbl_804D3CA8, global
@@ -74278,9 +74278,9 @@
 .endobj String_"KirbyHandle"2
 
 # .data:0x3B51C | 0x804D7094 | size: 0x18
-.obj lbl_804D7094, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804D7094
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x3B534 | 0x804D70AC | size: 0xC
 .obj lbl_804D70AC, global
@@ -75404,14 +75404,14 @@
 .endobj lbl_804D7CE8
 
 # .data:0x3C19C | 0x804D7D14 | size: 0xC
-.obj lbl_804D7D14, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804D7D14
+.endobj String_"KirbyHandle"
 
 # .data:0x3C1A8 | 0x804D7D20 | size: 0x18
-.obj lbl_804D7D20, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804D7D20
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x3C1C0 | 0x804D7D38 | size: 0x18
 .obj lbl_804D7D38, global
@@ -75471,14 +75471,14 @@
 .endobj lbl_804D7DA0
 
 # .data:0x3C254 | 0x804D7DCC | size: 0x10
-.obj lbl_804D7DCC, global
+.obj String_"EmberMgr_Ember", global
 	.string "EmberMgr::Ember"
-.endobj lbl_804D7DCC
+.endobj String_"EmberMgr_Ember"
 
 # .data:0x3C264 | 0x804D7DDC | size: 0x1C
-.obj lbl_804D7DDC, global
+.obj String_"ObjCollect_Template_EmberMgr_Ember", global
 	.string "ObjCollect<EmberMgr::Ember>"
-.endobj lbl_804D7DDC
+.endobj String_"ObjCollect_Template_EmberMgr_Ember"
 
 # .data:0x3C280 | 0x804D7DF8 | size: 0x2C
 .obj lbl_804D7DF8, global
@@ -75496,14 +75496,14 @@
 .endobj lbl_804D7DF8
 
 # .data:0x3C2AC | 0x804D7E24 | size: 0x10
-.obj lbl_804D7E24, global
+.obj String_"SmokeMgr_Smoke", global
 	.string "SmokeMgr::Smoke"
-.endobj lbl_804D7E24
+.endobj String_"SmokeMgr_Smoke"
 
 # .data:0x3C2BC | 0x804D7E34 | size: 0x1C
-.obj lbl_804D7E34, global
+.obj String_"ObjCollect_Template_SmokeMgr_Smoke", global
 	.string "ObjCollect<SmokeMgr::Smoke>"
-.endobj lbl_804D7E34
+.endobj String_"ObjCollect_Template_SmokeMgr_Smoke"
 
 # .data:0x3C2D8 | 0x804D7E50 | size: 0x2C
 .obj lbl_804D7E50, global
@@ -75521,14 +75521,14 @@
 .endobj lbl_804D7E50
 
 # .data:0x3C304 | 0x804D7E7C | size: 0x14
-.obj lbl_804D7E7C, global
+.obj String_"MissileMgr_Missile", global
 	.string "MissileMgr::Missile"
-.endobj lbl_804D7E7C
+.endobj String_"MissileMgr_Missile"
 
 # .data:0x3C318 | 0x804D7E90 | size: 0x20
-.obj lbl_804D7E90, global
+.obj String_"ObjCollect_Template_MissileMgr_Missile", global
 	.string "ObjCollect<MissileMgr::Missile>"
-.endobj lbl_804D7E90
+.endobj String_"ObjCollect_Template_MissileMgr_Missile"
 
 # .data:0x3C338 | 0x804D7EB0 | size: 0x40
 .obj lbl_804D7EB0, global
@@ -75922,9 +75922,9 @@
 .endobj lbl_804D8470
 
 # .data:0x3C904 | 0x804D847C | size: 0x14
-.obj lbl_804D847C, global
+.obj String_"Singleton_Template_EnemyMgr", global
 	.string "Singleton<EnemyMgr>"
-.endobj lbl_804D847C
+.endobj String_"Singleton_Template_EnemyMgr"
 
 # .data:0x3C918 | 0x804D8490 | size: 0xC
 .obj lbl_804D8490, global
@@ -76034,14 +76034,14 @@
 .endobj jumptable_804D8578
 
 # .data:0x3CA84 | 0x804D85FC | size: 0x1C
-.obj lbl_804D85FC, global
+.obj String_"CpuObstacleMgr_CpuObstacle", global
 	.string "CpuObstacleMgr::CpuObstacle"
-.endobj lbl_804D85FC
+.endobj String_"CpuObstacleMgr_CpuObstacle"
 
 # .data:0x3CAA0 | 0x804D8618 | size: 0x28
-.obj lbl_804D8618, global
+.obj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle", global
 	.string "ObjCollect<CpuObstacleMgr::CpuObstacle>"
-.endobj lbl_804D8618
+.endobj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle"
 
 # .data:0x3CAC8 | 0x804D8640 | size: 0x30
 .obj lbl_804D8640, global
@@ -76077,9 +76077,9 @@
 .endobj lbl_804D8688
 
 # .data:0x3CB1C | 0x804D8694 | size: 0x10
-.obj lbl_804D8694, global
+.obj String_"GROUND_JUMP_UK_ptr", global
 	.string "GROUND_JUMP_UK*"
-.endobj lbl_804D8694
+.endobj String_"GROUND_JUMP_UK_ptr"
 
 # .data:0x3CB2C | 0x804D86A4 | size: 0x3C
 .obj jumptable_804D86A4, global
@@ -76197,9 +76197,9 @@
 .endobj lbl_804D87C4
 
 # .data:0x3CC58 | 0x804D87D0 | size: 0xC
-.obj lbl_804D87D0, global
+.obj String_"AC_RUN_LOOP", global
 	.string "AC_RUN_LOOP"
-.endobj lbl_804D87D0
+.endobj String_"AC_RUN_LOOP"
 
 # .data:0x3CC64 | 0x804D87DC | size: 0x10
 .obj lbl_804D87DC, global
@@ -76232,9 +76232,9 @@
 .endobj lbl_804D8808
 
 # .data:0x3CC9C | 0x804D8814 | size: 0xC
-.obj lbl_804D8814, global
+.obj String_"AC_RUN_HURI", global
 	.string "AC_RUN_HURI"
-.endobj lbl_804D8814
+.endobj String_"AC_RUN_HURI"
 
 # .data:0x3CCA8 | 0x804D8820 | size: 0x10
 .obj lbl_804D8820, global
@@ -76253,9 +76253,9 @@
 .endobj lbl_804D8830
 
 # .data:0x3CCC8 | 0x804D8840 | size: 0xC
-.obj lbl_804D8840, global
+.obj String_"AC_PUSH_END", global
 	.string "AC_PUSH_END"
-.endobj lbl_804D8840
+.endobj String_"AC_PUSH_END"
 
 # .data:0x3CCD4 | 0x804D884C | size: 0x10
 .obj lbl_804D884C, global
@@ -76351,9 +76351,9 @@
 .endobj lbl_804D88F8
 
 # .data:0x3CD98 | 0x804D8910 | size: 0x14
-.obj lbl_804D8910, global
+.obj String_"AC_SPINATTACK_R_END", global
 	.string "AC_SPINATTACK_R_END"
-.endobj lbl_804D8910
+.endobj String_"AC_SPINATTACK_R_END"
 
 # .data:0x3CDAC | 0x804D8924 | size: 0x18
 .obj lbl_804D8924, global
@@ -76376,9 +76376,9 @@
 .endobj lbl_804D893C
 
 # .data:0x3CDDC | 0x804D8954 | size: 0x14
-.obj lbl_804D8954, global
+.obj String_"AC_SPINATTACK_L_END", global
 	.string "AC_SPINATTACK_L_END"
-.endobj lbl_804D8954
+.endobj String_"AC_SPINATTACK_L_END"
 
 # .data:0x3CDF0 | 0x804D8968 | size: 0xC
 .obj lbl_804D8968, global
@@ -76431,14 +76431,14 @@
 .endobj lbl_804D89B0
 
 # .data:0x3CE48 | 0x804D89C0 | size: 0xC
-.obj lbl_804D89C0, global
+.obj String_"AC_JUMP_END", global
 	.string "AC_JUMP_END"
-.endobj lbl_804D89C0
+.endobj String_"AC_JUMP_END"
 
 # .data:0x3CE54 | 0x804D89CC | size: 0xC
-.obj lbl_804D89CC, global
+.obj String_"AC_TOBASARE", global
 	.string "AC_TOBASARE"
-.endobj lbl_804D89CC
+.endobj String_"AC_TOBASARE"
 
 # .data:0x3CE60 | 0x804D89D8 | size: 0xC
 .obj lbl_804D89D8, global
@@ -76493,9 +76493,9 @@
 .endobj lbl_804D8A28
 
 # .data:0x3CEC0 | 0x804D8A38 | size: 0xC
-.obj lbl_804D8A38, global
+.obj String_"AC_FLAT_END", global
 	.string "AC_FLAT_END"
-.endobj lbl_804D8A38
+.endobj String_"AC_FLAT_END"
 
 # .data:0x3CECC | 0x804D8A44 | size: 0x14
 .obj lbl_804D8A44, global
@@ -76516,9 +76516,9 @@
 .endobj lbl_804D8A58
 
 # .data:0x3CEF4 | 0x804D8A6C | size: 0x10
-.obj lbl_804D8A6C, global
+.obj String_"AC_MACRON_START", global
 	.string "AC_MACRON_START"
-.endobj lbl_804D8A6C
+.endobj String_"AC_MACRON_START"
 
 # .data:0x3CF04 | 0x804D8A7C | size: 0x10
 .obj lbl_804D8A7C, global
@@ -76529,9 +76529,9 @@
 .endobj lbl_804D8A7C
 
 # .data:0x3CF14 | 0x804D8A8C | size: 0x10
-.obj lbl_804D8A8C, global
+.obj String_"AC_FDRILL_START", global
 	.string "AC_FDRILL_START"
-.endobj lbl_804D8A8C
+.endobj String_"AC_FDRILL_START"
 
 # .data:0x3CF24 | 0x804D8A9C | size: 0x10
 .obj lbl_804D8A9C, global
@@ -76626,9 +76626,9 @@
 .endobj lbl_804D8B4C
 
 # .data:0x3CFE4 | 0x804D8B5C | size: 0x10
-.obj lbl_804D8B5C, global
+.obj String_"AC_GRE_RUN_LOOP", global
 	.string "AC_GRE_RUN_LOOP"
-.endobj lbl_804D8B5C
+.endobj String_"AC_GRE_RUN_LOOP"
 
 # .data:0x3CFF4 | 0x804D8B6C | size: 0x10
 .obj lbl_804D8B6C, global
@@ -76655,9 +76655,9 @@
 .endobj lbl_804D8B8C
 
 # .data:0x3D024 | 0x804D8B9C | size: 0xC
-.obj lbl_804D8B9C, global
+.obj String_"AC_GRE_FIRE", global
 	.string "AC_GRE_FIRE"
-.endobj lbl_804D8B9C
+.endobj String_"AC_GRE_FIRE"
 
 # .data:0x3D030 | 0x804D8BA8 | size: 0x14
 .obj lbl_804D8BA8, global
@@ -76687,9 +76687,9 @@
 .endobj lbl_804D8BD0
 
 # .data:0x3D06C | 0x804D8BE4 | size: 0xC
-.obj lbl_804D8BE4, global
+.obj String_"AC_GRE_PUSH", global
 	.string "AC_GRE_PUSH"
-.endobj lbl_804D8BE4
+.endobj String_"AC_GRE_PUSH"
 
 # .data:0x3D078 | 0x804D8BF0 | size: 0xE0
 .obj lbl_804D8BF0, global
@@ -77043,9 +77043,9 @@
 .endobj lbl_804D8FFC
 
 # .data:0x3D494 | 0x804D900C | size: 0xC
-.obj lbl_804D900C, global
+.obj String_"AC_FLAT_END", global
 	.string "AC_FLAT_END"
-.endobj lbl_804D900C
+.endobj String_"AC_FLAT_END"
 
 # .data:0x3D4A0 | 0x804D9018 | size: 0xC
 .obj lbl_804D9018, global
@@ -77055,9 +77055,9 @@
 .endobj lbl_804D9018
 
 # .data:0x3D4AC | 0x804D9024 | size: 0xC
-.obj lbl_804D9024, global
+.obj String_"AC_TOBASARE", global
 	.string "AC_TOBASARE"
-.endobj lbl_804D9024
+.endobj String_"AC_TOBASARE"
 
 # .data:0x3D4B8 | 0x804D9030 | size: 0xC
 .obj lbl_804D9030, global
@@ -77113,9 +77113,9 @@
 .endobj lbl_804D9084
 
 # .data:0x3D51C | 0x804D9094 | size: 0xC
-.obj lbl_804D9094, global
+.obj String_"KirbyNormal", global
 	.string "KirbyNormal"
-.endobj lbl_804D9094
+.endobj String_"KirbyNormal"
 
 # .data:0x3D528 | 0x804D90A0 | size: 0xC
 .obj lbl_804D90A0, global
@@ -77125,9 +77125,9 @@
 .endobj lbl_804D90A0
 
 # .data:0x3D534 | 0x804D90AC | size: 0xC
-.obj lbl_804D90AC, global
+.obj String_"KirbyDamage", global
 	.string "KirbyDamage"
-.endobj lbl_804D90AC
+.endobj String_"KirbyDamage"
 
 # .data:0x3D540 | 0x804D90B8 | size: 0x14
 .obj lbl_804D90B8, global
@@ -77457,9 +77457,9 @@
 .endobj lbl_804D9434
 
 # .data:0x3D99C | 0x804D9514 | size: 0xC
-.obj lbl_804D9514, global
+.obj String_"KirbyFreeze", global
 	.string "KirbyFreeze"
-.endobj lbl_804D9514
+.endobj String_"KirbyFreeze"
 
 # .data:0x3D9A8 | 0x804D9520 | size: 0x1C
 .obj lbl_804D9520, global
@@ -78019,9 +78019,9 @@
 .endobj lbl_804D9BAC
 
 # .data:0x3E11C | 0x804D9C94 | size: 0xC
-.obj lbl_804D9C94, global
+.obj String_"KirbyStrike", global
 	.string "KirbyStrike"
-.endobj lbl_804D9C94
+.endobj String_"KirbyStrike"
 
 # .data:0x3E128 | 0x804D9CA0 | size: 0x1C
 .obj lbl_804D9CA0, global
@@ -79113,9 +79113,9 @@
 .endobj lbl_804DAA6C
 
 # .data:0x3EF3C | 0x804DAAB4 | size: 0xC
-.obj lbl_804DAAB4, global
+.obj String_"AC_RUN_LOOP", global
 	.string "AC_RUN_LOOP"
-.endobj lbl_804DAAB4
+.endobj String_"AC_RUN_LOOP"
 
 # .data:0x3EF48 | 0x804DAAC0 | size: 0xC
 .obj lbl_804DAAC0, global
@@ -79223,15 +79223,15 @@
 .endobj lbl_804DAB84
 
 # .data:0x3F01C | 0x804DAB94 | size: 0xC
-.obj lbl_804DAB94, global
+.obj String_"AC_JUMP_END", global
 	.string "AC_JUMP_END"
-.endobj lbl_804DAB94
+.endobj String_"AC_JUMP_END"
 
 # .data:0x3F028 | 0x804DABA0 | size: 0x88
 .obj lbl_804DABA0, global
-	.4byte lbl_804DAAB4
+	.4byte String_"AC_RUN_LOOP"
 	.4byte 0x00000008
-	.4byte lbl_804DAAB4
+	.4byte String_"AC_RUN_LOOP"
 	.4byte 0x00500008
 	.4byte lbl_804DAAC0
 	.4byte 0x00140008
@@ -79261,7 +79261,7 @@
 	.4byte 0x00340000
 	.4byte lbl_804DAB84
 	.4byte 0x00110001
-	.4byte lbl_804DAB94
+	.4byte String_"AC_JUMP_END"
 	.4byte 0x00090001
 .endobj lbl_804DABA0
 
@@ -79343,9 +79343,9 @@
 .endobj lbl_804DACCC
 
 # .data:0x3F164 | 0x804DACDC | size: 0x14
-.obj lbl_804DACDC, global
+.obj String_"AC_OB0A_CHARGE_LOOP", global
 	.string "AC_OB0A_CHARGE_LOOP"
-.endobj lbl_804DACDC
+.endobj String_"AC_OB0A_CHARGE_LOOP"
 
 # .data:0x3F178 | 0x804DACF0 | size: 0x70
 .obj lbl_804DACF0, global
@@ -79488,7 +79488,7 @@
 	.4byte 0x00500008
 	.4byte lbl_804DAB84
 	.4byte 0x000F0001
-	.4byte lbl_804DAB94
+	.4byte String_"AC_JUMP_END"
 	.4byte 0x00050001
 .endobj lbl_804DADFC
 
@@ -79531,9 +79531,9 @@
 .endobj lbl_804DAEC0
 
 # .data:0x3F354 | 0x804DAECC | size: 0x14
-.obj lbl_804DAECC, global
+.obj String_"Singleton_Template_EmberMgr", global
 	.string "Singleton<EmberMgr>"
-.endobj lbl_804DAECC
+.endobj String_"Singleton_Template_EmberMgr"
 
 # .data:0x3F368 | 0x804DAEE0 | size: 0xC
 .obj lbl_804DAEE0, global
@@ -79550,9 +79550,9 @@
 .endobj lbl_804DAEEC
 
 # .data:0x3F380 | 0x804DAEF8 | size: 0x14
-.obj lbl_804DAEF8, global
+.obj String_"Singleton_Template_SmokeMgr", global
 	.string "Singleton<SmokeMgr>"
-.endobj lbl_804DAEF8
+.endobj String_"Singleton_Template_SmokeMgr"
 
 # .data:0x3F394 | 0x804DAF0C | size: 0xC
 .obj lbl_804DAF0C, global
@@ -79577,9 +79577,9 @@
 .endobj lbl_804DAF24
 
 # .data:0x3F3BC | 0x804DAF34 | size: 0x10
-.obj lbl_804DAF34, global
+.obj String_"AC_GRE_RUN_LOOP", global
 	.string "AC_GRE_RUN_LOOP"
-.endobj lbl_804DAF34
+.endobj String_"AC_GRE_RUN_LOOP"
 
 # .data:0x3F3CC | 0x804DAF44 | size: 0x10
 .obj lbl_804DAF44, global
@@ -79625,20 +79625,20 @@
 .endobj lbl_804DAF8C
 
 # .data:0x3F428 | 0x804DAFA0 | size: 0xC
-.obj lbl_804DAFA0, global
+.obj String_"AC_GRE_PUSH", global
 	.string "AC_GRE_PUSH"
-.endobj lbl_804DAFA0
+.endobj String_"AC_GRE_PUSH"
 
 # .data:0x3F434 | 0x804DAFAC | size: 0xC
-.obj lbl_804DAFAC, global
+.obj String_"AC_GRE_FIRE", global
 	.string "AC_GRE_FIRE"
-.endobj lbl_804DAFAC
+.endobj String_"AC_GRE_FIRE"
 
 # .data:0x3F440 | 0x804DAFB8 | size: 0x88
 .obj lbl_804DAFB8, global
 	.4byte lbl_804DAF24
 	.4byte 0x000B0004
-	.4byte lbl_804DAF34
+	.4byte String_"AC_GRE_RUN_LOOP"
 	.4byte 0x00500008
 	.4byte lbl_804DAF44
 	.4byte 0x00140008
@@ -79650,7 +79650,7 @@
 	.4byte 0x00500008
 	.4byte lbl_804DAF8C
 	.4byte 0x00040004
-	.4byte lbl_804DAFA0
+	.4byte String_"AC_GRE_PUSH"
 	.4byte 0x00120004
 	.4byte lbl_804DAB08
 	.4byte 0x00140004
@@ -79660,15 +79660,15 @@
 	.4byte 0x00120004
 	.4byte lbl_804DAB3C
 	.4byte 0x00120004
-	.4byte lbl_804DAFAC
+	.4byte String_"AC_GRE_FIRE"
 	.4byte 0x000A0000
-	.4byte lbl_804DAFAC
+	.4byte String_"AC_GRE_FIRE"
 	.4byte 0x000A0000
-	.4byte lbl_804DAFAC
+	.4byte String_"AC_GRE_FIRE"
 	.4byte 0x000A0000
 	.4byte lbl_804DAB84
 	.4byte 0x000F0001
-	.4byte lbl_804DAB94
+	.4byte String_"AC_JUMP_END"
 	.4byte 0x00050001
 .endobj lbl_804DAFB8
 
@@ -79688,9 +79688,9 @@
 .endobj lbl_804DB04C
 
 # .data:0x3F4E4 | 0x804DB05C | size: 0xC
-.obj lbl_804DB05C, global
+.obj String_"KirbyNormal", global
 	.string "KirbyNormal"
-.endobj lbl_804DB05C
+.endobj String_"KirbyNormal"
 
 # .data:0x3F4F0 | 0x804DB068 | size: 0xC
 .obj lbl_804DB068, global
@@ -80217,9 +80217,9 @@
 .endobj lbl_804DB710
 
 # .data:0x3FC20 | 0x804DB798 | size: 0xC
-.obj lbl_804DB798, global
+.obj String_"KirbyFumdon", global
 	.string "KirbyFumdon"
-.endobj lbl_804DB798
+.endobj String_"KirbyFumdon"
 
 # .data:0x3FC2C | 0x804DB7A4 | size: 0x14
 .obj lbl_804DB7A4, global
@@ -80566,9 +80566,9 @@
 .endobj lbl_804DBBBC
 
 # .data:0x400CC | 0x804DBC44 | size: 0x10
-.obj lbl_804DBC44, global
+.obj String_"EffectOptionRun", global
 	.string "EffectOptionRun"
-.endobj lbl_804DBC44
+.endobj String_"EffectOptionRun"
 
 # .data:0x400DC | 0x804DBC54 | size: 0x34
 .obj lbl_804DBC54, global
@@ -80726,14 +80726,14 @@
 .endobj lbl_804DBDE8
 
 # .data:0x402E8 | 0x804DBE60 | size: 0x14
-.obj lbl_804DBE60, global
+.obj String_"SimpleBlurMgr_Blur", global
 	.string "SimpleBlurMgr::Blur"
-.endobj lbl_804DBE60
+.endobj String_"SimpleBlurMgr_Blur"
 
 # .data:0x402FC | 0x804DBE74 | size: 0x20
-.obj lbl_804DBE74, global
+.obj String_"ObjCollect_SimpleBlurMgr_Blur", global
 	.string "ObjCollect<SimpleBlurMgr::Blur>"
-.endobj lbl_804DBE74
+.endobj String_"ObjCollect_SimpleBlurMgr_Blur"
 
 # .data:0x4031C | 0x804DBE94 | size: 0xC
 .obj lbl_804DBE94, global
@@ -80803,14 +80803,14 @@
 .endobj lbl_804DBF34
 
 # .data:0x403D8 | 0x804DBF50 | size: 0xC
-.obj lbl_804DBF50, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804DBF50
+.endobj String_"KirbyHandle"
 
 # .data:0x403E4 | 0x804DBF5C | size: 0x18
-.obj lbl_804DBF5C, global
+.obj String_"ObjCollect_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804DBF5C
+.endobj String_"ObjCollect_KirbyHandle"
 
 # .data:0x403FC | 0x804DBF74 | size: 0xC
 .obj lbl_804DBF74, global
@@ -80820,9 +80820,9 @@
 .endobj lbl_804DBF74
 
 # .data:0x40408 | 0x804DBF80 | size: 0xC
-.obj lbl_804DBF80, global
+.obj String_"AC_RUN_LOOP", global
 	.string "AC_RUN_LOOP"
-.endobj lbl_804DBF80
+.endobj String_"AC_RUN_LOOP"
 
 # .data:0x40414 | 0x804DBF8C | size: 0xC
 .obj lbl_804DBF8C, global
@@ -80871,9 +80871,9 @@
 .endobj lbl_804DBFD8
 
 # .data:0x4046C | 0x804DBFE4 | size: 0x14
-.obj lbl_804DBFE4, global
+.obj String_"Singleton_Template_ChickMgr", global
 	.string "Singleton<ChickMgr>"
-.endobj lbl_804DBFE4
+.endobj String_"Singleton_Template_ChickMgr"
 
 # .data:0x40480 | 0x804DBFF8 | size: 0xC
 .obj lbl_804DBFF8, global
@@ -80899,9 +80899,9 @@
 .endobj lbl_804DC014
 
 # .data:0x404AC | 0x804DC024 | size: 0xC
-.obj lbl_804DC024, global
+.obj String_"KirbyNormal", global
 	.string "KirbyNormal"
-.endobj lbl_804DC024
+.endobj String_"KirbyNormal"
 
 # .data:0x404B8 | 0x804DC030 | size: 0xC
 .obj lbl_804DC030, global
@@ -81228,19 +81228,19 @@
 .endobj lbl_804DC418
 
 # .data:0x408C8 | 0x804DC440 | size: 0xC
-.obj lbl_804DC440, global
+.obj String_"AC_RUN_LOOP", global
 	.string "AC_RUN_LOOP"
-.endobj lbl_804DC440
+.endobj String_"AC_RUN_LOOP"
 
 # .data:0x408D4 | 0x804DC44C | size: 0xC
-.obj lbl_804DC44C, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804DC44C
+.endobj String_"KirbyHandle"
 
 # .data:0x408E0 | 0x804DC458 | size: 0x18
-.obj lbl_804DC458, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804DC458
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x408F8 | 0x804DC470 | size: 0xC
 .obj lbl_804DC470, global
@@ -81296,9 +81296,9 @@
 .endobj lbl_804DC4C8
 
 # .data:0x4095C | 0x804DC4D4 | size: 0x10
-.obj lbl_804DC4D4, global
+.obj String_"AC_MACRON_START", global
 	.string "AC_MACRON_START"
-.endobj lbl_804DC4D4
+.endobj String_"AC_MACRON_START"
 
 # .data:0x4096C | 0x804DC4E4 | size: 0xC
 .obj lbl_804DC4E4, global
@@ -81402,15 +81402,15 @@
 .endobj lbl_804DC598
 
 # .data:0x40A30 | 0x804DC5A8 | size: 0xC
-.obj lbl_804DC5A8, global
+.obj String_"AC_JUMP_END", global
 	.string "AC_JUMP_END"
-.endobj lbl_804DC5A8
+.endobj String_"AC_JUMP_END"
 
 # .data:0x40A3C | 0x804DC5B4 | size: 0x88
 .obj lbl_804DC5B4, global
-	.4byte lbl_804DC4D4
+	.4byte String_"AC_MACRON_START"
 	.4byte 0x00320000
-	.4byte lbl_804DC440
+	.4byte String_"AC_RUN_LOOP"
 	.4byte 0x00500000
 	.4byte lbl_804DC4E4
 	.4byte 0x00140008
@@ -81422,7 +81422,7 @@
 	.4byte 0x00500008
 	.4byte lbl_804DC51C
 	.4byte 0x00040004
-	.4byte lbl_805D9BBC
+	.4byte String_"AC_PUSH"
 	.4byte 0x00120004
 	.4byte lbl_804DC52C
 	.4byte 0x00140004
@@ -81440,7 +81440,7 @@
 	.4byte 0x00340000
 	.4byte lbl_804DC598
 	.4byte 0x000F0001
-	.4byte lbl_804DC5A8
+	.4byte String_"AC_JUMP_END"
 	.4byte 0x00050001
 .endobj lbl_804DC5B4
 
@@ -81485,9 +81485,9 @@
 .endobj lbl_804DC68C
 
 # .data:0x40B24 | 0x804DC69C | size: 0xC
-.obj lbl_804DC69C, global
+.obj String_"KirbyCoolen", global
 	.string "KirbyCoolen"
-.endobj lbl_804DC69C
+.endobj String_"KirbyCoolen"
 
 # .data:0x40B30 | 0x804DC6A8 | size: 0x10
 .obj lbl_804DC6A8, global
@@ -81498,9 +81498,9 @@
 .endobj lbl_804DC6A8
 
 # .data:0x40B40 | 0x804DC6B8 | size: 0xC
-.obj lbl_804DC6B8, global
+.obj String_"KirbyNormal", global
 	.string "KirbyNormal"
-.endobj lbl_804DC6B8
+.endobj String_"KirbyNormal"
 
 # .data:0x40B4C | 0x804DC6C4 | size: 0xC
 .obj lbl_804DC6C4, global
@@ -81609,14 +81609,14 @@
 .endobj lbl_804DC7F0
 
 # .data:0x40C84 | 0x804DC7FC | size: 0x24
-.obj lbl_804DC7FC, global
+.obj String_"ObjCollect_Template_KirbyEffector_Effector", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj lbl_804DC7FC
+.endobj String_"ObjCollect_Template_KirbyEffector_Effector"
 
 # .data:0x40CA8 | 0x804DC820 | size: 0x18
-.obj lbl_804DC820, global
+.obj String_"KirbyEffector_Effector", global
 	.string "KirbyEffector::Effector"
-.endobj lbl_804DC820
+.endobj String_"KirbyEffector_Effector"
 
 # .data:0x40CC0 | 0x804DC838 | size: 0xC
 .obj lbl_804DC838, global
@@ -81885,9 +81885,9 @@
 .endobj lbl_804DCB08
 
 # .data:0x41048 | 0x804DCBC0 | size: 0xC
-.obj lbl_804DCBC0, global
+.obj String_"KirbyDebron", global
 	.string "KirbyDebron"
-.endobj lbl_804DCBC0
+.endobj String_"KirbyDebron"
 
 # .data:0x41054 | 0x804DCBCC | size: 0x14
 .obj lbl_804DCBCC, global
@@ -82074,9 +82074,9 @@
 .endobj lbl_804DCDC0
 
 # .data:0x412D4 | 0x804DCE4C | size: 0xC
-.obj lbl_804DCE4C, global
+.obj String_"KirbyHammer", global
 	.string "KirbyHammer"
-.endobj lbl_804DCE4C
+.endobj String_"KirbyHammer"
 
 # .data:0x412E0 | 0x804DCE58 | size: 0x14
 .obj lbl_804DCE58, global
@@ -82793,9 +82793,9 @@
 .endobj lbl_804DD8F4
 
 # .data:0x41D88 | 0x804DD900 | size: 0xC
-.obj lbl_804DD900, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804DD900
+.endobj String_"SheetTexMgr"
 
 # .data:0x41D94 | 0x804DD90C | size: 0x18
 .obj lbl_804DD90C, global
@@ -82853,9 +82853,9 @@
 .endobj lbl_804DD964
 
 # .data:0x41E20 | 0x804DD998 | size: 0x10
-.obj lbl_804DD998, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804DD998
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x41E30 | 0x804DD9A8 | size: 0xC
 .obj lbl_804DD9A8, global
@@ -83356,9 +83356,9 @@
 .endobj lbl_804DDF74
 
 # .data:0x42408 | 0x804DDF80 | size: 0x14
-.obj lbl_804DDF80, global
+.obj String_"Singleton_Template_KirbyMgr", global
 	.string "Singleton<KirbyMgr>"
-.endobj lbl_804DDF80
+.endobj String_"Singleton_Template_KirbyMgr"
 
 # .data:0x4241C | 0x804DDF94 | size: 0xC
 .obj lbl_804DDF94, global
@@ -83424,9 +83424,9 @@
 .endobj lbl_804DE004
 
 # .data:0x42498 | 0x804DE010 | size: 0x14
-.obj lbl_804DE010, global
+.obj String_"Singleton_Template_Stardust", global
 	.string "Singleton<Stardust>"
-.endobj lbl_804DE010
+.endobj String_"Singleton_Template_Stardust"
 
 # .data:0x424AC | 0x804DE024 | size: 0x43C
 .obj lbl_804DE024, global
@@ -84266,14 +84266,14 @@
 .endobj lbl_804DEC9C
 
 # .data:0x43130 | 0x804DECA8 | size: 0x1C
-.obj lbl_804DECA8, global
+.obj String_"WidgetKirbyFolder_KirbyPos", global
 	.string "WidgetKirbyFolder::KirbyPos"
-.endobj lbl_804DECA8
+.endobj String_"WidgetKirbyFolder_KirbyPos"
 
 # .data:0x4314C | 0x804DECC4 | size: 0xC
-.obj lbl_804DECC4, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804DECC4
+.endobj String_"WidgetSheet"
 
 # .data:0x43158 | 0x804DECD0 | size: 0x14
 .obj lbl_804DECD0, global
@@ -85026,9 +85026,9 @@
 .endobj lbl_804DEFFC
 
 # .data:0x43BD0 | 0x804DF748 | size: 0xC
-.obj lbl_804DF748, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804DF748
+.endobj String_"WidgetLabel"
 
 # .data:0x43BDC | 0x804DF754 | size: 0x158
 .obj lbl_804DF754, global
@@ -85650,9 +85650,9 @@
 .endobj lbl_804DFF2C
 
 # .data:0x443E8 | 0x804DFF60 | size: 0x10
-.obj lbl_804DFF60, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804DFF60
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x443F8 | 0x804DFF70 | size: 0xC
 .obj lbl_804DFF70, global
@@ -86507,9 +86507,9 @@
 .endobj lbl_804E08A4
 
 # .data:0x44D38 | 0x804E08B0 | size: 0x1C
-.obj lbl_804E08B0, global
+.obj String_"Course_CollKeyWithoutWater", global
 	.string "Course::CollKeyWithoutWater"
-.endobj lbl_804E08B0
+.endobj String_"Course_CollKeyWithoutWater"
 
 # .data:0x44D54 | 0x804E08CC | size: 0x10
 .obj lbl_804E08CC, global
@@ -86626,9 +86626,9 @@
 .endobj lbl_804E09A4
 
 # .data:0x44E3C | 0x804E09B4 | size: 0x14
-.obj lbl_804E09B4, global
+.obj String_"Course_CollKeyWall", global
 	.string "Course::CollKeyWall"
-.endobj lbl_804E09B4
+.endobj String_"Course_CollKeyWall"
 
 # .data:0x44E50 | 0x804E09C8 | size: 0xC
 .obj lbl_804E09C8, global
@@ -86661,9 +86661,9 @@
 .endobj lbl_804E09F4
 
 # .data:0x44E88 | 0x804E0A00 | size: 0x14
-.obj lbl_804E0A00, global
+.obj String_"Course_CollMakeKey", global
 	.string "Course::CollMakeKey"
-.endobj lbl_804E0A00
+.endobj String_"Course_CollMakeKey"
 
 # .data:0x44E9C | 0x804E0A14 | size: 0xC
 .obj lbl_804E0A14, global
@@ -86843,9 +86843,9 @@
 .endobj lbl_804E0B8C
 
 # .data:0x45020 | 0x804E0B98 | size: 0xC
-.obj lbl_804E0B98, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804E0B98
+.endobj String_"SheetTexMgr"
 
 # .data:0x4502C | 0x804E0BA4 | size: 0x18
 .obj lbl_804E0BA4, global
@@ -86865,9 +86865,9 @@
 .endobj lbl_804E0BBC
 
 # .data:0x45050 | 0x804E0BC8 | size: 0x10
-.obj lbl_804E0BC8, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804E0BC8
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x45060 | 0x804E0BD8 | size: 0xC
 .obj lbl_804E0BD8, global
@@ -86936,9 +86936,9 @@
 .endobj lbl_804E0C5C
 
 # .data:0x450F8 | 0x804E0C70 | size: 0xC
-.obj lbl_804E0C70, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804E0C70
+.endobj String_"WidgetSheet"
 
 # .data:0x45104 | 0x804E0C7C | size: 0x14
 .obj lbl_804E0C7C, global
@@ -86950,9 +86950,9 @@
 .endobj lbl_804E0C7C
 
 # .data:0x45118 | 0x804E0C90 | size: 0xC
-.obj lbl_804E0C90, global
+.obj String_"WidgetGraph", global
 	.string "WidgetGraph"
-.endobj lbl_804E0C90
+.endobj String_"WidgetGraph"
 
 # .data:0x45124 | 0x804E0C9C | size: 0x1C
 .obj lbl_804E0C9C, global
@@ -87125,10 +87125,10 @@
 
 # .data:0x452D8 | 0x804E0E50 | size: 0x10
 .obj lbl_804E0E50, global
-	.4byte lbl_805DA25C
-	.4byte lbl_805DA264
-	.4byte lbl_805DA26C
-	.4byte lbl_805DA274
+	.4byte String_"DASHA01"
+	.4byte String_"DASHB01"
+	.4byte String_"DASHC01"
+	.4byte String_"Dashess"
 .endobj lbl_804E0E50
 
 # .data:0x452E8 | 0x804E0E60 | size: 0xC
@@ -87482,9 +87482,9 @@
 .endobj lbl_804E11E4
 
 # .data:0x456A0 | 0x804E1218 | size: 0x10
-.obj lbl_804E1218, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804E1218
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x456B0 | 0x804E1228 | size: 0xC
 .obj lbl_804E1228, global
@@ -87816,9 +87816,9 @@
 .endobj lbl_804E15B8
 
 # .data:0x45A94 | 0x804E160C | size: 0x14
-.obj lbl_804E160C, global
+.obj String_"MagmaPlateContainer", global
 	.string "MagmaPlateContainer"
-.endobj lbl_804E160C
+.endobj String_"MagmaPlateContainer"
 
 # .data:0x45AA8 | 0x804E1620 | size: 0xC
 .obj lbl_804E1620, global
@@ -87947,14 +87947,14 @@
 .endobj lbl_804E17AC
 
 # .data:0x45C40 | 0x804E17B8 | size: 0x24
-.obj lbl_804E17B8, global
+.obj String_"ObjCollect_Template_KirbyEffector_Effector", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj lbl_804E17B8
+.endobj String_"ObjCollect_Template_KirbyEffector_Effector"
 
 # .data:0x45C64 | 0x804E17DC | size: 0x18
-.obj lbl_804E17DC, global
+.obj String_"KirbyEffector_Effector", global
 	.string "KirbyEffector::Effector"
-.endobj lbl_804E17DC
+.endobj String_"KirbyEffector_Effector"
 
 # .data:0x45C7C | 0x804E17F4 | size: 0x110
 .obj lbl_804E17F4, global
@@ -88354,9 +88354,9 @@
 .endobj lbl_804E1C74
 
 # .data:0x46130 | 0x804E1CA8 | size: 0x10
-.obj lbl_804E1CA8, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804E1CA8
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x46140 | 0x804E1CB8 | size: 0xC
 .obj lbl_804E1CB8, global
@@ -88774,14 +88774,14 @@
 .endobj lbl_804E212C
 
 # .data:0x4662C | 0x804E21A4 | size: 0x10
-.obj lbl_804E21A4, global
+.obj String_"BurnMgr_Sphere", global
 	.string "BurnMgr::Sphere"
-.endobj lbl_804E21A4
+.endobj String_"BurnMgr_Sphere"
 
 # .data:0x4663C | 0x804E21B4 | size: 0x1C
-.obj lbl_804E21B4, global
+.obj String_"ObjCollect_Template_BurnMgr_Sphere", global
 	.string "ObjCollect<BurnMgr::Sphere>"
-.endobj lbl_804E21B4
+.endobj String_"ObjCollect_Template_BurnMgr_Sphere"
 
 # .data:0x46658 | 0x804E21D0 | size: 0x1C
 .obj lbl_804E21D0, global
@@ -89200,9 +89200,9 @@
 .endobj lbl_804E265C
 
 # .data:0x46B18 | 0x804E2690 | size: 0x10
-.obj lbl_804E2690, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804E2690
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x46B28 | 0x804E26A0 | size: 0xC
 .obj lbl_804E26A0, global
@@ -90059,14 +90059,14 @@
 .endobj lbl_804E30C4
 
 # .data:0x47570 | 0x804E30E8 | size: 0xC
-.obj lbl_804E30E8, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804E30E8
+.endobj String_"KirbyHandle"
 
 # .data:0x4757C | 0x804E30F4 | size: 0x18
-.obj lbl_804E30F4, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804E30F4
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x47594 | 0x804E310C | size: 0xC
 .obj lbl_804E310C, global
@@ -91674,9 +91674,9 @@
 .endobj lbl_804E4604
 
 # .data:0x48A98 | 0x804E4610 | size: 0x14
-.obj lbl_804E4610, global
+.obj String_"Singleton_Template_EnemyMgr", global
 	.string "Singleton<EnemyMgr>"
-.endobj lbl_804E4610
+.endobj String_"Singleton_Template_EnemyMgr"
 
 # .data:0x48AAC | 0x804E4624 | size: 0xC
 .obj lbl_804E4624, global
@@ -91813,14 +91813,14 @@
 .endobj lbl_804E47D8
 
 # .data:0x48C70 | 0x804E47E8 | size: 0xC
-.obj lbl_804E47E8, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804E47E8
+.endobj String_"KirbyHandle"
 
 # .data:0x48C7C | 0x804E47F4 | size: 0x18
-.obj lbl_804E47F4, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804E47F4
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x48C94 | 0x804E480C | size: 0x70
 .obj lbl_804E480C, global
@@ -92660,9 +92660,9 @@
 .endobj lbl_804E523C
 
 # .data:0x496F8 | 0x804E5270 | size: 0x10
-.obj lbl_804E5270, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804E5270
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x49708 | 0x804E5280 | size: 0xC
 .obj lbl_804E5280, global
@@ -93293,9 +93293,9 @@
 .endobj lbl_804E594C
 
 # .data:0x49F48 | 0x804E5AC0 | size: 0x14
-.obj lbl_804E5AC0, global
+.obj String_"GROUND_MAWARUSHIMA_ptr", global
 	.string "GROUND_MAWARUSHIMA*"
-.endobj lbl_804E5AC0
+.endobj String_"GROUND_MAWARUSHIMA_ptr"
 
 # .data:0x49F5C | 0x804E5AD4 | size: 0x18
 .obj lbl_804E5AD4, global
@@ -93725,9 +93725,9 @@
 .endobj lbl_804E5F7C
 
 # .data:0x4A438 | 0x804E5FB0 | size: 0x10
-.obj lbl_804E5FB0, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804E5FB0
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x4A448 | 0x804E5FC0 | size: 0xC
 .obj lbl_804E5FC0, global
@@ -95138,14 +95138,14 @@
 .endobj lbl_804E7054
 
 # .data:0x4B548 | 0x804E70C0 | size: 0x24
-.obj lbl_804E70C0, global
+.obj String_"ObjCollect_Template_KirbyEffector_Effector", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj lbl_804E70C0
+.endobj String_"ObjCollect_Template_KirbyEffector_Effector"
 
 # .data:0x4B56C | 0x804E70E4 | size: 0x18
-.obj lbl_804E70E4, global
+.obj String_"KirbyEffector_Effector", global
 	.string "KirbyEffector::Effector"
-.endobj lbl_804E70E4
+.endobj String_"KirbyEffector_Effector"
 
 # .data:0x4B584 | 0x804E70FC | size: 0xC0
 .obj lbl_804E70FC, global
@@ -95866,9 +95866,9 @@
 .endobj lbl_804E7AB4
 
 # .data:0x4BF4C | 0x804E7AC4 | size: 0xC
-.obj lbl_804E7AC4, global
+.obj String_"BG5000_Sea", global
 	.string "BG5000::Sea"
-.endobj lbl_804E7AC4
+.endobj String_"BG5000_Sea"
 
 # .data:0x4BF58 | 0x804E7AD0 | size: 0xC
 .obj lbl_804E7AD0, global
@@ -96339,9 +96339,9 @@
 .endobj lbl_804E800C
 
 # .data:0x4C4C8 | 0x804E8040 | size: 0x10
-.obj lbl_804E8040, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804E8040
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x4C4D8 | 0x804E8050 | size: 0xC
 .obj lbl_804E8050, global
@@ -98938,9 +98938,9 @@
 .endobj lbl_804EA19C
 
 # .data:0x4E630 | 0x804EA1A8 | size: 0xC
-.obj lbl_804EA1A8, global
+.obj String_"AC_chargeUp", global
 	.string "AC_chargeUp"
-.endobj lbl_804EA1A8
+.endobj String_"AC_chargeUp"
 
 # .data:0x4E63C | 0x804EA1B4 | size: 0xC
 .obj lbl_804EA1B4, global
@@ -99040,9 +99040,9 @@
 .endobj lbl_804EA25C
 
 # .data:0x4E6F0 | 0x804EA268 | size: 0xC
-.obj lbl_804EA268, global
+.obj String_"AC_landbomb", global
 	.string "AC_landbomb"
-.endobj lbl_804EA268
+.endobj String_"AC_landbomb"
 
 # .data:0x4E6FC | 0x804EA274 | size: 0xC
 .obj lbl_804EA274, global
@@ -99137,7 +99137,7 @@
 	.4byte lbl_804EA17C
 	.4byte lbl_804EA188
 	.4byte lbl_804EA19C
-	.4byte lbl_804EA1A8
+	.4byte String_"AC_chargeUp"
 	.4byte lbl_804EA1B4
 	.4byte lbl_804EA1C0
 	.4byte lbl_804EA1CC
@@ -99153,21 +99153,21 @@
 	.4byte lbl_804EA244
 	.4byte lbl_804EA1D8
 	.4byte lbl_804EA250
-	.4byte lbl_805DB2D0
+	.4byte String_"AC_bomb"
 	.4byte lbl_804EA25C
-	.4byte lbl_804EA268
+	.4byte String_"AC_landbomb"
 	.4byte lbl_804EA274
 	.4byte lbl_804EA280
 	.4byte lbl_804EA290
-	.4byte lbl_805DB2D8
+	.4byte String_"AC_mike"
 	.4byte lbl_804EA29C
 	.4byte lbl_804EA2A8
 	.4byte lbl_804EA2B4
-	.4byte lbl_805DB2E0
+	.4byte String_"AC_meta"
 	.4byte lbl_804EA2C0
 	.4byte lbl_804EA2CC
 	.4byte lbl_804EA2D8
-	.4byte lbl_805DB2E8
+	.4byte String_"AC_piyo"
 	.4byte lbl_804EA2E4
 	.4byte lbl_804EA2F0
 .endobj lbl_804EA2FC
@@ -100611,9 +100611,9 @@
 .endobj lbl_804EB8BC
 
 # .data:0x4FD50 | 0x804EB8C8 | size: 0x10
-.obj lbl_804EB8C8, global
+.obj String_"FF_FF_FF_FormaterStr", global
 	.string "%ff, %ff, %ff,\n"
-.endobj lbl_804EB8C8
+.endobj String_"FF_FF_FF_FormaterStr"
 
 # .data:0x4FD60 | 0x804EB8D8 | size: 0x1C
 .obj lbl_804EB8D8, global
@@ -100974,9 +100974,9 @@
 .endobj lbl_804EBCC4
 
 # .data:0x50158 | 0x804EBCD0 | size: 0xC
-.obj lbl_804EBCD0, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804EBCD0
+.endobj String_"SheetTexMgr"
 
 # .data:0x50164 | 0x804EBCDC | size: 0x18
 .obj lbl_804EBCDC, global
@@ -101034,9 +101034,9 @@
 .endobj lbl_804EBD34
 
 # .data:0x501F0 | 0x804EBD68 | size: 0x10
-.obj lbl_804EBD68, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804EBD68
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x50200 | 0x804EBD78 | size: 0xC
 .obj lbl_804EBD78, global
@@ -102055,9 +102055,9 @@
 .endobj lbl_804EC160
 
 # .data:0x51050 | 0x804ECBC8 | size: 0x14
-.obj lbl_804ECBC8, global
+.obj String_"WidgetAllItemFolder", global
 	.string "WidgetAllItemFolder"
-.endobj lbl_804ECBC8
+.endobj String_"WidgetAllItemFolder"
 
 # .data:0x51064 | 0x804ECBDC | size: 0x10
 .obj lbl_804ECBDC, global
@@ -102068,9 +102068,9 @@
 .endobj lbl_804ECBDC
 
 # .data:0x51074 | 0x804ECBEC | size: 0xC
-.obj lbl_804ECBEC, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804ECBEC
+.endobj String_"WidgetSheet"
 
 # .data:0x51080 | 0x804ECBF8 | size: 0x14
 .obj lbl_804ECBF8, global
@@ -104722,9 +104722,9 @@
 .endobj lbl_804EF2B8
 
 # .data:0x53924 | 0x804EF49C | size: 0xC
-.obj lbl_804EF49C, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804EF49C
+.endobj String_"WidgetLabel"
 
 # .data:0x53930 | 0x804EF4A8 | size: 0x3A8
 .obj lbl_804EF4A8, global
@@ -105023,14 +105023,14 @@
 .endobj lbl_804EF8FC
 
 # .data:0x53D90 | 0x804EF908 | size: 0x10
-.obj lbl_804EF908, global
+.obj String_"EmberMgr_Ember", global
 	.string "EmberMgr::Ember"
-.endobj lbl_804EF908
+.endobj String_"EmberMgr_Ember"
 
 # .data:0x53DA0 | 0x804EF918 | size: 0x1C
-.obj lbl_804EF918, global
+.obj String_"ObjCollect_Template_EmberMgr_Ember", global
 	.string "ObjCollect<EmberMgr::Ember>"
-.endobj lbl_804EF918
+.endobj String_"ObjCollect_Template_EmberMgr_Ember"
 
 # .data:0x53DBC | 0x804EF934 | size: 0x18
 .obj lbl_804EF934, global
@@ -105097,14 +105097,14 @@
 .endobj lbl_804EF9B8
 
 # .data:0x53E4C | 0x804EF9C4 | size: 0xC
-.obj lbl_804EF9C4, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804EF9C4
+.endobj String_"KirbyHandle"
 
 # .data:0x53E58 | 0x804EF9D0 | size: 0x18
-.obj lbl_804EF9D0, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804EF9D0
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x53E70 | 0x804EF9E8 | size: 0xC
 .obj lbl_804EF9E8, global
@@ -105270,14 +105270,14 @@
 .endobj lbl_804EFBA8
 
 # .data:0x5403C | 0x804EFBB4 | size: 0x14
-.obj lbl_804EFBB4, global
+.obj String_"GrenadeMgr_Grenade", global
 	.string "GrenadeMgr::Grenade"
-.endobj lbl_804EFBB4
+.endobj String_"GrenadeMgr_Grenade"
 
 # .data:0x54050 | 0x804EFBC8 | size: 0x20
-.obj lbl_804EFBC8, global
+.obj String_"ObjCollect_Template_GrenadeMgr_Grenade", global
 	.string "ObjCollect<GrenadeMgr::Grenade>"
-.endobj lbl_804EFBC8
+.endobj String_"ObjCollect_Template_GrenadeMgr_Grenade"
 
 # .data:0x54070 | 0x804EFBE8 | size: 0x18
 .obj lbl_804EFBE8, global
@@ -105880,14 +105880,14 @@
 .endobj lbl_804F02B0
 
 # .data:0x54760 | 0x804F02D8 | size: 0xC
-.obj lbl_804F02D8, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804F02D8
+.endobj String_"KirbyHandle"
 
 # .data:0x5476C | 0x804F02E4 | size: 0x18
-.obj lbl_804F02E4, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804F02E4
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x54784 | 0x804F02FC | size: 0xC
 .obj lbl_804F02FC, global
@@ -105977,14 +105977,14 @@
 .endobj lbl_804F0350
 
 # .data:0x54870 | 0x804F03E8 | size: 0x14
-.obj lbl_804F03E8, global
+.obj String_"MissileMgr_Missile", global
 	.string "MissileMgr::Missile"
-.endobj lbl_804F03E8
+.endobj String_"MissileMgr_Missile"
 
 # .data:0x54884 | 0x804F03FC | size: 0x20
-.obj lbl_804F03FC, global
+.obj String_"ObjCollect_Template_MissileMgr_Missile", global
 	.string "ObjCollect<MissileMgr::Missile>"
-.endobj lbl_804F03FC
+.endobj String_"ObjCollect_Template_MissileMgr_Missile"
 
 # .data:0x548A4 | 0x804F041C | size: 0x18
 .obj lbl_804F041C, global
@@ -106142,14 +106142,14 @@
 .endobj lbl_804F0540
 
 # .data:0x549F0 | 0x804F0568 | size: 0xC
-.obj lbl_804F0568, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804F0568
+.endobj String_"KirbyHandle"
 
 # .data:0x549FC | 0x804F0574 | size: 0x18
-.obj lbl_804F0574, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804F0574
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x54A14 | 0x804F058C | size: 0xC
 .obj lbl_804F058C, global
@@ -106463,14 +106463,14 @@
 .endobj lbl_804F08DC
 
 # .data:0x54DA0 | 0x804F0918 | size: 0xC
-.obj lbl_804F0918, global
+.obj String_"KirbyHandle", global
 	.string "KirbyHandle"
-.endobj lbl_804F0918
+.endobj String_"KirbyHandle"
 
 # .data:0x54DAC | 0x804F0924 | size: 0x18
-.obj lbl_804F0924, global
+.obj String_"ObjCollect_Template_KirbyHandle", global
 	.string "ObjCollect<KirbyHandle>"
-.endobj lbl_804F0924
+.endobj String_"ObjCollect_Template_KirbyHandle"
 
 # .data:0x54DC4 | 0x804F093C | size: 0xC
 .obj lbl_804F093C, global
@@ -106643,14 +106643,14 @@
 .endobj lbl_804F0B38
 
 # .data:0x54FCC | 0x804F0B44 | size: 0x24
-.obj lbl_804F0B44, global
+.obj String_"ObjCollect_Template_KirbyEffector_Effector", global
 	.string "ObjCollect<KirbyEffector::Effector>"
-.endobj lbl_804F0B44
+.endobj String_"ObjCollect_Template_KirbyEffector_Effector"
 
 # .data:0x54FF0 | 0x804F0B68 | size: 0x18
-.obj lbl_804F0B68, global
+.obj String_"KirbyEffector_Effector", global
 	.string "KirbyEffector::Effector"
-.endobj lbl_804F0B68
+.endobj String_"KirbyEffector_Effector"
 
 # .data:0x55008 | 0x804F0B80 | size: 0x120
 .obj lbl_804F0B80, global
@@ -106806,9 +106806,9 @@
 .endobj lbl_804F0D88
 
 # .data:0x5521C | 0x804F0D94 | size: 0x14
-.obj lbl_804F0D94, global
+.obj String_"Singleton_Template_ChickMgr", global
 	.string "Singleton<ChickMgr>"
-.endobj lbl_804F0D94
+.endobj String_"Singleton_Template_ChickMgr"
 
 # .data:0x55230 | 0x804F0DA8 | size: 0xC
 .obj lbl_804F0DA8, global
@@ -107160,9 +107160,9 @@
 .endobj lbl_804F10D0
 
 # .data:0x55564 | 0x804F10DC | size: 0x14
-.obj lbl_804F10DC, global
+.obj String_"Singleton_Template_Stardust", global
 	.string "Singleton<Stardust>"
-.endobj lbl_804F10DC
+.endobj String_"Singleton_Template_Stardust"
 
 # .data:0x55578 | 0x804F10F0 | size: 0xC
 .obj lbl_804F10F0, global
@@ -107221,14 +107221,14 @@
 .endobj lbl_804F1164
 
 # .data:0x555F8 | 0x804F1170 | size: 0x18
-.obj lbl_804F1170, global
+.obj String_"SimpleShadowMgr_Shadow", global
 	.string "SimpleShadowMgr::Shadow"
-.endobj lbl_804F1170
+.endobj String_"SimpleShadowMgr_Shadow"
 
 # .data:0x55610 | 0x804F1188 | size: 0x24
-.obj lbl_804F1188, global
+.obj String_"ObjCollect_Template_SimpleShadowMgr_Shadow", global
 	.string "ObjCollect<SimpleShadowMgr::Shadow>"
-.endobj lbl_804F1188
+.endobj String_"ObjCollect_Template_SimpleShadowMgr_Shadow"
 
 # .data:0x55634 | 0x804F11AC | size: 0xC
 .obj lbl_804F11AC, global
@@ -107238,9 +107238,9 @@
 .endobj lbl_804F11AC
 
 # .data:0x55640 | 0x804F11B8 | size: 0x10
-.obj lbl_804F11B8, global
+.obj String_"SimpleShadowMgr", global
 	.string "SimpleShadowMgr"
-.endobj lbl_804F11B8
+.endobj String_"SimpleShadowMgr"
 
 # .data:0x55650 | 0x804F11C8 | size: 0x1C
 .obj lbl_804F11C8, global
@@ -108283,9 +108283,9 @@
 .endobj lbl_804F1F4C
 
 # .data:0x563E0 | 0x804F1F58 | size: 0x10
-.obj lbl_804F1F58, global
+.obj String_"scrapeWallCurve", global
 	.string "scrapeWallCurve"
-.endobj lbl_804F1F58
+.endobj String_"scrapeWallCurve"
 
 # .data:0x563F0 | 0x804F1F68 | size: 0xC
 .obj lbl_804F1F68, global
@@ -108318,9 +108318,9 @@
 .endobj lbl_804F1F94
 
 # .data:0x56428 | 0x804F1FA0 | size: 0x10
-.obj lbl_804F1FA0, global
+.obj String_"bumpGroundCurve", global
 	.string "bumpGroundCurve"
-.endobj lbl_804F1FA0
+.endobj String_"bumpGroundCurve"
 
 # .data:0x56438 | 0x804F1FB0 | size: 0x10
 .obj lbl_804F1FB0, global
@@ -108392,9 +108392,9 @@
 .endobj lbl_804F2028
 
 # .data:0x564BC | 0x804F2034 | size: 0xC
-.obj lbl_804F2034, global
+.obj String_"attackCurve", global
 	.string "attackCurve"
-.endobj lbl_804F2034
+.endobj String_"attackCurve"
 
 # .data:0x564C8 | 0x804F2040 | size: 0xC
 .obj lbl_804F2040, global
@@ -108412,9 +108412,9 @@
 .endobj lbl_804F204C
 
 # .data:0x564E4 | 0x804F205C | size: 0xC
-.obj lbl_804F205C, global
+.obj String_"bridgeCurve", global
 	.string "bridgeCurve"
-.endobj lbl_804F205C
+.endobj String_"bridgeCurve"
 
 # .data:0x564F0 | 0x804F2068 | size: 0xC
 .obj lbl_804F2068, global
@@ -108424,9 +108424,9 @@
 .endobj lbl_804F2068
 
 # .data:0x564FC | 0x804F2074 | size: 0x10
-.obj lbl_804F2074, global
+.obj String_"craterCollCurve", global
 	.string "craterCollCurve"
-.endobj lbl_804F2074
+.endobj String_"craterCollCurve"
 
 # .data:0x5650C | 0x804F2084 | size: 0xC
 .obj lbl_804F2084, global
@@ -108502,7 +108502,7 @@
 	.4byte 0x00000010
 	.4byte lbl_804F1560
 	.4byte lbl_804F1F4C
-	.4byte lbl_804F1F58
+	.4byte String_"scrapeWallCurve"
 	.4byte 0x00000010
 	.4byte lbl_804F15E0
 	.4byte lbl_804F1F68
@@ -108514,7 +108514,7 @@
 	.4byte 0x00000010
 	.4byte lbl_804F16E0
 	.4byte lbl_804F1F94
-	.4byte lbl_804F1FA0
+	.4byte String_"bumpGroundCurve"
 	.4byte 0x00000010
 	.4byte lbl_804F1760
 	.4byte lbl_805DBAF0
@@ -108538,7 +108538,7 @@
 	.4byte 0x00000010
 	.4byte lbl_804F19E0
 	.4byte lbl_804F2028
-	.4byte lbl_804F2034
+	.4byte String_"attackCurve"
 	.4byte 0x00000010
 	.4byte lbl_804F1A60
 	.4byte lbl_805DBB00
@@ -108550,11 +108550,11 @@
 	.4byte 0x00000010
 	.4byte lbl_804F1B60
 	.4byte lbl_805DBB10
-	.4byte lbl_804F205C
+	.4byte String_"bridgeCurve"
 	.4byte 0x00000010
 	.4byte lbl_804F1BE0
 	.4byte lbl_804F2068
-	.4byte lbl_804F2074
+	.4byte String_"craterCollCurve"
 	.4byte 0x00000010
 	.4byte lbl_804F1C60
 	.4byte lbl_804F2084
@@ -108603,9 +108603,9 @@
 .endobj lbl_804F22A0
 
 # .data:0x56734 | 0x804F22AC | size: 0x14
-.obj lbl_804F22AC, global
+.obj String_"Singleton_Template_TuningDB", global
 	.string "Singleton<TuningDB>"
-.endobj lbl_804F22AC
+.endobj String_"Singleton_Template_TuningDB"
 
 # .data:0x56748 | 0x804F22C0 | size: 0x48
 .obj lbl_804F22C0, global
@@ -108737,9 +108737,9 @@
 .endobj lbl_804F2468
 
 # .data:0x568FC | 0x804F2474 | size: 0x14
-.obj lbl_804F2474, global
+.obj String_"Singleton_Template_KirbyMgr", global
 	.string "Singleton<KirbyMgr>"
-.endobj lbl_804F2474
+.endobj String_"Singleton_Template_KirbyMgr"
 
 # .data:0x56910 | 0x804F2488 | size: 0xC
 .obj lbl_804F2488, global
@@ -108758,9 +108758,9 @@
 .endobj lbl_804F2494
 
 # .data:0x56930 | 0x804F24A8 | size: 0x10
-.obj lbl_804F24A8, global
+.obj String_"SFX_a2d_runstar", global
 	.string "SFX_a2d_runstar"
-.endobj lbl_804F24A8
+.endobj String_"SFX_a2d_runstar"
 
 # .data:0x56940 | 0x804F24B8 | size: 0x18
 .obj lbl_804F24B8, global
@@ -108782,9 +108782,9 @@
 .endobj lbl_804F24D0
 
 # .data:0x5696C | 0x804F24E4 | size: 0x14
-.obj lbl_804F24E4, global
+.obj String_"SFX_a2d_driftnoize2", global
 	.string "SFX_a2d_driftnoize2"
-.endobj lbl_804F24E4
+.endobj String_"SFX_a2d_driftnoize2"
 
 # .data:0x56980 | 0x804F24F8 | size: 0x10
 .obj lbl_804F24F8, global
@@ -108795,14 +108795,14 @@
 .endobj lbl_804F24F8
 
 # .data:0x56990 | 0x804F2508 | size: 0x10
-.obj lbl_804F2508, global
+.obj String_"SFX_a2d_charge1", global
 	.string "SFX_a2d_charge1"
-.endobj lbl_804F2508
+.endobj String_"SFX_a2d_charge1"
 
 # .data:0x569A0 | 0x804F2518 | size: 0x10
-.obj lbl_804F2518, global
+.obj String_"SFX_a2d_charge2", global
 	.string "SFX_a2d_charge2"
-.endobj lbl_804F2518
+.endobj String_"SFX_a2d_charge2"
 
 # .data:0x569B0 | 0x804F2528 | size: 0x14
 .obj lbl_804F2528, global
@@ -108865,9 +108865,9 @@
 .endobj lbl_804F2594
 
 # .data:0x56A30 | 0x804F25A8 | size: 0x14
-.obj lbl_804F25A8, global
+.obj String_"SFX_a2d_kabe_kosuri", global
 	.string "SFX_a2d_kabe_kosuri"
-.endobj lbl_804F25A8
+.endobj String_"SFX_a2d_kabe_kosuri"
 
 # .data:0x56A44 | 0x804F25BC | size: 0x14
 .obj lbl_804F25BC, global
@@ -108924,9 +108924,9 @@
 .endobj lbl_804F2620
 
 # .data:0x56ABC | 0x804F2634 | size: 0x10
-.obj lbl_804F2634, global
+.obj String_"SFX_a2d_eff_etc", global
 	.string "SFX_a2d_eff_etc"
-.endobj lbl_804F2634
+.endobj String_"SFX_a2d_eff_etc"
 
 # .data:0x56ACC | 0x804F2644 | size: 0x14
 .obj lbl_804F2644, global
@@ -108948,14 +108948,14 @@
 .endobj lbl_804F2658
 
 # .data:0x56AF8 | 0x804F2670 | size: 0x14
-.obj lbl_804F2670, global
+.obj String_"SFX_a2d_time_count1", global
 	.string "SFX_a2d_time_count1"
-.endobj lbl_804F2670
+.endobj String_"SFX_a2d_time_count1"
 
 # .data:0x56B0C | 0x804F2684 | size: 0x14
-.obj lbl_804F2684, global
+.obj String_"SFX_a2d_time_count2", global
 	.string "SFX_a2d_time_count2"
-.endobj lbl_804F2684
+.endobj String_"SFX_a2d_time_count2"
 
 # .data:0x56B20 | 0x804F2698 | size: 0x10
 .obj lbl_804F2698, global
@@ -109034,9 +109034,9 @@
 .endobj lbl_804F2724
 
 # .data:0x56BC0 | 0x804F2738 | size: 0x10
-.obj lbl_804F2738, global
+.obj String_"SFX_a2d_hit_ice", global
 	.string "SFX_a2d_hit_ice"
-.endobj lbl_804F2738
+.endobj String_"SFX_a2d_hit_ice"
 
 # .data:0x56BD0 | 0x804F2748 | size: 0x14
 .obj lbl_804F2748, global
@@ -109244,9 +109244,9 @@
 .endobj lbl_804F2904
 
 # .data:0x56DA4 | 0x804F291C | size: 0x18
-.obj lbl_804F291C, global
+.obj String_"SFX_a2d_fanf_goal_other", global
 	.string "SFX_a2d_fanf_goal_other"
-.endobj lbl_804F291C
+.endobj String_"SFX_a2d_fanf_goal_other"
 
 # .data:0x56DBC | 0x804F2934 | size: 0x18
 .obj lbl_804F2934, global
@@ -109280,13 +109280,13 @@
 # .data:0x56E00 | 0x804F2978 | size: 0xFC
 .obj lbl_804F2978, global
 	.4byte lbl_804F2494
-	.4byte lbl_804F24A8
+	.4byte String_"SFX_a2d_runstar"
 	.4byte lbl_804F24B8
 	.4byte lbl_804F24D0
-	.4byte lbl_804F24E4
+	.4byte String_"SFX_a2d_driftnoize2"
 	.4byte lbl_804F24F8
-	.4byte lbl_804F2508
-	.4byte lbl_804F2518
+	.4byte String_"SFX_a2d_charge1"
+	.4byte String_"SFX_a2d_charge2"
 	.4byte lbl_804F2528
 	.4byte lbl_804F253C
 	.4byte lbl_804F254C
@@ -109294,18 +109294,18 @@
 	.4byte lbl_804F256C
 	.4byte lbl_804F2580
 	.4byte lbl_804F2594
-	.4byte lbl_804F25A8
+	.4byte String_"SFX_a2d_kabe_kosuri"
 	.4byte lbl_804F25BC
 	.4byte lbl_804F25D0
 	.4byte lbl_804F25E4
 	.4byte lbl_804F25F8
 	.4byte lbl_804F260C
 	.4byte lbl_804F2620
-	.4byte lbl_804F2634
+	.4byte String_"SFX_a2d_eff_etc"
 	.4byte lbl_804F2644
 	.4byte lbl_804F2658
-	.4byte lbl_804F2670
-	.4byte lbl_804F2684
+	.4byte String_"SFX_a2d_time_count1"
+	.4byte String_"SFX_a2d_time_count2"
 	.4byte lbl_804F2698
 	.4byte lbl_804F26A8
 	.4byte lbl_804F26B8
@@ -109315,7 +109315,7 @@
 	.4byte lbl_804F26FC
 	.4byte lbl_804F2710
 	.4byte lbl_804F2724
-	.4byte lbl_804F2738
+	.4byte String_"SFX_a2d_hit_ice"
 	.4byte lbl_804F2748
 	.4byte lbl_804F275C
 	.4byte lbl_804F2770
@@ -109338,7 +109338,7 @@
 	.4byte lbl_804F28D4
 	.4byte lbl_804F28EC
 	.4byte lbl_804F2904
-	.4byte lbl_804F291C
+	.4byte String_"SFX_a2d_fanf_goal_other"
 	.4byte lbl_804F2934
 	.4byte lbl_804F294C
 	.4byte lbl_804F2960
@@ -109369,14 +109369,14 @@
 .endobj lbl_804F2A98
 
 # .data:0x56F2C | 0x804F2AA4 | size: 0xC
-.obj lbl_804F2AA4, global
+.obj String_"SoundHandle", global
 	.string "SoundHandle"
-.endobj lbl_804F2AA4
+.endobj String_"SoundHandle"
 
 # .data:0x56F38 | 0x804F2AB0 | size: 0x18
-.obj lbl_804F2AB0, global
+.obj String_"ObjCollect_Template_SoundHandle", global
 	.string "ObjCollect<SoundHandle>"
-.endobj lbl_804F2AB0
+.endobj String_"ObjCollect_Template_SoundHandle"
 
 # .data:0x56F50 | 0x804F2AC8 | size: 0xC
 .obj lbl_804F2AC8, global
@@ -109405,9 +109405,9 @@
 .endobj lbl_804F2AE8
 
 # .data:0x56F88 | 0x804F2B00 | size: 0x14
-.obj lbl_804F2B00, global
+.obj String_"a2d_soundhandle.cpp", global
 	.string "a2d_soundhandle.cpp"
-.endobj lbl_804F2B00
+.endobj String_"a2d_soundhandle.cpp"
 
 # .data:0x56F9C | 0x804F2B14 | size: 0x1C
 .obj lbl_804F2B14, global
@@ -109715,14 +109715,14 @@
 .endobj lbl_804F2CE0
 
 # .data:0x572E0 | 0x804F2E58 | size: 0xC
-.obj lbl_804F2E58, global
+.obj String_"ModelEffect", global
 	.string "ModelEffect"
-.endobj lbl_804F2E58
+.endobj String_"ModelEffect"
 
 # .data:0x572EC | 0x804F2E64 | size: 0x18
-.obj lbl_804F2E64, global
+.obj String_"ObjCollect_Template_ModelEffect", global
 	.string "ObjCollect<ModelEffect>"
-.endobj lbl_804F2E64
+.endobj String_"ObjCollect_Template_ModelEffect"
 
 # .data:0x57304 | 0x804F2E7C | size: 0x20
 .obj lbl_804F2E7C, global
@@ -110085,9 +110085,9 @@
 .endobj lbl_804F327C
 
 # .data:0x57710 | 0x804F3288 | size: 0xC
-.obj lbl_804F3288, global
+.obj String_"EffectVoice", global
 	.string "EffectVoice"
-.endobj lbl_804F3288
+.endobj String_"EffectVoice"
 
 # .data:0x5771C | 0x804F3294 | size: 0x14
 .obj lbl_804F3294, global
@@ -110319,9 +110319,9 @@
 .endobj lbl_804F34BC
 
 # .data:0x57950 | 0x804F34C8 | size: 0x18
-.obj lbl_804F34C8, global
+.obj String_"PostDrawEffectContainer", global
 	.string "PostDrawEffectContainer"
-.endobj lbl_804F34C8
+.endobj String_"PostDrawEffectContainer"
 
 # .data:0x57968 | 0x804F34E0 | size: 0x24
 .obj lbl_804F34E0, global
@@ -110385,9 +110385,9 @@
 .endobj lbl_804F356C
 
 # .data:0x57A0C | 0x804F3584 | size: 0x20
-.obj lbl_804F3584, global
+.obj String_"Singleton_Template_ModelEffectContainer", global
 	.string "Singleton<ModelEffectContainer>"
-.endobj lbl_804F3584
+.endobj String_"Singleton_Template_ModelEffectContainer"
 
 # .data:0x57A2C | 0x804F35A4 | size: 0xC
 .obj lbl_804F35A4, global
@@ -110397,9 +110397,9 @@
 .endobj lbl_804F35A4
 
 # .data:0x57A38 | 0x804F35B0 | size: 0x14
-.obj lbl_804F35B0, global
+.obj String_"WipeEffectContainer", global
 	.string "WipeEffectContainer"
-.endobj lbl_804F35B0
+.endobj String_"WipeEffectContainer"
 
 # .data:0x57A4C | 0x804F35C4 | size: 0x20
 .obj lbl_804F35C4, global
@@ -111061,9 +111061,9 @@
 .endobj lbl_804F3CFC
 
 # .data:0x581B8 | 0x804F3D30 | size: 0x10
-.obj lbl_804F3D30, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F3D30
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x581C8 | 0x804F3D40 | size: 0xC
 .obj lbl_804F3D40, global
@@ -111338,9 +111338,9 @@
 .endobj lbl_804F4074
 
 # .data:0x58508 | 0x804F4080 | size: 0x14
-.obj lbl_804F4080, global
+.obj String_"Singleton_Template_KirbyMgr", global
 	.string "Singleton<KirbyMgr>"
-.endobj lbl_804F4080
+.endobj String_"Singleton_Template_KirbyMgr"
 
 # .data:0x5851C | 0x804F4094 | size: 0xC
 .obj lbl_804F4094, global
@@ -111423,9 +111423,9 @@
 .endobj lbl_804F40A0
 
 # .data:0x5863C | 0x804F41B4 | size: 0x14
-.obj lbl_804F41B4, global
+.obj String_"CommicSignContainer", global
 	.string "CommicSignContainer"
-.endobj lbl_804F41B4
+.endobj String_"CommicSignContainer"
 
 # .data:0x58650 | 0x804F41C8 | size: 0x20
 .obj lbl_804F41C8, global
@@ -112156,14 +112156,14 @@
 .endobj lbl_804F4ACC
 
 # .data:0x58F60 | 0x804F4AD8 | size: 0x1C
-.obj lbl_804F4AD8, global
+.obj String_"CpuObstacleMgr_CpuObstacle", global
 	.string "CpuObstacleMgr::CpuObstacle"
-.endobj lbl_804F4AD8
+.endobj String_"CpuObstacleMgr_CpuObstacle"
 
 # .data:0x58F7C | 0x804F4AF4 | size: 0x28
-.obj lbl_804F4AF4, global
+.obj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle", global
 	.string "ObjCollect<CpuObstacleMgr::CpuObstacle>"
-.endobj lbl_804F4AF4
+.endobj String_"ObjCollect_Template_CpuObstacleMgr_CpuObstacle"
 
 # .data:0x58FA4 | 0x804F4B1C | size: 0xC
 .obj lbl_804F4B1C, global
@@ -112387,14 +112387,14 @@
 .endobj lbl_804F4CF0
 
 # .data:0x59198 | 0x804F4D10 | size: 0x40
-.obj lbl_804F4D10, global
+.obj String_"FL_DVDData_PreloadWarning_MemoryIsAlreradyAllocated", global
 	.string "[FL_DVDData] Preload Warning ! %s 's memory was already alloc!\n"
-.endobj lbl_804F4D10
+.endobj String_"FL_DVDData_PreloadWarning_MemoryIsAlreradyAllocated"
 
 # .data:0x591D8 | 0x804F4D50 | size: 0xC
-.obj lbl_804F4D50, global
+.obj String_"StringWithDashesWithStringInBetweenThem", global
 	.string "--- %s ---\n"
-.endobj lbl_804F4D50
+.endobj String_"StringWithDashesWithStringInBetweenThem"
 
 # .data:0x591E4 | 0x804F4D5C | size: 0xC
 .obj lbl_804F4D5C, global
@@ -112478,9 +112478,9 @@
 .endobj lbl_804F4E38
 
 # .data:0x592D8 | 0x804F4E50 | size: 0x60
-.obj lbl_804F4E50, global
+.obj String_"TheEntireFontSymbolsForSomeReason?", global
 	.string " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
-.endobj lbl_804F4E50
+.endobj String_"TheEntireFontSymbolsForSomeReason?"
 
 # .data:0x59338 | 0x804F4EB0 | size: 0xC0
 .obj lbl_804F4EB0, global
@@ -112619,9 +112619,9 @@
 .endobj lbl_804F5030
 
 # .data:0x594D8 | 0x804F5050 | size: 0x10
-.obj lbl_804F5050, global
+.obj String_"RomFont_Handle", global
 	.string "RomFont::Handle"
-.endobj lbl_804F5050
+.endobj String_"RomFont_Handle"
 
 # .data:0x594E8 | 0x804F5060 | size: 0xC
 .obj lbl_804F5060, global
@@ -113330,14 +113330,14 @@
 .endobj lbl_804F585C
 
 # .data:0x59D00 | 0x804F5878 | size: 0xC
-.obj lbl_804F5878, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804F5878
+.endobj String_"WidgetLabel"
 
 # .data:0x59D0C | 0x804F5884 | size: 0x10
-.obj lbl_804F5884, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F5884
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x59D1C | 0x804F5894 | size: 0xC
 .obj lbl_804F5894, global
@@ -113347,9 +113347,9 @@
 .endobj lbl_804F5894
 
 # .data:0x59D28 | 0x804F58A0 | size: 0xC
-.obj lbl_804F58A0, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F58A0
+.endobj String_"WidgetSheet"
 
 # .data:0x59D34 | 0x804F58AC | size: 0x14
 .obj lbl_804F58AC, global
@@ -113409,9 +113409,9 @@
 .endobj lbl_804F5930
 
 # .data:0x59DC8 | 0x804F5940 | size: 0x10
-.obj lbl_804F5940, global
+.obj String_"RomFont_Handle", global
 	.string "RomFont::Handle"
-.endobj lbl_804F5940
+.endobj String_"RomFont_Handle"
 
 # .data:0x59DD8 | 0x804F5950 | size: 0xC
 .obj lbl_804F5950, global
@@ -113444,9 +113444,9 @@
 .endobj lbl_804F5970
 
 # .data:0x59E20 | 0x804F5998 | size: 0xC
-.obj lbl_804F5998, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F5998
+.endobj String_"SheetTexMgr"
 
 # .data:0x59E2C | 0x804F59A4 | size: 0x18
 .obj lbl_804F59A4, global
@@ -113466,9 +113466,9 @@
 .endobj lbl_804F59BC
 
 # .data:0x59E50 | 0x804F59C8 | size: 0xC
-.obj lbl_804F59C8, global
+.obj String_"DoubleFlag_DoubleFlag_DoubleFlag_DoubleFlag_FormaterStr", global
 	.string "%d_%d_%d_%d"
-.endobj lbl_804F59C8
+.endobj String_"DoubleFlag_DoubleFlag_DoubleFlag_DoubleFlag_FormaterStr"
 
 # .data:0x59E5C | 0x804F59D4 | size: 0xC
 .obj lbl_804F59D4, global
@@ -113530,9 +113530,9 @@
 .endobj jumptable_804F5A24
 
 # .data:0x59EE8 | 0x804F5A60 | size: 0x2C
-.obj lbl_804F5A60, global
+.obj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexFormat_Template_14", global
 	.string "FL_Texture<FL_Texture2DBase, TexFormat<14>>"
-.endobj lbl_804F5A60
+.endobj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexFormat_Template_14"
 
 # .data:0x59F14 | 0x804F5A8C | size: 0x14
 .obj lbl_804F5A8C, global
@@ -113793,9 +113793,9 @@
 .endobj lbl_804F5CF8
 
 # .data:0x5A19C | 0x804F5D14 | size: 0x30
-.obj lbl_804F5D14, global
+.obj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_9_2", global
 	.string "FL_Texture<FL_Texture2DBase, TexCIFormat<9, 2>>"
-.endobj lbl_804F5D14
+.endobj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_9_2"
 
 # .data:0x5A1CC | 0x804F5D44 | size: 0xC
 .obj lbl_804F5D44, global
@@ -113816,9 +113816,9 @@
 .endobj lbl_804F5D50
 
 # .data:0x5A1F4 | 0x804F5D6C | size: 0x30
-.obj lbl_804F5D6C, global
+.obj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_9_1", global
 	.string "FL_Texture<FL_Texture2DBase, TexCIFormat<9, 1>>"
-.endobj lbl_804F5D6C
+.endobj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_9_1"
 
 # .data:0x5A224 | 0x804F5D9C | size: 0xC
 .obj lbl_804F5D9C, global
@@ -113839,9 +113839,9 @@
 .endobj lbl_804F5DA8
 
 # .data:0x5A24C | 0x804F5DC4 | size: 0x30
-.obj lbl_804F5DC4, global
+.obj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_9_0", global
 	.string "FL_Texture<FL_Texture2DBase, TexCIFormat<9, 0>>"
-.endobj lbl_804F5DC4
+.endobj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_9_0"
 
 # .data:0x5A27C | 0x804F5DF4 | size: 0xC
 .obj lbl_804F5DF4, global
@@ -113862,9 +113862,9 @@
 .endobj lbl_804F5E00
 
 # .data:0x5A2A4 | 0x804F5E1C | size: 0x30
-.obj lbl_804F5E1C, global
+.obj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_8_2", global
 	.string "FL_Texture<FL_Texture2DBase, TexCIFormat<8, 2>>"
-.endobj lbl_804F5E1C
+.endobj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_8_2"
 
 # .data:0x5A2D4 | 0x804F5E4C | size: 0xC
 .obj lbl_804F5E4C, global
@@ -113885,9 +113885,9 @@
 .endobj lbl_804F5E58
 
 # .data:0x5A2FC | 0x804F5E74 | size: 0x30
-.obj lbl_804F5E74, global
+.obj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_8_1", global
 	.string "FL_Texture<FL_Texture2DBase, TexCIFormat<8, 1>>"
-.endobj lbl_804F5E74
+.endobj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_8_1"
 
 # .data:0x5A32C | 0x804F5EA4 | size: 0xC
 .obj lbl_804F5EA4, global
@@ -113908,9 +113908,9 @@
 .endobj lbl_804F5EB0
 
 # .data:0x5A354 | 0x804F5ECC | size: 0x30
-.obj lbl_804F5ECC, global
+.obj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_8_0", global
 	.string "FL_Texture<FL_Texture2DBase, TexCIFormat<8, 0>>"
-.endobj lbl_804F5ECC
+.endobj String_"FL_Texture_Template_FL_Texture2DBase_Comma_TexCIFormat_Template_8_0"
 
 # .data:0x5A384 | 0x804F5EFC | size: 0xC
 .obj lbl_804F5EFC, global
@@ -113948,9 +113948,9 @@
 .endobj lbl_804F5F3C
 
 # .data:0x5A3D0 | 0x804F5F48 | size: 0xC
-.obj lbl_804F5F48, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F5F48
+.endobj String_"SheetTexMgr"
 
 # .data:0x5A3DC | 0x804F5F54 | size: 0x18
 .obj lbl_804F5F54, global
@@ -114068,9 +114068,9 @@
 .endobj lbl_804F604C
 
 # .data:0x5A4F8 | 0x804F6070 | size: 0x10
-.obj lbl_804F6070, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F6070
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5A508 | 0x804F6080 | size: 0xC
 .obj lbl_804F6080, global
@@ -114309,9 +114309,9 @@
 .endobj lbl_804F62D4
 
 # .data:0x5A768 | 0x804F62E0 | size: 0xC
-.obj lbl_804F62E0, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F62E0
+.endobj String_"SheetTexMgr"
 
 # .data:0x5A774 | 0x804F62EC | size: 0x18
 .obj lbl_804F62EC, global
@@ -114331,14 +114331,14 @@
 .endobj lbl_804F6304
 
 # .data:0x5A798 | 0x804F6310 | size: 0x14
-.obj lbl_804F6310, global
+.obj String_"WidgetSpinBox_Menu", global
 	.string "WidgetSpinBox::Menu"
-.endobj lbl_804F6310
+.endobj String_"WidgetSpinBox_Menu"
 
 # .data:0x5A7AC | 0x804F6324 | size: 0x10
-.obj lbl_804F6324, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F6324
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5A7BC | 0x804F6334 | size: 0xC
 .obj lbl_804F6334, global
@@ -114407,9 +114407,9 @@
 .endobj lbl_804F63B4
 
 # .data:0x5A854 | 0x804F63CC | size: 0xC
-.obj lbl_804F63CC, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F63CC
+.endobj String_"WidgetSheet"
 
 # .data:0x5A860 | 0x804F63D8 | size: 0x14
 .obj lbl_804F63D8, global
@@ -114462,9 +114462,9 @@
 .endobj lbl_804F6434
 
 # .data:0x5A8C8 | 0x804F6440 | size: 0xC
-.obj lbl_804F6440, global
+.obj String_"carve_white", global
 	.string "carve_white"
-.endobj lbl_804F6440
+.endobj String_"carve_white"
 
 # .data:0x5A8D4 | 0x804F644C | size: 0x1C
 .obj lbl_804F644C, global
@@ -114478,9 +114478,9 @@
 .endobj lbl_804F644C
 
 # .data:0x5A8F0 | 0x804F6468 | size: 0xC
-.obj lbl_804F6468, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804F6468
+.endobj String_"WidgetLabel"
 
 # .data:0x5A8FC | 0x804F6474 | size: 0x1C
 .obj lbl_804F6474, global
@@ -114806,9 +114806,9 @@
 .endobj lbl_804F6834
 
 # .data:0x5ACC8 | 0x804F6840 | size: 0xC
-.obj lbl_804F6840, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F6840
+.endobj String_"SheetTexMgr"
 
 # .data:0x5ACD4 | 0x804F684C | size: 0x18
 .obj lbl_804F684C, global
@@ -114866,9 +114866,9 @@
 .endobj lbl_804F68A4
 
 # .data:0x5AD60 | 0x804F68D8 | size: 0x10
-.obj lbl_804F68D8, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F68D8
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5AD70 | 0x804F68E8 | size: 0xC
 .obj lbl_804F68E8, global
@@ -114946,9 +114946,9 @@
 .endobj lbl_804F6980
 
 # .data:0x5AE1C | 0x804F6994 | size: 0x10
-.obj lbl_804F6994, global
+.obj String_"WidgetButtonSet", global
 	.string "WidgetButtonSet"
-.endobj lbl_804F6994
+.endobj String_"WidgetButtonSet"
 
 # .data:0x5AE2C | 0x804F69A4 | size: 0xC
 .obj lbl_804F69A4, global
@@ -114958,9 +114958,9 @@
 .endobj lbl_804F69A4
 
 # .data:0x5AE38 | 0x804F69B0 | size: 0xC
-.obj lbl_804F69B0, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F69B0
+.endobj String_"WidgetSheet"
 
 # .data:0x5AE44 | 0x804F69BC | size: 0x14
 .obj lbl_804F69BC, global
@@ -115164,9 +115164,9 @@
 .endobj lbl_804F6C54
 
 # .data:0x5B0E8 | 0x804F6C60 | size: 0xC
-.obj lbl_804F6C60, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F6C60
+.endobj String_"SheetTexMgr"
 
 # .data:0x5B0F4 | 0x804F6C6C | size: 0x18
 .obj lbl_804F6C6C, global
@@ -115186,9 +115186,9 @@
 .endobj lbl_804F6C84
 
 # .data:0x5B118 | 0x804F6C90 | size: 0x10
-.obj lbl_804F6C90, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F6C90
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5B128 | 0x804F6CA0 | size: 0xC
 .obj lbl_804F6CA0, global
@@ -115205,9 +115205,9 @@
 .endobj lbl_804F6CAC
 
 # .data:0x5B140 | 0x804F6CB8 | size: 0xC
-.obj lbl_804F6CB8, global
+.obj String_"carve_white"_2, global
 	.string "carve_white"
-.endobj lbl_804F6CB8
+.endobj String_"carve_white"_2
 
 # .data:0x5B14C | 0x804F6CC4 | size: 0xC
 .obj lbl_804F6CC4, global
@@ -115233,14 +115233,14 @@
 .endobj lbl_804F6CE4
 
 # .data:0x5B178 | 0x804F6CF0 | size: 0x14
-.obj lbl_804F6CF0, global
+.obj String_"WidgetScaleSet_Sub", global
 	.string "WidgetScaleSet::Sub"
-.endobj lbl_804F6CF0
+.endobj String_"WidgetScaleSet_Sub"
 
 # .data:0x5B18C | 0x804F6D04 | size: 0xC
-.obj lbl_804F6D04, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F6D04
+.endobj String_"WidgetSheet"
 
 # .data:0x5B198 | 0x804F6D10 | size: 0x14
 .obj lbl_804F6D10, global
@@ -115363,9 +115363,9 @@
 .endobj lbl_804F6DFC
 
 # .data:0x5B2E8 | 0x804F6E60 | size: 0xC
-.obj lbl_804F6E60, global
+.obj String_"WidgetScale", global
 	.string "WidgetScale"
-.endobj lbl_804F6E60
+.endobj String_"WidgetScale"
 
 # .data:0x5B2F4 | 0x804F6E6C | size: 0x24
 .obj lbl_804F6E6C, global
@@ -115491,9 +115491,9 @@
 .endobj lbl_804F6FCC
 
 # .data:0x5B460 | 0x804F6FD8 | size: 0xC
-.obj lbl_804F6FD8, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F6FD8
+.endobj String_"SheetTexMgr"
 
 # .data:0x5B46C | 0x804F6FE4 | size: 0x18
 .obj lbl_804F6FE4, global
@@ -115513,9 +115513,9 @@
 .endobj lbl_804F6FFC
 
 # .data:0x5B490 | 0x804F7008 | size: 0x10
-.obj lbl_804F7008, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F7008
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5B4A0 | 0x804F7018 | size: 0xC
 .obj lbl_804F7018, global
@@ -115525,9 +115525,9 @@
 .endobj lbl_804F7018
 
 # .data:0x5B4AC | 0x804F7024 | size: 0xC
-.obj lbl_804F7024, global
+.obj String_"carve_white"_3, global
 	.string "carve_white"
-.endobj lbl_804F7024
+.endobj String_"carve_white"_3
 
 # .data:0x5B4B8 | 0x804F7030 | size: 0xC
 .obj lbl_804F7030, global
@@ -115558,9 +115558,9 @@
 .endobj lbl_804F7050
 
 # .data:0x5B4F8 | 0x804F7070 | size: 0xC
-.obj lbl_804F7070, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F7070
+.endobj String_"WidgetSheet"
 
 # .data:0x5B504 | 0x804F707C | size: 0x14
 .obj lbl_804F707C, global
@@ -115572,9 +115572,9 @@
 .endobj lbl_804F707C
 
 # .data:0x5B518 | 0x804F7090 | size: 0xC
-.obj lbl_804F7090, global
+.obj String_"WidgetGraph", global
 	.string "WidgetGraph"
-.endobj lbl_804F7090
+.endobj String_"WidgetGraph"
 
 # .data:0x5B524 | 0x804F709C | size: 0x1C
 .obj lbl_804F709C, global
@@ -115723,9 +115723,9 @@
 .endobj lbl_804F71F8
 
 # .data:0x5B6DC | 0x804F7254 | size: 0x18
-.obj lbl_804F7254, global
+.obj String_"WidgetConstantCurveEdit", global
 	.string "WidgetConstantCurveEdit"
-.endobj lbl_804F7254
+.endobj String_"WidgetConstantCurveEdit"
 
 # .data:0x5B6F4 | 0x804F726C | size: 0x1C
 .obj lbl_804F726C, global
@@ -115805,9 +115805,9 @@
 .endobj lbl_804F7344
 
 # .data:0x5B7D8 | 0x804F7350 | size: 0xC
-.obj lbl_804F7350, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F7350
+.endobj String_"SheetTexMgr"
 
 # .data:0x5B7E4 | 0x804F735C | size: 0x18
 .obj lbl_804F735C, global
@@ -115827,9 +115827,9 @@
 .endobj lbl_804F7374
 
 # .data:0x5B808 | 0x804F7380 | size: 0x10
-.obj lbl_804F7380, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F7380
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5B818 | 0x804F7390 | size: 0xC
 .obj lbl_804F7390, global
@@ -115839,9 +115839,9 @@
 .endobj lbl_804F7390
 
 # .data:0x5B824 | 0x804F739C | size: 0xC
-.obj lbl_804F739C, global
+.obj String_"carve_white"_4, global
 	.string "carve_white"
-.endobj lbl_804F739C
+.endobj String_"carve_white"_4
 
 # .data:0x5B830 | 0x804F73A8 | size: 0xC
 .obj lbl_804F73A8, global
@@ -116103,9 +116103,9 @@
 .endobj lbl_804F76C4
 
 # .data:0x5BB5C | 0x804F76D4 | size: 0xC
-.obj lbl_804F76D4, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F76D4
+.endobj String_"WidgetSheet"
 
 # .data:0x5BB68 | 0x804F76E0 | size: 0x14
 .obj lbl_804F76E0, global
@@ -116258,9 +116258,9 @@
 .endobj lbl_804F7878
 
 # .data:0x5BD20 | 0x804F7898 | size: 0xC
-.obj lbl_804F7898, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F7898
+.endobj String_"SheetTexMgr"
 
 # .data:0x5BD2C | 0x804F78A4 | size: 0x18
 .obj lbl_804F78A4, global
@@ -116318,9 +116318,9 @@
 .endobj lbl_804F78FC
 
 # .data:0x5BDB8 | 0x804F7930 | size: 0x10
-.obj lbl_804F7930, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F7930
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5BDC8 | 0x804F7940 | size: 0xC
 .obj lbl_804F7940, global
@@ -116382,9 +116382,9 @@
 .endobj lbl_804F79C0
 
 # .data:0x5BE54 | 0x804F79CC | size: 0x14
-.obj lbl_804F79CC, global
+.obj String_"Singleton_Template_TuningDB", global
 	.string "Singleton<TuningDB>"
-.endobj lbl_804F79CC
+.endobj String_"Singleton_Template_TuningDB"
 
 # .data:0x5BE68 | 0x804F79E0 | size: 0x50
 .obj lbl_804F79E0, global
@@ -116444,9 +116444,9 @@
 .endobj lbl_804F7A64
 
 # .data:0x5BEFC | 0x804F7A74 | size: 0xC
-.obj lbl_804F7A74, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F7A74
+.endobj String_"WidgetSheet"
 
 # .data:0x5BF08 | 0x804F7A80 | size: 0x14
 .obj lbl_804F7A80, global
@@ -116613,9 +116613,9 @@
 .endobj lbl_804F7B60
 
 # .data:0x5C118 | 0x804F7C90 | size: 0xC
-.obj lbl_804F7C90, global
+.obj String_"WidgetLabel", global
 	.string "WidgetLabel"
-.endobj lbl_804F7C90
+.endobj String_"WidgetLabel"
 
 # .data:0x5C124 | 0x804F7C9C | size: 0x88
 .obj lbl_804F7C9C, global
@@ -116656,9 +116656,9 @@
 .endobj lbl_804F7C9C
 
 # .data:0x5C1AC | 0x804F7D24 | size: 0xC
-.obj lbl_804F7D24, global
+.obj String_"WidgetEntry", global
 	.string "WidgetEntry"
-.endobj lbl_804F7D24
+.endobj String_"WidgetEntry"
 
 # .data:0x5C1B8 | 0x804F7D30 | size: 0x498
 .obj lbl_804F7D30, global
@@ -117223,9 +117223,9 @@
 .endobj lbl_804F853C
 
 # .data:0x5C9D0 | 0x804F8548 | size: 0xC
-.obj lbl_804F8548, global
+.obj String_"SheetTexMgr", global
 	.string "SheetTexMgr"
-.endobj lbl_804F8548
+.endobj String_"SheetTexMgr"
 
 # .data:0x5C9DC | 0x804F8554 | size: 0x18
 .obj lbl_804F8554, global
@@ -117245,9 +117245,9 @@
 .endobj lbl_804F856C
 
 # .data:0x5CA00 | 0x804F8578 | size: 0x10
-.obj lbl_804F8578, global
+.obj String_"FL_Tree_Template_Widget", global
 	.string "FL_Tree<Widget>"
-.endobj lbl_804F8578
+.endobj String_"FL_Tree_Template_Widget"
 
 # .data:0x5CA10 | 0x804F8588 | size: 0xC
 .obj lbl_804F8588, global
@@ -117297,9 +117297,9 @@
 .endobj lbl_804F85DC
 
 # .data:0x5CA7C | 0x804F85F4 | size: 0xC
-.obj lbl_804F85F4, global
+.obj String_"WidgetSheet", global
 	.string "WidgetSheet"
-.endobj lbl_804F85F4
+.endobj String_"WidgetSheet"
 
 # .data:0x5CA88 | 0x804F8600 | size: 0x14
 .obj lbl_804F8600, global
@@ -117311,9 +117311,9 @@
 .endobj lbl_804F8600
 
 # .data:0x5CA9C | 0x804F8614 | size: 0xC
-.obj lbl_804F8614, global
+.obj String_"WidgetGraph", global
 	.string "WidgetGraph"
-.endobj lbl_804F8614
+.endobj String_"WidgetGraph"
 
 # .data:0x5CAA8 | 0x804F8620 | size: 0x1C
 .obj lbl_804F8620, global
@@ -118303,9 +118303,9 @@
 .endobj gDBCommTable
 
 # .data:0x5D778 | 0x804F92F0 | size: 0x18
-.obj lbl_804F92F0, global
+.obj String_"DBExceptionDestination", global
 	.string "DBExceptionDestination\n"
-.endobj lbl_804F92F0
+.endobj String_"DBExceptionDestination"
 
 # .data:0x5D790 | 0x804F9308 | size: 0x80
 .obj lbl_804F9308, global
@@ -118428,9 +118428,9 @@
 .endobj lbl_804F9388
 
 # .data:0x5D950 | 0x804F94C8 | size: 0xC8
-.obj lbl_804F94C8, global
+.obj String_"DVDConvertEntrynumToPath()_Is_Out_Of_Date", global
 	.string "DVDConvertEntrynumToPath(possibly DVDOpen or DVDChangeDir or DVDOpenDir): specified directory or file (%s) doesn't match standard 8.3 format. This is a temporary restriction and will be removed soon\n"
-.endobj lbl_804F94C8
+.endobj String_"DVDConvertEntrynumToPath()_Is_Out_Of_Date"
 
 # .data:0x5DA18 | 0x804F9590 | size: 0x38
 .obj lbl_804F9590, global
@@ -118451,9 +118451,9 @@
 .endobj lbl_804F9590
 
 # .data:0x5DA50 | 0x804F95C8 | size: 0x34
-.obj lbl_804F95C8, global
+.obj String_"DVDReadAsync()_IsOutOfFile", global
 	.string "DVDReadAsync(): specified area is out of the file  "
-.endobj lbl_804F95C8
+.endobj String_"DVDReadAsync()_IsOutOfFile"
 
 # .data:0x5DA84 | 0x804F95FC | size: 0x34
 .obj lbl_804F95FC, global
@@ -118506,9 +118506,9 @@
 .endobj gap_07_804F9682_data
 
 # .data:0x5DB0C | 0x804F9684 | size: 0x34
-.obj lbl_804F9684, global
+.obj String_"DVDChangeDisk()_FSTInTheNewDiscIsTooBig", global
 	.string "DVDChangeDisk(): FST in the new disc is too big.   "
-.endobj lbl_804F9684
+.endobj String_"DVDChangeDisk()_FSTInTheNewDiscIsTooBig"
 
 # .data:0x5DB40 | 0x804F96B8 | size: 0x40
 .obj jumptable_804F96B8, global
@@ -118643,9 +118643,9 @@
 .endobj gap_07_804F9812_data
 
 # .data:0x5DCF0 | 0x804F9868 | size: 0x44
-.obj lbl_804F9868, global
+.obj String_"Dolphin_SDK_ReleaseBuild", global
 	.string "<< Dolphin SDK - GX\trelease build: Feb  7 2003 04:01:13 (0x2301) >>"
-.endobj lbl_804F9868
+.endobj String_"Dolphin_SDK_ReleaseBuild"
 
 # .data:0x5DD34 | 0x804F98AC | size: 0xD0
 .obj lbl_804F98AC, global
@@ -122151,9 +122151,9 @@
 .endobj lbl_804FCBC0
 
 # .data:0x61068 | 0x804FCBE0 | size: 0x44
-.obj lbl_804FCBE0, global
+.obj String_"Dolphin_SDK_ReleaseBuild"_2, global
 	.string "<< Dolphin SDK - SI\trelease build: Sep  5 2002 05:33:08 (0x2301) >>"
-.endobj lbl_804FCBE0
+.endobj String_"Dolphin_SDK_ReleaseBuild"_2
 
 # .data:0x610AC | 0x804FCC24 | size: 0x14
 .obj Si_804FCC24, global
@@ -128816,9 +128816,9 @@
 .endobj lbl_80502F64
 
 # .data:0x6740C | 0x80502F84 | size: 0x1C
-.obj lbl_80502F84, global
+.obj String_"UnexpectedTypeOfObj", global
 	.string "unexpected type of object.\n"
-.endobj lbl_80502F84
+.endobj String_"UnexpectedTypeOfObj"
 
 # .data:0x67428 | 0x80502FA0 | size: 0x30
 .obj jumptable_80502FA0, global
@@ -129892,14 +129892,14 @@
 .endobj lbl_80503CB4
 
 # .data:0x6816C | 0x80503CE4 | size: 0x18
-.obj lbl_80503CE4, global
+.obj String_"sysdolphin_base_library", global
 	.string "sysdolphin_base_library"
-.endobj lbl_80503CE4
+.endobj String_"sysdolphin_base_library"
 
 # .data:0x68184 | 0x80503CFC | size: 0x1C
-.obj lbl_80503CFC, global
+.obj String_"pix_fmt_IsNotEql_GX_PF_RGB565_Z16", global
 	.string "pix_fmt != GX_PF_RGB565_Z16"
-.endobj lbl_80503CFC
+.endobj String_"pix_fmt_IsNotEql_GX_PF_RGB565_Z16"
 
 # .data:0x681A0 | 0x80503D18 | size: 0xC
 .obj lbl_80503D18, global
@@ -130767,9 +130767,9 @@
 .endobj lbl_805047A8
 
 # .data:0x68C6C | 0x805047E4 | size: 0x38
-.obj lbl_805047E4, global
+.obj String_"class_infoPtr_head.obj_size_GreaterThenOrEqual_parent_infoPtr_head_obj_size", global
 	.string "class_info->head.obj_size >= parent_info->head.obj_size"
-.endobj lbl_805047E4
+.endobj String_"class_infoPtr_head.obj_size_GreaterThenOrEqual_parent_infoPtr_head_obj_size"
 
 # .data:0x68CA4 | 0x8050481C | size: 0x94
 .obj lbl_8050481C, global
@@ -130843,9 +130843,9 @@
 .endobj lbl_805048E0
 
 # .data:0x68D80 | 0x805048F8 | size: 0xC
-.obj lbl_805048F8, global
+.obj String_"class_String", global
 	.string "<class %s>\n"
-.endobj lbl_805048F8
+.endobj String_"class_String"
 
 # .data:0x68D8C | 0x80504904 | size: 0x34
 .obj lbl_80504904, global
@@ -131242,9 +131242,9 @@
 .endobj lbl_80504DAC
 
 # .data:0x69260 | 0x80504DD8 | size: 0xC
-.obj lbl_80504DD8, global
+.obj String_"gobjplink.c", global
 	.string "gobjplink.c"
-.endobj lbl_80504DD8
+.endobj String_"gobjplink.c"
 
 # .data:0x6926C | 0x80504DE4 | size: 0x2C
 .obj lbl_80504DE4, global
@@ -131330,9 +131330,9 @@
 .endobj lbl_80504EB0
 
 # .data:0x69348 | 0x80504EC0 | size: 0x30
-.obj lbl_80504EC0, global
+.obj String_"gobj_user_data_kind_EqualTo_HSD_GOBJ_USER_DATA_NONE", global
 	.string "gobj->user_data_kind == HSD_GOBJ_USER_DATA_NONE"
-.endobj lbl_80504EC0
+.endobj String_"gobj_user_data_kind_EqualTo_HSD_GOBJ_USER_DATA_NONE"
 
 # .data:0x69378 | 0x80504EF0 | size: 0x20
 .obj lbl_80504EF0, global
@@ -131591,9 +131591,9 @@
 .endobj lbl_8050521C
 
 # .data:0x696B8 | 0x80505230 | size: 0xC
-.obj lbl_80505230, global
+.obj String_"generator.c", global
 	.string "generator.c"
-.endobj lbl_80505230
+.endobj String_"generator.c"
 
 # .data:0x696C4 | 0x8050523C | size: 0xC
 .obj lbl_8050523C, global
@@ -131739,9 +131739,9 @@
 .endobj lbl_80505390
 
 # .data:0x6985C | 0x805053D4 | size: 0x24
-.obj lbl_805053D4, global
+.obj String_"linkNo_IsGreaterThen_0_And_LessThen_PS_NUM_LINK", global
 	.string "linkNo >= 0 && linkNo < PS_NUM_LINK"
-.endobj lbl_805053D4
+.endobj String_"linkNo_IsGreaterThen_0_And_LessThen_PS_NUM_LINK"
 
 # .data:0x69880 | 0x805053F8 | size: 0x268
 .obj lbl_805053F8, global
@@ -133796,9 +133796,9 @@
 .endobj lbl_80507368
 
 # .data:0x6B800 | 0x80507378 | size: 0x18
-.obj lbl_80507378, global
+.obj String_"Data_Address_Breakpoint", global
 	.string "Data Address Breakpoint"
-.endobj lbl_80507378
+.endobj String_"Data_Address_Breakpoint"
 
 # .data:0x6B818 | 0x80507390 | size: 0x18
 .obj lbl_80507390, global
@@ -133831,14 +133831,14 @@
 .endobj lbl_805073C8
 
 # .data:0x6B860 | 0x805073D8 | size: 0x20
-.obj lbl_805073D8, global
+.obj String_"Data_Access_Slash_Alignment_Exception", global
 	.string "Data Access/Alignment Exception"
-.endobj lbl_805073D8
+.endobj String_"Data_Access_Slash_Alignment_Exception"
 
 # .data:0x6B880 | 0x805073F8 | size: 0x10
-.obj lbl_805073F8, global
+.obj String_"External_Access", global
 	.string "External Access"
-.endobj lbl_805073F8
+.endobj String_"External_Access"
 
 # .data:0x6B890 | 0x80507408 | size: 0x20
 .obj lbl_80507408, global
@@ -133870,9 +133870,9 @@
 .endobj lbl_80507438
 
 # .data:0x6B8D4 | 0x8050744C | size: 0x14
-.obj lbl_8050744C, global
+.obj String_"Sample_Data_Address", global
 	.string "Sample Data Address"
-.endobj lbl_8050744C
+.endobj String_"Sample_Data_Address"
 
 # .data:0x6B8E8 | 0x80507460 | size: 0x14
 .obj lbl_80507460, global
@@ -133894,9 +133894,9 @@
 .endobj lbl_80507474
 
 # .data:0x6B914 | 0x8050748C | size: 0x1C
-.obj lbl_8050748C, global
+.obj String_"Machine_Status_Save_Slash_Restore", global
 	.string "Machine Status Save/Restore"
-.endobj lbl_8050748C
+.endobj String_"Machine_Status_Save_Slash_Restore"
 
 # .data:0x6B930 | 0x805074A8 | size: 0x18
 .obj lbl_805074A8, global
@@ -133985,9 +133985,9 @@
 .endobj lbl_80507564
 
 # .data:0x6BA08 | 0x80507580 | size: 0x1C
-.obj lbl_80507580, global
+.obj String_"Performance_Monitor_Counter", global
 	.string "Performance Monitor Counter"
-.endobj lbl_80507580
+.endobj String_"Performance_Monitor_Counter"
 
 # .data:0x6BA24 | 0x8050759C | size: 0x1C
 .obj lbl_8050759C, global
@@ -134017,15 +134017,15 @@
 	.4byte 0x64647265
 	.4byte 0x73730000
 	.4byte 0x00000009
-	.4byte lbl_805DCE28
+	.4byte String_"CTR"
 	.4byte lbl_80507368
 	.4byte 0x00000000
 	.4byte 0x000003F5
 	.4byte lbl_805DCE2C
-	.4byte lbl_80507378
+	.4byte String_"Data_Address_Breakpoint"
 	.4byte 0x00000000
 	.4byte 0x00000013
-	.4byte lbl_805DCE34
+	.4byte String_"DAR"
 	.4byte lbl_80507390
 	.4byte 0x00000000
 	.4byte 0x00000219
@@ -134061,16 +134061,16 @@
 	.4byte lbl_805073A8
 	.4byte fn_8043E01C
 	.4byte 0x00000016
-	.4byte lbl_805DCE78
+	.4byte String_"DEC"
 	.4byte lbl_805073C8
 	.4byte 0x00000000
 	.4byte 0x00000012
 	.4byte lbl_805DCE7C
-	.4byte lbl_805073D8
+	.4byte String_"Data_Access_Slash_Alignment_Exception"
 	.4byte fn_8043E6E8
 	.4byte 0x0000011A
-	.4byte lbl_805DCE84
-	.4byte lbl_805073F8
+	.4byte String_"EAR"
+	.4byte String_"External_Access"
 	.4byte 0x00000000
 	.4byte 0x00000211
 	.4byte lbl_805DCE88
@@ -134109,12 +134109,12 @@
 	.4byte lbl_80507428
 	.4byte 0x00000000
 	.4byte 0x0000011F
-	.4byte lbl_805DCECC
+	.4byte String_"PVR"
 	.4byte lbl_80507438
 	.4byte 0x00000000
 	.4byte 0x000003BF
-	.4byte lbl_805DCED0
-	.4byte lbl_8050744C
+	.4byte String_"SDA"
+	.4byte String_"Sample_Data_Address"
 	.4byte 0x00000000
 	.4byte 0x00000019
 	.4byte lbl_805DCED4
@@ -134138,18 +134138,18 @@
 	.4byte 0x00000000
 	.4byte 0x0000001A
 	.4byte lbl_805DCEFC
-	.4byte lbl_8050748C
+	.4byte String_"Machine_Status_Save_Slash_Restore"
 	.4byte fn_8043E6EC
 	.4byte 0x0000001B
 	.4byte lbl_805DCF04
-	.4byte lbl_8050748C
+	.4byte String_"Machine_Status_Save_Slash_Restore"
 	.4byte fn_8043E6EC
 	.4byte 0x000003AF
 	.4byte lbl_805DCF0C
-	.4byte lbl_8050744C
+	.4byte String_"Sample_Data_Address"
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte lbl_805DCF14
+	.4byte String_"XER"
 	.4byte lbl_805DCF18
 	.4byte fn_8043E6F0
 	.4byte 0x00000000
@@ -134230,22 +134230,22 @@
 	.4byte fn_8043E70C
 	.4byte 0x000003B9
 	.4byte lbl_805DCFAC
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003BA
 	.4byte lbl_805DCFB4
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003BD
 	.4byte lbl_805DCFBC
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003BE
 	.4byte lbl_805DCFC4
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003BB
-	.4byte lbl_805DCFCC
+	.4byte String_"SIA"
 	.4byte lbl_8050759C
 	.4byte 0x00000000
 	.4byte 0x000003FC
@@ -134270,19 +134270,19 @@
 	.4byte fn_8043E70C
 	.4byte 0x000003A9
 	.4byte lbl_805DCFF8
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003AA
 	.4byte lbl_805DD000
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003AD
 	.4byte lbl_805DD008
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003AE
 	.4byte lbl_805DD010
-	.4byte lbl_80507580
+	.4byte String_"Performance_Monitor_Counter"
 	.4byte fn_8043E710
 	.4byte 0x000003AB
 	.4byte lbl_805DD018
@@ -135061,49 +135061,49 @@
 .endobj jumptable_805084C4
 
 # .data:0x6C968 | 0x805084E0 | size: 0x18
-.obj lbl_805084E0, global
+.obj String_"ADDRESS_10h_UP", global
 	.string "ADDRESS - 10h      (UP)"
-.endobj lbl_805084E0
+.endobj String_"ADDRESS_10h_UP"
 
 # .data:0x6C980 | 0x805084F8 | size: 0x18
-.obj lbl_805084F8, global
+.obj String_"ADDRESS_10h_DOWN", global
 	.string "ADDRESS + 10h    (DOWN)"
-.endobj lbl_805084F8
+.endobj String_"ADDRESS_10h_DOWN"
 
 # .data:0x6C998 | 0x80508510 | size: 0x18
-.obj lbl_80508510, global
+.obj String_"ADDRESS_10h_LEFT", global
 	.string "ADDRESS - 40h    (LEFT)"
-.endobj lbl_80508510
+.endobj String_"ADDRESS_10h_LEFT"
 
 # .data:0x6C9B0 | 0x80508528 | size: 0x18
-.obj lbl_80508528, global
+.obj String_"ADDRESS_10h_RIGHT", global
 	.string "ADDRESS + 40h   (RIGHT)"
-.endobj lbl_80508528
+.endobj String_"ADDRESS_10h_RIGHT"
 
 # .data:0x6C9C8 | 0x80508540 | size: 0x18
-.obj lbl_80508540, global
+.obj String_"ADDRESS_A", global
 	.string "NEW ADDRESS         (A)"
-.endobj lbl_80508540
+.endobj String_"ADDRESS_A"
 
 # .data:0x6C9E0 | 0x80508558 | size: 0x18
-.obj lbl_80508558, global
+.obj String_"Dump_To_Console_X", global
 	.string "DUMP TO CONSOLE     (X)"
-.endobj lbl_80508558
+.endobj String_"Dump_To_Console_X"
 
 # .data:0x6C9F8 | 0x80508570 | size: 0x18
-.obj lbl_80508570, global
+.obj String_"Close_B", global
 	.string "CLOSE               (B)"
-.endobj lbl_80508570
+.endobj String_"Close_B"
 
 # .data:0x6CA10 | 0x80508588 | size: 0x20
 .obj lbl_80508588, global
-	.4byte lbl_805084E0
-	.4byte lbl_805084F8
-	.4byte lbl_80508510
-	.4byte lbl_80508528
-	.4byte lbl_80508540
-	.4byte lbl_80508558
-	.4byte lbl_80508570
+	.4byte String_"ADDRESS_10h_UP"
+	.4byte String_"ADDRESS_10h_DOWN"
+	.4byte String_"ADDRESS_10h_LEFT"
+	.4byte String_"ADDRESS_10h_RIGHT"
+	.4byte String_"ADDRESS_A"
+	.4byte String_"Dump_To_Console_X"
+	.4byte String_"Close_B"
 	.4byte 0x00000000
 .endobj lbl_80508588
 
@@ -135295,9 +135295,9 @@
 .endobj lbl_80508770
 
 # .data:0x6CC1C | 0x80508794 | size: 0x28
-.obj lbl_80508794, global
+.obj String_"BL_WithOtherFlags_FormaterStr", global
 	.string "| %d BL xxxxxxxxxxx  %c%c %c%c%c%c %s |"
-.endobj lbl_80508794
+.endobj String_"BL_WithOtherFlags_FormaterStr"
 
 # .data:0x6CC44 | 0x805087BC | size: 0x1C
 .obj lbl_805087BC, global
@@ -135344,9 +135344,9 @@
 .endobj lbl_80508814
 
 # .data:0x6CCB4 | 0x8050882C | size: 0x10
-.obj lbl_8050882C, global
+.obj String_"FourDecimel_StringFlags_FormaterStr", global
 	.string "|%4d %s%s %08X|"
-.endobj lbl_8050882C
+.endobj String_"FourDecimel_StringFlags_FormaterStr"
 
 # .data:0x6CCC4 | 0x8050883C | size: 0x18
 .obj lbl_8050883C, global
@@ -135508,9 +135508,9 @@
 .endobj lbl_805089E8
 
 # .data:0x6CE7C | 0x805089F4 | size: 0x1C
-.obj lbl_805089F4, global
+.obj String_"axfxallocsize_LessThen_axfxmaxsize", global
 	.string "axfxallocsize < axfxmaxsize"
-.endobj lbl_805089F4
+.endobj String_"axfxallocsize_LessThen_axfxmaxsize"
 
 # .data:0x6CE98 | 0x80508A10 | size: 0xC
 .obj lbl_80508A10, global
@@ -135802,9 +135802,9 @@
 .endobj lbl_80508D58
 
 # .data:0x6D28C | 0x80508E04 | size: 0x2C
-.obj lbl_80508E04, global
+.obj String_"Max_InvalidBankID_Filename_FormaterStr", global
 	.string "max=%d: invalid bankID = %d; filename = %s\n"
-.endobj lbl_80508E04
+.endobj String_"Max_InvalidBankID_Filename_FormaterStr"
 
 # .data:0x6D2B8 | 0x80508E30 | size: 0x4FC
 .obj lbl_80508E30, global
@@ -136138,19 +136138,19 @@
 .endobj lbl_8050932C
 
 # .data:0x6D7C4 | 0x8050933C | size: 0x1C
-.obj lbl_8050933C, global
+.obj String_"Program_streaming_dropped", global
 	.string "Program streaming dropped.\n"
-.endobj lbl_8050933C
+.endobj String_"Program_streaming_dropped"
 
 # .data:0x6D7E0 | 0x80509358 | size: 0x20
-.obj lbl_80509358, global
+.obj String_"flag_GreaterThenEqual_0_And_flag_LessThen_USERVOL_NUM", global
 	.string "flag >= 0 && flag < USERVOL_NUM"
-.endobj lbl_80509358
+.endobj String_"flag_GreaterThenEqual_0_And_flag_LessThen_USERVOL_NUM"
 
 # .data:0x6D800 | 0x80509378 | size: 0x20
-.obj lbl_80509378, global
+.obj String_"flag_GreaterThenEqual_0_And_flag_LessThen_USERPAN_NUM", global
 	.string "flag >= 0 && flag < USERPAN_NUM"
-.endobj lbl_80509378
+.endobj String_"flag_GreaterThenEqual_0_And_flag_LessThen_USERPAN_NUM"
 
 # .data:0x6D820 | 0x80509398 | size: 0x18
 .obj lbl_80509398, global
@@ -177712,9 +177712,9 @@
 .endobj lbl_80531E40
 
 # .data:0x962E8 | 0x80531E60 | size: 0x50
-.obj lbl_80531E60, global
+.obj String_"GCP_MemCard_Preload_Region_FormaterString", global
 	.string "[GCP_MemCard] preload [OK] : region[%2d], sector2block[%2d] = %2d, serial : %d\n"
-.endobj lbl_80531E60
+.endobj String_"GCP_MemCard_Preload_Region_FormaterString"
 
 # .data:0x96338 | 0x80531EB0 | size: 0x214
 .obj lbl_80531EB0, global
@@ -177854,9 +177854,9 @@
 .endobj lbl_80531EB0
 
 # .data:0x9654C | 0x805320C4 | size: 0x48
-.obj lbl_805320C4, global
+.obj String_"GCP_MemCard_Del_Sector2Block_FormaterString", global
 	.string "[GCP_MemCard] del  sector2block[%2d] = %d (%2d), serial:%d != %d ,, %d\n"
-.endobj lbl_805320C4
+.endobj String_"GCP_MemCard_Del_Sector2Block_FormaterString"
 
 # .data:0x96594 | 0x8053210C | size: 0x34
 .obj lbl_8053210C, global
@@ -178049,9 +178049,9 @@
 .endobj gap_07_8053230C_data
 
 # .data:0x967D8 | 0x80532350 | size: 0x18
-.obj lbl_80532350, global
+.obj String_"thread_start_pri", global
 	.string "thread start pri is %d\n"
-.endobj lbl_80532350
+.endobj String_"thread_start_pri"
 
 # .data:0x967F0 | 0x80532368 | size: 0x34
 .obj lbl_80532368, global
@@ -180018,9 +180018,9 @@
 .endobj gap_07_805340BC_data
 
 # .data:0x98548 | 0x805340C0 | size: 0x44
-.obj lbl_805340C0, global
+.obj String_"Dolphin_SDK_Build"_3, global
 	.string "<< Dolphin SDK - IP\trelease build: Jun  4 2003 12:04:06 (0x2301) >>"
-.endobj lbl_805340C0
+.endobj String_"Dolphin_SDK_Build"_3
 
 # .data:0x9858C | 0x80534104 | size: 0x14
 .obj lbl_80534104, global
@@ -180125,9 +180125,9 @@
 .endobj lbl_80534238
 
 # .data:0x986D0 | 0x80534248 | size: 0xC
-.obj lbl_80534248, global
+.obj String_"UIntFlag_UIntFlag_UIntFlag_UIntFlag_FormaterStr", global
 	.string "%u.%u.%u.%u"
-.endobj lbl_80534248
+.endobj String_"UIntFlag_UIntFlag_UIntFlag_UIntFlag_FormaterStr"
 
 # .data:0x986DC | 0x80534254 | size: 0xC
 .obj lbl_80534254, global
@@ -180780,9 +180780,9 @@
 .endobj lbl_80534D40
 
 # .data:0x991D4 | 0x80534D4C | size: 0x14
-.obj lbl_80534D4C, global
+.obj String_"Switching_Protocols", global
 	.string "Switching Protocols"
-.endobj lbl_80534D4C
+.endobj String_"Switching_Protocols"
 
 # .data:0x991E8 | 0x80534D60 | size: 0xC
 .obj lbl_80534D60, global
@@ -180825,7 +180825,7 @@
 	.4byte 0x436F6E74
 	.4byte 0x656E7400
 	.4byte lbl_805DD320
-	.4byte lbl_805DD324
+	.4byte String_"Created"
 	.4byte lbl_80534D60
 	.4byte lbl_80534D6C
 	.4byte lbl_80534D8C
@@ -180891,9 +180891,9 @@
 .endobj lbl_80534E24
 
 # .data:0x992E0 | 0x80534E58 | size: 0xC
-.obj lbl_80534E58, global
+.obj String_"Bad_Request", global
 	.string "Bad Request"
-.endobj lbl_80534E58
+.endobj String_"Bad_Request"
 
 # .data:0x992EC | 0x80534E64 | size: 0x10
 .obj lbl_80534E64, global
@@ -180956,9 +180956,9 @@
 .endobj lbl_80534EC4
 
 # .data:0x9936C | 0x80534EE4 | size: 0x10
-.obj lbl_80534EE4, global
+.obj String_"Request_Timeout", global
 	.string "Request Timeout"
-.endobj lbl_80534EE4
+.endobj String_"Request_Timeout"
 
 # .data:0x9937C | 0x80534EF4 | size: 0xC
 .obj lbl_80534EF4, global
@@ -180968,14 +180968,14 @@
 .endobj lbl_80534EF4
 
 # .data:0x99388 | 0x80534F00 | size: 0x10
-.obj lbl_80534F00, global
+.obj String_"Length_Required", global
 	.string "Length Required"
-.endobj lbl_80534F00
+.endobj String_"Length_Required"
 
 # .data:0x99398 | 0x80534F10 | size: 0x14
-.obj lbl_80534F10, global
+.obj String_"Precondition_Failed", global
 	.string "Precondition Failed"
-.endobj lbl_80534F10
+.endobj String_"Precondition_Failed"
 
 # .data:0x993AC | 0x80534F24 | size: 0x1C
 .obj lbl_80534F24, global
@@ -181009,9 +181009,9 @@
 .endobj lbl_80534F58
 
 # .data:0x993F8 | 0x80534F70 | size: 0x20
-.obj lbl_80534F70, global
+.obj String_"Requested_Range_Not_Satisfiable", global
 	.string "Requested Range Not Satisfiable"
-.endobj lbl_80534F70
+.endobj String_"Requested_Range_Not_Satisfiable"
 
 # .data:0x99418 | 0x80534F90 | size: 0x5C
 .obj lbl_80534F90, global
@@ -181020,7 +181020,7 @@
 	.4byte 0x696F6E20
 	.4byte 0x4661696C
 	.4byte 0x65640000
-	.4byte lbl_80534E58
+	.4byte String_"Bad_Request"
 	.4byte lbl_80534E64
 	.4byte lbl_80534E74
 	.4byte lbl_80534E88
@@ -181028,15 +181028,15 @@
 	.4byte lbl_80534EA0
 	.4byte lbl_80534EB4
 	.4byte lbl_80534EC4
-	.4byte lbl_80534EE4
+	.4byte String_"Request_Timeout"
 	.4byte lbl_80534EF4
 	.4byte lbl_805DD338
-	.4byte lbl_80534F00
-	.4byte lbl_80534F10
+	.4byte String_"Length_Required"
+	.4byte String_"Precondition_Failed"
 	.4byte lbl_80534F24
 	.4byte lbl_80534F40
 	.4byte lbl_80534F58
-	.4byte lbl_80534F70
+	.4byte String_"Requested_Range_Not_Satisfiable"
 	.4byte lbl_80534F90
 .endobj lbl_80534F90
 
@@ -181051,24 +181051,24 @@
 .endobj lbl_80534FEC
 
 # .data:0x9948C | 0x80535004 | size: 0x10
-.obj lbl_80535004, global
+.obj String_"Not_Implemented", global
 	.string "Not Implemented"
-.endobj lbl_80535004
+.endobj String_"Not_Implemented"
 
 # .data:0x9949C | 0x80535014 | size: 0xC
-.obj lbl_80535014, global
+.obj String_"Bad_Gateway", global
 	.string "Bad Gateway"
-.endobj lbl_80535014
+.endobj String_"Bad_Gateway"
 
 # .data:0x994A8 | 0x80535020 | size: 0x14
-.obj lbl_80535020, global
+.obj String_"Service_Unavailable", global
 	.string "Service Unavailable"
-.endobj lbl_80535020
+.endobj String_"Service_Unavailable"
 
 # .data:0x994BC | 0x80535034 | size: 0x10
-.obj lbl_80535034, global
+.obj String_"Gateway_Timeout", global
 	.string "Gateway Timeout"
-.endobj lbl_80535034
+.endobj String_"Gateway_Timeout"
 
 # .data:0x994CC | 0x80535044 | size: 0x34
 .obj lbl_80535044, global
@@ -181080,10 +181080,10 @@
 	.4byte 0x706F7274
 	.4byte 0x65640000
 	.4byte lbl_80534FEC
-	.4byte lbl_80535004
-	.4byte lbl_80535014
-	.4byte lbl_80535020
-	.4byte lbl_80535034
+	.4byte String_"Not_Implemented"
+	.4byte String_"Bad_Gateway"
+	.4byte String_"Service_Unavailable"
+	.4byte String_"Gateway_Timeout"
 	.4byte lbl_80535044
 .endobj lbl_80535044
 
@@ -181262,13 +181262,13 @@
 .endobj lbl_80535210
 
 # .data:0x996B0 | 0x80535228 | size: 0x10
-.obj lbl_80535228, global
+.obj String_"upnp_rootdevice", global
 	.string "upnp:rootdevice"
-.endobj lbl_80535228
+.endobj String_"upnp_rootdevice"
 
 # .data:0x996C0 | 0x80535238 | size: 0x28
 .obj lbl_80535238, global
-	.4byte lbl_80535228
+	.4byte String_"upnp_rootdevice"
 	.4byte fn_80488DDC
 	.4byte 0x00000000
 	.4byte 0x00000000

@@ -22553,12 +22553,12 @@
 
 # .sdata2:0x5038 | 0x805E3738 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1sp_STAR1500.tm, global
-	.4byte lbl_804D11F8
+	.4byte String_"STAR1500.tm"
 .endobj STRUCT_BYTE4_COUNT_1sp_STAR1500.tm
 
 # .sdata2:0x503C | 0x805E373C | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1sp_STAR1600.tm, global
-	.4byte lbl_804D1204
+	.4byte String_"STAR1600.tm"
 .endobj STRUCT_BYTE4_COUNT_1sp_STAR1600.tm
 
 # .sdata2:0x5040 | 0x805E3740 | size: 0x8

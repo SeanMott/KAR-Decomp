@@ -2527,79 +2527,79 @@
 .endobj String_jp/map_heat.ssm
 
 # .data:0x1E80 | 0x80498C50 | size: 0x10
-.obj lbl_80498C50, global
+.obj MemoryOffset_205, global
 	.4byte 0x6A702F6D
 	.4byte 0x61705F69
 	.4byte 0x63652E73
 	.4byte 0x736D0000
-.endobj lbl_80498C50
+.endobj MemoryOffset_205
 
 # .data:0x1E90 | 0x80498C60 | size: 0x14
-.obj lbl_80498C60, global
+.obj MemoryOffset_206, global
 	.4byte 0x6A702F6D
 	.4byte 0x61705F6D
 	.4byte 0x61636869
 	.4byte 0x6E652E73
 	.4byte 0x736D0000
-.endobj lbl_80498C60
+.endobj MemoryOffset_206
 
 # .data:0x1EA4 | 0x80498C74 | size: 0x14
-.obj lbl_80498C74, global
+.obj MemoryOffset_207, global
 	.4byte 0x6A702F6D
 	.4byte 0x61705F70
 	.4byte 0x6C616E74
 	.4byte 0x732E7373
 	.4byte 0x6D000000
-.endobj lbl_80498C74
+.endobj MemoryOffset_207
 
 # .data:0x1EB8 | 0x80498C88 | size: 0x10
-.obj lbl_80498C88, global
+.obj MemoryOffset_208, global
 	.4byte 0x6A702F6D
 	.4byte 0x61705F73
 	.4byte 0x6B792E73
 	.4byte 0x736D0000
-.endobj lbl_80498C88
+.endobj MemoryOffset_208
 
 # .data:0x1EC8 | 0x80498C98 | size: 0x14
-.obj lbl_80498C98, global
+.obj MemoryOffset_209, global
 	.4byte 0x6A702F6D
 	.4byte 0x61705F73
 	.4byte 0x70616365
 	.4byte 0x2E73736D
 	.4byte 0x00000000
-.endobj lbl_80498C98
+.endobj MemoryOffset_209
 
 # .data:0x1EDC | 0x80498CAC | size: 0x14
-.obj lbl_80498CAC, global
+.obj MemoryOffset_210, global
 	.4byte 0x6A702F6D
 	.4byte 0x61705F76
 	.4byte 0x616C6C65
 	.4byte 0x792E7373
 	.4byte 0x6D000000
-.endobj lbl_80498CAC
+.endobj MemoryOffset_210
 
 # .data:0x1EF0 | 0x80498CC0 | size: 0xC
-.obj lbl_80498CC0, global
+.obj String_jp/menu.ssm, global
 	.string "jp/menu.ssm"
-.endobj lbl_80498CC0
+.endobj String_jp/menu.ssm
 
 # .data:0x1EFC | 0x80498CCC | size: 0x10
-.obj lbl_80498CCC, global
+.obj MemoryOffset_211, global
 	.4byte 0x6A702F70
 	.4byte 0x696E666F
 	.4byte 0x2E73736D
 	.4byte 0x00000000
-.endobj lbl_80498CCC
+.endobj MemoryOffset_211
 
 # .data:0x1F0C | 0x80498CDC | size: 0xC
-.obj lbl_80498CDC, global
+.obj String_jp/star.ssm, global
 	.string "jp/star.ssm"
-.endobj lbl_80498CDC
+.endobj String_jp/star.ssm
 
 # .data:0x1F18 | 0x80498CE8 | size: 0xC
-.obj lbl_80498CE8, global
+.obj String_jp/zako.ssm, global
 	.string "jp/zako.ssm"
-.endobj lbl_80498CE8
+.endobj String_jp/zako.ssm
 
 # .data:0x1F24 | 0x80498CF4 | size: 0x160
 .obj NULL_00000003h_2, global
@@ -2650,43 +2650,43 @@
 	.4byte 0x0000000B
 	.4byte 0x00000001
 	.4byte 0x0002C7A0
-	.4byte lbl_80498C50
+	.4byte MemoryOffset_205
 	.4byte 0x0000000C
 	.4byte 0x00000001
 	.4byte 0x00044440
-	.4byte lbl_80498C60
+	.4byte MemoryOffset_206
 	.4byte 0x0000000D
 	.4byte 0x00000001
 	.4byte 0x0002FA80
-	.4byte lbl_80498C74
+	.4byte MemoryOffset_207
 	.4byte 0x0000000E
 	.4byte 0x00000001
 	.4byte 0x000419C0
-	.4byte lbl_80498C88
+	.4byte MemoryOffset_208
 	.4byte 0x0000000F
 	.4byte 0x00000001
 	.4byte 0x00023100
-	.4byte lbl_80498C98
+	.4byte MemoryOffset_209
 	.4byte 0x00000010
 	.4byte 0x00000001
 	.4byte 0x00039580
-	.4byte lbl_80498CAC
+	.4byte MemoryOffset_210
 	.4byte 0x00000011
 	.4byte 0x00000001
 	.4byte 0x000634A0
-	.4byte lbl_80498CC0
+	.4byte String_jp/menu.ssm
 	.4byte 0x00000012
 	.4byte 0x00000001
 	.4byte 0x000B2AA0
-	.4byte lbl_80498CCC
+	.4byte MemoryOffset_211
 	.4byte 0x00000013
 	.4byte 0x00000001
 	.4byte 0x0017EAE0
-	.4byte lbl_80498CDC
+	.4byte String_jp/star.ssm
 	.4byte 0x00000014
 	.4byte 0x00000001
 	.4byte 0x0007C7C0
-	.4byte lbl_80498CE8
+	.4byte String_jp/zako.ssm
 	.4byte 0x00000015
 	.4byte 0x00000000
 	.4byte 0x00000000

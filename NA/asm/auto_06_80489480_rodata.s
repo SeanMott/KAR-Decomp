@@ -137,18 +137,18 @@
 
 # .rodata:0x198 | 0x80489618 | size: 0x30
 .obj STRUCT_VALUE_4BYTE_8, global
-	.4byte lbl_805D51F8
-	.4byte lbl_805D51FC
-	.4byte lbl_805D5200
-	.4byte lbl_805D5204
-	.4byte lbl_805D5208
-	.4byte lbl_805D520C
-	.4byte lbl_805D5210
-	.4byte lbl_805D5214
-	.4byte lbl_805D5218
-	.4byte lbl_805D521C
-	.4byte lbl_805D5220
-	.4byte lbl_805D5224
+	.4byte String_"Jan"
+	.4byte String_"Feb"
+	.4byte String_"Mar"
+	.4byte String_"Apr"
+	.4byte String_"May"
+	.4byte String_"Jun"
+	.4byte String_"Jul"
+	.4byte String_"Aug"
+	.4byte String_"Sep"
+	.4byte String_"Oct"
+	.4byte String_"Nov"
+	.4byte String_"Dec"
 .endobj STRUCT_VALUE_4BYTE_8
 
 # .rodata:0x1C8 | 0x80489648 | size: 0x620
@@ -202,10 +202,10 @@
 	.4byte lbl_80499EC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499ED0
+	.4byte String_"RdKirby.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EDC
+	.4byte String_"IfAll1c.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499EE8
@@ -214,19 +214,19 @@
 	.4byte lbl_80499EF8
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F0C
+	.4byte String_"EmBroomData.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F1C
+	.4byte String_"EmBrontData.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F2C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F40
+	.4byte String_"EmSwordData.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F50
+	.4byte String_"EmCappyData.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F60
@@ -235,7 +235,7 @@
 	.4byte lbl_80499F74
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F88
+	.4byte String_"EmNoddyData.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F98
@@ -247,7 +247,7 @@
 	.4byte lbl_80499FC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499FD4
+	.4byte String_"EmGordoData.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499FE4
@@ -298,10 +298,10 @@
 	.4byte lbl_80499EC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499ED0
+	.4byte String_"RdKirby.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EDC
+	.4byte String_"IfAll1c.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499EE8
@@ -313,7 +313,7 @@
 	.4byte lbl_8049A03C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A048
+	.4byte String_"VcStarDevil.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A058
@@ -322,13 +322,13 @@
 	.4byte lbl_8049A06C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A080
+	.4byte String_"VcStarHeavy.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A090
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0A0
+	.4byte String_"VcStarLight.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A0B0
@@ -337,16 +337,16 @@
 	.4byte lbl_8049A0C4
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0D8
+	.4byte String_"VcStarRuins.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0E8
+	.4byte String_"VcStarSlick.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0F8
+	.4byte String_"VcStarTurbo.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A108
+	.4byte String_"VcStarWagon.dat"
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A118
@@ -355,7 +355,7 @@
 	.4byte lbl_8049A128
 	.4byte 0x00000000
 	.4byte 0x01000000
-	.4byte lbl_8049A134
+	.4byte String_"A2Kirby.dat"
 	.4byte 0x00000000
 	.4byte 0x01000000
 	.4byte lbl_8049A140
@@ -410,11 +410,11 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x02020000
-	.4byte lbl_8049A1C4
+	.4byte String_"VcWheel.dat"
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x02020000
-	.4byte lbl_8049A1D0
+	.4byte String_"VcWingKirby.dat"
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x02020000
@@ -467,7 +467,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499ED0
+	.4byte String_"RdKirby.dat"
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
@@ -531,7 +531,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20010000
-	.4byte lbl_8049A134
+	.4byte String_"A2Kirby.dat"
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20010000
@@ -1056,10 +1056,10 @@
 	.4byte lbl_805D8DD8
 	.4byte lbl_805D8DE0
 	.4byte lbl_805D8DE8
-	.4byte lbl_805D8DF0
-	.4byte lbl_805D8DF8
-	.4byte lbl_805D8E00
-	.4byte lbl_805D8E08
+	.4byte String_"abasep1"
+	.4byte String_"abasep2"
+	.4byte String_"abasep3"
+	.4byte String_"abasep4"
 	.4byte lbl_805D8E10
 	.4byte lbl_805D8E18
 	.4byte lbl_805D8E20
@@ -1116,13 +1116,13 @@
 
 # .rodata:0xDB0 | 0x8048A230 | size: 0x20
 .obj StructWithStructs_4, global
-	.4byte lbl_804D1544
-	.4byte lbl_804D1550
-	.4byte lbl_804D155C
-	.4byte lbl_804D1568
-	.4byte lbl_804D1574
-	.4byte lbl_804D1580
-	.4byte lbl_804D158C
+	.4byte String_"AC_1P_COLOR"
+	.4byte String_"AC_2P_COLOR"
+	.4byte String_"AC_3P_COLOR"
+	.4byte String_"AC_4P_COLOR"
+	.4byte String_"AC_5P_COLOR"
+	.4byte String_"AC_6P_COLOR"
+	.4byte String_"AC_7P_COLOR"
 	.4byte lbl_804D1598
 .endobj StructWithStructs_4
 
@@ -1140,16 +1140,16 @@
 	.4byte lbl_804D87AC
 	.4byte lbl_804D87B8
 	.4byte lbl_804D87C4
-	.4byte lbl_804D87D0
+	.4byte String_"AC_RUN_LOOP"
 	.4byte lbl_804D87DC
 	.4byte lbl_804D87EC
 	.4byte lbl_804D87F8
 	.4byte lbl_804D8808
-	.4byte lbl_804D8814
+	.4byte String_"AC_RUN_HURI"
 	.4byte lbl_804D8820
 	.4byte lbl_804D8830
 	.4byte String_"ACPush"2
-	.4byte lbl_804D8840
+	.4byte String_"AC_PUSH_END"
 	.4byte lbl_804D884C
 	.4byte lbl_804D885C
 	.4byte lbl_804D8870
@@ -1161,10 +1161,10 @@
 	.4byte lbl_804D88CC
 	.4byte lbl_804D88E0
 	.4byte lbl_804D88F8
-	.4byte lbl_804D8910
+	.4byte String_"AC_SPINATTACK_R_END"
 	.4byte lbl_804D8924
 	.4byte lbl_804D893C
-	.4byte lbl_804D8954
+	.4byte String_"AC_SPINATTACK_L_END"
 	.4byte lbl_804D8968
 	.4byte lbl_804D8974
 	.4byte lbl_804D8980
@@ -1172,8 +1172,8 @@
 	.4byte lbl_804D8998
 	.4byte lbl_804D89A4
 	.4byte lbl_804D89B0
-	.4byte lbl_804D89C0
-	.4byte lbl_804D89CC
+	.4byte String_"AC_JUMP_END"
+	.4byte String_"AC_TOBASARE"
 	.4byte lbl_804D89D8
 	.4byte lbl_804D89E4
 	.4byte lbl_804D89F0
@@ -1181,12 +1181,12 @@
 	.4byte lbl_804D8A0C
 	.4byte lbl_804D8A18
 	.4byte lbl_804D8A28
-	.4byte lbl_804D8A38
+	.4byte String_"AC_FLAT_END"
 	.4byte lbl_804D8A44
 	.4byte lbl_804D8A58
-	.4byte lbl_804D8A6C
+	.4byte String_"AC_MACRON_START"
 	.4byte lbl_804D8A7C
-	.4byte lbl_804D8A8C
+	.4byte String_"AC_FDRILL_START"
 	.4byte lbl_804D8A9C
 	.4byte lbl_804D8AAC
 	.4byte lbl_804D8ABC
@@ -1198,15 +1198,15 @@
 	.4byte lbl_804D8B24
 	.4byte lbl_804D8B38
 	.4byte lbl_804D8B4C
-	.4byte lbl_804D8B5C
+	.4byte String_"AC_GRE_RUN_LOOP"
 	.4byte lbl_804D8B6C
 	.4byte lbl_804D8B7C
 	.4byte lbl_804D8B8C
-	.4byte lbl_804D8B9C
+	.4byte String_"AC_GRE_FIRE"
 	.4byte lbl_804D8BA8
 	.4byte lbl_804D8BBC
 	.4byte lbl_804D8BD0
-	.4byte lbl_804D8BE4
+	.4byte String_"AC_GRE_PUSH"
 	.4byte lbl_804D8BF0
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -2374,11 +2374,11 @@
 	.4byte 0x00000001
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
-	.4byte lbl_805DC0D8
+	.4byte String_"IA4"
 	.4byte 0x00000002
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
-	.4byte lbl_805DC0DC
+	.4byte String_"IA8"
 	.4byte 0x00000003
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
@@ -3665,9 +3665,9 @@
 	.4byte fn_HSD_DListGetAllocData
 	.4byte lbl_805DCBEC
 	.4byte fn_HSD_VecGetAllocData
-	.4byte lbl_805DCBF4
+	.4byte String_"vec"
 	.4byte fn_HSD_MtxGetAllocData
-	.4byte lbl_805DCBF8
+	.4byte String_"mtx"
 	.4byte fn_HSD_RObjGetAllocData
 	.4byte lbl_805DCBFC
 	.4byte fn_HSD_RvalueObjGetAllocData
@@ -3773,14 +3773,14 @@
 
 # .rodata:0x31A0 | 0x8048C620 | size: 0x20
 .obj StructWithStructs_11, global
-	.4byte lbl_805DD2D4
-	.4byte lbl_805DD2D8
+	.4byte String_"GET"
+	.4byte String_"PUT"
 	.4byte lbl_805DD2DC
 	.4byte lbl_805DD2E4
 	.4byte lbl_805DD2EC
 	.4byte lbl_805DD2F4
-	.4byte lbl_805DD2FC
-	.4byte lbl_805DD304
+	.4byte String_"CONNECT"
+	.4byte String_"OPTIONS"
 .endobj StructWithStructs_11
 
 # .rodata:0x31C0 | 0x8048C640 | size: 0x40
