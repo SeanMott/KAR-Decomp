@@ -1,11 +1,11 @@
-MemoryOffset_609
+MemoryOffset_641
 
 AllZeros_48
 AllFs_7
 
 ByteArray_12
 
-StructWithStructs_49
+StructWithStructs_51
 
 StructValues_57
 StructValues_Double_3
@@ -15,7 +15,7 @@ StructValues_Byte_6
 StructValues_String_2
 StructValues_FormaterString_2
 
-StructWithFuncPtrs_16
+StructWithFuncPtrs_22
 
 StructWithFuncPtrs_HSD_1
 
