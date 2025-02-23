@@ -23713,7 +23713,7 @@
 
 # .sdata:0x7770 | 0x805DC850 | size: 0x8
 .obj lbl_805DC850, global
-	.4byte lbl_8048B598
+	.4byte MemoryOffset_66
 	.4byte 0x00000000
 .endobj lbl_805DC850
 
@@ -23729,13 +23729,13 @@
 
 # .sdata:0x7780 | 0x805DC860 | size: 0x8
 .obj lbl_805DC860, global
-	.4byte lbl_8048B5DC
+	.4byte MemoryOffset_69
 	.4byte 0x00000000
 .endobj lbl_805DC860
 
 # .sdata:0x7788 | 0x805DC868 | size: 0x8
 .obj lbl_805DC868, global
-	.4byte lbl_8048B5EC
+	.4byte MemoryOffset_70
 	.4byte lbl_804F8740
 .endobj lbl_805DC868
 

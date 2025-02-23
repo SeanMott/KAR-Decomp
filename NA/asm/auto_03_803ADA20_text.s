@@ -7,8 +7,8 @@
 
 # .text:0x0 | 0x803ADA20 | size: 0xC
 .fn fn_803ADA20, global
-/* 803ADA20 003AA820  3C 60 80 49 */	lis r3, lbl_8048B5FC@ha
-/* 803ADA24 003AA824  38 63 B5 FC */	addi r3, r3, lbl_8048B5FC@l
+/* 803ADA20 003AA820  3C 60 80 49 */	lis r3, MemoryOffset_71@ha
+/* 803ADA24 003AA824  38 63 B5 FC */	addi r3, r3, MemoryOffset_71@l
 /* 803ADA28 003AA828  4E 80 00 20 */	blr
 .endfn fn_803ADA20
 
