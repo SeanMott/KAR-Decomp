@@ -136,7 +136,7 @@
 .endobj STRUCT_VALUE_4BYTE_7
 
 # .rodata:0x198 | 0x80489618 | size: 0x30
-.obj STRUCT_VALUE_4BYTE_8, global
+.obj Month_Strings_Array, global
 	.4byte String_"Jan"
 	.4byte String_"Feb"
 	.4byte String_"Mar"
@@ -149,10 +149,10 @@
 	.4byte String_"Oct"
 	.4byte String_"Nov"
 	.4byte String_"Dec"
-.endobj STRUCT_VALUE_4BYTE_8
+.endobj Month_Strings_Array
 
 # .rodata:0x1C8 | 0x80489648 | size: 0x620
-.obj STRUCT_VALUE_4BYTE_9, global
+.obj SomeEnemy_Kirby_And_Star_Dats_InAList, global
 	.4byte 0x02000000
 	.4byte MemoryOffset_353
 	.4byte 0x00000000
@@ -545,7 +545,7 @@
 	.4byte 0x20010000
 	.4byte MemoryOffset_265
 	.4byte 0x00000000
-.endobj STRUCT_VALUE_4BYTE_9
+.endobj SomeEnemy_Kirby_And_Star_Dats_InAList
 
 # .rodata:0x7E8 | 0x80489C68 | size: 0x10
 .obj STRUCT_VALUE_4BYTE_10, global
