@@ -3153,8 +3153,8 @@
 
 # .sdata:0xD74 | 0x805D5E54 | size: 0x8
 .obj lbl_805D5E54, global
-	.4byte lbl_804A09C0
-	.4byte lbl_804A09CC
+	.4byte MemoryOffset_718
+	.4byte MemoryOffset_719
 .endobj lbl_805D5E54
 
 # .sdata:0xD7C | 0x805D5E5C | size: 0x8
@@ -3571,7 +3571,7 @@
 
 # .sdata:0xFA0 | 0x805D6080 | size: 0x4
 .obj lbl_805D6080, global
-	.4byte lbl_804A2408
+	.4byte MemoryOffset_793
 .endobj lbl_805D6080
 
 # .sdata:0xFA4 | 0x805D6084 | size: 0x4
@@ -3586,7 +3586,7 @@
 
 # .sdata:0xFAC | 0x805D608C | size: 0x4
 .obj lbl_805D608C, global
-	.4byte lbl_804A2458
+	.4byte StructWithStructs_76
 .endobj lbl_805D608C
 
 # .sdata:0xFB0 | 0x805D6090 | size: 0x8
