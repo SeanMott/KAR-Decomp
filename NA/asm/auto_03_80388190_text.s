@@ -6579,10 +6579,10 @@
 /* 8038DBF0 0038A9F0  94 07 00 08 */	stwu r0, 0x8(r7)
 /* 8038DBF4 0038A9F4  42 00 FF F0 */	bdnz .L_8038DBE4
 /* 8038DBF8 0038A9F8  54 80 06 3E */	clrlwi r0, r4, 24
-/* 8038DBFC 0038A9FC  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8038DBFC 0038A9FC  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8038DC00 0038AA00  1C 00 00 44 */	mulli r0, r0, 0x44
 /* 8038DC04 0038AA04  38 E0 00 00 */	li r7, 0x0
-/* 8038DC08 0038AA08  38 84 B6 34 */	addi r4, r4, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8038DC08 0038AA08  38 84 B6 34 */	addi r4, r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8038DC0C 0038AA0C  38 C0 00 14 */	li r6, 0x14
 /* 8038DC10 0038AA10  7C 04 00 2E */	lwzx r0, r4, r0
 /* 8038DC14 0038AA14  7C 65 1B 78 */	mr r5, r3
@@ -6663,10 +6663,10 @@
 /* 8038DD14 0038AB14  DB E1 00 10 */	stfd f31, 0x10(r1)
 /* 8038DD18 0038AB18  F3 E1 00 18 */	psq_st f31, 0x18(r1), 0, qr0
 /* 8038DD1C 0038AB1C  54 80 06 3E */	clrlwi r0, r4, 24
-/* 8038DD20 0038AB20  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8038DD20 0038AB20  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8038DD24 0038AB24  1C 00 00 44 */	mulli r0, r0, 0x44
 /* 8038DD28 0038AB28  3C 60 80 4F */	lis r3, lbl_804F4F70@ha
-/* 8038DD2C 0038AB2C  38 A4 B6 34 */	addi r5, r4, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8038DD2C 0038AB2C  38 A4 B6 34 */	addi r5, r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8038DD30 0038AB30  38 83 4F 70 */	addi r4, r3, lbl_804F4F70@l
 /* 8038DD34 0038AB34  7C 65 02 14 */	add r3, r5, r0
 /* 8038DD38 0038AB38  38 00 00 03 */	li r0, 0x3
@@ -6701,10 +6701,10 @@
 /* 8038DD94 0038AB94  DB E1 00 10 */	stfd f31, 0x10(r1)
 /* 8038DD98 0038AB98  F3 E1 00 18 */	psq_st f31, 0x18(r1), 0, qr0
 /* 8038DD9C 0038AB9C  54 80 06 3E */	clrlwi r0, r4, 24
-/* 8038DDA0 0038ABA0  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8038DDA0 0038ABA0  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8038DDA4 0038ABA4  1C 00 00 44 */	mulli r0, r0, 0x44
 /* 8038DDA8 0038ABA8  3C 60 80 4F */	lis r3, lbl_804F4F94@ha
-/* 8038DDAC 0038ABAC  38 A4 B6 34 */	addi r5, r4, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8038DDAC 0038ABAC  38 A4 B6 34 */	addi r5, r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8038DDB0 0038ABB0  38 83 4F 94 */	addi r4, r3, lbl_804F4F94@l
 /* 8038DDB4 0038ABB4  7C 65 02 14 */	add r3, r5, r0
 /* 8038DDB8 0038ABB8  38 00 00 03 */	li r0, 0x3
@@ -7762,12 +7762,12 @@
 .L_8038ED58:
 /* 8038ED58 0038BB58  FC 07 28 00 */	fcmpu cr0, f7, f5
 /* 8038ED5C 0038BB5C  41 82 00 10 */	beq .L_8038ED6C
-/* 8038ED60 0038BB60  3C 60 80 5E */	lis r3, lbl_805DC890@ha
-/* 8038ED64 0038BB64  C0 A3 C8 90 */	lfs f5, lbl_805DC890@l(r3)
+/* 8038ED60 0038BB60  3C 60 80 5E */	lis r3, StructValues_NaN@ha
+/* 8038ED64 0038BB64  C0 A3 C8 90 */	lfs f5, StructValues_NaN@l(r3)
 /* 8038ED68 0038BB68  48 00 00 0C */	b .L_8038ED74
 .L_8038ED6C:
-/* 8038ED6C 0038BB6C  3C 60 80 5E */	lis r3, lbl_805DC894@ha
-/* 8038ED70 0038BB70  C0 A3 C8 94 */	lfs f5, lbl_805DC894@l(r3)
+/* 8038ED6C 0038BB6C  3C 60 80 5E */	lis r3, StructValues_Float_inf@ha
+/* 8038ED70 0038BB70  C0 A3 C8 94 */	lfs f5, StructValues_Float_inf@l(r3)
 .L_8038ED74:
 /* 8038ED74 0038BB74  C8 82 E7 A0 */	lfd f4, STRUCT_DOUBLE_COUNT_1805E4EA0@sda21(r0)
 /* 8038ED78 0038BB78  C8 62 E7 88 */	lfd f3, STRUCT_DOUBLE_COUNT_1805E4E88@sda21(r0)
@@ -16513,9 +16513,9 @@
 .L_80396798:
 /* 80396798 00393598  83 7E 00 08 */	lwz r27, 0x8(r30)
 /* 8039679C 0039359C  7F 63 DB 78 */	mr r3, r27
-/* 803967A0 003935A0  48 06 09 B9 */	bl fn_HSD_TObjSetup
+/* 803967A0 003935A0  48 06 09 B9 */	bl fn_HSD_TObjSetup_ParseDatFile_ImageStructure
 /* 803967A4 003935A4  7F 63 DB 78 */	mr r3, r27
-/* 803967A8 003935A8  48 05 F4 41 */	bl fn_HSD_TObjSetupTextureCoordGen
+/* 803967A8 003935A8  48 05 F4 41 */	bl fn_HSD_TObjSetup_ParseDatFile_ImageStructureTextureCoordGen
 /* 803967AC 003935AC  83 9E 00 18 */	lwz r28, 0x18(r30)
 /* 803967B0 003935B0  48 00 00 1C */	b .L_803967CC
 .L_803967B4:
@@ -21185,12 +21185,12 @@
 /* 8039A770 00397570  7C 00 F8 30 */	slw r0, r0, r31
 /* 8039A774 00397574  3C 80 80 4F */	lis r4, lbl_804F5FCC@ha
 /* 8039A778 00397578  7C 60 03 78 */	or r0, r3, r0
-/* 8039A77C 0039757C  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039A77C 0039757C  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039A780 00397580  90 1E 00 14 */	stw r0, 0x14(r30)
 /* 8039A784 00397584  57 E0 10 3A */	slwi r0, r31, 2
 /* 8039A788 00397588  38 84 5F CC */	addi r4, r4, lbl_804F5FCC@l
 /* 8039A78C 0039758C  7C 84 00 2E */	lwzx r4, r4, r0
-/* 8039A790 00397590  80 03 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r3)
+/* 8039A790 00397590  80 03 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r3)
 /* 8039A794 00397594  7C 83 00 38 */	and r3, r4, r0
 /* 8039A798 00397598  7C 03 00 D0 */	neg r0, r3
 /* 8039A79C 0039759C  7C 00 1B 78 */	or r0, r0, r3
@@ -21238,9 +21238,9 @@
 /* 8039A828 00397628  7C 00 F8 30 */	slw r0, r0, r31
 /* 8039A82C 0039762C  3C 80 80 4F */	lis r4, lbl_804F5FCC@ha
 /* 8039A830 00397630  7C 60 03 78 */	or r0, r3, r0
-/* 8039A834 00397634  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039A834 00397634  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039A838 00397638  90 1E 00 14 */	stw r0, 0x14(r30)
-/* 8039A83C 0039763C  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039A83C 0039763C  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039A840 00397640  57 E0 10 3A */	slwi r0, r31, 2
 /* 8039A844 00397644  38 84 5F CC */	addi r4, r4, lbl_804F5FCC@l
 /* 8039A848 00397648  7C 84 00 2E */	lwzx r4, r4, r0
@@ -21336,8 +21336,8 @@
 /* 8039A980 00397780  48 00 00 28 */	b .L_8039A9A8
 .L_8039A984:
 /* 8039A984 00397784  80 1F 00 14 */	lwz r0, 0x14(r31)
-/* 8039A988 00397788  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039A98C 0039778C  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039A988 00397788  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039A98C 0039778C  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039A990 00397790  60 00 20 00 */	ori r0, r0, 0x2000
 /* 8039A994 00397794  90 1F 00 14 */	stw r0, 0x14(r31)
 /* 8039A998 00397798  80 1F 00 14 */	lwz r0, 0x14(r31)
@@ -21369,8 +21369,8 @@
 /* 8039A9EC 003977EC  48 00 00 28 */	b .L_8039AA14
 .L_8039A9F0:
 /* 8039A9F0 003977F0  80 1F 00 14 */	lwz r0, 0x14(r31)
-/* 8039A9F4 003977F4  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039A9F8 003977F8  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039A9F4 003977F4  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039A9F8 003977F8  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039A9FC 003977FC  60 00 08 00 */	ori r0, r0, 0x800
 /* 8039AA00 00397800  90 1F 00 14 */	stw r0, 0x14(r31)
 /* 8039AA04 00397804  80 1F 00 14 */	lwz r0, 0x14(r31)
@@ -21402,8 +21402,8 @@
 /* 8039AA58 00397858  48 00 00 28 */	b .L_8039AA80
 .L_8039AA5C:
 /* 8039AA5C 0039785C  80 1F 00 14 */	lwz r0, 0x14(r31)
-/* 8039AA60 00397860  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039AA64 00397864  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039AA60 00397860  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039AA64 00397864  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039AA68 00397868  64 00 00 02 */	oris r0, r0, 0x2
 /* 8039AA6C 0039786C  90 1F 00 14 */	stw r0, 0x14(r31)
 /* 8039AA70 00397870  80 1F 00 14 */	lwz r0, 0x14(r31)
@@ -21435,8 +21435,8 @@
 /* 8039AAC4 003978C4  48 00 00 28 */	b .L_8039AAEC
 .L_8039AAC8:
 /* 8039AAC8 003978C8  80 1F 00 14 */	lwz r0, 0x14(r31)
-/* 8039AACC 003978CC  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039AAD0 003978D0  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039AACC 003978CC  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039AAD0 003978D0  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039AAD4 003978D4  64 00 00 02 */	oris r0, r0, 0x2
 /* 8039AAD8 003978D8  90 1F 00 14 */	stw r0, 0x14(r31)
 /* 8039AADC 003978DC  80 1F 00 14 */	lwz r0, 0x14(r31)
@@ -21468,8 +21468,8 @@
 /* 8039AB30 00397930  48 00 00 1C */	b .L_8039AB4C
 .L_8039AB34:
 /* 8039AB34 00397934  80 1F 00 14 */	lwz r0, 0x14(r31)
-/* 8039AB38 00397938  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039AB3C 0039793C  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039AB38 00397938  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039AB3C 0039793C  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039AB40 00397940  60 00 00 04 */	ori r0, r0, 0x4
 /* 8039AB44 00397944  90 1F 00 14 */	stw r0, 0x14(r31)
 /* 8039AB48 00397948  C0 23 00 30 */	lfs f1, 0x30(r3)
@@ -21498,8 +21498,8 @@
 /* 8039AB90 00397990  48 00 00 1C */	b .L_8039ABAC
 .L_8039AB94:
 /* 8039AB94 00397994  80 1F 00 14 */	lwz r0, 0x14(r31)
-/* 8039AB98 00397998  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039AB9C 0039799C  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039AB98 00397998  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039AB9C 0039799C  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039ABA0 003979A0  60 00 00 08 */	ori r0, r0, 0x8
 /* 8039ABA4 003979A4  90 1F 00 14 */	stw r0, 0x14(r31)
 /* 8039ABA8 003979A8  C0 23 00 34 */	lfs f1, 0x34(r3)
@@ -22043,8 +22043,8 @@
 /* 8039B2CC 003980CC  88 1F 00 18 */	lbz r0, 0x18(r31)
 /* 8039B2D0 003980D0  28 00 00 00 */	cmplwi r0, 0x0
 /* 8039B2D4 003980D4  41 82 00 2C */	beq .L_8039B300
-/* 8039B2D8 003980D8  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039B2DC 003980DC  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039B2D8 003980D8  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039B2DC 003980DC  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039B2E0 003980E0  80 03 00 08 */	lwz r0, 0x8(r3)
 /* 8039B2E4 003980E4  54 00 05 AD */	rlwinm. r0, r0, 0, 22, 22
 /* 8039B2E8 003980E8  41 82 00 18 */	beq .L_8039B300
@@ -23968,102 +23968,102 @@
 .fn fn_8039CD7C, global
 /* 8039CD7C 00399B7C  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 8039CD80 00399B80  7C 08 02 A6 */	mflr r0
-/* 8039CD84 00399B84  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CD84 00399B84  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CD88 00399B88  90 01 00 14 */	stw r0, 0x14(r1)
 /* 8039CD8C 00399B8C  93 E1 00 0C */	stw r31, 0xc(r1)
 /* 8039CD90 00399B90  7C 7F 1B 78 */	mr r31, r3
 /* 8039CD94 00399B94  38 7F 00 1C */	addi r3, r31, 0x1c
-/* 8039CD98 00399B98  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CD98 00399B98  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CD9C 00399B9C  54 04 C7 FE */	extrwi r4, r0, 1, 23
 /* 8039CDA0 00399BA0  4B FF 0D 75 */	bl fn_8038DB14
-/* 8039CDA4 00399BA4  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CDA4 00399BA4  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CDA8 00399BA8  38 7F 00 28 */	addi r3, r31, 0x28
-/* 8039CDAC 00399BAC  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CDAC 00399BAC  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CDB0 00399BB0  54 04 BF FE */	extrwi r4, r0, 1, 22
 /* 8039CDB4 00399BB4  4B FF 0D 61 */	bl fn_8038DB14
-/* 8039CDB8 00399BB8  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CDB8 00399BB8  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CDBC 00399BBC  38 7F 00 34 */	addi r3, r31, 0x34
-/* 8039CDC0 00399BC0  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CDC0 00399BC0  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CDC4 00399BC4  54 04 D7 FE */	extrwi r4, r0, 1, 25
 /* 8039CDC8 00399BC8  4B FF 0D 4D */	bl fn_8038DB14
-/* 8039CDCC 00399BCC  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CDCC 00399BCC  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CDD0 00399BD0  38 7F 00 40 */	addi r3, r31, 0x40
-/* 8039CDD4 00399BD4  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CDD4 00399BD4  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CDD8 00399BD8  54 04 DF FE */	extrwi r4, r0, 1, 26
 /* 8039CDDC 00399BDC  4B FF 0D 39 */	bl fn_8038DB14
-/* 8039CDE0 00399BE0  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CDE0 00399BE0  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CDE4 00399BE4  38 7F 00 4C */	addi r3, r31, 0x4c
-/* 8039CDE8 00399BE8  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CDE8 00399BE8  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CDEC 00399BEC  54 04 B7 FE */	extrwi r4, r0, 1, 21
 /* 8039CDF0 00399BF0  4B FF 0D 25 */	bl fn_8038DB14
-/* 8039CDF4 00399BF4  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CDF4 00399BF4  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CDF8 00399BF8  38 7F 00 58 */	addi r3, r31, 0x58
-/* 8039CDFC 00399BFC  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CDFC 00399BFC  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE00 00399C00  54 04 AF FE */	extrwi r4, r0, 1, 20
 /* 8039CE04 00399C04  4B FF 0D 11 */	bl fn_8038DB14
-/* 8039CE08 00399C08  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE08 00399C08  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE0C 00399C0C  38 7F 00 64 */	addi r3, r31, 0x64
-/* 8039CE10 00399C10  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE10 00399C10  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE14 00399C14  54 04 E7 FE */	extrwi r4, r0, 1, 27
 /* 8039CE18 00399C18  4B FF 0C FD */	bl fn_8038DB14
-/* 8039CE1C 00399C1C  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE1C 00399C1C  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE20 00399C20  38 7F 00 70 */	addi r3, r31, 0x70
-/* 8039CE24 00399C24  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE24 00399C24  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE28 00399C28  54 04 EF FE */	extrwi r4, r0, 1, 28
 /* 8039CE2C 00399C2C  4B FF 0C E9 */	bl fn_8038DB14
-/* 8039CE30 00399C30  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE30 00399C30  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE34 00399C34  38 7F 00 7C */	addi r3, r31, 0x7c
-/* 8039CE38 00399C38  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE38 00399C38  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE3C 00399C3C  54 04 F7 FE */	extrwi r4, r0, 1, 29
 /* 8039CE40 00399C40  4B FF 0C D5 */	bl fn_8038DB14
-/* 8039CE44 00399C44  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE44 00399C44  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE48 00399C48  38 7F 00 88 */	addi r3, r31, 0x88
-/* 8039CE4C 00399C4C  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE4C 00399C4C  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE50 00399C50  54 04 07 FE */	clrlwi r4, r0, 31
 /* 8039CE54 00399C54  4B FF 0C C1 */	bl fn_8038DB14
-/* 8039CE58 00399C58  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE58 00399C58  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE5C 00399C5C  38 7F 00 94 */	addi r3, r31, 0x94
-/* 8039CE60 00399C60  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE60 00399C60  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE64 00399C64  54 04 FF FE */	extrwi r4, r0, 1, 30
 /* 8039CE68 00399C68  4B FF 0C AD */	bl fn_8038DB14
-/* 8039CE6C 00399C6C  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE6C 00399C6C  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE70 00399C70  38 7F 00 A0 */	addi r3, r31, 0xa0
-/* 8039CE74 00399C74  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE74 00399C74  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE78 00399C78  54 04 87 FE */	extrwi r4, r0, 1, 15
 /* 8039CE7C 00399C7C  4B FF 0C 99 */	bl fn_8038DB14
-/* 8039CE80 00399C80  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE80 00399C80  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE84 00399C84  38 7F 00 AC */	addi r3, r31, 0xac
-/* 8039CE88 00399C88  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE88 00399C88  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CE8C 00399C8C  54 04 7F FE */	extrwi r4, r0, 1, 14
 /* 8039CE90 00399C90  4B FF 0C 85 */	bl fn_8038DB14
-/* 8039CE94 00399C94  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CE94 00399C94  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CE98 00399C98  38 7F 00 B8 */	addi r3, r31, 0xb8
-/* 8039CE9C 00399C9C  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CE9C 00399C9C  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CEA0 00399CA0  54 04 77 FE */	extrwi r4, r0, 1, 13
 /* 8039CEA4 00399CA4  4B FF 0C 71 */	bl fn_8038DB14
-/* 8039CEA8 00399CA8  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CEA8 00399CA8  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CEAC 00399CAC  38 7F 00 C4 */	addi r3, r31, 0xc4
-/* 8039CEB0 00399CB0  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CEB0 00399CB0  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CEB4 00399CB4  54 04 6F FE */	extrwi r4, r0, 1, 12
 /* 8039CEB8 00399CB8  4B FF 0C 5D */	bl fn_8038DB14
-/* 8039CEBC 00399CBC  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CEBC 00399CBC  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CEC0 00399CC0  38 7F 00 D0 */	addi r3, r31, 0xd0
-/* 8039CEC4 00399CC4  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CEC4 00399CC4  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CEC8 00399CC8  54 04 67 FE */	extrwi r4, r0, 1, 11
 /* 8039CECC 00399CCC  4B FF 0C 49 */	bl fn_8038DB14
-/* 8039CED0 00399CD0  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CED0 00399CD0  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CED4 00399CD4  38 7F 00 DC */	addi r3, r31, 0xdc
-/* 8039CED8 00399CD8  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CED8 00399CD8  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CEDC 00399CDC  54 04 5F FE */	extrwi r4, r0, 1, 10
 /* 8039CEE0 00399CE0  4B FF 0C 35 */	bl fn_8038DB14
-/* 8039CEE4 00399CE4  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CEE4 00399CE4  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CEE8 00399CE8  38 7F 00 E8 */	addi r3, r31, 0xe8
-/* 8039CEEC 00399CEC  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CEEC 00399CEC  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CEF0 00399CF0  54 04 57 FE */	extrwi r4, r0, 1, 9
 /* 8039CEF4 00399CF4  4B FF 0C 21 */	bl fn_8038DB14
-/* 8039CEF8 00399CF8  3C 80 80 59 */	lis r4, STRUCT_BYTE4_COUNT_18058B634@ha
+/* 8039CEF8 00399CF8  3C 80 80 59 */	lis r4, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
 /* 8039CEFC 00399CFC  38 7F 00 F4 */	addi r3, r31, 0xf4
-/* 8039CF00 00399D00  80 04 B6 34 */	lwz r0, STRUCT_BYTE4_COUNT_18058B634@l(r4)
+/* 8039CF00 00399D00  80 04 B6 34 */	lwz r0, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l(r4)
 /* 8039CF04 00399D04  54 04 4F FE */	extrwi r4, r0, 1, 8
 /* 8039CF08 00399D08  4B FF 0C 0D */	bl fn_8038DB14
 /* 8039CF0C 00399D0C  7F E3 FB 78 */	mr r3, r31
@@ -24347,8 +24347,8 @@
 /* 8039D2B8 0039A0B8  88 1F 00 18 */	lbz r0, 0x18(r31)
 /* 8039D2BC 0039A0BC  28 00 00 00 */	cmplwi r0, 0x0
 /* 8039D2C0 0039A0C0  41 82 00 2C */	beq .L_8039D2EC
-/* 8039D2C4 0039A0C4  3C 60 80 59 */	lis r3, STRUCT_BYTE4_COUNT_18058B634@ha
-/* 8039D2C8 0039A0C8  38 63 B6 34 */	addi r3, r3, STRUCT_BYTE4_COUNT_18058B634@l
+/* 8039D2C4 0039A0C4  3C 60 80 59 */	lis r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@ha
+/* 8039D2C8 0039A0C8  38 63 B6 34 */	addi r3, r3, Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip@l
 /* 8039D2CC 0039A0CC  80 03 00 08 */	lwz r0, 0x8(r3)
 /* 8039D2D0 0039A0D0  54 00 05 AD */	rlwinm. r0, r0, 0, 22, 22
 /* 8039D2D4 0039A0D4  41 82 00 18 */	beq .L_8039D2EC
@@ -38146,9 +38146,9 @@
 /* 803A9604 003A6404  A8 1F 00 EC */	lha r0, 0xec(r31)
 /* 803A9608 003A6408  2C 00 00 05 */	cmpwi r0, 0x5
 /* 803A960C 003A640C  40 82 00 E4 */	bne .L_803A96F0
-/* 803A9610 003A6410  3C 60 80 5E */	lis r3, lbl_805DC8BC@ha
+/* 803A9610 003A6410  3C 60 80 5E */	lis r3, StructValues_Float_7@ha
 /* 803A9614 003A6414  CB E2 EA 28 */	lfd f31, STRUCT_DOUBLE_COUNT_1805E5128@sda21(r0)
-/* 803A9618 003A6418  C3 C3 C8 BC */	lfs f30, lbl_805DC8BC@l(r3)
+/* 803A9618 003A6418  C3 C3 C8 BC */	lfs f30, StructValues_Float_7@l(r3)
 /* 803A961C 003A641C  3B A0 00 00 */	li r29, 0x0
 /* 803A9620 003A6420  3B C0 00 00 */	li r30, 0x0
 /* 803A9624 003A6424  3F 60 43 30 */	lis r27, 0x4330

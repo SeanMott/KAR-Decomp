@@ -251,14 +251,14 @@
 .endobj STRUCT_BYTE4_COUNT_1DbHide
 
 # .sbss:0x118 | 0x805DD638 | size: 0x4
-.obj STRUCT_BYTE4_COUNT_1805DD638, global
+.obj SkipAddress_73, global
 	.skip 0x4
-.endobj STRUCT_BYTE4_COUNT_1805DD638
+.endobj SkipAddress_73
 
 # .sbss:0x11C | 0x805DD63C | size: 0x4
-.obj STRUCT_BYTE4_COUNT_1805DD63C, global
+.obj SkipAddress_72, global
 	.skip 0x4
-.endobj STRUCT_BYTE4_COUNT_1805DD63C
+.endobj SkipAddress_72
 
 # .sbss:0x120 | 0x805DD640 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805DD640, global

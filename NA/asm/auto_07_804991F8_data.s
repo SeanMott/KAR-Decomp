@@ -1460,14 +1460,14 @@
 
 # .data:0x1098 | 0x8049A290 | size: 0x20
 .obj jumptable_8049A290, global
-	.4byte fn_80073FBC+0xE48
-	.4byte fn_80073FBC+0x188
-	.4byte fn_80073FBC+0x26C
-	.4byte fn_80073FBC+0x56C
-	.4byte fn_80073FBC+0x710
-	.4byte fn_80073FBC+0x710
-	.4byte fn_80073FBC+0x95C
-	.4byte fn_80073FBC+0xC0C
+	.4byte fn_LoadDatsForCityTrial+0xE48
+	.4byte fn_LoadDatsForCityTrial+0x188
+	.4byte fn_LoadDatsForCityTrial+0x26C
+	.4byte fn_LoadDatsForCityTrial+0x56C
+	.4byte fn_LoadDatsForCityTrial+0x710
+	.4byte fn_LoadDatsForCityTrial+0x710
+	.4byte fn_LoadDatsForCityTrial+0x95C
+	.4byte fn_LoadDatsForCityTrial+0xC0C
 .endobj jumptable_8049A290
 
 # .data:0x10B8 | 0x8049A2B0 | size: 0x20

@@ -16,9 +16,9 @@
 .endobj lbl_80535994
 
 # .bss:0x6D8 | 0x805359D8 | size: 0x1518
-.obj lbl_805359D8, global
+.obj structOffset_MaybeAPlayerDataStructOffset, global
 	.skip 0x1518
-.endobj lbl_805359D8
+.endobj structOffset_MaybeAPlayerDataStructOffset
 
 # .bss:0x1BF0 | 0x80536EF0 | size: 0x110
 .obj STRUCT_BYTE4_COUNT_080536EF0, global
@@ -396,9 +396,9 @@
 .endobj lbl_80557138
 
 # .bss:0x21F48 | 0x80557248 | size: 0x268
-.obj lbl_80557248, global
+.obj Struct_PlayerDataStruct_MayebASkipAddress, global
 	.skip 0x268
-.endobj lbl_80557248
+.endobj Struct_PlayerDataStruct_MayebASkipAddress
 
 # .bss:0x221B0 | 0x805574B0 | size: 0xA8
 .obj lbl_805574B0, global
@@ -1375,9 +1375,9 @@
 .endobj STRUCT_BYTE4_COUNT_18058B0E4
 
 # .bss:0x56334 | 0x8058B634 | size: 0x554
-.obj STRUCT_BYTE4_COUNT_18058B634, global
+.obj Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip, global
 	.skip 0x554
-.endobj STRUCT_BYTE4_COUNT_18058B634
+.endobj Struct_PotenciallyAInputOneBasedOnWhatTheSpreadSheetSaysButItASkip
 
 # .bss:0x56888 | 0x8058BB88 | size: 0x30
 .obj STRUCT_BYTE4_COUNT_18058BB88, global
