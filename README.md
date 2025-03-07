@@ -7,11 +7,9 @@ Special thanks to [WowJinxy](https://github.com/wowjinxy), [Encounter](https://g
 
 This repo has a few branches, where each focuses on something differant.
 
-- DTK (you are here) || This branch uses DTK and is based on the OG Decomp. It preserves all the ROM offsets and extra info. The goal is to make a diassembly that can be used for Gecko Codes, and making a shiftable ROM. No C code will be in this branch.
+- DTK || This branch uses DTK and is based on the OG Decomp. It preserves all the ROM offsets and extra info. The goal is to make a diassembly that can be used for Gecko Codes, and making a shiftable ROM. No C code will be in this branch.
 
-- Ghidra || This branch uses Ghidra to generate a rough C++ outpute of the game. It is not meant to be compiled to a real binary.
-
-- C Code || This branch uses the notes found in Ghidra and DTK branches to make C/C++ code that can be compiled to a real ROM.
+- Ghidra C Code (You Are Here) || This branch holds the outputted C++ code from Ghidra. Will not compile to a full binary and might take time to update with the rest of the symbols from the DTK branch.
 
 # A Disassembly?
 This branch will not contain C/C++ code. Instead it's a disassembly where the ROMs are broken into ASM, that ASM is then renamed and notes are added.
