@@ -27517,172 +27517,172 @@
 .obj Struct_Vehicles_CallbackTable_Wheel, global
 	.4byte 0x00000050
 	.4byte 0x00000000
-	.4byte fn_801F8A04
-	.4byte fn_801F8A28
-	.4byte fn_801F8A2C
-	.4byte fn_801F8A4C
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitStop_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitStop_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitStop_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitStop_4
 	.4byte 0x00000050
 	.4byte 0x00000000
-	.4byte fn_801F8B2C
-	.4byte fn_801F8B6C
-	.4byte fn_801F8B70
-	.4byte fn_801F8BDC
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitRun_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitRun_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitRun_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitRun_4
 	.4byte 0x00000050
 	.4byte 0x00000000
-	.4byte fn_801F8CE0
-	.4byte fn_801F8D04
-	.4byte fn_801F8D08
-	.4byte fn_801F8D4C
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitJump_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitJump_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitJump_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_WaitJump_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000000
-	.4byte fn_801F8E60
-	.4byte fn_801F8E64
-	.4byte fn_801F8E68
-	.4byte fn_801F8E6C
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Adhere_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Adhere_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Adhere_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Adhere_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000000
-	.4byte fn_801F8ED4
-	.4byte fn_801F8EF4
-	.4byte fn_801F8F24
-	.4byte fn_801F8F44
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Ready_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Ready_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Ready_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Ready_4
 	.4byte 0x00000055
 	.4byte 0x00001024
-	.4byte fn_801F9024
-	.4byte fn_801F9058
-	.4byte fn_801F9078
-	.4byte fn_801F9098
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushStart_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushStart_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushStart_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushStart_4
 	.4byte 0x00000056
 	.4byte 0x00001024
-	.4byte fn_801F911C
-	.4byte fn_801F913C
-	.4byte fn_801F9160
-	.4byte fn_801F9184
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPush_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPush_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPush_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPush_4
 	.4byte 0x00000057
 	.4byte 0x00001024
-	.4byte fn_801F9224
-	.4byte fn_801F9258
-	.4byte fn_801F9278
-	.4byte fn_801F9298
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushEnd_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushEnd_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushEnd_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_ReadyPushEnd_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000024
-	.4byte fn_801F949C
-	.4byte fn_801F94A0
-	.4byte fn_801F94C4
-	.4byte fn_801F9594
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Run_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Run_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Run_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Run_4
 	.4byte 0x00000055
 	.4byte 0x00001024
-	.4byte fn_801F9FD0
-	.4byte fn_801FA004
-	.4byte fn_801FA024
-	.4byte fn_801FA044
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushStart_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushStart_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushStart_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushStart_4
 	.4byte 0x00000056
 	.4byte 0x00001024
-	.4byte fn_801FA184
-	.4byte fn_801FA188
-	.4byte fn_SomethingToDoWithKirbybreak_1
-	.4byte fn_801FA2BC
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPush_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPush_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPush_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPush_4
 	.4byte 0x00000054
 	.4byte 0x00001024
-	.4byte fn_801FA440
-	.4byte fn_801FA468
-	.4byte fn_801FA4A8
-	.4byte fn_801FA5C0
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushForward_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushForward_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushForward_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushForward_4
 	.4byte 0x00000057
 	.4byte 0x00000024
-	.4byte fn_801FA67C
-	.4byte fn_801FA6B0
-	.4byte fn_801FA6D0
-	.4byte fn_801FA6F0
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushEnd_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushEnd_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushEnd_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RunPushEnd_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000025
-	.4byte fn_801FA9DC
-	.4byte fn_801FA9E0
-	.4byte fn_801FAA04
-	.4byte fn_801FAA88
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Jump_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Jump_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Jump_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Jump_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000025
-	.4byte fn_801FACB8
-	.4byte fn_801FACBC
-	.4byte fn_801FACE0
-	.4byte fn_801FAD78
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_JumpPush_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_JumpPush_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_JumpPush_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_JumpPush_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000024
-	.4byte fn_801FAF20
-	.4byte fn_801FAF4C
-	.4byte fn_801FAF50
-	.4byte fn_801FB020
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Landing_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Landing_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Landing_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Landing_4
 	.4byte 0x0000000E
 	.4byte 0x00000024
-	.4byte fn_801FB10C
-	.4byte fn_801FB148
-	.4byte fn_801FB14C
-	.4byte fn_801FB1B8
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Drop_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Drop_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Drop_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Drop_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000025
-	.4byte fn_801FB2B0
-	.4byte fn_801FB2EC
-	.4byte fn_801FB2F0
-	.4byte fn_801FB324
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_SuperJump_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_SuperJump_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_SuperJump_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_SuperJump_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00002024
-	.4byte fn_801F9734
-	.4byte fn_801F9738
-	.4byte fn_801F9778
-	.4byte fn_801F97E4
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRun_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRun_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRun_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRun_4
 	.4byte 0x00000055
 	.4byte 0x00003024
-	.4byte fn_801F98D8
-	.4byte fn_801F990C
-	.4byte fn_801F992C
-	.4byte fn_801F994C
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushStart_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushStart_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushStart_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushStart_4
 	.4byte 0x00000056
 	.4byte 0x00003024
-	.4byte fn_801F99DC
-	.4byte fn_801F99E0
-	.4byte fn_801F9A04
-	.4byte fn_801F9A6C
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPush_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPush_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPush_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPush_4
 	.4byte 0x00000057
 	.4byte 0x00002024
-	.4byte fn_801F9B30
-	.4byte fn_801F9B64
-	.4byte fn_801F9B84
-	.4byte fn_801F9BA4
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushEnd_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushEnd_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushEnd_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailRunPushEnd_4
 	.4byte 0x00000053
 	.4byte 0x00002024
-	.4byte fn_801F9C68
-	.4byte fn_801F9CA4
-	.4byte fn_801F9CC4
-	.4byte fn_801F9D20
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailChange_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailChange_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailChange_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_RailChange_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000026
-	.4byte fn_801F9E00
-	.4byte fn_801F9E04
-	.4byte fn_801F9E08
-	.4byte fn_801F9E28
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Gondola_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Gondola_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Gondola_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Gondola_4
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000027
-	.4byte fn_801F9E98
-	.4byte fn_801F9E9C
-	.4byte fn_801F9EA0
-	.4byte fn_801F9EA4
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Cannon_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Cannon_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Cannon_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Cannon_4
 	.4byte 0x00000004
 	.4byte 0x00000000
-	.4byte fn_801F935C
-	.4byte fn_801F937C
-	.4byte fn_801F9380
-	.4byte fn_801F93C8
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_FallDeath_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_FallDeath_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_FallDeath_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_FallDeath_4
 	.4byte 0x00000005
 	.4byte 0x00000000
-	.4byte fn_801F9400
-	.4byte fn_801F942C
-	.4byte fn_801F9430
-	.4byte fn_801F9434
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Rebirth_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Rebirth_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Rebirth_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_Rebirth_4
 	.4byte 0x0000004F
 	.4byte 0x00000024
-	.4byte fn_801FB3D0
-	.4byte fn_801FB3FC
-	.4byte fn_801FB400
-	.4byte fn_801FB43C
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_BreakDown_1
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_BreakDown_2
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_BreakDown_3
+	.4byte fn_VehicleStatTableFuncCallbacks_Wheel_BreakDown_4
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
