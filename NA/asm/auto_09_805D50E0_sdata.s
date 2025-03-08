@@ -6525,8 +6525,8 @@
 
 # .sdata:0x1EB8 | 0x805D6F98 | size: 0x8
 .obj lbl_805D6F98, global
-	.4byte FuncArray_3
-	.4byte StructStuffWithOffsetsAndFuncs_1
+	.4byte SomeFuncArrayToDoWithPlayerActionStateWhileOnAStar
+	.4byte SomeFuncArrayToDoWithPlayerStateWhileOnAWheel
 .endobj lbl_805D6F98
 
 # .sdata:0x1EC0 | 0x805D6FA0 | size: 0x8

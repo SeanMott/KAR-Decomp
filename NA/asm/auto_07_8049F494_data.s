@@ -23097,7 +23097,7 @@
 .endobj StructStuffWithOffsetsAndFuncs_2
 
 # .data:0x121C4 | 0x804B1658 | size: 0x98
-.obj FuncArray_3, global
+.obj SomeFuncArrayToDoWithPlayerActionStateWhileOnAStar, global
 	.4byte Struct_Vehicles_CallbackTable_Stars
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -23136,7 +23136,7 @@
 	.4byte fn_801EB8B4
 	.4byte fn_801EBBD0
 	.4byte 0x00000000
-.endobj FuncArray_3
+.endobj SomeFuncArrayToDoWithPlayerActionStateWhileOnAStar
 
 # .data:0x1225C | 0x804B16F0 | size: 0x34
 .obj MemoryOffset_10, global
@@ -23563,7 +23563,7 @@
 .endobj MegaStruct_StarFileNamesAndHSDNames_2
 
 # .data:0x127AC | 0x804B1C40 | size: 0x98
-.obj StructStuffWithOffsetsAndFuncs_1, global
+.obj SomeFuncArrayToDoWithPlayerStateWhileOnAWheel, global
 	.4byte Struct_Vehicles_CallbackTable_Wheel
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -23582,19 +23582,19 @@
 	.4byte fn_801F59A4
 	.4byte fn_801F59FC
 	.4byte fn_801F8930
-	.4byte fn_801F8E8C
+	.4byte FuncCramedBefore_Wheel_Ready_1
 	.4byte fn_801F92B8
 	.4byte fn_801F9454
 	.4byte fn_801F5F44
 	.4byte fn_801F5B64
 	.4byte fn_801FB220
 	.4byte fn_801F962C
-	.4byte fn_801F9D40
+	.4byte funcStoredAtTheEndOfPlayerActionState_Wheel_RailChange_4
 	.4byte fn_801F9E48
 	.4byte fn_801F9328
 	.4byte fn_801F93CC
 	.4byte fn_801FB39C
-	.4byte fn_801F8E18
+	.4byte FuncCramedBefore_Wheel_Adhere_1
 	.4byte fn_801FB0C4
 	.4byte 0x00000000
 	.4byte fn_801F61A4
@@ -23602,7 +23602,7 @@
 	.4byte fn_801F608C
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj StructStuffWithOffsetsAndFuncs_1
+.endobj SomeFuncArrayToDoWithPlayerStateWhileOnAWheel
 
 # .data:0x12844 | 0x804B1CD8 | size: 0x28
 .obj MemoryOffset_1, global
