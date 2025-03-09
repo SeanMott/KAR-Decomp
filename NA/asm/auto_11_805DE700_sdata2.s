@@ -29816,9 +29816,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E51A0
 
 # .sdata2:0x6AA8 | 0x805E51A8 | size: 0x4
-.obj "lbl_"@77"", global
+.obj AT_77, global
 	.4byte 0x4E414E28
-.endobj "lbl_"@77""
+.endobj AT_77
 
 # .sdata2:0x6AAC | 0x805E51AC | size: 0x1
 .obj StructValues_Byte_1, global
@@ -30077,9 +30077,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5330
 
 # .sdata2:0x6C38 | 0x805E5338 | size: 0x8
-.obj "lbl_"@156"", global
+.obj AT_156, global
 	.double 0.00000000000000012246467991473532
-.endobj "lbl_"@156""
+.endobj AT_156
 
 # .sdata2:0x6C40 | 0x805E5340 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5340, global
@@ -30087,9 +30087,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5340
 
 # .sdata2:0x6C48 | 0x805E5348 | size: 0x8
-.obj "lbl_"@117"", global
+.obj AT_117, global
 	.double 709.782712893384
-.endobj "lbl_"@117""
+.endobj AT_117
 
 # .sdata2:0x6C50 | 0x805E5350 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5350, global
@@ -30097,9 +30097,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5350
 
 # .sdata2:0x6C58 | 0x805E5358 | size: 0x8
-.obj "lbl_"@119"2", global
+.obj AT_119_2, global
 	.double -745.1332191019411
-.endobj "lbl_"@119"2"
+.endobj AT_119_2
 
 # .sdata2:0x6C60 | 0x805E5360 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5360, global
@@ -30197,39 +30197,39 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E53F0
 
 # .sdata2:0x6CF8 | 0x805E53F8 | size: 0x8
-.obj "lbl_"@119"", global
+.obj AT_119, global
 	.double 0.6666666666666735
-.endobj "lbl_"@119""
+.endobj AT_119
 
 # .sdata2:0x6D00 | 0x805E5400 | size: 0x8
-.obj "lbl_"@120"", global
+.obj AT_120, global
 	.double 0.2857142874366239
-.endobj "lbl_"@120""
+.endobj AT_120
 
 # .sdata2:0x6D08 | 0x805E5408 | size: 0x8
-.obj "lbl_"@121"", global
+.obj AT_121, global
 	.double 0.1818357216161805
-.endobj "lbl_"@121""
+.endobj AT_121
 
 # .sdata2:0x6D10 | 0x805E5410 | size: 0x8
-.obj "lbl_"@122"", global
+.obj AT_122, global
 	.double 0.14798198605116586
-.endobj "lbl_"@122""
+.endobj AT_122
 
 # .sdata2:0x6D18 | 0x805E5418 | size: 0x8
-.obj "lbl_"@123"", global
+.obj AT_123, global
 	.double 0.3999999999940942
-.endobj "lbl_"@123""
+.endobj AT_123
 
 # .sdata2:0x6D20 | 0x805E5420 | size: 0x8
-.obj "lbl_"@124"", global
+.obj AT_124, global
 	.double 0.22222198432149784
-.endobj "lbl_"@124""
+.endobj AT_124
 
 # .sdata2:0x6D28 | 0x805E5428 | size: 0x8
-.obj "lbl_"@125"", global
+.obj AT_125, global
 	.double 0.15313837699209373
-.endobj "lbl_"@125""
+.endobj AT_125
 
 # .sdata2:0x6D30 | 0x805E5430 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5430, global
@@ -30247,19 +30247,19 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5440
 
 # .sdata2:0x6D48 | 0x805E5448 | size: 0x8
-.obj "lbl_"@70"", global
+.obj AT_70, global
 	.double 0.0000000000003694239077158931
-.endobj "lbl_"@70""
+.endobj AT_70
 
 # .sdata2:0x6D50 | 0x805E5450 | size: 0x8
-.obj "lbl_"@71"", global
+.obj AT_71, global
 	.double 0.4342944819032518
-.endobj "lbl_"@71""
+.endobj AT_71
 
 # .sdata2:0x6D58 | 0x805E5458 | size: 0x8
-.obj "lbl_"@72"", global
+.obj AT_72, global
 	.double 0.30102999566361177
-.endobj "lbl_"@72""
+.endobj AT_72
 
 # .sdata2:0x6D60 | 0x805E5460 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5460, global
@@ -30297,19 +30297,19 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5490
 
 # .sdata2:0x6D98 | 0x805E5498 | size: 0x8
-.obj "lbl_"@355"", global
+.obj AT_355, global
 	.double 0.25
-.endobj "lbl_"@355""
+.endobj AT_355
 
 # .sdata2:0x6DA0 | 0x805E54A0 | size: 0x8
-.obj "lbl_"@356"", global
+.obj AT_356, global
 	.double 1.4426950216293335
-.endobj "lbl_"@356""
+.endobj AT_356
 
 # .sdata2:0x6DA8 | 0x805E54A8 | size: 0x8
-.obj "lbl_"@357"", global
+.obj AT_357, global
 	.double 0.000000019259629911266175
-.endobj "lbl_"@357""
+.endobj AT_357
 
 # .sdata2:0x6DB0 | 0x805E54B0 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E54B0, global
@@ -30322,49 +30322,49 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E54B8
 
 # .sdata2:0x6DC0 | 0x805E54C0 | size: 0x8
-.obj "lbl_"@360"", global
+.obj AT_360, global
 	.double 0.5999999999999946
-.endobj "lbl_"@360""
+.endobj AT_360
 
 # .sdata2:0x6DC8 | 0x805E54C8 | size: 0x8
-.obj "lbl_"@361"", global
+.obj AT_361, global
 	.double 0.4285714285785502
-.endobj "lbl_"@361""
+.endobj AT_361
 
 # .sdata2:0x6DD0 | 0x805E54D0 | size: 0x8
-.obj "lbl_"@362"", global
+.obj AT_362, global
 	.double 0.33333332981837743
-.endobj "lbl_"@362""
+.endobj AT_362
 
 # .sdata2:0x6DD8 | 0x805E54D8 | size: 0x8
-.obj "lbl_"@363"", global
+.obj AT_363, global
 	.double 0.272728123808534
-.endobj "lbl_"@363""
+.endobj AT_363
 
 # .sdata2:0x6DE0 | 0x805E54E0 | size: 0x8
-.obj "lbl_"@364"", global
+.obj AT_364, global
 	.double 0.23066074577556175
-.endobj "lbl_"@364""
+.endobj AT_364
 
 # .sdata2:0x6DE8 | 0x805E54E8 | size: 0x8
-.obj "lbl_"@365"", global
+.obj AT_365, global
 	.double 0.20697501780033842
-.endobj "lbl_"@365""
+.endobj AT_365
 
 # .sdata2:0x6DF0 | 0x805E54F0 | size: 0x8
-.obj "lbl_"@366"", global
+.obj AT_366, global
 	.double 0.9617967009544373
-.endobj "lbl_"@366""
+.endobj AT_366
 
 # .sdata2:0x6DF8 | 0x805E54F8 | size: 0x8
-.obj "lbl_"@367"", global
+.obj AT_367, global
 	.double -0.000000007028461650952758
-.endobj "lbl_"@367""
+.endobj AT_367
 
 # .sdata2:0x6E00 | 0x805E5500 | size: 0x8
-.obj "lbl_"@368"", global
+.obj AT_368, global
 	.double 0.9617966939259756
-.endobj "lbl_"@368""
+.endobj AT_368
 
 # .sdata2:0x6E08 | 0x805E5508 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5508, global
@@ -30377,9 +30377,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5510
 
 # .sdata2:0x6E18 | 0x805E5518 | size: 0x8
-.obj "lbl_"@371"", global
+.obj AT_371, global
 	.double 0.00000000000000008008566259537294
-.endobj "lbl_"@371""
+.endobj AT_371
 
 # .sdata2:0x6E20 | 0x805E5520 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5520, global
@@ -30387,19 +30387,19 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5520
 
 # .sdata2:0x6E28 | 0x805E5528 | size: 0x8
-.obj "lbl_"@373"", global
+.obj AT_373, global
 	.double 0.6931471824645996
-.endobj "lbl_"@373""
+.endobj AT_373
 
 # .sdata2:0x6E30 | 0x805E5530 | size: 0x8
-.obj "lbl_"@374"", global
+.obj AT_374, global
 	.double 0.6931471805599453
-.endobj "lbl_"@374""
+.endobj AT_374
 
 # .sdata2:0x6E38 | 0x805E5538 | size: 0x8
-.obj "lbl_"@375"", global
+.obj AT_375, global
 	.double -0.000000001904654299957768
-.endobj "lbl_"@375""
+.endobj AT_375
 
 # .sdata2:0x6E40 | 0x805E5540 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5540, global
@@ -30442,24 +30442,24 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5578
 
 # .sdata2:0x6E80 | 0x805E5580 | size: 0x8
-.obj "lbl_"@147"", global
+.obj AT_147, global
 	.double 1.5707963267341256
-.endobj "lbl_"@147""
+.endobj AT_147
 
 # .sdata2:0x6E88 | 0x805E5588 | size: 0x8
-.obj "lbl_"@148"", global
+.obj AT_148, global
 	.double 0.00000000006077100506506192
-.endobj "lbl_"@148""
+.endobj AT_148
 
 # .sdata2:0x6E90 | 0x805E5590 | size: 0x8
-.obj "lbl_"@149"", global
+.obj AT_149, global
 	.double 0.00000000006077100506303966
-.endobj "lbl_"@149""
+.endobj AT_149
 
 # .sdata2:0x6E98 | 0x805E5598 | size: 0x8
-.obj "lbl_"@188"", global
+.obj AT_188, global
 	.double 0.0000000000000000000020222662487959506
-.endobj "lbl_"@188""
+.endobj AT_188
 
 # .sdata2:0x6EA0 | 0x805E55A0 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E55A0, global
@@ -30467,19 +30467,19 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E55A0
 
 # .sdata2:0x6EA8 | 0x805E55A8 | size: 0x8
-.obj "lbl_"@152"", global
+.obj AT_152, global
 	.double 0.6366197723675814
-.endobj "lbl_"@152""
+.endobj AT_152
 
 # .sdata2:0x6EB0 | 0x805E55B0 | size: 0x8
-.obj "lbl_"@191"", global
+.obj AT_191, global
 	.double 0.0000000000000000000020222662487111665
-.endobj "lbl_"@191""
+.endobj AT_191
 
 # .sdata2:0x6EB8 | 0x805E55B8 | size: 0x8
-.obj "lbl_"@192"", global
+.obj AT_192, global
 	.double 0.000000000000000000000000000000084784276603689
-.endobj "lbl_"@192""
+.endobj AT_192
 
 # .sdata2:0x6EC0 | 0x805E55C0 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E55C0, global
@@ -30497,34 +30497,34 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E55D0
 
 # .sdata2:0x6ED8 | 0x805E55D8 | size: 0x8
-.obj "lbl_"@110"", global
+.obj AT_110, global
 	.double 0.0416666666666666
-.endobj "lbl_"@110""
+.endobj AT_110
 
 # .sdata2:0x6EE0 | 0x805E55E0 | size: 0x8
-.obj "lbl_"@111"", global
+.obj AT_111, global
 	.double -0.001388888888887411
-.endobj "lbl_"@111""
+.endobj AT_111
 
 # .sdata2:0x6EE8 | 0x805E55E8 | size: 0x8
-.obj "lbl_"@112"", global
+.obj AT_112, global
 	.double 0.00002480158728947673
-.endobj "lbl_"@112""
+.endobj AT_112
 
 # .sdata2:0x6EF0 | 0x805E55F0 | size: 0x8
-.obj "lbl_"@75"", global
+.obj AT_75, global
 	.double -0.00000027557314351390663
-.endobj "lbl_"@75""
+.endobj AT_75
 
 # .sdata2:0x6EF8 | 0x805E55F8 | size: 0x8
-.obj "lbl_"@114"", global
+.obj AT_114, global
 	.double 0.000000002087572321298175
-.endobj "lbl_"@114""
+.endobj AT_114
 
 # .sdata2:0x6F00 | 0x805E5600 | size: 0x8
-.obj "lbl_"@115"", global
+.obj AT_115, global
 	.double -0.000000000011359647557788195
-.endobj "lbl_"@115""
+.endobj AT_115
 
 # .sdata2:0x6F08 | 0x805E5608 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5608, global
@@ -30532,9 +30532,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5608
 
 # .sdata2:0x6F10 | 0x805E5610 | size: 0x8
-.obj "lbl_"@117"2", global
+.obj AT_117_2, global
 	.double 0.28125
-.endobj "lbl_"@117"2"
+.endobj AT_117_2
 
 # .sdata2:0x6F18 | 0x805E5618 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5618, global
@@ -30542,9 +30542,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5618
 
 # .sdata2:0x6F20 | 0x805E5620 | size: 0x8
-.obj "lbl_"@438"", global
+.obj AT_438, global
 	.double 0.00000005960464477539063
-.endobj "lbl_"@438""
+.endobj AT_438
 
 # .sdata2:0x6F28 | 0x805E5628 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5628, global
@@ -30577,34 +30577,34 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5650
 
 # .sdata2:0x6F58 | 0x805E5658 | size: 0x8
-.obj "lbl_"@102"", global
+.obj AT_102, global
 	.double 0.00833333333332249
-.endobj "lbl_"@102""
+.endobj AT_102
 
 # .sdata2:0x6F60 | 0x805E5660 | size: 0x8
-.obj "lbl_"@103"", global
+.obj AT_103, global
 	.double -0.0001984126982985795
-.endobj "lbl_"@103""
+.endobj AT_103
 
 # .sdata2:0x6F68 | 0x805E5668 | size: 0x8
-.obj "lbl_"@104"", global
+.obj AT_104, global
 	.double 0.0000027557313707070068
-.endobj "lbl_"@104""
+.endobj AT_104
 
 # .sdata2:0x6F70 | 0x805E5670 | size: 0x8
-.obj "lbl_"@105"", global
+.obj AT_105, global
 	.double -0.000000025050760253406863
-.endobj "lbl_"@105""
+.endobj AT_105
 
 # .sdata2:0x6F78 | 0x805E5678 | size: 0x8
-.obj "lbl_"@106"", global
+.obj AT_106, global
 	.double 0.000000000158969099521155
-.endobj "lbl_"@106""
+.endobj AT_106
 
 # .sdata2:0x6F80 | 0x805E5680 | size: 0x8
-.obj "lbl_"@107"", global
+.obj AT_107, global
 	.double -0.16666666666666632
-.endobj "lbl_"@107""
+.endobj AT_107
 
 # .sdata2:0x6F88 | 0x805E5688 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5688, global
@@ -30722,9 +30722,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5738
 
 # .sdata2:0x7040 | 0x805E5740 | size: 0x8
-.obj "lbl_"@135"", global
+.obj AT_135, global
 	.double 0.00000000000000005551115123125783
-.endobj "lbl_"@135""
+.endobj AT_135
 
 # .sdata2:0x7048 | 0x805E5748 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5748, global
@@ -31247,9 +31247,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5930
 
 # .sdata2:0x7238 | 0x805E5938 | size: 0x4
-.obj "lbl_"@153"", global
+.obj AT_153, global
 	.4byte 0x2ABE003D
-.endobj "lbl_"@153""
+.endobj AT_153
 
 # .sdata2:0x723C | 0x805E593C | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805E593C, global
@@ -31444,9 +31444,9 @@
 .endobj gap_11_805E59EC_sdata2
 
 # .sdata2:0x72F0 | 0x805E59F0 | size: 0x8
-.obj "lbl_"@1435"", global
+.obj AT_1435, global
 	.double -0.5
-.endobj "lbl_"@1435""
+.endobj AT_1435
 
 # .sdata2:0x72F8 | 0x805E59F8 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E59F8, global
@@ -31602,9 +31602,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5A88
 
 # .sdata2:0x7390 | 0x805E5A90 | size: 0x8
-.obj "lbl_"@1497"", global
+.obj AT_1497, global
 	.double 0.0001
-.endobj "lbl_"@1497""
+.endobj AT_1497
 
 # .sdata2:0x7398 | 0x805E5A98 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5A98, global
@@ -32440,9 +32440,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E5E00
 
 # .sdata2:0x7708 | 0x805E5E08 | size: 0x8
-.obj "lbl_"@500"", global
+.obj AT_500, global
 	.double 57.29577951308232
-.endobj "lbl_"@500""
+.endobj AT_500
 
 # .sdata2:0x7710 | 0x805E5E10 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E5E10, global
@@ -32909,9 +32909,9 @@
 .endobj gap_11_805E5FF4_sdata2
 
 # .sdata2:0x78F8 | 0x805E5FF8 | size: 0x8
-.obj "lbl_"@1985"", global
+.obj AT_1985, global
 	.double 42.5
-.endobj "lbl_"@1985""
+.endobj AT_1985
 
 # .sdata2:0x7900 | 0x805E6000 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E6000, global
@@ -32981,9 +32981,9 @@
 .endobj STRUCT_DOUBLE_COUNT_1805E6040
 
 # .sdata2:0x7948 | 0x805E6048 | size: 0x8
-.obj "lbl_"@511"", global
+.obj AT_511, global
 	.double 0.9
-.endobj "lbl_"@511""
+.endobj AT_511
 
 # .sdata2:0x7950 | 0x805E6050 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E6050, global
@@ -33380,9 +33380,9 @@
 .endobj gap_11_805E61D4_sdata2
 
 # .sdata2:0x7AD8 | 0x805E61D8 | size: 0x8
-.obj "lbl_"@224"", global
+.obj AT_224, global
 	.double 32767
-.endobj "lbl_"@224""
+.endobj AT_224
 
 # .sdata2:0x7AE0 | 0x805E61E0 | size: 0x8
 .obj STRUCT_DOUBLE_COUNT_1805E61E0, global

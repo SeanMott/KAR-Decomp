@@ -117922,7 +117922,7 @@
 .endobj lbl_804F8DF0
 
 # .data:0x5D2B0 | 0x804F8E28 | size: 0x84
-.obj "@1248_804F8E28", global
+.obj AT_1248_804F8E28, global
 	.4byte longlong2str_803B6218+0xF8
 	.4byte longlong2str_803B6218+0x108
 	.4byte longlong2str_803B6218+0x108
@@ -117956,7 +117956,7 @@
 	.4byte longlong2str_803B6218+0x108
 	.4byte longlong2str_803B6218+0x108
 	.4byte longlong2str_803B6218+0xF8
-.endobj "@1248_804F8E28"
+.endobj AT_1248_804F8E28
 
 # .data:0x5D334 | 0x804F8EAC | size: 0x84
 .obj jumptable_804F8EAC, global
@@ -118495,9 +118495,9 @@
 .endobj lbl_804F9630
 
 # .data:0x5DB00 | 0x804F9678 | size: 0xA
-.obj "@18_804F9678", global
+.obj AT_18_804F9678, global
 	.string "load fst\n"
-.endobj "@18_804F9678"
+.endobj AT_18_804F9678
 
 # .data:0x5DB0A | 0x804F9682 | size: 0x2
 .obj gap_07_804F9682_data, global
@@ -118611,9 +118611,9 @@
 .endobj lbl_804F97B0
 
 # .data:0x5DC80 | 0x804F97F8 | size: 0x1A
-.obj "@36_804F97F8", global
+.obj AT_36_804F97F8, global
 	.string "  Game Name ... %c%c%c%c\n"
-.endobj "@36_804F97F8"
+.endobj AT_36_804F97F8
 
 # .data:0x5DC9A | 0x804F9812 | size: 0x56
 .obj gap_07_804F9812_data, global
@@ -119489,9 +119489,9 @@
 .endobj gap_07_804FA3EC_data
 
 # .data:0x5E878 | 0x804FA3F0 | size: 0x44
-.obj "@1_804FA3F0", global
+.obj AT_1_804FA3F0, global
 	.string "<< Dolphin SDK - OS\trelease build: Mar 17 2003 04:20:41 (0x2301) >>"
-.endobj "@1_804FA3F0"
+.endobj AT_1_804FA3F0
 
 # .data:0x5E8BC | 0x804FA434 | size: 0x1B4
 .obj gap_07_804FA434_data, global
@@ -119878,9 +119878,9 @@
 .endobj DSPInitCode_804FA980
 
 # .data:0x5EE88 | 0x804FAA00 | size: 0x29
-.obj "@69_804FAA00", global
+.obj AT_69_804FAA00, global
 	.string ">>> L2 INVALIDATE : SHOULD NEVER HAPPEN\n"
-.endobj "@69_804FAA00"
+.endobj AT_69_804FAA00
 
 # .data:0x5EEB1 | 0x804FAA29 | size: 0x207
 .obj gap_07_804FAA29_data, global
@@ -120131,9 +120131,9 @@
 .endobj lbl_804FAC30
 
 # .data:0x5F26C | 0x804FADE4 | size: 0x23
-.obj "@74_804FADE4", global
+.obj AT_74_804FADE4, global
 	.string "FPU-unavailable handler installed\n"
-.endobj "@74_804FADE4"
+.endobj AT_74_804FADE4
 
 # .data:0x5F28F | 0x804FAE07 | size: 0x1
 .obj gap_07_804FAE07_data, global
@@ -120142,9 +120142,9 @@
 .endobj gap_07_804FAE07_data
 
 # .data:0x5F290 | 0x804FAE08 | size: 0x16
-.obj "@13_804FAE08", global
+.obj AT_13_804FAE08, global
 	.string " in \"%s\" on line %d.\n"
-.endobj "@13_804FAE08"
+.endobj AT_13_804FAE08
 
 # .data:0x5F2A6 | 0x804FAE1E | size: 0x2C6
 .obj gap_07_804FAE1E_data, global
@@ -120330,7 +120330,7 @@
 .endobj gap_07_804FAE1E_data
 
 # .data:0x5F56C | 0x804FB0E4 | size: 0x40
-.obj "@87_804FB0E4", global
+.obj AT_87_804FB0E4, global
 	.4byte __OSUnhandledException+0x2B4
 	.4byte __OSUnhandledException+0x2B4
 	.4byte __OSUnhandledException+0x20C
@@ -120347,7 +120347,7 @@
 	.4byte __OSUnhandledException+0x2B4
 	.4byte __OSUnhandledException+0x2B4
 	.4byte __OSUnhandledException+0x268
-.endobj "@87_804FB0E4"
+.endobj AT_87_804FB0E4
 
 # .data:0x5F5AC | 0x804FB124 | size: 0x4
 .obj gap_07_804FB124_data, global
@@ -121928,7 +121928,7 @@
 .endobj gap_07_804FC7A0_data
 
 # .data:0x60D7C | 0x804FC8F4 | size: 0x1C
-.obj "@724_804FC8F4", global
+.obj AT_724_804FC8F4, global
 	.4byte VIGetTvFormat+0x38
 	.4byte VIGetTvFormat+0x40
 	.4byte VIGetTvFormat+0x48
@@ -121936,7 +121936,7 @@
 	.4byte VIGetTvFormat+0x40
 	.4byte VIGetTvFormat+0x48
 	.4byte VIGetTvFormat+0x38
-.endobj "@724_804FC8F4"
+.endobj AT_724_804FC8F4
 
 # .data:0x60D98 | 0x804FC910 | size: 0x48
 .obj lbl_804FC910, global

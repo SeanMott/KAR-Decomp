@@ -2661,7 +2661,7 @@
 .endobj MemoryOffset_78
 
 # .rodata:0x23B0 | 0x8048B830 | size: 0x25
-.obj "@stringBase0_8048B830", global
+.obj AT_stringBase0_8048B830, global
 	.string ""
 	.string "-INF"
 	.string "-inf"
@@ -2671,7 +2671,7 @@
 	.string "-nan"
 	.string "NAN"
 	.string "nan"
-.endobj "@stringBase0_8048B830"
+.endobj AT_stringBase0_8048B830
 
 # .rodata:0x23D5 | 0x8048B855 | size: 0x3
 .obj gap_06_8048B855_rodata, global
@@ -2941,9 +2941,9 @@
 .endobj MemoryOffset_85
 
 # .rodata:0x2780 | 0x8048BC00 | size: 0x1B
-.obj "@62_8048BC00", global
+.obj AT_62_8048BC00, global
 	.string "MetroTRK for GAMECUBE v2.0"
-.endobj "@62_8048BC00"
+.endobj AT_62_8048BC00
 
 # .rodata:0x279B | 0x8048BC1B | size: 0x1
 .obj gap_06_8048BC1B_rodata, global
@@ -2952,9 +2952,9 @@
 .endobj gap_06_8048BC1B_rodata
 
 # .rodata:0x279C | 0x8048BC1C | size: 0x10
-.obj "@154_8048BC1C", global
+.obj AT_154_8048BC1C, global
 	.string "Initialize NUB\n"
-.endobj "@154_8048BC1C"
+.endobj AT_154_8048BC1C
 
 # .rodata:0x27AC | 0x8048BC2C | size: 0x4
 .obj gap_06_8048BC2C_rodata, global
@@ -3364,9 +3364,9 @@
 .endobj String_"TargetDoStep_FuncCall"
 
 # .rodata:0x2CF0 | 0x8048C170 | size: 0xB
-.obj "@80_8048C170", global
+.obj AT_80_8048C170, global
 	.string "TRK_Main \n"
-.endobj "@80_8048C170"
+.endobj AT_80_8048C170
 
 # .rodata:0x2CFB | 0x8048C17B | size: 0x5
 .obj gap_06_8048C17B_rodata, global

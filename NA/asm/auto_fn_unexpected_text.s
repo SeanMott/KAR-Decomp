@@ -6,8 +6,8 @@
 .balign 4
 
 # extab:0x0 | 0x80005650 | size: 0x8
-.obj "@etb_80005650", local
-.hidden "@etb_80005650"
+.obj AT_etb_80005650, local
+.hidden AT_etb_80005650
 /*
  * Flag values:
  * Has Elf Vector: No
@@ -17,19 +17,19 @@
  */
 	.4byte 0x00080000
 	.4byte 0x00000000
-.endobj "@etb_80005650"
+.endobj AT_etb_80005650
 
 # 0x80005730..0x8000573C | size: 0xC
 .section extabindex, "a"
 .balign 4
 
 # extabindex:0x0 | 0x80005730 | size: 0xC
-.obj "@eti_80005730", local
-.hidden "@eti_80005730"
+.obj AT_eti_80005730, local
+.hidden AT_eti_80005730
 	.4byte fn_unexpected
 	.4byte 0x00000028
-	.4byte "@etb_80005650"
-.endobj "@eti_80005730"
+	.4byte AT_etb_80005650
+.endobj AT_eti_80005730
 
 # 0x803AD6A0..0x803AD6C8 | size: 0x28
 .text

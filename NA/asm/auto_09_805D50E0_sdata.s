@@ -23763,9 +23763,9 @@
 .endobj StructWithStructs_88
 
 # .sdata:0x77A8 | 0x805DC888 | size: 0x2
-.obj "@wstringBase0_805DC888", global
+.obj AT_wstringBase0_805DC888, global
 	.2byte 0x0000
-.endobj "@wstringBase0_805DC888"
+.endobj AT_wstringBase0_805DC888
 
 # .sdata:0x77AA | 0x805DC88A | size: 0x6
 .obj gap_09_805DC88A_sdata, global
@@ -23864,9 +23864,9 @@
 .endobj AllFs_3
 
 # .sdata:0x7818 | 0x805DC8F8 | size: 0x2
-.obj "@35_805DC8F8", global
+.obj AT_35_805DC8F8, global
 	.string "\n"
-.endobj "@35_805DC8F8"
+.endobj AT_35_805DC8F8
 
 # .sdata:0x781A | 0x805DC8FA | size: 0x2
 .obj gap_09_805DC8FA_sdata, global
@@ -23875,14 +23875,14 @@
 .endobj gap_09_805DC8FA_sdata
 
 # .sdata:0x781C | 0x805DC8FC | size: 0x4
-.obj "@40_805DC8FC", global
+.obj AT_40_805DC8FC, global
 	.string "OFF"
-.endobj "@40_805DC8FC"
+.endobj AT_40_805DC8FC
 
 # .sdata:0x7820 | 0x805DC900 | size: 0x3
-.obj "@41_805DC900", global
+.obj AT_41_805DC900, global
 	.string "ON"
-.endobj "@41_805DC900"
+.endobj AT_41_805DC900
 
 # .sdata:0x7823 | 0x805DC903 | size: 0x5
 .obj gap_09_805DC903_sdata, global
@@ -23974,13 +23974,13 @@
 
 # .sdata:0x7888 | 0x805DC968 | size: 0x4
 .obj __OSVersion, global
-	.4byte "@1_804FA3F0"
+	.4byte AT_1_804FA3F0
 .endobj __OSVersion
 
 # .sdata:0x788C | 0x805DC96C | size: 0x6
-.obj "@97_805DC96C", global
+.obj AT_97_805DC96C, global
 	.string "%08x\n"
-.endobj "@97_805DC96C"
+.endobj AT_97_805DC96C
 
 # .sdata:0x7892 | 0x805DC972 | size: 0x2
 .obj gap_09_805DC972_sdata, global
@@ -24016,9 +24016,9 @@
 .endobj StructValues_29
 
 # .sdata:0x78AC | 0x805DC98C | size: 0x2
-.obj "@76_805DC98C", global
+.obj AT_76_805DC98C, global
 	.string "\n"
-.endobj "@76_805DC98C"
+.endobj AT_76_805DC98C
 
 # .sdata:0x78AE | 0x805DC98E | size: 0x2
 .obj gap_09_805DC98E_sdata, global
