@@ -110,10 +110,7 @@
 	.float 0
 .endobj STRUCT_FLOAT_COUNT_1805DE764
 
-# .sdata2:0x68 | 0x805DE768 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DE768, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805DE768
+
 
 # .sdata2:0x6C | 0x805DE76C | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805DE76C, global
@@ -125,10 +122,7 @@
 	.float 0
 .endobj STRUCT_FLOAT_COUNT_1805DE770
 
-# .sdata2:0x74 | 0x805DE774 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DE774, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805DE774
+
 
 # .sdata2:0x78 | 0x805DE778 | size: 0x8
 .obj STRUCT_FLOAT_COUNT_1805DE778, global
@@ -538,10 +532,7 @@
 	.float 0
 .endobj STRUCT_FLOAT_COUNT_1805DE900
 
-# .sdata2:0x204 | 0x805DE904 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DE904, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805DE904
+
 
 # .sdata2:0x208 | 0x805DE908 | size: 0x8
 .obj STRUCT_FLOAT_COUNT_1805DE908, global
@@ -1096,10 +1087,7 @@
 	.double 4503599627370496
 .endobj STRUCT_DOUBLE_COUNT_1805DEAF8
 
-# .sdata2:0x400 | 0x805DEB00 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DEB00, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805DEB00
+
 
 # .sdata2:0x404 | 0x805DEB04 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805DEB04, global
@@ -3216,10 +3204,7 @@
 	.double 0
 .endobj STRUCT_DOUBLE_COUNT_1805DF298
 
-# .sdata2:0xBA0 | 0x805DF2A0 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DF2A0, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805DF2A0
+
 
 # .sdata2:0xBA4 | 0x805DF2A4 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805DF2A4, global
@@ -5618,10 +5603,7 @@
 	.float 450
 .endobj STRUCT_FLOAT_COUNT_1805DFB6C
 
-# .sdata2:0x1470 | 0x805DFB70 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DFB70, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805DFB70
+
 
 # .sdata2:0x1474 | 0x805DFB74 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805DFB74, global
@@ -6091,9 +6073,9 @@
 .endobj STRUCT_FLOAT_COUNT_1805DFD1C
 
 # .sdata2:0x1620 | 0x805DFD20 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DFD20, global
+.obj Float_Value_22, global
 	.float 22
-.endobj STRUCT_FLOAT_COUNT_1805DFD20
+.endobj Float_Value_22
 
 # .sdata2:0x1624 | 0x805DFD24 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805DFD24, global
@@ -7348,10 +7330,7 @@
 	.double 4503601774854144
 .endobj STRUCT_DOUBLE_COUNT_1805E0170
 
-# .sdata2:0x1A78 | 0x805E0178 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E0178, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E0178
+
 
 # .sdata2:0x1A7C | 0x805E017C | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E017C, global
@@ -20540,10 +20519,7 @@
 	.float 20
 .endobj STRUCT_FLOAT_COUNT_1805E300C
 
-# .sdata2:0x4910 | 0x805E3010 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E3010, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E3010
+
 
 # .sdata2:0x4914 | 0x805E3014 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E3014, global
@@ -21469,10 +21445,7 @@
 	.float -480
 .endobj STRUCT_FLOAT_COUNT_1805E3344
 
-# .sdata2:0x4C48 | 0x805E3348 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E3348, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E3348
+
 
 # .sdata2:0x4C4C | 0x805E334C | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E334C, global
@@ -21611,10 +21584,6 @@
 	.float 480
 .endobj STRUCT_FLOAT_COUNT_1805E33C8
 
-# .sdata2:0x4CCC | 0x805E33CC | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E33CC, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E33CC
 
 # .sdata2:0x4CD0 | 0x805E33D0 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E33D0, global
@@ -22571,10 +22540,7 @@
 	.double 1
 .endobj STRUCT_DOUBLE_COUNT_1805E3748
 
-# .sdata2:0x5050 | 0x805E3750 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E3750, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E3750
+
 
 # .sdata2:0x5054 | 0x805E3754 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E3754, global
@@ -28693,10 +28659,7 @@
 	.double 4503599627370496
 .endobj STRUCT_DOUBLE_COUNT_1805E4D28
 
-# .sdata2:0x6630 | 0x805E4D30 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E4D30, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E4D30
+
 
 # .sdata2:0x6634 | 0x805E4D34 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E4D34, global
@@ -28806,10 +28769,7 @@
 	.float -0.5
 .endobj STRUCT_FLOAT_COUNT_1805E4D9C
 
-# .sdata2:0x66A0 | 0x805E4DA0 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E4DA0, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E4DA0
+
 
 # .sdata2:0x66A4 | 0x805E4DA4 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E4DA4, global
@@ -28962,10 +28922,6 @@
 	.float 480
 .endobj STRUCT_FLOAT_COUNT_1805E4E34
 
-# .sdata2:0x6738 | 0x805E4E38 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E4E38, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E4E38
 
 # .sdata2:0x673C | 0x805E4E3C | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E4E3C, global
@@ -29118,10 +29074,7 @@
 	.float 480
 .endobj STRUCT_FLOAT_COUNT_1805E4ED4
 
-# .sdata2:0x67D8 | 0x805E4ED8 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E4ED8, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E4ED8
+
 
 # .sdata2:0x67DC | 0x805E4EDC | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E4EDC, global
@@ -29430,10 +29383,7 @@
 	.float 480
 .endobj STRUCT_FLOAT_COUNT_1805E5010
 
-# .sdata2:0x6914 | 0x805E5014 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E5014, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E5014
+
 
 # .sdata2:0x6918 | 0x805E5018 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E5018, global
@@ -32195,10 +32145,7 @@
 	.float 0
 .endobj STRUCT_FLOAT_COUNT_1805E5D10
 
-# .sdata2:0x7614 | 0x805E5D14 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E5D14, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E5D14
+
 
 # .sdata2:0x7618 | 0x805E5D18 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E5D18, global
@@ -33447,105 +33394,96 @@
 	.float -480
 .endobj STRUCT_FLOAT_COUNT_1805E6220
 
-# .sdata2:0x7B24 | 0x805E6224 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6224, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E6224
+
 
 # .sdata2:0x7B28 | 0x805E6228 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805E6228, global
 	.float 0
 .endobj STRUCT_FLOAT_COUNT_1805E6228
 
-# .sdata2:0x7B2C | 0x805E622C | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E622C, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E622C
+
 
 # .sdata2:0x7B30 | 0x805E6230 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6230, global
+.obj Float_Value_480_2, global
 	.float 480
-.endobj STRUCT_FLOAT_COUNT_1805E6230
+.endobj Float_Value_480_2
 
 # .sdata2:0x7B34 | 0x805E6234 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6234, global
+.obj Float_Value_256_2, global
 	.float 256
-.endobj STRUCT_FLOAT_COUNT_1805E6234
+.endobj Float_Value_256_2
 
 # .sdata2:0x7B38 | 0x805E6238 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6238, global
+.obj Float_Value_256, global
 	.float 256
-.endobj STRUCT_FLOAT_COUNT_1805E6238
+.endobj Float_Value_256
 
 # .sdata2:0x7B3C | 0x805E623C | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E623C, global
+.obj Float_Value_"0.00390625", global
 	.float 0.00390625
-.endobj STRUCT_FLOAT_COUNT_1805E623C
+.endobj Float_Value_"0.00390625"
 
 # .sdata2:0x7B40 | 0x805E6240 | size: 0x8
-.obj STRUCT_DOUBLE_COUNT_1805E6240, global
+.obj Double_Value_4503601774854144, global
 	.double 4503601774854144
-.endobj STRUCT_DOUBLE_COUNT_1805E6240
+.endobj Double_Value_4503601774854144
 
 # .sdata2:0x7B48 | 0x805E6248 | size: 0x8
-.obj STRUCT_DOUBLE_COUNT_1805E6248, global
+.obj Double_Value_4503599627370496, global
 	.double 4503599627370496
-.endobj STRUCT_DOUBLE_COUNT_1805E6248
+.endobj Double_Value_4503599627370496
 
 # .sdata2:0x7B50 | 0x805E6250 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6250, global
+.obj Float_Value_0, global
 	.float 0
-.endobj STRUCT_FLOAT_COUNT_1805E6250
+.endobj Float_Value_0
 
 # .sdata2:0x7B54 | 0x805E6254 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6254, global
+.obj Float_Value_32, global
 	.float 32
-.endobj STRUCT_FLOAT_COUNT_1805E6254
+.endobj Float_Value_32
 
 # .sdata2:0x7B58 | 0x805E6258 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6258, global
+.obj Float_Value_16_2, global
 	.float 16
-.endobj STRUCT_FLOAT_COUNT_1805E6258
+.endobj Float_Value_16_2
 
 # .sdata2:0x7B5C | 0x805E625C | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E625C, global
+.obj Float_Value_1, global
 	.float 1
-.endobj STRUCT_FLOAT_COUNT_1805E625C
+.endobj Float_Value_1
 
 # .sdata2:0x7B60 | 0x805E6260 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6260, global
+.obj Float_Value_"0.5", global
 	.float 0.5
-.endobj STRUCT_FLOAT_COUNT_1805E6260
+.endobj Float_Value_"0.5"
 
-# .sdata2:0x7B64 | 0x805E6264 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6264, global
-	.float 640
-.endobj STRUCT_FLOAT_COUNT_1805E6264
+
 
 # .sdata2:0x7B68 | 0x805E6268 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6268, global
+.obj Float_Value_480, global
 	.float 480
-.endobj STRUCT_FLOAT_COUNT_1805E6268
+.endobj Float_Value_480
 
 # .sdata2:0x7B6C | 0x805E626C | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E626C, global
+.obj Float_Value_Neg_480, global
 	.float -480
-.endobj STRUCT_FLOAT_COUNT_1805E626C
+.endobj Float_Value_Neg_480
 
 # .sdata2:0x7B70 | 0x805E6270 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6270, global
+.obj Float_Value_Two, global
 	.float 2
-.endobj STRUCT_FLOAT_COUNT_1805E6270
+.endobj Float_Value_Two
 
 # .sdata2:0x7B74 | 0x805E6274 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805E6274, global
+.obj Float_Value_Neg_One, global
 	.float -1
-.endobj STRUCT_FLOAT_COUNT_1805E6274
+.endobj Float_Value_Neg_One
 
 # .sdata2:0x7B78 | 0x805E6278 | size: 0x8
-.obj STRUCT_DOUBLE_COUNT_1805E6278, global
+.obj Float_Value_16, global
 	.double 16
-.endobj STRUCT_DOUBLE_COUNT_1805E6278
+.endobj Float_Value_16
 
 # .sdata2:0x7B80 | 0x805E6280 | size: 0x4
 .obj STRUCT_BYTE4_COUNT_1805E6280, global
