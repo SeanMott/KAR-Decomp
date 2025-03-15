@@ -1,5 +1,5 @@
 .include "macros.inc"
-.file "auto_fn_803AD760_text"
+.file "auto_fn___dynamic_cast_text"
 
 # 0x80005670..0x80005678 | size: 0x8
 .section extab, "a"
@@ -27,7 +27,7 @@
 # extabindex:0x0 | 0x80005760 | size: 0xC
 .obj AT_eti_80005760, local
 .hidden AT_eti_80005760
-	.4byte fn_803AD760
+	.4byte fn___dynamic_cast
 	.4byte 0x00000264
 	.4byte AT_etb_80005670
 .endobj AT_eti_80005760
@@ -37,7 +37,7 @@
 .balign 4
 
 # .text:0x0 | 0x803AD760 | size: 0x264
-.fn fn_803AD760, global
+.fn fn___dynamic_cast, global
 /* 803AD760 003AA560  94 21 FF E0 */	stwu r1, -0x20(r1)
 /* 803AD764 003AA564  7C 08 02 A6 */	mflr r0
 /* 803AD768 003AA568  28 03 00 00 */	cmplwi r3, 0x0
@@ -219,4 +219,4 @@
 /* 803AD9B8 003AA7B8  7C 08 03 A6 */	mtlr r0
 /* 803AD9BC 003AA7BC  38 21 00 20 */	addi r1, r1, 0x20
 /* 803AD9C0 003AA7C0  4E 80 00 20 */	blr
-.endfn fn_803AD760
+.endfn fn___dynamic_cast
