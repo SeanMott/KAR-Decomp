@@ -75,3 +75,84 @@ DatFilepaths_Gr_Zeroyon5Model.cpp:
 
 DatFilepaths_Gr_Pasture1.cpp:
 	.data       start:0x804A2B94 end:0x804A2BA8
+
+DatFilepaths_Gr_Jump1.cpp:
+	.data       start:0x804A2D14 end:0x804A2D20
+
+DatFilepaths_Gr_Jump2.cpp:
+	.data       start:0x804A2D64 end:0x804A2D70
+
+DatFilepaths_Gr_Jump3.cpp:
+	.data       start:0x804A2DB4 end:0x804A2DC0
+
+DatFilepaths_Gr_TestModel.cpp:
+	.data       start:0x804A2E78 end:0x804A2E88
+
+DatFilepaths_Gr_Test6.cpp:
+	.data       start:0x804A2EA8 end:0x804A2EB4
+
+DatFilepaths_Gr_Test7.cpp:
+	.data       start:0x804A2EF8 end:0x804A2F04
+
+DatFilepaths_Sis_Menu.cpp:
+	.data       start:0x804AA638 end:0x804AA644
+
+DatFilepaths_Sis_Selply2d.cpp:
+	.data       start:0x804AA6B0 end:0x804AA6C0
+
+DatFilepaths_Sis_SelplyCt.cpp:
+	.data       start:0x804AA6F4 end:0x804AA704
+
+DatFilepaths_Sis_Selmap2d.cpp:
+	.data       start:0x804AA7CC end:0x804AA7DC
+
+DatFilepaths_Sis_StadiumTitle.cpp:
+	.data       start:0x804AA818 end:0x804AA82C
+
+DatFilepaths_Sis_ResultCt.cpp:
+	.data       start:0x804AA844 end:0x804AA854
+
+DatFilepaths_Sis_Dialogue.cpp:
+	.data       start:0x804AD218 end:0x804AD228
+
+DatFilepaths_Rd_Kirby_2.cpp:
+	.data       start:0x804ADB60 end:0x804ADB6C
+
+DatFilepaths_VC_Wheel.cpp:
+	.data       start:0x804B07C4 end:0x804B07D0
+
+DatFilepaths_Array_Element_VC_Star_Light.cpp:
+	.data       start:0x804B12B0 end:0x804B12C0
+
+DatFilepaths_Array_Element_VC_Star_Slick.cpp:
+	.data       start:0x804B1350 end:0x804B1360
+
+DatFilepaths_Array_Element_VC_Star_Ruins.cpp:
+	.data       start:0x804B1408 end:0x804B1418
+
+DatFilepaths_VC_VsDededeWheel.cpp:
+	.data       start:0x804B1BE0 end:0x804B1BF4
+
+DatFilepaths_Em_BroomData_2.cpp:
+	.data       start:0x804B1ED4 end:0x804B1EE4
+
+DatFilepaths_Em_BrontData_1.cpp:
+	.data       start:0x804B1EF8 end:0x804B1F08
+
+DatFilepaths_Em_SwordData_2.cpp:
+	.data       start:0x804B1F44 end:0x804B1F54
+
+DatFilepaths_Em_CappyData_1.cpp:
+	.data       start:0x804B1F68 end:0x804B1F78
+
+DatFilepaths_Em_NoddyData_2.cpp:
+	.data       start:0x804B1FDC end:0x804B1FEC
+
+DatFilepaths_Em_GordoData_2.cpp:
+	.data       start:0x804B2078 end:0x804B2088
+
+DatFilepaths_Em_WalkyData.cpp:
+	.data       start:0x804B2134 end:0x804B2144
+
+DatFilepaths_Em_MeteoData.cpp:
+	.data       start:0x804B21E0 end:0x804B21F0
