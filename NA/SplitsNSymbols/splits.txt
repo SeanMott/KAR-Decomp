@@ -13,5 +13,41 @@ Sections:
 	.sdata2     type:rodata align:4
 	.sbss2      type:bss align:32
 
-DatFilepaths_Stars.cpp:
+DatFilepaths_VC_Stars_Devil.cpp:
 	.data       start:0x8049A048 end:0x8049A058
+
+DatFilepaths_VC_Stars_Heavy.cpp:
+	.data       start:0x8049A080 end:0x8049A090
+
+DatFilepaths_VC_Stars_Light.cpp:
+	.data       start:0x8049A0A0 end:0x8049A0B0
+
+DatFilepaths_VC_Stars_Ruins.cpp:
+	.data       start:0x8049A0D8 end:0x8049A0E8
+
+DatFilepaths_VC_Stars_Slick.cpp:
+	.data       start:0x8049A0E8 end:0x8049A0F8
+
+DatFilepaths_VC_Stars_Turbo.cpp:
+	.data       start:0x8049A0F8 end:0x8049A108
+
+DatFilepaths_VC_Stars_Wagon.cpp:
+	.data       start:0x8049A108 end:0x8049A118
+
+DatFilepaths_VC_Kirby_Wheel.cpp:
+	.data       start:0x8049A1C4 end:0x8049A1D0
+
+DatFilepaths_VC_Kirby_Wing.cpp:
+	.data       start:0x8049A1D0 end:0x8049A1E0
+
+DatFilepaths_A2_EfCom.cpp:
+	.data       start:0x8049A284 end:0x8049A290
+
+DatFilepaths_Ef_Debug.cpp:
+	.data       start:0x8049DE50 end:0x8049DE5C
+
+DatFilepaths_Gr_Heat2.cpp:
+	.data       start:0x804A2710 end:0x804A271C
+
+DatFilepaths_Gr_Machine2Model.cpp:
+	.data       start:0x804A2890 end:0x804A28A4

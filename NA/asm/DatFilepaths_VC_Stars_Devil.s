@@ -1,5 +1,5 @@
 .include "macros.inc"
-.file "DatFilepaths_Stars.cpp"
+.file "DatFilepaths_VC_Stars_Devil.cpp"
 
 # 0x8049A048..0x8049A058 | size: 0x10
 .data

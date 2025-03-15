@@ -165,8 +165,6 @@ config.asflags = [
 config.ldflags = [
     "-fp hardware",
     "-nodefaults",
-   # f"-lr {"build/NA/obj"}",
-   # f"-l{"DatFilepaths_Stars.o"}"
 ]
 if args.debug:
     config.ldflags.append("-g")  # Or -gdwarf-2 for Wii linkers
@@ -180,11 +178,6 @@ config.reconfig_deps = []
 # Optional numeric ID for decomp.me preset
 # Can be overridden in libraries or objects
 config.scratch_preset_id = None
-
-#the assembly directory
-config.asm_dir = "NA/asm"
-
-#includeDir = "src"
 
 # Base flags, common to most GC/Wii games.
 # Generally leave untouched, with overrides added below.
@@ -206,8 +199,6 @@ cflags_base = [
     "-fp_contract on",
     "-str reuse",
     "-multibyte",  # For Wii compilers, replace with `-enc SJIS`
-   # f"-i {includeDir}",
-   # f"-i build/{config.version}/include",
     f"-DBUILD_VERSION={version_num}",
     f"-DVERSION_{config.version}"
 ]
@@ -287,18 +278,6 @@ config.libs = [
 
     
 ]
-
-"""{
-
-        "lib": "DatFilepaths",
-        "mw_version": config.linker_version,
-        "cflags": cflags_runtime,
-        "progress_category": "game",  # str | List[str]
-        "objects": [
-            Object(Matching, "DatFilepaths_Stars.cpp")
-        ],
-    },"""
-
 
 # Optional callback to adjust link order. This can be used to add, remove, or reorder objects.
 # This is called once per module, with the module ID and the current link order.
