@@ -51,3 +51,27 @@ DatFilepaths_Gr_Heat2.cpp:
 
 DatFilepaths_Gr_Machine2Model.cpp:
 	.data       start:0x804A2890 end:0x804A28A4
+
+DatFilepaths_Gr_Sky2Model.cpp:
+	.data       start:0x804A293C end:0x804A294C
+
+DatFilepaths_Gr_Ice1Model.cpp:
+	.data       start:0x804A2984 end:0x804A2994
+
+DatFilepaths_Gr_City1.cpp:
+	.data       start:0x804A29B4 end:0x804A29C0
+
+DatFilepaths_Gr_Zeroyon1Model.cpp:
+	.data       start:0x804A2A24 end:0x804A2A38
+
+DatFilepaths_Gr_Zeroyon3Model.cpp:
+	.data       start:0x804A2A80 end:0x804A2A94
+
+DatFilepaths_Gr_Zeroyon4Model.cpp:
+	.data       start:0x804A2ADC end:0x804A2AF0
+
+DatFilepaths_Gr_Zeroyon5Model.cpp:
+	.data       start:0x804A2B38 end:0x804A2B4C
+
+DatFilepaths_Gr_Pasture1.cpp:
+	.data       start:0x804A2B94 end:0x804A2BA8
