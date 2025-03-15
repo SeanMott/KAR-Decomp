@@ -165,6 +165,8 @@ config.asflags = [
 config.ldflags = [
     "-fp hardware",
     "-nodefaults",
+    f"-lr {"build/NA/obj"}",
+    f"-l{"DatFilepaths_Stars.o"}"
 ]
 if args.debug:
     config.ldflags.append("-g")  # Or -gdwarf-2 for Wii linkers
@@ -178,6 +180,11 @@ config.reconfig_deps = []
 # Optional numeric ID for decomp.me preset
 # Can be overridden in libraries or objects
 config.scratch_preset_id = None
+
+#the assembly directory
+config.asm_dir = "NA/asm"
+
+includeDir = "src"
 
 # Base flags, common to most GC/Wii games.
 # Generally leave untouched, with overrides added below.
@@ -199,10 +206,10 @@ cflags_base = [
     "-fp_contract on",
     "-str reuse",
     "-multibyte",  # For Wii compilers, replace with `-enc SJIS`
-    "-i include",
+    f"-i {includeDir}",
     f"-i build/{config.version}/include",
     f"-DBUILD_VERSION={version_num}",
-    f"-DVERSION_{config.version}",
+    f"-DVERSION_{config.version}"
 ]
 
 # Debug flags
