@@ -1202,11 +1202,6 @@
 	.4byte 0x61740000
 .endobj MemoryOffset_255
 
-# .data:0xE50 | 0x8049A048 | size: 0x10
-.obj String_"VcStarDevil.dat", global
-	.string "VcStarDevil.dat"
-.endobj String_"VcStarDevil.dat"
-
 # .data:0xE60 | 0x8049A058 | size: 0x14
 .obj MemoryOffset_256, global
 	.4byte 0x56635374

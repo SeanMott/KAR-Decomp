@@ -277,6 +277,17 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
         ],
     },
+
+    {
+
+        "lib": "DatFilepaths",
+        "mw_version": config.linker_version,
+        "cflags": cflags_runtime,
+        "progress_category": "game",  # str | List[str]
+        "objects": [
+            Object(Matching, "DatFilepaths_Stars.cpp")
+        ],
+    },
 ]
 
 

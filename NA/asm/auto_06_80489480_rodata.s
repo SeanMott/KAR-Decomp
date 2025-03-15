@@ -313,7 +313,7 @@
 	.4byte MemoryOffset_255
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte String_"VcStarDevil.dat"
+	.4byte DatFilepathStr_VcStarDevil
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte MemoryOffset_256
