@@ -229,29 +229,6 @@ cflags_rel = [
 
 config.linker_version = "GC/1.3.2"
 
-
-# Helper function for Dolphin libraries
-def DolphinLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
-    return {
-        "lib": lib_name,
-        "mw_version": "GC/1.2.5n",
-        "cflags": cflags_base,
-        "progress_category": "sdk",
-        "objects": objects,
-    }
-
-
-# Helper function for REL script objects
-def Rel(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
-    return {
-        "lib": lib_name,
-        "mw_version": "GC/1.3.2",
-        "cflags": cflags_rel,
-        "progress_category": "game",
-        "objects": objects,
-    }
-
-
 Matching = True                   # Object matches and should be linked
 NonMatching = False               # Object does not match and should not be linked
 Equivalent = config.non_matching  # Object should be linked when configured with --non-matching
@@ -261,40 +238,9 @@ Equivalent = config.non_matching  # Object should be linked when configured with
 def MatchingFor(*versions):
     return config.version in versions
 
-
-config.warn_missing_config = True
+config.warn_missing_config = False
 config.warn_missing_source = False
-config.libs = [
-    {
-        "lib": "Runtime.PPCEABI.H",
-        "mw_version": config.linker_version,
-        "cflags": cflags_runtime,
-        "progress_category": "sdk",  # str | List[str]
-        "objects": [
-            Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
-            Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
-        ],
-    },
-
-    
-]
-
-# Optional callback to adjust link order. This can be used to add, remove, or reorder objects.
-# This is called once per module, with the module ID and the current link order.
-#
-# For example, this adds "dummy.c" to the end of the DOL link order if configured with --non-matching.
-# "dummy.c" *must* be configured as a Matching (or Equivalent) object in order to be linked.
-def link_order_callback(module_id: int, objects: List[str]) -> List[str]:
-    # Don't modify the link order for matching builds
-    if not config.non_matching:
-        return objects
-    if module_id == 0:  # DOL
-        return objects + ["dummy.c"]
-    return objects
-
-# Uncomment to enable the link order callback.
-# config.link_order_callback = link_order_callback
-
+config.libs = []
 
 # Optional extra categories for progress tracking
 # Adjust as desired for your project

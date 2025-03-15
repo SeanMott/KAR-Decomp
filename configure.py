@@ -165,8 +165,9 @@ config.asflags = [
 config.ldflags = [
     "-fp hardware",
     "-nodefaults",
-    f"-lr {"build/NA/obj"}",
-    f"-l{"DatFilepaths_Stars.o"}"
+   f"-lr {"build/NA/obj"}",
+    f"-l{"DatFilepaths_VC_Stars.o"}",
+   # f"-l{"DatFilepaths_VC_Stars_Heavy.o"}"
 ]
 if args.debug:
     config.ldflags.append("-g")  # Or -gdwarf-2 for Wii linkers
@@ -182,7 +183,7 @@ config.reconfig_deps = []
 config.scratch_preset_id = None
 
 #the assembly directory
-config.asm_dir = "NA/asm"
+#config.asm_dir = "NA/asm"
 
 includeDir = "src"
 
@@ -209,7 +210,8 @@ cflags_base = [
     f"-i {includeDir}",
     f"-i build/{config.version}/include",
     f"-DBUILD_VERSION={version_num}",
-    f"-DVERSION_{config.version}"
+    f"-DVERSION_{config.version}",
+    "-sdata 32"
 ]
 
 # Debug flags
@@ -229,15 +231,19 @@ cflags_runtime = [
     "-inline auto",
 ]
 
-# REL flags
-cflags_rel = [
-    *cflags_base,
-    "-sdata 0",
-    "-sdata2 0",
-]
-
 config.linker_version = "GC/1.3.2"
 
+#defines Dolphin SDK libraries
+
+#defines Game libraries
+def GameLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
+    return {
+        "lib": lib_name,
+        "mw_version": config.linker_version,
+        "cflags": cflags_base,
+        "progress_category": "game",
+        "objects": objects,
+    }
 
 # Helper function for Dolphin libraries
 def DolphinLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
@@ -248,18 +254,6 @@ def DolphinLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
         "progress_category": "sdk",
         "objects": objects,
     }
-
-
-# Helper function for REL script objects
-def Rel(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
-    return {
-        "lib": lib_name,
-        "mw_version": "GC/1.3.2",
-        "cflags": cflags_rel,
-        "progress_category": "game",
-        "objects": objects,
-    }
-
 
 Matching = True                   # Object matches and should be linked
 NonMatching = False               # Object does not match and should not be linked
@@ -285,16 +279,10 @@ config.libs = [
         ],
     },
 
-    {
-
-        "lib": "DatFilepaths",
-        "mw_version": config.linker_version,
-        "cflags": cflags_runtime,
-        "progress_category": "game",  # str | List[str]
-        "objects": [
-            Object(Matching, "DatFilepaths_Stars.cpp")
-        ],
-    },
+    GameLib("VCStars", [
+        Object(Matching, "DatFilepaths_VC_Stars.cpp"),
+    ])
+    
 ]
 
 
