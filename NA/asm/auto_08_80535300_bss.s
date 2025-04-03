@@ -431,9 +431,9 @@
 .endobj lbl_80557608
 
 # .bss:0x22338 | 0x80557638 | size: 0x70
-.obj STRUCT_BYTE4_COUNT_180557638, global
+.obj stc_grDataLookup_MemoryOffset, global
 	.skip 0x70
-.endobj STRUCT_BYTE4_COUNT_180557638
+.endobj stc_grDataLookup_MemoryOffset
 
 # .bss:0x223A8 | 0x805576A8 | size: 0xB0
 .obj lbl_805576A8, global
@@ -551,9 +551,9 @@
 .endobj lbl_80559F7C
 
 # .bss:0x24CA8 | 0x80559FA8 | size: 0x10
-.obj STRUCT_BYTE4_COUNT_180559FA8, global
+.obj stc_rdDataKirby_MemoryOffset, global
 	.skip 0x10
-.endobj STRUCT_BYTE4_COUNT_180559FA8
+.endobj stc_rdDataKirby_MemoryOffset
 
 # .bss:0x24CB8 | 0x80559FB8 | size: 0x2C
 .obj lbl_80559FB8, global
@@ -576,9 +576,9 @@
 .endobj lbl_8055A03C
 
 # .bss:0x24D68 | 0x8055A068 | size: 0x98
-.obj STRUCT_BYTE4_COUNT_18055A068, global
+.obj stc_vcDataLookup_MemoryOffset, global
 	.skip 0x98
-.endobj STRUCT_BYTE4_COUNT_18055A068
+.endobj stc_vcDataLookup_MemoryOffset
 
 # .bss:0x24E00 | 0x8055A100 | size: 0x30
 .obj lbl_8055A100, global
@@ -656,9 +656,9 @@
 .endobj STRUCT_BYTE4_COUNT_18055A9A8
 
 # .bss:0x256F0 | 0x8055A9F0 | size: 0x2D40
-.obj STRUCT_BYTE4_COUNT_18055A9F0, global
+.obj PlayerDataStruct_MemoryOffset, global
 	.skip 0x2D40
-.endobj STRUCT_BYTE4_COUNT_18055A9F0
+.endobj PlayerDataStruct_MemoryOffset
 
 # .bss:0x28430 | 0x8055D730 | size: 0x40
 .obj STRUCT_BYTE4_COUNT_18055D730, global

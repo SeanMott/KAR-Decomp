@@ -167397,7 +167397,7 @@
 /* 8043E75C 0043B55C  83 F9 00 50 */	lwz r31, 0x50(r25)
 /* 8043E760 0043B560  54 1D CF FE */	extrwi r29, r0, 1, 24
 /* 8043E764 0043B564  38 63 FF D8 */	subi r3, r3, 0x28
-/* 8043E768 0043B568  82 CD 00 04 */	lwz r22, StructWithStructs_33@sda21(r0)
+/* 8043E768 0043B568  82 CD 00 04 */	lwz r22, stc_grobj_grObjPtr@sda21(r0)
 /* 8043E76C 0043B56C  7F C4 18 50 */	subf r30, r4, r3
 /* 8043E770 0043B570  90 B9 00 04 */	stw r5, 0x4(r25)
 /* 8043E774 0043B574  54 1C D7 FE */	extrwi r28, r0, 1, 25

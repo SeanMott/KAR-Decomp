@@ -25641,9 +25641,9 @@
 .endobj String_"R/O"
 
 # .sdata:0x8004 | 0x805DD0E4 | size: 0x4
-.obj StructWithStructs_33, global
+.obj stc_grobj_grObjPtr, global
 	.4byte lbl_805087FC
-.endobj StructWithStructs_33
+.endobj stc_grobj_grObjPtr
 
 # .sdata:0x8008 | 0x805DD0E8 | size: 0x4
 .obj StructWithStructs_37, global
