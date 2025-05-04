@@ -6848,7 +6848,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADE4C
+	.4byte fn_PlaySoundsInTheDebugMenu_Maybe
 	.4byte String_"Normal"
 	.4byte 0x00000000
 	.4byte 0x00000000
