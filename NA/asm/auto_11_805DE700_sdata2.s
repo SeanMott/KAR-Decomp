@@ -4435,9 +4435,9 @@
 .endobj STRUCT_FLOAT_COUNT_1805DF718
 
 # .sdata2:0x1020 | 0x805DF720 | size: 0x4
-.obj STRUCT_FLOAT_COUNT_1805DF720, global
+.obj const_Value_Float_Zero_Five_SomeStarShit, global
 	.float 0.5
-.endobj STRUCT_FLOAT_COUNT_1805DF720
+.endobj const_Value_Float_Zero_Five_SomeStarShit
 
 # .sdata2:0x1024 | 0x805DF724 | size: 0x4
 .obj STRUCT_FLOAT_COUNT_1805DF724, global
