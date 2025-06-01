@@ -293704,7 +293704,7 @@ void fn_801C4EDC(void)
   fn_HSD_ObjAllocInit(lbl_8055A010,100,4);
   fn_801C74E0();
   iVar1 = 0;
-  ppuVar2 = &lbl_805D6F98;
+  ppuVar2 = &lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState;
   do {
     if (*(code **)(*ppuVar2 + 8) != (code *)0x0) {
       (**(code **)(*ppuVar2 + 8))();
@@ -293743,9 +293743,9 @@ void fn_801C4F98(int param_1,int *param_2)
   __s[0xc3] = iVar1;
   __s[0xb] = (&stc_vcDataLookup_MemoryOffset)[__s[4] * 0x13 + (uint)*(byte *)(__s + 9)];
   __s[0xd] = (int)Struct_Vehicles_CallbackTable_Shared;
-  __s[0xe] = *(int *)(&lbl_805D6F98)[__s[4]];
+  __s[0xe] = *(int *)(&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[__s[4]];
   __s[0x20] = (int)&lbl_804B08F0;
-  __s[0x21] = *(int *)((&lbl_805D6F98)[__s[4]] + 4);
+  __s[0x21] = *(int *)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[__s[4]] + 4);
   iVar1 = param_2[3];
   __s[0xfa] = param_2[2];
   __s[0xfb] = iVar1;
@@ -293986,8 +293986,8 @@ undefined4 fn_vcInitObject(undefined4 *param_1)
   fn_801DCCEC(puVar3);
   fn_801E0A64(puVar3);
   fn_801D6BA4(puVar3);
-  if (*(code **)((&lbl_805D6F98)[puVar3[4]] + 0xc) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[puVar3[4]] + 0xc))(puVar3);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar3[4]] + 0xc) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar3[4]] + 0xc))(puVar3);
   }
   fn_801D6E84(puVar3);
   fn_804288A4(uVar2,fn_801C5FE0,0);
@@ -294024,8 +294024,8 @@ undefined4 fn_vcInitObject(undefined4 *param_1)
   fn_801CBA00(puVar3);
   fn_PSMTXMultVec(auStack_4c,puVar3 + 0x100,puVar3 + 0x20d);
   fn_801CC2D0(puVar3);
-  if (*(code **)((&lbl_805D6F98)[puVar3[4]] + 0x18) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[puVar3[4]] + 0x18))(puVar3);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar3[4]] + 0x18) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar3[4]] + 0x18))(puVar3);
   }
   fn_801C8F84(puVar3,puVar3 + 0x106,puVar3 + 0x109);
   fn_801C9074(puVar3);
@@ -294047,8 +294047,8 @@ undefined4 fn_vcInitObject(undefined4 *param_1)
   fn_801DBBB0(puVar3);
   fn_801DDA90(puVar3,0,1);
   fn_801E62F0(puVar3);
-  if (*(code **)((&lbl_805D6F98)[puVar3[4]] + 0x10) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[puVar3[4]] + 0x10))(puVar3);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar3[4]] + 0x10) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar3[4]] + 0x10))(puVar3);
   }
   fn_801D4F30(puVar3,puVar3 + 0xf);
   fn_801D4F30(puVar3,puVar3 + 0x22);
@@ -294146,8 +294146,8 @@ void fn_chargeLogic_(double param_1,undefined8 param_2,int param_3,int param_4,i
        (byte)((*(byte *)(param_3 + 0xc39) >> 4 & 2) << 4) | *(byte *)(param_3 + 0xc39) & 0xcf;
   *(byte *)(param_3 + 0xc31) =
        (byte)((*(byte *)(param_3 + 0xc31) >> 4 & 2) << 4) | *(byte *)(param_3 + 0xc31) & 0xcf;
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_3 + 0x10)] + 0x28) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_3 + 0x10)] + 0x28))(param_3);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_3 + 0x10)] + 0x28) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_3 + 0x10)] + 0x28))(param_3);
   }
   if (param_4 < 8) {
     piVar1 = (int *)(*(int *)(param_3 + 0x34) + param_4 * 0x18);
@@ -294308,8 +294308,8 @@ void fn_801C5FE0(int param_1)
   if (*(code **)(iVar1 + 0xbf8) != (code *)0x0) {
     (**(code **)(iVar1 + 0xbf8))(iVar1);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(iVar1 + 0x10)] + 0x2c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(iVar1 + 0x10)] + 0x2c))(iVar1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar1 + 0x10)] + 0x2c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar1 + 0x10)] + 0x2c))(iVar1);
   }
   return;
 }
@@ -294346,8 +294346,8 @@ void fn_801C618C(int param_1)
     if (*(code **)(iVar2 + 0xbd4) != (code *)0x0) {
       (**(code **)(iVar2 + 0xbd4))(iVar2);
     }
-    if (*(code **)((&lbl_805D6F98)[*(int *)(iVar2 + 0x10)] + 0x30) != (code *)0x0) {
-      (**(code **)((&lbl_805D6F98)[*(int *)(iVar2 + 0x10)] + 0x30))(iVar2);
+    if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar2 + 0x10)] + 0x30) != (code *)0x0) {
+      (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar2 + 0x10)] + 0x30))(iVar2);
     }
   }
   fn_801D60D8(iVar2);
@@ -294459,8 +294459,8 @@ void fn_801C65A8(int param_1)
   if (*(code **)(iVar2 + 0xbe0) != (code *)0x0) {
     (**(code **)(iVar2 + 0xbe0))(iVar2);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(iVar2 + 0x10)] + 0x34) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(iVar2 + 0x10)] + 0x34))(iVar2);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar2 + 0x10)] + 0x34) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar2 + 0x10)] + 0x34))(iVar2);
   }
   fn_801CE810(iVar2);
   fn_checkFallDeath(iVar2);
@@ -294482,7 +294482,7 @@ void fn_801C6668(int param_1)
   if (*(code **)(iVar1 + 0xbe4) != (code *)0x0) {
     (**(code **)(iVar1 + 0xbe4))(iVar1);
   }
-  fn_801E5014(iVar1);
+  fn_AnotherFuncToDoWithExecutingWheelOrStarActionFuncCallbacks(iVar1);
   fn_801C9074(iVar1);
   fn_801CBAC8(iVar1);
   fn_801CBA00(iVar1);
@@ -294510,8 +294510,8 @@ void fn_801C66D0(int param_1)
   fn_801E5F1C(iVar1);
   fn_801CBD80(iVar1);
   fn_801DDB98(iVar1);
-  if (*(code **)((&lbl_805D6F98)[*(int *)(iVar1 + 0x10)] + 0x38) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(iVar1 + 0x10)] + 0x38))(iVar1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar1 + 0x10)] + 0x38) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar1 + 0x10)] + 0x38))(iVar1);
   }
   fn_801CE268(iVar1);
   fn_801CA5E4(iVar1);
@@ -294678,8 +294678,8 @@ void fn_801C6B44(int param_1)
   fn_801DC618(param_1);
   fn_801D6398(param_1);
   fn_801D6C2C(param_1);
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x24) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x24))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x24) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x24))(param_1);
   }
   fn_HSD_ObjFree(lbl_80559FE4,*(undefined4 *)(param_1 + 0x314));
   fn_HSD_ObjFree(lbl_8055A010,*(undefined4 *)(param_1 + 0x308));
@@ -294947,8 +294947,8 @@ void fn_801C71E0(int param_1)
   if (*(float *)(param_1 + 0xa18) == 0.0) {
     *(undefined4 *)(param_1 + 0xa18) = *(undefined4 *)(param_1 + 0xa1c);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x1c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x1c))();
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x1c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x1c))();
   }
   return;
 }
@@ -294987,11 +294987,11 @@ void fn_GetTopGroundSpeedAndModifyIt(int param_1)
   if (*(float *)(param_1 + 0xa18) == 0.0) {
     *(undefined4 *)(param_1 + 0xa18) = *(undefined4 *)(param_1 + 0xa1c);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x1c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x1c))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x1c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x1c))(param_1);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x20) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x20))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x20) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x20))(param_1);
   }
   if (*(int *)(param_1 + 0x754) == 0) {
     *(undefined4 *)(param_1 + 0x398) = *(undefined4 *)(param_1 + 0x4f0);
@@ -295042,11 +295042,11 @@ void fn_801C73D0(int param_1)
   if (*(float *)(param_1 + 0xa18) == 0.0) {
     *(undefined4 *)(param_1 + 0xa18) = *(undefined4 *)(param_1 + 0xa1c);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x1c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x1c))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x1c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x1c))(param_1);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x20) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x20))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x20) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x20))(param_1);
   }
   if (*(int *)(param_1 + 0x754) == 0) {
     *(undefined4 *)(param_1 + 0x398) = *(undefined4 *)(param_1 + 0x4f0);
@@ -296316,12 +296316,12 @@ undefined8 fn_801C84BC(int param_1)
 {
   undefined8 uVar1;
   
-  if (*(code **)((&lbl_805D6F98)[*(int *)(*(int *)(param_1 + 0x2c) + 0x10)] + 0x8c) == (code *)0x0)
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(*(int *)(param_1 + 0x2c) + 0x10)] + 0x8c) == (code *)0x0)
   {
     uVar1 = 0;
   }
   else {
-    uVar1 = (**(code **)((&lbl_805D6F98)[*(int *)(*(int *)(param_1 + 0x2c) + 0x10)] + 0x8c))();
+    uVar1 = (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(*(int *)(param_1 + 0x2c) + 0x10)] + 0x8c))();
   }
   return uVar1;
 }
@@ -296952,8 +296952,8 @@ void fn_801C8E50(int param_1)
   fn_801C8F14();
   fn_801C8EC8(param_1);
   fn_801C8F40(param_1);
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x14) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x14))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x14) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x14))(param_1);
   }
   return;
 }
@@ -297495,7 +297495,7 @@ undefined4 fn_801C992C(int param_1)
     fn_801DC6D4(param_1);
     uVar2 = 1;
   }
-  (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x3c))(param_1,uVar2);
+  (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x3c))(param_1,uVar2);
   return uVar2;
 }
 
@@ -297578,7 +297578,7 @@ void fn_801C9B7C(int param_1)
   }
   fn_801DCA64(param_1);
   fn_801DC6D4(param_1);
-  (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x3c))(param_1,1);
+  (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x3c))(param_1,1);
   return;
 }
 
@@ -297668,7 +297668,7 @@ undefined4 fn_801C9DB8(int param_1)
     }
     uVar2 = 1;
   }
-  (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x40))(param_1,uVar2);
+  (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x40))(param_1,uVar2);
   return uVar2;
 }
 
@@ -297752,7 +297752,7 @@ void fn_801CA00C(int param_1)
   else {
     *(byte *)(param_1 + 0xc38) = *(byte *)(param_1 + 0xc38) & 0xfd | 2;
   }
-  (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x40))(param_1,1);
+  (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x40))(param_1,1);
   return;
 }
 
@@ -298916,8 +298916,8 @@ void fn_801CBD80(int param_1)
     if ((dVar1 < (double)*(float *)(STRUCT_BYTE4_COUNT_1805DD848 + 0x114)) ||
        ((*(byte *)(param_1 + 0xc34) >> 4 & 1) != 0)) {
       if ((*(char *)(param_1 + 0xc3a) > -1) &&
-         (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x80) != (code *)0x0)) {
-        (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x80))(param_1);
+         (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x80) != (code *)0x0)) {
+        (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x80))(param_1);
       }
     }
     else {
@@ -299087,8 +299087,8 @@ void fn_801CC0C4(undefined4 *param_1,undefined4 *param_2)
   if (param_2[4] == 0) {
     fn_801D0EE4(param_1,param_2 + 7);
   }
-  if (*(code **)((&lbl_805D6F98)[param_1[4]] + 0x58) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[param_1[4]] + 0x58))(param_1,param_2);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[param_1[4]] + 0x58) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[param_1[4]] + 0x58))(param_1,param_2);
   }
   return;
 }
@@ -299098,8 +299098,8 @@ void fn_801CC0C4(undefined4 *param_1,undefined4 *param_2)
 void fn_801CC238(int param_1)
 
 {
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x54) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x54))();
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x54) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x54))();
   }
   return;
 }
@@ -299286,7 +299286,7 @@ void fn_801CC680(int param_1)
 {
   code *pcVar1;
   
-  pcVar1 = *(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x88);
+  pcVar1 = *(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x88);
   if (pcVar1 != (code *)0x0) {
     if (*(int *)(param_1 + 0x10) == 0) {
       if ((*(char *)(param_1 + 0x24) != '\x04') && (*(char *)(param_1 + 0x24) != '\x05')) {
@@ -303245,8 +303245,8 @@ void fn_801D2D8C(undefined4 param_1,undefined4 param_2,undefined4 param_3)
     fn_800D1960(uVar5,param_3);
   }
   fn_801DD17C(0x3ff0000000000000,puVar1,uVar7);
-  if (*(code **)((&lbl_805D6F98)[puVar1[4]] + 0x78) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[puVar1[4]] + 0x78))(puVar1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar1[4]] + 0x78) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[puVar1[4]] + 0x78))(puVar1);
   }
   *(byte *)((int)puVar1 + 0xc35) = *(byte *)((int)puVar1 + 0xc35) & 0xf7 | 8;
   fn_801C8E50(puVar1);
@@ -304405,11 +304405,11 @@ void fn_801D4B0C(undefined8 param_1,double param_2,undefined4 param_3,undefined4
   uVar13 = _savegpr_23();
   iVar2 = (int)((ulonglong)uVar13 >> 0x20);
   piVar5 = (int *)uVar13;
-  if (*(code **)((&lbl_805D6F98)[*(int *)(iVar2 + 0x10)] + 0x90) == (code *)0x0) {
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar2 + 0x10)] + 0x90) == (code *)0x0) {
     *piVar5 = param_5;
   }
   else {
-    iVar3 = (**(code **)((&lbl_805D6F98)[*(int *)(iVar2 + 0x10)] + 0x90))(iVar2,param_5);
+    iVar3 = (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(iVar2 + 0x10)] + 0x90))(iVar2,param_5);
     *piVar5 = iVar3;
   }
   if (*piVar5 == -1) {
@@ -305183,8 +305183,8 @@ void fn_SomethingToDoWithVCDataCommonSinceItInvokesThePtrOffsetAShitLoad(int par
   if (iVar1 == 2) {
     fn_8006A3F0(param_1 + 200,*(undefined4 *)(stc_vcDataCommon_MemoryOffset + 4),2,0);
   }
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
   }
   return;
 }
@@ -305221,8 +305221,8 @@ void fn_801D5E34(int param_1,int param_2)
     if (iVar1 == 2) {
       fn_8006A3F0(param_1 + 200,*(undefined4 *)(stc_vcDataCommon_MemoryOffset + 4),2,0);
     }
-    if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
-      (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
+    if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
+      (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
     }
   }
   return;
@@ -305331,8 +305331,8 @@ void fn_801D60D8(int param_1)
     if (iVar1 == 2) {
       fn_8006A3F0(param_1 + 200,*(undefined4 *)(stc_vcDataCommon_MemoryOffset + 4),2,0);
     }
-    if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
-      (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
+    if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
+      (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
     }
   }
   iVar1 = fn_801D6318(param_1);
@@ -305483,8 +305483,8 @@ void fn_801D64AC(double param_1,int param_2)
         if (iVar1 == 2) {
           fn_8006A3F0(param_2 + 200,*(undefined4 *)(stc_vcDataCommon_MemoryOffset + 4),2,0);
         }
-        if (*(code **)((&lbl_805D6F98)[*(int *)(param_2 + 0x10)] + 0x84) != (code *)0x0) {
-          (**(code **)((&lbl_805D6F98)[*(int *)(param_2 + 0x10)] + 0x84))(param_2);
+        if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_2 + 0x10)] + 0x84) != (code *)0x0) {
+          (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_2 + 0x10)] + 0x84))(param_2);
         }
       }
       *(byte *)(param_2 + 0xc3c) = *(byte *)(param_2 + 0xc3c) & 0x7f;
@@ -305659,8 +305659,8 @@ void fn_801D6668(int param_1,undefined4 param_2,int param_3)
       if (iVar3 == 2) {
         fn_8006A3F0(param_1 + 200,*(undefined4 *)(stc_vcDataCommon_MemoryOffset + 4),2,0);
       }
-      if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
-        (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
+      if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84) != (code *)0x0) {
+        (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x84))(param_1);
       }
     }
   }
@@ -312487,8 +312487,8 @@ void fn_801E0D8C(undefined4 *param_1)
 void fn_801E0DE8(int param_1)
 
 {
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x44) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x44))();
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x44) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x44))();
   }
   return;
 }
@@ -312502,8 +312502,8 @@ void fn_801E0E28(int param_1)
     fn_801CAF90();
     fn_GetTopGroundSpeedAndModifyIt(param_1);
     fn_801CB074(param_1);
-    if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x44) != (code *)0x0) {
-      (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x44))(param_1);
+    if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x44) != (code *)0x0) {
+      (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x44))(param_1);
     }
   }
   return;
@@ -313150,8 +313150,8 @@ void fn_801E1D60(void)
 void fn_801E1D64(int param_1,undefined4 param_2)
 
 {
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x48) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x48))();
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x48) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x48))();
   }
   *(undefined4 *)(param_1 + 0x1b48) = param_2;
   return;
@@ -313200,8 +313200,8 @@ void fn_801E1E6C(int param_1)
 void fn_801E1E84(int param_1)
 
 {
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x4c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x4c))();
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x4c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x4c))();
   }
   return;
 }
@@ -314656,8 +314656,8 @@ undefined4 fn_801E3F4C(int param_1)
 void fn_801E4060(int param_1)
 
 {
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x5c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x5c))();
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x5c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x5c))();
   }
   return;
 }
@@ -314667,8 +314667,8 @@ void fn_801E4060(int param_1)
 void fn_801E40A0(int param_1)
 
 {
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x5c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x5c))(0);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x5c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x5c))(0);
   }
   return;
 }
@@ -314961,8 +314961,8 @@ undefined4 fn_801E46CC(double param_1,undefined8 param_2,int param_3,undefined4 
     if (*(float *)(param_3 + 900) < 0.0) {
       *(undefined4 *)(param_3 + 900) = 0;
     }
-    if (*(code **)((&lbl_805D6F98)[*(int *)(param_3 + 0x10)] + 0x60) != (code *)0x0) {
-      (**(code **)((&lbl_805D6F98)[*(int *)(param_3 + 0x10)] + 0x60))(param_2,param_3);
+    if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_3 + 0x10)] + 0x60) != (code *)0x0) {
+      (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_3 + 0x10)] + 0x60))(param_2,param_3);
     }
     fn_801C992C(param_3);
     fn_801E4EB4(param_3);
@@ -315281,8 +315281,8 @@ void fn_801E4EC4(int param_1,int param_2)
   *(undefined4 *)(param_1 + 0x1b88) = uVar1;
   *(undefined4 *)(param_1 + 0x1b8c) = *(undefined4 *)(param_2 + 0xa4);
   *(undefined4 *)(param_1 + 0x1b90) = *(undefined4 *)(param_2 + 0xa8);
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x60) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x60))(0);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x60) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x60))(0);
   }
   fn_801C992C(param_1);
   *(undefined4 *)(param_1 + 0x6e8) = *(undefined4 *)(STRUCT_BYTE4_COUNT_1805DD848 + 0xac);
@@ -315310,7 +315310,7 @@ void fn_801E4FC8(int param_1,undefined4 *param_2)
 
 
 
-undefined4 fn_801E5014(undefined4 *param_1)
+undefined4 fn_AnotherFuncToDoWithExecutingWheelOrStarActionFuncCallbacks(undefined4 *param_1)
 
 {
   int iVar1;
@@ -315332,12 +315332,12 @@ undefined4 fn_801E5014(undefined4 *param_1)
   if (iVar1 != 0x2f) {
     if (iVar1 < 0x2f) {
       if (iVar1 > 0x2d) {
-        pcVar2 = *(code **)((&lbl_805D6F98)[param_1[4]] + 100);
+        pcVar2 = *(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[param_1[4]] + 100);
         goto LAB_801e50b8;
       }
     }
     else if (iVar1 < 0x31) {
-      pcVar2 = *(code **)((&lbl_805D6F98)[param_1[4]] + 0x68);
+      pcVar2 = *(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[param_1[4]] + 0x68);
       goto LAB_801e50b8;
     }
   }
@@ -315563,9 +315563,9 @@ void fn_801E568C(int param_1)
   uVar1 = fn_801CAA40();
   *(undefined4 *)(param_1 + 0x1b48) = uVar1;
   iVar2 = fn_801E576C(param_1);
-  if ((iVar2 == 0) && (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x74) != (code *)0x0))
+  if ((iVar2 == 0) && (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x74) != (code *)0x0))
   {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x74))(param_1);
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x74))(param_1);
   }
   *(byte *)(param_1 + 0xc35) = *(byte *)(param_1 + 0xc35) & 0xdf | 0x20;
   fn_801CC278(param_1);
@@ -316180,8 +316180,8 @@ void fn_setFallDeath(undefined4 *param_1,undefined4 param_2,undefined4 *param_3)
     param_1[0x6d4] = uVar2;
     param_1[0x6d5] = param_3[2];
     param_1[0x6d6] = *(undefined4 *)(STRUCT_BYTE4_COUNT_1805DD848 + 0x16c);
-    if (*(code **)((&lbl_805D6F98)[param_1[4]] + 0x6c) != (code *)0x0) {
-      (**(code **)((&lbl_805D6F98)[param_1[4]] + 0x6c))();
+    if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[param_1[4]] + 0x6c) != (code *)0x0) {
+      (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[param_1[4]] + 0x6c))();
     }
     *(byte *)((int)param_1 + 0xc35) = *(byte *)((int)param_1 + 0xc35) & 0x7f | 0x80;
     fn_801C8EC8(param_1);
@@ -316263,8 +316263,8 @@ void fn_801E6718(int param_1)
   fn_801CB50C(param_1,auStack_20,auStack_2c,auStack_38);
   fn_801C8E50(param_1);
   fn_801CA294(param_1);
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x70) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x70))(param_1);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x70) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x70))(param_1);
   }
   fn_801CA00C(param_1);
   *(byte *)(param_1 + 0xc3a) = *(byte *)(param_1 + 0xc3a) & 0xfe | 1;
@@ -316338,8 +316338,8 @@ void fn_801E6888(int param_1)
   uVar2 = *(undefined4 *)(lbl_804B0FA8 + *(int *)(param_1 + 0xb28) * 4);
   dVar5 = (double)fn_801D4638(param_1,uVar2);
   *(float *)(param_1 + 0x1b48) = (float)dVar5;
-  if (*(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x7c) != (code *)0x0) {
-    (**(code **)((&lbl_805D6F98)[*(int *)(param_1 + 0x10)] + 0x7c))(param_1,uVar2);
+  if (*(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x7c) != (code *)0x0) {
+    (**(code **)((&lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState)[*(int *)(param_1 + 0x10)] + 0x7c))(param_1,uVar2);
   }
   *(undefined4 *)(param_1 + 0x1b4c) = 0;
   *(byte *)(param_1 + 0xc33) = *(byte *)(param_1 + 0xc33) & 0xef | 0x10;

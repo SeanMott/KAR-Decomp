@@ -6524,10 +6524,10 @@
 .endobj StarFileNamesAndHSDNames_ArrayBundle
 
 # .sdata:0x1EB8 | 0x805D6F98 | size: 0x8
-.obj lbl_805D6F98, global
+.obj lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState, global
 	.4byte SomeFuncArrayToDoWithPlayerActionStateWhileOnAStar
 	.4byte SomeFuncArrayToDoWithPlayerStateWhileOnAWheel
-.endobj lbl_805D6F98
+.endobj lbl_StaticData_StoresBothWheelAndStarFuncArraysForActionState
 
 # .sdata:0x1EC0 | 0x805D6FA0 | size: 0x8
 .obj lbl_805D6FA0, global

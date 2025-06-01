@@ -11263,7 +11263,7 @@ void fn_801E4E7C(int param_1);
 void fn_801E4EB4(int param_1);
 void fn_801E4EC4(int param_1,int param_2);
 void fn_801E4FC8(int param_1,undefined4 *param_2);
-undefined4 fn_801E5014(undefined4 *param_1);
+undefined4 fn_AnotherFuncToDoWithExecutingWheelOrStarActionFuncCallbacks(undefined4 *param_1);
 undefined4 fn_801E5108(undefined4 *param_1);
 undefined4 fn_801E5628(int param_1);
 void fn_801E568C(int param_1);
