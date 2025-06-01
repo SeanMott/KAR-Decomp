@@ -252832,7 +252832,7 @@ void fn_PotenciallyRelatedToWhatHappensAfterrandomKirbAbilitySinceItInvokesGlowR
       }
     }
     else {
-      fn_801A0C64(iVar2);
+      fn_ExecuteAbilityTimerDecrement(iVar2);
     }
   }
   else {
@@ -266231,7 +266231,7 @@ void fn_AS_Damage1_(void)
 
 
 
-void fn_801A0C64(void)
+void fn_ExecuteAbilityTimerDecrement(void)
 
 {
   fn_abilityTimerDecreaser();

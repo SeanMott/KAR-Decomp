@@ -8687,7 +8687,7 @@ void fn_801A08AC(int param_1);
 int fn_801A08F0(double param_1);
 void fn_801A0914(int param_1,undefined4 *param_2,int *param_3);
 void fn_AS_Damage1?(void);
-void fn_801A0C64(void);
+void fn_ExecuteAbilityTimerDecrement(void);
 void fn_801A0C84(int param_1);
 void fn_801A0CF8(void);
 void fn_801A0D18(void);
