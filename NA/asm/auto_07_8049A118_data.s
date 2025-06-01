@@ -25555,14 +25555,14 @@
 
 # .data:0x13EAC | 0x804ADFC4 | size: 0x20
 .obj jumptable_804ADFC4, global
-	.4byte fn_80194AC0+0x68
-	.4byte fn_80194AC0+0x20
-	.4byte fn_80194AC0+0x44
-	.4byte fn_80194AC0+0x2C
-	.4byte fn_80194AC0+0x50
-	.4byte fn_80194AC0+0x68
-	.4byte fn_80194AC0+0x5C
-	.4byte fn_80194AC0+0x38
+	.4byte fn_ExecuteJumpTableResult_1+0x68
+	.4byte fn_ExecuteJumpTableResult_1+0x20
+	.4byte fn_ExecuteJumpTableResult_1+0x44
+	.4byte fn_ExecuteJumpTableResult_1+0x2C
+	.4byte fn_ExecuteJumpTableResult_1+0x50
+	.4byte fn_ExecuteJumpTableResult_1+0x68
+	.4byte fn_ExecuteJumpTableResult_1+0x5C
+	.4byte fn_ExecuteJumpTableResult_1+0x38
 .endobj jumptable_804ADFC4
 
 # .data:0x13ECC | 0x804ADFE4 | size: 0x4
@@ -25926,7 +25926,7 @@
 .endobj jumptable_804AE408
 
 # .data:0x14310 | 0x804AE428 | size: 0x1060
-.obj lbl_804AE428, global
+.obj lbl_massiveFuncTableSomethingToDoWithAbiltiies_MaybeTheirEnd, global
 	.4byte 0x00000003
 	.4byte 0x00000000
 	.4byte fn_801AABF4
@@ -26473,7 +26473,7 @@
 	.4byte fn_801B3668
 	.4byte 0x000000FC
 	.4byte 0x0000010C
-	.4byte fn_801B4048
+	.4byte fn_SomethingToDoWithRemovingPlaza
 	.4byte fn_801B40BC
 	.4byte fn_801B40DC
 	.4byte fn_801B40FC
@@ -26975,11 +26975,11 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj lbl_804AE428
+.endobj lbl_massiveFuncTableSomethingToDoWithAbiltiies_MaybeTheirEnd
 
 # .data:0x15370 | 0x804AF488 | size: 0x68
 .obj lbl_804AF488, global
-	.4byte lbl_804AE428
+	.4byte lbl_massiveFuncTableSomethingToDoWithAbiltiies_MaybeTheirEnd
 	.4byte fn_801A5A8C
 	.4byte fn_801A5B98
 	.4byte fn_801A5C1C

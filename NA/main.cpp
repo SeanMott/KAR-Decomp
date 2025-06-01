@@ -253424,7 +253424,7 @@ void fn_8018FA20(void)
     if (fVar1 != 0.0) {
       fn_801A06F0(dVar12,iVar8,iVar10);
       fn_801A413C(iVar8,iVar10);
-      uVar11 = fn_80194AC0(uVar9);
+      uVar11 = fn_ExecuteJumpTableResult_1(uVar9);
       uVar5 = 1;
       iVar6 = (int)*(float *)(iVar4 + 0x2c);
     }
@@ -257580,7 +257580,7 @@ void fn_80194900(int param_1,int param_2)
 
 
 
-double fn_80194AC0(undefined4 param_1)
+double fn_ExecuteJumpTableResult_1(undefined4 param_1)
 
 {
   switch(param_1) {
@@ -280285,7 +280285,7 @@ void fn_801B3F48(undefined4 *param_1)
 
 
 
-void fn_801B4048(int param_1)
+void fn_SomethingToDoWithRemovingPlaza(int param_1)
 
 {
   int iVar1;
@@ -280621,7 +280621,7 @@ void fn_801B4718(int param_1)
   undefined4 uVar1;
   
   *(code **)(param_1 + 0x92c) = fn_abilityTimer_Ice_checkIf0;
-  *(code **)(param_1 + 0x934) = fn_801B47E8;
+  *(code **)(param_1 + 0x934) = fn_ExeucteIceSnowCloudPowerAndCaluculatePhysicsOnIt_Maybe;
   *(code **)(param_1 + 0x7fc) = fn_801B49D4;
   *(code **)(param_1 + 0x7e8) = fn_801B4944;
   fn_801A7BDC(param_1,*(undefined4 *)(*(int *)(param_1 + 0x38c) + 700));
@@ -280647,7 +280647,7 @@ void fn_abilityTimer_Ice_checkIf0(int param_1)
 
 
 
-void fn_801B47E8(int param_1)
+void fn_ExeucteIceSnowCloudPowerAndCaluculatePhysicsOnIt_Maybe(int param_1)
 
 {
   int iVar1;
@@ -281306,7 +281306,7 @@ void fn_Ability_Bird(int param_1)
   fn_ability_ChangeSpeedometerDesign(param_1,10,1);
   fn_801A7BDC(param_1,*(undefined4 *)(*(int *)(param_1 + 0x38c) + 0x2d8));
   *(code **)(param_1 + 0x7fc) = fn_newAbility_Bird_remove;
-  *(code **)(param_1 + 0x7e8) = fn_801B5730;
+  *(code **)(param_1 + 0x7e8) = fn_SomethingToDoWithTheWingPowerUpButOnlyDoesAReturn;
   *(byte *)(param_1 + 0x822) = *(byte *)(param_1 + 0x822) & 0xfb | 4;
   *(code **)(param_1 + 0x92c) = fn_abilityTimer_Bird_checkIfZero;
   uVar1 = fn_801C7C7C(*(undefined4 *)(param_1 + 0x3f4));
@@ -281418,7 +281418,7 @@ void fn_abilityTimer_Bird_remove(int param_1)
 
 
 
-void fn_801B5730(void)
+void fn_SomethingToDoWithTheWingPowerUpButOnlyDoesAReturn(void)
 
 {
   return;
@@ -312250,7 +312250,7 @@ void fn_801E090C(void)
 void fn_801E092C(void)
 
 {
-  fn_80194AC0();
+  fn_ExecuteJumpTableResult_1();
   return;
 }
 
