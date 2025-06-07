@@ -30,8 +30,6 @@ from tools.project import (
 DEFAULT_VERSION = 0
 VERSIONS = [
     "NA",  # 0
-    "JP",  # 1
-    "PAL",  # 2
 ]
 
 parser = argparse.ArgumentParser()
@@ -152,13 +150,13 @@ config.sjiswrap_tag = "v1.2.0"
 config.wibo_tag = "0.6.11"
 
 # Project
-config.config_path = Path(config.version) / "Config/config.yml"
-config.check_sha_path = Path(config.version) / "Config/build.sha1"
+config.config_path = "Config/config.yml"
+config.check_sha_path = "Config/build.sha1"
 config.asflags = [
     "-mgekko",
     "--strip-local-absolute",
     "-I include",
-    f"-I build/{config.version}/include",
+    f"-I build/include",
     f"--defsym BUILD_VERSION={version_num}",
     f"--defsym VERSION_{config.version}",
 ]

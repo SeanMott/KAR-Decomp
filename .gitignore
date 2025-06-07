@@ -40,3 +40,4 @@ compile_commands.json
 /ExtractedISO/PAL/files
 /ExtractedISO/PAL/sys
 *.gbf
+/ExtractedISO
