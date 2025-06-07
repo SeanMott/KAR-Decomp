@@ -156,7 +156,7 @@ config.asflags = [
     "-mgekko",
     "--strip-local-absolute",
     "-I include",
-    f"-I build/include",
+    f"-I build/{config.version}include",
     f"--defsym BUILD_VERSION={version_num}",
     f"--defsym VERSION_{config.version}",
 ]
