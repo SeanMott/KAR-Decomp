@@ -2,6 +2,8 @@
 
 We have a common way for naming variables and functions, so everything is in sync
 
+If a ? is included in a name, it means it's unsure and is a theory
+
 ## Functions
 
 All functions start with `fn_`
