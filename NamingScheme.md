@@ -6,7 +6,7 @@ If a ? is included in a name, it means it's unsure and is a theory
 
 ## Functions
 
-Unknown functions start with `fn_`
+Unknown functions start with `fn_` or quests that we aren't sure if they are accurate
 
 Known functions do not have it
 
