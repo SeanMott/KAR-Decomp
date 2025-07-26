@@ -1,7 +1,7 @@
 # KAR-Decomp
 Yet another Kirby Air Ride decomp, but with [DTK](https://github.com/encounter/decomp-toolkit). This is based on the [OG Decomp](https://github.com/doldecomp/kar). Using any useable symbols from the many Maps and their work. This repo does add new symbols or changes the Map's names to make them more readable. The end goal is to make a disassembly and decomp for every region. Symbols found/named in either branch will be copied to the others, but might take some time to update. Follow the Branch Map for specifics.
 
-Special thanks to [WowJinxy](https://github.com/wowjinxy), [Encounter](https://github.com/encounter), and the [GC/Wii Decomp Community](https://discord.gg/hKx3FJJgrV).
+Special thanks to [WowJinxy](https://github.com/wowjinxy), [Uncle Punch](https://github.com/UnclePunch), [Encounter](https://github.com/encounter), and the [GC/Wii Decomp Community](https://discord.gg/hKx3FJJgrV).
 
 # Branch Map
 
