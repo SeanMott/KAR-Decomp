@@ -545,7 +545,7 @@ axdriver.o:
 HVQM4Bufv.o:
 	.text       start:0x804452A0 end:0x8045DAE4
 
-text_8045DAE4.o:
+DolphinSDK_IP_Lib.o:
 	.text       start:0x8045DAE4 end:0x8047A634
 	.rodata     start:0x8048C570 end:0x80494E48
 	.data       start:0x80504FB0 end:0x805352FC
