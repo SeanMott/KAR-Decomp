@@ -6,8 +6,9 @@ If a ? is included in a name, it means it's unsure and is a theory
 
 ## Functions
 
-All functions start with `fn_`
+Unknown functions start with `fn_`
 
+Known functions do not have it
 
 ## Structs/Objects
 
